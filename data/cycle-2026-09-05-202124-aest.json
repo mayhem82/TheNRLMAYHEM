@@ -1,0 +1,47 @@
+{
+  "captured_at":"2026-09-05T20:21:24+10:00",
+  "timezone":"Australia/Sydney",
+  "round":27,
+  "active_fixture_precedence":"Sharks v Storm",
+  "fixtures":[
+    {
+      "fixture":"Cowboys v Raiders",
+      "checkpoint":"POST_MATCH",
+      "result":{"classification":"VERIFIED","score":"Cowboys 30-50 Raiders","source":"NRL.com official Super Saturday live blog"},
+      "frozen_decision":{"tip":"Cowboys","confidence":0.68,"grade":"INCORRECT","preserved":true},
+      "weather":{"decision_effect":"NO_EFFECT","prior_capture_preserved":true},
+      "player_effects":[
+        {"player":"Coby Black","classification":"VERIFIED","effect":"POST_MATCH_VALIDATED","observation":"Record NRL debut points haul of 26; strong kicking and try-creation contribution recorded by NRL.com."},
+        {"player":"Josh Papalii","classification":"VERIFIED","effect":"POST_MATCH_VALIDATED","observation":"Passed opening HIA, returned and scored in Canberra's 50-30 win."}
+      ],
+      "team_macro_effects":{"Cowboys":"Round 27 home/finals-context strength was materially overestimated in the frozen decision; no causal rewrite assigned.","Raiders":"Debut-half uncertainty did not translate into degraded halfback output in this match."},
+      "matchup_effect":"The pre-match downgrade attached to Canberra halfback inexperience is contradicted by this single outcome and is flagged for future evidence accumulation, not immediate global reweighting.",
+      "market_state":"UNKNOWN_AT_POST_MATCH_CAPTURE",
+      "information_advantage":{"class":"NONE","reason":"Outcome alone cannot establish information advantage."},
+      "calibration":{"brier":0.4624,"aggregate_accuracy":0.5,"aggregate_brier":0.2824,"band_60_69":{"n":2,"wins":1,"observed_rate":0.5}}
+    },
+    {
+      "fixture":"Sharks v Storm",
+      "checkpoint":"LIVE_AFTER_MISSED_T10",
+      "integrity":{"T-3h":"MISSED_NOT_CAPTURED","T-60m":"MISSED_NOT_CAPTURED","T-10m":"MISSED_NOT_CAPTURED","retroactive_freeze_denied":true},
+      "pre_match_tip":{"tip":"Storm","confidence":0.84,"state":"PRE_MATCH_NOT_T10_FROZEN"},
+      "latest_accessible_official_state":{"minute":"28:57","score":"Sharks 0-12 Storm","source":"NRL.com official Super Saturday live blog","note":"This is the latest official state accessible at cycle capture, not asserted to equal the exact live clock at 20:21 AEST."},
+      "late_mail":{"classification":"VERIFIED","Sharks":"Toby Rudolf started with Jesse Colquhoun moving to the bench; Nicho Hynes, Blayke Brailey and Teig Wilton rested; Niwhai Puru at halfback, Riley Pollard debuting at five-eighth, Hohepa Puru at hooker, Michael Gabrael debuting at centre.","Storm":"1-19 with no late changes."},
+      "weather":{"source":"Bureau of Meteorology Sydney Area observations","observation_time":"2026-09-05T19:50:00+10:00","Sydney_Airport":{"temp_c":23.3,"wind":"NW 30 km/h","gust_kmh":39,"rain_since_9am_mm":0.4},"decision_effect":"LIVE_CONTEXT_ONLY_AFTER_MISSED_FREEZE","mechanism":"Strong NW wind remains relevant to kicks/high balls, but no retroactive pre-match directional edge is assigned."},
+      "live_player_effects":[
+        {"player":"Michael Gabrael","classification":"VERIFIED","event":"Sin-binned at 6 min for high tackle."},
+        {"player":"Ronaldo Mulitalo","classification":"VERIFIED","event":"Sin-binned at 10 min, temporarily reducing Cronulla to 11 players."},
+        {"player":"Siulagi Tuimalatu-Brown","classification":"VERIFIED","event":"Stretchered off and taken to hospital as a precaution for neck soreness; no diagnosis inferred."},
+        {"player":"Shawn Blore","classification":"VERIFIED","event":"Left field for HIA."},
+        {"player":"Jahrome Hughes","classification":"VERIFIED","event":"Received treatment around 25 min and returned to his feet with a slight limp; no diagnosis inferred."}
+      ],
+      "market_state":"UNKNOWN_AT_CAPTURE",
+      "information_advantage":{"class":"NONE","reason":"No valid contemporaneous T-10 freeze or market-absorption timing available."}
+    }
+  ],
+  "next_relevant_checkpoints":[
+    {"fixture":"Dragons v Eels","checkpoint":"T-24h","due":"2026-09-05T14:00:00+10:00","state":"MISSED_NOT_CAPTURED"},
+    {"fixture":"Panthers v Wests Tigers","checkpoint":"T-24h","due":"2026-09-05T16:05:00+10:00","state":"MISSED_NOT_CAPTURED"}
+  ],
+  "integrity":"No missed pre-match checkpoint was reconstructed from live or post-match evidence."
+}
