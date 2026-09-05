@@ -1,0 +1,50 @@
+{
+  "season": 2026,
+  "team": "Wests Tigers",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE_DEFECT_FIX",
+  "captured_at": "2026-09-06T07:46:47+10:00",
+  "source_class": "NRL.com official player profiles and official Round 27 team list",
+  "players": [
+    {
+      "player": "Charlie Murray",
+      "team": "Wests Tigers",
+      "profile_state": "VERIFIED_LOW_SAMPLE",
+      "career": {"appearances": 7, "tries": 0},
+      "season": {
+        "appearances": 2,
+        "tries": 0,
+        "line_breaks": 0,
+        "line_break_assists": 0,
+        "offloads": 0,
+        "tackles_made": 39,
+        "missed_tackles": 1,
+        "tackle_efficiency": 97.5,
+        "average_running_metres": 21,
+        "total_running_metres": 42,
+        "fantasy_points": 35,
+        "fantasy_average": 17.5
+      },
+      "by_round": [
+        {"round": 14, "opponent": "Panthers", "result": "L 0-68", "position": "Lock", "minutes": 40, "post_contact_metres": 14, "receipts": 10, "tackles_made": 32, "missed_tackles": 1, "total_running_metres": 36},
+        {"round": 22, "opponent": "Eels", "result": "L 13-16", "position": "Interchange", "minutes": 3, "receipts": 1, "tackles_made": 7, "total_running_metres": 5}
+      ],
+      "source": "https://www.nrl.com/players/nrl-premiership/wests-tigers/charlie-murray/"
+    },
+    {
+      "player": "Vaka Aho",
+      "team": "Wests Tigers",
+      "profile_state": "VERIFIED_PRE_DEBUT",
+      "career": {"appearances": 0, "tries": 0},
+      "season": null,
+      "current_evidence": "Official Round 27 team list names Vaka Aho to make his NRL debut off the interchange bench. The official NRL player profile identifies him as a prop but contains no completed NRL statistical season block before debut.",
+      "source": "https://www.nrl.com/players/nrl-premiership/wests-tigers/vaka-aho/",
+      "team_list_source": "https://www.nrl.com/news/2026/09/01/nrl-team-lists-round-27/"
+    }
+  ],
+  "defect_state": {
+    "Charlie Murray": "CLOSED_VERIFIED_EVIDENCE",
+    "Vaka Aho": "CLOSED_PRE_DEBUT_STATE_VERIFIED",
+    "Heath Mason": "OPEN_ACQUISITION_DEFECT"
+  },
+  "integrity": "A pre-debut player is not a missing-evidence failure when official identity, role and debut state are verified and no completed NRL match statistics can yet exist. Statistical enrichment begins after first-grade match evidence exists."
+}
