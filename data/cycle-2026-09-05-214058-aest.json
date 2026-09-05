@@ -1,0 +1,106 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "capture_time": "2026-09-05T21:40:58+10:00",
+  "timezone": "Australia/Sydney",
+  "active_fixture_precedence": "Sharks v Storm",
+  "fixtures": [
+    {
+      "fixture": "Sharks v Storm",
+      "stage": "LIVE_POST_KICKOFF",
+      "kickoff": "2026-09-05T19:35:00+10:00",
+      "checkpoint_integrity": {
+        "T-24h": "MISSED_NOT_CAPTURED",
+        "T-3h": "MISSED_NOT_CAPTURED",
+        "T-60m": "MISSED_NOT_CAPTURED",
+        "T-10m": "MISSED_NOT_CAPTURED",
+        "frozen_probability_eligible_for_calibration": false,
+        "reason": "No genuine contemporaneous T-10m evidence freeze was captured. Earlier Storm 84% state remains non-frozen and calibration-ineligible."
+      },
+      "latest_verifiable_live_state": {
+        "score": "Sharks 20 - Storm 18",
+        "game_clock": "66:54",
+        "source": "NRL.com live blog",
+        "source_timestamp_context": "NRL.com live blog page timestamped 2026-09-05 21:14 AEST and retrieved during this cycle.",
+        "freshness_note": "This is the freshest independently retrievable official live state captured in this cycle and is not represented as the exact wall-clock state at 21:40:58 AEST."
+      },
+      "evidence": [
+        {"class":"VERIFIED","observation":"Cronulla led Melbourne 20-18 at the official live feed's 66:54 state."},
+        {"class":"VERIFIED","observation":"Niwhai Puru kicked a penalty goal at 61 minutes to put Cronulla ahead 20-18."},
+        {"class":"VERIFIED","observation":"Jahrome Hughes left the field before half-time; NRL.com described the event as a hamstring injury."},
+        {"class":"VERIFIED","observation":"Trent Toelau was playing halfback in place of Hughes by the 48-minute Storm try sequence."},
+        {"class":"VERIFIED","observation":"Cronulla had earlier recovered from 0-12 and two separate sin bins to lead 18-12 at half-time."}
+      ],
+      "player_effects": {
+        "Sharks": [
+          "Niwhai Puru: VERIFIED live scoring/goal-kicking contribution; penalty goal produced 20-18 lead.",
+          "Michael Gabrael: prior VERIFIED sin-bin discipline negative; no medical inference.",
+          "Ronaldo Mulitalo: prior VERIFIED sin-bin discipline negative and half-time HIA process; no diagnosis inferred."
+        ],
+        "Storm": [
+          "Jahrome Hughes: VERIFIED in-match hamstring injury reported by NRL.com; removed from field before half-time. No severity or return timeline inferred.",
+          "Trent Toelau: VERIFIED replacement halfback role after Hughes exit.",
+          "Cameron Munster: increased live organisational burden is an inference only; no quantified effect assigned."
+        ]
+      },
+      "team_macro_effects": {
+        "Sharks": "VERIFIED live resilience signal: recovered from an early 0-12 deficit and temporary two-player disadvantage to lead 20-18 late in the second half. This remains match outcome evidence, not a retroactive pre-match weight.",
+        "Storm": "VERIFIED spine disruption occurred when Hughes left and Toelau assumed halfback duties. Any broader future weight adjustment awaits post-match audit and accumulated evidence."
+      },
+      "matchup_effects": "Observed only: Cronulla generated enough second-half field position for Puru to convert a penalty lead, while Melbourne remained competitive after losing Hughes. No unsupported stylistic narrative added.",
+      "weather": {
+        "source": "Bureau of Meteorology Sydney Airport observations",
+        "latest_retrieved_relevant_evening_observation": "21:30 AEST: 18.5C, 65% humidity, N wind 11 km/h gusting 13 km/h, 0.0 mm rain since 9am.",
+        "classification": "VERIFIED_OBSERVATION",
+        "decision_effect": "LIVE_CONTEXT_ONLY",
+        "reason": "The valid pre-match T-10 checkpoint was missed, and weather is not retroactively assigned to the decision."
+      },
+      "market": {
+        "state_at_capture": "UNKNOWN_RELIABLE_IN_PLAY_STATE_NOT_CAPTURED",
+        "absorption_classification": "NONE"
+      },
+      "information_advantage": {
+        "classification": "NONE",
+        "reason": "No signal with evidenced temporal precedence over a captured market response exists in this cycle."
+      },
+      "decision": {
+        "tip_state": "NO_VALID_FROZEN_T10_DECISION",
+        "earlier_nonfrozen_state": "Storm 84%",
+        "decision_effect": "NO_RETROACTIVE_CHANGE",
+        "calibration_eligible": false
+      },
+      "next_checkpoint": "POST_MATCH"
+    },
+    {
+      "fixture": "Cowboys v Raiders",
+      "stage": "POST_MATCH_COMPLETE",
+      "state": "Raiders won 50-30; genuine Cowboys 68% frozen prediction remains graded INCORRECT; no new change this cycle."
+    },
+    {
+      "fixture": "Warriors v Sea Eagles",
+      "stage": "POST_MATCH_COMPLETE",
+      "state": "Warriors won 31-30; genuine Warriors 68% frozen prediction remains graded CORRECT; no new change this cycle."
+    },
+    {
+      "fixture": "Dragons v Eels",
+      "stage": "PRE_T-3h",
+      "next_due": "2026-09-06T11:00:00+10:00",
+      "state": "No checkpoint due at capture."
+    },
+    {
+      "fixture": "Panthers v Wests Tigers",
+      "stage": "PRE_T-3h",
+      "checkpoint_integrity": {"T-24h":"MISSED_NOT_CAPTURED"},
+      "next_due": "2026-09-06T13:05:00+10:00",
+      "state": "T-24h remains MISSED_NOT_CAPTURED; no reconstruction performed."
+    }
+  ],
+  "audit": {
+    "no_hindsight_rewrite": true,
+    "missed_not_captured_enforced": true,
+    "active_fixture_precedence_enforced": true,
+    "weather_mandatory_checked": true,
+    "persistence": "PERSISTED_BACKEND_CYCLE_FILE",
+    "public_presentation_status": "NOT_CLAIMED_UPDATED_IN_THIS_CYCLE"
+  }
+}
