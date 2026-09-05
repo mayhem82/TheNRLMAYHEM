@@ -1,0 +1,21 @@
+{
+  "capture_time_australia_sydney": "2026-09-05T22:23:01+10:00",
+  "active_fixture": "Sharks v Storm",
+  "checkpoint": "POST_MATCH",
+  "result": {"status":"VERIFIED","sharks":20,"storm":24,"winner":"Storm","source":"NRL.com / Cronulla Sharks official match record"},
+  "decision_integrity": {"t_minus_3h":"MISSED_NOT_CAPTURED","t_minus_60m":"MISSED_NOT_CAPTURED","t_minus_10m":"MISSED_NOT_CAPTURED","storm_84_state":"NON_FROZEN_CALIBRATION_INELIGIBLE","calibration_action":"NO_ENTRY"},
+  "player_intelligence": [
+    {"player":"Jahrome Hughes","team":"Storm","class":"VERIFIED","observation":"NRL casualty reporting states Hughes suffered a hamstring injury and did not finish the match; no severity or recovery duration inferred."},
+    {"player":"Siulagi Tuimalatu-Brown","team":"Storm","class":"VERIFIED","observation":"NRL casualty reporting states he was stretchered from the venue and taken to hospital as a precaution; no diagnosis inferred."},
+    {"player":"Michael Gabrael","team":"Sharks","class":"VERIFIED","observation":"Sin-binned early in the match."},
+    {"player":"Ronaldo Mulitalo","team":"Sharks","class":"VERIFIED","observation":"Sin-binned early in the match."}
+  ],
+  "team_macro_effects": {"storm":"UP: won 24-20 despite in-match personnel disruption; single-match evidence only.","sharks":"DOWN: lost 20-24 after recovering from 0-12; early discipline disruption verified; do not generalise beyond audited sample."},
+  "matchup_effects": "Observed: Cronulla recovered from early two-player sin-bin disruption and a 12-point deficit, but Melbourne won late. No unsupported stylistic causal narrative assigned.",
+  "weather": {"status":"LIVE_CONTEXT_ONLY","source":"Bureau of Meteorology Sydney-area observations","decision_effect":"NONE_RETROACTIVE","reason":"T-10 was MISSED_NOT_CAPTURED; weather cannot be retrofitted to a pre-match decision."},
+  "market_state":"UNKNOWN",
+  "information_advantage":{"classification":"NONE","reason":"No reliable timestamped market absorption evidence and no valid T-10 frozen decision."},
+  "learning":{"weight_change":"NONE","reason":"No genuine frozen prediction existed for this fixture; outcome cannot be used to backfit decision weights."},
+  "next_due_integrity": {"Dragons v Eels T-24h":"MISSED_NOT_CAPTURED","Panthers v Wests Tigers T-24h":"MISSED_NOT_CAPTURED"},
+  "public_site":{"backend_persisted":true,"presentation_sync":"PERSISTENCE_FAILED","note":"Cycle record persisted; no claim that hard-coded public presentation refreshed."}
+}
