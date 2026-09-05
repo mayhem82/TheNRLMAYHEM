@@ -1,0 +1,107 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "capture_time": "2026-09-05T20:43:40+10:00",
+  "timezone": "Australia/Sydney",
+  "active_fixture_precedence": "Sharks v Storm",
+  "fixtures": [
+    {
+      "fixture": "Sharks v Storm",
+      "stage": "LIVE_POST_KICKOFF",
+      "kickoff": "2026-09-05T19:35:00+10:00",
+      "checkpoint_integrity": {
+        "T-24h": "MISSED_NOT_CAPTURED",
+        "T-3h": "MISSED_NOT_CAPTURED",
+        "T-60m": "MISSED_NOT_CAPTURED",
+        "T-10m": "MISSED_NOT_CAPTURED",
+        "frozen_probability_eligible_for_calibration": false,
+        "reason": "No genuine contemporaneous T-10m evidence freeze was captured. The earlier Storm 84% state is not promoted to a frozen probability after kickoff."
+      },
+      "latest_verifiable_live_state": {
+        "score": "Sharks 12 - Storm 12",
+        "game_clock": "37:19 H1",
+        "source_freshness_note": "This was the freshest independently retrievable live state at cycle capture. It must not be represented as the exact game state at 20:43:40 AEST because the source feed was lagging the wall clock.",
+        "source": "Zero Tackle live match centre"
+      },
+      "evidence": [
+        {"class":"VERIFIED","observation":"Cronulla recovered from 0-12 to 12-12 before the retrieved 37:19 first-half state."},
+        {"class":"VERIFIED","observation":"Sione Katoa scored at 31 minutes and Niwhai Puru converted."},
+        {"class":"VERIFIED","observation":"Riley Jones scored at 34 minutes and Niwhai Puru converted."},
+        {"class":"VERIFIED","observation":"Earlier Michael Gabrael and Ronaldo Mulitalo sin bins temporarily reduced Cronulla to 11 players; Melbourne scored during that disadvantage."},
+        {"class":"VERIFIED","observation":"Official late mail had Cronulla resting Nicho Hynes, Blayke Brailey and Teig Wilton; Riley Pollard debuted at five-eighth, Niwhai Puru played halfback, Hohepa Puru hooker, Michael Gabrael centre; Melbourne was 1-19 with no late changes."}
+      ],
+      "player_effects": {
+        "Sharks": [
+          "Sione Katoa: LIVE_POSITIVE_SCORING_EVENT",
+          "Riley Jones: LIVE_POSITIVE_SCORING_EVENT",
+          "Niwhai Puru: LIVE_GOALKICKING_CONVERSION_EFFECT",
+          "Michael Gabrael: LIVE_DISCIPLINE_NEGATIVE already recorded; no medical inference",
+          "Ronaldo Mulitalo: LIVE_DISCIPLINE_NEGATIVE already recorded"
+        ],
+        "Storm": [
+          "Hugo Peel and Sua Fa'alogo: opening tries already verified in prior live state",
+          "Jahrome Hughes: prior treatment event remains MONITOR only; no diagnosis or duration inferred"
+        ]
+      },
+      "team_macro_effects": {
+        "Sharks": "Live response from 0-12 to 12-12 is outcome evidence that the early two-player disadvantage did not produce a continuing first-half scoreboard collapse. This is not backfilled into pre-match prediction logic.",
+        "Storm": "The early numerical-advantage edge produced points but was later erased on the scoreboard by the freshest verifiable state. No new longitudinal weight is learned before full-time audit."
+      },
+      "matchup_effects": "The retrieved live state shows Cronulla generating two tries after returning to 13 players. That is live outcome evidence only; no pre-match matchup narrative is manufactured from it.",
+      "weather": {
+        "source": "Bureau of Meteorology Cronulla forecast",
+        "forecast_state": "Windy/mostly sunny day, slight evening shower chance; winds forecast to turn westerly 15-25 km/h in the evening; 7pm forecast temperature about 26C and 10% rain chance, 0 mm median rainfall.",
+        "classification": "VERIFIED_FORECAST",
+        "decision_effect": "LIVE_CONTEXT_ONLY",
+        "reason": "The valid T-10 freeze was missed, so weather cannot be retroactively converted into a pre-match directional decision effect."
+      },
+      "market": {
+        "state_at_capture": "UNKNOWN_RELIABLE_IN_PLAY_STATE_NOT_CAPTURED",
+        "absorption_classification": "NONE",
+        "reason": "No reliable timestamped in-play market state was captured in this cycle."
+      },
+      "information_advantage": {
+        "classification": "NONE",
+        "reason": "No new signal with demonstrated temporal precedence over market absorption was captured."
+      },
+      "decision": {
+        "tip_state": "NO_VALID_FROZEN_T10_DECISION",
+        "earlier_nonfrozen_state": "Storm 84%",
+        "decision_effect": "NO_RETROACTIVE_CHANGE",
+        "calibration_eligible": false
+      },
+      "next_checkpoint": "POST_MATCH"
+    },
+    {
+      "fixture": "Cowboys v Raiders",
+      "stage": "POST_MATCH_COMPLETE",
+      "state": "Raiders won 50-30; genuine Cowboys 68% frozen prediction already graded INCORRECT in prior cycle; no new material change this run."
+    },
+    {
+      "fixture": "Warriors v Sea Eagles",
+      "stage": "POST_MATCH_COMPLETE",
+      "state": "Warriors won 31-30; genuine Warriors 68% frozen prediction already graded CORRECT in prior cycle; no new material change this run."
+    },
+    {
+      "fixture": "Dragons v Eels",
+      "stage": "PRE_T-3h",
+      "next_due": "2026-09-06T11:00:00+10:00",
+      "state": "No due checkpoint at this capture."
+    },
+    {
+      "fixture": "Panthers v Wests Tigers",
+      "stage": "PRE_T-3h",
+      "checkpoint_integrity": {"T-24h":"MISSED_NOT_CAPTURED"},
+      "next_due": "2026-09-06T13:05:00+10:00",
+      "state": "T-24h was not contemporaneously captured and remains MISSED_NOT_CAPTURED; no reconstruction performed."
+    }
+  ],
+  "audit": {
+    "no_hindsight_rewrite": true,
+    "missed_not_captured_enforced": true,
+    "active_fixture_precedence_enforced": true,
+    "weather_mandatory_checked": true,
+    "persistence": "PERSISTED_BACKEND_CYCLE_FILE",
+    "public_presentation_status": "STALE_PRESENTATION_LAYER_REMAINS_SEPARATE_FROM_THIS_BACKEND_WRITE"
+  }
+}
