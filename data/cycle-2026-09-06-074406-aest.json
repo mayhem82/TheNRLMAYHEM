@@ -1,0 +1,18 @@
+{
+  "captured_at":"2026-09-06T07:44:06+10:00",
+  "cycle_type":"HOURLY_RECONCILIATION",
+  "lifecycle_reconciliation":{"status":"NO_PAST_DUE_UNRESOLVED_FIXTURE_CHANGE","next_fixture":"Dragons v Eels","kickoff":"2026-09-06T14:00:00+10:00","next_checkpoint":"T-3h","next_checkpoint_at":"2026-09-06T11:00:00+10:00"},
+  "material_findings":[
+    {"type":"TEMPORAL_INTEGRITY_DEFECT","classification":"VERIFIED","finding":"The prior current-roster file carried a future captured_at value of 11:15 AEST relative to this 07:44 cycle."},
+    {"type":"ROSTER_STALENESS","classification":"VERIFIED","finding":"The persisted current roster still included players omitted at the official Round 27 24-hour cut. Current-state roster was rebuilt from NRL.com late mail."},
+    {"type":"STATISTICAL_TIMESTAMP_DEFECT","classification":"VERIFIED","finding":"Dragons/Eels and Wests Tigers statistical acquisition files contained future 11:20/11:50 AEST timestamps. Those timestamps were nulled and preserved explicitly as invalid originals; true capture time remains UNKNOWN rather than being fabricated."},
+    {"type":"PLAYER_STATISTICAL_COVERAGE","classification":"SIGNAL","finding":"Mandatory dossier coverage remains incomplete for the current 80-player 24-hour roster, especially Dragons/Eels and two current Wests Tigers squad members. Missing dossiers remain acquisition defects and are not interpreted as NO_MATERIAL_CHANGE."}
+  ],
+  "source_checked":"NRL.com Round 27 Late Mail, published 2026-09-05 18:16 AEST; official team-list state current to the 24-hour cut.",
+  "checkpoint_action":"NONE_DUE",
+  "tip_action":"NONE; no freeze reconstructed or altered.",
+  "weather_action":"NOT_DUE; mandatory weather capture remains attached to due checkpoints.",
+  "market_action":"NOT_DUE",
+  "persistence":{"repository_write":"SUCCESS","public_render_verification":"UNCONFIRMED"},
+  "integrity":"MISSED_NOT_CAPTURED remains unchanged. No future timestamp was silently normalized into a false historical capture time."
+}
