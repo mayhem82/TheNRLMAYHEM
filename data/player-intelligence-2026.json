@@ -1,0 +1,12 @@
+{
+  "season": 2026,
+  "architecture": "PLAYER_INTELLIGENCE",
+  "updated_at": null,
+  "records": [],
+  "integrity": {
+    "append_only_observations": true,
+    "no_hindsight_reconstruction": true,
+    "classes": ["VERIFIED", "UNVERIFIED", "CONTRADICTED", "SIGNAL"],
+    "rule": "Player observations remain attributable to source, capture time, fixture and decision effect. Derived player state never destroys prior observations."
+  }
+}
