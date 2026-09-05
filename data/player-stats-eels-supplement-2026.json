@@ -1,13 +1,14 @@
 {
   "season": 2026,
   "team": "Eels",
-  "captured_at": "2026-09-06T11:20:00+10:00",
+  "captured_at": null,
   "source_class": "NRL.com official player profiles",
+  "timestamp_integrity": {"status":"INVALID_FUTURE_TIMESTAMP_DETECTED","original_captured_at":"2026-09-06T11:20:00+10:00","detected_at":"2026-09-06T07:44:06+10:00","true_capture_time":"UNKNOWN","rule":"Do not substitute a fabricated corrected capture time."},
   "players": [
     {"player":"Kitione Kautoga","team":"Eels","profile_state":"VERIFIED","career":{"appearances":36,"tries":4},"season":{"appearances":18,"tries":2,"line_breaks":4,"line_break_assists":3,"offloads":27,"tackles_made":539,"average_running_metres":103,"total_running_metres":1871,"fantasy_points":780,"fantasy_average":43.3},"source":"https://www.nrl.com/players/nrl-premiership/eels/kitione-kautoga/"},
     {"player":"Saxon Pryke","team":"Eels","profile_state":"VERIFIED","career":{"appearances":9,"tries":0},"season":{"appearances":9,"tries":0,"tackle_breaks":6,"average_hit_ups":9.4,"post_contact_metres":254.1,"offloads":5,"tackles_made":249,"missed_tackles":13,"average_running_metres":81,"total_running_metres":729,"fantasy_points":317,"fantasy_average":35.2},"source":"https://www.nrl.com/players/nrl-premiership/eels/saxon-pryke/"},
     {"player":"Kelma Tuilagi","team":"Eels","profile_state":"VERIFIED","career":{"appearances":89,"tries":13},"season":{"appearances":17,"tries":5,"line_breaks":6,"line_break_assists":3,"offloads":13,"tackles_made":483,"missed_tackles":56,"average_running_metres":102,"total_running_metres":1740,"fantasy_points":704,"fantasy_average":41.4},"source":"https://www.nrl.com/players/nrl-premiership/eels/kelma-tuilagi/"},
     {"player":"Ryley Smith","team":"Eels","profile_state":"VERIFIED","career":{"appearances":32,"tries":3},"season":{"appearances":10,"tries":2,"forced_drop_outs":1,"average_kicking_metres":13.7,"try_assists":1,"line_break_assists":1,"offloads":0,"receipts":619,"tackles_made":280,"average_running_metres":19,"total_running_metres":193,"fantasy_points":258,"fantasy_average":25.8},"source":"https://www.nrl.com/players/nrl-premiership/eels/ryley-smith/"}
   ],
-  "integrity": "These dossiers are direct captures from current official NRL Premiership player profiles. Missing fields are not inferred."
+  "integrity": "These dossiers are direct captures from current official NRL Premiership player profiles. Missing fields are not inferred. The original future timestamp is preserved in timestamp_integrity and not silently corrected."
 }
