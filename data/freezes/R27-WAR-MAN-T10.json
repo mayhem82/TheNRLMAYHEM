@@ -1,0 +1,84 @@
+{
+  "fixture_id": "R27-WAR-MAN",
+  "match": "Warriors v Sea Eagles",
+  "stage": "T-10m",
+  "due": "2026-09-05T14:50:00+10:00",
+  "captured_at": "2026-09-05T14:52:55+10:00",
+  "kickoff": "2026-09-05T15:00:00+10:00",
+  "status": "FROZEN",
+  "evidence": [
+    {"classification":"VERIFIED","source":"NRL.com Round 27 late mail","fact":"Leka Halasima is out with an ankle injury and is expected to be available for week one of the finals."},
+    {"classification":"VERIFIED","source":"NRL.com Round 27 late mail","fact":"Taine Tuaupiki is the Warriors fullback in the final selection state; Charnze Nicoll-Klokstad is on the wing and Adam Pompey is at centre."},
+    {"classification":"VERIFIED","source":"NRL.com Round 27 late mail","fact":"Te Maire Martin and Chanel Harris-Tavita return in the halves; Wayde Egan and Kurt Capewell are rested."},
+    {"classification":"VERIFIED","source":"NRL.com Round 27 late mail","fact":"Manly retained its game-day starting side with no material late starting-side change identified."},
+    {"classification":"VERIFIED","source":"Sportsbet current Round 27 market","fact":"Warriors $1.34, Sea Eagles $3.27; Warriors -9.5 at $1.82, Sea Eagles +9.5 at $1.99; total 49.5."},
+    {"classification":"VERIFIED","source":"Auckland current/hourly weather","fact":"Near kickoff Auckland was about 16°C and mostly sunny; 5 pm local forecast precipitation probability 0%."}
+  ],
+  "player_effects": [
+    {"player":"Leka Halasima","effect":"NEGATIVE_WARRIORS","reason":"OUT; late backline reshuffle remains the main personnel negative."},
+    {"player":"Taine Tuaupiki","effect":"NEUTRAL_UNCERTAINTY","reason":"Starts at fullback as part of the reshuffle."},
+    {"player":"Charnze Nicoll-Klokstad","effect":"POSITIVE_WITH_ROLE_CHANGE","reason":"Senior backline quality returns, but current role differs from earlier checkpoint reporting."},
+    {"player":"Te Maire Martin","effect":"POSITIVE_WITH_RETURN_RISK","reason":"First-choice playmaking availability restored after hamstring injury."},
+    {"player":"Chanel Harris-Tavita","effect":"POSITIVE_WITH_RETURN_RISK","reason":"Halves combination restored after hamstring injury."},
+    {"player":"Wayde Egan","effect":"NEGATIVE_WARRIORS","reason":"Rested; first-choice spine continuity reduced."},
+    {"player":"Kurt Capewell","effect":"NEGATIVE_WARRIORS","reason":"Rested; experienced edge-forward continuity reduced."},
+    {"player":"Tom Trbojevic","effect":"POSITIVE_MANLY","reason":"Primary attacking threat remains in unchanged starting side."}
+  ],
+  "team_macro_effects": {
+    "Warriors":"Strong season/home baseline and restored halves are counterweighted by deliberate finals-management rotation and a late backline reshuffle.",
+    "Sea Eagles":"Out of finals contention but enter with starting-side continuity and strong recent attacking form; spoiler risk remains material."
+  },
+  "matchup_effects": [
+    "Warriors retain the stronger baseline and home advantage.",
+    "Manly continuity contrasts with Warriors personnel rotation, limiting confidence rather than reversing the selection.",
+    "Dry, mild conditions provide no evidenced weather mechanism requiring a tip change."
+  ],
+  "conflicts": [
+    "Earlier checkpoint placed Nicoll-Klokstad at centre; final selection state places him on the wing with Adam Pompey at centre.",
+    "Warriors strong baseline/market favouritism versus meaningful rotation and Manly late-season attacking form."
+  ],
+  "market": {
+    "source":"Sportsbet",
+    "warriors_h2h":1.34,
+    "sea_eagles_h2h":3.27,
+    "line":"Warriors -9.5",
+    "total":49.5,
+    "classification":"VERIFIED_CURRENT_SEARCH_SNAPSHOT"
+  },
+  "weather": {
+    "location":"Auckland / Go Media Stadium vicinity",
+    "current":"Mostly sunny, approximately 16°C",
+    "kickoff_local":"17:00 NZST",
+    "precipitation_probability":"0% around kickoff",
+    "decision_effect":"NO_EFFECT",
+    "limitations":"No reliable contemporaneous ground/surface report captured; wind/gust/humidity were not available in the weather source used for this freeze."
+  },
+  "information_advantage_candidates": [
+    {"signal":"Halasima withdrawal and consequent backline reshuffle","classification":"POSSIBLE","reason":"Decision-relevant and captured before kickoff, but no evidence in this freeze establishes that MAYHEM obtained it before market absorption."},
+    {"signal":"Final positional correction for Nicoll-Klokstad/Pompey","classification":"NONE","reason":"Useful integrity correction, but no demonstrated independent decision advantage."}
+  ],
+  "prediction_decomposition": {
+    "baseline_team_strength":"UP_WARRIORS",
+    "recent_form":"UP_WARRIORS_WITH_MANLY_COUNTERSIGNAL",
+    "personnel":"DOWN_WARRIORS",
+    "matchup":"UP_WARRIORS_MODEST",
+    "venue":"UP_WARRIORS",
+    "weather":"NEUTRAL",
+    "market":"UP_WARRIORS",
+    "late_intelligence":"NEUTRAL_ALREADY_PRICED_INTO_68",
+    "conflicts":"CONFIDENCE_LIMITING",
+    "uncertainty":"MATERIAL_BUT_NOT_SELECTION_REVERSING"
+  },
+  "frozen_decision": {
+    "tip":"Warriors",
+    "confidence":68,
+    "decision_effect":"NO_CHANGE",
+    "frozen":true,
+    "rationale":"No new T-10 evidence is strong enough to reverse the Warriors selection or alter the already-reduced 68% confidence. The market remains strongly aligned with Warriors; dry conditions are neutral; rotation and backline disruption remain the principal counterweights."
+  },
+  "integrity": {
+    "earlier_missed_checkpoints_reconstructed":false,
+    "hindsight_used":false,
+    "ground_surface":"UNKNOWN"
+  }
+}
