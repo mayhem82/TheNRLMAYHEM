@@ -1,0 +1,59 @@
+{
+  "season": 2026,
+  "round": 27,
+  "captured_at": "2026-09-06T07:54:00+10:00",
+  "records": [
+    {
+      "player": "Vaka Aho",
+      "team": "Wests Tigers",
+      "position_context": "Prop / interchange",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-06T07:54:00+10:00",
+      "classification": "VERIFIED",
+      "status": "NRL_DEBUT_CONFIRMED",
+      "observation": "Official Wests Tigers squad update confirms Aho will make his NRL debut from the bench after 21 NSW Cup appearances in 2026.",
+      "decision_effect": "ROOKIE_VARIANCE",
+      "macro_effect": "No NRL statistical sample exists yet. The absence of first-grade stats is a genuine pre-debut state, not an acquisition defect.",
+      "source": "Wests Tigers official Round 27 squad update"
+    },
+    {
+      "player": "Charlie Murray",
+      "team": "Wests Tigers",
+      "position_context": "Second row / reserve",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-06T07:54:00+10:00",
+      "classification": "VERIFIED",
+      "status": "DROPPED_FROM_24H_SQUAD",
+      "observation": "Official Wests Tigers squad update states Charlie Murray dropped out of the squad named earlier in the week.",
+      "decision_effect": "NO_MATCH_ROLE",
+      "macro_effect": "Historical roster presence is preserved, but he is no longer treated as an active Round 27 playing option in the latest state.",
+      "source": "Wests Tigers official Round 27 squad update"
+    },
+    {
+      "player": "Faaletino Tavana",
+      "team": "Wests Tigers",
+      "position_context": "Reserve",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-06T07:54:00+10:00",
+      "classification": "VERIFIED",
+      "status": "DROPPED_FROM_24H_SQUAD",
+      "observation": "Official Wests Tigers squad update states Tino Tavana dropped out of the squad named earlier in the week.",
+      "decision_effect": "NO_MATCH_ROLE",
+      "macro_effect": "Historical roster presence is preserved, but he is no longer treated as an active Round 27 playing option in the latest state.",
+      "source": "Wests Tigers official Round 27 squad update"
+    },
+    {
+      "player": "Terrell May",
+      "team": "Wests Tigers",
+      "position_context": "Prop",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-06T07:54:00+10:00",
+      "classification": "VERIFIED",
+      "status": "STARTING_100TH_NRL_GAME",
+      "observation": "Official Wests Tigers update confirms May is due to play his 100th NRL game in Round 27.",
+      "decision_effect": "NO_AUTOMATIC_UPLIFT",
+      "macro_effect": "Milestone is retained as context only; MAYHEM does not infer a performance increase from the milestone itself.",
+      "source": "Wests Tigers official Round 27 squad update"
+    }
+  ]
+}
