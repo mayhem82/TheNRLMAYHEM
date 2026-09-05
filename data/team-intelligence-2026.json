@@ -1,0 +1,133 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "captured_at": "2026-09-05T14:31:16+10:00",
+  "timezone": "Australia/Sydney",
+  "integrity_rule": "Team macro intelligence is append-oriented. Source facts, MAYHEM inference, conflicts and post-match validation remain separately identifiable. Stale observations must not be presented as current without a new capture.",
+  "teams": {
+    "Warriors": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Leka Halasima withdrew from Round 27 with an ankle injury and is expected to be available for week one of the finals.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Wayde Egan and Kurt Capewell are being rested for Round 27.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Taine Tuaupiki is listed at fullback and Charnze Nicoll-Klokstad shifts into the centres in the late-mail configuration.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Warriors entered Round 27 in 1st position and were chasing the minor premiership.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "High-end season position is intact, but Round 27 carries deliberate rotation plus a forced backline change. This is a continuity cost rather than evidence of broad team deterioration.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE",
+      "market_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE"
+    },
+    "Sea Eagles": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Sea Eagles entered Round 27 in 9th position and were out of finals contention.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"The same 19-man squad used against the Dragons was retained for the Warriors match.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Manly scored 44 points in consecutive wins over the Dragons and Knights immediately before Round 27.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "Eliminated from finals but carrying strong recent attacking form and lineup continuity, making them a materially stronger spoiler profile than ladder position alone suggests.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE",
+      "market_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE"
+    },
+    "Cowboys": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Cowboys entered Round 27 in 8th position with a finals berth secured.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Tom Dearden returned from injury in the Round 26 win and remained at halfback for Round 27.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Robert Derby was named on the wing for Round 27.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"The official match preview identifies Heilum Luki? No unsupported addition retained; macro state is restricted to published team-list facts.","source_class":"OFFICIAL","note":"Integrity marker: no inferred personnel claim added beyond verified source material."}
+      ],
+      "macro_inference": "Finals qualification reduces existential stakes but Dearden's return improves spine continuity. Round 27 remains a momentum and combination-quality test rather than a qualification game.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "AWAITING_T3H_CAPTURE",
+      "market_state": "AWAITING_T3H_CAPTURE"
+    },
+    "Raiders": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Raiders entered Round 27 in 12th position.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Coby Black was named at halfback for his NRL debut.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Josh Papalii was approaching retirement and Round 27 formed part of Canberra's season-ending farewell context.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "No finals pressure, but a debuting half and farewell context increase uncertainty around normal late-season baseline behaviour.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "AWAITING_T3H_CAPTURE",
+      "market_state": "AWAITING_T3H_CAPTURE"
+    },
+    "Sharks": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Sharks entered Round 27 in 5th position.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Cronulla entered the match after a 38-18 loss to Parramatta.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Riley Pollard and Niwhai Puru were named in the halves, with Riley Jones and Michael Gabrael in the centres.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "Finals-bound but entering Round 27 with significant combination disruption in key decision-making and outside-back roles. Current form/continuity risk is elevated relative to ladder position.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE",
+      "market_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE"
+    },
+    "Storm": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Storm entered Round 27 in 11th position and were missing finals for the first time in 16 years.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Melbourne entered Round 27 after a large win over Brisbane.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Cameron Munster, Jahrome Hughes and Harry Grant were named in the Round 27 spine/core lineup.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "Ladder outcome is poor by club standards, but the Round 27 side retains elite core playmaking continuity and arrives off a strong performance. Season position alone understates immediate-match capability.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE",
+      "market_state": "AWAITING_CURRENT_CHECKPOINT_CAPTURE"
+    },
+    "Dragons": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Blake Lawrie comes into the starting side at prop, Loko Pasifiki Tonga moves to lock and Ryan Couchman moves to the bench for Round 27.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Kyle Flanagan and Lyhkan King-Togia were named in the halves for Round 27.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "The main current structural change is through the middle rotation rather than the halves. No broader team-level conclusion is justified without further evidence.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "T24H_CAPTURE_REQUIRED",
+      "market_state": "AWAITING_CHECKPOINT_CAPTURE"
+    },
+    "Eels": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Jordan Samrani returns in the centres, moving Sean Russell to the interchange.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Jack de Belin returns on the bench after three NSW Cup games.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Tyrese Lokeni is in line for his NRL debut.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Mitchell Moses and Ronald Volkman were named in the halves.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "Parramatta carry improving personnel depth into the final round, while the first-grade debut element adds some bench uncertainty. Spine continuity remains comparatively strong.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "T24H_CAPTURE_REQUIRED",
+      "market_state": "AWAITING_CHECKPOINT_CAPTURE"
+    },
+    "Panthers": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Panthers entered Round 27 in 2nd position on 40 competition points with a +308 differential.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Mitch Kenny returns from a leg injury for Round 27.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Isaah Yeo is named among the reserves as he approaches return from a pectoral injury; official late mail notes he may be held back until finals.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Luke Garner starts at centre for Izack Tago, who is out with a knee injury.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "Penrith retain a strong competitive incentive through the minor-premiership race and restore Kenny, but Yeo's actual Round 27 participation remains unresolved. The current profile is strong with one important availability uncertainty.",
+      "conflict_state": "YEO_SELECTION_UNRESOLVED",
+      "weather_state": "T24H_CAPTURE_REQUIRED",
+      "market_state": "AWAITING_CHECKPOINT_CAPTURE"
+    },
+    "Wests Tigers": {
+      "freshness": "2026-09-05T14:31:16+10:00",
+      "evidence": [
+        {"classification":"VERIFIED","fact":"Latu Fainu returns on the interchange after a hamstring injury.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Vaka Aho is named to make his NRL debut from the bench.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Sione Fainu replaces Tony Sukkar, who has delayed concussion symptoms.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Sunia Turuva is listed on the bench after missing two games with a knee injury.","source_class":"OFFICIAL"}
+      ],
+      "macro_inference": "Multiple return/debut elements increase bench and rotation variability. The team profile contains more personnel-transition uncertainty than a settled late-season lineup.",
+      "conflict_state": "NONE_PERSISTED",
+      "weather_state": "T24H_CAPTURE_REQUIRED",
+      "market_state": "AWAITING_CHECKPOINT_CAPTURE"
+    }
+  }
+}
