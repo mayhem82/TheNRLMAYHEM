@@ -2,10 +2,62 @@
   "season": 2026,
   "round": 27,
   "architecture": "ROSTER_BASELINE",
-  "captured_at": "2026-09-06T06:33:00+10:00",
-  "source": "NRL.com official Round 27 team lists",
-  "source_published": "2026-09-01",
+  "captured_at": "2026-09-06T06:40:43+10:00",
+  "source": "NRL.com official Round 27 late mail / team lists",
+  "source_published": "2026-09-05",
   "teams": [
+    {
+      "team": "Dragons",
+      "fixture": "Dragons v Eels",
+      "players": [
+        {"player":"Daniel Atkinson","jersey":1,"position_context":"Fullback","squad_state":"STARTING"},
+        {"player":"Mathew Feagai","jersey":2,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Moses Suli","jersey":3,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Valentine Holmes","jersey":4,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Tyrell Sloan","jersey":5,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Lyhkan King-Togia","jersey":6,"position_context":"Five-eighth","squad_state":"STARTING"},
+        {"player":"Kyle Flanagan","jersey":7,"position_context":"Halfback","squad_state":"STARTING"},
+        {"player":"Toby Couchman","jersey":8,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Damien Cook","jersey":9,"position_context":"Hooker","squad_state":"STARTING"},
+        {"player":"Blake Lawrie","jersey":10,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Dylan Egan","jersey":11,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Hamish Stewart","jersey":12,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Loko Jnr Pasifiki Tonga","jersey":13,"position_context":"Lock","squad_state":"STARTING"},
+        {"player":"Connor Muhleisen","jersey":14,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Ryan Couchman","jersey":15,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Josh Kerr","jersey":16,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Jacob Halangahu","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Jacob Webster","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Setu Tu","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Kade Reed","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"}
+      ]
+    },
+    {
+      "team": "Eels",
+      "fixture": "Dragons v Eels",
+      "players": [
+        {"player":"Apa Twidle","jersey":1,"position_context":"Fullback","squad_state":"STARTING"},
+        {"player":"Brian Kelly","jersey":2,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Will Penisini","jersey":3,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Jordan Samrani","jersey":4,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Josh Addo-Carr","jersey":5,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Ronald Volkman","jersey":6,"position_context":"Five-eighth","squad_state":"STARTING"},
+        {"player":"Mitchell Moses","jersey":7,"position_context":"Halfback","squad_state":"STARTING"},
+        {"player":"Luca Moretti","jersey":8,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Tallyn Da Silva","jersey":9,"position_context":"Hooker","squad_state":"STARTING"},
+        {"player":"Junior Paulo","jersey":10,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Jack Williams","jersey":11,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Kitione Kautoga","jersey":12,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Saxon Pryke","jersey":13,"position_context":"Lock","squad_state":"STARTING"},
+        {"player":"Harrison Edwards","jersey":14,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Jack De Belin","jersey":15,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Teancum Brown","jersey":16,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Dylan Walker","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Tyrese Lokeni","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Sean Russell","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Jonah Pezet","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"}
+      ]
+    },
     {
       "team": "Panthers",
       "fixture": "Panthers v Wests Tigers",
@@ -24,14 +76,12 @@
         {"player":"Liam Martin","jersey":12,"position_context":"Second row","squad_state":"STARTING"},
         {"player":"Lindsay Smith","jersey":13,"position_context":"Lock","squad_state":"STARTING"},
         {"player":"Freddy Lussick","jersey":14,"position_context":"Interchange","squad_state":"INTERCHANGE"},
-        {"player":"Scott Sorensen","jersey":15,"position_context":"Interchange","squad_state":"INTERCHANGE"},
-        {"player":"Luron Patea","jersey":16,"position_context":"Interchange","squad_state":"INTERCHANGE"},
-        {"player":"Billy Phillips","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
-        {"player":"Blaize Talagi","jersey":18,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Billy Scott","jersey":19,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Kalani Leuluai-Going","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
-        {"player":"Jesse McLean","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
-        {"player":"Isaah Yeo","jersey":22,"position_context":"Lock / captain","squad_state":"RESERVE"}
+        {"player":"Luron Patea","jersey":16,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Billy Phillips","jersey":17,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Blaize Talagi","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Billy Scott","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Isaah Yeo","jersey":22,"position_context":"Interchange / captain","squad_state":"INTERCHANGE"},
+        {"player":"Jesse McLean","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"}
       ]
     },
     {
@@ -55,13 +105,11 @@
         {"player":"Vaka Aho","jersey":15,"position_context":"Interchange","squad_state":"INTERCHANGE"},
         {"player":"Ethan Roberts","jersey":16,"position_context":"Interchange","squad_state":"INTERCHANGE"},
         {"player":"Bunty Afoa","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
-        {"player":"Heath Mason","jersey":18,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Sunia Turuva","jersey":19,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Tristan Hope","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
-        {"player":"Charlie Murray","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
-        {"player":"Faaletino Tavana","jersey":22,"position_context":"Reserve","squad_state":"RESERVE"}
+        {"player":"Heath Mason","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Sunia Turuva","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Tristan Hope","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"}
       ]
     }
   ],
-  "integrity": "Roster baseline creates persistent player existence. A baseline record is not a claim of special intelligence and must not overwrite a richer player-intelligence observation."
+  "integrity": "Roster baseline creates persistent player existence. A baseline record is not a claim of special intelligence and must not overwrite a richer player-intelligence observation. The roster must be reconciled again when official 90-minute/final team lists change."
 }
