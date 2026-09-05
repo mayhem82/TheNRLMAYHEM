@@ -1,0 +1,25 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://mayhem82.github.io/TheNRLMAYHEM/schema/audit-record.schema.json",
+  "title":"The NRL MAYHEM Pre-Match Audit Record",
+  "type":"object",
+  "required":["season","round","home","away","kickoff_sydney","checkpoint","captured_at","evidence","tip_state"],
+  "properties":{
+    "season":{"type":"integer"},
+    "round":{"type":"integer","minimum":1},
+    "home":{"type":"string"},
+    "away":{"type":"string"},
+    "venue":{"type":["string","null"]},
+    "kickoff_sydney":{"type":"string","format":"date-time"},
+    "checkpoint":{"enum":["T-24h","T-3h","T-60m","T-10m","POST"]},
+    "captured_at":{"type":"string","format":"date-time"},
+    "evidence":{"type":"array","items":{"type":"object","required":["classification","source_class","summary"],"properties":{"classification":{"enum":["VERIFIED","UNVERIFIED","CONTRADICTED","SIGNAL"]},"source_class":{"enum":["PRIMARY_OFFICIAL","STATISTICAL","MARKET","SPECIALIST","CLUB_COMMUNITY","FANTASY_SUPERCOACH","WEAK_SOCIAL","ENVIRONMENTAL","OFFICIATING"]},"summary":{"type":"string"},"source":{"type":["string","null"]}}}},
+    "contradictions":{"type":"array","items":{"type":"string"}},
+    "tip_state":{"enum":["OPEN","LOCKED","GRADED"]},
+    "mayhem_tip":{"type":["string","null"]},
+    "confidence":{"type":["number","null"],"minimum":0,"maximum":100},
+    "result":{"type":["string","null"]},
+    "grade":{"enum":["CORRECT","WRONG","PUSH",null]},
+    "integrity":{"type":"object","properties":{"frozen_at":{"type":["string","null"],"format":"date-time"},"hindsight_changes_prohibited":{"const":true}}}
+  }
+}
