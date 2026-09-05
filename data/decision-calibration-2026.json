@@ -1,13 +1,30 @@
 {
   "season": 2026,
   "architecture": "DECISION_CALIBRATION",
-  "updated_at": null,
-  "predictions": [],
+  "updated_at": "2026-09-05T17:35:43+10:00",
+  "predictions": [
+    {
+      "fixture": "Warriors v Sea Eagles",
+      "round": 27,
+      "kickoff": "2026-09-05T15:00:00+10:00",
+      "frozen_tip": "Warriors",
+      "frozen_probability": 0.68,
+      "freeze_state": "CAPTURED_LATE_BEFORE_KICKOFF",
+      "result": "Warriors 31-30 Sea Eagles",
+      "outcome": 1,
+      "grade": "CORRECT",
+      "brier_score": 0.1024,
+      "result_source": "NRL.com official live blog",
+      "graded_at": "2026-09-05T17:35:43+10:00"
+    }
+  ],
   "metrics": {
-    "graded_predictions": 0,
-    "accuracy": null,
-    "brier_score": null,
-    "calibration_bands": {},
+    "graded_predictions": 1,
+    "accuracy": 1.0,
+    "brier_score": 0.1024,
+    "calibration_bands": {
+      "60-69": {"n": 1, "wins": 1, "observed_rate": 1.0}
+    },
     "confidence_bias": null
   },
   "integrity": "Only genuine frozen pre-match probabilities may enter calibration. Historical results without contemporaneous MAYHEM probabilities are excluded."
