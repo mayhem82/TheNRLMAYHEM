@@ -35,8 +35,7 @@
       "evidence": [
         {"classification":"VERIFIED","fact":"Cowboys entered Round 27 in 8th position with a finals berth secured.","source_class":"OFFICIAL"},
         {"classification":"VERIFIED","fact":"Tom Dearden returned from injury in the Round 26 win and remained at halfback for Round 27.","source_class":"OFFICIAL"},
-        {"classification":"VERIFIED","fact":"Robert Derby was named on the wing for Round 27.","source_class":"OFFICIAL"},
-        {"classification":"VERIFIED","fact":"The official match preview identifies Heilum Luki? No unsupported addition retained; macro state is restricted to published team-list facts.","source_class":"OFFICIAL","note":"Integrity marker: no inferred personnel claim added beyond verified source material."}
+        {"classification":"VERIFIED","fact":"Robert Derby was named on the wing for Round 27.","source_class":"OFFICIAL"}
       ],
       "macro_inference": "Finals qualification reduces existential stakes but Dearden's return improves spine continuity. Round 27 remains a momentum and combination-quality test rather than a qualification game.",
       "conflict_state": "NONE_PERSISTED",
