@@ -1,0 +1,39 @@
+{
+  "captured_at": "2026-09-06T06:40:43+10:00",
+  "timezone": "Australia/Sydney",
+  "round": 27,
+  "lifecycle_reconciliation": {
+    "completed_fixtures_checked": ["Warriors v Sea Eagles", "Cowboys v Raiders", "Sharks v Storm"],
+    "new_result_backlog": false,
+    "next_fixture": "Dragons v Eels",
+    "next_kickoff": "2026-09-06T14:00:00+10:00"
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next_checkpoint": "Dragons v Eels T-3h",
+    "next_due": "2026-09-06T11:00:00+10:00",
+    "integrity": "No checkpoint was reconstructed outside its valid capture window."
+  },
+  "material_change": {
+    "type": "PLAYER_ROSTER_RECONCILIATION",
+    "finding": "Persistent roster data was incomplete for the next fixture and stale for Penrith's current 24-hour squad state.",
+    "action": "Added the full currently named Dragons and Eels squads and reconciled Panthers/Wests Tigers against official NRL late mail. Isaah Yeo is represented as elevated to the Penrith interchange; Scott Sorensen and Kalani Leuluai-Going are no longer carried as current named Panthers squad members.",
+    "classification": "VERIFIED",
+    "source": "NRL.com Round 27 late mail, published 2026-09-05"
+  },
+  "weather": {
+    "status": "NOT_DUE",
+    "reason": "Mandatory fixture weather capture is performed at due checkpoints; next due checkpoint is Dragons v Eels T-3h at 11:00 AEST."
+  },
+  "market": {
+    "status": "NOT_DUE"
+  },
+  "decision": {
+    "freeze": false,
+    "reason": "No T-10m checkpoint due. Existing future selections are not re-frozen or retrospectively modified in this cycle."
+  },
+  "persistence": {
+    "roster_data": "PERSISTED_AND_RE_READ_VERIFIED",
+    "public_players_view": "DATA_SOURCE_REPAIRED; deployment/render propagation not independently verified in this cycle"
+  }
+}
