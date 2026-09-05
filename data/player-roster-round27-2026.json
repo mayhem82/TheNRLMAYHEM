@@ -1,0 +1,67 @@
+{
+  "season": 2026,
+  "round": 27,
+  "architecture": "ROSTER_BASELINE",
+  "captured_at": "2026-09-06T06:33:00+10:00",
+  "source": "NRL.com official Round 27 team lists",
+  "source_published": "2026-09-01",
+  "teams": [
+    {
+      "team": "Panthers",
+      "fixture": "Panthers v Wests Tigers",
+      "players": [
+        {"player":"Dylan Edwards","jersey":1,"position_context":"Fullback","squad_state":"STARTING"},
+        {"player":"Thomas Jenkins","jersey":2,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Luke Garner","jersey":3,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Casey McLean","jersey":4,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Brian To'o","jersey":5,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Jack Cole","jersey":6,"position_context":"Five-eighth","squad_state":"STARTING"},
+        {"player":"Nathan Cleary","jersey":7,"position_context":"Halfback","squad_state":"STARTING"},
+        {"player":"Moses Leota","jersey":8,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Mitch Kenny","jersey":9,"position_context":"Hooker","squad_state":"STARTING"},
+        {"player":"Liam Henry","jersey":10,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Isaiah Papali'i","jersey":11,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Liam Martin","jersey":12,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Lindsay Smith","jersey":13,"position_context":"Lock","squad_state":"STARTING"},
+        {"player":"Freddy Lussick","jersey":14,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Scott Sorensen","jersey":15,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Luron Patea","jersey":16,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Billy Phillips","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Blaize Talagi","jersey":18,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Billy Scott","jersey":19,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Kalani Leuluai-Going","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Jesse McLean","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Isaah Yeo","jersey":22,"position_context":"Lock / captain","squad_state":"RESERVE"}
+      ]
+    },
+    {
+      "team": "Wests Tigers",
+      "fixture": "Panthers v Wests Tigers",
+      "players": [
+        {"player":"Jahream Bula","jersey":1,"position_context":"Fullback","squad_state":"STARTING"},
+        {"player":"Junior Tupou","jersey":2,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Solomone Saukuru","jersey":3,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Patrick Herbert","jersey":4,"position_context":"Centre","squad_state":"STARTING"},
+        {"player":"Jeral Skelton","jersey":5,"position_context":"Winger","squad_state":"STARTING"},
+        {"player":"Jarome Luai","jersey":6,"position_context":"Five-eighth","squad_state":"STARTING"},
+        {"player":"Jock Madden","jersey":7,"position_context":"Halfback","squad_state":"STARTING"},
+        {"player":"Terrell May","jersey":8,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Apisai Koroisau","jersey":9,"position_context":"Hooker","squad_state":"STARTING"},
+        {"player":"Fonua Pole","jersey":10,"position_context":"Prop","squad_state":"STARTING"},
+        {"player":"Samuela Fainu","jersey":11,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Sione Fainu","jersey":12,"position_context":"Second row","squad_state":"STARTING"},
+        {"player":"Alex Seyfarth","jersey":13,"position_context":"Lock","squad_state":"STARTING"},
+        {"player":"Latu Fainu","jersey":14,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Vaka Aho","jersey":15,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Ethan Roberts","jersey":16,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Bunty Afoa","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Heath Mason","jersey":18,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Sunia Turuva","jersey":19,"position_context":"Interchange","squad_state":"EXTENDED_INTERCHANGE"},
+        {"player":"Tristan Hope","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Charlie Murray","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Faaletino Tavana","jersey":22,"position_context":"Reserve","squad_state":"RESERVE"}
+      ]
+    }
+  ],
+  "integrity": "Roster baseline creates persistent player existence. A baseline record is not a claim of special intelligence and must not overwrite a richer player-intelligence observation."
+}
