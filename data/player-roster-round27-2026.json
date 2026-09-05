@@ -2,7 +2,7 @@
   "season": 2026,
   "round": 27,
   "architecture": "ROSTER_BASELINE",
-  "captured_at": "2026-09-06T06:40:43+10:00",
+  "captured_at": "2026-09-06T11:15:00+10:00",
   "source": "NRL.com official Round 27 late mail / team lists",
   "source_published": "2026-09-05",
   "teams": [
@@ -29,7 +29,9 @@
         {"player":"Jacob Halangahu","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
         {"player":"Jacob Webster","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
         {"player":"Setu Tu","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Kade Reed","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"}
+        {"player":"Ryan Hutchinson","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Kade Reed","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Nick Tsougranis","jersey":22,"position_context":"Reserve","squad_state":"RESERVE"}
       ]
     },
     {
@@ -55,7 +57,9 @@
         {"player":"Dylan Walker","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
         {"player":"Tyrese Lokeni","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
         {"player":"Sean Russell","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Jonah Pezet","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"}
+        {"player":"Kelma Tuilagi","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Jonah Pezet","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Ryley Smith","jersey":22,"position_context":"Reserve","squad_state":"RESERVE"}
       ]
     },
     {
@@ -76,12 +80,14 @@
         {"player":"Liam Martin","jersey":12,"position_context":"Second row","squad_state":"STARTING"},
         {"player":"Lindsay Smith","jersey":13,"position_context":"Lock","squad_state":"STARTING"},
         {"player":"Freddy Lussick","jersey":14,"position_context":"Interchange","squad_state":"INTERCHANGE"},
+        {"player":"Scott Sorensen","jersey":15,"position_context":"Interchange","squad_state":"INTERCHANGE"},
         {"player":"Luron Patea","jersey":16,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
         {"player":"Billy Phillips","jersey":17,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
         {"player":"Blaize Talagi","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
         {"player":"Billy Scott","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Isaah Yeo","jersey":22,"position_context":"Interchange / captain","squad_state":"INTERCHANGE"},
-        {"player":"Jesse McLean","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"}
+        {"player":"Kalani Leuluai-Going","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Jesse McLean","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Isaah Yeo","jersey":22,"position_context":"Interchange / captain","squad_state":"INTERCHANGE"}
       ]
     },
     {
@@ -107,7 +113,9 @@
         {"player":"Bunty Afoa","jersey":17,"position_context":"Interchange","squad_state":"INTERCHANGE"},
         {"player":"Heath Mason","jersey":18,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
         {"player":"Sunia Turuva","jersey":19,"position_context":"Interchange / extended squad","squad_state":"EXTENDED_INTERCHANGE"},
-        {"player":"Tristan Hope","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"}
+        {"player":"Tristan Hope","jersey":20,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Charlie Murray","jersey":21,"position_context":"Reserve","squad_state":"RESERVE"},
+        {"player":"Faaletino Tavana","jersey":22,"position_context":"Reserve","squad_state":"RESERVE"}
       ]
     }
   ],
