@@ -1,0 +1,77 @@
+{
+  "season": 2026,
+  "architecture": "PREDICTION_FAILURE_AUDIT",
+  "updated_at": "2026-09-06T06:20:00+10:00",
+  "rule": "Every incorrect genuine MAYHEM tip triggers a forensic failure audit before its lessons may affect future decisions. The audit must distinguish pre-match analytical defects from post-kickoff events and must not rewrite the frozen decision.",
+  "audits": [
+    {
+      "fixture": "Cowboys v Raiders",
+      "round": 27,
+      "frozen_tip": "Cowboys",
+      "frozen_confidence": 0.68,
+      "result": "Cowboys 30-50 Raiders",
+      "grade": "INCORRECT",
+      "severity": "MAJOR_MODEL_FAILURE",
+      "core_finding": "The 68% Cowboys confidence was not supported by the available evidence. MAYHEM stacked correlated consensus signals, failed to anchor on structural parity, and treated Canberra's debut-half uncertainty predominantly as downside instead of variance.",
+      "pre_match_evidence": {
+        "market": "Published head-to-head snapshots clustered around Cowboys $1.48-$1.55 and Raiders $2.45-$2.50. Removing bookmaker overround implies a Cowboys probability of roughly 61.7%-62.3%, materially below MAYHEM's 68%.",
+        "models": [
+          "Stats Insider: Cowboys 67%",
+          "Alphr: Cowboys 63%",
+          "NRLInsideEdge: Cowboys 54%"
+        ],
+        "structural_baseline": "Official Round 27 ladder state showed Cowboys 13-10 with -64 point differential and Raiders 10-13 with -65 point differential: effectively identical season scoring differential despite the ladder gap.",
+        "cowboys_absences": ["Jeremiah Nanai", "Griffin Neame", "Zac Laybutt"],
+        "raiders_context": ["Canberra entered off a Round 26 bye", "Coby Black debuted at halfback after strong NSW Cup form", "Josh Papalii farewell match", "Raiders retained substantial senior forward experience including Papalii and Joe Tapine"],
+        "weather": "Dry, mild-to-warm Townsville conditions; NO_EFFECT."
+      },
+      "failure_mechanisms": [
+        {
+          "code": "CONFIDENCE_INFLATION",
+          "finding": "MAYHEM set 68%, around six percentage points above the normalized market baseline, without independent evidence strong enough to justify the uplift."
+        },
+        {
+          "code": "CORRELATED_EVIDENCE_STACKING",
+          "finding": "Market price plus two model outputs were treated as multiple corroborating signals even though they may share common priors, market information or team-strength inputs. Consensus was mistaken for independence."
+        },
+        {
+          "code": "STRUCTURAL_PARITY_SUPPRESSION",
+          "finding": "The Cowboys' finals position and home record were allowed to dominate a critical counter-signal: Cowboys and Raiders had almost identical season point differentials (-64 versus -65)."
+        },
+        {
+          "code": "ROSTER_DEPLETION_UNDERWEIGHT",
+          "finding": "Nanai, Neame and Laybutt were all unavailable. The existing checkpoint acknowledged the attrition but did not reduce confidence enough relative to the structural baseline."
+        },
+        {
+          "code": "DEBUTANT_VARIANCE_MISCLASSIFICATION",
+          "finding": "Coby Black's debut was used mainly as a Canberra weakness. The correct pre-match treatment was high uncertainty/variance because strong lower-grade performance created both downside and upside tails."
+        },
+        {
+          "code": "ADVERSARIAL_CASE_MISSING",
+          "finding": "The decision record did not force a full Raiders-win case before freezing Cowboys. A MAYHEM decision must attempt to defeat its own preferred hypothesis before confidence is accepted."
+        }
+      ],
+      "post_match_validation": {
+        "verified": [
+          "Raiders won 50-30.",
+          "Coby Black scored 26 points on debut from two tries and nine goals.",
+          "Reuben Cotter was sin-binned in the opening passage after high contact on Josh Papalii.",
+          "Canberra established an 18-0 early lead."
+        ],
+        "interpretation": "The Cotter sin-bin was a post-kickoff event and cannot be used to claim the pre-match Raiders case was obvious. It is therefore excluded as a pre-match analytical defect. The larger failure remains that 68% confidence was unjustified before the game began."
+      },
+      "mandatory_corrections": [
+        "NORMALISE_MARKET: convert head-to-head prices to overround-adjusted implied probabilities before using market probability as a reference.",
+        "INDEPENDENCE_GRAPH: evidence from market-linked or shared-input models counts as one evidence family unless independence is established.",
+        "CONFIDENCE_JUSTIFICATION_GATE: any MAYHEM confidence more than 3 percentage points above the normalized market requires explicit independent evidence and a written causal mechanism.",
+        "STRUCTURAL_BASELINE_GATE: compare season point differential, recent scoring differential and venue split before narrative factors such as ladder position or finals status can increase confidence.",
+        "ROSTER_BURDEN_GATE: quantify directional roster losses by unit and replacement quality before home advantage is applied.",
+        "DEBUTANT_VARIANCE_RULE: debut/low-sample players expand uncertainty unless evidence supports a directional downgrade; novelty alone is not negative evidence.",
+        "ADVERSARIAL_INVERSION: before every freeze, construct the strongest evidence-supported case for the opposing selection and record what would falsify the preferred tip.",
+        "INCORRECT_TIP_HALT: after an incorrect genuine tip, the failure audit must be completed before learned weights are carried into later fixtures."
+      ],
+      "learning_state": "ACTIVE_FROM_NEXT_DECISION",
+      "integrity": "No retrospective tip switch. Cowboys 68% remains frozen and incorrect. The audit changes future process, not the historical record."
+    }
+  ]
+}
