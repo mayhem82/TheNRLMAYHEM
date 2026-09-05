@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "architecture": "DECISION_CALIBRATION",
-  "updated_at": "2026-09-05T17:35:43+10:00",
+  "updated_at": "2026-09-05T20:21:24+10:00",
   "predictions": [
     {
       "fixture": "Warriors v Sea Eagles",
@@ -16,14 +16,28 @@
       "brier_score": 0.1024,
       "result_source": "NRL.com official live blog",
       "graded_at": "2026-09-05T17:35:43+10:00"
+    },
+    {
+      "fixture": "Cowboys v Raiders",
+      "round": 27,
+      "kickoff": "2026-09-05T17:30:00+10:00",
+      "frozen_tip": "Cowboys",
+      "frozen_probability": 0.68,
+      "freeze_state": "FROZEN_PRE_MATCH",
+      "result": "Cowboys 30-50 Raiders",
+      "outcome": 0,
+      "grade": "INCORRECT",
+      "brier_score": 0.4624,
+      "result_source": "NRL.com official live blog",
+      "graded_at": "2026-09-05T20:21:24+10:00"
     }
   ],
   "metrics": {
-    "graded_predictions": 1,
-    "accuracy": 1.0,
-    "brier_score": 0.1024,
+    "graded_predictions": 2,
+    "accuracy": 0.5,
+    "brier_score": 0.2824,
     "calibration_bands": {
-      "60-69": {"n": 1, "wins": 1, "observed_rate": 1.0}
+      "60-69": {"n": 2, "wins": 1, "observed_rate": 0.5}
     },
     "confidence_bias": null
   },
