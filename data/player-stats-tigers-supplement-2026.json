@@ -1,0 +1,38 @@
+{
+  "season": 2026,
+  "team": "Wests Tigers",
+  "architecture": "PLAYER_STATISTICAL_SUPPLEMENT",
+  "captured_at": "2026-09-06T07:54:00+10:00",
+  "players": [
+    {
+      "player": "Charlie Murray",
+      "team": "Wests Tigers",
+      "profile_state": "VERIFIED_LOW_SAMPLE",
+      "career": {"appearances": 7, "tries": 0},
+      "season": {"appearances": 2, "tries": 0, "line_breaks": 0, "line_break_assists": 0, "offloads": 0, "tackles_made": 39, "average_running_metres": 21, "total_running_metres": 42, "fantasy_points": 35, "fantasy_average": 17.5},
+      "recent_rounds": [
+        {"round":14,"opponent":"Panthers","position":"Lock","minutes":40,"tackles_made":32,"missed_tackles":1,"running_metres":36,"post_contact_metres":14},
+        {"round":22,"opponent":"Eels","position":"Interchange","minutes":3,"tackles_made":7,"missed_tackles":0,"running_metres":5}
+      ],
+      "source": "https://www.nrl.com/players/nrl-premiership/wests-tigers/charlie-murray/"
+    },
+    {
+      "player": "Heath Mason",
+      "team": "Wests Tigers",
+      "profile_state": "VERIFIED",
+      "career": {"appearances": 19, "tries": 2},
+      "season": {"appearances": 5, "tries": 0, "goals": 2, "try_assists": 1, "line_breaks": 0, "tackle_breaks": 8, "receipts": 114, "tackles_made": 33, "missed_tackles": 11, "average_running_metres": 88, "total_running_metres": 444, "average_kicking_metres": 27.8, "fantasy_points": 86, "fantasy_average": 17.2},
+      "source": "https://www.weststigers.com.au/teams/nrl-premiership/wests-tigers/heath-mason/"
+    },
+    {
+      "player": "Vaka Aho",
+      "team": "Wests Tigers",
+      "profile_state": "VERIFIED_PRE_DEBUT",
+      "career": {"appearances": 0, "tries": 0},
+      "season": null,
+      "lower_grade": {"competition":"NSW Cup","season":2026,"appearances":21},
+      "note": "Named to make NRL debut from the bench in Round 27. No completed NRL sample exists before kickoff.",
+      "source": "https://www.weststigers.com.au/news/2026/09/05/squad-update-nrl-round-27-v-panthers/"
+    }
+  ]
+}
