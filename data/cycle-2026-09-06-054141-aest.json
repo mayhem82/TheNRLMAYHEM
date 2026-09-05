@@ -1,0 +1,35 @@
+{
+  "cycle_capture_time_sydney": "2026-09-06T05:41:41+10:00",
+  "cycle_type": "HOURLY_RECONCILIATION",
+  "lifecycle_reconciliation": {
+    "Warriors v Sea Eagles": "VERIFIED_RESULT",
+    "Cowboys v Raiders": "VERIFIED_RESULT_REPAIRED_FROM_RESULT_VERIFICATION_PENDING",
+    "Sharks v Storm": "VERIFIED_RESULT",
+    "next_fixture": "Dragons v Eels"
+  },
+  "audit_repairs": [
+    "Cowboys confidence corrected from stale 72% public/backend state to genuine frozen 68%.",
+    "Cowboys result persisted as Raiders 50-30 Cowboys; frozen Cowboys 68% graded INCORRECT.",
+    "Sharks v Storm result remains Storm 24-20 Sharks but grade set NOT_GRADED because T-10 was MISSED_NOT_CAPTURED and 84% was not a valid frozen calibration prediction.",
+    "Dragons v Eels and Panthers v Wests Tigers T-24 states preserved as MISSED_NOT_CAPTURED."
+  ],
+  "checkpoint_due": false,
+  "next_checkpoint": {
+    "fixture": "Dragons v Eels",
+    "checkpoint": "T-3h",
+    "due_sydney": "2026-09-06T11:00:00+10:00"
+  },
+  "weather": "NOT_DUE_THIS_CYCLE; mandatory weather capture applies at due checkpoint",
+  "market": "NOT_DUE_THIS_CYCLE",
+  "information_advantage_change": "NONE",
+  "public_persistence": {
+    "backend_data": "PERSISTED",
+    "season_html": "PERSISTENCE_FAILED_STALE_HARDCODED_PRESENTATION",
+    "other_public_views": "RECONCILIATION_NOT_PROVEN"
+  },
+  "sources_checked": [
+    "NRL.com Round 27 official live blog/results",
+    "NRL.com official 2026 draw",
+    "TheNRLMAYHEM repository season and calibration data"
+  ]
+}
