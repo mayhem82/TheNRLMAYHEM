@@ -1,0 +1,14 @@
+{
+  "season": 2026,
+  "architecture": "DECISION_CALIBRATION",
+  "updated_at": null,
+  "predictions": [],
+  "metrics": {
+    "graded_predictions": 0,
+    "accuracy": null,
+    "brier_score": null,
+    "calibration_bands": {},
+    "confidence_bias": null
+  },
+  "integrity": "Only genuine frozen pre-match probabilities may enter calibration. Historical results without contemporaneous MAYHEM probabilities are excluded."
+}
