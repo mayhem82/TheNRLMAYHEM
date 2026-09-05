@@ -1,0 +1,74 @@
+{
+  "captured_at":"2026-09-05T19:18:52+10:00",
+  "timezone":"Australia/Sydney",
+  "active_fixture":"Cowboys v Raiders",
+  "events":[
+    {
+      "fixture":"Warriors v Sea Eagles",
+      "stage":"POST",
+      "classification":"VERIFIED",
+      "result":"Warriors 31-30 Sea Eagles",
+      "frozen_tip":"Warriors",
+      "frozen_probability":0.68,
+      "grade":"CORRECT",
+      "calibration_state":"ALREADY_PERSISTED",
+      "learning":"Outcome validates the frozen selection only. It does not demonstrate causal value from any individual player signal or information advantage."
+    },
+    {
+      "fixture":"Cowboys v Raiders",
+      "stage":"IN_PLAY_MATERIAL_CHANGE",
+      "classification":"VERIFIED",
+      "live_state":"Raiders 42-24 at 64:17 in the latest official NRL state available to this cycle",
+      "frozen_tip":"Cowboys",
+      "frozen_probability":0.68,
+      "decision_integrity":"FROZEN_PRE_MATCH_UNCHANGED",
+      "player_observations":[
+        {"player":"Coby Black","team":"Raiders","classification":"VERIFIED","observation":"Two tries and 20 points by 53 minutes in his NRL debut; materially outperforming the uncertainty attached to the debut-halfback signal."},
+        {"player":"Xavier Savage","team":"Raiders","classification":"VERIFIED","observation":"Two tries by 34 minutes, with Canberra repeatedly producing right-side attacking success."},
+        {"player":"Reuben Cotter","team":"Cowboys","classification":"VERIFIED","observation":"Sent to the sin bin from the opening exchange for high contact on Josh Papalii."},
+        {"player":"Josh Papalii","team":"Raiders","classification":"VERIFIED","observation":"Passed HIA and returned; scored at 30 minutes."}
+      ],
+      "matchup_observation":"The pre-match Cowboys preference is under severe live contradiction. Canberra's attack, particularly through Black/Weekes/Savage involvement, has generated a decisive scoreboard advantage. This is post-freeze evidence and cannot alter the recorded pre-match decision.",
+      "weather":{"source":"Bureau of Meteorology Townsville Aero","observation_time":"2026-09-05T19:00:00+10:00","temperature_c":21.8,"humidity_pct":81,"wind":"ENE 17 km/h, gusting 20 km/h","rain_since_9am_mm":0.0,"decision_effect":"NO_EFFECT"}
+    },
+    {
+      "fixture":"Cowboys v Raiders",
+      "stage":"T-60m",
+      "due":"2026-09-05T16:30:00+10:00",
+      "status":"MISSED_NOT_CAPTURED"
+    },
+    {
+      "fixture":"Cowboys v Raiders",
+      "stage":"T-10m",
+      "due":"2026-09-05T17:20:00+10:00",
+      "status":"MISSED_NOT_CAPTURED"
+    },
+    {
+      "fixture":"Sharks v Storm",
+      "stage":"T-3h",
+      "due":"2026-09-05T16:35:00+10:00",
+      "status":"MISSED_NOT_CAPTURED"
+    },
+    {
+      "fixture":"Sharks v Storm",
+      "stage":"T-60m",
+      "due":"2026-09-05T18:35:00+10:00",
+      "status":"MISSED_NOT_CAPTURED"
+    },
+    {
+      "fixture":"Panthers v Wests Tigers",
+      "stage":"T-24h",
+      "due":"2026-09-05T16:05:00+10:00",
+      "status":"MISSED_NOT_CAPTURED"
+    },
+    {
+      "fixture":"Sharks v Storm",
+      "stage":"PRE_T-10_OBSERVATION",
+      "status":"NOT_YET_DUE_AT_CAPTURE",
+      "due":"2026-09-05T19:25:00+10:00",
+      "team_state":{"Sharks":"Toby Rudolf starts; Jesse Colquhoun bench. Nicho Hynes, Blayke Brailey and Teig Wilton rested; Niwhai Puru at halfback, Riley Pollard debut at five-eighth, Hohepa Puru at hooker, Michael Gabrael debut in centres.","Storm":"Official late mail reports 1-19 with no late changes."},
+      "weather":{"source":"Bureau of Meteorology 19:00 Sydney-area observations","nearest_relevant_signals":"Kurnell NNW 33 km/h gusting 41; Sydney Airport 23.5C, NW 24 km/h gusting 33, 0.4 mm rain since 9am","classification":"VERIFIED","inference":"Wind is materially stronger than the earlier benign-weather assumption and must be re-tested at T-10 for kicking/high-ball effects; no directional team advantage assigned yet."}
+    }
+  ],
+  "integrity":"No missed checkpoint was reconstructed. Live evidence does not rewrite frozen pre-match decisions."
+}
