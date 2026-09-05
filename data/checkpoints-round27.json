@@ -1,1 +1,130 @@
-{"generated_at":"2026-09-05T13:52:49+10:00","timezone":"Australia/Sydney","round":27,"fixtures":[{"fixture_id":"R27-WAR-MAN","match":"Warriors v Sea Eagles","kickoff":"2026-09-05T15:00:00+10:00","checkpoints":[{"stage":"T-24h","due":"2026-09-04T15:00:00+10:00","status":"MISSED_NOT_CAPTURED"},{"stage":"T-3h","due":"2026-09-05T12:00:00+10:00","status":"CAPTURED_IN_WINDOW","captured_at":"2026-09-05T13:52:49+10:00","findings":["Official NRL late mail confirms Leka Halasima out with ankle injury.","Taine Tuaupiki named at fullback; Charnze Nicoll-Klokstad returns in the centres.","Te Maire Martin and Chanel Harris-Tavita return from hamstring injuries.","Wayde Egan and Kurt Capewell rested.","Sea Eagles reported unchanged from the prior starting side at the Friday 24-hour update."],"source_class":"OFFICIAL","evidence_state":"VERIFIED"},{"stage":"T-60m","due":"2026-09-05T14:00:00+10:00","status":"PENDING"},{"stage":"T-10m","due":"2026-09-05T14:50:00+10:00","status":"PENDING"},{"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}]},{"fixture_id":"R27-COW-CAN","match":"Cowboys v Raiders","kickoff":"2026-09-05T17:30:00+10:00","checkpoints":[{"stage":"T-24h","due":"2026-09-04T17:30:00+10:00","status":"MISSED_NOT_CAPTURED"},{"stage":"T-3h","due":"2026-09-05T14:30:00+10:00","status":"PENDING"},{"stage":"T-60m","due":"2026-09-05T16:30:00+10:00","status":"PENDING"},{"stage":"T-10m","due":"2026-09-05T17:20:00+10:00","status":"PENDING"},{"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}]},{"fixture_id":"R27-SHA-MEL","match":"Sharks v Storm","kickoff":"2026-09-05T19:35:00+10:00","checkpoints":[{"stage":"T-24h","due":"2026-09-04T19:35:00+10:00","status":"MISSED_NOT_CAPTURED"},{"stage":"T-3h","due":"2026-09-05T16:35:00+10:00","status":"PENDING"},{"stage":"T-60m","due":"2026-09-05T18:35:00+10:00","status":"PENDING"},{"stage":"T-10m","due":"2026-09-05T19:25:00+10:00","status":"PENDING"},{"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}]},{"fixture_id":"R27-DRA-PAR","match":"Dragons v Eels","kickoff":"2026-09-06T14:00:00+10:00","checkpoints":[{"stage":"T-24h","due":"2026-09-05T14:00:00+10:00","status":"PENDING"},{"stage":"T-3h","due":"2026-09-06T11:00:00+10:00","status":"PENDING"},{"stage":"T-60m","due":"2026-09-06T13:00:00+10:00","status":"PENDING"},{"stage":"T-10m","due":"2026-09-06T13:50:00+10:00","status":"PENDING"},{"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}]},{"fixture_id":"R27-PEN-WST","match":"Panthers v Wests Tigers","kickoff":"2026-09-06T16:05:00+10:00","checkpoints":[{"stage":"T-24h","due":"2026-09-05T16:05:00+10:00","status":"PENDING"},{"stage":"T-3h","due":"2026-09-06T13:05:00+10:00","status":"PENDING"},{"stage":"T-60m","due":"2026-09-06T15:05:00+10:00","status":"PENDING"},{"stage":"T-10m","due":"2026-09-06T15:55:00+10:00","status":"PENDING"},{"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}]}]}
+{
+  "generated_at": "2026-09-05T14:02:10+10:00",
+  "timezone": "Australia/Sydney",
+  "round": 27,
+  "fixtures": [
+    {
+      "fixture_id": "R27-WAR-MAN",
+      "match": "Warriors v Sea Eagles",
+      "kickoff": "2026-09-05T15:00:00+10:00",
+      "current_tip": "Warriors",
+      "confidence": 68,
+      "checkpoints": [
+        {"stage":"T-24h","due":"2026-09-04T15:00:00+10:00","status":"MISSED_NOT_CAPTURED"},
+        {
+          "stage":"T-3h",
+          "due":"2026-09-05T12:00:00+10:00",
+          "status":"CAPTURED_IN_WINDOW",
+          "captured_at":"2026-09-05T13:52:49+10:00",
+          "findings":[
+            "Official NRL late mail confirms Leka Halasima out with ankle injury.",
+            "Taine Tuaupiki named at fullback; Charnze Nicoll-Klokstad returns in the centres.",
+            "Te Maire Martin and Chanel Harris-Tavita return from hamstring injuries.",
+            "Wayde Egan and Kurt Capewell rested.",
+            "Sea Eagles reported unchanged from the prior starting side at the Friday 24-hour update."
+          ],
+          "source_class":"OFFICIAL",
+          "evidence_state":"VERIFIED"
+        },
+        {
+          "stage":"T-60m",
+          "due":"2026-09-05T14:00:00+10:00",
+          "status":"CAPTURED",
+          "captured_at":"2026-09-05T14:02:10+10:00",
+          "source_facts":[
+            {"classification":"VERIFIED","fact":"Official NRL final-team state confirms Leka Halasima is out with an ankle injury; Taine Tuaupiki is at fullback, Charnze Nicoll-Klokstad on the wing and Adam Pompey at centre."},
+            {"classification":"VERIFIED","fact":"Te Maire Martin and Chanel Harris-Tavita return in the halves; Wayde Egan and Kurt Capewell are rested."},
+            {"classification":"VERIFIED","fact":"Manly's official final team reported no game-day starting-side changes; Blake Wilson dropped out of the squad."},
+            {"classification":"VERIFIED","fact":"Observed Sportsbet head-to-head market: Warriors $1.32, Sea Eagles $3.37."},
+            {"classification":"CONTRADICTED","fact":"The earlier T-3h positional statement that Nicoll-Klokstad returned in the centres is contradicted by the current official final-team state; he is on the wing and Pompey is at centre."},
+            {"classification":"SIGNAL","fact":"Sportsbet's published prediction supports Warriors outright but its embedded team list still showed Halasima, demonstrating stale secondary team-list content relative to official late mail."}
+          ],
+          "conflicts":["EARLIER_CHECKPOINT_VS_FINAL_TEAM_POSITION","OFFICIAL_VS_STALE_SECONDARY_TEAM_LIST"],
+          "inference":"The final-team state does not create sufficient new evidence to reverse the existing Warriors selection. The principal decision-relevant negative remains Halasima's absence, already incorporated into the prior confidence reduction.",
+          "decision_effect":"NO_EFFECT",
+          "tip":"Warriors",
+          "confidence":68,
+          "next_checkpoint":"T-10m",
+          "next_due":"2026-09-05T14:50:00+10:00"
+        },
+        {"stage":"T-10m","due":"2026-09-05T14:50:00+10:00","status":"PENDING"},
+        {"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}
+      ]
+    },
+    {
+      "fixture_id":"R27-COW-CAN",
+      "match":"Cowboys v Raiders",
+      "kickoff":"2026-09-05T17:30:00+10:00",
+      "current_tip":"Cowboys",
+      "confidence":72,
+      "checkpoints":[
+        {"stage":"T-24h","due":"2026-09-04T17:30:00+10:00","status":"MISSED_NOT_CAPTURED"},
+        {"stage":"T-3h","due":"2026-09-05T14:30:00+10:00","status":"PENDING"},
+        {"stage":"T-60m","due":"2026-09-05T16:30:00+10:00","status":"PENDING"},
+        {"stage":"T-10m","due":"2026-09-05T17:20:00+10:00","status":"PENDING"},
+        {"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}
+      ]
+    },
+    {
+      "fixture_id":"R27-SHA-MEL",
+      "match":"Sharks v Storm",
+      "kickoff":"2026-09-05T19:35:00+10:00",
+      "current_tip":"Storm",
+      "confidence":84,
+      "checkpoints":[
+        {"stage":"T-24h","due":"2026-09-04T19:35:00+10:00","status":"MISSED_NOT_CAPTURED"},
+        {"stage":"T-3h","due":"2026-09-05T16:35:00+10:00","status":"PENDING"},
+        {"stage":"T-60m","due":"2026-09-05T18:35:00+10:00","status":"PENDING"},
+        {"stage":"T-10m","due":"2026-09-05T19:25:00+10:00","status":"PENDING"},
+        {"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}
+      ]
+    },
+    {
+      "fixture_id":"R27-DRA-PAR",
+      "match":"Dragons v Eels",
+      "kickoff":"2026-09-06T14:00:00+10:00",
+      "current_tip":"Eels",
+      "confidence":62,
+      "checkpoints":[
+        {
+          "stage":"T-24h",
+          "due":"2026-09-05T14:00:00+10:00",
+          "status":"CAPTURED",
+          "captured_at":"2026-09-05T14:02:10+10:00",
+          "source_facts":[
+            {"classification":"VERIFIED","fact":"Official NRL team state has Blake Lawrie starting at prop for the Dragons, Loko Pasifiki Tonga at lock and Ryan Couchman on the bench."},
+            {"classification":"VERIFIED","fact":"Jordan Samrani returns for Parramatta in the centres; Sean Russell shifts to the interchange. Jack de Belin is on the bench and Tyrese Lokeni is in line for an NRL debut."},
+            {"classification":"VERIFIED","fact":"Official NRL statistics: Dragons have lost their last five at WIN Stadium; Eels have won five of their past six against the Dragons; Eels have not won in Wollongong since 2017; Dragons have conceded 88 points across their last two losses."},
+            {"classification":"VERIFIED","fact":"Observed Sportsbet head-to-head market: Dragons $2.25, Eels $1.65."},
+            {"classification":"SIGNAL","fact":"Sportsbet's published Round 27 prediction selects Parramatta and cites recent attacking form plus historical day-match results."}
+          ],
+          "conflicts":["FORM_AND_HEAD_TO_HEAD_FAVOUR_EELS_VS_WOLLONGONG_VENUE_HISTORY"],
+          "inference":"The evidence remains mixed but still leans Parramatta: recent form, broader head-to-head record and market state support the Eels, while the long Wollongong drought is a counter-signal rather than sufficient contradictory evidence.",
+          "decision_effect":"NO_EFFECT",
+          "tip":"Eels",
+          "confidence":62,
+          "next_checkpoint":"T-3h",
+          "next_due":"2026-09-06T11:00:00+10:00"
+        },
+        {"stage":"T-3h","due":"2026-09-06T11:00:00+10:00","status":"PENDING"},
+        {"stage":"T-60m","due":"2026-09-06T13:00:00+10:00","status":"PENDING"},
+        {"stage":"T-10m","due":"2026-09-06T13:50:00+10:00","status":"PENDING"},
+        {"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}
+      ]
+    },
+    {
+      "fixture_id":"R27-PEN-WST",
+      "match":"Panthers v Wests Tigers",
+      "kickoff":"2026-09-06T16:05:00+10:00",
+      "current_tip":"Panthers",
+      "confidence":86,
+      "checkpoints":[
+        {"stage":"T-24h","due":"2026-09-05T16:05:00+10:00","status":"PENDING"},
+        {"stage":"T-3h","due":"2026-09-06T13:05:00+10:00","status":"PENDING"},
+        {"stage":"T-60m","due":"2026-09-06T15:05:00+10:00","status":"PENDING"},
+        {"stage":"T-10m","due":"2026-09-06T15:55:00+10:00","status":"PENDING"},
+        {"stage":"POST","due":"AFTER_FULL_TIME","status":"PENDING"}
+      ]
+    }
+  ]
+}
