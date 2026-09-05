@@ -1,0 +1,9 @@
+{
+  "season": 2026,
+  "architecture": "INFORMATION_ADVANTAGE_LEDGER",
+  "updated_at": null,
+  "events": [],
+  "advantage_classes": ["NONE", "POSSIBLE", "CORROBORATED", "DEMONSTRATED"],
+  "required_fields": ["fixture", "signal", "public_available_at", "captured_at", "source_class", "fragments", "inference", "market_state_at_capture", "market_response_at", "decision_effect", "frozen_state", "outcome_validation", "advantage_class"],
+  "integrity": "A correct result alone cannot establish information advantage. Temporal ordering and decision effect must be preserved."
+}
