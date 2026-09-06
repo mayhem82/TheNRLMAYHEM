@@ -1,0 +1,53 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "architecture": "PORTABLE_CONTINUITY_INTELLIGENCE",
+  "derived_from": "Persona Continuity Risk Engine structural method, adapted to football evidence rather than personality inference",
+  "implemented_at": "2026-09-06T10:54:00+10:00",
+  "purpose": "Measure what remains structurally stable, what has materially changed, and whether a current match inference is genuinely supported by continuity or contradicted by a recent delta.",
+  "hierarchy": ["Source","Observation","Player","Team Baseline","Continuity Delta","Matchup","Match","Market","Frozen Decision","Outcome","Audit","Learned Weight","next Match"],
+  "vectors": [
+    {"id":"01","name":"Structural Baseline","football_translation":"Season W-L, points for/against, point differential and scoring rates establish the team's persistent performance frame.","rule":"Baseline is descriptive evidence, not a prediction by itself."},
+    {"id":"02","name":"Recent Performance Delta","football_translation":"Compare recent scoring differential with the season baseline to detect genuine change in current output.","rule":"Keep raw season and recent values visible. Never compress a material delta into a generic form label."},
+    {"id":"03","name":"Role and Personnel Continuity","football_translation":"Track named roles, availability, returns, withdrawals, combinations and replacement effects against the prior team state.","rule":"No news is NO_MATERIAL_CHANGE only when roster coverage is actually complete."},
+    {"id":"04","name":"Adaptability Under Pressure","football_translation":"Observe how verified role or tactical changes perform under injury, rotation, weather, finals pressure or opponent-specific disruption.","rule":"Adaptability requires repeated outcome evidence. A single successful change is not a stable trait."},
+    {"id":"05","name":"Decision Continuity","football_translation":"Test whether the frozen MAYHEM selection remains consistent with the latest verified evidence or survives only because the original narrative is being defended.","rule":"A material evidence delta must be acknowledged before continuity of selection can be claimed."},
+    {"id":"06","name":"Outcome Continuity","football_translation":"Post-match, test whether the observed outcome reinforces, contradicts or leaves unresolved the pre-match structural model.","rule":"Outcome alone cannot validate a causal mechanism; audit the evidence path."}
+  ],
+  "delta_engine": {
+    "season_metric": "season point differential per completed match",
+    "recent_metric": "last-five point differential per completed match",
+    "delta": "recent_metric - season_metric",
+    "classification": {
+      "VERY_LOW": "absolute delta < 2 points per match",
+      "LOW": "absolute delta >= 2 and < 5",
+      "MODERATE": "absolute delta >= 5 and < 10",
+      "MATERIAL": "absolute delta >= 10"
+    },
+    "direction": "UP if delta > 0; DOWN if delta < 0; FLAT if delta = 0",
+    "integrity": "Thresholds are transparent operational bands, not claims of statistical significance."
+  },
+  "portable_lattice": [
+    "Season Structural Baseline",
+    "Recent Performance Delta",
+    "Roster / Role Continuity",
+    "Pressure Event",
+    "Weather + Venue + Matchup",
+    "Market State",
+    "Persist With Selection or Adapt",
+    "Frozen Decision",
+    "Outcome Validation",
+    "Failure / Success Audit",
+    "Learned Weight"
+  ],
+  "containment_matrix": [
+    {"risk":"Evidence compression","containment":"Keep season baseline, recent delta, roster, player statistics, weather, matchup and market as separate evidence families."},
+    {"risk":"Selection inertia","containment":"If current evidence materially contradicts the frozen preference before T-10m, explicitly record the discontinuity and re-run gates rather than defending continuity."},
+    {"risk":"Recent-form dominance","containment":"Do not let a short recent run erase the season structural baseline without evidence that the underlying mechanism changed."},
+    {"risk":"Legacy/team-reputation inertia","containment":"Club history, ladder reputation and prior finals success cannot substitute for current roster and performance evidence."},
+    {"risk":"Low-sample overreach","containment":"Debutants and short NRL samples remain uncertainty unless directional evidence exists."},
+    {"risk":"Narrative continuity masking substantive change","containment":"When personnel, role, weather, matchup or market conditions change materially, show the delta explicitly before saying the original football rationale remains intact."}
+  ],
+  "public_surface_rule": "Expose useful baseline, delta, role-continuity and falsification information. Keep internal weighting mechanics and calibration eligibility out of ordinary tipping presentation.",
+  "learning_rule": "Only audited post-match evidence may convert an observed continuity pattern into a learned future weight."
+}
