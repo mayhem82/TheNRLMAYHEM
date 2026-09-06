@@ -1,0 +1,44 @@
+{
+  "cycle_id": "NRL-MAYHEM-2026-09-06T17:21:44+10:00",
+  "captured_at": "2026-09-06T17:21:44+10:00",
+  "timezone": "Australia/Sydney",
+  "active_fixture_precedence": "R27-PEN-WST",
+  "lifecycle_reconciliation": {
+    "Dragons v Eels": "VERIFIED_RESULT",
+    "Panthers v Wests Tigers": "MATCH_WINDOW"
+  },
+  "checkpoint_integrity": {
+    "Panthers v Wests Tigers T-10m": "MISSED_NOT_CAPTURED",
+    "rule": "No post-kickoff reconstruction permitted."
+  },
+  "active_fixture_observations": [
+    {
+      "fixture": "Panthers v Wests Tigers",
+      "source": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/",
+      "source_class": "OFFICIAL_PRIMARY",
+      "classification": "VERIFIED_OBSERVATION_WITH_TEMPORAL_LAG",
+      "source_state": "Live 39:37",
+      "score": "Panthers 26-0 Wests Tigers",
+      "note": "This official live-blog observation is newer than the repository live state (16-0 at 21:56) but is not asserted as the present real-time score because the source render may itself lag the wall clock."
+    }
+  ],
+  "persistence_audit": {
+    "repository_live_state": "STALE",
+    "repository_live_captured_at": "2026-09-06T16:32:28.008+10:00",
+    "public_render_classification": "RENDER_STALE",
+    "tier_infinity": {
+      "prior_run": 34017476280,
+      "prior_state": "FAILED",
+      "failure": "Validator expected POST status RESULT_VERIFIED while canonical checkpoint state uses VERIFIED_RESULT.",
+      "repair_commit": "75b26ef0f9b160c20513baba6e0d5501c941ebe6",
+      "repair": "Validator invariant aligned to canonical VERIFIED_RESULT status.",
+      "verification_state": "REVALIDATION_QUEUED"
+    }
+  },
+  "decision_integrity": {
+    "selection": "Panthers",
+    "confidence": 86,
+    "frozen_pre_match_state_unchanged": true,
+    "post_kickoff_observations_do_not_modify_freeze": true
+  }
+}
