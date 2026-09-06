@@ -1,0 +1,106 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-06T19:30:40+10:00",
+  "source_class": "OFFICIAL_NRL",
+  "source_url": "https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/",
+  "source_published": "2026-09-06T18:47:00+10:00",
+  "status": "VERIFIED_FIXTURES",
+  "fixtures": [
+    {
+      "id": "FW1-SS-NKN-2026-09-11",
+      "type": "ELIMINATION_FINAL",
+      "home": "Rabbitohs",
+      "away": "Knights",
+      "seed_home": 6,
+      "seed_away": 7,
+      "venue": "Allianz Stadium",
+      "kickoff_sydney": "2026-09-11T19:50:00+10:00",
+      "lifecycle": "UPCOMING",
+      "decision_state": "NOT_FROZEN",
+      "tip": null,
+      "confidence": null,
+      "checkpoints": {
+        "T-24h": "2026-09-10T19:50:00+10:00",
+        "T-3h": "2026-09-11T16:50:00+10:00",
+        "T-60m": "2026-09-11T18:50:00+10:00",
+        "T-10m": "2026-09-11T19:40:00+10:00",
+        "post_match": "DUE_AFTER_VERIFIED_RESULT"
+      }
+    },
+    {
+      "id": "FW1-WAR-DOL-2026-09-12",
+      "type": "QUALIFYING_FINAL",
+      "home": "Warriors",
+      "away": "Dolphins",
+      "seed_home": 2,
+      "seed_away": 3,
+      "venue": "Go Media Stadium",
+      "kickoff_sydney": "2026-09-12T16:05:00+10:00",
+      "lifecycle": "UPCOMING",
+      "decision_state": "NOT_FROZEN",
+      "tip": null,
+      "confidence": null,
+      "checkpoints": {
+        "T-24h": "2026-09-11T16:05:00+10:00",
+        "T-3h": "2026-09-12T13:05:00+10:00",
+        "T-60m": "2026-09-12T15:05:00+10:00",
+        "T-10m": "2026-09-12T15:55:00+10:00",
+        "post_match": "DUE_AFTER_VERIFIED_RESULT"
+      }
+    },
+    {
+      "id": "FW1-SHA-COW-2026-09-12",
+      "type": "ELIMINATION_FINAL",
+      "home": "Sharks",
+      "away": "Cowboys",
+      "seed_home": 5,
+      "seed_away": 8,
+      "venue": "Allianz Stadium",
+      "kickoff_sydney": "2026-09-12T19:50:00+10:00",
+      "lifecycle": "UPCOMING",
+      "decision_state": "NOT_FROZEN",
+      "tip": null,
+      "confidence": null,
+      "checkpoints": {
+        "T-24h": "2026-09-11T19:50:00+10:00",
+        "T-3h": "2026-09-12T16:50:00+10:00",
+        "T-60m": "2026-09-12T18:50:00+10:00",
+        "T-10m": "2026-09-12T19:40:00+10:00",
+        "post_match": "DUE_AFTER_VERIFIED_RESULT"
+      }
+    },
+    {
+      "id": "FW1-PEN-SYD-2026-09-13",
+      "type": "QUALIFYING_FINAL",
+      "home": "Panthers",
+      "away": "Roosters",
+      "seed_home": 1,
+      "seed_away": 4,
+      "venue": "CommBank Stadium",
+      "kickoff_sydney": "2026-09-13T16:05:00+10:00",
+      "lifecycle": "UPCOMING",
+      "decision_state": "NOT_FROZEN",
+      "tip": null,
+      "confidence": null,
+      "checkpoints": {
+        "T-24h": "2026-09-12T16:05:00+10:00",
+        "T-3h": "2026-09-13T13:05:00+10:00",
+        "T-60m": "2026-09-13T15:05:00+10:00",
+        "T-10m": "2026-09-13T15:55:00+10:00",
+        "post_match": "DUE_AFTER_VERIFIED_RESULT"
+      }
+    }
+  ],
+  "next_fixture_id": "FW1-SS-NKN-2026-09-11",
+  "next_checkpoint": {
+    "fixture_id": "FW1-SS-NKN-2026-09-11",
+    "checkpoint": "T-24h",
+    "due_sydney": "2026-09-10T19:50:00+10:00"
+  },
+  "roster_population_state": "AWAITING_OFFICIAL_FINALS_TEAM_LISTS",
+  "player_statistical_dossiers": "RETAIN_EXISTING_PERSISTENT_IDENTITIES; ENRICH/RECONCILE WHEN OFFICIAL FINALS SQUADS ARE NAMED",
+  "weather_state": "NOT_CHECKPOINT_DUE; mandatory venue weather capture begins at due checkpoint and on material forecast change",
+  "audit_note": "No finals tip or confidence is frozen by fixture publication alone. Pre-freeze MAYHEM gates remain mandatory."
+}
