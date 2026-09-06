@@ -1,7 +1,7 @@
 {
   "system": "The NRL MAYHEM",
   "season": 2026,
-  "snapshot": "RESEARCH-SITES-SNAP-003",
+  "snapshot": "RESEARCH-SITES-SNAP-004",
   "purpose": "Source-location registry for systematic NRL evidence acquisition. A listed site or endpoint is a research location, not evidence by itself.",
   "rules": [
     "Prefer NRL and official club sources for competition, roster, player, injury, judiciary and match facts.",
@@ -12,18 +12,22 @@
     "Weather evidence should prefer the Bureau of Meteorology for Australian venues where suitable local data are available.",
     "Lower-grade statistics must retain their competition identity and must never be represented as NRL Premiership production.",
     "Contradictions remain visible until a later source resolves them; resolution must identify the superseded state and the evidence that resolved it.",
-    "Current-state endpoints such as Casualty Ward, Judiciary, Ladder and Team Lists are separate research targets because they change on different clocks.",
-    "Secondary journalism and historical databases may expose candidate facts and contradictions; material claims should be returned to primary evidence where possible."
+    "Current-state endpoints such as Casualty Ward, Judiciary, Ladder, Team Lists and Stats are separate research targets because they change on different clocks.",
+    "Secondary journalism and historical databases may expose candidate facts and contradictions; material claims should be returned to primary evidence where possible.",
+    "Fantasy-derived statistics and position-versus-team models are research signals only; preserve their methodology and never silently equate fantasy scoring with football performance.",
+    "Historical annuals and round programmes may be used for temporal reconstruction but current-state claims require current evidence."
   ],
   "sites": [
     {"name":"NRL.com","url":"https://www.nrl.com/","class":"PRIMARY_OFFICIAL","research_use":"Competition-wide official source."},
     {"name":"NRL Clubs Directory","url":"https://www.nrl.com/clubs/","class":"PRIMARY_OFFICIAL_DIRECTORY","research_use":"Current NRL clubs and official club navigation."},
     {"name":"NRL Players","url":"https://www.nrl.com/players/","class":"PRIMARY_OFFICIAL_STATS","research_use":"Official player discovery, profiles and published statistics."},
+    {"name":"NRL Stats","url":"https://www.nrl.com/stats/","class":"PRIMARY_OFFICIAL_STATS","research_use":"Competition-filtered official player and team statistics across NRL and lower-grade competitions. Preserve competition and season filters with every capture."},
     {"name":"NRL Ladder","url":"https://www.nrl.com/ladder/","class":"PRIMARY_OFFICIAL_LADDER","research_use":"Round-specific ladder, competition points, wins/losses/draws, points for/against/differential, home/away record, form, margins and other published ladder fields."},
     {"name":"NRL Casualty Ward","url":"https://www.nrl.com/casualty-ward/","class":"PRIMARY_OFFICIAL_AVAILABILITY","research_use":"Continuously changing club injury, return-target and availability research."},
     {"name":"NRL Injuries","url":"https://www.nrl.com/news/topic/injuries/","class":"PRIMARY_OFFICIAL_AVAILABILITY_NEWS","research_use":"Dated injury reports and availability changes supporting temporal reconstruction."},
     {"name":"NRL Judiciary","url":"https://www.nrl.com/news/topic/judiciary/","class":"PRIMARY_OFFICIAL_JUDICIARY","research_use":"Current judiciary news, charges, pleas, suspensions and disciplinary availability."},
     {"name":"NRL 2026 Judiciary Report","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","class":"PRIMARY_OFFICIAL_JUDICIARY_REGISTER","research_use":"Season-long charge and penalty register for player availability and disciplinary history."},
+    {"name":"NRL Team Lists","url":"https://www.nrl.com/news/topic/team-lists/","class":"PRIMARY_OFFICIAL_SELECTION","research_use":"Dated official squad announcements and selection-state changes for temporal roster reconstruction."},
     {"name":"Brisbane Broncos","url":"https://www.broncos.com.au/","class":"PRIMARY_CLUB","research_use":"Club team announcements, profiles, availability and news."},
     {"name":"Canberra Raiders","url":"https://www.raiders.com.au/","class":"PRIMARY_CLUB","research_use":"Club team announcements, profiles, availability and news."},
     {"name":"Canterbury-Bankstown Bulldogs","url":"https://www.bulldogs.com.au/","class":"PRIMARY_CLUB","research_use":"Club team announcements, profiles, availability and news."},
@@ -49,9 +53,13 @@
     {"name":"The Odds Terminal NRL","url":"https://theoddsterminal.com.au/nrl-odds-comparison","class":"SECONDARY_MARKET_COMPARISON","research_use":"Australian multi-bookmaker market comparison."},
     {"name":"PuntersEdge NRL","url":"https://puntersedge.online/nrl-odds","class":"SECONDARY_MARKET_COMPARISON","research_use":"Time-stamped multi-bookmaker NRL price comparison."},
     {"name":"Rugby League Project","url":"https://www.rugbyleagueproject.org/","class":"SECONDARY_HISTORICAL_DATABASE","research_use":"Historical match, player, team and competition reconstruction; corroborate material current claims against primary sources."},
+    {"name":"Rugby League Project Annuals","url":"https://www.rugbyleagueproject.org/annual/","class":"SECONDARY_HISTORICAL_ANNUAL","research_use":"Season-level archival publications for historical statistics, competition reconstruction and longitudinal checking."},
     {"name":"Fox Sports NRL","url":"https://www.foxsports.com.au/nrl","class":"SECONDARY_ANALYSIS_NEWS","research_use":"Independent reporting, statistical analysis, team/injury reporting and competing interpretations for contradiction and counter-case research."},
     {"name":"ABC Sport Rugby League","url":"https://www.abc.net.au/news/sport/rugby-league/","class":"SECONDARY_PUBLIC_BROADCASTER","research_use":"Independent match reporting, competition analysis and corroboration, including finals and ladder consequences."},
     {"name":"League Unlimited","url":"https://leagueunlimited.com/","class":"SECONDARY_RUGBY_LEAGUE_ARCHIVE","research_use":"Rugby league match/team archive and historical cross-checking; use as corroborative rather than primary current-state evidence."},
-    {"name":"Zero Tackle","url":"https://www.zerotackle.com/","class":"SECONDARY_RUGBY_LEAGUE_NEWS","research_use":"Roster, injury, contract and team-news leads plus divergent reporting; verify material claims against primary evidence."}
+    {"name":"League Unlimited The Front Row","url":"https://leagueunlimited.com/the-front-row/","class":"SECONDARY_ROUND_ARCHIVE","research_use":"Round-by-round programme containing previews, team lists, ladders and results across NRL and supporting competitions; useful for contemporaneous reconstruction and divergence checks."},
+    {"name":"Zero Tackle","url":"https://www.zerotackle.com/","class":"SECONDARY_RUGBY_LEAGUE_NEWS","research_use":"Roster, injury, contract and team-news leads plus divergent reporting; verify material claims against primary evidence."},
+    {"name":"NRL SuperCoach Stats","url":"https://nrlsupercoachstats.com/","class":"SECONDARY_DERIVED_STATS","research_use":"Derived player tables, minutes, draw, short turnarounds, team points, player comparisons and historical fantasy datasets. Treat methodology-derived values as secondary signals."},
+    {"name":"NRL SuperCoach Stats Position v Team","url":"https://nrlsupercoachstats.com/posnvsteam5rd.php?year=2026","class":"SECONDARY_MATCHUP_MODEL","research_use":"Position-versus-team fantasy scoring and points-per-minute conceded by opponent. Useful as a matchup hypothesis generator only, not direct causal football evidence."}
   ]
 }
