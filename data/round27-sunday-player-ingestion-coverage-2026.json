@@ -1,0 +1,35 @@
+{
+  "season": 2026,
+  "round": 27,
+  "captured_at": "2026-09-06T12:06:20+10:00",
+  "scope": "Current 24-hour rosters for Dragons, Eels, Panthers and Wests Tigers",
+  "roster_players": 80,
+  "coverage": {
+    "all_current_roster_identities_resolved": 80,
+    "current_players_with_2026_nrl_season_statistical_dossier": 77,
+    "current_players_with_verified_no_completed_2026_nrl_sample": 3,
+    "unresolved_current_roster_profile_gaps": 0
+  },
+  "teams": [
+    {"team":"Dragons","roster":20,"nrl_2026_dossiers":20,"verified_no_completed_2026_nrl_sample":0,"unresolved":0},
+    {"team":"Eels","roster":20,"nrl_2026_dossiers":19,"verified_no_completed_2026_nrl_sample":1,"unresolved":0,"non_sample_players":["Tyrese Lokeni"]},
+    {"team":"Panthers","roster":20,"nrl_2026_dossiers":19,"verified_no_completed_2026_nrl_sample":1,"unresolved":0,"non_sample_players":["Jesse McLean"]},
+    {"team":"Wests Tigers","roster":20,"nrl_2026_dossiers":19,"verified_no_completed_2026_nrl_sample":1,"unresolved":0,"non_sample_players":["Vaka Aho"]}
+  ],
+  "data_sources": [
+    "data/player-stats-2026.json",
+    "data/player-stats-dragons-eels-2026.json",
+    "data/player-stats-eels-supplement-2026.json",
+    "data/player-stats-dragons-eels-supplement-2-2026.json",
+    "data/player-stats-wests-tigers-2026.json",
+    "data/player-stats-tigers-supplement-2026.json",
+    "data/player-stats-panthers-supplement-2026.json"
+  ],
+  "integrity": [
+    "Coverage means each current named roster player has a resolved official profile state; it does not mean every possible statistical field is published.",
+    "Missing source fields remain absent rather than guessed.",
+    "NSW Cup evidence is never represented as NRL production.",
+    "Low-sample and pre-debut states remain uncertainty rather than directional evidence.",
+    "Roster must be reconciled again at the official final-team update."
+  ]
+}
