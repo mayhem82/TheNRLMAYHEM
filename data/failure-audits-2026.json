@@ -1,9 +1,80 @@
 {
   "season": 2026,
   "architecture": "PREDICTION_FAILURE_AUDIT",
-  "updated_at": "2026-09-06T06:20:00+10:00",
+  "updated_at": "2026-09-06T16:46:37+10:00",
   "rule": "Every incorrect genuine MAYHEM tip triggers a forensic failure audit before its lessons may affect future decisions. The audit must distinguish pre-match analytical defects from post-kickoff events and must not rewrite the frozen decision.",
   "audits": [
+    {
+      "fixture": "Dragons v Eels",
+      "round": 27,
+      "frozen_tip": "Eels",
+      "frozen_confidence": 0.62,
+      "decision_state_before_kickoff": "REVIEW_REQUIRED",
+      "result": "Dragons 24-22 Eels",
+      "grade": "INCORRECT",
+      "severity": "VALIDATION_GATE_FAILURE_AND_SELECTION_FAILURE",
+      "core_finding": "The Eels selection remained at 62% even though the last captured pre-match checkpoint had already established that 62% exceeded the overround-adjusted market baseline by 4.31 percentage points without sufficient independent causal evidence. The T-60m record explicitly marked the decision REVIEW_REQUIRED and did not re-freeze it; the mandatory T-10m checkpoint was then MISSED_NOT_CAPTURED. The public tipping grade remains simply INCORRECT, while internally the process failure is that an unvalidated confidence state survived to kickoff instead of being reduced or held as unresolved.",
+      "pre_match_evidence": {
+        "market": "At T-60m, Sportsbet head-to-head was Dragons $2.25 / Eels $1.65. Removing overround produced Dragons 42.31% / Eels 57.69%. MAYHEM remained Eels 62%, an uplift of +4.31 percentage points.",
+        "roster": [
+          "Dragons had no game-day change at the captured T-60m checkpoint.",
+          "Eels moved Sean Russell to fullback and Apa Twidle to the interchange shortly before kickoff.",
+          "The checkpoint correctly treated the Eels backfield reshuffle as uncertainty rather than a proven directional edge."
+        ],
+        "weather": "Mostly sunny and dry in Wollongong with west/southwesterly winds turning southerly; wind was classified as variance with no demonstrated team-specific edge.",
+        "counter_case": "The captured adversarial case identified Dragons home venue, unchanged game-day roster and the Eels backfield reshuffle as reasons the favourite did not deserve an unsupported uplift beyond normalized market probability.",
+        "checkpoint_integrity": "T-60m was captured late but before kickoff at 13:37:26 AEST. T-10m was MISSED_NOT_CAPTURED and is not retrospectively reconstructed."
+      },
+      "failure_mechanisms": [
+        {
+          "code": "CONFIDENCE_GATE_BREACH",
+          "finding": "The +4.31pp uplift above normalized market probability lacked the required independent causal football mechanism. The T-60m gate correctly detected this but the stored 62% confidence was not reduced before kickoff."
+        },
+        {
+          "code": "REVIEW_REQUIRED_NOT_RESOLVED",
+          "finding": "The latest captured pre-match state was REVIEW_REQUIRED. A review flag must prevent the same confidence from being treated as a fully validated MAYHEM freeze."
+        },
+        {
+          "code": "FINAL_FREEZE_CHECKPOINT_MISSED",
+          "finding": "The mandatory T-10m checkpoint was MISSED_NOT_CAPTURED, so there was no final evidence/market/roster validation immediately before kickoff. This does not suppress the INCORRECT tip grade, but it materially reduces process assurance."
+        },
+        {
+          "code": "ADVERSARIAL_CASE_INSUFFICIENTLY_ACTIONED",
+          "finding": "The T-60m record contained a credible Dragons counter-case but did not translate that counter-case into a confidence reduction despite the market-uplift gate already failing."
+        },
+        {
+          "code": "ROLE_CRITICAL_PLAYER_COMPARISON_INCOMPLETE",
+          "finding": "The T-60m record retained existing player dossiers but did not document the required role-critical statistical comparison after the Eels fullback reshuffle. A material late role change therefore entered the decision without a completed player-level comparison gate."
+        }
+      ],
+      "post_match_validation": {
+        "verified": [
+          "Dragons won 24-22.",
+          "Eels led 22-10 after Jordan Samrani's second try early in the second half.",
+          "Valentine Holmes left the field and Hamish Stewart failed a HIA for the Dragons.",
+          "Blake Lawrie was sin-binned in the 68th minute.",
+          "The Eels committed three consecutive errors before Connor Muhleisen's try levelled the scores 22-22.",
+          "Tyrell Sloan kicked a two-point field goal in the 75th minute for the decisive 24-22 lead."
+        ],
+        "interpretation": "The late injuries, sin-bin, errors and two-point field goal were post-kickoff events and are not backfilled into pre-match reasoning. Notably, several post-kickoff events disadvantaged the Dragons, so the result cannot be explained away as a single unforeseeable event against the Eels. The auditable pre-match defect remains the unsupported confidence uplift and unresolved validation state."
+      },
+      "confidence_error": {
+        "recorded_eels_probability": 0.62,
+        "normalized_market_eels_probability": 0.576923,
+        "uplift_pp": 4.31,
+        "finding": "At minimum, 4.31 percentage points of confidence required independent justification and did not receive it. This is a confidence-process error, not a claim that the market probability was the true ex ante probability."
+      },
+      "mandatory_corrections": [
+        "REVIEW_REQUIRED_HARD_GATE: if the latest pre-kickoff state is REVIEW_REQUIRED, no unchanged confidence may be represented internally as fully validated; reduce confidence to a supported level or preserve REVIEW_REQUIRED without validation claims.",
+        "UPLIFT_ENFORCEMENT: more than +3pp versus normalized two-sided market probability requires explicit independent evidence and causal mechanism in the same checkpoint record.",
+        "ROLE_CHANGE_STAT_GATE: a late change at fullback, halves, hooker or other role-critical position requires an explicit player-statistical comparison before directional confidence is retained.",
+        "ADVERSARIAL_ACTION_RULE: when the strongest opposing case and failed market-uplift gate point in the same direction, confidence must be reduced unless stronger independent evidence defeats that case.",
+        "T10_INTEGRITY: MISSED_NOT_CAPTURED remains immutable; no retrospective T-10 reconstruction is permitted.",
+        "TIP_GRADE_SEPARATION: the public ledger remains Eels 62% · INCORRECT; validation/calibration defects remain internal audit metadata only."
+      ],
+      "learning_state": "ACTIVE_FROM_NEXT_UNFROZEN_DECISION",
+      "integrity": "No retrospective tip switch or probability rewrite. Eels 62% remains the genuine recorded selection and is graded INCORRECT. The failure audit changes future process only."
+    },
     {
       "fixture": "Cowboys v Raiders",
       "round": 27,
@@ -15,61 +86,25 @@
       "core_finding": "The 68% Cowboys confidence was not supported by the available evidence. MAYHEM stacked correlated consensus signals, failed to anchor on structural parity, and treated Canberra's debut-half uncertainty predominantly as downside instead of variance.",
       "pre_match_evidence": {
         "market": "Published head-to-head snapshots clustered around Cowboys $1.48-$1.55 and Raiders $2.45-$2.50. Removing bookmaker overround implies a Cowboys probability of roughly 61.7%-62.3%, materially below MAYHEM's 68%.",
-        "models": [
-          "Stats Insider: Cowboys 67%",
-          "Alphr: Cowboys 63%",
-          "NRLInsideEdge: Cowboys 54%"
-        ],
+        "models": ["Stats Insider: Cowboys 67%", "Alphr: Cowboys 63%", "NRLInsideEdge: Cowboys 54%"],
         "structural_baseline": "Official Round 27 ladder state showed Cowboys 13-10 with -64 point differential and Raiders 10-13 with -65 point differential: effectively identical season scoring differential despite the ladder gap.",
         "cowboys_absences": ["Jeremiah Nanai", "Griffin Neame", "Zac Laybutt"],
         "raiders_context": ["Canberra entered off a Round 26 bye", "Coby Black debuted at halfback after strong NSW Cup form", "Josh Papalii farewell match", "Raiders retained substantial senior forward experience including Papalii and Joe Tapine"],
         "weather": "Dry, mild-to-warm Townsville conditions; NO_EFFECT."
       },
       "failure_mechanisms": [
-        {
-          "code": "CONFIDENCE_INFLATION",
-          "finding": "MAYHEM set 68%, around six percentage points above the normalized market baseline, without independent evidence strong enough to justify the uplift."
-        },
-        {
-          "code": "CORRELATED_EVIDENCE_STACKING",
-          "finding": "Market price plus two model outputs were treated as multiple corroborating signals even though they may share common priors, market information or team-strength inputs. Consensus was mistaken for independence."
-        },
-        {
-          "code": "STRUCTURAL_PARITY_SUPPRESSION",
-          "finding": "The Cowboys' finals position and home record were allowed to dominate a critical counter-signal: Cowboys and Raiders had almost identical season point differentials (-64 versus -65)."
-        },
-        {
-          "code": "ROSTER_DEPLETION_UNDERWEIGHT",
-          "finding": "Nanai, Neame and Laybutt were all unavailable. The existing checkpoint acknowledged the attrition but did not reduce confidence enough relative to the structural baseline."
-        },
-        {
-          "code": "DEBUTANT_VARIANCE_MISCLASSIFICATION",
-          "finding": "Coby Black's debut was used mainly as a Canberra weakness. The correct pre-match treatment was high uncertainty/variance because strong lower-grade performance created both downside and upside tails."
-        },
-        {
-          "code": "ADVERSARIAL_CASE_MISSING",
-          "finding": "The decision record did not force a full Raiders-win case before freezing Cowboys. A MAYHEM decision must attempt to defeat its own preferred hypothesis before confidence is accepted."
-        }
+        {"code":"CONFIDENCE_INFLATION","finding":"MAYHEM set 68%, around six percentage points above the normalized market baseline, without independent evidence strong enough to justify the uplift."},
+        {"code":"CORRELATED_EVIDENCE_STACKING","finding":"Market price plus two model outputs were treated as multiple corroborating signals even though they may share common priors, market information or team-strength inputs. Consensus was mistaken for independence."},
+        {"code":"STRUCTURAL_PARITY_SUPPRESSION","finding":"The Cowboys' finals position and home record were allowed to dominate a critical counter-signal: Cowboys and Raiders had almost identical season point differentials (-64 versus -65)."},
+        {"code":"ROSTER_DEPLETION_UNDERWEIGHT","finding":"Nanai, Neame and Laybutt were all unavailable. The existing checkpoint acknowledged the attrition but did not reduce confidence enough relative to the structural baseline."},
+        {"code":"DEBUTANT_VARIANCE_MISCLASSIFICATION","finding":"Coby Black's debut was used mainly as a Canberra weakness. The correct pre-match treatment was high uncertainty/variance because strong lower-grade performance created both downside and upside tails."},
+        {"code":"ADVERSARIAL_CASE_MISSING","finding":"The decision record did not force a full Raiders-win case before freezing Cowboys. A MAYHEM decision must attempt to defeat its own preferred hypothesis before confidence is accepted."}
       ],
       "post_match_validation": {
-        "verified": [
-          "Raiders won 50-30.",
-          "Coby Black scored 26 points on debut from two tries and nine goals.",
-          "Reuben Cotter was sin-binned in the opening passage after high contact on Josh Papalii.",
-          "Canberra established an 18-0 early lead."
-        ],
+        "verified": ["Raiders won 50-30.", "Coby Black scored 26 points on debut from two tries and nine goals.", "Reuben Cotter was sin-binned in the opening passage after high contact on Josh Papalii.", "Canberra established an 18-0 early lead."],
         "interpretation": "The Cotter sin-bin was a post-kickoff event and cannot be used to claim the pre-match Raiders case was obvious. It is therefore excluded as a pre-match analytical defect. The larger failure remains that 68% confidence was unjustified before the game began."
       },
-      "mandatory_corrections": [
-        "NORMALISE_MARKET: convert head-to-head prices to overround-adjusted implied probabilities before using market probability as a reference.",
-        "INDEPENDENCE_GRAPH: evidence from market-linked or shared-input models counts as one evidence family unless independence is established.",
-        "CONFIDENCE_JUSTIFICATION_GATE: any MAYHEM confidence more than 3 percentage points above the normalized market requires explicit independent evidence and a written causal mechanism.",
-        "STRUCTURAL_BASELINE_GATE: compare season point differential, recent scoring differential and venue split before narrative factors such as ladder position or finals status can increase confidence.",
-        "ROSTER_BURDEN_GATE: quantify directional roster losses by unit and replacement quality before home advantage is applied.",
-        "DEBUTANT_VARIANCE_RULE: debut/low-sample players expand uncertainty unless evidence supports a directional downgrade; novelty alone is not negative evidence.",
-        "ADVERSARIAL_INVERSION: before every freeze, construct the strongest evidence-supported case for the opposing selection and record what would falsify the preferred tip.",
-        "INCORRECT_TIP_HALT: after an incorrect genuine tip, the failure audit must be completed before learned weights are carried into later fixtures."
-      ],
+      "mandatory_corrections": ["NORMALISE_MARKET: convert head-to-head prices to overround-adjusted implied probabilities before using market probability as a reference.", "INDEPENDENCE_GRAPH: evidence from market-linked or shared-input models counts as one evidence family unless independence is established.", "CONFIDENCE_JUSTIFICATION_GATE: any MAYHEM confidence more than 3 percentage points above the normalized market requires explicit independent evidence and a written causal mechanism.", "STRUCTURAL_BASELINE_GATE: compare season point differential, recent scoring differential and venue split before narrative factors such as ladder position or finals status can increase confidence.", "ROSTER_BURDEN_GATE: quantify directional roster losses by unit and replacement quality before home advantage is applied.", "DEBUTANT_VARIANCE_RULE: debut/low-sample players expand uncertainty unless evidence supports a directional downgrade; novelty alone is not negative evidence.", "ADVERSARIAL_INVERSION: before every freeze, construct the strongest evidence-supported case for the opposing selection and record what would falsify the preferred tip.", "INCORRECT_TIP_HALT: after an incorrect genuine tip, the failure audit must be completed before learned weights are carried into later fixtures."],
       "learning_state": "ACTIVE_FROM_NEXT_DECISION",
       "integrity": "No retrospective tip switch. Cowboys 68% remains frozen and incorrect. The audit changes future process, not the historical record."
     }
