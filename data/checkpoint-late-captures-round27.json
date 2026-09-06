@@ -14,52 +14,57 @@
       "lateness_seconds": 72477,
       "kickoff": "2026-09-06T16:05:00+10:00",
       "source_facts": [
-        {
-          "classification": "VERIFIED",
-          "fact": "Official NRL late mail lists Isaah Yeo on the Panthers interchange after three games out with a pectoral injury. Mitch Kenny returns from a leg injury. Luke Garner is named at centre, with Luron Patea on the interchange."
-        },
-        {
-          "classification": "VERIFIED",
-          "fact": "Official NRL late mail lists Latu Fainu on the Wests Tigers interchange after a hamstring injury, Vaka Aho to make his NRL debut from the bench, and Sione Fainu in the side for Tony Sukkar after delayed concussion symptoms."
-        },
-        {
-          "classification": "VERIFIED",
-          "fact": "Official NRL fixture information confirms Panthers v Wests Tigers at CommBank Stadium, Parramatta, with kickoff scheduled for 4:05 pm AEST."
-        },
-        {
-          "classification": "VERIFIED",
-          "fact": "Observed Sportsbet head-to-head market at the late capture: Panthers $1.10, Wests Tigers $7.00; line Panthers -19.5; total match points 48.5."
-        },
-        {
-          "classification": "DERIVED",
-          "fact": "Sportsbet two-sided head-to-head prices normalize to approximately 86.4% Panthers and 13.6% Wests Tigers after removing the quoted overround."
-        },
-        {
-          "classification": "SECONDARY_WEATHER",
-          "fact": "Parramatta forecast source available at the late capture indicated a sunny day around 24°C, westerly wind about 17 km/h with gusts around 25 km/h and a 10% probability of precipitation."
-        }
+        {"classification":"VERIFIED","fact":"Official NRL late mail lists Isaah Yeo on the Panthers interchange after three games out with a pectoral injury. Mitch Kenny returns from a leg injury. Luke Garner is named at centre, with Luron Patea on the interchange."},
+        {"classification":"VERIFIED","fact":"Official NRL late mail lists Latu Fainu on the Wests Tigers interchange after a hamstring injury, Vaka Aho to make his NRL debut from the bench, and Sione Fainu in the side for Tony Sukkar after delayed concussion symptoms."},
+        {"classification":"VERIFIED","fact":"Official NRL fixture information confirms Panthers v Wests Tigers at CommBank Stadium, Parramatta, with kickoff scheduled for 4:05 pm AEST."},
+        {"classification":"VERIFIED","fact":"Observed Sportsbet head-to-head market at the late capture: Panthers $1.10, Wests Tigers $7.00; line Panthers -19.5; total match points 48.5."},
+        {"classification":"DERIVED","fact":"Sportsbet two-sided head-to-head prices normalize to approximately 86.4% Panthers and 13.6% Wests Tigers after removing the quoted overround."},
+        {"classification":"SECONDARY_WEATHER","fact":"Parramatta forecast source available at the late capture indicated a sunny day around 24°C, westerly wind about 17 km/h with gusts around 25 km/h and a 10% probability of precipitation."}
       ],
-      "weather": {
-        "venue": "CommBank Stadium, Parramatta",
-        "source_state": "SECONDARY_SOURCE_CAPTURED_BOM_LOCAL_DETAIL_NOT_RESOLVED_IN_THIS_PASS",
-        "forecast": "Sunny; around 24°C; westerly wind about 17 km/h, gusts about 25 km/h; precipitation probability about 10%.",
-        "decision_effect": "NO_DIRECTIONAL_EFFECT_ESTABLISHED"
-      },
-      "market": {
-        "source": "Sportsbet",
-        "panthers": 1.10,
-        "wests_tigers": 7.00,
-        "line": "Panthers -19.5",
-        "total": 48.5,
-        "normalized_probability": {
-          "Panthers": 0.8642,
-          "Wests Tigers": 0.1358
-        }
-      },
-      "decision_effect": "NO_CHANGE",
-      "tip": "Panthers",
-      "confidence": 86,
-      "integrity": "This is a genuine late capture performed before kickoff. It is not backdated to the original T-24h due time and must not be used to claim what MAYHEM knew at that original time."
+      "weather": {"venue":"CommBank Stadium, Parramatta","source_state":"SECONDARY_SOURCE_CAPTURED_BOM_LOCAL_DETAIL_NOT_RESOLVED_IN_THIS_PASS","forecast":"Sunny; around 24°C; westerly wind about 17 km/h, gusts about 25 km/h; precipitation probability about 10%.","decision_effect":"NO_DIRECTIONAL_EFFECT_ESTABLISHED"},
+      "market": {"source":"Sportsbet","panthers":1.10,"wests_tigers":7.00,"line":"Panthers -19.5","total":48.5,"normalized_probability":{"Panthers":0.8642,"Wests Tigers":0.1358}},
+      "decision_effect":"NO_CHANGE","tip":"Panthers","confidence":86,
+      "integrity":"This is a genuine late capture performed before kickoff. It is not backdated to the original T-24h due time and must not be used to claim what MAYHEM knew at that original time."
+    },
+    {
+      "fixture_id": "R27-DRA-PAR",
+      "match": "Dragons v Eels",
+      "stage": "T-3h",
+      "due": "2026-09-06T11:00:00+10:00",
+      "status": "CAPTURED_LATE_BEFORE_KICKOFF",
+      "captured_at": "2026-09-06T12:22:25+10:00",
+      "lateness_seconds": 4945,
+      "kickoff": "2026-09-06T14:00:00+10:00",
+      "sources_checked": [
+        "NRL official Round 27 late mail",
+        "NRL official Dragons v Eels match preview/team list",
+        "Sportsbet Dragons v Eels Round 27 market/prediction page",
+        "Bureau of Meteorology Port Kembla/Wollongong forecast",
+        "MAYHEM Round 27 Sunday player-ingestion coverage manifest"
+      ],
+      "source_facts": [
+        {"classification":"VERIFIED","fact":"Official NRL state remains unchanged from the Saturday 24-hour update: Blake Lawrie starts at prop for the Dragons, Loko Jnr Pasifiki Tonga at lock and Ryan Couchman on the bench."},
+        {"classification":"VERIFIED","fact":"For Parramatta, Jordan Samrani returns at centre, Sean Russell is on the interchange, Jack de Belin is on the bench and Tyrese Lokeni remains in line for an NRL debut."},
+        {"classification":"VERIFIED","fact":"Current Sunday player-ingestion coverage resolves all 40 named Dragons/Eels roster identities; 39 have 2026 NRL statistical dossiers and Tyrese Lokeni is a verified pre-debut/no-completed-NRL-sample case."},
+        {"classification":"VERIFIED","fact":"Sportsbet currently lists Dragons $2.25 and Eels $1.65 head-to-head; its published line is Eels -3.5 and total match points 56.5."},
+        {"classification":"DERIVED","fact":"The two-sided Sportsbet prices normalize to approximately 42.31% Dragons and 57.69% Eels after removing the quoted overround."},
+        {"classification":"VERIFIED","fact":"BOM forecast issued Sunday morning for the Wollongong area is mostly sunny, 0 mm expected, 10% chance of rain, with westerly winds 25-40 km/h turning southerly 20-30 km/h around the middle of the day."}
+      ],
+      "weather": {"venue":"WIN Stadium, Wollongong","primary_source":"Bureau of Meteorology","forecast":"Mostly sunny; maximum about 22°C; 0 mm expected; 10% chance of rain; westerly 25-40 km/h turning southerly 20-30 km/h in the middle of the day.","decision_effect":"POTENTIAL_KICKING_AND_HIGH_BALL_MECHANISM_REQUIRES_T60_OBSERVATION"},
+      "market": {"source":"Sportsbet","dragons":2.25,"eels":1.65,"line":"Eels -3.5","total":56.5,"normalized_probability":{"Dragons":0.4231,"Eels":0.5769}},
+      "player_effects": ["Roster identity/statistical coverage is complete at the profile-state level for both clubs.","Tyrese Lokeni remains pre-debut uncertainty and is not assigned a directional effect.","No new official withdrawal or role change is verified at this capture."],
+      "team_macro_effects": {"Dragons":"No new roster-continuity delta from the 24-hour state.","Eels":"No new roster-continuity delta from the 24-hour state."},
+      "matchup_effect":"Eels recent attacking form against a Dragons side with poor recent defensive results remains supportive but is not treated as independent of all other form-based evidence.",
+      "evidence_family_independence":"Market price is treated separately from official roster evidence. Sportsbet editorial prediction is not counted as independent corroboration of its own market. Historical/form observations sharing the same results base are not stacked as independent evidence.",
+      "adversarial_counter_case":"Dragons retain home venue context and Parramatta have not established a Wollongong-specific structural advantage sufficient to erase venue uncertainty; wind direction/strength may also increase kicking and high-ball variance.",
+      "falsification":"A material Eels late withdrawal, adverse final-team role reshuffle, or T-60/T-10 evidence showing the market moving materially toward St George Illawarra without contrary football evidence would weaken the Eels case.",
+      "confidence_vs_market_delta_percentage_points": 4.31,
+      "decision_effect":"NO_REFREEZE_REVIEW_REQUIRED",
+      "tip":"Eels","confidence":62,
+      "decision_state":"REVIEW_REQUIRED_PENDING_T60_ROLE_CRITICAL_PROFILE_COMPARISON_AND_FINAL_TEAM_GATE",
+      "information_advantage":"NONE_ESTABLISHED",
+      "next_checkpoint":"T-60m","next_due":"2026-09-06T13:00:00+10:00",
+      "integrity":"This is a genuine late capture performed before kickoff. It does not reconstruct the 11:00 am evidence state and does not claim that current evidence was known at the original T-3h due time."
     }
   ]
 }
