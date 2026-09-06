@@ -1,0 +1,20 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-07T05:53:00+10:00",
+  "timezone":"Australia/Sydney",
+  "mode":"MANUAL_CURRENT_INTELLIGENCE_CYCLE",
+  "lifecycle_reconciliation":{"status":"NO_STALE_PAST_KICKOFF_FIXTURES","relevant_fixtures":4,"state":"UPCOMING"},
+  "automation_clock":{"next_fixture":"FW1-SS-NKN-2026-09-11","next_checkpoint":"T-24h","due_at":"2026-09-10T19:50:00+10:00","rule":"T-minus values are automation capture checkpoints, not a restriction on manual/current intelligence analysis."},
+  "official_finals_team_lists":"NOT_LOCATED_AS_OF_CAPTURE",
+  "market_capture":{"source":"Sportsbet","captured_at":"2026-09-07T05:53:00+10:00","fixtures":{"Rabbitohs-Knights":{"prices":[1.40,2.97],"normalized":[67.96,32.04]},"Warriors-Dolphins":{"prices":[1.54,2.47],"normalized":[61.60,38.40]},"Sharks-Cowboys":{"prices":[1.44,2.81],"normalized":[66.12,33.88]},"Panthers-Roosters":{"prices":[1.33,3.35],"normalized":[71.58,28.42]}}},
+  "weather_capture":{"Sydney":"Friday sunny periods around 21C; Saturday long sunny periods around 22C; Sunday sunny spells around 25C. No demonstrated directional edge at this horizon.","Auckland":"Saturday around 15C, brisk south-westerly winds around 39-40 km/h, low rain probability. Wind classified as variance SIGNAL, no directional team edge asserted."},
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"market_normalized_selection_probability":67.96,"delta_pp":1.04,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"market_normalized_selection_probability":61.60,"delta_pp":1.40,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"market_normalized_selection_probability":66.12,"delta_pp":-2.12,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"market_normalized_selection_probability":71.58,"delta_pp":1.42,"state":"CURRENT_NOT_FROZEN"}],
+  "gate_status":{"overround_adjusted_market":"COMPLETE","structural_baseline":"COMPLETE_WITH_LATEST_SUPPORTED_SEASON_DIFFERENTIAL_RECENT_RESULTS_VENUE_AND_PROVISIONAL_ROSTER_CONTINUITY","evidence_family_dependence":"EXPLICIT","strongest_opposing_case":"RECORDED_PER_FIXTURE","falsification_conditions":"RECORDED_PER_FIXTURE","debutant_low_sample_rule":"NO_DIRECTIONAL_DEBUTANT_EDGE_USED","role_critical_player_comparison":"CURRENT_AVAILABILITY_ROLE_EFFECTS_APPLIED; FULL OFFICIAL FINALS ROLE/STAT RECONCILIATION PENDING TEAM LISTS","greater_than_3pp_market_uplift":"NONE"},
+  "player_layer":{"state":"PERSISTENT_IDENTITIES_RETAINED","official_finals_named_squads":"PENDING","rule":"No player removed for absence of news. Latest verified roster/availability evidence remains active until official Finals Week 1 lists supersede it."},
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR; prior Round 27 Eels failure audit completed",
+  "public_update":{"required":true,"reason":"Manual current selections now exist for all four Finals Week 1 fixtures and must be visible before automation checkpoints.","target":"Season interface"},
+  "integrity":"No current decision is represented as T-10 frozen. Automation checkpoints may revise the contemporaneous position. T-10 remains the immutable grading freeze. Historical completed tips and failure audits remain unchanged."
+}
