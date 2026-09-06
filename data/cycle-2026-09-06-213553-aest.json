@@ -1,0 +1,57 @@
+{
+  "cycle_id": "NRL-MAYHEM-2026-09-06T21:35:53+10:00",
+  "captured_at": "2026-09-06T21:35:53+10:00",
+  "timezone": "Australia/Sydney",
+  "active_fixture_precedence": null,
+  "lifecycle_reconciliation": {
+    "FW1-SS-NKN-2026-09-11": "UPCOMING",
+    "FW1-WAR-DOL-2026-09-12": "UPCOMING",
+    "FW1-SHA-COW-2026-09-12": "UPCOMING",
+    "FW1-PEN-SYD-2026-09-13": "UPCOMING"
+  },
+  "result_backlog": "NONE",
+  "checkpoint_state": {
+    "due_now": false,
+    "next_fixture": "Rabbitohs v Knights",
+    "next_checkpoint": "T-24h",
+    "due_sydney": "2026-09-10T19:50:00+10:00"
+  },
+  "official_team_lists": {
+    "state": "NOT_YET_LOCATED_FOR_FINALS_WEEK_1",
+    "roster_population_state": "AWAITING_OFFICIAL_FINALS_TEAM_LISTS",
+    "rule": "Do not convert injury-return windows into named roster presence. Official Finals Week 1 team lists remain authoritative when published."
+  },
+  "material_event": {
+    "type": "PLAYER_TEAM_AVAILABILITY_UPDATE",
+    "source": "Official NRL Casualty Ward",
+    "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+    "persisted_file": "data/finals-week1-availability-intelligence-2026.json",
+    "summary": [
+      "Knights carry multiple unresolved/finals-return states, with Trey Mooney and several others unavailable for the 2026 finals campaign; Francis Manuleleua is racing the clock.",
+      "Warriors expect Leka Halasima back for the opening final, while additional availability states remain unresolved or finals-window only.",
+      "Dolphins have Selwyn Cobbo, Kodi Nikorima and Kulikefu Finefeuiaki in Finals return windows, not confirmed selections.",
+      "Cowboys expect Zac Laybutt, Jeremiah Nanai and Griffin Neame to be fit for opening week; Murray Taulagi remains TBC.",
+      "Roosters report Victor Radley and Angus Crichton on track for opening week while Sam Walker remains a race-against-clock finals availability case.",
+      "Sharks, Panthers and Rabbitohs retain additional official casualty states requiring team-list reconciliation."
+    ],
+    "decision_effect": "NO_TIP_OR_CONFIDENCE_CHANGE_NON_CHECKPOINT",
+    "information_advantage": "NONE_ASSERTED"
+  },
+  "weather_state": "NOT_FROZEN_NON_CHECKPOINT; mandatory capture remains due at temporal checkpoints or on material forecast change",
+  "market_state": "NOT_CAPTURED_NON_CHECKPOINT",
+  "public_site": {
+    "intelligence_interface_repaired": true,
+    "change": "Intelligence page now promotes Finals Week One fixtures and exposes the official Finals Availability Watch while retaining failure audits and information-advantage ledger.",
+    "data_commit": "991acaf974385099db475a2ce0d65e1f59395e0d",
+    "interface_commit": "2c198e1d3088e1e01492145dc2434cee68f91517",
+    "render_verification": "PENDING_DEPLOYMENT_VERIFICATION"
+  },
+  "integrity": {
+    "misSED_not_captured_rule_unchanged": true,
+    "frozen_pre_match_states_rewritten": false,
+    "post_result_probability_backfill": false,
+    "medical_inference_beyond_source": false,
+    "finals_return_window_treated_as_selection_confirmation": false
+  },
+  "cycle_conclusion": "No checkpoint is due. A material official availability layer was persisted and the stale Round 27 Intelligence interface was promoted to Finals Week One. No finals tip or confidence was frozen."
+}
