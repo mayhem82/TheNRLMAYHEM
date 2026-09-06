@@ -17,7 +17,7 @@ for(const f of cp.fixtures){
       assert(cap<ko,`${f.match} ${c.stage} pre-match capture at/after kickoff`);
       if(cap>due)assert(c.status==='CAPTURED_LATE_BEFORE_KICKOFF',`${f.match} ${c.stage} late timestamp mislabeled ${c.status}`);
     }
-    if(f.lifecycle==='VERIFIED_RESULT'&&c.stage==='POST')assert(c.status==='RESULT_VERIFIED',`${f.match} verified result has stale POST`);
+    if(f.lifecycle==='VERIFIED_RESULT'&&c.stage==='POST')assert(c.status==='VERIFIED_RESULT',`${f.match} verified result has stale POST`);
   }
 }
 
