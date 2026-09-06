@@ -1,0 +1,20 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-07T06:31:00+10:00",
+  "timezone":"Australia/Sydney",
+  "mode":"AUTOMATION_INTELLIGENCE_CYCLE",
+  "lifecycle_reconciliation":{"status":"NO_STALE_PAST_KICKOFF_FIXTURES","relevant_fixtures":4,"state":"UPCOMING"},
+  "checkpoint_state":{"due_now":false,"next_fixture":"FW1-SS-NKN-2026-09-11","next_checkpoint":"T-24h","due_at":"2026-09-10T19:50:00+10:00"},
+  "official_finals_team_lists":"NOT_LOCATED_AS_OF_CAPTURE",
+  "market_check":{"source":"Sportsbet","state":"NO_MATERIAL_CHANGE","prices":{"Rabbitohs-Knights":[1.40,2.97],"Warriors-Dolphins":[1.54,2.47],"Sharks-Cowboys":[1.44,2.81],"Panthers-Roosters":[1.33,3.35]},"note":"Fixture-specific pages showed only minor session-level price variance for Rabbitohs-Knights and Sharks-Cowboys; no decision-relevant movement established."},
+  "weather_check":{"Sydney":"Friday sunny periods around 21C; Saturday long sunny periods around 22C; Sunday sunny spells around 25C. No material change from prior capture and no demonstrated directional edge.","Auckland":"No new official severe-weather evidence located that materially alters the prior Warriors-Dolphins weather assessment."},
+  "player_roster_statistical_state":"NO_MATERIAL_CHANGE; official Finals Week 1 named squads not located; persistent player identities and existing dossiers retained pending authoritative team lists.",
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "material_change":null,
+  "public_update":{"required":false,"reason":"No checkpoint due and no material fixture/player/team/weather/market/profile change detected."},
+  "integrity":"Prior contemporaneous current decisions preserved unchanged. No checkpoint reconstructed, no T-10 freeze created, no medical inference, no backfilled probability, and no public state change required."
+}
