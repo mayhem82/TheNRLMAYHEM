@@ -1,6 +1,6 @@
 {
-  "snapshot": "CHECKPOINT-CANONICAL-R27-LIFECYCLE-20260906063228",
-  "generated_at": "2026-09-06T06:32:28.008Z",
+  "snapshot": "CHECKPOINT-CANONICAL-R27-LIFECYCLE-20260906085550",
+  "generated_at": "2026-09-06T08:55:50.810Z",
   "timezone": "Australia/Sydney",
   "round": 27,
   "source_history": [
@@ -56,7 +56,7 @@
       "verified_result": {
         "score_home": 31,
         "score_away": 30,
-        "verified_at": "2026-09-06T06:32:28.008Z",
+        "verified_at": "2026-09-06T08:55:50.810Z",
         "source_id": "SRC-NRL-OFFICIAL-DRAW"
       }
     },
@@ -101,7 +101,7 @@
       "verified_result": {
         "score_home": 30,
         "score_away": 50,
-        "verified_at": "2026-09-06T06:32:28.008Z",
+        "verified_at": "2026-09-06T08:55:50.810Z",
         "source_id": "SRC-NRL-OFFICIAL-DRAW"
       }
     },
@@ -144,7 +144,7 @@
       "verified_result": {
         "score_home": 20,
         "score_away": 24,
-        "verified_at": "2026-09-06T06:32:28.008Z",
+        "verified_at": "2026-09-06T08:55:50.810Z",
         "source_id": "SRC-NRL-OFFICIAL-DRAW"
       }
     },
@@ -193,7 +193,7 @@
       "verified_result": {
         "score_home": 24,
         "score_away": 22,
-        "verified_at": "2026-09-06T06:32:28.008Z",
+        "verified_at": "2026-09-06T08:55:50.810Z",
         "source_id": "SRC-NRL-OFFICIAL-DRAW"
       }
     },
@@ -201,7 +201,7 @@
       "fixture_id": "R27-PEN-WST",
       "match": "Panthers v Wests Tigers",
       "kickoff": "2026-09-06T16:05:00+10:00",
-      "lifecycle": "MATCH_WINDOW",
+      "lifecycle": "VERIFIED_RESULT",
       "tip": "Panthers",
       "confidence": 86,
       "decision_state": "VALIDATED_AT_CHECKPOINT",
@@ -236,9 +236,16 @@
         {
           "stage": "POST",
           "due": "AFTER_FULL_TIME",
-          "status": "PENDING"
+          "status": "VERIFIED_RESULT",
+          "reconciled_at": "2026-09-06T08:55:50.810Z"
         }
-      ]
+      ],
+      "verified_result": {
+        "score_home": 38,
+        "score_away": 10,
+        "verified_at": "2026-09-06T08:55:50.810Z",
+        "source_id": "SRC-NRL-OFFICIAL-DRAW"
+      }
     }
   ],
   "lifecycle_source": "data/live-scores-2026.json"
