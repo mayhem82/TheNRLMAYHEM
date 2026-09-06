@@ -1,0 +1,32 @@
+{
+  "season": 2026,
+  "team": "Panthers",
+  "fixture": "Panthers v Wests Tigers",
+  "captured_at": "2026-09-06T12:06:20+10:00",
+  "architecture": "PLAYER_STATISTICAL_SUPPLEMENT",
+  "source_class": "Official NRL player profiles",
+  "players": [
+    {
+      "player": "Billy Phillips",
+      "team": "Panthers",
+      "profile_state": "VERIFIED",
+      "career": {"appearances": 20, "tries": 2},
+      "season": {"appearances": 19, "tries": 2, "tackles_made": 395, "missed_tackles": 22, "average_running_metres": 62, "total_running_metres": 1181, "fantasy_points": 509, "fantasy_average": 26.8},
+      "source": "https://www.nrl.com/players/nrl-premiership/panthers/billy-phillips/",
+      "captured_at": "2026-09-06T12:06:20+10:00"
+    },
+    {
+      "player": "Jesse McLean",
+      "team": "Panthers",
+      "profile_state": "VERIFIED_NO_2026_NRL_SAMPLE",
+      "career": {"appearances": 4, "tries": 1},
+      "season": null,
+      "lower_grade": {"competition":"NSW Cup","season":2026,"appearances":20,"tries":14,"try_assists":3,"line_breaks":13,"tackle_breaks":85,"receipts":397,"tackles_made":135,"missed_tackles":34,"average_running_metres":155,"total_running_metres":3112,"fantasy_points":899,"fantasy_average":45.0},
+      "note": "Official NRL Premiership profile shows no 2026 NRL season block at capture. Current 2026 production is therefore retained separately as NSW Cup evidence and must not be represented as NRL production.",
+      "source": "https://www.nrl.com/players/nrl-premiership/panthers/jesse-mclean/",
+      "lower_grade_source": "https://www.nrl.com/players/nsw-cup/panthers/jesse-mclean/",
+      "captured_at": "2026-09-06T12:06:20+10:00"
+    }
+  ],
+  "integrity": "Current Panthers Round 27 roster gap closure. NRL and NSW Cup production remain explicitly separated."
+}
