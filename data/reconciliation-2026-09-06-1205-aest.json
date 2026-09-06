@@ -1,0 +1,69 @@
+{
+  "system": "The NRL MAYHEM",
+  "captured_at": "2026-09-06T12:05:00+10:00",
+  "timezone": "Australia/Sydney",
+  "type": "LIFECYCLE_RECONCILIATION_AND_CURRENT_REFRESH",
+  "reconciliation": [
+    {"fixture":"Warriors v Sea Eagles","lifecycle":"VERIFIED_RESULT","score":"31-30","tip":"Warriors","grade":"CORRECT","post_analysis_state":"PENDING"},
+    {"fixture":"Cowboys v Raiders","lifecycle":"VERIFIED_RESULT","score":"30-50","tip":"Cowboys","grade":"INCORRECT","failure_audit":"COMPLETE","missed_checkpoints":["T-60m","T-10m"],"post_analysis_state":"FAILURE_AUDIT_COMPLETE"},
+    {"fixture":"Sharks v Storm","lifecycle":"VERIFIED_RESULT","score":"20-24","tip":"Storm","grade":"CORRECT","missed_checkpoints":["T-3h","T-60m","T-10m"],"post_analysis_state":"PENDING"},
+    {"fixture":"Dragons v Eels","lifecycle":"UPCOMING","kickoff":"2026-09-06T14:00:00+10:00","checkpoint_state":{"T-24h":"CAPTURED_LATE_BEFORE_KICKOFF","T-3h":"MISSED_NOT_CAPTURED","T-60m":"DUE_2026-09-06T13:00:00+10:00","T-10m":"DUE_2026-09-06T13:50:00+10:00"}},
+    {"fixture":"Panthers v Wests Tigers","lifecycle":"UPCOMING","kickoff":"2026-09-06T16:05:00+10:00","checkpoint_state":{"T-24h":"MISSED_NOT_CAPTURED","T-3h":"DUE_2026-09-06T13:05:00+10:00","T-60m":"DUE_2026-09-06T15:05:00+10:00","T-10m":"DUE_2026-09-06T15:55:00+10:00"}}
+  ],
+  "dragons_eels_current_refresh": {
+    "capture_time":"2026-09-06T12:05:00+10:00",
+    "temporal_integrity":"CURRENT_REFRESH_ONLY_NOT_A_RECONSTRUCTED_T3_CHECKPOINT",
+    "sources_checked":[
+      {"class":"OFFICIAL_NRL","source":"NRL Late Mail Round 27","finding":"No changes in Saturday 24-hour update for either starting side; Blake Lawrie starts for Dragons, Loko Pasifiki Tonga at lock, Ryan Couchman bench; Jordan Samrani returns at centre for Eels, Sean Russell shifts out of starting side, Jack de Belin on bench, Tyrese Lokeni remains a potential debutant."},
+      {"class":"OFFICIAL_WEATHER","source":"Bureau of Meteorology Wollongong-area forecast issued 10:00 am AEST 6 September","finding":"Mostly sunny, 13-23C, 10% chance of rain, winds west-southwesterly 20-30 km/h turning southerly around the middle of the day."},
+      {"class":"MARKET_AGGREGATOR","source":"AusSportsTipping current comparison","finding":"Dragons $2.30, Eels $1.62 at capture search; not treated as a direct live bookmaker quote."},
+      {"class":"SECONDARY_MODEL","source":"Stats Insider","finding":"Eels 65% model probability; Bet365 snapshot Dragons $2.30, Eels $1.56."},
+      {"class":"SECONDARY_MODEL","source":"Alphr","finding":"Eels 54%; highlights Eels halves/forward/backline ratings but Dragons ruck and hosted-history counter-case."},
+      {"class":"SECONDARY_MODEL","source":"Set Restart","finding":"Eels 63% pre-match model."}
+    ],
+    "weather": {
+      "state":"MOSTLY_SUNNY_BREEZY",
+      "kickoff_temperature_approx_c":21,
+      "rain_probability_percent":10,
+      "wind":"southerly/southwesterly approximately 20-30 km/h around midday, easing later",
+      "decision_effect":"MONITOR_ONLY",
+      "mechanism":"Wind can affect long kicking and high-ball execution, but no evidence currently establishes a team-specific directional advantage."
+    },
+    "market": {
+      "dragons_decimal":2.30,
+      "eels_decimal":1.62,
+      "source_state":"SIGNAL_CURRENT_AGGREGATOR",
+      "normalized_probability":{"Dragons":0.4133,"Eels":0.5867},
+      "existing_mayhem_confidence_eels":0.62,
+      "confidence_vs_market_delta_percentage_points":3.33,
+      "gate":"REQUIRES_EXPLICIT_INDEPENDENT_EVIDENCE_AND_FOOTBALL_MECHANISM_AT_NEXT_VALID_FREEZE"
+    },
+    "structural_baseline": {
+      "Dragons":{"record":"4-19","season_point_differential":-327,"season_differential_per_match":-14.22,"last_five":"L W W L L","last_five_differential_per_match":-12.0,"home_record":"2-9"},
+      "Eels":{"record":"9-14","season_point_differential":-179,"season_differential_per_match":-7.78,"last_five":"W L W L W","last_five_differential_per_match":0.6,"away_record":"3-8"},
+      "effect":"EELS_ADVANTAGE",
+      "finding":"Eels hold the materially stronger full-season scoring balance and a much stronger recent scoring differential, while both venue records are poor."
+    },
+    "role_critical_player_profiles": {
+      "Eels_halves":{"Mitchell Moses":{"season_appearances":18,"try_assists":12,"line_break_assists":15,"average_kicking_metres":531.8},"Ronald Volkman":{"season_appearances":18,"try_assists":10,"line_break_assists":5,"average_kicking_metres":162.5}},
+      "Dragons_halves":{"Daniel Atkinson":{"season_appearances":20,"try_assists":10,"line_break_assists":6,"average_kicking_metres":495.7},"Kyle Flanagan":{"season_appearances":20,"try_assists":6,"line_break_assists":2,"average_kicking_metres":150.0}},
+      "effect":"EELS_CREATION_EDGE",
+      "mechanism":"Parramatta's current halves pairing has the stronger combined verified season creation profile, supporting field-position and chance-creation advantage rather than relying on team-news narrative alone."
+    },
+    "low_sample_rule":{"Tyrese Lokeni":"UNCERTAINTY_ONLY_NO_DIRECTIONAL_EFFECT","Apa Twidle":"VERIFIED_LOW_SAMPLE; uncertainty retained"},
+    "adversarial_counter_case":"Dragons retain a genuine upset case through Wollongong-hosted history against Parramatta, a slightly longer turnaround, stronger ruck/hooker indicators in one independent matchup model, and the fact that Parramatta's away record remains only 3-8. Wind may add execution variance. These factors prevent treating the Eels as a high-confidence selection.",
+    "falsification_conditions":["Official final-team change materially weakens Parramatta spine or middle continuity.","A reliable live market moves materially toward St George without an identified stale-data explanation.","T-60m evidence shows role-critical Eels availability or workload concern not present in current official state.","Verified player or matchup evidence removes the current halves/structural edge."],
+    "evidence_family_independence":"Market and predictive-model outputs are not counted as independent corroboration. Official roster/profile statistics and season results form separate evidence families.",
+    "information_advantage":"NONE_DEMONSTRATED",
+    "decision":"EELS_LEAN_RETAINED_BUT_NOT_REFROZEN",
+    "decision_state":"REVIEW_REQUIRED_PENDING_VALID_T60_GATE",
+    "next_checkpoint":"T-60m",
+    "next_due":"2026-09-06T13:00:00+10:00"
+  },
+  "panthers_tigers_state": {
+    "T-24h":"MISSED_NOT_CAPTURED",
+    "official_24h_material_change":"Isaah Yeo elevated to Penrith interchange for expected return after three games out; Mitch Kenny returns; Wests Tigers add Latu Fainu, Sione Fainu replaces Tony Sukkar after delayed concussion symptoms, Vaka Aho named for NRL debut.",
+    "next_checkpoint":"T-3h",
+    "next_due":"2026-09-06T13:05:00+10:00"
+  }
+}
