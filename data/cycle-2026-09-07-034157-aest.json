@@ -1,0 +1,35 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-07T03:41:57+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycle_reconciliation": {
+    "status": "NO_STALE_PAST_KICKOFF_FIXTURES",
+    "relevant_fixtures": 4,
+    "state": "UPCOMING"
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next_fixture": "FW1-SS-NKN-2026-09-11",
+    "next_checkpoint": "T-24h",
+    "due_at": "2026-09-10T19:50:00+10:00",
+    "action": "NO_FREEZE_OUTSIDE_DUE_CHECKPOINT"
+  },
+  "sources_checked": [
+    "Official NRL Finals Week One schedule published 2026-09-06",
+    "Official NRL Casualty Ward current as indexed 2026-09-07",
+    "Official NRL Team Lists topic/current indexed finals team-list sources",
+    "Official NRL Round 27 and finals availability reporting",
+    "GitHub canonical Finals Week One fixture and availability state",
+    "GitHub Pages workflow/deployment state"
+  ],
+  "material_change": null,
+  "weather": "NOT_FROZEN_NON_CHECKPOINT",
+  "market": "NOT_CAPTURED_NON_CHECKPOINT",
+  "information_advantage": "NONE_ASSERTED",
+  "roster_population": "AWAITING_OFFICIAL_FINALS_WEEK_1_TEAM_LISTS",
+  "prediction_state": "NO_FINALS_TIP_FROZEN",
+  "public_state": "NO_PUBLIC_CONTENT_CHANGE_REQUIRED",
+  "integrity": "No official Finals Week One team list or new decision-relevant availability change was located. Existing persistent player identities and statistical dossiers remain retained pending official Finals Week One named squads. No weather state, market probability, tip, confidence, causal medical explanation or selection was inferred outside a due checkpoint. Historical states preserved."
+}
