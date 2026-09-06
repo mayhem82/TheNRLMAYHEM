@@ -1,10 +1,10 @@
 {
-  "snapshot_id": "LIVE-SCORES-2026-R27-20260906085550",
+  "snapshot_id": "LIVE-SCORES-2026-R27-20260906122600",
   "season": 2026,
   "competition": "NRL Telstra Premiership",
   "round": 27,
   "timezone": "Australia/Sydney",
-  "captured_at": "2026-09-06T08:55:50.810Z",
+  "captured_at": "2026-09-06T12:26:00.519Z",
   "refresh_target_seconds": 300,
   "stale_after_seconds": 600,
   "source": {
@@ -39,7 +39,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/bulldogs-v-broncos/",
       "mayhem": null
     },
@@ -62,7 +62,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/titans-v-dolphins/",
       "mayhem": null
     },
@@ -85,7 +85,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/rabbitohs-v-roosters/",
       "mayhem": null
     },
@@ -108,7 +108,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/warriors-v-sea-eagles/",
       "mayhem": null
     },
@@ -131,7 +131,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/cowboys-v-raiders/",
       "mayhem": null
     },
@@ -154,7 +154,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/sharks-v-storm/",
       "mayhem": null
     },
@@ -177,7 +177,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/dragons-v-eels/",
       "mayhem": {
         "selection": "Eels",
@@ -204,7 +204,7 @@
       },
       "disciplinary_events": [],
       "event_source_state": "NO_MATCHING_EVENTS_FOUND",
-      "last_verified_at": "2026-09-06T08:55:50.810Z",
+      "last_verified_at": "2026-09-06T12:26:00.519Z",
       "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/panthers-v-wests-tigers/",
       "mayhem": {
         "selection": "Panthers",
