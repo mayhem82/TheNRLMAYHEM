@@ -1,0 +1,44 @@
+name: NRL live score capture
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nrl-live-scores
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Capture official NRL live state
+        id: capture
+        continue-on-error: true
+        env:
+          NRL_ROUND: '27'
+        run: node scripts/update-live-scores.mjs
+      - name: Persist changed live-state snapshot
+        run: |
+          if git diff --quiet -- data/live-scores-2026.json; then
+            echo 'No live-state change to persist.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/live-scores-2026.json
+          git commit -m 'Update NRL live-state snapshot'
+          git push
+      - name: Report capture failure
+        if: steps.capture.outcome == 'failure'
+        run: |
+          echo 'Official acquisition failed; SOURCE_UNAVAILABLE snapshot persisted without invented score state.'
+          exit 1
