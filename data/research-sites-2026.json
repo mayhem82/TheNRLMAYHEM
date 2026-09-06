@@ -1,0 +1,23 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "snapshot": "RESEARCH-SITES-SNAP-001",
+  "purpose": "Separate source-site registry supporting glossary expansion, player ingestion, fixture intelligence, market checks, weather checks and contradiction testing. This registry is subordinate to the NRL Master Glossary: terms drive research; sites are where evidence may be sought.",
+  "rules": [
+    "The Master Glossary is the priority research index.",
+    "A site listing is not evidence by itself.",
+    "Prefer primary and official sources where available.",
+    "Use secondary sources for corroboration, divergence detection and market comparison, not silent substitution for primary evidence.",
+    "Record newly useful sites separately from glossary terms.",
+    "When a glossary term identifies a new research target, search the most relevant source class first and widen only as needed."
+  ],
+  "sites": [
+    {"name":"NRL.com","url":"https://www.nrl.com/","class":"PRIMARY_OFFICIAL","research_use":"Fixtures, team lists, late mail, match reports, player profiles, official statistics, competition news and terminology."},
+    {"name":"St George Illawarra Dragons","url":"https://www.dragons.com.au/","class":"PRIMARY_CLUB","research_use":"Dragons player profiles, team announcements, club injury and selection material, lower-grade context and club-specific terminology."},
+    {"name":"Parramatta Eels","url":"https://www.parraeels.com.au/","class":"PRIMARY_CLUB","research_use":"Eels player profiles, team announcements, injury and selection material, lower-grade context and club-specific terminology."},
+    {"name":"Penrith Panthers","url":"https://www.penrithpanthers.com.au/","class":"PRIMARY_CLUB","research_use":"Panthers player profiles, team announcements, injury and selection material, lower-grade context and club-specific terminology."},
+    {"name":"Wests Tigers","url":"https://www.weststigers.com.au/","class":"PRIMARY_CLUB","research_use":"Wests Tigers player profiles, team announcements, injury and selection material, lower-grade context and club-specific terminology."},
+    {"name":"Bureau of Meteorology","url":"https://www.bom.gov.au/","class":"PRIMARY_OFFICIAL_WEATHER","research_use":"Venue weather, warnings, forecast changes, rainfall, wind and conditions relevant to checkpoint evidence."},
+    {"name":"Sportsbet","url":"https://www.sportsbet.com.au/","class":"PRIMARY_MARKET_OBSERVATION","research_use":"Observable head-to-head prices, line markets and totals when captured contemporaneously; bookmaker content is not treated as independent football evidence."}
+  ]
+}
