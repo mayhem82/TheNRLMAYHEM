@@ -1,10 +1,26 @@
 {
   "season":2026,
   "architecture":"INFORMATION_ADVANTAGE_LEDGER",
-  "updated_at":"2026-09-06T12:49:01+10:00",
+  "updated_at":"2026-09-06T16:46:37+10:00",
   "advantage_classes":["NONE","POSSIBLE","CORROBORATED","DEMONSTRATED"],
   "required_fields":["fixture","signal","public_available_at","captured_at","source_class","fragments","inference","market_state_at_capture","market_response_at","decision_effect","frozen_state","outcome_validation","advantage_class"],
   "events":[
+    {
+      "event_id":"IA-R27-DRA-PAR-001",
+      "fixture":"Dragons v Eels",
+      "signal":"Sean Russell moved to Eels fullback and Apa Twidle shifted to interchange before kickoff",
+      "public_available_at":"2026-09-06T13:37:26+10:00 or earlier",
+      "captured_at":"2026-09-06T13:37:26+10:00",
+      "source_class":"PRIMARY_OFFICIAL",
+      "fragments":["Sean Russell fullback","Apa Twidle interchange","Dragons no game-day change"],
+      "inference":"The reshuffle increased Eels backfield/role uncertainty but did not establish a directional edge for either team.",
+      "market_state_at_capture":"Dragons $2.25 / Eels $1.65; normalized Eels probability 57.69%",
+      "market_response_at":null,
+      "decision_effect":"REVIEW_REQUIRED",
+      "frozen_state":"Eels 62% recorded; not re-frozen at T-60m",
+      "outcome_validation":"Dragons won 24-22. Correct outcome direction cannot be attributed to this signal because no pre-kickoff directional mechanism or market lead was demonstrated.",
+      "advantage_class":"NONE"
+    },
     {
       "event_id":"IA-R27-WAR-MAN-001",
       "fixture":"Warriors v Sea Eagles",
