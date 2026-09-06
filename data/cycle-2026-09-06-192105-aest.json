@@ -1,0 +1,43 @@
+{
+  "cycle_id": "NRL-MAYHEM-2026-09-06T19:21:05+10:00",
+  "captured_at": "2026-09-06T19:21:05+10:00",
+  "timezone": "Australia/Sydney",
+  "active_fixture_precedence": null,
+  "lifecycle_reconciliation": {
+    "Dragons v Eels": "VERIFIED_RESULT",
+    "Panthers v Wests Tigers": "VERIFIED_RESULT"
+  },
+  "material_event": {
+    "fixture": "Panthers v Wests Tigers",
+    "result": "Panthers 38-10 Wests Tigers",
+    "result_classification": "VERIFIED_RESULT",
+    "mayhem_selection": "Panthers",
+    "confidence": 86,
+    "grade": "CORRECT",
+    "frozen_pre_match_state_unchanged": true,
+    "t10_state": "MISSED_NOT_CAPTURED"
+  },
+  "result_verification": {
+    "canonical_source": "data/season-canonical-2026.json",
+    "canonical_checkpoint_source": "data/checkpoints-round27-canonical.json",
+    "live_source": "data/live-scores-2026.json",
+    "official_match_centre": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/panthers-v-wests-tigers/",
+    "independent_corroboration": "Fox Sports reported FT Panthers 38-10 Wests Tigers",
+    "verified_at_canonical": "2026-09-06T08:55:50.810Z"
+  },
+  "post_match_audit": {
+    "incorrect_tip_failure_audit_required": false,
+    "tip_grade": "CORRECT",
+    "calibration_rule": "No post-result probability backfill. Frozen 86% remains the contemporaneous probability.",
+    "information_advantage": "No new classification asserted from result correctness alone.",
+    "learning_rule": "No learned-weight change asserted solely from this correct outcome."
+  },
+  "public_verification": {
+    "lifecycle_commit": "b91a99860af8aa2d94ce79290791bdfaf90b3e2a",
+    "pages_run": 34023222752,
+    "pages_status": "completed",
+    "pages_conclusion": "success",
+    "render_state": "DEPLOYMENT_CONFIRMED"
+  },
+  "cycle_conclusion": "Round 27 Sunday fixtures are fully reconciled. Panthers v Wests Tigers is no longer live or pending in canonical state. MAYHEM Panthers 86% is graded CORRECT. No failure-audit halt applies to this fixture."
+}
