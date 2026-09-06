@@ -1,0 +1,137 @@
+{
+  "fixture_id": "R27-PEN-WST",
+  "match": "Panthers v Wests Tigers",
+  "checkpoint": "T-60m",
+  "due_at": "2026-09-06T15:05:00+10:00",
+  "captured_at": "2026-09-06T15:15:27+10:00",
+  "timezone": "Australia/Sydney",
+  "capture_state": "CAPTURED_LATE_BEFORE_KICKOFF",
+  "kickoff": "2026-09-06T16:05:00+10:00",
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/01/nrl-team-lists-round-27/",
+      "finding": "Current official team list retains Dylan Edwards, Nathan Cleary, Mitch Kenny, Luke Garner and the named Panthers starting side; Isaah Yeo is listed in the interchange group. Wests Tigers retain Jarome Luai, Apisai Koroisau, Latu Fainu and NRL debutant Vaka Aho. No material T-60 team-list change identified from the prior checkpoint."
+    },
+    {
+      "class": "OFFICIAL_WEATHER",
+      "url": "https://www.bom.gov.au/places/nsw/north-parramatta/forecast/",
+      "finding": "Forecast issued 9:45 am AEST: mostly sunny, maximum 23 C, 0 mm possible rainfall, 5% chance of rain; west to southwesterly 20-30 km/h tending southeast to southwesterly 15-25 km/h in the middle of the day."
+    },
+    {
+      "class": "DIRECT_MARKET",
+      "url": "https://www.sportsbet.com.au/betting/rugby-league/nrl",
+      "finding": "Panthers 1.11, Wests Tigers 6.70; line Panthers -19.5 1.90 / Tigers +19.5 1.90; total 49.5 with Over 1.89 / Under 1.91."
+    },
+    {
+      "class": "INDEPENDENT_MODEL_MARKET_LINKED",
+      "url": "https://www.statsinsider.com.au/news/panthers-vs-tigers-prediction-and-tips-nrl-round-27-2026",
+      "finding": "Stats Insider model published Panthers 84%; Bet365 market shown as Panthers 1.08 / Tigers 7.50 and line -19.5. This is treated as market-linked corroboration, not independent football evidence."
+    }
+  ],
+  "weather": {
+    "classification": "VERIFIED",
+    "summary": "Dry conditions remain strongly favoured. Moderate west/southwesterly winds turning more southerly remain a kicking/high-ball variance factor; no demonstrated directional team advantage assigned."
+  },
+  "evidence": [
+    {
+      "classification": "VERIFIED",
+      "observation": "No material official T-60 roster change from the prior Panthers-Tigers checkpoint.",
+      "player_effect": "Role-critical Penrith spine and middle personnel remain named; return-load uncertainty for Yeo and Kenny is not converted into an assumed restriction.",
+      "team_macro_effect": "Penrith continuity advantage remains intact relative to the earlier state."
+    },
+    {
+      "classification": "VERIFIED",
+      "observation": "Vaka Aho remains named for NRL debut from the Wests Tigers interchange.",
+      "player_effect": "Low-sample/debut variance only; no directional performance effect inferred.",
+      "team_macro_effect": "Tigers bench uncertainty remains but is not double-counted as an independent negative signal."
+    }
+  ],
+  "player_statistical_trend_effects": {
+    "state": "PRIOR_DOSSIERS_RETAINED",
+    "note": "Persistent roster/statistical dossiers remain the player baseline. Role-critical comparison continues to favour Penrith's established Edwards-Cleary-Kenny spine and middle continuity. No new official per-round statistical observation at T-60 changes the prior player assessment."
+  },
+  "team_macro_effects": {
+    "panthers": "Pre-Round-27 season point differential +308. Last five completed matches before this fixture: aggregate scoring differential +24. Home split from the canonical season ledger before Round 27: 9 wins, 2 losses, aggregate differential +166.",
+    "wests_tigers": "Pre-Round-27 season point differential -226 derived from the canonical season ledger. Last five completed matches before this fixture: aggregate scoring differential -60. Away split before Round 27: 3 wins, 8 losses, aggregate differential -165."
+  },
+  "matchup_effects": [
+    "Structural baseline remains strongly Penrith: +308 versus -226 season differential, +24 versus -60 recent-five differential, and 9-2/+166 Panthers home split versus 3-8/-165 Tigers away split.",
+    "Penrith require a win of at least two points to overtake the Warriors for the minor premiership, creating a verified competition incentive but not a licence to increase confidence beyond evidence."
+  ],
+  "conflicts": [],
+  "market": {
+    "panthers_price": 1.11,
+    "wests_tigers_price": 6.70,
+    "raw_implied": {
+      "panthers": 0.900901,
+      "wests_tigers": 0.149254
+    },
+    "overround": 1.050155,
+    "normalized_probability": {
+      "panthers": 0.857867,
+      "wests_tigers": 0.142133
+    },
+    "market_state": "VERIFIED_CURRENT_CAPTURE"
+  },
+  "structural_baseline": {
+    "panthers_season_point_differential": 308,
+    "wests_tigers_season_point_differential": -226,
+    "recent_five_scoring_differential": {
+      "panthers": 24,
+      "wests_tigers": -60
+    },
+    "venue_split": {
+      "panthers_home_before_round27": "9-2, +166 differential",
+      "wests_tigers_away_before_round27": "3-8, -165 differential"
+    },
+    "roster_continuity": "Penrith retain the stronger established role-critical spine/middle continuity; Tigers retain debutant/return uncertainty on the bench."
+  },
+  "evidence_family_independence": {
+    "state": "REVIEWED",
+    "finding": "Official roster/team-list evidence, canonical season performance and BOM weather are distinct evidence families. Sportsbet and Bet365/Stats Insider are market-linked and are not counted as independent corroboration of the same probability signal."
+  },
+  "adversarial_counter_case": {
+    "team": "Wests Tigers",
+    "case": "The outright market is already extremely compressed toward Penrith. A 19.5-point line indicates the expected superiority is heavily absorbed, while Yeo/Kenny return-state workload uncertainty and dry but moderately windy conditions preserve upset/variance pathways. Tigers also have established creators in Luai and Koroisau."
+  },
+  "falsification_conditions": [
+    "Late withdrawal or material role reduction for Nathan Cleary, Dylan Edwards, Mitch Kenny or Isaah Yeo",
+    "Final-team reshuffle materially reducing Penrith spine/middle continuity",
+    "Verified market move sharply against Penrith accompanied by independent football evidence",
+    "Material weather deterioration beyond the current BOM forecast"
+  ],
+  "information_advantage_candidates": [
+    {
+      "fragment": "No material T-60 official roster change",
+      "classification": "NONE",
+      "decision_effect": "NO_CHANGE",
+      "note": "Publicly available and already plausibly absorbed by the market."
+    }
+  ],
+  "mayhem_inference": {
+    "preferred_team": "Panthers",
+    "existing_confidence": 0.86,
+    "normalized_market_probability": 0.857867,
+    "confidence_vs_market_delta_pp": 0.21,
+    "decision_state": "VALIDATED_AT_CHECKPOINT",
+    "reason": "Existing 86% confidence exceeds the current normalized Sportsbet probability by only about 0.21 percentage points, well inside the +3pp uplift gate. Structural and roster-continuity evidence continue to support the selection without requiring an unsupported confidence increase."
+  },
+  "prediction_decomposition": {
+    "market_baseline": "Panthers 85.79% normalized from Sportsbet 1.11 / 6.70",
+    "season_structure": "Strong Penrith advantage: +308 season differential versus Tigers -226",
+    "recent_form": "Penrith +24 versus Tigers -60 aggregate differential across each club's last five completed matches",
+    "venue_split": "Panthers 9-2/+166 home versus Tigers 3-8/-165 away before Round 27",
+    "roster_continuity": "Positive Penrith; Tigers retain debutant/return variance",
+    "weather": "Dry; moderate wind variance; no directional edge",
+    "pseudo_precision": "DENIED"
+  },
+  "tip": "Panthers",
+  "confidence": 86,
+  "freeze_state": "NOT_T10_FINAL_FREEZE",
+  "next_checkpoint": {
+    "stage": "T-10m",
+    "due_at": "2026-09-06T15:55:00+10:00"
+  },
+  "integrity": "No earlier timestamp reconstructed. T-60 was due at 15:05 AEST and captured at 15:15:27 AEST before the 16:05 kickoff, therefore CAPTURED_LATE_BEFORE_KICKOFF."
+}
