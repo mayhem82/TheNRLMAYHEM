@@ -2,7 +2,7 @@
   "snapshot_id":"TIER-INFINITY-REPAIR-SNAPSHOT-001",
   "generated_at":"2026-09-06T12:49:01+10:00",
   "timezone":"Australia/Sydney",
-  "repository_commit":"PENDING_REPAIR_COMMIT",
+  "repository_commit":"9f48819d75d3766f350b8f4b3a862715e97819de",
   "base_audit_commit":"8c18022c89062f166cc541ab5742f6335ec1eae3",
   "canonical":{
     "season":{"path":"data/season-canonical-2026.json","blob_sha":"807665cfa08fc3fca4d6b355c44e37d3bf21152a"},
