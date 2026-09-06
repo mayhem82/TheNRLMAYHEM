@@ -1,0 +1,43 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-07T01:18:17+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycle_reconciliation": {
+    "status": "NO_STALE_PAST_KICKOFF_FIXTURES",
+    "relevant_fixtures": 4,
+    "state": "UPCOMING"
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next_fixture": "FW1-SS-NKN-2026-09-11",
+    "next_checkpoint": "T-24h",
+    "due_at": "2026-09-10T19:50:00+10:00",
+    "action": "NO_FREEZE_OUTSIDE_DUE_CHECKPOINT"
+  },
+  "sources_checked": [
+    "Official NRL Finals Week One schedule, published 2026-09-06",
+    "Official NRL Roosters finals reporting, published 2026-09-03",
+    "Official NRL current indexed finals/team-list sources",
+    "GitHub canonical/public state and workflow deployment state"
+  ],
+  "material_change": {
+    "fixture": "FW1-PEN-SYD-2026-09-13",
+    "player": "Sam Walker",
+    "previous_state": "RACING_CLOCK_FOR_FINALS",
+    "corrected_state": "UNAVAILABLE_FOR_FINALS_WEEK_1",
+    "classification": "VERIFIED",
+    "source_url": "https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/",
+    "source_observation": "Official NRL reporting states the Roosters will enter the finals without Sam Walker following syndesmosis surgery; hope of a later-season return does not establish Week One availability.",
+    "team_effect": "ROOSTERS_SPINE_AVAILABILITY_DOWN",
+    "match_effect": "CARRY_TO_NEXT_DUE_CHECKPOINT",
+    "decision_effect": "NO_TIP_OR_CONFIDENCE_CHANGE_OUTSIDE_DUE_CHECKPOINT"
+  },
+  "weather": "NOT_FROZEN_NON_CHECKPOINT",
+  "market": "NOT_CAPTURED_NON_CHECKPOINT",
+  "information_advantage": "NONE_ASSERTED",
+  "roster_population": "AWAITING_OFFICIAL_FINALS_WEEK_1_TEAM_LISTS",
+  "prediction_state": "NO_FINALS_TIP_FROZEN",
+  "integrity": "No historical freeze rewritten; no checkpoint reconstructed; no causal medical inference added beyond published evidence."
+}
