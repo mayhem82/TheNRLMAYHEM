@@ -2,6 +2,10 @@ name: NRL live score capture
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update-live-scores.mjs'
+      - '.github/workflows/live-scores.yml'
   schedule:
     - cron: '*/5 * * * *'
 
