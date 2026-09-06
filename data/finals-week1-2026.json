@@ -2,11 +2,13 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-06T19:30:40+10:00",
-  "source_class": "OFFICIAL_NRL",
+  "captured_at": "2026-09-07T05:53:00+10:00",
+  "source_class": "MULTI_SOURCE_CURRENT_CYCLE",
   "source_url": "https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/",
   "source_published": "2026-09-06T18:47:00+10:00",
-  "status": "VERIFIED_FIXTURES",
+  "status": "VERIFIED_FIXTURES_CURRENT_INTELLIGENCE_ACTIVE",
+  "manual_cycle_rule": "T-minus checkpoints are automation capture times, not restrictions on live MAYHEM analysis. Manual/current cycles may produce a current selection and confidence whenever sufficient evidence exists. T-10 remains the immutable pre-match freeze.",
+  "market_source": "Sportsbet NRL Finals Week 1 current market captured 2026-09-07T05:53:00+10:00",
   "fixtures": [
     {
       "id": "FW1-SS-NKN-2026-09-11",
@@ -18,16 +20,19 @@
       "venue": "Allianz Stadium",
       "kickoff_sydney": "2026-09-11T19:50:00+10:00",
       "lifecycle": "UPCOMING",
-      "decision_state": "NOT_FROZEN",
-      "tip": null,
-      "confidence": null,
-      "checkpoints": {
-        "T-24h": "2026-09-10T19:50:00+10:00",
-        "T-3h": "2026-09-11T16:50:00+10:00",
-        "T-60m": "2026-09-11T18:50:00+10:00",
-        "T-10m": "2026-09-11T19:40:00+10:00",
-        "post_match": "DUE_AFTER_VERIFIED_RESULT"
-      }
+      "decision_state": "CURRENT_NOT_FROZEN",
+      "tip": "Rabbitohs",
+      "confidence": 69,
+      "decision_captured_at": "2026-09-07T05:53:00+10:00",
+      "market": {"home_price":1.40,"away_price":2.97,"normalized_home_probability":67.96,"normalized_away_probability":32.04,"mayhem_delta_pp":1.04},
+      "structural_baseline": {"season_point_differential_latest_supported":"Rabbitohs approximately +113 after Round 27; Knights +42 after Round 26 then Round 27 bye","recent_scoring":"Rabbitohs +50 over final two games (42-22, 50-20); Knights lost 46-32 in Round 26 then bye","venue_context":"Allianz Stadium; Rabbitohs won 50-20 there in Round 27 against a heavily rested Roosters side","roster_continuity":"PROVISIONAL_PENDING_FINALS_TEAM_LIST"},
+      "player_effects": ["Rabbitohs: Tallis Duncan was expected to be available for Week 1 after being rested in Round 27.","Knights: Francis Manuleleua, Brodie Jones, Phoenix Crossland, Tyson Frizell and Dom Young have finals return windows but Week 1 selection is not yet confirmed.","Knights: Jacob Saifiti, Dylan Brown, Trey Mooney and Dylan Lucas remain unavailable for the 2026 finals under current official reporting."],
+      "weather": "Sydney long-range forecast for Friday currently shows sunny periods, about 21C maximum/10C minimum. No demonstrated directional team edge; forecast remains SIGNAL until checkpoint refresh.",
+      "opposing_case": "Newcastle gains a Round 27 bye/rest advantage and could materially strengthen if multiple finals-window returnees are officially named.",
+      "falsification": "Reduce or reverse Rabbitohs edge if official Week 1 lists confirm multiple high-impact Newcastle returns while South Sydney loses role-critical spine/middle continuity.",
+      "evidence_family_independence": "Market is treated as shared public information, not independent corroboration. Official NRL team/availability evidence and observed match results are separate evidence families.",
+      "information_advantage": "NONE_ASSERTED",
+      "checkpoints": {"T-24h":"2026-09-10T19:50:00+10:00","T-3h":"2026-09-11T16:50:00+10:00","T-60m":"2026-09-11T18:50:00+10:00","T-10m":"2026-09-11T19:40:00+10:00","post_match":"DUE_AFTER_VERIFIED_RESULT"}
     },
     {
       "id": "FW1-WAR-DOL-2026-09-12",
@@ -39,16 +44,19 @@
       "venue": "Go Media Stadium",
       "kickoff_sydney": "2026-09-12T16:05:00+10:00",
       "lifecycle": "UPCOMING",
-      "decision_state": "NOT_FROZEN",
-      "tip": null,
-      "confidence": null,
-      "checkpoints": {
-        "T-24h": "2026-09-11T16:05:00+10:00",
-        "T-3h": "2026-09-12T13:05:00+10:00",
-        "T-60m": "2026-09-12T15:05:00+10:00",
-        "T-10m": "2026-09-12T15:55:00+10:00",
-        "post_match": "DUE_AFTER_VERIFIED_RESULT"
-      }
+      "decision_state": "CURRENT_NOT_FROZEN",
+      "tip": "Warriors",
+      "confidence": 63,
+      "decision_captured_at": "2026-09-07T05:53:00+10:00",
+      "market": {"home_price":1.54,"away_price":2.47,"normalized_home_probability":61.60,"normalized_away_probability":38.40,"mayhem_delta_pp":1.40},
+      "structural_baseline": {"season_point_differential_latest_supported":"Warriors approximately +310; Dolphins approximately +156","recent_scoring":"Warriors six straight wins, latest 31-30 over Manly; Dolphins seven straight wins, latest 24-20 over Titans","venue_context":"Go Media Stadium home final; Warriors won their final two home regular-season games including 46-32 over Newcastle and 31-30 over Manly","roster_continuity":"PROVISIONAL_PENDING_FINALS_TEAM_LIST"},
+      "player_effects": ["Warriors: Charnze Nicoll-Klokstad, Te Maire Martin and Chanel Harris-Tavita returned in Round 27; Wayde Egan and Kurt Capewell were rested.","Warriors: Leka Halasima is expected to return for the opening final; Dallin Watene-Zelezniak, Luke Metcalf and Jackson Ford remain unresolved until official selection.","Dolphins: Selwyn Cobbo missed Round 27; Kodi Nikorima and Kulikefu Finefeuiaki were managed ahead of finals and remain to be confirmed in the Week 1 list."],
+      "weather": "Auckland forecast for Saturday currently indicates about 15C with brisk south-westerly winds around 39-40 km/h and low rain probability. Wind is a material variance signal but no demonstrated team-specific directional edge is asserted.",
+      "opposing_case": "Dolphins enter on a seven-match winning streak and beat the Warriors 26-24 in Round 17, providing a genuine counter-case despite the Warriors' stronger season differential and home venue.",
+      "falsification": "Reduce Warriors edge if official lists show incomplete Warriors return/continuity while Dolphins restore Cobbo, Nikorima and Finefeuiaki without comparable disruption.",
+      "evidence_family_independence": "Market is not counted as independent corroboration. Season differential, venue/results, official availability and prior head-to-head are separated.",
+      "information_advantage": "NONE_ASSERTED",
+      "checkpoints": {"T-24h":"2026-09-11T16:05:00+10:00","T-3h":"2026-09-12T13:05:00+10:00","T-60m":"2026-09-12T15:05:00+10:00","T-10m":"2026-09-12T15:55:00+10:00","post_match":"DUE_AFTER_VERIFIED_RESULT"}
     },
     {
       "id": "FW1-SHA-COW-2026-09-12",
@@ -60,16 +68,19 @@
       "venue": "Allianz Stadium",
       "kickoff_sydney": "2026-09-12T19:50:00+10:00",
       "lifecycle": "UPCOMING",
-      "decision_state": "NOT_FROZEN",
-      "tip": null,
-      "confidence": null,
-      "checkpoints": {
-        "T-24h": "2026-09-11T19:50:00+10:00",
-        "T-3h": "2026-09-12T16:50:00+10:00",
-        "T-60m": "2026-09-12T18:50:00+10:00",
-        "T-10m": "2026-09-12T19:40:00+10:00",
-        "post_match": "DUE_AFTER_VERIFIED_RESULT"
-      }
+      "decision_state": "CURRENT_NOT_FROZEN",
+      "tip": "Sharks",
+      "confidence": 64,
+      "decision_captured_at": "2026-09-07T05:53:00+10:00",
+      "market": {"home_price":1.44,"away_price":2.81,"normalized_home_probability":66.12,"normalized_away_probability":33.88,"mayhem_delta_pp":-2.12},
+      "structural_baseline": {"season_point_differential_latest_supported":"Sharks approximately +154; Cowboys approximately -84","recent_scoring":"Sharks lost final two games 38-18 to Eels and 24-20 to Storm; Cowboys beat Wests Tigers 24-10 then lost 50-30 to Raiders","venue_context":"Allianz Stadium neutralised Sydney finals venue rather than Cronulla home ground","roster_continuity":"PROVISIONAL_PENDING_FINALS_TEAM_LIST"},
+      "player_effects": ["Sharks: Braydon Trindall, Mawene Hiroti and Thomas Hazelton have finals return windows but Week 1 selection remains unconfirmed; Jesse Ramien is unavailable for 2026 finals.","Cowboys: Zac Laybutt, Jeremiah Nanai and Griffin Neame are expected to be fit for opening week; Murray Taulagi remains unresolved.","Cowboys Round 27 defensive concession of 50 points is a current negative team signal, not a player-specific medical inference."],
+      "weather": "Sydney Saturday forecast currently shows long sunny periods around 22C maximum/12C minimum. No material directional weather edge is identified at this horizon.",
+      "opposing_case": "North Queensland's prospective return of Nanai, Laybutt and Neame could improve a side whose current market probability is materially below Cronulla, while Cronulla enters after consecutive losses.",
+      "falsification": "Reduce Sharks edge if Trindall/Hazelton remain out and Cowboys confirm their expected opening-final returns; increase only if Cronulla spine/middle continuity is verified.",
+      "evidence_family_independence": "Market, season differential, recent results and official availability are treated as distinct or dependent as appropriate; no market-linked model is double-counted.",
+      "information_advantage": "NONE_ASSERTED",
+      "checkpoints": {"T-24h":"2026-09-11T19:50:00+10:00","T-3h":"2026-09-12T16:50:00+10:00","T-60m":"2026-09-12T18:50:00+10:00","T-10m":"2026-09-12T19:40:00+10:00","post_match":"DUE_AFTER_VERIFIED_RESULT"}
     },
     {
       "id": "FW1-PEN-SYD-2026-09-13",
@@ -81,26 +92,25 @@
       "venue": "CommBank Stadium",
       "kickoff_sydney": "2026-09-13T16:05:00+10:00",
       "lifecycle": "UPCOMING",
-      "decision_state": "NOT_FROZEN",
-      "tip": null,
-      "confidence": null,
-      "checkpoints": {
-        "T-24h": "2026-09-12T16:05:00+10:00",
-        "T-3h": "2026-09-13T13:05:00+10:00",
-        "T-60m": "2026-09-13T15:05:00+10:00",
-        "T-10m": "2026-09-13T15:55:00+10:00",
-        "post_match": "DUE_AFTER_VERIFIED_RESULT"
-      }
+      "decision_state": "CURRENT_NOT_FROZEN",
+      "tip": "Panthers",
+      "confidence": 73,
+      "decision_captured_at": "2026-09-07T05:53:00+10:00",
+      "market": {"home_price":1.33,"away_price":3.35,"normalized_home_probability":71.58,"normalized_away_probability":28.42,"mayhem_delta_pp":1.42},
+      "structural_baseline": {"season_point_differential_latest_supported":"Panthers approximately +336; Roosters approximately +118","recent_scoring":"Panthers beat Bulldogs 24-10 and Wests Tigers 38-10; Roosters lost to Dolphins in Round 26 then fielded a heavily rested side in the 50-20 Round 27 loss to South Sydney","venue_context":"CommBank Stadium; Panthers secured minor premiership there in Round 27","roster_continuity":"PROVISIONAL_PENDING_FINALS_TEAM_LIST"},
+      "player_effects": ["Panthers: Isaah Yeo and Mitch Kenny completed Round 27 returns; finals selection/workload still requires official list confirmation.","Roosters: Sam Walker is unavailable for Finals Week 1 after syndesmosis surgery.","Roosters: Victor Radley is expected for Week 1 and Angus Crichton was reported on track, pending the official team list.","Roosters rested a large group of senior players in Round 27, so the 50-20 loss is down-weighted as a structural form input."],
+      "weather": "Sydney Sunday forecast currently shows sunny spells and warmer conditions around 25C maximum/14C minimum. No material directional weather edge is identified at this horizon.",
+      "opposing_case": "The Roosters deliberately rested a large senior cohort in Round 27 and can restore Tedesco, DCE, Robson, Radley and others; the final-round margin therefore substantially understates their likely finals strength.",
+      "falsification": "Reduce Panthers edge if official lists show a near-full-strength Roosters side with Radley/Crichton restored while Penrith loses key spine or middle continuity; Sam Walker's Week 1 absence remains a verified Roosters constraint.",
+      "evidence_family_independence": "Market is not independent corroboration. Minor-premiership differential, current player availability, venue/results and rested-roster context are separated.",
+      "information_advantage": "NONE_ASSERTED",
+      "checkpoints": {"T-24h":"2026-09-12T16:05:00+10:00","T-3h":"2026-09-13T13:05:00+10:00","T-60m":"2026-09-13T15:05:00+10:00","T-10m":"2026-09-13T15:55:00+10:00","post_match":"DUE_AFTER_VERIFIED_RESULT"}
     }
   ],
   "next_fixture_id": "FW1-SS-NKN-2026-09-11",
-  "next_checkpoint": {
-    "fixture_id": "FW1-SS-NKN-2026-09-11",
-    "checkpoint": "T-24h",
-    "due_sydney": "2026-09-10T19:50:00+10:00"
-  },
-  "roster_population_state": "AWAITING_OFFICIAL_FINALS_TEAM_LISTS",
-  "player_statistical_dossiers": "RETAIN_EXISTING_PERSISTENT_IDENTITIES; ENRICH/RECONCILE WHEN OFFICIAL FINALS SQUADS ARE NAMED",
-  "weather_state": "NOT_CHECKPOINT_DUE; mandatory venue weather capture begins at due checkpoint and on material forecast change",
-  "audit_note": "No finals tip or confidence is frozen by fixture publication alone. Pre-freeze MAYHEM gates remain mandatory."
+  "next_checkpoint": {"fixture_id":"FW1-SS-NKN-2026-09-11","checkpoint":"T-24h","due_sydney":"2026-09-10T19:50:00+10:00"},
+  "roster_population_state": "OFFICIAL_FINALS_WEEK_1_LISTS_NOT_YET_PUBLISHED; LATEST_VERIFIED_ROSTER_AND_AVAILABILITY EVIDENCE ACTIVE",
+  "player_statistical_dossiers": "PERSISTENT PLAYER IDENTITIES RETAINED; OFFICIAL FINALS SQUADS WILL TRIGGER FULL ROLE/STAT RECONCILIATION. NO PLAYER REMOVED FOR ABSENCE OF NEWS.",
+  "weather_state": "CURRENT_LONG_RANGE_CAPTURE_ACTIVE; refresh at automation checkpoints and on material forecast change",
+  "audit_note": "Four current MAYHEM selections now exist from the manual 2026-09-07 cycle. They are contemporaneous but not T-10 frozen. Automation checkpoints remain auditable and may revise them. T-10 freezes the immutable grading decision."
 }
