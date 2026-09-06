@@ -14,7 +14,7 @@ Each layer must remain attributable to the evidence beneath it. A downstream con
 
 No hindsight contamination. Historical results are not retroactive MAYHEM tips. A genuine pre-match selection is frozen before kickoff and can later be graded, never rewritten.
 
-If a scheduled checkpoint was not genuinely captured at the required time it is recorded as `MISSED_NOT_CAPTURED`. It is never reconstructed later and represented as contemporaneous evidence.
+If a scheduled checkpoint is missed but kickoff has not yet occurred, the checkpoint must still be executed as soon as practicable and recorded as `CAPTURED_LATE_BEFORE_KICKOFF`. The original due time and the genuine later capture time are both preserved. The late capture uses only evidence actually available at the later capture time and must never be represented as evidence known at the original due time. If kickoff has already occurred, an uncaptured pre-match checkpoint remains `MISSED_NOT_CAPTURED`; it is not reconstructed from post-kickoff information.
 
 A genuine pre-match team selection with a verified result is always publicly graded `CORRECT` or `INCORRECT`. Internal calibration eligibility cannot suppress or qualify the ordinary tipping result.
 
