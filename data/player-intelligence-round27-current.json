@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 27,
-  "captured_at": "2026-09-06T07:54:00+10:00",
+  "captured_at": "2026-09-06T13:37:26+10:00",
   "records": [
     {
       "player": "Vaka Aho",
@@ -17,32 +17,6 @@
       "source": "Wests Tigers official Round 27 squad update"
     },
     {
-      "player": "Charlie Murray",
-      "team": "Wests Tigers",
-      "position_context": "Second row / reserve",
-      "fixture": "Panthers v Wests Tigers",
-      "captured_at": "2026-09-06T07:54:00+10:00",
-      "classification": "VERIFIED",
-      "status": "DROPPED_FROM_24H_SQUAD",
-      "observation": "Official Wests Tigers squad update states Charlie Murray dropped out of the squad named earlier in the week.",
-      "decision_effect": "NO_MATCH_ROLE",
-      "macro_effect": "Historical roster presence is preserved, but he is no longer treated as an active Round 27 playing option in the latest state.",
-      "source": "Wests Tigers official Round 27 squad update"
-    },
-    {
-      "player": "Faaletino Tavana",
-      "team": "Wests Tigers",
-      "position_context": "Reserve",
-      "fixture": "Panthers v Wests Tigers",
-      "captured_at": "2026-09-06T07:54:00+10:00",
-      "classification": "VERIFIED",
-      "status": "DROPPED_FROM_24H_SQUAD",
-      "observation": "Official Wests Tigers squad update states Tino Tavana dropped out of the squad named earlier in the week.",
-      "decision_effect": "NO_MATCH_ROLE",
-      "macro_effect": "Historical roster presence is preserved, but he is no longer treated as an active Round 27 playing option in the latest state.",
-      "source": "Wests Tigers official Round 27 squad update"
-    },
-    {
       "player": "Terrell May",
       "team": "Wests Tigers",
       "position_context": "Prop",
@@ -54,6 +28,58 @@
       "decision_effect": "NO_AUTOMATIC_UPLIFT",
       "macro_effect": "Milestone is retained as context only; MAYHEM does not infer a performance increase from the milestone itself.",
       "source": "Wests Tigers official Round 27 squad update"
+    },
+    {
+      "player": "Isaah Yeo",
+      "team": "Panthers",
+      "position_context": "Interchange / captain",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-06T13:37:26+10:00",
+      "classification": "VERIFIED",
+      "status": "ELEVATED_TO_INTERCHANGE_RETURN",
+      "observation": "Official NRL late mail confirms Yeo has been elevated from the reserves to the interchange after three games out.",
+      "decision_effect": "SUPPORTS_EXISTING_SELECTION",
+      "macro_effect": "Improves Penrith middle/spine continuity relative to the earlier squad state; no workload beyond the named role is assumed.",
+      "source": "https://www.nrl.com/news/2026/09/02/nrl-late-mail-round-27--yeo-in-frame-duncan-hamstrung/"
+    },
+    {
+      "player": "Mitch Kenny",
+      "team": "Panthers",
+      "position_context": "Hooker",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-06T13:37:26+10:00",
+      "classification": "VERIFIED",
+      "status": "RETURNING_STARTING_HOOKER",
+      "observation": "Official NRL late mail confirms Kenny will start at hooker in his seventh game of the season.",
+      "decision_effect": "SUPPORTS_EXISTING_SELECTION",
+      "macro_effect": "Restores Penrith's primary dummy-half role; return workload remains an uncertainty rather than an assumed positive volume effect.",
+      "source": "https://www.nrl.com/news/2026/09/02/nrl-late-mail-round-27--yeo-in-frame-duncan-hamstrung/"
+    },
+    {
+      "player": "Sean Russell",
+      "team": "Eels",
+      "position_context": "Fullback",
+      "fixture": "Dragons v Eels",
+      "captured_at": "2026-09-06T13:37:26+10:00",
+      "classification": "VERIFIED",
+      "status": "GAME_DAY_PROMOTION_TO_FULLBACK",
+      "observation": "Official NRL game-day late mail confirms Russell moves from the interchange to fullback.",
+      "decision_effect": "REVIEW_REQUIRED",
+      "macro_effect": "Changes Eels backfield organisation and spine linkage immediately before kickoff; no directional performance effect is inferred without stronger role-specific evidence.",
+      "source": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"
+    },
+    {
+      "player": "Apa Twidle",
+      "team": "Eels",
+      "position_context": "Interchange",
+      "fixture": "Dragons v Eels",
+      "captured_at": "2026-09-06T13:37:26+10:00",
+      "classification": "VERIFIED",
+      "status": "GAME_DAY_MOVE_TO_INTERCHANGE",
+      "observation": "Official NRL game-day late mail confirms Twidle shifts from fullback to the interchange.",
+      "decision_effect": "REVIEW_REQUIRED",
+      "macro_effect": "Preserves player availability but changes starting role and Eels backfield continuity relative to the prior checkpoint.",
+      "source": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"
     }
   ]
 }
