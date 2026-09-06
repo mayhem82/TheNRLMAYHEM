@@ -1,0 +1,87 @@
+{
+  "system": "The NRL MAYHEM",
+  "purpose": "Reusable all-team road-to-premiership model for future seasons, including 2027.",
+  "season_application": "Populate for every NRL club from Round 1 onward; update after each verified result and ladder change.",
+  "principle": "Every team's premiership road is tracked, not only current favourites or finalists.",
+  "states": [
+    "REGULAR_SEASON",
+    "MINOR_PREMIERSHIP_LIVE",
+    "TOP_TWO_LIVE",
+    "TOP_FOUR_LIVE",
+    "TOP_EIGHT_LIVE",
+    "FINALS_CLINCHED",
+    "FINALS_ELIMINATED",
+    "QUALIFYING_FINAL",
+    "ELIMINATION_FINAL",
+    "SEMI_FINAL",
+    "PRELIMINARY_FINAL",
+    "GRAND_FINAL",
+    "PREMIER",
+    "SEASON_ELIMINATED"
+  ],
+  "regular_season_fields": [
+    "competition_points",
+    "ladder_position",
+    "points_for",
+    "points_against",
+    "points_differential",
+    "games_remaining",
+    "maximum_possible_competition_points",
+    "minimum_guaranteed_competition_points",
+    "minor_premiership_mathematical_status",
+    "top_two_mathematical_status",
+    "top_four_mathematical_status",
+    "top_eight_mathematical_status",
+    "clinching_scenarios",
+    "elimination_scenarios",
+    "other_results_required",
+    "tiebreak_requirements",
+    "next_fixture"
+  ],
+  "finals_mechanics": {
+    "positions_1_to_4": {
+      "week_1": "Qualifying Final: 1st v 4th and 2nd v 3rd.",
+      "win": "Advance directly to Preliminary Final and receive Week 2 off.",
+      "loss": "Remain alive and host a Week 2 Semi-final against an Elimination Final winner.",
+      "premiership_routes": [
+        "Qualifying Final win -> Preliminary Final win -> Grand Final win",
+        "Qualifying Final loss -> Semi-final win -> Preliminary Final win -> Grand Final win"
+      ]
+    },
+    "positions_5_to_8": {
+      "week_1": "Elimination Final: 5th v 8th and 6th v 7th.",
+      "win": "Advance to Week 2 Semi-final.",
+      "loss": "Eliminated.",
+      "premiership_route": "Elimination Final win -> Semi-final win -> Preliminary Final win -> Grand Final win"
+    },
+    "week_2": "Semi-finals are sudden death.",
+    "week_3": "Preliminary Finals are sudden death; winners reach the Grand Final.",
+    "week_4": "Grand Final winner is NRL Premier."
+  },
+  "team_road_record": {
+    "team": null,
+    "current_state": null,
+    "current_ladder_position": null,
+    "minor_premiership_status": null,
+    "top_two_status": null,
+    "top_four_status": null,
+    "finals_status": null,
+    "best_available_path": null,
+    "alternate_path": null,
+    "next_required_result": null,
+    "external_results_required": [],
+    "margin_or_tiebreak_requirement": null,
+    "possible_week_1_opponents": [],
+    "home_final_implications": null,
+    "minimum_wins_from_here_to_premiership": null,
+    "maximum_losses_survivable_from_here": null,
+    "elimination_condition": null,
+    "verified_at": null,
+    "sources": []
+  },
+  "2026_final_eight_reference": {
+    "teams": ["Warriors", "Panthers", "Dolphins", "Roosters", "Sharks", "Rabbitohs", "Knights", "Cowboys"],
+    "note": "The 2026 final eight was locked before Round 27. Exact seeding and pathways must be reconciled after the final regular-season result rather than inferred from an earlier ladder snapshot."
+  },
+  "2027_build_rule": "From the first 2027 ladder, maintain one road record for every NRL club. A team remains represented after mathematical elimination, with the elimination mechanism and date preserved for season audit."
+}
