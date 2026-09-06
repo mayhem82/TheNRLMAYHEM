@@ -1,0 +1,59 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-07T07:23:12+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"MATERIAL_PLAYER_AVAILABILITY_JUDICIARY_CHANGE",
+  "lifecycle_reconciliation":{"status":"NO_STALE_PAST_KICKOFF_FIXTURES","relevant_fixtures":4,"state":"UPCOMING"},
+  "source":{"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","published":"2026-09-06T12:32:00+10:00"},
+  "observations":[
+    {
+      "fixture":"FW1-SS-NKN-2026-09-11",
+      "team":"Rabbitohs",
+      "player":"Jamie Humphreys",
+      "classification":"VERIFIED",
+      "observation":"Official NRL judiciary report lists Jamie Humphreys as suspended for two matches from a Round 27 Dangerous Contact charge.",
+      "availability_state":"UNAVAILABLE_FINALS_WEEK_1",
+      "decision_effect":"NEGATIVE_ROSTER_CONTINUITY_SIGNAL; role effect to be reconciled against official Finals Week 1 team list.",
+      "tip_effect":"Rabbitohs current selection retained at 69%; no confidence revision made solely from role-uncertain suspension evidence."
+    },
+    {
+      "fixture":"FW1-SHA-COW-2026-09-12",
+      "team":"Cowboys",
+      "player":"Reuben Cotter",
+      "classification":"VERIFIED_CHARGE_PLEA_TBC",
+      "observation":"Official NRL judiciary report records a Grade 2 Careless High Tackle charge. Cotter faces one match with an early guilty plea or two matches if he contests and is found guilty.",
+      "availability_state":"FINALS_WEEK_1_AT_RISK_PLEA_TBC",
+      "decision_effect":"MATERIAL_NEGATIVE_COWBOYS_MIDDLE_CONTINUITY_SIGNAL; no assumption that suspension is final until plea/judiciary outcome is verified.",
+      "tip_effect":"Sharks current selection retained at 64% pending plea outcome and official team list."
+    },
+    {
+      "fixture":"FW1-SHA-COW-2026-09-12",
+      "team":"Sharks",
+      "player":"Michael Gabrael",
+      "classification":"VERIFIED_CHARGE_PLEA_TBC",
+      "observation":"Official NRL judiciary report records a Grade 3 Careless High Tackle charge. Gabrael faces two matches with an early guilty plea or three if he contests and is found guilty.",
+      "availability_state":"FINALS_WEEK_1_AT_RISK_PLEA_TBC",
+      "decision_effect":"MATERIAL_NEGATIVE_SHARKS_BACKLINE_DEPTH_SIGNAL; no assumption that suspension is final until plea/judiciary outcome is verified.",
+      "tip_effect":"Sharks current selection retained at 64%; competing Sharks/Cowboys judiciary risks prevent unsupported confidence movement."
+    }
+  ],
+  "other_official_judiciary_notes":[
+    "Ronaldo Mulitalo and Addin Fonua-Blake face fines and remain eligible for the Cowboys final if they take early guilty pleas.",
+    "Jacob Saifiti is confirmed out for the remainder of Newcastle's 2026 season after pleading guilty to his Round 26 charge."
+  ],
+  "market_absorption_clock":"NO_RELIABLE_MATERIAL_MOVEMENT_CONFIRMED_IN_THIS_CAPTURE; movement without cause remains SIGNAL.",
+  "weather":"NO_MATERIAL_CHANGE_FROM_CURRENT_CAPTURE; mandatory venue weather remains active and will refresh at scheduled checkpoints or on material forecast change.",
+  "official_finals_team_lists":"NOT_LOCATED_AS_OF_CAPTURE",
+  "current_decisions":[
+    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "next_automation_checkpoint":{"fixture":"Rabbitohs v Knights","checkpoint":"T-24h","due":"2026-09-10T19:50:00+10:00"},
+  "integrity":"No frozen decision rewritten. Plea-TBC charges remain unresolved availability states, not assumed suspensions. Current manual selections remain contemporaneous and T-10 remains the immutable grading freeze."
+}
