@@ -1,0 +1,37 @@
+{
+  "fixture_id":"R27-DRA-PAR",
+  "match":"Dragons v Eels",
+  "checkpoint":"T-60m",
+  "due_at":"2026-09-06T13:00:00+10:00",
+  "captured_at":"2026-09-06T13:37:26+10:00",
+  "timezone":"Australia/Sydney",
+  "capture_state":"CAPTURED_LATE_BEFORE_KICKOFF",
+  "kickoff":"2026-09-06T14:00:00+10:00",
+  "sources_checked":[
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/","finding":"Game-day late mail: Dragons unchanged; Eels move Sean Russell to fullback and Apa Twidle to the bench."},
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/02/nrl-late-mail-round-27--yeo-in-frame-duncan-hamstrung/","finding":"Official current team list confirms Sean Russell at fullback and Apa Twidle on interchange; remaining named roles retained."},
+    {"class":"OFFICIAL_WEATHER","url":"https://www.bom.gov.au/places/nsw/north-wollongong/forecast/","finding":"Wollongong area mostly sunny, 0 mm expected, 10% rain chance, west to southwesterly 20-30 km/h turning southerly around midday."},
+    {"class":"DIRECT_MARKET","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","finding":"Head-to-head Dragons 2.25, Eels 1.65; line Dragons +3.5 1.91 / Eels -3.5 1.89."}
+  ],
+  "weather":{"classification":"VERIFIED","summary":"Mostly sunny and dry; material wind remains the main weather variable, with west/southwesterly 20-30 km/h turning southerly. No demonstrated team-specific directional edge is assigned."},
+  "evidence":[
+    {"classification":"VERIFIED","observation":"Sean Russell promoted from interchange to Eels fullback; Apa Twidle shifts from fullback to interchange.","player_effect":"Backline role redistribution immediately before kickoff.","team_macro_effect":"Eels spine/backfield continuity is changed relative to the 24-hour roster; directional value remains uncertain without stronger role-performance evidence."},
+    {"classification":"VERIFIED","observation":"Dragons report no game-day change.","player_effect":"Named starting roles retained.","team_macro_effect":"Roster continuity preserved relative to prior checkpoint."}
+  ],
+  "player_statistical_trend_effects":{"state":"NO_NEW_VERIFIED_STATISTICAL_TRAJECTORY_AT_THIS_CHECKPOINT","note":"Existing official-profile dossiers remain in force; no causal claim is inferred from the role change alone."},
+  "matchup_effects":["Eels fullback change is material to kick-return, backfield organisation and spine linkage, but evidence at capture does not establish a directional advantage."],
+  "conflicts":[],
+  "market":{"dragons_price":2.25,"eels_price":1.65,"raw_implied":{"dragons":0.444444,"eels":0.606061},"overround":1.050505,"normalized_probability":{"dragons":0.423077,"eels":0.576923},"market_state":"VERIFIED_CURRENT_CAPTURE"},
+  "structural_baseline":{"state":"PERSISTED_PRIOR_BASELINE_RETAINED","note":"No new verified season-level structural statistic at this checkpoint overturns the prior baseline."},
+  "evidence_family_independence":{"state":"REVIEWED","finding":"Official roster and weather evidence are independent of bookmaker price; market-linked external predictions are not counted as independent corroboration."},
+  "adversarial_counter_case":{"team":"Dragons","case":"Home venue, unchanged game-day roster and Eels backfield reshuffle support a credible case that the market favourite may not deserve an uplift beyond normalized price."},
+  "falsification_conditions":["Late Eels withdrawal or further spine/backfield reshuffle","Verified role-critical statistical evidence materially favouring Dragons","Market movement materially reducing Eels implied probability without a contrary verified explanation"],
+  "information_advantage_candidates":[{"fragment":"Sean Russell fullback / Apa Twidle bench game-day change","classification":"POSSIBLE","decision_effect":"REVIEW_ONLY","note":"Publicly available before kickoff; no demonstrated market lead or outcome validation yet."}],
+  "mayhem_inference":{"preferred_team":"Eels","existing_confidence":0.62,"normalized_market_probability":0.576923,"confidence_vs_market_delta_pp":4.31,"decision_state":"REVIEW_REQUIRED","reason":"Existing confidence exceeds normalized market probability by more than 3 percentage points and this checkpoint does not supply sufficient independent causal football evidence to validate the uplift."},
+  "prediction_decomposition":{"market_baseline":"Eels 57.69% normalized","roster_role_change":"Eels fullback reshuffle increases uncertainty","weather":"Wind variance, no directional team edge established","structural_evidence":"Prior baseline retained","pseudo_precision":"DENIED"},
+  "tip":"Eels",
+  "confidence":62,
+  "freeze_state":"NOT_REFROZEN_AT_T60",
+  "next_checkpoint":{"stage":"T-10m","due_at":"2026-09-06T13:50:00+10:00"},
+  "integrity":"No earlier timestamp reconstructed. Capture occurred after the target time but before kickoff and is therefore CAPTURED_LATE_BEFORE_KICKOFF."
+}
