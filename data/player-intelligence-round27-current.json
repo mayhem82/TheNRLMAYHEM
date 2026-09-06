@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 27,
-  "captured_at": "2026-09-06T13:37:26+10:00",
+  "captured_at": "2026-09-07T02:42:15+10:00",
   "records": [
     {
       "player": "Vaka Aho",
@@ -79,6 +79,32 @@
       "observation": "Official NRL game-day late mail confirms Twidle shifts from fullback to the interchange.",
       "decision_effect": "REVIEW_REQUIRED",
       "macro_effect": "Preserves player availability but changes starting role and Eels backfield continuity relative to the prior checkpoint.",
+      "source": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"
+    },
+    {
+      "player": "Isaah Yeo",
+      "team": "Panthers",
+      "position_context": "Interchange / captain",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-07T02:42:15+10:00",
+      "classification": "VERIFIED",
+      "status": "POST_MATCH_RETURN_VALIDATED",
+      "observation": "Official NRL post-match reporting confirms Yeo came from the interchange and successfully returned in Penrith's 38-10 Round 27 win after three games out.",
+      "decision_effect": "CARRY_TO_FINALS_WEEK_1",
+      "macro_effect": "Removes the prior uncertainty about whether Yeo could complete a Round 27 return. Finals Week One selection and workload remain unconfirmed until the official team list and later checkpoint evidence.",
+      "source": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"
+    },
+    {
+      "player": "Mitch Kenny",
+      "team": "Panthers",
+      "position_context": "Hooker",
+      "fixture": "Panthers v Wests Tigers",
+      "captured_at": "2026-09-07T02:42:15+10:00",
+      "classification": "VERIFIED",
+      "status": "POST_MATCH_RETURN_VALIDATED",
+      "observation": "Official NRL post-match reporting confirms Kenny started at hooker and successfully returned in Penrith's 38-10 Round 27 win.",
+      "decision_effect": "CARRY_TO_FINALS_WEEK_1",
+      "macro_effect": "Confirms a completed first-grade return before Finals Week One. It does not establish future selection, minutes or an automatic performance uplift.",
       "source": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"
     }
   ]
