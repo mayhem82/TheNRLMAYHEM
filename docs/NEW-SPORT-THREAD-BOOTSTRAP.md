@@ -4,6 +4,20 @@ Status: ACTIVE REFERENCE
 Reference implementation: `mayhem82/TheNRLMAYHEM`
 Purpose: reusable instruction set for starting a new sport repository in a separate ChatGPT thread without importing NRL-specific assumptions as universal rules.
 
+## Explicit-reference boundary
+
+The GitHub repository is public infrastructure. The MAYHEM intelligence system is private operational context.
+
+Public accessibility does not make this repository or its intelligence architecture general conversational context.
+
+A ChatGPT thread must not discover, introduce, access, reference, disclose, reuse or infer from `mayhem82/TheNRLMAYHEM`, its public site, its files, its architecture, or any MAYHEM sport implementation merely because the material is publicly accessible or known from another conversation.
+
+The repository becomes in-scope only when the user explicitly references the repository, the NRL MAYHEM system, a specific MAYHEM sport implementation, or explicitly directs the current thread to use it. A bootstrap instruction naming this repository is an explicit reference for that thread.
+
+Do not treat memory of the repository's existence as authorization to introduce it into an unrelated thread. Do not use an unrelated request as a reason to search for MAYHEM repositories. Do not expose private operational reasoning, unreleased analysis, provisional intelligence, internal weighting or other private intelligence merely because related public infrastructure exists.
+
+This is a contextual-use boundary, not a claim of technical secrecy. GitHub public repositories are independently discoverable on the public internet. Anything actually committed to a public repository must therefore be treated as publicly accessible information.
+
 ## Thread-start instruction
 
 Paste or point the new thread at this file and give it the target sport and repository name.
@@ -83,7 +97,7 @@ Do not modify TheNRLMAYHEM merely to make the new sport fit. The first repositor
 
 A short opening can be:
 
-`Use mayhem82/TheNRLMAYHEM as the first MAYHEM sport-domain reference implementation. Read docs/NEW-SPORT-THREAD-BOOTSTRAP.md, docs/SPORT-DOMAIN-ARCHITECTURE.md and data/live-state-contract.json. Target sport: [SPORT]. Target repository: [OWNER/REPO]. Transplant the architecture, not the NRL assumptions. Research the sport-specific domain model first, then build autonomously from verified evidence. Never treat the repository as complete; use verified snapshots.`
+`Explicitly reference mayhem82/TheNRLMAYHEM for this thread only as the first MAYHEM sport-domain reference implementation. Read docs/NEW-SPORT-THREAD-BOOTSTRAP.md, docs/SPORT-DOMAIN-ARCHITECTURE.md and data/live-state-contract.json. Target sport: [SPORT]. Target repository: [OWNER/REPO]. Transplant the architecture, not the NRL assumptions. Research the sport-specific domain model first, then build autonomously from verified evidence. Never treat the repository as complete; use verified snapshots. Do not introduce or reuse this repository in unrelated threads unless I explicitly reference it there.`
 
 ## Future Sporting Domain portal
 
