@@ -2,12 +2,12 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-06T21:35:53+10:00",
+  "captured_at": "2026-09-07T01:18:17+10:00",
   "timezone": "Australia/Sydney",
   "source_class": "OFFICIAL_NRL",
   "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
   "classification": "VERIFIED",
-  "interpretation_rule": "NRL Casualty Ward return label 'Finals' is a return window, not confirmation of availability for a specific Finals Week 1 fixture or confirmation of selection. TBC remains unresolved. No medical reason beyond the published description is inferred.",
+  "interpretation_rule": "NRL Casualty Ward return label 'Finals' is a return window, not confirmation of availability for a specific Finals Week 1 fixture or confirmation of selection. TBC remains unresolved. More specific and later official reporting overrides a generic return-window label. No medical reason beyond the published description is inferred.",
   "fixtures": {
     "FW1-SS-NKN-2026-09-11": {
       "Rabbitohs": [
@@ -76,14 +76,15 @@
       ],
       "Roosters": [
         {"player":"Reece Foley","published_condition":"head knock","return_window":"TBC","state":"AVAILABILITY_UNRESOLVED","decision_effect":"MONITOR"},
-        {"player":"Victor Radley","published_condition":"concussion","return_window":"Finals","state":"ON_TRACK_FOR_OPENING_FINAL_NOT_SELECTION_CONFIRMED","decision_effect":"MONITOR"},
-        {"player":"Angus Crichton","published_condition":"foot","return_window":"Finals","state":"ON_TRACK_FOR_OPENING_FINAL_NOT_SELECTION_CONFIRMED","decision_effect":"MONITOR"},
+        {"player":"Victor Radley","published_condition":"concussion","return_window":"Finals","state":"EXPECTED_AVAILABLE_WEEK_1_NOT_SELECTION_CONFIRMED","decision_effect":"MONITOR","source_url":"https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/","source_observation":"Trent Robinson said Radley will be there week one."},
+        {"player":"Angus Crichton","published_condition":"ankle","return_window":"Finals","state":"ON_TRACK_WEEK_1_DECISION_PENDING","decision_effect":"MONITOR","source_url":"https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/","source_observation":"Trent Robinson said Crichton was progressing and on track, with availability a next-week decision."},
         {"player":"Blake Steep","published_condition":"knee","return_window":"2027","state":"UNAVAILABLE_FOR_2026_FINALS","decision_effect":"AVAILABILITY_DOWN_IF_NAMING_RELEVANT"},
-        {"player":"Sam Walker","published_condition":"ankle","return_window":"TBC","state":"RACING_CLOCK_FOR_FINALS","decision_effect":"MONITOR"}
+        {"player":"Sam Walker","published_condition":"ankle","return_window":"TBC","state":"UNAVAILABLE_FOR_FINALS_WEEK_1","decision_effect":"AVAILABILITY_DOWN","source_url":"https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/","source_observation":"NRL reports the Roosters will enter the finals without Sam Walker following syndesmosis surgery; the club remains hopeful he may play again later in the season.","captured_at":"2026-09-07T01:18:17+10:00"}
       ],
       "material_notes": [
-        "NRL reports Victor Radley and Angus Crichton are pushing to return for the opening week of finals; Trent Robinson said both are on track, with Crichton's status a next-week decision.",
-        "NRL reports Sam Walker has undergone ankle surgery and is racing the clock to play a part in the finals campaign."
+        "Victor Radley is expected to be available for Week 1 according to Trent Robinson; selection remains unconfirmed until the official team list.",
+        "Angus Crichton is progressing and on track, but his Week 1 availability remains a decision for finals week.",
+        "CORRECTION: Sam Walker is unavailable for Finals Week 1. Official NRL reporting on September 3 states the Roosters will enter the finals without him after syndesmosis surgery. Hope of a later-season return is not Week 1 availability."
       ]
     }
   },
