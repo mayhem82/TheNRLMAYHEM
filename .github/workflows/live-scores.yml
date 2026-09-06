@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'scripts/update-live-scores.mjs'
+      - 'scripts/reconcile-live-lifecycle.mjs'
       - '.github/workflows/live-scores.yml'
   schedule:
     - cron: '*/5 * * * *'
@@ -30,16 +31,19 @@ jobs:
         env:
           NRL_ROUND: '27'
         run: node scripts/update-live-scores.mjs
-      - name: Persist changed live-state snapshot
+      - name: Reconcile governed lifecycle
+        if: steps.capture.outcome == 'success'
+        run: node scripts/reconcile-live-lifecycle.mjs
+      - name: Persist changed governed state
         run: |
-          if git diff --quiet -- data/live-scores-2026.json; then
-            echo 'No live-state change to persist.'
+          if git diff --quiet -- data/live-scores-2026.json data/season-canonical-2026.json data/checkpoints-round27-canonical.json; then
+            echo 'No governed state change to persist.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/live-scores-2026.json
-          git commit -m 'Update NRL live-state snapshot'
+          git add data/live-scores-2026.json data/season-canonical-2026.json data/checkpoints-round27-canonical.json
+          git commit -m 'Update NRL live and lifecycle state'
           git push
       - name: Report capture failure
         if: steps.capture.outcome == 'failure'
