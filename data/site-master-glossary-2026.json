@@ -1,21 +1,23 @@
 {
   "system": "The NRL MAYHEM",
-  "snapshot": "SITE-GLOSSARY-SNAP-001",
-  "captured_at": "2026-09-06T11:24:00+10:00",
+  "snapshot": "SITE-GLOSSARY-SNAP-002",
+  "captured_at": "2026-09-06T12:12:57+10:00",
   "scope": "The site as a whole: MAYHEM architecture, evidence states, lifecycle states, audit language, analytical constructs and public-interface terminology. NRL football terminology belongs in the separate NRL Master Glossary.",
   "rules": [
     "Preserve canonical site terms and internal codes for audit integrity.",
     "Translate every site term into ordinary public language.",
     "Do not contaminate the NRL Master Glossary with MAYHEM/site architecture.",
     "Site terms may be used as research-control terms, but are not football evidence by themselves.",
-    "Where an internal code is shown publicly, provide a plain-language rendering."
+    "Where an internal code is shown publicly, provide a plain-language rendering.",
+    "A missed pre-match checkpoint must be captured late if kickoff has not yet occurred; preserve the original due time and genuine late capture time.",
+    "Never backdate a late capture or use post-kickoff information to reconstruct a pre-match checkpoint."
   ],
   "categories": {"SITE ARCHITECTURE":"MAYHEM/site architecture and workflow terminology"},
   "terms": [
     {"term":"Audit Clock","category":"SITE ARCHITECTURE","plain_language":"The public MAYHEM view showing scheduled evidence checkpoints and fixture lifecycle state.","research_use":"Control timed evidence capture and expose missed or completed checkpoints.","status":"VERIFIED"},
     {"term":"Brier score","category":"SITE ARCHITECTURE","plain_language":"A probability-forecast accuracy measure used by the site's calibration layer.","research_use":"Audit the calibration of genuine frozen probabilities.","status":"VERIFIED"},
     {"term":"Capture timestamp","category":"SITE ARCHITECTURE","plain_language":"The recorded date and time at which evidence was actually acquired.","research_use":"Test contemporaneity and information timing.","status":"VERIFIED"},
-    {"term":"Captured late before kickoff","category":"SITE ARCHITECTURE","plain_language":"Internal state meaning a checkpoint was captured after its target time but before kickoff.","research_use":"Separate genuine contemporaneous evidence from on-time checkpoint compliance.","status":"VERIFIED"},
+    {"term":"Captured late before kickoff","category":"SITE ARCHITECTURE","plain_language":"Checkpoint state meaning the scheduled capture time was missed, but the checkpoint was still executed before kickoff using evidence actually available at the later capture time.","research_use":"Preserve useful pre-match evidence while keeping the original due time and actual late capture time distinct.","status":"VERIFIED"},
     {"term":"Checkpoint","category":"SITE ARCHITECTURE","plain_language":"A scheduled evidence-capture stage in the site's match workflow.","research_use":"Structure repeated research and audit actions.","status":"VERIFIED"},
     {"term":"Confidence","category":"SITE ARCHITECTURE","plain_language":"The probability attached to a genuine MAYHEM pre-match selection when contemporaneously frozen.","research_use":"Compare with market probability and later calibration.","status":"VERIFIED"},
     {"term":"Contradicted","category":"SITE ARCHITECTURE","plain_language":"Evidence-state label meaning a prior claim conflicts with stronger or newer verified evidence.","research_use":"Trigger contradiction resolution rather than silent replacement.","status":"VERIFIED"},
@@ -28,7 +30,7 @@
     {"term":"Information Advantage","category":"SITE ARCHITECTURE","plain_language":"MAYHEM test of whether combining public information created a decision-relevant edge beyond any individual source.","research_use":"Assess timing, fragmentation, aggregation and market absorption.","status":"VERIFIED"},
     {"term":"Market absorption","category":"SITE ARCHITECTURE","plain_language":"The MAYHEM timing analysis of whether public information appears to have been reflected in bookmaker prices.","research_use":"Support information-advantage research.","status":"VERIFIED"},
     {"term":"Match window","category":"SITE ARCHITECTURE","plain_language":"Internal lifecycle state after kickoff and before verified closure.","research_use":"Prevent pre-match and post-kickoff evidence from being mixed.","status":"VERIFIED"},
-    {"term":"Missed checkpoint","category":"SITE ARCHITECTURE","plain_language":"Internal state for a scheduled checkpoint that was not genuinely captured.","research_use":"Prevent later reconstruction from being presented as contemporaneous evidence.","status":"VERIFIED"},
+    {"term":"Missed checkpoint","category":"SITE ARCHITECTURE","plain_language":"A scheduled checkpoint whose target time passed without capture. If kickoff has not yet occurred, it must be executed late and marked as a late pre-kickoff capture. If kickoff has already occurred, it remains missed and is not reconstructed.","research_use":"Trigger immediate late capture before kickoff while preserving the integrity boundary against post-kickoff reconstruction.","status":"VERIFIED"},
     {"term":"Player dossier","category":"SITE ARCHITECTURE","plain_language":"Persistent MAYHEM record combining player identity, role, statistics, observations and source lineage.","research_use":"Accumulate player intelligence across fixtures.","status":"VERIFIED"},
     {"term":"Portable Continuity Intelligence","category":"SITE ARCHITECTURE","plain_language":"MAYHEM architecture that compares baselines, deltas, pressure events and outcome validation.","research_use":"Transfer continuity-analysis structure across football intelligence.","status":"VERIFIED"},
     {"term":"Pressure event","category":"SITE ARCHITECTURE","plain_language":"MAYHEM analytical label for a material disruption used to test continuity.","research_use":"Research before-and-after evidence around injuries, rotation, weather or other disruptions.","status":"VERIFIED"},
