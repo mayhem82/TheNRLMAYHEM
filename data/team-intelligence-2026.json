@@ -1,7 +1,7 @@
 {
   "system": "The NRL MAYHEM",
   "season": 2026,
-  "captured_at": "2026-09-05T14:31:16+10:00",
+  "captured_at": "2026-09-07T02:42:15+10:00",
   "timezone": "Australia/Sydney",
   "integrity_rule": "Team macro intelligence is append-oriented. Source facts, MAYHEM inference, conflicts and post-match validation remain separately identifiable. Stale observations must not be presented as current without a new capture.",
   "teams": {
@@ -103,17 +103,18 @@
       "market_state": "AWAITING_CHECKPOINT_CAPTURE"
     },
     "Panthers": {
-      "freshness": "2026-09-05T14:31:16+10:00",
+      "freshness": "2026-09-07T02:42:15+10:00",
       "evidence": [
         {"classification":"VERIFIED","fact":"Panthers entered Round 27 in 2nd position on 40 competition points with a +308 differential.","source_class":"OFFICIAL"},
-        {"classification":"VERIFIED","fact":"Mitch Kenny returns from a leg injury for Round 27.","source_class":"OFFICIAL"},
-        {"classification":"VERIFIED","fact":"Isaah Yeo is named among the reserves as he approaches return from a pectoral injury; official late mail notes he may be held back until finals.","source_class":"OFFICIAL"},
-        {"classification":"VERIFIED","fact":"Luke Garner starts at centre for Izack Tago, who is out with a knee injury.","source_class":"OFFICIAL"}
+        {"classification":"VERIFIED","fact":"Mitch Kenny returned from a leg injury and started at hooker in Round 27.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Isaah Yeo was elevated to the interchange after three games out and returned in Round 27.","source_class":"OFFICIAL"},
+        {"classification":"VERIFIED","fact":"Official NRL post-match reporting confirms both Yeo and Kenny successfully returned as Penrith beat Wests Tigers 38-10 and secured the 2026 minor premiership.","source_class":"OFFICIAL","source_url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"},
+        {"classification":"VERIFIED","fact":"Luke Garner started at centre for Izack Tago, who was out with a knee injury in Round 27.","source_class":"OFFICIAL"}
       ],
-      "macro_inference": "Penrith retain a strong competitive incentive through the minor-premiership race and restore Kenny, but Yeo's actual Round 27 participation remains unresolved. The current profile is strong with one important availability uncertainty.",
-      "conflict_state": "YEO_SELECTION_UNRESOLVED",
-      "weather_state": "T24H_CAPTURE_REQUIRED",
-      "market_state": "AWAITING_CHECKPOINT_CAPTURE"
+      "macro_inference": "Penrith enter Finals Week One as minor premiers with the prior Yeo participation uncertainty resolved and both Yeo and Kenny having completed first-grade returns. That improves evidenced core-role availability relative to the pre-Round-27 state, but Finals Week One selection, workload and any performance uplift remain unconfirmed until official team lists and checkpoint evidence.",
+      "conflict_state": "YEO_ROUND27_PARTICIPATION_RESOLVED",
+      "weather_state": "AWAITING_FINALS_WEEK1_CHECKPOINT_CAPTURE",
+      "market_state": "AWAITING_FINALS_WEEK1_CHECKPOINT_CAPTURE"
     },
     "Wests Tigers": {
       "freshness": "2026-09-05T14:31:16+10:00",
