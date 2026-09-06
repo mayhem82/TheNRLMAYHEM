@@ -1,0 +1,60 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "round": 27,
+  "fixture_id": "R27-DRA-PAR",
+  "match": "Dragons v Eels",
+  "stage": "T-3h",
+  "due": "2026-09-06T11:00:00+10:00",
+  "captured_at": "2026-09-06T11:01+10:00",
+  "status": "CAPTURED_LATE_IN_CHECKPOINT_WINDOW",
+  "kickoff": "2026-09-06T14:00:00+10:00",
+  "venue": "WIN Stadium, Wollongong",
+  "lifecycle_state": "UPCOMING",
+  "roster": {
+    "state": "OFFICIAL_24H_STATE_VERIFIED_NO_NEW_CHANGE_IDENTIFIED_AT_CAPTURE",
+    "source": "NRL.com Round 27 Late Mail",
+    "facts": [
+      "Dragons official team state retains Daniel Atkinson, Mathew Feagai, Moses Suli, Valentine Holmes, Tyrell Sloan, Lyhkan King-Togia, Kyle Flanagan, Toby Couchman, Damien Cook, Blake Lawrie, Dylan Egan, Hamish Stewart, Loko Jnr Pasifiki Tonga, Connor Muhleisen, Ryan Couchman, Josh Kerr and Jacob Halangahu in the listed 17.",
+      "Eels official team state retains Apa Twidle, Brian Kelly, Will Penisini, Jordan Samrani, Josh Addo-Carr, Ronald Volkman, Mitchell Moses, Luca Moretti, Tallyn Da Silva, Junior Paulo, Jack Williams, Kitione Kautoga, Saxon Pryke, Harrison Edwards, Jack De Belin, Teancum Brown and Dylan Walker in the listed 17.",
+      "Tyrese Lokeni remains in line for an NRL debut from the extended interchange; Sean Russell remains extended interchange; Kade Reed and Jonah Pezet remain reserves.",
+      "NRL late mail reports no changes in Saturday's 24-hour updates for either club."
+    ]
+  },
+  "market": {
+    "source": "Sportsbet public NRL market captured via current web index",
+    "dragons_h2h": 2.25,
+    "eels_h2h": 1.65,
+    "line": "Dragons +3.5 / Eels -3.5",
+    "total": 56.5,
+    "normalized_two_way_probability": {
+      "dragons": 0.4231,
+      "eels": 0.5769,
+      "method": "inverse-price probabilities normalized to remove two-sided overround"
+    },
+    "secondary_market_crosscheck": "Independent bookmaker-comparison pages cluster Eels around $1.60-$1.65 and Dragons around $2.25-$2.32.",
+    "classification": "VERIFIED_MARKET_STATE_WITH_SECONDARY_CROSSCHECK"
+  },
+  "weather": {
+    "primary_source": "Bureau of Meteorology Wollongong area forecast",
+    "forecast": "Partly cloudy to mostly sunny conditions; slight morning shower risk; south to southwesterly winds 25-35 km/h turning southeasterly 15-25 km/h during the day and easing later.",
+    "temperature_range": "Approximately 14-22 C for the Wollongong area forecast day.",
+    "rain": "Low rain risk around match period; available local dashboard cross-check reports 5% daily rainfall chance.",
+    "decision_effect": "MONITOR_WIND_NO_DIRECTIONAL_EDGE_ESTABLISHED",
+    "integrity": "No unsupported surface-condition inference made."
+  },
+  "continuity_intelligence": {
+    "structural_state": "FULL_PLAYER_INGESTION_IN_PROGRESS",
+    "dragons": "Middle rotation change remains the principal verified structural delta: Blake Lawrie starts, Loko Jnr Pasifiki Tonga moves to lock, Ryan Couchman moves to the bench.",
+    "eels": "Jordan Samrani return, Sean Russell shift, Jack De Belin bench return and possible Tyrese Lokeni debut remain the principal verified personnel deltas.",
+    "selection_inertia_gate": "ACTIVE",
+    "finding": "The existing Eels 62% preference exceeds the normalized Sportsbet market probability by about 4.3 percentage points. Under MAYHEM rules, that uplift cannot be treated as validated until independent evidence plus a causal football mechanism survives the full-ingestion and pre-freeze gates.",
+    "state": "REVIEW_REQUIRED_PENDING_FULL_INGESTION"
+  },
+  "current_tip": "Eels",
+  "current_confidence": 62,
+  "decision_effect": "NO_FREEZE_CHANGE_AT_T3H",
+  "next_checkpoint": "T-60m",
+  "next_due": "2026-09-06T13:00:00+10:00",
+  "integrity": "This is a contemporaneous immutable T-3h checkpoint snapshot. It does not reconstruct T-24h evidence or silently mark incomplete player ingestion as complete."
+}
