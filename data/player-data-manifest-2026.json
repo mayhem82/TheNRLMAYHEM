@@ -1,0 +1,19 @@
+{
+  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-06-TI",
+  "required":[
+    "data/player-intelligence-2026.json",
+    "data/player-intelligence-round27-current.json",
+    "data/player-roster-round27-2026.json"
+  ],
+  "statistics":[
+    "data/player-stats-2026.json",
+    "data/player-stats-dragons-eels-2026.json",
+    "data/player-stats-eels-supplement-2026.json",
+    "data/player-stats-dragons-eels-supplement-2-2026.json",
+    "data/player-stats-wests-tigers-2026.json",
+    "data/player-stats-tigers-supplement-2026.json",
+    "data/player-stats-panthers-supplement-2026.json"
+  ],
+  "coverage":"data/round27-sunday-player-ingestion-coverage-2026.json",
+  "contradictions":"data/contradiction-resolutions-2026.json"
+}

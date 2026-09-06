@@ -1,9 +1,42 @@
 {
-  "season": 2026,
-  "architecture": "INFORMATION_ADVANTAGE_LEDGER",
-  "updated_at": null,
-  "events": [],
-  "advantage_classes": ["NONE", "POSSIBLE", "CORROBORATED", "DEMONSTRATED"],
-  "required_fields": ["fixture", "signal", "public_available_at", "captured_at", "source_class", "fragments", "inference", "market_state_at_capture", "market_response_at", "decision_effect", "frozen_state", "outcome_validation", "advantage_class"],
-  "integrity": "A correct result alone cannot establish information advantage. Temporal ordering and decision effect must be preserved."
+  "season":2026,
+  "architecture":"INFORMATION_ADVANTAGE_LEDGER",
+  "updated_at":"2026-09-06T12:49:01+10:00",
+  "advantage_classes":["NONE","POSSIBLE","CORROBORATED","DEMONSTRATED"],
+  "required_fields":["fixture","signal","public_available_at","captured_at","source_class","fragments","inference","market_state_at_capture","market_response_at","decision_effect","frozen_state","outcome_validation","advantage_class"],
+  "events":[
+    {
+      "event_id":"IA-R27-WAR-MAN-001",
+      "fixture":"Warriors v Sea Eagles",
+      "signal":"Warriors late backline reshuffle after Leka Halasima withdrawal",
+      "public_available_at":"2026-09-05T14:00:00+10:00",
+      "captured_at":"2026-09-05T14:02:10+10:00",
+      "source_class":"PRIMARY_OFFICIAL",
+      "fragments":["Leka Halasima out","Taine Tuaupiki fullback","Charnze Nicoll-Klokstad wing","Adam Pompey centre"],
+      "inference":"Backline continuity reduced but not enough to reverse Warriors selection.",
+      "market_state_at_capture":"Warriors 1.32 / Sea Eagles 3.37",
+      "market_response_at":null,
+      "decision_effect":"NO_EFFECT",
+      "frozen_state":"Warriors 68%",
+      "outcome_validation":"Warriors won 31-30; outcome alone does not prove an information edge.",
+      "advantage_class":"POSSIBLE"
+    },
+    {
+      "event_id":"IA-R27-COW-CAN-001",
+      "fixture":"Cowboys v Raiders",
+      "signal":"Correlated market/model consensus favouring Cowboys",
+      "public_available_at":"2026-09-05T14:30:23+10:00",
+      "captured_at":"2026-09-05T14:30:23+10:00",
+      "source_class":"SECONDARY_ANALYSIS",
+      "fragments":["market snapshots around Cowboys 1.48-1.55","Stats Insider 67%","Alphr 63%","NRLInsideEdge 54%"],
+      "inference":"Consensus was incorrectly treated as stronger independent corroboration than warranted.",
+      "market_state_at_capture":"normalized Cowboys probability about 61.7%-62.3%",
+      "market_response_at":null,
+      "decision_effect":"CONFIDENCE_CHANGE",
+      "frozen_state":"Cowboys 68%",
+      "outcome_validation":"Raiders won 50-30; failure audit found correlated evidence stacking and confidence inflation.",
+      "advantage_class":"NONE"
+    }
+  ],
+  "integrity":"A correct result alone cannot establish information advantage. Temporal ordering and decision effect are preserved."
 }

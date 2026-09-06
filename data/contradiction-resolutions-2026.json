@@ -1,0 +1,19 @@
+{
+  "snapshot":"CONTRADICTION-RESOLUTION-SNAP-001",
+  "captured_at":"2026-09-06T12:49:01+10:00",
+  "conflicts":[
+    {
+      "conflict_id":"R27-WAR-MAN-CNK-ROLE",
+      "fixture":"Warriors v Sea Eagles",
+      "subject":"Charnze Nicoll-Klokstad",
+      "type":"EARLIER_CHECKPOINT_VS_FINAL_TEAM_POSITION",
+      "resolution_state":"RESOLVED",
+      "superseded_state":"Centre / Fullback",
+      "resolved_to":"Wing",
+      "resolved_by":"NRL Late Mail Round 27 final selection state",
+      "resolved_at":"2026-09-05T14:52:55+10:00",
+      "resolution_event":"Final official selection placed Charnze Nicoll-Klokstad on the wing with Adam Pompey at centre.",
+      "historical_state_retained":true
+    }
+  ]
+}

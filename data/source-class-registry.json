@@ -1,0 +1,32 @@
+{
+  "snapshot":"SOURCE-CLASS-REGISTRY-001",
+  "canonical_classes":[
+    {"id":"PRIMARY_OFFICIAL","description":"NRL or other governing-body official source"},
+    {"id":"PRIMARY_CLUB","description":"Official NRL club source"},
+    {"id":"PRIMARY_OFFICIAL_STATS","description":"Official statistical source"},
+    {"id":"PRIMARY_OFFICIAL_SELECTION","description":"Official team-list or late-mail source"},
+    {"id":"PRIMARY_OFFICIAL_AVAILABILITY","description":"Official injury or availability source"},
+    {"id":"PRIMARY_OFFICIAL_JUDICIARY","description":"Official disciplinary source"},
+    {"id":"PRIMARY_OFFICIAL_WEATHER","description":"Official weather source"},
+    {"id":"PRIMARY_MARKET_OBSERVATION","description":"Direct bookmaker market observation"},
+    {"id":"SECONDARY_ANALYSIS","description":"Independent analysis or journalism"},
+    {"id":"SECONDARY_HISTORICAL","description":"Historical database/archive"},
+    {"id":"SECONDARY_MARKET_COMPARISON","description":"Multi-bookmaker or secondary market comparison"},
+    {"id":"SECONDARY_DERIVED_STATS","description":"Derived or fantasy/statistical secondary dataset"},
+    {"id":"ENVIRONMENTAL_OTHER","description":"Non-weather environmental evidence"},
+    {"id":"OTHER","description":"Unclassified source requiring review"}
+  ],
+  "aliases":{
+    "OFFICIAL":"PRIMARY_OFFICIAL",
+    "OFFICIAL_NRL":"PRIMARY_OFFICIAL",
+    "STATISTICAL":"PRIMARY_OFFICIAL_STATS",
+    "MARKET":"PRIMARY_MARKET_OBSERVATION",
+    "DIRECT_MARKET":"PRIMARY_MARKET_OBSERVATION",
+    "SPECIALIST":"SECONDARY_ANALYSIS",
+    "FANTASY_SUPERCOACH":"SECONDARY_DERIVED_STATS",
+    "ENVIRONMENTAL":"PRIMARY_OFFICIAL_WEATHER",
+    "WEAK_SOCIAL":"OTHER",
+    "CLUB_COMMUNITY":"OTHER"
+  },
+  "rule":"Persist canonical class plus original encountered class when migrating historical evidence. Alias mapping never rewrites the original source representation."
+}

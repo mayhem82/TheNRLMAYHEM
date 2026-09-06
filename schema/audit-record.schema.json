@@ -5,21 +5,15 @@
   "type":"object",
   "required":["season","round","home","away","kickoff_sydney","checkpoint","captured_at","evidence","tip_state"],
   "properties":{
-    "season":{"type":"integer"},
-    "round":{"type":"integer","minimum":1},
-    "home":{"type":"string"},
-    "away":{"type":"string"},
-    "venue":{"type":["string","null"]},
+    "season":{"type":"integer"},"round":{"type":"integer","minimum":1},"home":{"type":"string"},"away":{"type":"string"},"venue":{"type":["string","null"]},
     "kickoff_sydney":{"type":"string","format":"date-time"},
     "checkpoint":{"enum":["T-24h","T-3h","T-60m","T-10m","POST"]},
+    "capture_state":{"enum":["PENDING","CAPTURED_IN_WINDOW","CAPTURED_LATE_BEFORE_KICKOFF","MISSED_NOT_CAPTURED"]},
     "captured_at":{"type":"string","format":"date-time"},
-    "evidence":{"type":"array","items":{"type":"object","required":["classification","source_class","summary"],"properties":{"classification":{"enum":["VERIFIED","UNVERIFIED","CONTRADICTED","SIGNAL"]},"source_class":{"enum":["PRIMARY_OFFICIAL","STATISTICAL","MARKET","SPECIALIST","CLUB_COMMUNITY","FANTASY_SUPERCOACH","WEAK_SOCIAL","ENVIRONMENTAL","OFFICIATING"]},"summary":{"type":"string"},"source":{"type":["string","null"]}}}},
-    "contradictions":{"type":"array","items":{"type":"string"}},
-    "tip_state":{"enum":["OPEN","LOCKED","GRADED"]},
-    "mayhem_tip":{"type":["string","null"]},
-    "confidence":{"type":["number","null"],"minimum":0,"maximum":100},
-    "result":{"type":["string","null"]},
-    "grade":{"enum":["CORRECT","WRONG","PUSH",null]},
+    "evidence":{"type":"array","items":{"type":"object","required":["evidence_state","source_class","summary"],"properties":{"evidence_state":{"enum":["VERIFIED","UNVERIFIED","CONTRADICTED","SIGNAL"]},"source_class":{"type":"string"},"source_id":{"type":["string","null"]},"summary":{"type":"string"},"source":{"type":["string","null"]}}}},
+    "contradictions":{"type":"array","items":{"$ref":"#/$defs/contradiction"}},
+    "tip_state":{"enum":["OPEN","LOCKED","GRADED"]},"mayhem_tip":{"type":["string","null"]},"confidence":{"type":["number","null"],"minimum":0,"maximum":100},"result":{"type":["string","null"]},"grade":{"enum":["CORRECT","INCORRECT",null]},
     "integrity":{"type":"object","properties":{"frozen_at":{"type":["string","null"],"format":"date-time"},"hindsight_changes_prohibited":{"const":true}}}
-  }
+  },
+  "$defs":{"contradiction":{"type":"object","required":["conflict_id","type","resolution_state"],"properties":{"conflict_id":{"type":"string"},"type":{"type":"string"},"resolution_state":{"enum":["OPEN","RESOLVED","UNRESOLVED"]},"resolved_to":{},"resolved_by_source_snapshot_id":{"type":["string","null"]},"resolved_at":{"type":["string","null"],"format":"date-time"},"resolution_event_id":{"type":["string","null"]}}}}
 }

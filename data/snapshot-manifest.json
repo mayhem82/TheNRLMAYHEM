@@ -1,0 +1,18 @@
+{
+  "snapshot_id":"TIER-INFINITY-REPAIR-SNAPSHOT-001",
+  "generated_at":"2026-09-06T12:49:01+10:00",
+  "timezone":"Australia/Sydney",
+  "repository_commit":"PENDING_REPAIR_COMMIT",
+  "base_audit_commit":"8c18022c89062f166cc541ab5742f6335ec1eae3",
+  "canonical":{
+    "season":{"path":"data/season-canonical-2026.json","blob_sha":"807665cfa08fc3fca4d6b355c44e37d3bf21152a"},
+    "checkpoints":{"path":"data/checkpoints-round27-canonical.json","blob_sha":"b0fabbfa0e852c5c110ed5c712f367941fdeec17"},
+    "contradictions":{"path":"data/contradiction-resolutions-2026.json","blob_sha":"6ba358e5721de3378228259cd72221fefe60b144"},
+    "information_advantage":{"path":"data/information-advantage-ledger-2026.json","blob_sha":"f83f40f4a843a3d66aedf9f77b38799828332932"},
+    "player_manifest":{"path":"data/player-data-manifest-2026.json","blob_sha":"bd54e74c0549c07be51e7052f0c169c5b4f6f135"},
+    "source_classes":{"path":"data/source-class-registry.json","blob_sha":"cd57f69a1b0a8001a591cf24adc3865501ee6ccf"},
+    "source_performance":{"path":"data/source-performance-ledger-2026.json","blob_sha":"7e87d6abd566d93af44b571ad77e07cded96ae29"}
+  },
+  "public_views":["index.html","intelligence.html","teams.html","players.html","audit-clock.html","glossary.html","site-master-glossary.html","sites.html"],
+  "rule":"Every public view must derive factual state from the canonical objects listed here. Historical source files may remain for audit lineage but cannot override canonical current state."
+}

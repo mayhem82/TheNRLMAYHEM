@@ -1,0 +1,11 @@
+{
+  "snapshot":"SOURCE-PERFORMANCE-LEDGER-001",
+  "season":2026,
+  "updated_at":"2026-09-06T12:49:01+10:00",
+  "rule":"Initial source-priority descriptions are priors, not empirical weights. Performance changes require audited longitudinal evidence.",
+  "records":[
+    {"source_class":"PRIMARY_OFFICIAL","captures":5,"corroborated":5,"contradicted":0,"decision_influence":4,"status":"PRIORITY_HIGH_EMPIRICAL_SAMPLE_SMALL"},
+    {"source_class":"PRIMARY_MARKET_OBSERVATION","captures":4,"corroborated":4,"contradicted":0,"decision_influence":3,"status":"MARKET_REFERENCE_NOT_FOOTBALL_CAUSAL_EVIDENCE"},
+    {"source_class":"SECONDARY_ANALYSIS","captures":3,"corroborated":2,"contradicted":1,"decision_influence":2,"status":"EARLY_SAMPLE_REQUIRES_CONTINUED_AUDIT"}
+  ]
+}

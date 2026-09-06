@@ -1,0 +1,22 @@
+{
+  "snapshot":"NRL-GLOSSARY-PREMIERSHIP-SUPPLEMENT-001",
+  "scope":"Competition and finals terminology required by the Premiership intelligence layer.",
+  "source":"NRL finals-series format and official competition usage",
+  "terms":[
+    {"term":"Minor Premiership","category":"COMPETITION","plain_language":"The regular-season title awarded to the team that finishes first on the NRL ladder after the regular season.","research_use":"Separate regular-season first place from the NRL Premiership decided through the finals series.","status":"VERIFIED"},
+    {"term":"Finals Series","category":"COMPETITION","plain_language":"The post-regular-season competition involving the top eight teams and culminating in the Grand Final.","research_use":"Trace each qualifying club's path to the Premiership.","status":"VERIFIED"},
+    {"term":"Top Eight","category":"COMPETITION","plain_language":"The eight ladder positions that qualify for the NRL finals series.","research_use":"Determine whether a Premiership path remains open.","status":"VERIFIED"},
+    {"term":"Top Four","category":"COMPETITION","plain_language":"Ladder positions one to four, which enter Week 1 through Qualifying Finals and can survive a Week 1 loss.","research_use":"Distinguish double-chance finals paths from elimination paths.","status":"VERIFIED"},
+    {"term":"Top Two","category":"COMPETITION","plain_language":"Ladder positions one and two, both of which host a Week 1 Qualifying Final under the standard finals format.","research_use":"Track home-final implications and Minor Premiership consequences.","status":"VERIFIED"},
+    {"term":"Qualifying Final","category":"COMPETITION","plain_language":"A Week 1 finals match involving top-four teams. The winner advances directly to a Preliminary Final; the loser remains alive and plays a Semi-final.","research_use":"Model top-four Premiership pathways and Week 1 loss survivability.","status":"VERIFIED"},
+    {"term":"Elimination Final","category":"COMPETITION","plain_language":"A Week 1 finals match involving teams finishing fifth to eighth. The loser is eliminated and the winner advances to a Semi-final.","research_use":"Model sudden-death Premiership paths from positions five to eight.","status":"VERIFIED"},
+    {"term":"Semi-final","category":"COMPETITION","plain_language":"A Week 2 sudden-death finals match. The winner advances to a Preliminary Final and the loser is eliminated.","research_use":"Trace the Week 2 branch of the finals path.","status":"VERIFIED"},
+    {"term":"Preliminary Final","category":"COMPETITION","plain_language":"A Week 3 sudden-death finals match whose winner advances to the Grand Final.","research_use":"Trace the penultimate step to the Premiership.","status":"VERIFIED"},
+    {"term":"Grand Final","category":"COMPETITION","plain_language":"The championship match at the end of the NRL finals series. Its winner is the NRL Premier.","research_use":"Define the terminal Premiership outcome.","status":"VERIFIED"},
+    {"term":"Double chance","category":"COMPETITION","plain_language":"Common description of the protection enjoyed by top-four teams because a Week 1 Qualifying Final loss does not eliminate them.","research_use":"Explain loss survivability without implying that any later loss can be survived.","status":"VERIFIED"},
+    {"term":"Week off","category":"COMPETITION","plain_language":"The rest week earned by a Qualifying Final winner before the Preliminary Final.","research_use":"Model recovery and scheduling consequences of a Week 1 win.","status":"VERIFIED"},
+    {"term":"Ladder tiebreak","category":"COMPETITION","plain_language":"The competition procedure used to separate teams level on competition points, beginning with the applicable points-differential and subsequent official criteria.","research_use":"Resolve Minor Premiership and seeding scenarios only from the official tiebreak procedure.","status":"VERIFIED"},
+    {"term":"Home final","category":"COMPETITION","plain_language":"A finals match hosted by the team entitled to hosting rights under the finals format and verified seeding.","research_use":"Track venue and travel implications after seeding is confirmed.","status":"VERIFIED"},
+    {"term":"Sudden death","category":"COMPETITION","plain_language":"A finals state in which losing the match ends the team's Premiership campaign.","research_use":"Distinguish elimination branches from top-four Week 1 protection.","status":"VERIFIED"}
+  ]
+}

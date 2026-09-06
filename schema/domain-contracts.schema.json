@@ -1,0 +1,20 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://mayhem82.github.io/TheNRLMAYHEM/schema/domain-contracts.schema.json",
+  "title":"NRL MAYHEM Persistent Domain Contracts",
+  "type":"object",
+  "$defs":{
+    "season":{"type":"object","required":["season","fixture_count","round27"]},
+    "checkpointLedger":{"type":"object","required":["generated_at","timezone","round","fixtures"]},
+    "reconciliation":{"type":"object","required":["captured_at","timezone","reconciliation"]},
+    "playerDossier":{"type":"object","required":["player","team"]},
+    "roster":{"type":"object","required":["season","round","teams"]},
+    "failureAudit":{"type":"object","required":["fixture","frozen_tip","result","grade","failure_mechanisms"]},
+    "calibration":{"type":"object","required":["season","predictions","metrics"]},
+    "informationAdvantage":{"type":"object","required":["season","events","advantage_classes"]},
+    "premiershipRoad":{"type":"object","required":["season","teams","rules"]},
+    "continuity":{"type":"object","required":["system","season","architecture","hierarchy"]},
+    "researchSites":{"type":"object","required":["system","season","snapshot","sites"]},
+    "glossary":{"type":"object","required":["system","snapshot","scope","terms"]}
+  }
+}
