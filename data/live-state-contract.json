@@ -1,0 +1,25 @@
+{
+  "contract_id":"SPORT-LIVE-STATE-001",
+  "status":"ACTIVE_ARCHITECTURE",
+  "domain":"SPORT",
+  "first_implementation":"NRL",
+  "terminal_state":"NONE",
+  "principle":"MAYHEM uses verified snapshots, never COMPLETE.",
+  "states":["SCHEDULED","PRE_EVENT","LIVE","HALFTIME_OR_INTERVAL","POST_EVENT_RESULT_VERIFICATION_PENDING","VERIFIED_RESULT","POSTPONED","ABANDONED","UNKNOWN"],
+  "required_fields":["event_id","sport","competition","home_or_participant_a","away_or_participant_b","scheduled_start","status","source_id","captured_at","last_verified_at","stale_state"],
+  "conditional_live_fields":["score_a","score_b","clock_or_period"],
+  "integrity_rules":[
+    "Never manufacture a capture timestamp.",
+    "Never use post-start live evidence to rewrite a frozen pre-event decision.",
+    "Live observations may reconcile event lifecycle state.",
+    "A displayed live state must expose source and last verified time.",
+    "If refresh fails or age exceeds the implementation freshness threshold, mark the state stale rather than implying it is live.",
+    "A finished live feed does not itself create VERIFIED_RESULT; result verification remains a governed transition.",
+    "Sport-specific scoring and period structures belong in implementation adapters, not this portable contract."
+  ],
+  "nrl_primary_source_capability":{
+    "source":"NRL official Match Centre / Draw",
+    "observed_capabilities":["live scores","match status","match clock when published","team statistics","line-ups","play-by-play","live ladder in official app"],
+    "architecture_note":"Implementation must use a lawful reliable acquisition path and retain source capture provenance."
+  }
+}
