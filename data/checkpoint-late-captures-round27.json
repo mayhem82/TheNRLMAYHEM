@@ -1,0 +1,65 @@
+{
+  "season": 2026,
+  "round": 27,
+  "timezone": "Australia/Sydney",
+  "policy": "If a scheduled pre-match checkpoint is missed and kickoff has not yet occurred, execute it as soon as practicable. Preserve both the original due time and the genuine late capture time. Use only evidence available at the late capture time. Never represent the late capture as contemporaneous with the original due time. If kickoff has occurred, the uncaptured pre-match checkpoint remains MISSED_NOT_CAPTURED.",
+  "captures": [
+    {
+      "fixture_id": "R27-PEN-WST",
+      "match": "Panthers v Wests Tigers",
+      "stage": "T-24h",
+      "due": "2026-09-05T16:05:00+10:00",
+      "status": "CAPTURED_LATE_BEFORE_KICKOFF",
+      "captured_at": "2026-09-06T12:12:57+10:00",
+      "lateness_seconds": 72477,
+      "kickoff": "2026-09-06T16:05:00+10:00",
+      "source_facts": [
+        {
+          "classification": "VERIFIED",
+          "fact": "Official NRL late mail lists Isaah Yeo on the Panthers interchange after three games out with a pectoral injury. Mitch Kenny returns from a leg injury. Luke Garner is named at centre, with Luron Patea on the interchange."
+        },
+        {
+          "classification": "VERIFIED",
+          "fact": "Official NRL late mail lists Latu Fainu on the Wests Tigers interchange after a hamstring injury, Vaka Aho to make his NRL debut from the bench, and Sione Fainu in the side for Tony Sukkar after delayed concussion symptoms."
+        },
+        {
+          "classification": "VERIFIED",
+          "fact": "Official NRL fixture information confirms Panthers v Wests Tigers at CommBank Stadium, Parramatta, with kickoff scheduled for 4:05 pm AEST."
+        },
+        {
+          "classification": "VERIFIED",
+          "fact": "Observed Sportsbet head-to-head market at the late capture: Panthers $1.10, Wests Tigers $7.00; line Panthers -19.5; total match points 48.5."
+        },
+        {
+          "classification": "DERIVED",
+          "fact": "Sportsbet two-sided head-to-head prices normalize to approximately 86.4% Panthers and 13.6% Wests Tigers after removing the quoted overround."
+        },
+        {
+          "classification": "SECONDARY_WEATHER",
+          "fact": "Parramatta forecast source available at the late capture indicated a sunny day around 24°C, westerly wind about 17 km/h with gusts around 25 km/h and a 10% probability of precipitation."
+        }
+      ],
+      "weather": {
+        "venue": "CommBank Stadium, Parramatta",
+        "source_state": "SECONDARY_SOURCE_CAPTURED_BOM_LOCAL_DETAIL_NOT_RESOLVED_IN_THIS_PASS",
+        "forecast": "Sunny; around 24°C; westerly wind about 17 km/h, gusts about 25 km/h; precipitation probability about 10%.",
+        "decision_effect": "NO_DIRECTIONAL_EFFECT_ESTABLISHED"
+      },
+      "market": {
+        "source": "Sportsbet",
+        "panthers": 1.10,
+        "wests_tigers": 7.00,
+        "line": "Panthers -19.5",
+        "total": 48.5,
+        "normalized_probability": {
+          "Panthers": 0.8642,
+          "Wests Tigers": 0.1358
+        }
+      },
+      "decision_effect": "NO_CHANGE",
+      "tip": "Panthers",
+      "confidence": 86,
+      "integrity": "This is a genuine late capture performed before kickoff. It is not backdated to the original T-24h due time and must not be used to claim what MAYHEM knew at that original time."
+    }
+  ]
+}
