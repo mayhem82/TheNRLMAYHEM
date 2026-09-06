@@ -1,0 +1,37 @@
+{
+  "fixture_id":"R27-PEN-WST",
+  "match":"Panthers v Wests Tigers",
+  "checkpoint":"T-3h",
+  "due_at":"2026-09-06T13:05:00+10:00",
+  "captured_at":"2026-09-06T13:37:26+10:00",
+  "timezone":"Australia/Sydney",
+  "capture_state":"CAPTURED_LATE_BEFORE_KICKOFF",
+  "kickoff":"2026-09-06T16:05:00+10:00",
+  "sources_checked":[
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/02/nrl-late-mail-round-27--yeo-in-frame-duncan-hamstrung/","finding":"Isaah Yeo elevated to Penrith interchange for return; Mitch Kenny starts at hooker; Wests Tigers retain Latu Fainu, Vaka Aho and Sunia Turuva in current squad."},
+    {"class":"OFFICIAL_WEATHER","url":"https://www.bom.gov.au/places/nsw/north-parramatta/forecast/","finding":"Mostly sunny, max 23 C, 0 mm expected, 5% rain chance; west to southwesterly 20-30 km/h tending southeast to southwesterly 15-25 km/h."},
+    {"class":"DIRECT_MARKET","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","finding":"Head-to-head Panthers 1.10, Wests Tigers 7.00; line Panthers -19.5 1.81 / Tigers +19.5 2.00."}
+  ],
+  "weather":{"classification":"VERIFIED","summary":"Dry and mostly sunny. Moderate west/southwesterly winds turning more southerly are a variance factor for kicking and high-ball play; no demonstrated directional team edge assigned."},
+  "evidence":[
+    {"classification":"VERIFIED","observation":"Isaah Yeo elevated from reserves to the Panthers interchange after three games out.","player_effect":"Restores a role-critical middle/spine organising option, but return workload is not assumed beyond the named interchange role.","team_macro_effect":"Penrith continuity/experience improves relative to the earlier 24-hour state."},
+    {"classification":"VERIFIED","observation":"Mitch Kenny returns at hooker for his seventh game of the season.","player_effect":"Primary dummy-half role restored.","team_macro_effect":"Penrith spine/middle continuity improves, subject to genuine return workload."},
+    {"classification":"VERIFIED","observation":"Vaka Aho is named for NRL debut from the Wests Tigers bench and Latu Fainu returns from injury.","player_effect":"Aho remains low-sample variance; Fainu adds a returning interchange playmaking option.","team_macro_effect":"Tigers bench carries both return and debut uncertainty."}
+  ],
+  "player_statistical_trend_effects":{"state":"PRIOR_DOSSIERS_RETAINED","note":"Role-critical comparisons remain governed by persisted official-profile dossiers. Vaka Aho is treated as pre-debut variance rather than a directional statistical edge."},
+  "matchup_effects":["Penrith's restored middle/spine personnel strengthens continuity evidence; Tigers' bench includes a debutant and returning half. These are football mechanisms but confidence remains constrained by the market."],
+  "conflicts":[],
+  "market":{"panthers_price":1.10,"wests_tigers_price":7.00,"raw_implied":{"panthers":0.909091,"wests_tigers":0.142857},"overround":1.051948,"normalized_probability":{"panthers":0.864198,"wests_tigers":0.135802},"market_state":"VERIFIED_CURRENT_CAPTURE"},
+  "structural_baseline":{"state":"PERSISTED_PRIOR_BASELINE_RETAINED","note":"Penrith's season differential/ladder superiority remains the governing structural baseline; no checkpoint evidence overturns it."},
+  "evidence_family_independence":{"state":"REVIEWED","finding":"Official roster-return evidence and weather are independent of bookmaker price; external market-derived prediction models are not counted independently."},
+  "adversarial_counter_case":{"team":"Wests Tigers","case":"The market already prices Penrith as an extreme favourite; return-from-injury workload uncertainty for Yeo and Kenny plus a 19.5-point line creates meaningful variance even if outright upset probability remains low."},
+  "falsification_conditions":["Late withdrawal or restricted role for Nathan Cleary, Dylan Edwards, Yeo or Kenny","Material final-team reshuffle reducing Penrith continuity","Verified market move sharply against Penrith with supporting football evidence"],
+  "information_advantage_candidates":[{"fragment":"Yeo elevated to interchange","classification":"NONE","decision_effect":"SUPPORTS_EXISTING_SELECTION","note":"Widely public and apparently absorbed by market; no demonstrated timing advantage."}],
+  "mayhem_inference":{"preferred_team":"Panthers","existing_confidence":0.86,"normalized_market_probability":0.864198,"confidence_vs_market_delta_pp":-0.42,"decision_state":"VALIDATED_AT_CHECKPOINT","reason":"Existing 86% confidence does not exceed normalized market probability and is consistent with structural and roster-continuity evidence."},
+  "prediction_decomposition":{"market_baseline":"Panthers 86.42% normalized","roster_continuity":"Positive via Yeo/Kenny return","weather":"Wind variance, no directional edge established","low_sample":"Vaka Aho classified uncertainty only","pseudo_precision":"DENIED"},
+  "tip":"Panthers",
+  "confidence":86,
+  "freeze_state":"NOT_T10_FINAL_FREEZE",
+  "next_checkpoint":{"stage":"T-60m","due_at":"2026-09-06T15:05:00+10:00"},
+  "integrity":"No earlier timestamp reconstructed. Capture occurred after the target time but before kickoff and is therefore CAPTURED_LATE_BEFORE_KICKOFF."
+}
