@@ -3,6 +3,7 @@
 Status: EXPANDING — NEVER COMPLETE
 Established: 2026-09-06 AEST
 First implementation: NRL
+Reusable new-sport bootstrap: `docs/NEW-SPORT-THREAD-BOOTSTRAP.md`
 
 ## Governing principle
 MAYHEM has no COMPLETE state. It has VERIFIED SNAPSHOTS. A snapshot may pass its current validation gates without implying that the architecture, domain model, source universe, mechanisms or public capability set is complete.
@@ -65,3 +66,6 @@ When a second sport is introduced:
 6. retain contradictions and failed generalisations as architecture evidence.
 
 This makes the Sport Domain layer evidence-grown rather than designed by assumption.
+
+## New repository/thread handoff
+For every new sport repository started in a separate thread, use `docs/NEW-SPORT-THREAD-BOOTSTRAP.md` as the handoff contract. It tells the new thread to use TheNRLMAYHEM as a reference implementation, research the target sport independently, transplant portable architecture only, classify portability explicitly and preserve MAYHEM integrity rules without importing NRL-specific assumptions.
