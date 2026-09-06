@@ -1,0 +1,49 @@
+{
+  "snapshot_id": "LIVE-SCORES-2026-BOOTSTRAP-001",
+  "season": 2026,
+  "competition": "NRL Telstra Premiership",
+  "round": 27,
+  "timezone": "Australia/Sydney",
+  "captured_at": "2026-09-06T14:42:04+10:00",
+  "refresh_target_seconds": 300,
+  "stale_after_seconds": 600,
+  "source": {
+    "source_id": "SRC-NRL-OFFICIAL-DRAW",
+    "source_class": "OFFICIAL_PRIMARY",
+    "source_url": "https://www.nrl.com/draw/",
+    "acquisition_state": "BOOTSTRAP_PENDING_AUTOMATED_CAPTURE"
+  },
+  "integrity": {
+    "canonical_result_store": "data/season-canonical-2026.json",
+    "canonical_checkpoint_store": "data/checkpoints-round27-canonical.json",
+    "rule": "This file is an observational live-state layer only. It must not rewrite frozen pre-match evidence. Finished observations require governed result verification before canonical result promotion."
+  },
+  "matches": [
+    {
+      "event_id": "R27-DRA-PAR",
+      "home": "Dragons",
+      "away": "Eels",
+      "scheduled_start": "2026-09-06T14:00:00+10:00",
+      "status": "SOURCE_UNAVAILABLE",
+      "score_home": null,
+      "score_away": null,
+      "clock_or_period": null,
+      "last_verified_at": null,
+      "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/dragons-v-eels/",
+      "mayhem": {"selection": "Eels", "confidence": 62, "decision_state": "REVIEW_REQUIRED"}
+    },
+    {
+      "event_id": "R27-PEN-WST",
+      "home": "Panthers",
+      "away": "Wests Tigers",
+      "scheduled_start": "2026-09-06T16:05:00+10:00",
+      "status": "UPCOMING",
+      "score_home": null,
+      "score_away": null,
+      "clock_or_period": null,
+      "last_verified_at": "2026-09-06T14:42:04+10:00",
+      "match_centre_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-27/panthers-v-wests-tigers/",
+      "mayhem": {"selection": "Panthers", "confidence": 86, "decision_state": "FROZEN"}
+    }
+  ]
+}
