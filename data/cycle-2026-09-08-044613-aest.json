@@ -1,0 +1,78 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-08T04:46:13+10:00",
+  "cycle_classification": "NO_MATERIAL_CHANGE",
+  "notification": "SUPPRESSED_BY_RULE",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ]
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/",
+      "finding": "Reuben Cotter remains not-guilty plea / Tuesday judiciary pending; Michael Gabrael remains suspended two matches. No new resolved judiciary state."
+    },
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/01/nrl-team-lists-round-27/",
+      "finding": "Official Finals Week 1 team lists are not yet published; predicted lineups were not promoted to VERIFIED roster presence."
+    },
+    {
+      "class": "SECONDARY_MARKET",
+      "url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-live-updates-newcastle-knights-vs-south-sydney-rabbitohs-score-team-news-latrell-mitchell/news-story/62336806ec0fb1412e8344f044e87e0e",
+      "finding": "Fox Sports displayed current prices at 2026-09-08T03:22:00+10:00: Rabbitohs 1.40/Knights 2.95, Warriors 1.58/Dolphins 2.40, Sharks 1.42/Cowboys 2.85, Panthers 1.30/Roosters 3.50. This matches the persisted same-source market state; no material movement."
+    },
+    {
+      "class": "SECONDARY_MARKET_CROSSCHECK",
+      "url": "https://www.beforeyoubet.com.au/2026-nrl-finals-week-1-tips-predictions-betting-odds",
+      "finding": "Different published prices were observed, but source/bookmaker-family difference prevents treating the discrepancy as temporal market movement. Retained as cross-source SIGNAL only."
+    },
+    {
+      "class": "OFFICIAL_WEATHER",
+      "url": "https://www.bom.gov.au/places/nsw/moore-park/forecast/",
+      "finding": "Sydney finals-horizon weather rechecked; no material change established from the governed low-rain Friday-Sunday state and no demonstrated directional team edge."
+    },
+    {
+      "class": "OFFICIAL_WEATHER",
+      "url": "https://www.metservice.com/towns-cities/regions/auckland/locations/auckland/extended",
+      "finding": "Auckland official extended source checked; detailed machine-readable Saturday fields remain insufficient for a new directional claim. Prior weather SIGNAL retained without invention."
+    }
+  ],
+  "market_state": {
+    "status": "NO_MATERIAL_SAME_SOURCE_MOVEMENT",
+    "Rabbitohs_v_Knights": {"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},
+    "Warriors_v_Dolphins": {"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},
+    "Sharks_v_Cowboys": {"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},
+    "Panthers_v_Roosters": {"home":1.30,"away":3.50,"normalized_home_probability":72.92,"mayhem_confidence":73,"delta_pp":0.08},
+    "integrity": "Cross-source price differences were not misclassified as market movement. No causal explanation assigned."
+  },
+  "player_population": {
+    "state": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
+    "material_change": false,
+    "note": "Existing integrity defect remains open until official Finals Week 1 named squads are published and fully ingested with persistent player dossiers."
+  },
+  "current_decisions": [
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage": "NONE_ASSERTED",
+  "incorrect_tip_halt": "CLEAR",
+  "persistence": "SUCCESS",
+  "public_site_write": "NOT_REQUIRED_NO_MATERIAL_PUBLIC_STATE_CHANGE",
+  "audit_integrity": "PRESERVED"
+}
