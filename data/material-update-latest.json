@@ -2,85 +2,95 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-07T22:39:31+10:00",
+  "captured_at": "2026-09-08T00:18:59+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_OFFICIAL_ELIGIBILITY_AND_PERSISTENCE_RECONCILIATION",
+  "trigger": "MATERIAL_PLAYER_ROLE_AND_WORKLOAD_REFRESH",
   "lifecycle_reconciliation": {
     "status": "NO_STALE_PAST_KICKOFF_FIXTURES",
     "relevant_fixtures": 4,
     "state": "UPCOMING"
   },
   "sources": [
-    {"class":"OFFICIAL_NRL","name":"NRL Judiciary Report 2026","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","published":"2026-09-07T18:32:00+10:00"},
-    {"class":"OFFICIAL_NRL","name":"NRL Finals Week 1 schedule","url":"https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/","published":"2026-09-06T18:47:00+10:00"},
-    {"class":"OFFICIAL_NRL","name":"NRL Casualty Ward","url":"https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/","observed":"2026-09-07T22:39:31+10:00"},
-    {"class":"OFFICIAL_WEATHER","name":"Bureau of Meteorology Sydney forecast","url":"https://www.bom.gov.au/places/nsw/north-sydney/forecast/","observed":"2026-09-07T22:39:31+10:00"}
+    {"class":"OFFICIAL_NRL","name":"NRL Round 27 Panthers v Wests Tigers live report","url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/","observed":"2026-09-08T00:18:59+10:00"},
+    {"class":"SECONDARY_REPUTABLE","name":"Fox Sports Finals Week 1 Team Tips","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","published":"2026-09-07T14:21:00+10:00","observed":"2026-09-08T00:18:59+10:00"},
+    {"class":"MARKET_SECONDARY","name":"PointsBet prices surfaced by Fox Sports","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-scores-and-analysis-from-round-27-paul-crawley-column-panthers-pay-price-for-going-for-minor-premiership/news-story/56b28febea614fd5d53fd85ade516c57","observed":"2026-09-08T00:16:00+10:00"},
+    {"class":"OFFICIAL_WEATHER","name":"Bureau of Meteorology Sydney accessible forecast","url":"https://www.bom.gov.au/location/australia/new-south-wales/metropolitan/bnsw_pt131-sydney/accessible-forecast","observed":"2026-09-08T00:18:59+10:00"},
+    {"class":"OFFICIAL_WEATHER","name":"MetService Auckland forecast","url":"https://www.metservice.com/towns-cities/locations/auckland","observed":"2026-09-08T00:18:59+10:00"}
   ],
   "observations": [
     {
       "fixture":"FW1-PEN-SYD-2026-09-13",
-      "team":"Roosters",
-      "player":"Victor Radley",
+      "team":"Panthers",
+      "player":"Isaah Yeo",
       "classification":"VERIFIED",
-      "observation":"Official NRL judiciary history records Radley's Round 27 Careless High Tackle charge as a $1000 fine, not a suspension.",
-      "availability_state":"NO_SUSPENSION_FROM_ROUND_27_CHARGE; OFFICIAL_FINALS_TEAM_LIST_STILL_AUTHORITATIVE",
-      "decision_effect":"Removes the Round 27 judiciary charge as a suspension-risk variable. It does not by itself verify selection or match fitness.",
-      "tip_effect":"Panthers retained at 73%; Roosters counter-case strengthens only by removal of this specific suspension ambiguity."
-    },
-    {
-      "fixture":"FW1-SHA-COW-2026-09-12",
-      "team":"Sharks",
-      "player":"Michael Gabrael",
-      "classification":"VERIFIED",
-      "observation":"Official NRL judiciary reporting confirms Gabrael pleaded guilty to the Grade 3 Careless High Tackle charge and is suspended for two matches.",
-      "availability_state":"SUSPENDED_TWO_MATCHES",
-      "decision_effect":"Cronulla centre depth is definitively reduced for Finals Week 1. This supersedes the stale unresolved plea state previously present in the public latest-material file.",
-      "tip_effect":"Sharks retained at 64%; no unsupported confidence change before official Finals Week 1 team lists."
-    },
-    {
-      "fixture":"FW1-SHA-COW-2026-09-12",
-      "team":"Cowboys",
-      "player":"Reuben Cotter",
-      "classification":"VERIFIED",
-      "observation":"Official NRL judiciary reporting confirms Cotter pleaded not guilty and will appear by video link at 6.00pm Tuesday. A not-guilty verdict makes him available; a guilty finding carries a two-match suspension.",
-      "availability_state":"JUDICIARY_UNRESOLVED",
-      "decision_effect":"Cowboys middle continuity remains a binary unresolved variable until the hearing is completed.",
-      "tip_effect":"Sharks retained at 64%."
+      "observation":"Official NRL reporting verifies Yeo completed his Round 27 return in Penrith's 38-10 win after three games out. Contemporary Finals reporting records 54 minutes, 18 tackles and nine carries.",
+      "availability_state":"RETURN_COMPLETED; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Substantial completed workload reduces uncertainty around Penrith middle continuity. No inference is made about medical condition or future minutes.",
+      "tip_effect":"Panthers retained at 73%."
     },
     {
       "fixture":"FW1-PEN-SYD-2026-09-13",
       "team":"Panthers",
-      "player":"Isaiah Papali'i",
+      "player":"Mitch Kenny",
       "classification":"VERIFIED",
-      "observation":"Official NRL judiciary reporting lists Papali'i's Round 27 Grade 1 Dangerous Contact charge in the fine-only range of $1000-$1500.",
-      "availability_state":"NO_SUSPENSION_RISK_FROM_CURRENT_CHARGE",
-      "decision_effect":"No Finals Week 1 suspension risk arises from this charge; team-list selection remains authoritative.",
+      "observation":"Official NRL reporting verifies Kenny started and completed his Round 27 return; current Finals reporting records a 52-minute workload.",
+      "availability_state":"RETURN_COMPLETED; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Verified return workload strengthens Penrith spine continuity relative to a return-status-only observation.",
       "tip_effect":"Panthers retained at 73%."
+    },
+    {
+      "fixture":"FW1-WAR-DOL-2026-09-12",
+      "team":"Dolphins",
+      "player":"Selwyn Cobbo",
+      "classification":"SIGNAL",
+      "observation":"Current Finals team reporting expects Cobbo to return to the Dolphins starting side after missing Round 27.",
+      "availability_state":"EXPECTED_STARTER; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Dolphins backline-continuity counter-case strengthens provisionally; not treated as verified selection.",
+      "tip_effect":"Warriors retained at 63%; market delta remains below the +3pp mandatory uplift threshold."
+    },
+    {
+      "fixture":"FW1-WAR-DOL-2026-09-12",
+      "team":"Dolphins",
+      "player":"Kodi Nikorima",
+      "classification":"SIGNAL",
+      "observation":"Current Finals team reporting expects Nikorima to return to the Dolphins starting side after being managed ahead of finals.",
+      "availability_state":"EXPECTED_STARTER; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Potential spine restoration strengthens the evidence-supported Dolphins counter-case, but remains provisional.",
+      "tip_effect":"Warriors retained at 63%."
+    },
+    {
+      "fixture":"FW1-SS-NKN-2026-09-11",
+      "team":"Rabbitohs",
+      "player":"Tallis Duncan",
+      "classification":"SIGNAL",
+      "observation":"Current Finals team reporting states Duncan will return after being rested in Round 27.",
+      "availability_state":"EXPECTED_RETURN; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Rabbitohs forward continuity improves provisionally pending the official list.",
+      "tip_effect":"Rabbitohs retained at 69%."
     }
   ],
   "market_absorption_clock": {
-    "state":"NO_NEW_RELIABLE_MARKET_CAPTURE_ESTABLISHED_THIS_CYCLE",
-    "last_governed_capture":"2026-09-07T21:45:00+10:00",
+    "state":"FRESH_RELIABLE_SECONDARY_CAPTURE; NO_PRICE_MOVEMENT",
+    "captured_at":"2026-09-08T00:16:00+10:00",
     "Rabbitohs_v_Knights":{"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},
     "Warriors_v_Dolphins":{"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},
     "Sharks_v_Cowboys":{"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},
     "Panthers_v_Roosters":{"home":1.30,"away":3.50,"normalized_home_probability":72.92,"mayhem_confidence":73,"delta_pp":0.08},
-    "integrity":"Prior governed market state retained without pretending a fresh price capture occurred. Market movement without a known cause remains SIGNAL."
+    "integrity":"No causal explanation assigned because no material movement occurred. Market remains a shared-public-information family rather than independent corroboration."
   },
   "judiciary_recheck": {
     "Jamie_Humphreys":"VERIFIED_SUSPENDED_TWO_MATCHES",
     "Reuben_Cotter":"VERIFIED_NOT_GUILTY_PLEA; JUDICIARY_TUESDAY_18:00; AVAILABILITY_UNRESOLVED",
     "Michael_Gabrael":"VERIFIED_GUILTY_EARLY_PLEA; SUSPENDED_TWO_MATCHES",
-    "Isaiah_Papalii":"GRADE_1_DANGEROUS_CONTACT; FINE_ONLY; NO_SUSPENSION_RANGE",
-    "Victor_Radley":"ROUND_27_CARELESS_HIGH_TACKLE; $1000_FINE; NO_SUSPENSION_FROM_CHARGE",
-    "integrity":"Resolved outcomes replace stale current-state fields while historical evidence remains preserved elsewhere. No unresolved hearing has been converted into an assumed suspension."
+    "Isaiah_Papalii":"FINE_ONLY; NO_SUSPENSION_RANGE",
+    "Victor_Radley":"$1000_FINE; NO_SUSPENSION_FROM_ROUND27_CHARGE",
+    "integrity":"No unresolved hearing converted into an assumed suspension."
   },
-  "official_finals_team_lists":"NOT_YET_PUBLISHED; predicted lineups remain non-authoritative.",
+  "official_finals_team_lists":"NOT_YET_PUBLISHED at this capture; predicted lineups remain non-authoritative.",
   "weather": {
-    "Sydney_Friday_11_Sep":"Partly cloudy; 0 mm; 10% rain; light winds becoming easterly 15-20 km/h.",
-    "Sydney_Saturday_12_Sep":"Sunny; 0 mm; 5% rain; light winds becoming northeasterly 15-20 km/h.",
-    "Sydney_Sunday_13_Sep":"Mostly sunny; 0 mm; 5% rain; light winds becoming east to northeasterly 15-20 km/h.",
-    "decision_effect":"No demonstrated directional team edge. Saturday's current official wind forecast is lower than the previously persisted 15-25 km/h range, so the older figure is superseded for current display."
+    "Sydney":"Official BOM source rechecked. No material change established from the governed low-rain Friday-Sunday state; no directional team edge demonstrated.",
+    "Auckland":"Official MetService source rechecked. Detailed machine-readable match-horizon fields were not available in this capture, so the prior weather SIGNAL is retained without invention.",
+    "decision_effect":"NONE"
   },
   "current_decisions": [
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -91,6 +101,6 @@
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
   "next_automation_checkpoint":{"fixture":"Rabbitohs v Knights","checkpoint":"T-24h","due":"2026-09-10T19:50:00+10:00"},
-  "persistence_reconciliation":"PUBLIC_LATEST_MATERIAL_FILE_REPAIRED: Gabrael stale unresolved plea state replaced with verified two-match suspension; Radley fine-only state added; Sydney weather refreshed.",
-  "integrity":"No frozen decision rewritten. No checkpoint was due. All four relevant fixtures remain UPCOMING. Current selections remain contemporaneous and T-10 remains the immutable grading freeze."
+  "persistence_reconciliation":"Current player overlay and public Latest Material Update refreshed with verified Panthers return workloads and provisional Dolphins/Rabbitohs return signals. No player was removed for absence of news.",
+  "integrity":"No frozen decision rewritten. No checkpoint was due. All four relevant fixtures remain UPCOMING. T-10 remains the immutable pre-match freeze."
 }
