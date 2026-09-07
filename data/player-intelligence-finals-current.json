@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "stage": "FINALS_WEEK_1_PRE_TEAM_LIST",
-  "captured_at": "2026-09-08T00:18:59+10:00",
+  "captured_at": "2026-09-08T07:06:00+10:00",
   "records": [
     {
       "player": "Victor Radley",
@@ -127,6 +127,34 @@
       "decision_effect": "RABBITOHS_FORWARD_CONTINUITY_STRENGTHENED",
       "macro_effect": "Expected forward return modestly improves South Sydney continuity while remaining provisional until the official list.",
       "source": "Fox Sports Finals Week 1 Team Tips",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488"
+    },
+    {
+      "player": "Braydon Trindall",
+      "team": "Sharks",
+      "position_context": "Spine / five-eighth",
+      "fixture": "Sharks v Cowboys",
+      "captured_at": "2026-09-08T07:06:00+10:00",
+      "classification": "SIGNAL",
+      "status": "SET_TO_BE_NAMED_OFFICIAL_TEAM_LIST_PENDING",
+      "observation": "Official NRL reporting at 6:01am states Trindall is set to be named Tuesday afternoon for the elimination final. Sharks captain Blayke Brailey describes him as fit and healthy. The same report records that Trindall finished the regular season as the NRL try-assist leader with a club-record 30 try assists despite missing the final month.",
+      "decision_effect": "SHARKS_SPINE_RETURN_SIGNAL_STRENGTHENED",
+      "macro_effect": "The prior conditional-on-training return signal is materially strengthened. Trindall's attacking-20 creation and short-kicking role are explicitly identified by official NRL reporting, but VERIFIED roster presence is withheld until the official team list is published.",
+      "source": "NRL.com — Trindall ready to spark Sharks in high-stakes comeback",
+      "source_url": "https://www.nrl.com/news/2026/09/08/trindall-ready-to-spark-sharks-in-high-stakes-comeback/"
+    },
+    {
+      "player": "Euan Aitken",
+      "team": "Rabbitohs",
+      "position_context": "Centre / edge",
+      "fixture": "Rabbitohs v Knights",
+      "captured_at": "2026-09-08T07:06:00+10:00",
+      "classification": "SIGNAL",
+      "status": "SECONDARY_REPORT_RULED_OUT_REMAINDER_OF_2026_OFFICIAL_CASUALTY_STATE_STALE_TBC",
+      "observation": "Current reputable secondary reporting says Aitken has been ruled out for the remainder of the 2026 season. The older official NRL casualty record still lists his shoulder return as TBC, so the conflict is preserved rather than silently promoted to VERIFIED.",
+      "decision_effect": "RABBITOHS_EDGE_CONTINUITY_DOWN_IF_CONFIRMED",
+      "macro_effect": "Potential season-ending loss is decision-relevant, but the official-source conflict prevents a VERIFIED designation until the official Finals team list or newer official club/NRL reporting resolves it.",
+      "source": "Fox Sports Finals Week 1 Team Tips / current secondary reporting",
       "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488"
     }
   ],
