@@ -1,0 +1,78 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-08T02:47:27+10:00",
+  "cycle_classification": "NO_MATERIAL_CHANGE",
+  "notification": "SUPPRESSED_BY_RULE",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ]
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/",
+      "finding": "Reuben Cotter remains listed to contest Grade 2 Careless High Tackle at Tuesday-night judiciary; no new resolved status at capture time."
+    },
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/01/nrl-team-lists-round-27/",
+      "finding": "No official Finals Week 1 team-list publication was surfaced at capture time; current Finals roster states remain provisional pending official lists."
+    },
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/",
+      "finding": "Roosters Finals availability reporting remains materially unchanged: Sam Walker unavailable for Week 1 after syndesmosis surgery; Angus Crichton tracking toward return; Victor Radley expected available."
+    },
+    {
+      "class": "SECONDARY_REPUTABLE",
+      "url": "https://www.sportsbet.com.au/huddle/nrl/news/injuries-finals-week-1-2026",
+      "finding": "No newly verified availability change beyond already persisted Finals Week 1 injury states."
+    },
+    {
+      "class": "SECONDARY_ANALYSIS",
+      "url": "https://www.neds.com.au/blog/2026/09/2026-nrl-finals-week-1-deciding-factors/",
+      "finding": "No evidence item sufficient to change current MAYHEM selections or information-advantage classification."
+    },
+    {
+      "class": "WEATHER_OFFICIAL",
+      "url": "https://www.bom.gov.au/location/australia/new-south-wales/metropolitan/bnsw_pt131-sydney/accessible-forecast",
+      "finding": "Sydney Finals forecasts remain low-rain at current horizon with no demonstrated directional team edge."
+    },
+    {
+      "class": "WEATHER_OFFICIAL",
+      "url": "https://www.metservice.com/towns-cities/regions/auckland/locations/auckland-airport",
+      "finding": "Auckland official forecast source checked; no new verified directional weather edge promoted."
+    }
+  ],
+  "market_state": {
+    "status": "NO_VERIFIED_MATERIAL_MOVEMENT_ESTABLISHED_THIS_CYCLE",
+    "rule": "Unattributed movement remains SIGNAL; unchanged prior normalized probabilities retained until a reliable new two-sided state is captured."
+  },
+  "player_population": {
+    "state": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
+    "material_change": false,
+    "note": "Known integrity defect remains open: public Players layer does not yet contain complete official Finals Week 1 named-squad population because official Finals lists have not yet been ingested. No claim of completeness made."
+  },
+  "current_decisions": [
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage": "NONE_ASSERTED",
+  "persistence": "SUCCESS",
+  "public_site_write": "NOT_REQUIRED_NO_MATERIAL_PUBLIC_STATE_CHANGE",
+  "audit_integrity": "PRESERVED"
+}
