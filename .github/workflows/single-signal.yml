@@ -25,12 +25,18 @@ jobs:
         run: node scripts/generate-single-signals.mjs
       - name: Persist generated evidence
         run: |
-          if git diff --quiet -- data/single-signal-registry-2026.json data/single-signal-observations-2026.json data/single-signal-leaderboard-2026.json data/single-signal-falsification-2026.json; then
+          OUTPUTS=(
+            data/single-signal-registry-2026.json
+            data/single-signal-observations-2026.json
+            data/single-signal-leaderboard-2026.json
+            data/single-signal-falsification-2026.json
+          )
+          if [ -z "$(git status --porcelain -- "${OUTPUTS[@]}")" ]; then
             echo 'No changes.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/single-signal-registry-2026.json data/single-signal-observations-2026.json data/single-signal-leaderboard-2026.json data/single-signal-falsification-2026.json
+          git add "${OUTPUTS[@]}"
           git commit -m 'Update retrospective single-signal evidence'
           git push
