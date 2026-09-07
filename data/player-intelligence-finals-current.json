@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "stage": "FINALS_WEEK_1_PRE_TEAM_LIST",
-  "captured_at": "2026-09-08T07:06:00+10:00",
+  "captured_at": "2026-09-08T09:18:00+10:00",
   "records": [
     {
       "player": "Victor Radley",
@@ -148,14 +148,14 @@
       "team": "Rabbitohs",
       "position_context": "Centre / edge",
       "fixture": "Rabbitohs v Knights",
-      "captured_at": "2026-09-08T07:06:00+10:00",
-      "classification": "SIGNAL",
-      "status": "SECONDARY_REPORT_RULED_OUT_REMAINDER_OF_2026_OFFICIAL_CASUALTY_STATE_STALE_TBC",
-      "observation": "Current reputable secondary reporting says Aitken has been ruled out for the remainder of the 2026 season. The older official NRL casualty record still lists his shoulder return as TBC, so the conflict is preserved rather than silently promoted to VERIFIED.",
-      "decision_effect": "RABBITOHS_EDGE_CONTINUITY_DOWN_IF_CONFIRMED",
-      "macro_effect": "Potential season-ending loss is decision-relevant, but the official-source conflict prevents a VERIFIED designation until the official Finals team list or newer official club/NRL reporting resolves it.",
-      "source": "Fox Sports Finals Week 1 Team Tips / current secondary reporting",
-      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488"
+      "captured_at": "2026-09-08T09:18:00+10:00",
+      "classification": "VERIFIED",
+      "status": "UNAVAILABLE_REMAINDER_OF_2026",
+      "observation": "Official NRL casualty reporting confirms Aitken will miss the rest of the 2026 season and now lists his return as 2027. The same official report records that he scored a try and ran 89 metres before leaving the Round 27 win over the Roosters in the 59th minute.",
+      "decision_effect": "RABBITOHS_EDGE_CONTINUITY_DOWN",
+      "macro_effect": "South Sydney has a verified Finals Week 1 availability loss in the centre/edge rotation. Replacement and combination effects remain unresolved until the official team list is published.",
+      "source": "NRL Casualty Ward — Fractured scapula ends Aitken's season",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     }
   ],
   "integrity": "Current Finals overlay only. It augments persistent roster/player records and never removes players for absence of news. Official Finals Week 1 team lists remain authoritative when published; SIGNAL states are not promoted to VERIFIED roster presence before publication."
