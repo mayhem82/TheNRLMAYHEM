@@ -1,0 +1,38 @@
+{
+  "schema_version": "SINGLE-SIGNAL-1.0.0",
+  "snapshot": "SINGLE-SIGNAL-FALSIFICATION-2026-09-07T06:18:44.524Z",
+  "generated_at": "2026-09-07T06:18:44.524Z",
+  "status": "ACTIVE",
+  "tests": [
+    {
+      "id": "FALSIFY-LEAKAGE",
+      "state": "STRUCTURALLY_CONTROLLED",
+      "finding": "Current implemented signals use fixture identity and results from earlier rounds only; same-round results are withheld until the entire round has been evaluated."
+    },
+    {
+      "id": "FALSIFY-HOME_PROXY",
+      "state": "PENDING_ANALYSIS",
+      "finding": null
+    },
+    {
+      "id": "FALSIFY-STRONG_TEAM_PROXY",
+      "state": "PENDING_ANALYSIS",
+      "finding": null
+    },
+    {
+      "id": "FALSIFY-TEMPORAL_STABILITY",
+      "state": "PARTIAL",
+      "finding": "Per-round performance is persisted for inspection; formal stability thresholds not yet promoted."
+    },
+    {
+      "id": "FALSIFY-MARKET_BASELINE",
+      "state": "PENDING_SOURCE_INGESTION",
+      "finding": "Historical verified pre-match market observations are not present in the canonical season ledger and are not inferred."
+    },
+    {
+      "id": "FALSIFY-PROSPECTIVE",
+      "state": "NOT_STARTED",
+      "finding": "No retrospective signal is promoted to robust until frozen prospectively."
+    }
+  ]
+}

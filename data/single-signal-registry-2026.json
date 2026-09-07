@@ -1,0 +1,77 @@
+{
+  "schema_version": "SINGLE-SIGNAL-1.0.0",
+  "snapshot": "SINGLE-SIGNAL-REGISTRY-2026-09-07T06:18:44.524Z",
+  "generated_at": "2026-09-07T06:18:44.524Z",
+  "season": 2026,
+  "source_snapshot": "SEASON-CANONICAL-2026-LIFECYCLE-20260907051422",
+  "status": "ACTIVE_INVESTIGATION",
+  "terminal_state": "NONE",
+  "definitions": [
+    {
+      "id": "HOME_TEAM",
+      "version": "1.0.0",
+      "family": "VENUE_SIDE",
+      "rule": "Select the listed home team.",
+      "pre_match_basis": "Fixture home/away designation.",
+      "limitations": [
+        "Does not establish venue-specific home-ground advantage."
+      ]
+    },
+    {
+      "id": "PREMATCH_POINT_DIFFERENTIAL",
+      "version": "1.0.0",
+      "family": "STRUCTURAL_BASELINE",
+      "rule": "Select the team with the superior cumulative points-for minus points-against from completed prior rounds only; tie = NO_SELECTION.",
+      "pre_match_basis": "Only results from rounds earlier than the fixture round.",
+      "limitations": [
+        "Fixture-result reconstruction only; does not use ladder competition points or bye credits."
+      ]
+    },
+    {
+      "id": "PREVIOUS_MATCH_WINNER",
+      "version": "1.0.0",
+      "family": "RECENT_FORM",
+      "rule": "If exactly one team won its immediately previous completed match and the other did not, select the previous-match winner; otherwise NO_SELECTION.",
+      "pre_match_basis": "Immediately previous completed fixture for each team.",
+      "limitations": [
+        "No selection when both teams share the same prior result state or lack a prior match."
+      ]
+    },
+    {
+      "id": "RECENT3_MARGIN",
+      "version": "1.0.0",
+      "family": "RECENT_FORM",
+      "rule": "Once both teams have three prior completed matches, select the team with the superior mean points margin across its previous three matches; tie = NO_SELECTION.",
+      "pre_match_basis": "Three completed matches immediately preceding the fixture.",
+      "limitations": [
+        "Early-season fixtures are NO_SELECTION until both teams have three prior matches."
+      ]
+    },
+    {
+      "id": "WINNING_STREAK",
+      "version": "1.0.0",
+      "family": "RECENT_FORM",
+      "rule": "Select the team with the longer active winning streak when streak lengths differ and at least one is positive; otherwise NO_SELECTION.",
+      "pre_match_basis": "Consecutive wins from completed matches immediately before the fixture.",
+      "limitations": [
+        "Losing streak magnitude is deliberately not used in this version."
+      ]
+    }
+  ],
+  "pending_candidate_families": [
+    "MARKET_FAVOURITE",
+    "NORMALIZED_MARKET_PROBABILITY",
+    "OPEN_TO_CLOSE_PRICE_DIRECTION",
+    "REST_DIFFERENTIAL",
+    "TRAVEL_STATE",
+    "VENUE_RECORD",
+    "LINEUP_CONTINUITY",
+    "KEY_POSITION_CONTINUITY",
+    "LATE_WITHDRAWALS",
+    "RETURNING_PLAYERS",
+    "DEBUTANT_LOW_SAMPLE",
+    "PLAYER_AVAILABILITY",
+    "WEATHER"
+  ],
+  "rule": "A pending family is not scored until genuinely pre-match historical observations can be sourced without leakage."
+}

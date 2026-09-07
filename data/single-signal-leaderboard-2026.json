@@ -1,0 +1,898 @@
+{
+  "schema_version": "SINGLE-SIGNAL-1.0.0",
+  "snapshot": "SINGLE-SIGNAL-LEADERBOARD-2026-09-07T06:18:44.524Z",
+  "generated_at": "2026-09-07T06:18:44.524Z",
+  "source_snapshot": "SEASON-CANONICAL-2026-LIFECYCLE-20260907051422",
+  "signals": [
+    {
+      "signal_id": "PREMATCH_POINT_DIFFERENTIAL",
+      "version": "1.0.0",
+      "status": "RETROSPECTIVE_ASSOCIATION",
+      "eligible_fixtures": 204,
+      "selections": 196,
+      "correct": 119,
+      "incorrect": 77,
+      "no_selection": 8,
+      "raw_accuracy": 0.607143,
+      "coverage_rate": 0.960784,
+      "by_round": {
+        "1": {
+          "selections": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "no_selection": 8
+        },
+        "2": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "3": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "4": {
+          "selections": 8,
+          "correct": 2,
+          "incorrect": 6,
+          "no_selection": 0
+        },
+        "5": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "6": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "7": {
+          "selections": 8,
+          "correct": 3,
+          "incorrect": 5,
+          "no_selection": 0
+        },
+        "8": {
+          "selections": 8,
+          "correct": 7,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "9": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "10": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "11": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "12": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "13": {
+          "selections": 7,
+          "correct": 3,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "14": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "15": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "16": {
+          "selections": 7,
+          "correct": 4,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "17": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "18": {
+          "selections": 5,
+          "correct": 2,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "19": {
+          "selections": 7,
+          "correct": 4,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "20": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "21": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "22": {
+          "selections": 8,
+          "correct": 7,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "23": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "24": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "25": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "26": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "27": {
+          "selections": 8,
+          "correct": 3,
+          "incorrect": 5,
+          "no_selection": 0
+        }
+      },
+      "promotion_gate": "NOT_ASSESSED_AS_ROBUST — requires leakage/proxy/sensitivity tests and prospective freeze.",
+      "baseline_note": "Compare against HOME_TEAM now; historical market-favourite baseline requires separate verified price ingestion."
+    },
+    {
+      "signal_id": "WINNING_STREAK",
+      "version": "1.0.0",
+      "status": "RETROSPECTIVE_ASSOCIATION",
+      "eligible_fixtures": 204,
+      "selections": 140,
+      "correct": 85,
+      "incorrect": 55,
+      "no_selection": 64,
+      "raw_accuracy": 0.607143,
+      "coverage_rate": 0.686275,
+      "by_round": {
+        "1": {
+          "selections": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "no_selection": 8
+        },
+        "2": {
+          "selections": 3,
+          "correct": 2,
+          "incorrect": 1,
+          "no_selection": 5
+        },
+        "3": {
+          "selections": 6,
+          "correct": 4,
+          "incorrect": 2,
+          "no_selection": 2
+        },
+        "4": {
+          "selections": 5,
+          "correct": 2,
+          "incorrect": 3,
+          "no_selection": 3
+        },
+        "5": {
+          "selections": 7,
+          "correct": 7,
+          "incorrect": 0,
+          "no_selection": 1
+        },
+        "6": {
+          "selections": 4,
+          "correct": 1,
+          "incorrect": 3,
+          "no_selection": 4
+        },
+        "7": {
+          "selections": 5,
+          "correct": 2,
+          "incorrect": 3,
+          "no_selection": 3
+        },
+        "8": {
+          "selections": 7,
+          "correct": 6,
+          "incorrect": 1,
+          "no_selection": 1
+        },
+        "9": {
+          "selections": 6,
+          "correct": 3,
+          "incorrect": 3,
+          "no_selection": 2
+        },
+        "10": {
+          "selections": 6,
+          "correct": 4,
+          "incorrect": 2,
+          "no_selection": 2
+        },
+        "11": {
+          "selections": 6,
+          "correct": 5,
+          "incorrect": 1,
+          "no_selection": 2
+        },
+        "12": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "13": {
+          "selections": 5,
+          "correct": 1,
+          "incorrect": 4,
+          "no_selection": 2
+        },
+        "14": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 3
+        },
+        "15": {
+          "selections": 3,
+          "correct": 2,
+          "incorrect": 1,
+          "no_selection": 2
+        },
+        "16": {
+          "selections": 4,
+          "correct": 2,
+          "incorrect": 2,
+          "no_selection": 3
+        },
+        "17": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 3
+        },
+        "18": {
+          "selections": 3,
+          "correct": 0,
+          "incorrect": 3,
+          "no_selection": 2
+        },
+        "19": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 2
+        },
+        "20": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 3
+        },
+        "21": {
+          "selections": 6,
+          "correct": 4,
+          "incorrect": 2,
+          "no_selection": 2
+        },
+        "22": {
+          "selections": 6,
+          "correct": 4,
+          "incorrect": 2,
+          "no_selection": 2
+        },
+        "23": {
+          "selections": 6,
+          "correct": 3,
+          "incorrect": 3,
+          "no_selection": 2
+        },
+        "24": {
+          "selections": 7,
+          "correct": 6,
+          "incorrect": 1,
+          "no_selection": 1
+        },
+        "25": {
+          "selections": 7,
+          "correct": 2,
+          "incorrect": 5,
+          "no_selection": 1
+        },
+        "26": {
+          "selections": 6,
+          "correct": 3,
+          "incorrect": 3,
+          "no_selection": 2
+        },
+        "27": {
+          "selections": 7,
+          "correct": 5,
+          "incorrect": 2,
+          "no_selection": 1
+        }
+      },
+      "promotion_gate": "NOT_ASSESSED_AS_ROBUST — requires leakage/proxy/sensitivity tests and prospective freeze.",
+      "baseline_note": "Compare against HOME_TEAM now; historical market-favourite baseline requires separate verified price ingestion."
+    },
+    {
+      "signal_id": "PREVIOUS_MATCH_WINNER",
+      "version": "1.0.0",
+      "status": "RETROSPECTIVE_ASSOCIATION",
+      "eligible_fixtures": 204,
+      "selections": 106,
+      "correct": 63,
+      "incorrect": 43,
+      "no_selection": 98,
+      "raw_accuracy": 0.59434,
+      "coverage_rate": 0.519608,
+      "by_round": {
+        "1": {
+          "selections": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "no_selection": 8
+        },
+        "2": {
+          "selections": 3,
+          "correct": 2,
+          "incorrect": 1,
+          "no_selection": 5
+        },
+        "3": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 3
+        },
+        "4": {
+          "selections": 3,
+          "correct": 1,
+          "incorrect": 2,
+          "no_selection": 5
+        },
+        "5": {
+          "selections": 6,
+          "correct": 6,
+          "incorrect": 0,
+          "no_selection": 2
+        },
+        "6": {
+          "selections": 3,
+          "correct": 1,
+          "incorrect": 2,
+          "no_selection": 5
+        },
+        "7": {
+          "selections": 4,
+          "correct": 2,
+          "incorrect": 2,
+          "no_selection": 4
+        },
+        "8": {
+          "selections": 6,
+          "correct": 5,
+          "incorrect": 1,
+          "no_selection": 2
+        },
+        "9": {
+          "selections": 4,
+          "correct": 2,
+          "incorrect": 2,
+          "no_selection": 4
+        },
+        "10": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 3
+        },
+        "11": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 3
+        },
+        "12": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "13": {
+          "selections": 3,
+          "correct": 1,
+          "incorrect": 2,
+          "no_selection": 4
+        },
+        "14": {
+          "selections": 2,
+          "correct": 1,
+          "incorrect": 1,
+          "no_selection": 6
+        },
+        "15": {
+          "selections": 2,
+          "correct": 1,
+          "incorrect": 1,
+          "no_selection": 3
+        },
+        "16": {
+          "selections": 3,
+          "correct": 1,
+          "incorrect": 2,
+          "no_selection": 4
+        },
+        "17": {
+          "selections": 3,
+          "correct": 2,
+          "incorrect": 1,
+          "no_selection": 5
+        },
+        "18": {
+          "selections": 2,
+          "correct": 0,
+          "incorrect": 2,
+          "no_selection": 3
+        },
+        "19": {
+          "selections": 3,
+          "correct": 2,
+          "incorrect": 1,
+          "no_selection": 4
+        },
+        "20": {
+          "selections": 3,
+          "correct": 1,
+          "incorrect": 2,
+          "no_selection": 5
+        },
+        "21": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 3
+        },
+        "22": {
+          "selections": 3,
+          "correct": 2,
+          "incorrect": 1,
+          "no_selection": 5
+        },
+        "23": {
+          "selections": 4,
+          "correct": 2,
+          "incorrect": 2,
+          "no_selection": 4
+        },
+        "24": {
+          "selections": 7,
+          "correct": 6,
+          "incorrect": 1,
+          "no_selection": 1
+        },
+        "25": {
+          "selections": 5,
+          "correct": 0,
+          "incorrect": 5,
+          "no_selection": 3
+        },
+        "26": {
+          "selections": 6,
+          "correct": 3,
+          "incorrect": 3,
+          "no_selection": 2
+        },
+        "27": {
+          "selections": 6,
+          "correct": 4,
+          "incorrect": 2,
+          "no_selection": 2
+        }
+      },
+      "promotion_gate": "NOT_ASSESSED_AS_ROBUST — requires leakage/proxy/sensitivity tests and prospective freeze.",
+      "baseline_note": "Compare against HOME_TEAM now; historical market-favourite baseline requires separate verified price ingestion."
+    },
+    {
+      "signal_id": "RECENT3_MARGIN",
+      "version": "1.0.0",
+      "status": "RETROSPECTIVE_ASSOCIATION",
+      "eligible_fixtures": 204,
+      "selections": 174,
+      "correct": 102,
+      "incorrect": 72,
+      "no_selection": 30,
+      "raw_accuracy": 0.586207,
+      "coverage_rate": 0.852941,
+      "by_round": {
+        "1": {
+          "selections": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "no_selection": 8
+        },
+        "2": {
+          "selections": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "no_selection": 8
+        },
+        "3": {
+          "selections": 0,
+          "correct": 0,
+          "incorrect": 0,
+          "no_selection": 8
+        },
+        "4": {
+          "selections": 5,
+          "correct": 2,
+          "incorrect": 3,
+          "no_selection": 3
+        },
+        "5": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "6": {
+          "selections": 7,
+          "correct": 4,
+          "incorrect": 3,
+          "no_selection": 1
+        },
+        "7": {
+          "selections": 8,
+          "correct": 3,
+          "incorrect": 5,
+          "no_selection": 0
+        },
+        "8": {
+          "selections": 8,
+          "correct": 7,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "9": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "10": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "11": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "12": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "13": {
+          "selections": 7,
+          "correct": 2,
+          "incorrect": 5,
+          "no_selection": 0
+        },
+        "14": {
+          "selections": 8,
+          "correct": 7,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "15": {
+          "selections": 5,
+          "correct": 2,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "16": {
+          "selections": 7,
+          "correct": 4,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "17": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "18": {
+          "selections": 5,
+          "correct": 2,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "19": {
+          "selections": 7,
+          "correct": 3,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "20": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "21": {
+          "selections": 7,
+          "correct": 5,
+          "incorrect": 2,
+          "no_selection": 1
+        },
+        "22": {
+          "selections": 7,
+          "correct": 5,
+          "incorrect": 2,
+          "no_selection": 1
+        },
+        "23": {
+          "selections": 8,
+          "correct": 3,
+          "incorrect": 5,
+          "no_selection": 0
+        },
+        "24": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "25": {
+          "selections": 8,
+          "correct": 3,
+          "incorrect": 5,
+          "no_selection": 0
+        },
+        "26": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "27": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        }
+      },
+      "promotion_gate": "NOT_ASSESSED_AS_ROBUST — requires leakage/proxy/sensitivity tests and prospective freeze.",
+      "baseline_note": "Compare against HOME_TEAM now; historical market-favourite baseline requires separate verified price ingestion."
+    },
+    {
+      "signal_id": "HOME_TEAM",
+      "version": "1.0.0",
+      "status": "RETROSPECTIVE_ASSOCIATION",
+      "eligible_fixtures": 204,
+      "selections": 204,
+      "correct": 112,
+      "incorrect": 92,
+      "no_selection": 0,
+      "raw_accuracy": 0.54902,
+      "coverage_rate": 1,
+      "by_round": {
+        "1": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "2": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "3": {
+          "selections": 8,
+          "correct": 3,
+          "incorrect": 5,
+          "no_selection": 0
+        },
+        "4": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "5": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "6": {
+          "selections": 8,
+          "correct": 2,
+          "incorrect": 6,
+          "no_selection": 0
+        },
+        "7": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "8": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "9": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "10": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "11": {
+          "selections": 8,
+          "correct": 3,
+          "incorrect": 5,
+          "no_selection": 0
+        },
+        "12": {
+          "selections": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "13": {
+          "selections": 7,
+          "correct": 6,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "14": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "15": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "16": {
+          "selections": 7,
+          "correct": 6,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "17": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "18": {
+          "selections": 5,
+          "correct": 4,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "19": {
+          "selections": 7,
+          "correct": 3,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "20": {
+          "selections": 8,
+          "correct": 7,
+          "incorrect": 1,
+          "no_selection": 0
+        },
+        "21": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        },
+        "22": {
+          "selections": 8,
+          "correct": 2,
+          "incorrect": 6,
+          "no_selection": 0
+        },
+        "23": {
+          "selections": 8,
+          "correct": 6,
+          "incorrect": 2,
+          "no_selection": 0
+        },
+        "24": {
+          "selections": 8,
+          "correct": 2,
+          "incorrect": 6,
+          "no_selection": 0
+        },
+        "25": {
+          "selections": 8,
+          "correct": 1,
+          "incorrect": 7,
+          "no_selection": 0
+        },
+        "26": {
+          "selections": 8,
+          "correct": 5,
+          "incorrect": 3,
+          "no_selection": 0
+        },
+        "27": {
+          "selections": 8,
+          "correct": 4,
+          "incorrect": 4,
+          "no_selection": 0
+        }
+      },
+      "promotion_gate": "NOT_ASSESSED_AS_ROBUST — requires leakage/proxy/sensitivity tests and prospective freeze.",
+      "baseline_note": "LOW_COMPLEXITY_BASELINE"
+    }
+  ]
+}
