@@ -1,0 +1,37 @@
+{
+  "system": "The NRL MAYHEM",
+  "captured_at": "2026-09-08T01:30:03+10:00",
+  "audit_type": "PLAYER_ROSTER_STATISTICAL_COVERAGE",
+  "status": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
+  "finding": "The public Players layer is still anchored to data/player-roster-round27-2026.json, whose verified roster baseline covers Dragons, Eels, Panthers and Wests Tigers rather than the full eight Finals Week 1 clubs. Finals-specific supplements preserve selected material player observations, but they do not constitute the mandatory full named-squad player layer for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters.",
+  "evidence": [
+    {
+      "source": "repository",
+      "path": "data/player-data-manifest-2026.json",
+      "observation": "The manifest requires data/player-roster-round27-2026.json as the roster baseline and separately loads only selected Finals player intelligence supplements."
+    },
+    {
+      "source": "repository",
+      "path": "data/player-roster-round27-2026.json",
+      "observation": "The active roster baseline begins with Dragons and Eels and was built for the Round 27 Sunday ingestion cycle, not Finals Week 1 roster coverage."
+    },
+    {
+      "source": "NRL.com",
+      "url": "https://www.nrl.com/news/2026/09/01/nrl-team-lists-round-27/",
+      "classification": "VERIFIED",
+      "observation": "Official Round 27 named squads exist for the Finals clubs that played Round 27."
+    },
+    {
+      "source": "NRL.com",
+      "url": "https://www.nrl.com/news/2026/08/25/nrl-team-lists-round-26/",
+      "classification": "VERIFIED",
+      "observation": "Newcastle's latest played-round named squad is available from Round 26 because the Knights had the Round 27 bye."
+    }
+  ],
+  "statistical_dossier_state": "INCOMPLETE_FOR_FULL_FINALS_ROSTER",
+  "public_effect": "Player cards cannot yet be claimed to expose every currently relevant named Finals squad player with a verified 2026 statistical dossier.",
+  "decision_effect": "No tip or confidence is changed solely by this architecture defect. Full MAYHEM pre-freeze validation requires roster/statistical completion before T-10 freezes.",
+  "required_correction": "Build a Finals Week 1 roster baseline from the latest official NRL named squads for all eight clubs, attach each identity to official NRL profile statistics where published, and make the Finals roster/stat coverage file the active Players-layer baseline before any T-10 freeze.",
+  "learning_state": "NO_WEIGHT_CHANGE",
+  "information_advantage": "NONE_ASSERTED"
+}
