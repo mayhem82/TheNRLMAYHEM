@@ -2,68 +2,97 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-07T12:31:54+10:00",
+  "captured_at":"2026-09-07T14:06:53+10:00",
   "timezone":"Australia/Sydney",
   "trigger":"MATERIAL_PLAYER_AVAILABILITY_CHANGE",
   "lifecycle_reconciliation":{"status":"NO_STALE_PAST_KICKOFF_FIXTURES","relevant_fixtures":4,"state":"UPCOMING"},
   "sources":[
-    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","use":"charge baseline and suspension ranges"},
-    {"class":"CURRENT_SECONDARY","url":"https://www.dailytelegraph.com.au/sport/nrl/supercoach-news/nrl-early-mail-finals-week-one-reuben-cotter-banned-top-roosters-eye-returns/news-story/88c274080ac45928a9a9f7facf94aa30","published":"2026-09-07","use":"new finals availability reporting"},
-    {"class":"CURRENT_SECONDARY","url":"https://www.sportingnews.com/au/rugby-league/news/nrl-team-lists-finals-week-1-2026-lineups-injuries-results/88002783ec8ef3af02db90a8","published":"2026-09-07","use":"predicted Finals Week 1 lineup and availability cross-check"}
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/","published":"2026-09-06","use":"verified Finals Week 1 fixtures, venues and kickoff times"},
+    {"class":"CURRENT_SECONDARY","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","published":"2026-09-07T12:02:00+10:00","use":"current Finals Week 1 availability, judiciary and return reporting"}
   ],
   "observations":[
     {
       "fixture":"FW1-SS-NKN-2026-09-11",
       "team":"Rabbitohs",
-      "player":"Euan Aitken",
+      "player":"Euan Aitken / Tallis Duncan",
       "classification":"CORROBORATED_CURRENT_REPORTING",
-      "observation":"Current finals early-mail reporting states Euan Aitken is out for the season with a fractured scapula after leaving the Round 27 match against the Roosters.",
-      "availability_state":"REPORTED_UNAVAILABLE_FINALS_WEEK_1",
-      "decision_effect":"NEGATIVE_RABBITOHS_EDGE_FORWARD_CONTINUITY; official Finals Week 1 team list remains authoritative.",
-      "tip_effect":"Rabbitohs current selection retained at 69%; no unsupported confidence movement before official team list reconciliation."
+      "observation":"South Sydney has confirmed Euan Aitken will miss the rest of the season with a fractured scapula. Tallis Duncan is expected to return after being rested in Round 27.",
+      "availability_state":"AITKEN_UNAVAILABLE; DUNCAN_EXPECTED_RETURN_PENDING_OFFICIAL_TEAM_LIST",
+      "decision_effect":"Mixed Rabbitohs continuity effect: Aitken loss is negative, Duncan return offsets some forward disruption.",
+      "tip_effect":"Rabbitohs retained at 69%; no unsupported confidence movement before official team-list reconciliation."
     },
     {
       "fixture":"FW1-SS-NKN-2026-09-11",
       "team":"Knights",
-      "player":"Phoenix Crossland / Dom Young / Tyson Frizell",
+      "player":"Phoenix Crossland / Francis Manuleleua",
       "classification":"CORROBORATED_CURRENT_REPORTING",
-      "observation":"Current Finals Week 1 reporting expects Phoenix Crossland, Dom Young and Tyson Frizell to return for Newcastle, materially strengthening the prior provisional return-window state.",
+      "observation":"Phoenix Crossland has publicly stated he will play after minor surgery. Francis Manuleleua remains in rehabilitation after a dislocated elbow and is not yet confirmed for Week 1.",
+      "availability_state":"CROSSLAND_EXPECTED_TO_PLAY_PENDING_OFFICIAL_LIST; MANULELEUA_UNRESOLVED",
+      "decision_effect":"Positive Newcastle spine/rotation continuity signal; strengthens the adversarial case against South Sydney.",
+      "tip_effect":"Rabbitohs retained at 69%; decision remains CURRENT_NOT_FROZEN."
+    },
+    {
+      "fixture":"FW1-WAR-DOL-2026-09-12",
+      "team":"Warriors",
+      "player":"Jackson Ford / Leka Halasima / Dallin Watene-Zelezniak",
+      "classification":"CORROBORATED_CURRENT_REPORTING",
+      "observation":"Jackson Ford and Leka Halasima are expected back for the qualifying final. Dallin Watene-Zelezniak is an outside chance and remains unresolved pending fitness and official selection.",
+      "availability_state":"FORD_EXPECTED_RETURN; HALASIMA_EXPECTED_RETURN; DWZ_UNRESOLVED",
+      "decision_effect":"Positive Warriors middle/edge continuity signal, with residual outside-back uncertainty.",
+      "tip_effect":"Warriors retained at 63%."
+    },
+    {
+      "fixture":"FW1-WAR-DOL-2026-09-12",
+      "team":"Dolphins",
+      "player":"Selwyn Cobbo / Kodi Nikorima",
+      "classification":"CORROBORATED_CURRENT_REPORTING",
+      "observation":"Current reporting expects Selwyn Cobbo and Kodi Nikorima to return to the starting side after missing or being managed in Round 27.",
       "availability_state":"EXPECTED_RETURN_PENDING_OFFICIAL_TEAM_LIST",
-      "decision_effect":"POSITIVE_KNIGHTS_ROSTER_CONTINUITY_SIGNAL; raises the strength of the adversarial case against South Sydney.",
-      "tip_effect":"Rabbitohs retained at 69% pending official list; no freeze exists."
+      "decision_effect":"Positive Dolphins counter-case; reduces the informational value of their Round 27 configuration as a full-strength baseline.",
+      "tip_effect":"Warriors retained at 63%."
     },
     {
       "fixture":"FW1-SHA-COW-2026-09-12",
       "team":"Sharks",
-      "player":"Michael Gabrael",
-      "classification":"CORROBORATED_CURRENT_REPORTING_WITH_OFFICIAL_CHARGE_BASELINE",
-      "observation":"Current finals reporting now states Michael Gabrael will miss two matches following his Grade 3 Careless High Tackle charge. The official NRL charge baseline carried a two-match early-plea or three-match panel penalty; official plea-status confirmation remains the final authority.",
-      "availability_state":"REPORTED_UNAVAILABLE_FINALS_WEEK_1",
-      "decision_effect":"NEGATIVE_SHARKS_CENTRE_DEPTH; partially offset by reports that senior Sharks players rested or unavailable in Round 27 are returning.",
-      "tip_effect":"Sharks retained at 64%; no confidence change without official list and Cotter resolution."
+      "player":"Braydon Trindall / Michael Gabrael",
+      "classification":"CORROBORATED_CURRENT_REPORTING",
+      "observation":"Craig Fitzgibbon has indicated Braydon Trindall is expected to return if he gets through training. Michael Gabrael has been reported as serving a two-match ban from his Grade 3 careless high tackle charge.",
+      "availability_state":"TRINDALL_EXPECTED_RETURN_CONDITIONAL_ON_TRAINING; GABRAEL_UNAVAILABLE",
+      "decision_effect":"Potentially material positive Sharks spine continuity from Trindall, offset by centre-depth loss through Gabrael.",
+      "tip_effect":"Sharks retained at 64%; no uplift before Trindall is verified through official selection/training completion."
     },
     {
       "fixture":"FW1-SHA-COW-2026-09-12",
       "team":"Cowboys",
       "player":"Reuben Cotter",
-      "classification":"VERIFIED_CHARGE_CURRENT_CHALLENGE_REPORTING",
-      "observation":"Cotter remains subject to a Grade 2 Careless High Tackle charge carrying one match with an early plea or two if unsuccessfully challenged. Current reporting says North Queensland intends to contest/downgrade the charge; availability remains unresolved until the judiciary outcome is verified.",
-      "availability_state":"FINALS_WEEK_1_AT_RISK_JUDICIARY_UNRESOLVED",
-      "decision_effect":"MATERIAL_NEGATIVE_COWBOYS_MIDDLE_CONTINUITY_SIGNAL remains active.",
+      "classification":"CORROBORATED_CURRENT_REPORTING",
+      "observation":"North Queensland has confirmed Reuben Cotter pleaded not guilty to the Grade 2 careless high tackle charge. He will contest the charge at the judiciary and risks a two-game suspension if unsuccessful.",
+      "availability_state":"JUDICIARY_UNRESOLVED; FINALS_WEEK_1_AT_RISK",
+      "decision_effect":"Material Cowboys middle-continuity uncertainty remains active until the judiciary outcome is verified.",
       "tip_effect":"Sharks retained at 64%."
     },
     {
       "fixture":"FW1-PEN-SYD-2026-09-13",
-      "team":"Roosters",
-      "player":"Angus Crichton / Victor Radley / James Tedesco / senior cohort",
+      "team":"Panthers",
+      "player":"Isaah Yeo / Mitch Kenny / Scott Sorensen",
       "classification":"CORROBORATED_CURRENT_REPORTING",
-      "observation":"Current Finals Week 1 reporting expects the Roosters to restore a large senior cohort, including Angus Crichton, Victor Radley and James Tedesco, confirming the Round 27 loss was structurally unrepresentative of their likely finals side.",
-      "availability_state":"EXPECTED_RETURN_PENDING_OFFICIAL_TEAM_LIST",
-      "decision_effect":"POSITIVE_ROOSTERS_COUNTER_CASE; reinforces prior down-weighting of the Round 27 50-20 loss.",
-      "tip_effect":"Panthers retained at 73%; market is already more bullish on Penrith than MAYHEM."
+      "observation":"Isaah Yeo and Mitch Kenny completed successful Round 27 returns; Scott Sorensen is expected back for Week 1 pending official selection.",
+      "availability_state":"YEO_AND_KENNY_RETURN_VERIFIED_IN_ROUND_27; SORENSEN_EXPECTED_RETURN",
+      "decision_effect":"Positive Panthers spine/middle continuity signal.",
+      "tip_effect":"Panthers retained at 73%."
+    },
+    {
+      "fixture":"FW1-PEN-SYD-2026-09-13",
+      "team":"Roosters",
+      "player":"James Tedesco / Daly Cherry-Evans / Victor Radley / Angus Crichton / senior cohort",
+      "classification":"CORROBORATED_CURRENT_REPORTING",
+      "observation":"The Roosters are set to restore a large senior cohort rested in Round 27, including James Tedesco, Daly Cherry-Evans and Victor Radley. Angus Crichton is reported on track to be named. Sam Walker remains unlikely before a potential preliminary final.",
+      "availability_state":"MULTIPLE_EXPECTED_RETURNS_PENDING_OFFICIAL_LIST; WALKER_UNAVAILABLE_WEEK_1_UNDER_CURRENT_REPORTING",
+      "decision_effect":"Strong Roosters counter-case; confirms Round 27 should remain heavily down-weighted as a finals-strength indicator.",
+      "tip_effect":"Panthers retained at 73%; no confidence chase."
     }
   ],
-  "market_absorption_clock":"NO_NEW_RELIABLE_MATERIAL_MOVEMENT_CONFIRMED_AFTER_11:54_CAPTURE; prior Panthers movement remains MATERIAL_SIGNAL.",
+  "market_absorption_clock":"Fresh PointsBet prices observed via current Fox Sports finals team-news page at 13:47 AEST: Rabbitohs 1.40/Knights 2.95; Warriors 1.58/Dolphins 2.40; Sharks 1.42/Cowboys 2.85; Panthers 1.30/Roosters 3.50. These are a secondary market snapshot and do not replace the primary Sportsbet state without direct source capture.",
   "weather":"NO_NEW_MATERIAL_WEATHER_CHANGE IDENTIFIED; prior mandatory venue-weather states remain active and will refresh at checkpoints.",
   "official_finals_team_lists":"NOT_YET_PUBLISHED; predicted/early-mail lineups are not treated as official named squads.",
   "current_decisions":[
@@ -75,5 +104,5 @@
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
   "next_automation_checkpoint":{"fixture":"Rabbitohs v Knights","checkpoint":"T-24h","due":"2026-09-10T19:50:00+10:00"},
-  "integrity":"No frozen decision rewritten. New availability reports are classified below official team-list authority. T-10 remains the immutable grading freeze."
+  "integrity":"No frozen decision rewritten. Current reports remain subordinate to official Finals Week 1 team lists. T-10 remains the immutable grading freeze."
 }
