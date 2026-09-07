@@ -2,6 +2,7 @@ import fs from 'node:fs';
 
 const season = JSON.parse(fs.readFileSync('data/season-canonical-2026.json','utf8'));
 const now = new Date().toISOString();
+const schemaVersion = 'SINGLE-SIGNAL-1.0.0';
 
 function parseLedger(text){
   return text.split('/').map(block=>{
@@ -153,16 +154,17 @@ const leaderboard=signalDefinitions.map(s=>{
 }).sort((a,b)=>(b.raw_accuracy??-1)-(a.raw_accuracy??-1));
 
 const registry={
+  schema_version:schemaVersion,
   snapshot:`SINGLE-SIGNAL-REGISTRY-${now}`,
   generated_at:now,season:season.season,source_snapshot:season.snapshot,status:'ACTIVE_INVESTIGATION',
   terminal_state:'NONE',definitions:signalDefinitions,
   pending_candidate_families:['MARKET_FAVOURITE','NORMALIZED_MARKET_PROBABILITY','OPEN_TO_CLOSE_PRICE_DIRECTION','REST_DIFFERENTIAL','TRAVEL_STATE','VENUE_RECORD','LINEUP_CONTINUITY','KEY_POSITION_CONTINUITY','LATE_WITHDRAWALS','RETURNING_PLAYERS','DEBUTANT_LOW_SAMPLE','PLAYER_AVAILABILITY','WEATHER'],
   rule:'A pending family is not scored until genuinely pre-match historical observations can be sourced without leakage.'
 };
-const obsStore={snapshot:`SINGLE-SIGNAL-OBS-${now}`,generated_at:now,source_snapshot:season.snapshot,fixture_signal_observations:observations};
-const board={snapshot:`SINGLE-SIGNAL-LEADERBOARD-${now}`,generated_at:now,source_snapshot:season.snapshot,signals:leaderboard};
+const obsStore={schema_version:schemaVersion,snapshot:`SINGLE-SIGNAL-OBS-${now}`,generated_at:now,source_snapshot:season.snapshot,fixture_signal_observations:observations};
+const board={schema_version:schemaVersion,snapshot:`SINGLE-SIGNAL-LEADERBOARD-${now}`,generated_at:now,source_snapshot:season.snapshot,signals:leaderboard};
 const falsification={
-  snapshot:`SINGLE-SIGNAL-FALSIFICATION-${now}`,generated_at:now,status:'ACTIVE',
+  schema_version:schemaVersion,snapshot:`SINGLE-SIGNAL-FALSIFICATION-${now}`,generated_at:now,status:'ACTIVE',
   tests:[
     {id:'FALSIFY-LEAKAGE',state:'STRUCTURALLY_CONTROLLED',finding:'Current implemented signals use fixture identity and results from earlier rounds only; same-round results are withheld until the entire round has been evaluated.'},
     {id:'FALSIFY-HOME_PROXY',state:'PENDING_ANALYSIS',finding:null},
@@ -178,4 +180,4 @@ fs.writeFileSync('data/single-signal-registry-2026.json',JSON.stringify(registry
 fs.writeFileSync('data/single-signal-observations-2026.json',JSON.stringify(obsStore,null,2)+'\n');
 fs.writeFileSync('data/single-signal-leaderboard-2026.json',JSON.stringify(board,null,2)+'\n');
 fs.writeFileSync('data/single-signal-falsification-2026.json',JSON.stringify(falsification,null,2)+'\n');
-console.log(`Generated ${observations.length} observations across ${signalDefinitions.length} signals.`);
+console.log(`Generated ${observations.length} observations across ${signalDefinitions.length} signals using ${schemaVersion}.`);
