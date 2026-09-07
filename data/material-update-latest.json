@@ -2,41 +2,61 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-08T00:18:59+10:00",
+  "captured_at": "2026-09-08T01:30:03+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_PLAYER_ROLE_AND_WORKLOAD_REFRESH",
+  "trigger": "MATERIAL_PLAYER_ROSTER_COVERAGE_AND_AVAILABILITY_REFRESH",
   "lifecycle_reconciliation": {
     "status": "NO_STALE_PAST_KICKOFF_FIXTURES",
     "relevant_fixtures": 4,
     "state": "UPCOMING"
   },
   "sources": [
-    {"class":"OFFICIAL_NRL","name":"NRL Round 27 Panthers v Wests Tigers live report","url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/","observed":"2026-09-08T00:18:59+10:00"},
-    {"class":"SECONDARY_REPUTABLE","name":"Fox Sports Finals Week 1 Team Tips","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","published":"2026-09-07T14:21:00+10:00","observed":"2026-09-08T00:18:59+10:00"},
-    {"class":"MARKET_SECONDARY","name":"PointsBet prices surfaced by Fox Sports","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-scores-and-analysis-from-round-27-paul-crawley-column-panthers-pay-price-for-going-for-minor-premiership/news-story/56b28febea614fd5d53fd85ade516c57","observed":"2026-09-08T00:16:00+10:00"},
-    {"class":"OFFICIAL_WEATHER","name":"Bureau of Meteorology Sydney accessible forecast","url":"https://www.bom.gov.au/location/australia/new-south-wales/metropolitan/bnsw_pt131-sydney/accessible-forecast","observed":"2026-09-08T00:18:59+10:00"},
-    {"class":"OFFICIAL_WEATHER","name":"MetService Auckland forecast","url":"https://www.metservice.com/towns-cities/locations/auckland","observed":"2026-09-08T00:18:59+10:00"}
+    {"class":"OFFICIAL_NRL","name":"NRL Round 27 official team lists","url":"https://www.nrl.com/news/2026/09/01/nrl-team-lists-round-27/","observed":"2026-09-08T01:30:03+10:00"},
+    {"class":"OFFICIAL_NRL","name":"NRL Round 26 official team lists","url":"https://www.nrl.com/news/2026/08/25/nrl-team-lists-round-26/","observed":"2026-09-08T01:30:03+10:00"},
+    {"class":"SECONDARY_REPUTABLE","name":"Fox Sports Finals Week 1 Team Tips","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","published":"2026-09-07T14:21:00+10:00","observed":"2026-09-08T01:21:00+10:00"},
+    {"class":"OFFICIAL_WEATHER","name":"Bureau of Meteorology Sydney accessible forecast","url":"https://www.bom.gov.au/location/australia/new-south-wales/metropolitan/bnsw_pt131-sydney/accessible-forecast","observed":"2026-09-08T01:30:03+10:00"},
+    {"class":"OFFICIAL_WEATHER","name":"MetService Auckland forecast","url":"https://www.metservice.com/towns-cities/locations/auckland","observed":"2026-09-08T01:30:03+10:00"}
   ],
   "observations": [
     {
-      "fixture":"FW1-PEN-SYD-2026-09-13",
-      "team":"Panthers",
-      "player":"Isaah Yeo",
-      "classification":"VERIFIED",
-      "observation":"Official NRL reporting verifies Yeo completed his Round 27 return in Penrith's 38-10 win after three games out. Contemporary Finals reporting records 54 minutes, 18 tackles and nine carries.",
-      "availability_state":"RETURN_COMPLETED; OFFICIAL_FINALS_TEAM_LIST_PENDING",
-      "decision_effect":"Substantial completed workload reduces uncertainty around Penrith middle continuity. No inference is made about medical condition or future minutes.",
-      "tip_effect":"Panthers retained at 73%."
+      "fixture":"FW1-SS-NKN-2026-09-11",
+      "team":"Rabbitohs",
+      "player":"Adam Elliott",
+      "classification":"SIGNAL",
+      "observation":"Current Finals reporting records that Elliott left Round 27 after a head knock. No medical diagnosis or Finals availability conclusion is inferred.",
+      "availability_state":"REQUIRES_OFFICIAL_TEAM_LIST_AND_LATE_MAIL_CONFIRMATION",
+      "decision_effect":"Adds a Rabbitohs forward-continuity uncertainty to the Newcastle counter-case.",
+      "tip_effect":"Rabbitohs retained at 69%."
     },
     {
-      "fixture":"FW1-PEN-SYD-2026-09-13",
-      "team":"Panthers",
-      "player":"Mitch Kenny",
-      "classification":"VERIFIED",
-      "observation":"Official NRL reporting verifies Kenny started and completed his Round 27 return; current Finals reporting records a 52-minute workload.",
-      "availability_state":"RETURN_COMPLETED; OFFICIAL_FINALS_TEAM_LIST_PENDING",
-      "decision_effect":"Verified return workload strengthens Penrith spine continuity relative to a return-status-only observation.",
-      "tip_effect":"Panthers retained at 73%."
+      "fixture":"FW1-SS-NKN-2026-09-11",
+      "team":"Rabbitohs",
+      "player":"Tallis Duncan",
+      "classification":"SIGNAL",
+      "observation":"Current Finals reporting states Duncan will return after being rested in Round 27.",
+      "availability_state":"EXPECTED_RETURN; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Rabbitohs forward continuity improves provisionally pending the official list.",
+      "tip_effect":"Rabbitohs retained at 69%."
+    },
+    {
+      "fixture":"FW1-WAR-DOL-2026-09-12",
+      "team":"Warriors",
+      "player":"Jackson Ford",
+      "classification":"SIGNAL",
+      "observation":"Current Finals reporting expects Ford to be named after his pectoral injury absence, likely with an eased bench role if selected.",
+      "availability_state":"EXPECTED_RETURN; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Potential forward-rotation depth gain for the Warriors; role remains provisional.",
+      "tip_effect":"Warriors retained at 63%."
+    },
+    {
+      "fixture":"FW1-WAR-DOL-2026-09-12",
+      "team":"Warriors",
+      "player":"Dallin Watene-Zelezniak",
+      "classification":"SIGNAL",
+      "observation":"Current Finals reporting describes Watene-Zelezniak as an outside chance to return; coach Andrew Webster stated he would play if fit.",
+      "availability_state":"OUTSIDE_CHANCE; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Backline continuity remains uncertain and is not credited as an available-player edge.",
+      "tip_effect":"Warriors retained at 63%."
     },
     {
       "fixture":"FW1-WAR-DOL-2026-09-12",
@@ -59,19 +79,49 @@
       "tip_effect":"Warriors retained at 63%."
     },
     {
-      "fixture":"FW1-SS-NKN-2026-09-11",
-      "team":"Rabbitohs",
-      "player":"Tallis Duncan",
+      "fixture":"FW1-SHA-COW-2026-09-12",
+      "team":"Sharks",
+      "player":"Braydon Trindall",
       "classification":"SIGNAL",
-      "observation":"Current Finals team reporting states Duncan will return after being rested in Round 27.",
+      "observation":"Coach Craig Fitzgibbon is reported as expecting Trindall to return if he gets through training; official Finals selection remains pending.",
+      "availability_state":"EXPECTED_RETURN_CONDITIONAL_ON_TRAINING; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Cronulla spine continuity could improve materially, but the condition prevents promotion to VERIFIED selection.",
+      "tip_effect":"Sharks retained at 64%."
+    },
+    {
+      "fixture":"FW1-PEN-SYD-2026-09-13",
+      "team":"Panthers",
+      "player":"Isaah Yeo",
+      "classification":"VERIFIED",
+      "observation":"Official NRL reporting verifies Yeo completed his Round 27 return in Penrith's 38-10 win after three games out. Contemporary Finals reporting records 54 minutes, 18 tackles and nine carries.",
+      "availability_state":"RETURN_COMPLETED; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Substantial completed workload reduces uncertainty around Penrith middle continuity. No inference is made about medical condition or future minutes.",
+      "tip_effect":"Panthers retained at 73%."
+    },
+    {
+      "fixture":"FW1-PEN-SYD-2026-09-13",
+      "team":"Panthers",
+      "player":"Mitch Kenny",
+      "classification":"VERIFIED",
+      "observation":"Official NRL reporting verifies Kenny started and completed his Round 27 return; current Finals reporting records a 52-minute workload.",
+      "availability_state":"RETURN_COMPLETED; OFFICIAL_FINALS_TEAM_LIST_PENDING",
+      "decision_effect":"Verified return workload strengthens Penrith spine continuity relative to a return-status-only observation.",
+      "tip_effect":"Panthers retained at 73%."
+    },
+    {
+      "fixture":"FW1-PEN-SYD-2026-09-13",
+      "team":"Roosters",
+      "player":"Angus Crichton",
+      "classification":"SIGNAL",
+      "observation":"Current Finals reporting says Crichton is on track to be named after his foot-injury absence.",
       "availability_state":"EXPECTED_RETURN; OFFICIAL_FINALS_TEAM_LIST_PENDING",
-      "decision_effect":"Rabbitohs forward continuity improves provisionally pending the official list.",
-      "tip_effect":"Rabbitohs retained at 69%."
+      "decision_effect":"Strengthens the Roosters counter-case provisionally; not treated as verified selection.",
+      "tip_effect":"Panthers retained at 73%."
     }
   ],
   "market_absorption_clock": {
     "state":"FRESH_RELIABLE_SECONDARY_CAPTURE; NO_PRICE_MOVEMENT",
-    "captured_at":"2026-09-08T00:16:00+10:00",
+    "captured_at":"2026-09-08T01:21:00+10:00",
     "Rabbitohs_v_Knights":{"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},
     "Warriors_v_Dolphins":{"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},
     "Sharks_v_Cowboys":{"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},
@@ -87,6 +137,13 @@
     "integrity":"No unresolved hearing converted into an assumed suspension."
   },
   "official_finals_team_lists":"NOT_YET_PUBLISHED at this capture; predicted lineups remain non-authoritative.",
+  "player_roster_statistical_coverage": {
+    "status":"PLAYER_ROSTER_POPULATION_INCOMPLETE",
+    "finding":"The public Players layer still uses a Round 27 roster baseline built for Dragons, Eels, Panthers and Wests Tigers, not a complete eight-club Finals Week 1 roster baseline. Selected Finals player supplements do not satisfy the mandatory full named-squad player layer.",
+    "audit_record":"data/player-roster-coverage-audit-2026-09-08T0130-AEST.json",
+    "statistical_dossier_state":"INCOMPLETE_FOR_FULL_FINALS_ROSTER",
+    "decision_effect":"No confidence change solely from the architecture defect; full MAYHEM pre-freeze validation requires completion before any T-10 freeze."
+  },
   "weather": {
     "Sydney":"Official BOM source rechecked. No material change established from the governed low-rain Friday-Sunday state; no directional team edge demonstrated.",
     "Auckland":"Official MetService source rechecked. Detailed machine-readable match-horizon fields were not available in this capture, so the prior weather SIGNAL is retained without invention.",
@@ -101,6 +158,6 @@
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
   "next_automation_checkpoint":{"fixture":"Rabbitohs v Knights","checkpoint":"T-24h","due":"2026-09-10T19:50:00+10:00"},
-  "persistence_reconciliation":"Current player overlay and public Latest Material Update refreshed with verified Panthers return workloads and provisional Dolphins/Rabbitohs return signals. No player was removed for absence of news.",
+  "persistence_reconciliation":"Material Finals availability and the newly detected roster/statistical coverage defect are persisted. No player was removed for absence of news.",
   "integrity":"No frozen decision rewritten. No checkpoint was due. All four relevant fixtures remain UPCOMING. T-10 remains the immutable pre-match freeze."
 }
