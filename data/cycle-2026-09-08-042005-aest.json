@@ -1,0 +1,68 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-08T04:20:05+10:00",
+  "cycle_classification": "NO_MATERIAL_CHANGE",
+  "notification": "SUPPRESSED_BY_RULE",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ]
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/",
+      "finding": "Reuben Cotter remains not guilty plea / judiciary pending for Tuesday 6:00pm; Michael Gabrael remains suspended two matches. No new resolved status at capture time."
+    },
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/01/nrl-team-lists-round-27/",
+      "finding": "No official Finals Week 1 team list was published at capture time; current Finals roster states remain provisional pending Tuesday publication."
+    },
+    {
+      "class": "SECONDARY_REPUTABLE",
+      "url": "https://www.sportingnews.com/au/rugby-league/news/nrl-team-lists-finals-week-1-2026-lineups-injuries-results/88002783ec8ef3af02db90a8",
+      "finding": "Predicted Finals line-ups and availability signals reviewed. No item exceeded already persisted material player states; predictions were not promoted to VERIFIED roster status."
+    },
+    {
+      "class": "WEATHER_OFFICIAL",
+      "url": "https://www.bom.gov.au/places/nsw/moore-park/forecast/",
+      "finding": "Allianz Stadium locality: Friday 11 Sep 10% rain, 0 mm, easterly 15-20 km/h afternoon becoming light evening; Saturday 12 Sep 5% rain, 0 mm, northeasterly 15-25 km/h. No demonstrated directional team edge."
+    },
+    {
+      "class": "WEATHER_OFFICIAL",
+      "url": "https://www.metservice.com/towns-cities/regions/auckland/locations/auckland/extended",
+      "finding": "Auckland official extended source checked; machine-readable detailed Saturday fields remained unavailable, so no directional weather claim was promoted."
+    }
+  ],
+  "market_state": {
+    "status": "NO_VERIFIED_MATERIAL_MOVEMENT_ESTABLISHED_THIS_CYCLE",
+    "rule": "Unattributed movement remains SIGNAL; prior reliable normalized market states retained until a new reliable two-sided state is captured."
+  },
+  "player_population": {
+    "state": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
+    "material_change": false,
+    "note": "Open integrity defect remains: complete official Finals Week 1 named squads have not yet been published/ingested. Predicted line-ups are not treated as VERIFIED roster population."
+  },
+  "current_decisions": [
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage": "NONE_ASSERTED",
+  "persistence": "SUCCESS",
+  "public_site_write": "NOT_REQUIRED_NO_MATERIAL_PUBLIC_STATE_CHANGE",
+  "audit_integrity": "PRESERVED"
+}
