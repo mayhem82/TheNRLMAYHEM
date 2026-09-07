@@ -1,0 +1,39 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-08T07:06:00+10:00",
+  "cycle_classification": "MATERIAL_PLAYER_PROFILE_AND_AVAILABILITY_CHANGE",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": ["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]
+  },
+  "checkpoint_state": {"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "material_change": {
+    "player":"Braydon Trindall",
+    "fixture":"Sharks v Cowboys",
+    "classification":"SIGNAL",
+    "previous_state":"EXPECTED_RETURN_CONDITIONAL_ON_TRAINING",
+    "new_state":"SET_TO_BE_NAMED_OFFICIAL_TEAM_LIST_PENDING",
+    "source":"https://www.nrl.com/news/2026/09/08/trindall-ready-to-spark-sharks-in-high-stakes-comeback/",
+    "source_published":"2026-09-08T06:01:00+10:00",
+    "facts":["NRL.com says Trindall is set to be named Tuesday afternoon.","Captain Blayke Brailey describes Trindall as fit and healthy.","NRL.com records 30 try assists in 2026, the competition lead and a Sharks club record."],
+    "football_mechanism":"Official reporting identifies attacking-20 creation and short-kicking as Trindall's role-critical contributions alongside Nicho Hynes.",
+    "decision_effect":"Sharks 64% retained; no non-checkpoint confidence uplift and no VERIFIED roster promotion before official team-list publication."
+  },
+  "conflict_capture": {
+    "player":"Euan Aitken",
+    "classification":"SIGNAL",
+    "secondary_state":"RULED_OUT_REMAINDER_OF_2026",
+    "official_older_state":"TBC",
+    "integrity":"Conflict retained; not promoted to VERIFIED."
+  },
+  "market_state":"RECHECKED_NO_MATERIAL_MOVEMENT_ESTABLISHED_FROM_05:26_BASELINE",
+  "weather_state":"OFFICIAL_SOURCES_RECHECKED_NO_MATERIAL_DIRECTIONAL_CHANGE",
+  "player_population":{"state":"PLAYER_ROSTER_POPULATION_INCOMPLETE","material_change":false,"note":"Official Finals Week 1 named squads not yet published; existing coverage defect remains open."},
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69},{"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63},{"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64},{"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73}],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "persistence":"SUCCESS",
+  "audit_integrity":"PRESERVED"
+}
