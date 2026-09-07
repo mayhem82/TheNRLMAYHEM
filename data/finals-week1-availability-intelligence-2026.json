@@ -2,7 +2,7 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-07T02:42:15+10:00",
+  "captured_at": "2026-09-08T07:06:00+10:00",
   "timezone": "Australia/Sydney",
   "source_class": "OFFICIAL_NRL",
   "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
@@ -11,7 +11,7 @@
   "fixtures": {
     "FW1-SS-NKN-2026-09-11": {
       "Rabbitohs": [
-        {"player":"Euan Aitken","published_condition":"shoulder","return_window":"TBC","state":"AVAILABILITY_UNRESOLVED","decision_effect":"MONITOR"},
+        {"player":"Euan Aitken","published_condition":"shoulder","return_window":"TBC","state":"SECONDARY_REPORT_RULED_OUT_REMAINDER_OF_2026_OFFICIAL_TBC_CONFLICT","decision_effect":"MONITOR_NEGATIVE_IF_CONFIRMED","source_url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","captured_at":"2026-09-08T07:06:00+10:00"},
         {"player":"Ashton Ward","published_condition":"hamstring","return_window":"2027","state":"UNAVAILABLE_FOR_2026_FINALS","decision_effect":"ROSTER_AVAILABILITY_DOWN_IF_NAMING_RELEVANT"},
         {"player":"Dayne Jennings","published_condition":"laceration","return_window":"TBC","state":"AVAILABILITY_UNRESOLVED","decision_effect":"MONITOR"}
       ],
@@ -26,10 +26,7 @@
         {"player":"Trey Mooney","published_condition":"shoulder","return_window":"2027","state":"UNAVAILABLE_FOR_2026_FINALS","decision_effect":"AVAILABILITY_DOWN"},
         {"player":"Dylan Lucas","published_condition":"ankle","return_window":"2027","state":"UNAVAILABLE_FOR_2026_FINALS","decision_effect":"AVAILABILITY_DOWN"}
       ],
-      "material_notes": [
-        "NRL reports Trey Mooney is out for the rest of the season with a fractured shoulder blade.",
-        "NRL reports Francis Manuleleua suffered a dislocated elbow with no arm fracture and faces a race against the clock to play in the finals."
-      ]
+      "material_notes": ["Secondary reporting says Euan Aitken is ruled out for the remainder of 2026, while the older official casualty source remains TBC. Conflict preserved pending official Finals team list or newer official report."]
     },
     "FW1-WAR-DOL-2026-09-12": {
       "Warriors": [
@@ -44,17 +41,13 @@
         {"player":"Selwyn Cobbo","published_condition":"ankle","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"},
         {"player":"Kulikefu Finefeuiaki","published_condition":"knee","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"},
         {"player":"Kodi Nikorima","published_condition":"hamstring","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"}
-      ],
-      "material_notes": [
-        "NRL says Leka Halasima is expected to return for the Warriors' opening final.",
-        "NRL says Selwyn Cobbo missed Round 27 with an ankle injury while Kodi Nikorima and Kulikefu Finefeuiaki were given a chance to freshen up ahead of finals."
       ]
     },
     "FW1-SHA-COW-2026-09-12": {
       "Sharks": [
         {"player":"Mawene Hiroti","published_condition":"ribs","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"},
         {"player":"Thomas Hazelton","published_condition":"suspended","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"},
-        {"player":"Braydon Trindall","published_condition":"shoulder","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"},
+        {"player":"Braydon Trindall","published_condition":"shoulder","return_window":"Finals","state":"SET_TO_BE_NAMED_OFFICIAL_TEAM_LIST_PENDING","decision_effect":"SHARKS_SPINE_RETURN_SIGNAL_STRENGTHENED","source_url":"https://www.nrl.com/news/2026/09/08/trindall-ready-to-spark-sharks-in-high-stakes-comeback/","source_observation":"Official NRL reporting at 6:01am says Trindall is set to be named Tuesday afternoon. Sharks captain Blayke Brailey describes him as fit and healthy. NRL reports Trindall led the 2026 competition with a club-record 30 try assists despite missing the final month.","captured_at":"2026-09-08T07:06:00+10:00"},
         {"player":"Jesse Ramien","published_condition":"pectoral","return_window":"2027","state":"UNAVAILABLE_FOR_2026_FINALS","decision_effect":"AVAILABILITY_DOWN"}
       ],
       "Cowboys": [
@@ -63,37 +56,28 @@
         {"player":"Jeremiah Nanai","published_condition":"knee","return_window":"Finals","state":"EXPECTED_OPENING_FINAL_RETURN_NOT_SELECTION_CONFIRMED","decision_effect":"MONITOR"},
         {"player":"Griffin Neame","published_condition":"toe","return_window":"Finals","state":"EXPECTED_OPENING_FINAL_RETURN_NOT_SELECTION_CONFIRMED","decision_effect":"MONITOR"}
       ],
-      "material_notes": [
-        "NRL reports Laybutt, Nanai and Neame are expected to be fit for the opening week of the finals.",
-        "Murray Taulagi remains TBC after missing Round 27 due to concussion."
-      ]
+      "material_notes": ["NEW: Official NRL reporting materially strengthens Braydon Trindall's return state from conditional-on-training to set-to-be-named. Official team-list publication remains the roster authority."]
     },
     "FW1-PEN-SYD-2026-09-13": {
       "Panthers": [
-        {"player":"Isaah Yeo","published_condition":"pectoral return","return_window":"Round 27 return completed","state":"RETURN_COMPLETED_WEEK1_SELECTION_NOT_CONFIRMED","decision_effect":"CARRY_FORWARD","source_url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/","source_observation":"Official NRL post-match reporting confirms Yeo came from the interchange and successfully returned in the 38-10 win over Wests Tigers.","captured_at":"2026-09-07T02:42:15+10:00"},
-        {"player":"Mitch Kenny","published_condition":"leg return","return_window":"Round 27 return completed","state":"RETURN_COMPLETED_WEEK1_SELECTION_NOT_CONFIRMED","decision_effect":"CARRY_FORWARD","source_url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/","source_observation":"Official NRL post-match reporting confirms Kenny started at hooker and successfully returned in the 38-10 win over Wests Tigers.","captured_at":"2026-09-07T02:42:15+10:00"},
+        {"player":"Isaah Yeo","published_condition":"pectoral return","return_window":"Round 27 return completed","state":"RETURN_COMPLETED_WEEK1_SELECTION_NOT_CONFIRMED","decision_effect":"CARRY_FORWARD","source_url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"},
+        {"player":"Mitch Kenny","published_condition":"leg return","return_window":"Round 27 return completed","state":"RETURN_COMPLETED_WEEK1_SELECTION_NOT_CONFIRMED","decision_effect":"CARRY_FORWARD","source_url":"https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"},
         {"player":"Paul Alamoti","published_condition":"hamstring","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"},
         {"player":"Izack Tago","published_condition":"knee","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"},
         {"player":"Jack Cogger","published_condition":"suspended","return_window":"Finals","state":"RETURN_WINDOW_FINALS_NOT_CONFIRMED","decision_effect":"MONITOR"}
       ],
       "Roosters": [
         {"player":"Reece Foley","published_condition":"head knock","return_window":"TBC","state":"AVAILABILITY_UNRESOLVED","decision_effect":"MONITOR"},
-        {"player":"Victor Radley","published_condition":"concussion","return_window":"Finals","state":"EXPECTED_AVAILABLE_WEEK_1_NOT_SELECTION_CONFIRMED","decision_effect":"MONITOR","source_url":"https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/","source_observation":"Trent Robinson said Radley will be there week one."},
-        {"player":"Angus Crichton","published_condition":"ankle","return_window":"Finals","state":"ON_TRACK_WEEK_1_DECISION_PENDING","decision_effect":"MONITOR","source_url":"https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/","source_observation":"Trent Robinson said Crichton was progressing and on track, with availability a next-week decision."},
+        {"player":"Victor Radley","published_condition":"concussion","return_window":"Finals","state":"EXPECTED_AVAILABLE_WEEK_1_NOT_SELECTION_CONFIRMED","decision_effect":"MONITOR"},
+        {"player":"Angus Crichton","published_condition":"ankle","return_window":"Finals","state":"ON_TRACK_WEEK_1_DECISION_PENDING","decision_effect":"MONITOR"},
         {"player":"Blake Steep","published_condition":"knee","return_window":"2027","state":"UNAVAILABLE_FOR_2026_FINALS","decision_effect":"AVAILABILITY_DOWN_IF_NAMING_RELEVANT"},
-        {"player":"Sam Walker","published_condition":"ankle","return_window":"TBC","state":"UNAVAILABLE_FOR_FINALS_WEEK_1","decision_effect":"AVAILABILITY_DOWN","source_url":"https://www.nrl.com/news/2026/09/03/leading-from-the-front-collins-taking-youngsters-under-his-wing-for-grudge-match/","source_observation":"NRL reports the Roosters will enter the finals without Sam Walker following syndesmosis surgery; the club remains hopeful he may play again later in the season.","captured_at":"2026-09-07T01:18:17+10:00"}
-      ],
-      "material_notes": [
-        "NEW: Isaah Yeo and Mitch Kenny both completed successful Round 27 returns in Penrith's 38-10 win. This resolves return-to-match-action uncertainty but does not pre-confirm Finals Week 1 selection or workload.",
-        "Victor Radley is expected to be available for Week 1 according to Trent Robinson; selection remains unconfirmed until the official team list.",
-        "Angus Crichton is progressing and on track, but his Week 1 availability remains a decision for finals week.",
-        "CORRECTION: Sam Walker is unavailable for Finals Week 1. Official NRL reporting on September 3 states the Roosters will enter the finals without him after syndesmosis surgery. Hope of a later-season return is not Week 1 availability."
+        {"player":"Sam Walker","published_condition":"ankle","return_window":"TBC","state":"UNAVAILABLE_FOR_FINALS_WEEK_1","decision_effect":"AVAILABILITY_DOWN"}
       ]
     }
   },
   "roster_rule": "These observations do not populate or replace official Finals Week 1 named squads. Official team-list starters, interchange and reserves remain authoritative when published.",
   "decision_rule": "No tip or confidence change is made at this non-checkpoint capture. Availability evidence is carried forward for the next due checkpoint and must be reconciled against official Finals Week 1 team lists.",
   "information_advantage": "NONE_ASSERTED",
-  "market_state": "NOT_CAPTURED_NON_CHECKPOINT",
-  "weather_state": "NOT_FROZEN_NON_CHECKPOINT"
+  "market_state": "FRESH_RECHECK_NO_MATERIAL_CHANGE_FROM_2026-09-08T05:26:40+10:00_BASELINE",
+  "weather_state": "FRESH_RECHECK_NO_MATERIAL_DIRECTIONAL_CHANGE"
 }
