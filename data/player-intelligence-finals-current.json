@@ -1,0 +1,64 @@
+{
+  "season": 2026,
+  "stage": "FINALS_WEEK_1_PRE_TEAM_LIST",
+  "captured_at": "2026-09-07T22:39:31+10:00",
+  "records": [
+    {
+      "player": "Victor Radley",
+      "team": "Roosters",
+      "position_context": "Middle / lock",
+      "fixture": "Panthers v Roosters",
+      "captured_at": "2026-09-07T22:39:31+10:00",
+      "classification": "VERIFIED",
+      "status": "NO_SUSPENSION_FROM_ROUND27_CHARGE_FINALS_SELECTION_PENDING",
+      "observation": "Official NRL judiciary history records Radley's Round 27 Careless High Tackle charge as a $1000 fine, not a suspension. Finals Week 1 selection remains subject to the official team list.",
+      "decision_effect": "COUNTER_CASE_STRENGTHENED",
+      "macro_effect": "Removes the Round 27 judiciary charge as a suspension-risk variable for the Roosters without assuming selection, fitness or minutes.",
+      "source": "NRL Judiciary Report 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    },
+    {
+      "player": "Michael Gabrael",
+      "team": "Sharks",
+      "position_context": "Centre",
+      "fixture": "Sharks v Cowboys",
+      "captured_at": "2026-09-07T22:39:31+10:00",
+      "classification": "VERIFIED",
+      "status": "SUSPENDED_TWO_MATCHES",
+      "observation": "Official NRL judiciary reporting confirms Gabrael pleaded guilty to the Grade 3 Careless High Tackle charge and is suspended for two matches.",
+      "decision_effect": "FINALS_AVAILABILITY_LOSS",
+      "macro_effect": "Cronulla centre depth is definitively reduced for the elimination final.",
+      "source": "NRL Judiciary Report 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    },
+    {
+      "player": "Reuben Cotter",
+      "team": "Cowboys",
+      "position_context": "Middle / lock",
+      "fixture": "Sharks v Cowboys",
+      "captured_at": "2026-09-07T22:39:31+10:00",
+      "classification": "VERIFIED",
+      "status": "JUDICIARY_UNRESOLVED",
+      "observation": "Official NRL judiciary reporting confirms Cotter pleaded not guilty and will appear by video link at 6.00pm Tuesday. A not-guilty verdict makes him available; a guilty finding carries a two-match suspension.",
+      "decision_effect": "MONITOR",
+      "macro_effect": "Cowboys middle continuity remains unresolved until the hearing outcome is verified.",
+      "source": "NRL Judiciary Report 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    },
+    {
+      "player": "Isaiah Papali'i",
+      "team": "Panthers",
+      "position_context": "Forward",
+      "fixture": "Panthers v Roosters",
+      "captured_at": "2026-09-07T22:39:31+10:00",
+      "classification": "VERIFIED",
+      "status": "NO_SUSPENSION_RISK_FROM_ROUND27_CHARGE",
+      "observation": "Official NRL judiciary reporting lists Papali'i's Round 27 Grade 1 Dangerous Contact charge in the fine-only range of $1000-$1500.",
+      "decision_effect": "NO_SUSPENSION_RISK",
+      "macro_effect": "No Finals Week 1 suspension risk arises from this charge; official team-list selection remains authoritative.",
+      "source": "NRL Judiciary Report 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    }
+  ],
+  "integrity": "Current Finals overlay only. It augments persistent roster/player records and never removes players for absence of news. Official Finals Week 1 team lists remain authoritative when published."
+}
