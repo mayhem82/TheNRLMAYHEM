@@ -2,13 +2,14 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-07T14:06:53+10:00",
+  "captured_at":"2026-09-07T14:25:31+10:00",
   "timezone":"Australia/Sydney",
   "trigger":"MATERIAL_PLAYER_AVAILABILITY_CHANGE",
   "lifecycle_reconciliation":{"status":"NO_STALE_PAST_KICKOFF_FIXTURES","relevant_fixtures":4,"state":"UPCOMING"},
   "sources":[
     {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/","published":"2026-09-06","use":"verified Finals Week 1 fixtures, venues and kickoff times"},
-    {"class":"CURRENT_SECONDARY","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","published":"2026-09-07T12:02:00+10:00","use":"current Finals Week 1 availability, judiciary and return reporting"}
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","published":"2026-09-07T14:19:00+10:00","use":"official confirmation of Reuben Cotter not-guilty plea and Tuesday judiciary hearing; official charge/penalty status for Michael Gabrael and other Round 27 charges"},
+    {"class":"CURRENT_SECONDARY","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","published":"2026-09-07T12:02:00+10:00","use":"current Finals Week 1 availability and return reporting; subordinate to official NRL sources"}
   ],
   "observations":[
     {
@@ -55,19 +56,19 @@
       "fixture":"FW1-SHA-COW-2026-09-12",
       "team":"Sharks",
       "player":"Braydon Trindall / Michael Gabrael",
-      "classification":"CORROBORATED_CURRENT_REPORTING",
-      "observation":"Craig Fitzgibbon has indicated Braydon Trindall is expected to return if he gets through training. Michael Gabrael has been reported as serving a two-match ban from his Grade 3 careless high tackle charge.",
-      "availability_state":"TRINDALL_EXPECTED_RETURN_CONDITIONAL_ON_TRAINING; GABRAEL_UNAVAILABLE",
-      "decision_effect":"Potentially material positive Sharks spine continuity from Trindall, offset by centre-depth loss through Gabrael.",
-      "tip_effect":"Sharks retained at 64%; no uplift before Trindall is verified through official selection/training completion."
+      "classification":"MIXED_VERIFIED_AND_CORROBORATED",
+      "observation":"Current reporting expects Braydon Trindall to return if he gets through training. Official NRL judiciary reporting lists Michael Gabrael with a Grade 3 Careless High Tackle charge, plea TBC, carrying 2-3 matches; no final suspension outcome is treated as verified yet.",
+      "availability_state":"TRINDALL_EXPECTED_RETURN_CONDITIONAL_ON_TRAINING; GABRAEL_JUDICIARY_OUTCOME_UNRESOLVED",
+      "decision_effect":"Potentially material positive Sharks spine continuity from Trindall, offset by unresolved centre-depth risk through Gabrael.",
+      "tip_effect":"Sharks retained at 64%; no uplift before Trindall and Gabrael states are formally resolved."
     },
     {
       "fixture":"FW1-SHA-COW-2026-09-12",
       "team":"Cowboys",
       "player":"Reuben Cotter",
-      "classification":"CORROBORATED_CURRENT_REPORTING",
-      "observation":"North Queensland has confirmed Reuben Cotter pleaded not guilty to the Grade 2 careless high tackle charge. He will contest the charge at the judiciary and risks a two-game suspension if unsuccessful.",
-      "availability_state":"JUDICIARY_UNRESOLVED; FINALS_WEEK_1_AT_RISK",
+      "classification":"VERIFIED",
+      "observation":"Official NRL judiciary reporting at 2:19pm AEST confirms Reuben Cotter pleaded not guilty to the Grade 2 Careless High Tackle charge and will front the judiciary on Tuesday night. A not-guilty finding makes him available for the Sharks elimination final; a guilty finding results in a two-match suspension.",
+      "availability_state":"JUDICIARY_HEARING_TUESDAY; FINALS_WEEK_1_AT_RISK",
       "decision_effect":"Material Cowboys middle-continuity uncertainty remains active until the judiciary outcome is verified.",
       "tip_effect":"Sharks retained at 64%."
     },
@@ -86,14 +87,14 @@
       "team":"Roosters",
       "player":"James Tedesco / Daly Cherry-Evans / Victor Radley / Angus Crichton / senior cohort",
       "classification":"CORROBORATED_CURRENT_REPORTING",
-      "observation":"The Roosters are set to restore a large senior cohort rested in Round 27, including James Tedesco, Daly Cherry-Evans and Victor Radley. Angus Crichton is reported on track to be named. Sam Walker remains unlikely before a potential preliminary final.",
+      "observation":"The Roosters are set to restore a large senior cohort rested in Round 27, including James Tedesco, Daly Cherry-Evans and Victor Radley. Angus Crichton remains reported as a selection possibility rather than verified. Sam Walker remains unlikely before a potential preliminary final.",
       "availability_state":"MULTIPLE_EXPECTED_RETURNS_PENDING_OFFICIAL_LIST; WALKER_UNAVAILABLE_WEEK_1_UNDER_CURRENT_REPORTING",
       "decision_effect":"Strong Roosters counter-case; confirms Round 27 should remain heavily down-weighted as a finals-strength indicator.",
       "tip_effect":"Panthers retained at 73%; no confidence chase."
     }
   ],
-  "market_absorption_clock":"Fresh PointsBet prices observed via current Fox Sports finals team-news page at 13:47 AEST: Rabbitohs 1.40/Knights 2.95; Warriors 1.58/Dolphins 2.40; Sharks 1.42/Cowboys 2.85; Panthers 1.30/Roosters 3.50. These are a secondary market snapshot and do not replace the primary Sportsbet state without direct source capture.",
-  "weather":"NO_NEW_MATERIAL_WEATHER_CHANGE IDENTIFIED; prior mandatory venue-weather states remain active and will refresh at checkpoints.",
+  "market_absorption_clock":"Fresh PointsBet prices observed via current Fox Sports finals team-news page at 14:13 AEST: Rabbitohs 1.40/Knights 2.95; Warriors 1.58/Dolphins 2.40; Sharks 1.42/Cowboys 2.85; Panthers 1.30/Roosters 3.50. These are a secondary market snapshot and do not replace the primary Sportsbet state without direct source capture.",
+  "weather":"NO_NEW_MATERIAL_WEATHER_CHANGE_IDENTIFIED; prior mandatory venue-weather states remain active and will refresh at checkpoints.",
   "official_finals_team_lists":"NOT_YET_PUBLISHED; predicted/early-mail lineups are not treated as official named squads.",
   "current_decisions":[
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -104,5 +105,5 @@
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
   "next_automation_checkpoint":{"fixture":"Rabbitohs v Knights","checkpoint":"T-24h","due":"2026-09-10T19:50:00+10:00"},
-  "integrity":"No frozen decision rewritten. Current reports remain subordinate to official Finals Week 1 team lists. T-10 remains the immutable grading freeze."
+  "integrity":"No frozen decision rewritten. Cotter's plea has been promoted from corroborated reporting to VERIFIED official NRL status. Gabrael remains unresolved because the official judiciary table still records plea TBC. Current reports remain subordinate to official Finals Week 1 team lists. T-10 remains the immutable grading freeze."
 }
