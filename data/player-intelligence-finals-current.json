@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "stage": "FINALS_WEEK_1_PRE_TEAM_LIST",
-  "captured_at": "2026-09-07T22:39:31+10:00",
+  "captured_at": "2026-09-08T00:18:59+10:00",
   "records": [
     {
       "player": "Victor Radley",
@@ -58,7 +58,77 @@
       "macro_effect": "No Finals Week 1 suspension risk arises from this charge; official team-list selection remains authoritative.",
       "source": "NRL Judiciary Report 2026",
       "source_url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    },
+    {
+      "player": "Isaah Yeo",
+      "team": "Panthers",
+      "position_context": "Middle / lock",
+      "fixture": "Panthers v Roosters",
+      "captured_at": "2026-09-08T00:18:59+10:00",
+      "classification": "VERIFIED",
+      "status": "ROUND27_RETURN_COMPLETED_FINALS_SELECTION_PENDING",
+      "observation": "Official NRL reporting verifies Yeo returned in Penrith's 38-10 Round 27 win after three games out. Contemporary reporting records 54 minutes, 18 tackles and nine carries in the return match.",
+      "decision_effect": "PANTHERS_CONTINUITY_STRENGTHENED",
+      "macro_effect": "A completed pre-finals workload materially reduces uncertainty around immediate middle-role continuity, without inferring future minutes or medical state.",
+      "source": "NRL Round 27 live report plus current Finals team reporting",
+      "source_url": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"
+    },
+    {
+      "player": "Mitch Kenny",
+      "team": "Panthers",
+      "position_context": "Hooker",
+      "fixture": "Panthers v Roosters",
+      "captured_at": "2026-09-08T00:18:59+10:00",
+      "classification": "VERIFIED",
+      "status": "ROUND27_RETURN_COMPLETED_FINALS_SELECTION_PENDING",
+      "observation": "Official NRL reporting verifies Kenny returned in Round 27 and started at hooker; contemporary Finals reporting records a 52-minute return workload.",
+      "decision_effect": "PANTHERS_SPINE_CONTINUITY_STRENGTHENED",
+      "macro_effect": "Verified match participation and substantial return workload reduce pre-finals role uncertainty without assuming an 80-minute Finals role.",
+      "source": "NRL Round 27 live report plus current Finals team reporting",
+      "source_url": "https://www.nrl.com/news/2026/09/06/sunday-arvo-footy-dragons-v-eels-panthers-v-wests-tigers/"
+    },
+    {
+      "player": "Selwyn Cobbo",
+      "team": "Dolphins",
+      "position_context": "Outside back",
+      "fixture": "Warriors v Dolphins",
+      "captured_at": "2026-09-08T00:18:59+10:00",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_FINALS_STARTER_OFFICIAL_LIST_PENDING",
+      "observation": "Current Finals team reporting expects Cobbo to return to the Dolphins starting side after missing Round 27. This is not yet an official Finals team-list confirmation.",
+      "decision_effect": "DOLPHINS_COUNTER_CASE_STRENGTHENED",
+      "macro_effect": "Potential restoration of an experienced outside back improves projected backline continuity, but remains provisional until the official team list.",
+      "source": "Fox Sports Finals Week 1 Team Tips",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488"
+    },
+    {
+      "player": "Kodi Nikorima",
+      "team": "Dolphins",
+      "position_context": "Spine / five-eighth",
+      "fixture": "Warriors v Dolphins",
+      "captured_at": "2026-09-08T00:18:59+10:00",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_FINALS_STARTER_OFFICIAL_LIST_PENDING",
+      "observation": "Current Finals team reporting expects Nikorima to return to the Dolphins starting side after being managed in Round 27. This remains provisional until the official team list.",
+      "decision_effect": "DOLPHINS_SPINE_COUNTER_CASE_STRENGTHENED",
+      "macro_effect": "Potential spine restoration is decision-relevant because it would alter combination continuity against the Warriors; no selection is treated as verified yet.",
+      "source": "Fox Sports Finals Week 1 Team Tips",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488"
+    },
+    {
+      "player": "Tallis Duncan",
+      "team": "Rabbitohs",
+      "position_context": "Forward",
+      "fixture": "Rabbitohs v Knights",
+      "captured_at": "2026-09-08T00:18:59+10:00",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_TO_RETURN_OFFICIAL_LIST_PENDING",
+      "observation": "Current Finals team reporting states Duncan will return after being rested in Round 27. Official Finals Week 1 selection remains authoritative.",
+      "decision_effect": "RABBITOHS_FORWARD_CONTINUITY_STRENGTHENED",
+      "macro_effect": "Expected forward return modestly improves South Sydney continuity while remaining provisional until the official list.",
+      "source": "Fox Sports Finals Week 1 Team Tips",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488"
     }
   ],
-  "integrity": "Current Finals overlay only. It augments persistent roster/player records and never removes players for absence of news. Official Finals Week 1 team lists remain authoritative when published."
+  "integrity": "Current Finals overlay only. It augments persistent roster/player records and never removes players for absence of news. Official Finals Week 1 team lists remain authoritative when published; SIGNAL states are not promoted to VERIFIED roster presence before publication."
 }
