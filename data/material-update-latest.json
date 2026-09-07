@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-08T07:06:00+10:00",
+  "captured_at": "2026-09-08T09:18:00+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_PLAYER_PROFILE_AND_AVAILABILITY_CHANGE",
+  "trigger": "MATERIAL_PLAYER_AVAILABILITY_VERIFICATION",
   "lifecycle_reconciliation": {
     "status": "NO_KICKOFF_PASSED",
     "fixtures": [
@@ -21,6 +21,21 @@
   },
   "material_observations": [
     {
+      "fixture": "FW1-SS-NKN-2026-09-11",
+      "team": "Rabbitohs",
+      "player": "Euan Aitken",
+      "classification": "VERIFIED",
+      "source_class": "OFFICIAL_NRL",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+      "source_published": "2026-09-07T20:06:00+10:00",
+      "captured_at": "2026-09-08T09:18:00+10:00",
+      "observation": "NRL.com confirms Euan Aitken will miss the rest of the 2026 season. The official casualty list now records his return as 2027. He left the Round 27 win over the Roosters in the 59th minute after scoring a try and running 89 metres.",
+      "player_effect": "UNAVAILABLE_FOR_2026_FINALS",
+      "team_macro_effect": "South Sydney loses a current centre/edge option for Finals Week 1; edge continuity and replacement-role uncertainty increase until the official team list is published.",
+      "decision_effect": "RABBITOHS_SELECTION_RETAINED_69; verified availability downside carried into the next checkpoint without a non-checkpoint confidence rewrite.",
+      "conflict_resolution": "RESOLVED: prior secondary season-out report is now corroborated by the later official NRL casualty update."
+    },
+    {
       "fixture": "FW1-SHA-COW-2026-09-12",
       "team": "Sharks",
       "player": "Braydon Trindall",
@@ -28,24 +43,9 @@
       "source_class": "OFFICIAL_NRL",
       "source_url": "https://www.nrl.com/news/2026/09/08/trindall-ready-to-spark-sharks-in-high-stakes-comeback/",
       "source_published": "2026-09-08T06:01:00+10:00",
-      "captured_at": "2026-09-08T07:06:00+10:00",
-      "observation": "NRL.com reports Trindall is set to be named Tuesday afternoon for the Sharks' elimination final against the Cowboys. Captain Blayke Brailey describes him as fit and healthy. NRL.com also records that Trindall finished the 2026 regular season as the competition try-assist leader with a club-record 30 try assists despite missing the final month.",
-      "player_trend_effect": "Verified season production confirms elite attacking involvement at role-critical five-eighth level; the report also identifies Trindall's attacking-20 creation and short-kicking role. No causal claim is inferred from statistics alone.",
-      "team_macro_effect": "Cronulla spine continuity expectation materially strengthens relative to the prior conditional-on-training state.",
-      "decision_effect": "SHARKS_SELECTION_RETAINED_64; confidence not increased outside a checkpoint and before the official team list.",
-      "integrity": "Official team-list publication remains authoritative. SET_TO_BE_NAMED is not promoted to VERIFIED roster presence before publication."
-    },
-    {
-      "fixture": "FW1-SS-NKN-2026-09-11",
-      "team": "Rabbitohs",
-      "player": "Euan Aitken",
-      "classification": "SIGNAL",
-      "source_class": "SECONDARY_REPUTABLE",
-      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488",
-      "captured_at": "2026-09-08T07:06:00+10:00",
-      "observation": "Current secondary reporting says Aitken is ruled out for the remainder of 2026, while the older official NRL casualty state remains TBC.",
-      "conflict": "OFFICIAL_SOURCE_STALE_TBC_V_SECONDARY_SEASON_OUT_REPORT",
-      "decision_effect": "Rabbitohs edge-continuity downside retained as SIGNAL pending official team list or newer official confirmation."
+      "captured_at": "2026-09-08T09:18:00+10:00",
+      "observation": "NRL.com reports Trindall is set to be named Tuesday afternoon for the Sharks' elimination final against the Cowboys. Official team-list publication remains authoritative.",
+      "decision_effect": "SHARKS_SELECTION_RETAINED_64"
     }
   ],
   "judiciary_state": {
@@ -65,14 +65,14 @@
     "integrity": "No causal explanation assigned to market state."
   },
   "weather": {
-    "Sydney": "Official BOM rechecked; no material directional change established from the governed low-rain Finals baseline.",
-    "Auckland": "Official MetService rechecked; no new machine-readable evidence supports a directional team edge.",
+    "Sydney": "BOM refreshed: Friday 11 Sep generally 10-20% rain depending locality with easterly 15-20 km/h; Saturday 12 Sep 5% rain with northeasterly 15-25 km/h; Sunday 13 Sep 5% rain with northeasterly 15-20 km/h. No demonstrated directional team edge.",
+    "Auckland": "No new verified material weather change supporting a directional team edge established in this cycle.",
     "decision_effect": "NONE"
   },
   "player_roster_statistical_coverage": {
     "status": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
     "material_change": false,
-    "finding": "Official Finals Week 1 named squads are not yet published. The known public Players-layer Finals roster/statistical coverage defect remains open and must be resolved after authoritative squad publication before T-10 freeze validation."
+    "finding": "Official Finals Week 1 named squads are not yet published at this capture. The known Finals roster/statistical coverage defect remains open and must be resolved after authoritative squad publication before T-10 freeze validation."
   },
   "current_decisions": [
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -82,6 +82,6 @@
   ],
   "information_advantage": "NONE_ASSERTED",
   "incorrect_tip_halt": "CLEAR",
-  "persistence_reconciliation": "Trindall and Aitken current states persisted to the Finals player layer and availability intelligence. No frozen state rewritten.",
+  "persistence_reconciliation": "Aitken upgraded from secondary SIGNAL/conflict to VERIFIED season-ending absence on the official NRL casualty update. Trindall remains official-list pending. No frozen state rewritten.",
   "audit_integrity": "PRESERVED"
 }
