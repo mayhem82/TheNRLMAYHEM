@@ -1,0 +1,69 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-08T07:27:36+10:00",
+  "cycle_classification": "NO_MATERIAL_CHANGE",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ]
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "sources_checked": [
+    "NRL.com current Finals/team-list search",
+    "NRL.com Trindall official report published 2026-09-08T06:01:00+10:00",
+    "Fox Sports current Finals markets/team tips as at 2026-09-08T07:16:00+10:00",
+    "Bureau of Meteorology Sydney forecast/observations",
+    "MetService Auckland forecast"
+  ],
+  "player_state": {
+    "material_change": false,
+    "trindall": "SET_TO_BE_NAMED_OFFICIAL_TEAM_LIST_PENDING",
+    "cotter": "JUDICIARY_HEARING_PENDING_2026-09-08",
+    "gabrael": "SUSPENDED_TWO_MATCHES",
+    "aitken": "SIGNAL_CONFLICT_RETAINED",
+    "official_finals_team_lists": "NOT_YET_PUBLISHED_AT_CAPTURE"
+  },
+  "player_population": {
+    "state": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
+    "material_change": false,
+    "note": "Defect remains open until authoritative Finals Week 1 named squads are published and fully ingested. No false completeness claim."
+  },
+  "market_state": {
+    "classification": "RECHECKED_NO_MATERIAL_MOVEMENT",
+    "latest_reliable_timestamp": "2026-09-08T07:16:00+10:00",
+    "prices": {
+      "Rabbitohs_v_Knights": [1.40, 2.95],
+      "Warriors_v_Dolphins": [1.58, 2.40],
+      "Sharks_v_Cowboys": [1.42, 2.85],
+      "Panthers_v_Roosters": [1.30, 3.50]
+    },
+    "causal_inference": "NONE"
+  },
+  "weather_state": {
+    "classification": "RECHECKED_NO_MATERIAL_DIRECTIONAL_CHANGE",
+    "sydney_source": "Bureau of Meteorology",
+    "auckland_source": "MetService",
+    "directional_team_edge": "NOT_DEMONSTRATED"
+  },
+  "current_decisions": [
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73}
+  ],
+  "information_advantage": "NONE_ASSERTED",
+  "incorrect_tip_halt": "CLEAR",
+  "persistence": "SUCCESS",
+  "public_update_required": false,
+  "audit_integrity": "PRESERVED"
+}
