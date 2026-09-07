@@ -1,9 +1,12 @@
 {
-  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-06-TI",
+  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-07-FINALS",
   "required":[
     "data/player-intelligence-2026.json",
     "data/player-intelligence-round27-current.json",
     "data/player-roster-round27-2026.json"
+  ],
+  "supplements":[
+    "data/player-intelligence-finals-current.json"
   ],
   "statistics":[
     "data/player-stats-2026.json",
