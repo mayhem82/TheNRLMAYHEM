@@ -1,0 +1,59 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-07T11:54:22+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_MARKET_MOVEMENT",
+  "lifecycle_reconciliation": {
+    "status": "NO_STALE_PAST_KICKOFF_FIXTURES",
+    "relevant_fixtures": 4,
+    "state": "UPCOMING"
+  },
+  "sources": [
+    {"class":"CURRENT_MARKET","name":"Sportsbet NRL Finals Week 1","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","source_observed_at":"2026-09-07T11:38:25+10:00"},
+    {"class":"OFFICIAL_NRL","name":"NRL Judiciary Report 2026","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","published":"2026-09-06T12:32:00+10:00"},
+    {"class":"OFFICIAL_NRL","name":"NRL Casualty Ward 2026","url":"https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"},
+    {"class":"OFFICIAL_WEATHER","name":"Bureau of Meteorology Sydney area forecast","url":"https://www.bom.gov.au/places/nsw/coogee/forecast/"}
+  ],
+  "observations": [
+    {
+      "fixture":"FW1-PEN-SYD-2026-09-13",
+      "team":"Panthers",
+      "player":"MARKET",
+      "classification":"SIGNAL",
+      "observation":"Sportsbet moved Penrith from $1.33 to $1.28 and the Roosters from $3.35 to $3.70. The line moved from Panthers -9.5 to -10.5. The normalized Panthers market probability increased from 71.58% to 74.30%.",
+      "availability_state":"NOT_APPLICABLE",
+      "decision_effect":"MARKET_CONVERGENCE_AND_REVERSAL_OF_MAYHEM_DELTA: MAYHEM 73% is now 1.30 percentage points below the normalized market rather than 1.42 points above it.",
+      "tip_effect":"Panthers current selection retained at 73%; no unsupported confidence chase of market movement."
+    }
+  ],
+  "market_absorption_clock": {
+    "Rabbitohs_v_Knights":{"home":1.40,"away":2.97,"normalized_home_probability":67.96,"change_from_0553":"NONE"},
+    "Warriors_v_Dolphins":{"home":1.54,"away":2.47,"normalized_home_probability":61.60,"change_from_0553":"NONE"},
+    "Sharks_v_Cowboys":{"home":1.44,"away":2.81,"normalized_home_probability":66.12,"change_from_0553":"NONE"},
+    "Panthers_v_Roosters":{"home":1.28,"away":3.70,"normalized_home_probability":74.30,"change_from_0553":"MATERIAL; Panthers price shortened 1.33->1.28, Roosters drifted 3.35->3.70, line -9.5->-10.5"}
+  },
+  "judiciary_recheck": {
+    "Jamie_Humphreys":"VERIFIED_SUSPENDED_TWO_MATCHES",
+    "Reuben_Cotter":"CHARGE_VERIFIED; PLEA_TBC; 1-2 MATCHES",
+    "Michael_Gabrael":"CHARGE_VERIFIED; PLEA_TBC; 2-3 MATCHES",
+    "integrity":"No TBC plea state converted to a suspension assumption."
+  },
+  "roster_recheck":"OFFICIAL_FINALS_WEEK_1_TEAM_LISTS_NOT_LOCATED_AS_OF_CAPTURE; current official casualty states remain active pending team-list publication.",
+  "weather": {
+    "Sydney":"BOM remains low-rain and light-to-moderate wind for Finals Week 1: Friday partly cloudy with about 10% rain chance and easterly 15-20 km/h; Saturday sunny with about 5% rain chance and northeasterly 15-20 km/h; Sunday mostly sunny with about 5% rain chance and east-to-northeasterly 15-20 km/h. No demonstrated directional team edge.",
+    "Auckland":"Fresh detailed MetService seven-day fields were not machine-readable in this capture. Prior verified Auckland weather signal is retained without alteration; do not infer a change from missing fields.",
+    "decision_effect":"NO_MATERIAL_DIRECTIONAL_CHANGE"
+  },
+  "current_decisions": [
+    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "next_automation_checkpoint":{"fixture":"Rabbitohs v Knights","checkpoint":"T-24h","due":"2026-09-10T19:50:00+10:00"},
+  "integrity":"No frozen decision rewritten. This is a current market observation, not a scheduled T-minus checkpoint. Current selections remain contemporaneous and T-10 remains the immutable grading freeze."
+}
