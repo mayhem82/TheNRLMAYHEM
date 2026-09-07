@@ -2,13 +2,13 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-07T11:54:22+10:00",
+  "captured_at": "2026-09-07T14:25:31+10:00",
   "source_class": "MULTI_SOURCE_CURRENT_CYCLE",
   "source_url": "https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/",
   "source_published": "2026-09-06T18:47:00+10:00",
   "status": "VERIFIED_FIXTURES_CURRENT_INTELLIGENCE_ACTIVE",
   "manual_cycle_rule": "T-minus checkpoints are automation capture times, not restrictions on live MAYHEM analysis. Manual/current cycles may produce a current selection and confidence whenever sufficient evidence exists. T-10 remains the immutable pre-match freeze.",
-  "market_source": "Sportsbet NRL Finals Week 1 current market observed 2026-09-07T11:38:25+10:00 and reconciled 2026-09-07T11:54:22+10:00",
+  "market_source": "Sportsbet NRL Finals Week 1 current market observed 2026-09-07T11:38:25+10:00 and reconciled 2026-09-07T11:54:22+10:00; secondary PointsBet comparison observed 2026-09-07T14:13:00+10:00",
   "fixtures": [
     {
       "id": "FW1-SS-NKN-2026-09-11",
@@ -74,10 +74,10 @@
       "decision_captured_at": "2026-09-07T05:53:00+10:00",
       "market": {"home_price":1.44,"away_price":2.81,"normalized_home_probability":66.12,"normalized_away_probability":33.88,"mayhem_delta_pp":-2.12},
       "structural_baseline": {"season_point_differential_latest_supported":"Sharks approximately +154; Cowboys approximately -84","recent_scoring":"Sharks lost final two games 38-18 to Eels and 24-20 to Storm; Cowboys beat Wests Tigers 24-10 then lost 50-30 to Raiders","venue_context":"Allianz Stadium neutralised Sydney finals venue rather than Cronulla home ground","roster_continuity":"PROVISIONAL_PENDING_FINALS_TEAM_LIST"},
-      "player_effects": ["Sharks: Braydon Trindall, Mawene Hiroti and Thomas Hazelton have finals return windows but Week 1 selection remains unconfirmed; Jesse Ramien is unavailable for 2026 finals.","Sharks: Michael Gabrael has a verified Grade 3 Careless High Tackle charge; plea remains TBC and no suspension outcome is assumed.","Cowboys: Zac Laybutt, Jeremiah Nanai and Griffin Neame are expected to be fit for opening week; Murray Taulagi remains unresolved.","Cowboys: Reuben Cotter has a verified Grade 2 Careless High Tackle charge; plea remains TBC and no suspension outcome is assumed.","Cowboys Round 27 defensive concession of 50 points is a current negative team signal, not a player-specific medical inference."],
+      "player_effects": ["Sharks: Braydon Trindall, Mawene Hiroti and Thomas Hazelton have finals return windows but Week 1 selection remains unconfirmed; Jesse Ramien is unavailable for 2026 finals.","Sharks: Michael Gabrael has a verified Grade 3 Careless High Tackle charge; official NRL judiciary status at 14:19 AEST still records plea TBC and a 2-3 match penalty range, so no final suspension outcome is assumed.","Cowboys: Zac Laybutt, Jeremiah Nanai and Griffin Neame are expected to be fit for opening week; Murray Taulagi remains unresolved.","Cowboys: official NRL judiciary reporting at 14:19 AEST confirms Reuben Cotter pleaded not guilty to a Grade 2 Careless High Tackle charge and will front the judiciary Tuesday night; acquittal makes him available, while a guilty finding produces a two-match suspension.","Cowboys Round 27 defensive concession of 50 points is a current negative team signal, not a player-specific medical inference."],
       "weather": "BOM Sydney-area Saturday forecast remains sunny with about 5% rain chance and northeasterly winds around 15-20 km/h. No material directional weather edge is identified at this horizon.",
-      "opposing_case": "North Queensland's prospective return of Nanai, Laybutt and Neame could improve a side whose current market probability is materially below Cronulla, while Cronulla enters after consecutive losses.",
-      "falsification": "Reduce Sharks edge if Trindall/Hazelton remain out and Cowboys confirm their expected opening-final returns; increase only if Cronulla spine/middle continuity is verified.",
+      "opposing_case": "North Queensland's prospective return of Nanai, Laybutt and Neame could improve a side whose current market probability is materially below Cronulla, while Cronulla enters after consecutive losses. Cotter remains a binary judiciary-dependent continuity variable until Tuesday's hearing.",
+      "falsification": "Reduce Sharks edge if Trindall/Hazelton remain out and Cowboys confirm their expected opening-final returns plus Cotter is cleared; increase only if Cronulla spine/middle continuity is verified and Cowboys lose Cotter.",
       "evidence_family_independence": "Market, season differential, recent results and official availability are treated as distinct or dependent as appropriate; no market-linked model is double-counted.",
       "information_advantage": "NONE_ASSERTED",
       "checkpoints": {"T-24h":"2026-09-11T19:50:00+10:00","T-3h":"2026-09-12T16:50:00+10:00","T-60m":"2026-09-12T18:50:00+10:00","T-10m":"2026-09-12T19:40:00+10:00","post_match":"DUE_AFTER_VERIFIED_RESULT"}
@@ -111,6 +111,6 @@
   "next_checkpoint": {"fixture_id":"FW1-SS-NKN-2026-09-11","checkpoint":"T-24h","due_sydney":"2026-09-10T19:50:00+10:00"},
   "roster_population_state": "OFFICIAL_FINALS_WEEK_1_LISTS_NOT_YET_PUBLISHED; LATEST_VERIFIED_ROSTER_AND_AVAILABILITY EVIDENCE ACTIVE",
   "player_statistical_dossiers": "PERSISTENT PLAYER IDENTITIES RETAINED; OFFICIAL FINALS SQUADS WILL TRIGGER FULL ROLE/STAT RECONCILIATION. NO PLAYER REMOVED FOR ABSENCE OF NEWS.",
-  "weather_state": "CURRENT_LONG_RANGE_CAPTURE_ACTIVE; Sydney BOM refreshed 2026-09-07T11:54:22+10:00; Auckland prior verified capture retained because fresh detailed fields were not machine-readable; refresh at checkpoints/material changes",
-  "audit_note": "Four current MAYHEM selections remain unchanged: Rabbitohs 69%, Warriors 63%, Sharks 64%, Panthers 73%. Panthers market moved materially toward Penrith, reversing MAYHEM's market delta from +1.42pp to -1.30pp without a confidence chase. No T-minus checkpoint is due. T-10 remains the immutable grading freeze."
+  "weather_state": "CURRENT_LONG_RANGE_CAPTURE_ACTIVE; Sydney BOM state retained with no material change identified this cycle; Auckland prior verified capture retained because fresh detailed fields were not machine-readable; refresh at checkpoints/material changes",
+  "audit_note": "Four current MAYHEM selections remain unchanged: Rabbitohs 69%, Warriors 63%, Sharks 64%, Panthers 73%. Official NRL judiciary reporting at 14:19 AEST materially upgraded Reuben Cotter's status from corroborated reporting to VERIFIED not-guilty plea with a Tuesday judiciary hearing; Sharks confidence remains 64% until that binary availability question resolves. Michael Gabrael remains unresolved because the same official table still records plea TBC. No T-minus checkpoint is due. T-10 remains the immutable grading freeze."
 }
