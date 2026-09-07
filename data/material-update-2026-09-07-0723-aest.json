@@ -2,16 +2,16 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-07T16:10:27+10:00",
+  "captured_at":"2026-09-07T20:51:25+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_OFFICIAL_PLAYER_AND_MATCHUP_INTELLIGENCE_CHANGE",
+  "trigger":"MATERIAL_OFFICIAL_JUDICIARY_CHANGE",
   "lifecycle_reconciliation":{"status":"NO_STALE_PAST_KICKOFF_FIXTURES","relevant_fixtures":4,"state":"UPCOMING"},
   "sources":[
     {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/","published":"2026-09-06T18:47:00+10:00","use":"verified Finals Week 1 fixtures, venues and kickoff times"},
-    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","published":"2026-09-07T14:19:00+10:00","use":"official confirmation of Reuben Cotter not-guilty plea and Tuesday judiciary hearing; official charge/penalty status for Michael Gabrael and other Round 27 charges"},
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","published":"2026-09-07T18:32:00+10:00","use":"official confirmation that Michael Gabrael pleaded guilty and is suspended two matches; Reuben Cotter remains not guilty with Tuesday judiciary hearing"},
     {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/07/panthers-embracing-pressure-as-rivals-jostle-for-premiership-glory/","published":"2026-09-07T12:02:00+10:00","use":"official current Finals launch reporting: Cronulla preparing to welcome back Braydon Trindall; Roosters captain James Tedesco identifies the Round 24 Penrith win template around completion, field position, Daly Cherry-Evans kicking and selective attack"},
     {"class":"CURRENT_SECONDARY","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-finals-week-1-team-news-and-injury-updates-cowboys-consider-challenging-reuben-cotter-ban-euan-aitken-ruled-out-for-the-season-braydon-trindall/news-story/ed189ca5800c4be8bc48b416762de488","published":"2026-09-07T12:02:00+10:00","use":"current Finals Week 1 availability and return reporting; subordinate to official NRL sources"},
-    {"class":"OFFICIAL_BOM","url":"https://www.bom.gov.au/places/nsw/randwick/forecast/","published":"2026-09-07","use":"Sydney finals weather refresh: Friday 10% rain/easterly 15-20 km/h; Saturday 5% rain/northeasterly 15-25 km/h; Sunday 5% rain/north-to-northeasterly 15-20 km/h"}
+    {"class":"OFFICIAL_BOM","url":"https://www.bom.gov.au/places/nsw/wollstonecraft/forecast/","published":"2026-09-07","use":"Sydney finals weather refresh: Friday 10% rain/easterly 15-20 km/h; Saturday 5% rain/northeasterly 15-25 km/h; Sunday 5% rain/northeasterly 15-20 km/h"}
   ],
   "observations":[
     {
@@ -58,11 +58,11 @@
       "fixture":"FW1-SHA-COW-2026-09-12",
       "team":"Sharks",
       "player":"Braydon Trindall / Michael Gabrael",
-      "classification":"MIXED_OFFICIAL_CURRENT_AND_VERIFIED_JUDICIARY",
-      "observation":"NRL.com now reports Cronulla is preparing to welcome back 2026 try-assist leader Braydon Trindall for the elimination final. This upgrades the return signal from secondary conditional reporting to official NRL current reporting, but it is not an official team-list confirmation. Official judiciary reporting still lists Michael Gabrael with a Grade 3 Careless High Tackle charge, plea TBC, carrying 2-3 matches.",
-      "availability_state":"TRINDALL_OFFICIAL_CURRENT_RETURN_EXPECTATION_PENDING_TEAM_LIST; GABRAEL_JUDICIARY_OUTCOME_UNRESOLVED",
-      "decision_effect":"Material positive Sharks spine-continuity signal strengthened by official NRL reporting; centre-depth risk remains unresolved through Gabrael.",
-      "tip_effect":"Sharks retained at 64%; no confidence uplift until official selection and Cowboys judiciary state are resolved."
+      "classification":"VERIFIED_MIXED_AVAILABILITY",
+      "observation":"NRL.com reports Cronulla is preparing to welcome back 2026 try-assist leader Braydon Trindall for the elimination final, pending official team-list confirmation. At 6:32pm AEST, the official NRL judiciary report confirmed Michael Gabrael pleaded guilty to the Grade 3 Careless High Tackle charge and is suspended for two matches.",
+      "availability_state":"TRINDALL_OFFICIAL_CURRENT_RETURN_EXPECTATION_PENDING_TEAM_LIST; GABRAEL_SUSPENDED_TWO_MATCHES",
+      "decision_effect":"Trindall remains a positive spine-continuity signal; Gabrael is now a verified centre-depth loss rather than unresolved judiciary risk.",
+      "tip_effect":"Sharks retained at 64%; no confidence change before official team-list reconciliation and Cotter judiciary outcome."
     },
     {
       "fixture":"FW1-SHA-COW-2026-09-12",
@@ -95,8 +95,8 @@
       "tip_effect":"Panthers retained at 73%; no confidence chase."
     }
   ],
-  "market_absorption_clock":"No fresh direct primary market capture obtained in this cycle. Existing Sportsbet state remains canonical; prior PointsBet comparison remains secondary only. No market movement is inferred from absence of a fresh capture.",
-  "weather":"BOM Sydney refresh remains low-rain. Saturday northeasterly wind range is now 15-25 km/h versus prior 15-20 km/h; this is not treated as a demonstrated directional team edge. Friday and Sunday remain materially consistent with prior state.",
+  "market_absorption_clock":"No fresh reliable two-sided head-to-head price capture was established in this cycle. Existing canonical market probabilities remain unchanged; no movement is inferred from absence of a fresh capture.",
+  "weather":"Fresh BOM Sydney forecast remains low-rain. Friday is 10% rain with easterly 15-20 km/h winds; Saturday 5% rain with northeasterly 15-25 km/h; Sunday 5% rain with northeasterly 15-20 km/h. No demonstrated directional team edge. Auckland detailed fields remain unresolved and no values are invented.",
   "official_finals_team_lists":"NOT_YET_PUBLISHED; predicted/early-mail lineups and official-news return expectations are not treated as official named squads.",
   "current_decisions":[
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -107,5 +107,5 @@
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
   "next_automation_checkpoint":{"fixture":"Rabbitohs v Knights","checkpoint":"T-24h","due":"2026-09-10T19:50:00+10:00"},
-  "integrity":"No frozen decision rewritten. Trindall's expected-return signal has been upgraded to official NRL current reporting without falsely treating it as official team-list selection. Cotter remains VERIFIED judiciary unresolved. Gabrael remains unresolved because the official judiciary table still records plea TBC. Roosters-Panthers matchup memory now includes Tedesco's explicit Round 24 tactical template. T-10 remains the immutable grading freeze."
+  "integrity":"No frozen decision rewritten. Michael Gabrael has been upgraded from unresolved judiciary risk to VERIFIED two-match suspension following the official NRL 6:32pm update. Trindall remains expected rather than officially selected. Cotter remains VERIFIED judiciary unresolved. T-10 remains the immutable grading freeze."
 }
