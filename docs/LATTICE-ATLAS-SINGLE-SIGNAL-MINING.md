@@ -2,13 +2,40 @@
 
 Status: ACTIVE ARCHITECTURE — NEVER COMPLETE
 
+## NRL MAYHEM operating model
+
+The NRL implementation is not a gated investigation chain.
+
+It is a continuously expanding intelligence system that:
+
+1. ingests new verified observations and historical material;
+2. analyses every available relationship that can be derived without temporal contamination;
+3. maps those relationships across all available dimensions;
+4. preserves the resulting evidence, analyses, contradictions, failures and discoveries;
+5. feeds every new addition back through the existing analytical and relational surfaces;
+6. expands again whenever new evidence, a new axis, a new transform, a new relationship or a new failure becomes available.
+
+There is no Evidence Freeze gate, Analysis Freeze gate, stage-completion gate or terminal completion state in NRL MAYHEM.
+
+Snapshots may be frozen for provenance and reproducibility, but a frozen snapshot does not freeze the intelligence system. It preserves what was known at that point while the live architecture continues to grow around it.
+
+The correct operating loop is therefore:
+
+**INGEST → ANALYSE → MAP RELATIONSHIPS → PERSIST → RE-INGEST EXPANDED STATE → ANALYSE AGAIN**
+
+The loop is recursive and unbounded.
+
+DFAPTA is used here as the unbounded analytical-distribution principle: available evidence can be distributed across as many independent analytical paths as the evidence supports. No fixed path count, fixed catalogue or mandatory stopping point exists.
+
+The Lattice Atlas maps the resulting multidimensional relationship space. It does not wait for an analysis gate to open and does not close when a map has been produced. Every new observation, path, axis or relationship can alter the Atlas while prior snapshots remain preserved.
+
 ## Purpose
 
 Extend the retrospective single-signal search from a small set of hand-selected statistics into a Lattice Atlas that scans the evidence space across every defensible pre-match axis.
 
 The Lattice Atlas does not assume that the strongest signal will be obvious, linear, stable across the whole season, or visible on only one scale. It treats every fixture as a point inside a multidimensional evidence lattice and tests each axis, transformation, threshold, temporal window and subgroup without permitting post-kickoff leakage.
 
-The aim is not to create an opaque model. The aim is to discover simple, reproducible signals and boundaries that may be hidden inside the existing evidence.
+The aim is not to create an opaque model. The aim is to discover simple, reproducible signals, relationships, boundaries, contradictions and emergent structures hidden inside the available evidence.
 
 ## Core lattice dimensions
 
@@ -142,11 +169,11 @@ Examples:
 - defensive gap >= selected thresholds;
 - streak length >= selected thresholds.
 
-Threshold candidates must be versioned and evaluated across the entire eligible sample. A threshold discovered from the same outcomes it is evaluated against remains retrospective association until prospective validation.
+Threshold definitions are versioned so that later changes remain distinguishable from earlier observations. Retrospective associations remain explicitly retrospective rather than being rewritten as if known prospectively.
 
 ### Team-dependence axis
 
-Every promising signal must be re-tested:
+Every promising signal is re-tested:
 
 - with each team removed one at a time;
 - by team;
@@ -154,7 +181,7 @@ Every promising signal must be re-tested:
 - against lower-performing teams;
 - for favourites and underdogs once verified market data is available.
 
-A signal carried primarily by one dominant team is not treated as universal.
+A signal carried primarily by one dominant team is recorded as team-dependent rather than universal.
 
 ### Season-phase axis
 
@@ -178,7 +205,7 @@ Every observation carries its temporal and evidentiary quality:
 - UNVERIFIABLE_FOR_FIXTURE;
 - LEAKAGE_CONTAMINATED.
 
-Signal performance must be inspectable by evidence-quality class.
+Signal performance remains inspectable by evidence-quality class.
 
 ## Transform lattice
 
@@ -198,7 +225,7 @@ For each eligible base statistic, test interpretable transforms separately:
 - change from previous window;
 - acceleration / second-order change where sufficiently sampled.
 
-Every transform is a separate versioned signal. No transform may be silently substituted after observing outcomes.
+Every transform remains separately identifiable. No transform is silently substituted after observing outcomes.
 
 ## Temporal lattice rule
 
@@ -207,6 +234,28 @@ The Atlas is explicitly time-indexed. For fixture F at time T, every value used 
 For round-based historical reconstruction, same-round results are withheld until all fixtures in that round have been evaluated unless verified kickoff ordering proves an earlier fixture had finished before a later fixture's pre-match cutoff and the candidate definition explicitly allows real-time intra-round updating.
 
 Default retrospective mode remains conservative: earlier rounds only.
+
+## Unbounded analysis distribution
+
+Every new validated observation may be distributed through DFAPTA across independent analytical paths.
+
+Paths are created from what the evidence permits, not from a predefined list. They may test statistical, temporal, relational, team-specific, opponent-specific, venue, competition-state, market, player, weather, source-quality or newly discovered relationships.
+
+A path may:
+
+- confirm an existing relationship;
+- contradict another path;
+- expose a hidden dependency;
+- discover a new axis;
+- expose a false signal;
+- identify a threshold or regime change;
+- reveal a temporal reversal;
+- reveal a team-specific effect;
+- produce no useful relationship.
+
+All outcomes survive. A failed path remains intelligence about the search space.
+
+New paths do not replace old paths. They expand the analytical surface available to the Lattice Atlas.
 
 ## Search modes
 
@@ -232,11 +281,19 @@ Repeat performance with each team, round band or evidence class removed to ident
 
 ### Contradiction scan
 
-Identify fixtures where two historically strong single signals disagree. These become high-value audit cases.
+Identify fixtures where two historically strong single signals disagree. These become high-value analytical surfaces.
+
+### Relationship scan
+
+For each new axis or observation, test its relationships with every existing compatible axis rather than only adjacent or intuitively related variables.
+
+### Recursive expansion scan
+
+When a new relationship is found, derive the additional defensible questions created by that relationship and distribute those questions into new analytical paths. The discovery process therefore expands the search space rather than merely filling a predefined matrix.
 
 ## Required metrics
 
-Every candidate must persist at minimum:
+Every candidate persists at minimum:
 
 - eligible fixtures;
 - selections;
@@ -257,25 +314,27 @@ Every candidate must persist at minimum:
 - temporal window;
 - evidence-quality breakdown;
 - falsification state;
-- prospective-validation state.
+- forward-observation status where applicable.
 
-High hit rate with low coverage must never be presented as equivalent to a slightly lower hit rate over most fixtures.
+High hit rate with low coverage is not presented as equivalent to a slightly lower hit rate over most fixtures.
 
 ## Multiplicity and discovery control
 
-The Atlas may test hundreds or thousands of candidates. That creates a multiple-testing problem.
+The Atlas may test hundreds, thousands or eventually far more candidates. This creates a multiple-testing problem but does not justify narrowing the search.
 
-Therefore:
+Instead:
 
-- raw historical accuracy is discovery evidence only;
+- raw historical accuracy is labelled discovery evidence;
 - candidates are ranked by both accuracy and support;
-- minimum sample-size gates are explicit;
+- minimum sample support is displayed explicitly;
 - confidence intervals are displayed;
-- stability across time is mandatory;
-- leave-one-team-out sensitivity is mandatory for promotion;
+- stability through time is measured;
+- leave-one-team-out sensitivity is measured;
 - repeated near-duplicate transforms are grouped as a signal family;
-- the best member of a large threshold sweep is not treated as independently discovered proof;
-- prospective freeze remains the promotion gate.
+- the best member of a large threshold sweep is identified as threshold-mined rather than treated as independent proof;
+- future observations continuously test whether previously discovered relationships persist, weaken, reverse or fragment.
+
+There is no promotion gate that stops analysis. Classification controls how a relationship is described, not whether the system is permitted to keep analysing it.
 
 ## Lattice output classes
 
@@ -291,19 +350,19 @@ Therefore:
 
 `BASELINE_EQUIVALENT` — does not materially outperform the appropriate simple baseline.
 
-`ROBUST_RETROSPECTIVE_CANDIDATE` — survives leakage, temporal, coverage, team-dependence and sensitivity tests but is not yet prospective evidence.
+`ROBUST_RETROSPECTIVE_CANDIDATE` — survives leakage, temporal, coverage, team-dependence and sensitivity testing to the current snapshot.
 
-`PROSPECTIVE_VALIDATION_ACTIVE` — rule is frozen for future fixtures.
+`FORWARD_OBSERVATION_ACTIVE` — the relationship is being observed prospectively without erasing its retrospective origin.
 
-`FAILED_SIGNAL` — failed falsification or prospective validation.
+`FAILED_SIGNAL` — failed falsification or later observation.
 
-Nothing is deleted when it fails. Failure is retained as part of the lattice.
+Nothing is deleted when it fails. Failure is retained as part of the lattice and remains available to future relationship mapping.
 
 ## Relationship to the existing Single-Signal Search
 
-The current Single-Signal Search becomes the human translation surface for the Atlas.
+The current Single-Signal Search is the human translation surface for one subset of the Atlas.
 
-The Lattice Atlas is the discovery engine underneath it. The public page should not expose thousands of machine candidates as an unreadable list. It should surface:
+The underlying intelligence system is much larger than that page. The public interface should progressively expose:
 
 - strongest supported candidates;
 - strongest high-coverage candidates;
@@ -311,13 +370,15 @@ The Lattice Atlas is the discovery engine underneath it. The public page should 
 - temporally stable candidates;
 - unstable candidates;
 - team-dependent candidates;
-- current prospective-validation candidates;
+- active forward observations;
+- contradictions between signals;
+- emergent cross-axis relationships;
 - clickable exact breakdowns by axis, round, team, threshold and fixture.
 
-The raw lattice remains fully persistent and auditable.
+The raw lattice remains persistent and auditable while continuously expanding.
 
 ## Governing principle
 
-Search every defensible axis, but never collapse dimensions in a way that hides what generated the signal.
+**NRL MAYHEM does not traverse gates. It continuously ingests, analyses and maps relationships. Every new piece of information can create new analytical paths, new axes and new relationships. Prior snapshots survive; the intelligence system keeps expanding.**
 
 Complexity belongs in discovery. Translation belongs at the interface. Provenance survives both.
