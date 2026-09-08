@@ -1,0 +1,67 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-09T07:28:15+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ]
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "sources_checked": [
+    "NRL official Finals Week 1 team lists and Sharks-Cowboys preview",
+    "fresh NRL/news availability searches",
+    "Sportsbet Finals Week 1/injury surfaces",
+    "Bureau of Meteorology Sydney match-day forecasts",
+    "Auckland forecast search"
+  ],
+  "weather": {
+    "Sydney": "Friday 11 Sep: 0 mm, low rain chance, light winds; Saturday 12 Sep: 0 mm, low rain chance, NE winds developing 15-25 km/h; Sunday 13 Sep: 0 mm, very low rain chance, NE winds developing 15-25 km/h. No demonstrated directional football edge.",
+    "Auckland": "No superior verified new match-day weather evidence established this cycle; prior state retained without directional inference."
+  },
+  "player_intelligence": {
+    "Jeremiah Nanai": {
+      "roster_presence": "VERIFIED_NAMED",
+      "availability": "VERIFIED_NAMED_FITNESS_UNRESOLVED_SIGNAL",
+      "note": "Official NRL team material continues to list Nanai to return; contemporaneous reporting still requires a Wednesday fitness test. No verified test outcome located by capture time, so uncertainty is not cleared."
+    },
+    "Reuben Cotter": {
+      "availability": "VERIFIED_AVAILABLE_JUDICIARY_RESOLVED",
+      "note": "No material change."
+    }
+  },
+  "market_state": {
+    "status": "NO_VERIFIED_MATERIAL_CHANGE_FROM_LAST_RELIABLE_TWO_SIDED_BOARD",
+    "retained_normalized_preferred_probabilities": {
+      "Rabbitohs": 67.96,
+      "Warriors": 61.60,
+      "Sharks": 65.72,
+      "Panthers": 72.54
+    }
+  },
+  "decisions": [
+    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "player_roster_statistical_coverage": {
+    "roster_population": "176/176 PERSISTED",
+    "statistical_dossiers": "INCOMPLETE_RECONCILIATION_ALREADY_KNOWN_NO_NEW_DEGRADATION"
+  },
+  "incorrect_tip_halt": "CLEAR",
+  "information_advantage": "NO_MATERIAL_CLASSIFICATION_CHANGE",
+  "material_change": false,
+  "notification": "SUPPRESSED_BY_NOTIFY_ONLY_RULE",
+  "audit_integrity": "PRESERVED"
+}
