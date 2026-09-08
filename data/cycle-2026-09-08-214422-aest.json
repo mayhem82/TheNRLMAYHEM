@@ -1,0 +1,34 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-08T21:44:22+10:00",
+  "cycle_class":"MATERIAL_MARKET_GATE_RECONCILIATION_AND_PERSISTENCE_DEFECT",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "due_checkpoint":false,
+  "next_checkpoint":"Rabbitohs v Knights T-24h — 2026-09-10T19:50:00+10:00",
+  "source_checks":[
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","classification":"VERIFIED_NO_NEW_ROSTER_CHANGE"},
+    {"source":"NRL judiciary report","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","classification":"VERIFIED_COTTER_REMAINS_AVAILABLE"},
+    {"source":"Sportsbet direct Warriors v Dolphins match page","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl/new-zealand-warriors-v-dolphins-10907580","classification":"VERIFIED_CURRENT_TWO_SIDED_MARKET"},
+    {"source":"Bureau of Meteorology Randwick forecast","url":"https://www.bom.gov.au/places/nsw/randwick/forecast/","classification":"VERIFIED_WEATHER_REFRESH"},
+    {"source":"MetService Auckland current search","classification":"CHECKED_NO_NEW_MACHINE_READABLE_DIRECTIONAL_EDGE"}
+  ],
+  "material_changes":[
+    {"fixture":"Warriors v Dolphins","classification":"MARKET_GATE_RECONCILED","market":{"home_price":1.54,"away_price":2.47,"normalized_home_probability":61.60,"mayhem_confidence":63,"delta_pp":1.40},"previous_state":"CURRENT_NOT_FROZEN_REVIEW_REQUIRED","new_state":"CURRENT_NOT_FROZEN","mechanism":"Current direct canonical Sportsbet match market resolves prior conflicting search surfaces; confidence uplift is below +3pp gate.","causal_market_inference":"NONE"},
+    {"scope":"Canonical Finals data","classification":"PERSISTENCE_FAILED_CANONICAL_STALE","file":"data/finals-week1-2026.json","finding":"Canonical fixture file still contains pre-team-list roster continuity language and older market/weather snapshots. Current material-update state was repaired, but canonical file remains stale."}
+  ],
+  "weather":{"Rabbitohs_v_Knights":"BOM Friday: partly cloudy, 20% rain chance, 0 mm, light winds; no demonstrated directional edge.","Sharks_v_Cowboys":"BOM Saturday: sunny, 10% rain chance, 0 mm, light winds becoming NE 15-25 km/h; no demonstrated directional edge.","Panthers_v_Roosters":"BOM Sunday: partly cloudy, 5% rain chance, 0 mm, light winds becoming NE 15-25 km/h; no demonstrated directional edge.","Warriors_v_Dolphins":"MetService checked; no new sufficiently machine-readable verified directional match-day edge."},
+  "fixture_decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "player_layer":{"roster_population":"176/176 VERIFIED OFFICIAL NAMED SQUAD IDENTITIES","statistical_dossiers":"INCOMPLETE_RECONCILIATION_REQUIRED","no_material_roster_change":true},
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED",
+  "missed_not_captured":false,
+  "public_write_required":true,
+  "notification_required":true
+}
