@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-08T09:18:00+10:00",
+  "captured_at": "2026-09-08T11:02:20+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_PLAYER_AVAILABILITY_VERIFICATION",
+  "trigger": "MATERIAL_MATCHUP_MEMORY_RECONCILIATION",
   "lifecycle_reconciliation": {
     "status": "NO_KICKOFF_PASSED",
     "fixtures": [
@@ -21,19 +21,16 @@
   },
   "material_observations": [
     {
-      "fixture": "FW1-SS-NKN-2026-09-11",
-      "team": "Rabbitohs",
-      "player": "Euan Aitken",
+      "fixture": "FW1-SHA-COW-2026-09-12",
       "classification": "VERIFIED",
-      "source_class": "OFFICIAL_NRL",
-      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
-      "source_published": "2026-09-07T20:06:00+10:00",
-      "captured_at": "2026-09-08T09:18:00+10:00",
-      "observation": "NRL.com confirms Euan Aitken will miss the rest of the 2026 season. The official casualty list now records his return as 2027. He left the Round 27 win over the Roosters in the 59th minute after scoring a try and running 89 metres.",
-      "player_effect": "UNAVAILABLE_FOR_2026_FINALS",
-      "team_macro_effect": "South Sydney loses a current centre/edge option for Finals Week 1; edge continuity and replacement-role uncertainty increase until the official team list is published.",
-      "decision_effect": "RABBITOHS_SELECTION_RETAINED_69; verified availability downside carried into the next checkpoint without a non-checkpoint confidence rewrite.",
-      "conflict_resolution": "RESOLVED: prior secondary season-out report is now corroborated by the later official NRL casualty update."
+      "source_class": "OFFICIAL_NRL_MATCH_REPORT",
+      "source_url": "https://www.nrl.com/news/2026/04/24/friday-night-footy-cowboys-v-sharks-broncos-v-bulldogs/",
+      "source_published": "2026-04-24T23:33:00+10:00",
+      "captured_at": "2026-09-08T11:02:20+10:00",
+      "observation": "North Queensland defeated Cronulla 46-34 in Round 8 at Queensland Country Bank Stadium. The match produced 80 points. Tom Dearden scored late, Scott Drinkwater produced a decisive 40/20, and Cronulla's Nicho Hynes and Braydon Trindall were both involved in the Sharks attack.",
+      "matchup_effect": "COWBOYS_COUNTER_CASE_STRENGTHENED. The Cowboys have a genuine 2026 win over Cronulla, so the elimination-final matchup memory must not treat Cronulla's season differential as sufficient evidence by itself.",
+      "inference_boundary": "The Round 8 result is historical matchup evidence only. Venue, current rosters, current form and judiciary state differ; no causal claim is inferred from the score alone.",
+      "decision_effect": "SHARKS_SELECTION_RETAINED_64; no non-checkpoint confidence rewrite. Carry the verified head-to-head into the next pre-freeze adversarial gate."
     },
     {
       "fixture": "FW1-SHA-COW-2026-09-12",
@@ -43,36 +40,45 @@
       "source_class": "OFFICIAL_NRL",
       "source_url": "https://www.nrl.com/news/2026/09/08/trindall-ready-to-spark-sharks-in-high-stakes-comeback/",
       "source_published": "2026-09-08T06:01:00+10:00",
-      "captured_at": "2026-09-08T09:18:00+10:00",
-      "observation": "NRL.com reports Trindall is set to be named Tuesday afternoon for the Sharks' elimination final against the Cowboys. Official team-list publication remains authoritative.",
+      "captured_at": "2026-09-08T11:02:20+10:00",
+      "observation": "NRL.com reports Trindall is set to be named Tuesday afternoon. He finished the regular season with 30 try assists. Official team-list publication remains authoritative.",
       "decision_effect": "SHARKS_SELECTION_RETAINED_64"
+    },
+    {
+      "fixture": "FW1-SS-NKN-2026-09-11",
+      "team": "Rabbitohs",
+      "player": "Euan Aitken",
+      "classification": "VERIFIED",
+      "source_class": "OFFICIAL_NRL",
+      "observation": "Euan Aitken remains verified unavailable for the remainder of 2026.",
+      "decision_effect": "RABBITOHS_SELECTION_RETAINED_69"
     }
   ],
+  "market_absorption_clock": {
+    "status": "NO_NEW_RELIABLE_MATERIAL_MOVEMENT_ESTABLISHED",
+    "latest_reliable_baseline": {
+      "Rabbitohs_v_Knights": {"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},
+      "Warriors_v_Dolphins": {"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},
+      "Sharks_v_Cowboys": {"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},
+      "Panthers_v_Roosters": {"home":1.30,"away":3.50,"normalized_home_probability":72.92,"mayhem_confidence":73,"delta_pp":0.08}
+    },
+    "integrity": "No market movement assigned a causal explanation."
+  },
+  "weather": {
+    "Sydney": "BOM refreshed; no verified material change supporting a directional team edge.",
+    "Auckland": "No new verified material weather change supporting a directional team edge established in this cycle.",
+    "decision_effect": "NONE"
+  },
   "judiciary_state": {
     "Reuben_Cotter": "JUDICIARY_UNRESOLVED; hearing Tuesday 18:00 AEST",
     "Michael_Gabrael": "VERIFIED_SUSPENDED_TWO_MATCHES",
     "Victor_Radley": "FINE_ONLY_NO_ROUND27_SUSPENSION",
     "Isaiah_Papalii": "FINE_ONLY_NO_ROUND27_SUSPENSION"
   },
-  "market_absorption_clock": {
-    "status": "RECHECKED_NO_MATERIAL_MOVEMENT_ESTABLISHED",
-    "baseline": {
-      "Rabbitohs_v_Knights": {"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},
-      "Warriors_v_Dolphins": {"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},
-      "Sharks_v_Cowboys": {"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},
-      "Panthers_v_Roosters": {"home":1.30,"away":3.50,"normalized_home_probability":72.92,"mayhem_confidence":73,"delta_pp":0.08}
-    },
-    "integrity": "No causal explanation assigned to market state."
-  },
-  "weather": {
-    "Sydney": "BOM refreshed: Friday 11 Sep generally 10-20% rain depending locality with easterly 15-20 km/h; Saturday 12 Sep 5% rain with northeasterly 15-25 km/h; Sunday 13 Sep 5% rain with northeasterly 15-20 km/h. No demonstrated directional team edge.",
-    "Auckland": "No new verified material weather change supporting a directional team edge established in this cycle.",
-    "decision_effect": "NONE"
-  },
   "player_roster_statistical_coverage": {
     "status": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
     "material_change": false,
-    "finding": "Official Finals Week 1 named squads are not yet published at this capture. The known Finals roster/statistical coverage defect remains open and must be resolved after authoritative squad publication before T-10 freeze validation."
+    "finding": "Official Finals Week 1 named squads are not yet published at this capture. Full roster/statistical reconciliation remains mandatory after authoritative squad publication."
   },
   "current_decisions": [
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -82,6 +88,6 @@
   ],
   "information_advantage": "NONE_ASSERTED",
   "incorrect_tip_halt": "CLEAR",
-  "persistence_reconciliation": "Aitken upgraded from secondary SIGNAL/conflict to VERIFIED season-ending absence on the official NRL casualty update. Trindall remains official-list pending. No frozen state rewritten.",
+  "persistence_reconciliation": "Verified 2026 Cowboys 46-34 Sharks head-to-head result added to active matchup memory. Frozen state not rewritten; current Sharks 64% retained.",
   "audit_integrity": "PRESERVED"
 }
