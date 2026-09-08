@@ -1,0 +1,28 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-08T16:30:08+10:00",
+  "cycle_class":"MATERIAL_TEAM_LIST_RECONCILIATION",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "due_checkpoint":false,
+  "next_checkpoint":"Rabbitohs v Knights T-24h — 2026-09-10T19:50:00+10:00",
+  "source_checks":[
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","classification":"VERIFIED"},
+    {"source":"Bureau of Meteorology Sydney forecast","classification":"CHECKED_NO_NEW_DIRECTIONAL_EDGE_ESTABLISHED"},
+    {"source":"MetService Auckland forecast","classification":"CHECKED_FIELDS_NOT_MACHINE_READABLE_NO_DIRECTIONAL_EDGE_ASSERTED"},
+    {"source":"Current reliable two-sided market search","classification":"NO_NEW_RELIABLE_MATERIAL_STATE_ESTABLISHED_PRIOR_BASELINE_RETAINED"}
+  ],
+  "fixture_decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","team_list_effect":"KNIGHTS_COUNTER_CASE_STRENGTHENED; RABBITOHS_DUNCAN_RETURN_VERIFIED; AITKEN_LOSS_CONFIRMED"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","team_list_effect":"BOTH_CONTINUITY_UP; DOLPHINS_COUNTER_CASE_MATERIALLY_STRENGTHENED_BY_FULL_STRENGTH_LIST"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","team_list_effect":"TRINDALL_AND_SENIOR_SHARKS_RETURNS_VERIFIED; COWBOYS_RETURNS_VERIFIED; COTTER_PENDING_JUDICIARY"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","team_list_effect":"ROOSTERS_COUNTER_CASE_MATERIALLY_STRENGTHENED_BY_SENIOR_RETURNS; YEO_AND_SORENSEN_CONTINUITY_VERIFIED"}
+  ],
+  "market":{"Rabbitohs_v_Knights":{"normalized_favourite_probability":67.82,"mayhem_delta_pp":1.18},"Warriors_v_Dolphins":{"normalized_favourite_probability":60.30,"mayhem_delta_pp":2.70},"Sharks_v_Cowboys":{"normalized_favourite_probability":66.74,"mayhem_delta_pp":-2.74},"Panthers_v_Roosters":{"normalized_favourite_probability":72.92,"mayhem_delta_pp":0.08},"state":"PRIOR_RELIABLE_BASELINE_RETAINED_NO_FRESH_RELIABLE_MOVEMENT"},
+  "evidence_family_independence":"Official roster evidence is separated from market, results, historical matchup and statistical evidence. No shared-input evidence is counted as independent corroboration.",
+  "adversarial_gate":"Material counter-cases strengthened for Knights, Dolphins and Roosters by verified returns; Cowboys counter-case retains the Round 8 win and restored personnel, with Cotter unresolved.",
+  "player_layer":{"roster_population":"176/176 VERIFIED OFFICIAL NAMED SQUAD IDENTITIES","statistical_dossiers":"INCOMPLETE_RECONCILIATION_REQUIRED","rule":"Absence of news never removes a named player; unavailable official profile fields must be labelled rather than guessed."},
+  "information_advantage":"NONE_ASSERTED",
+  "audit_integrity":"PRESERVED",
+  "missed_not_captured":false
+}
