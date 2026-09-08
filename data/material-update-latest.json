@@ -2,61 +2,53 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-08T17:34:47+10:00",
+  "captured_at":"2026-09-08T20:52:28+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_MARKET_CONFLICT_AND_WEATHER_UPDATE",
+  "trigger":"MATERIAL_COTTER_JUDICIARY_RESOLUTION",
   "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
   "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
   "observations":[
+    {
+      "player":"Reuben Cotter",
+      "team":"Cowboys",
+      "fixture":"FW1-SHA-COW-2026-09-12",
+      "classification":"VERIFIED",
+      "observation":"North Queensland Cowboys official reporting at 6:15pm AEST confirms Cotter was found guilty of the high tackle but successfully had the Grade 2 Careless High Tackle charge downgraded to Grade 1. The outcome is a fine, so he is free to play against Cronulla.",
+      "availability_state":"AVAILABLE_NAMED_STARTER_JUDICIARY_RESOLVED",
+      "decision_effect":"Cowboys middle continuity improves relative to the prior binary suspension risk. Sharks 64% remains CURRENT_NOT_FROZEN; no arbitrary between-checkpoint confidence rewrite.",
+      "tip_effect":"COUNTER_CASE_STRENGTHENED_NO_FREEZE",
+      "source":"North Queensland Cowboys official judiciary update + NRL judiciary report",
+      "source_url":"https://www.cowboys.com.au/news/2026/09/08/cotter-cleared-to-play-in-saturdays-elimination-final-782/"
+    },
     {
       "player":"Market state",
       "team":"Warriors v Dolphins",
       "fixture":"FW1-WAR-DOL-2026-09-12",
       "classification":"CONTRADICTED",
-      "observation":"Fresh Sportsbet surfaces captured in the same cycle returned conflicting Warriors/Dolphins head-to-head states: 1.54/2.47 on the primary NRL market page and 1.62/2.31 on a second Sportsbet NRL surface. These normalize to 61.60% and 58.78% Warriors respectively. The conflict is retained rather than selecting the price most favourable to the existing MAYHEM view.",
+      "observation":"Latest reconciled state remains unresolved from the prior cycle because fresh Sportsbet surfaces returned conflicting Warriors/Dolphins prices. No weaker single surface is promoted over that conflict.",
       "availability_state":"NOT_APPLICABLE",
-      "decision_effect":"Warriors 63% remains the recorded current selection but the market gate is REVIEW_REQUIRED until a reliable current two-sided state is reconciled. At the lower 58.78% normalized market state, the MAYHEM uplift is +4.22pp and therefore crosses the mandatory +3pp evidence gate.",
+      "decision_effect":"Warriors 63% remains REVIEW_REQUIRED until a reliable two-sided market state is reconciled.",
       "tip_effect":"NO_FREEZE; REVIEW_REQUIRED"
-    },
-    {
-      "player":"Weather intelligence",
-      "team":"Rabbitohs v Knights",
-      "fixture":"FW1-SS-NKN-2026-09-11",
-      "classification":"VERIFIED",
-      "observation":"BOM Sydney Olympic Park forecast issued 4:00pm AEST Tuesday 8 September now gives Friday 11 September a 10% rain chance, 0 mm possible rainfall and light winds. This replaces the prior persisted Friday easterly 15-20 km/h description. No demonstrated directional team edge is assigned.",
-      "availability_state":"NOT_APPLICABLE",
-      "decision_effect":"Weather profile updated; Rabbitohs 69% retained CURRENT_NOT_FROZEN.",
-      "tip_effect":"NONE"
     }
   ],
   "fixture_updates":[
-    {"fixture":"Rabbitohs v Knights","team_macro_effect":"No new roster change after official Finals list. Friday forecast changed from persisted easterly 15-20 km/h to BOM light winds; no directional football edge demonstrated.","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
-    {"fixture":"Warriors v Dolphins","team_macro_effect":"Official named squads unchanged. Market absorption state is internally conflicted across fresh Sportsbet surfaces; causal explanation UNKNOWN.","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN_REVIEW_REQUIRED_MARKET_GATE"},
-    {"fixture":"Sharks v Cowboys","team_macro_effect":"Official named squads unchanged. Reuben Cotter remains named pending his 6:00pm Tuesday judiciary hearing at this capture time.","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
-    {"fixture":"Panthers v Roosters","team_macro_effect":"Official named squads unchanged. No new material availability change established this cycle.","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
+    {"fixture":"Rabbitohs v Knights","team_macro_effect":"Official named squads unchanged; no new demonstrated directional weather edge established this cycle.","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","team_macro_effect":"Official named squads unchanged. Prior market conflict remains unresolved and causal explanation remains UNKNOWN.","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN_REVIEW_REQUIRED_MARKET_GATE"},
+    {"fixture":"Sharks v Cowboys","team_macro_effect":"Reuben Cotter availability is now VERIFIED for Saturday after judiciary downgrade to Grade 1 and fine. This removes the prior possible two-match suspension and strengthens North Queensland's middle-continuity counter-case. Cronulla retains verified Trindall return and senior-unit restoration.","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN_COUNTER_CASE_STRENGTHENED"},
+    {"fixture":"Panthers v Roosters","team_macro_effect":"Official named squads unchanged; no new material availability change established this cycle.","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
   ],
   "market_absorption_clock":{
-    "status":"MATERIAL_CONFLICT_REQUIRES_RECONCILIATION",
-    "source":"Sportsbet NRL market surfaces, captured 2026-09-08T17:34:47+10:00",
-    "states":{
-      "Rabbitohs_v_Knights":{"home":1.40,"away":2.97,"normalized_home_probability":67.96,"mayhem_confidence":69,"delta_pp":1.04},
-      "Warriors_v_Dolphins_primary":{"home":1.54,"away":2.47,"normalized_home_probability":61.60,"mayhem_confidence":63,"delta_pp":1.40},
-      "Warriors_v_Dolphins_conflict":{"home":1.62,"away":2.31,"normalized_home_probability":58.78,"mayhem_confidence":63,"delta_pp":4.22},
-      "Sharks_v_Cowboys":{"home":1.45,"away":2.78,"normalized_home_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72},
-      "Panthers_v_Roosters":{"home":1.31,"away":3.46,"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}
-    },
-    "integrity":"Warriors market conflict preserved as CONTRADICTED. No causal explanation assigned. No current Warriors probability freeze may claim full pre-freeze market-gate validation until the conflict is reconciled."
+    "status":"WARRIORS_DOLPHINS_CONFLICT_REMAINS_REVIEW_REQUIRED",
+    "latest_reliable_states_retained":{"Rabbitohs_v_Knights":{"normalized_home_probability":67.96,"mayhem_confidence":69,"delta_pp":1.04},"Sharks_v_Cowboys":{"normalized_home_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72},"Panthers_v_Roosters":{"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}},
+    "Warriors_v_Dolphins":{"state":"CONTRADICTED","normalized_home_probability_range_from_prior_fresh_surfaces":"58.78-61.60","mayhem_confidence":63,"gate":"REVIEW_REQUIRED"},
+    "integrity":"No market movement is assigned a causal explanation."
   },
-  "weather":{
-    "Sydney":"BOM forecast issued 4:00pm AEST 8 September: Friday 10% rain, 0 mm and light winds; Saturday sunny, 5% rain, NE 15-25 km/h during the day becoming light in evening; Sunday mostly sunny, 5% rain, E-NE 15-25 km/h during the day.",
-    "Auckland":"Official MetService detailed forecast fields remained unavailable to machine-readable search. Secondary forecast still indicates cool, windy conditions with patchy rain nearby; retained as SIGNAL only. No directional edge asserted.",
-    "decision_effect":"NONE"
-  },
-  "judiciary_state":{"Reuben_Cotter":"NAMED_STARTER_PENDING_JUDICIARY; hearing scheduled 6:00pm Tuesday and unresolved at 17:34:47 capture","Michael_Gabrael":"VERIFIED_SUSPENDED_TWO_MATCHES","Victor_Radley":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only","Isaiah_Papalii":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only"},
+  "weather":{"Sydney":"Fresh official-weather search produced no verified directional football edge beyond the currently persisted low-rain/light-to-moderate wind outlook.","Auckland":"MetService checked; detailed match-day fields were not sufficiently machine-readable for a new verified directional edge.","decision_effect":"NONE"},
+  "judiciary_state":{"Reuben_Cotter":"VERIFIED_AVAILABLE; Grade 2 downgraded to Grade 1, fine only, free to play Saturday","Michael_Gabrael":"VERIFIED_SUSPENDED_TWO_MATCHES","Victor_Radley":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only","Isaiah_Papalii":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only"},
   "player_roster_statistical_coverage":{"status":"ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE","material_change":false,"roster_identities":"176/176 official Finals Week 1 named squad identities persisted","statistics":"Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster. No completeness claim is made."},
   "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN_REVIEW_REQUIRED"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
-  "persistence_reconciliation":"Current material record includes render-compatible observations so the Intelligence interface exposes this cycle rather than silently showing an empty Latest Material Update.",
+  "persistence_reconciliation":"Cotter judiciary uncertainty resolved to VERIFIED_AVAILABLE and promoted into public material intelligence. Previous pending-hearing state must no longer render as current.",
   "audit_integrity":"PRESERVED"
 }
