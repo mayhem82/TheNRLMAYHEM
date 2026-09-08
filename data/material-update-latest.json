@@ -1,57 +1,78 @@
 {
-  "system":"The NRL MAYHEM",
-  "season":2026,
-  "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-08T21:44:22+10:00",
-  "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_MARKET_GATE_RECONCILIATION_AND_CANONICAL_STALE_STATE",
-  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
-  "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
-  "observations":[
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-08T23:58:51+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "STALE_PUBLIC_INTELLIGENCE_AND_PLAYER_COVERAGE_REPAIRED",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ]
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "observations": [
     {
-      "fixture":"FW1-WAR-DOL-2026-09-12",
-      "classification":"VERIFIED_MARKET_STATE",
-      "observation":"The current canonical Sportsbet Warriors v Dolphins match page shows Warriors $1.54 and Dolphins $2.47. Overround-adjusted Warriors probability is 61.60%.",
-      "market_captured_at":"2026-09-08T21:44:22+10:00",
-      "source":"Sportsbet direct match market",
-      "source_url":"https://www.sportsbet.com.au/betting/rugby-league/nrl/new-zealand-warriors-v-dolphins-10907580",
-      "decision_effect":"MAYHEM Warriors 63% is +1.40 percentage points above normalized market probability. The prior >3pp REVIEW_REQUIRED gate is no longer triggered by the reconciled canonical market state. Selection and confidence remain CURRENT_NOT_FROZEN.",
-      "causal_market_inference":"NONE"
-    },
-    {
-      "fixture":"Sydney Finals fixtures",
-      "classification":"VERIFIED_WEATHER_REFRESH",
-      "observation":"BOM Randwick forecast: Friday 11 September partly cloudy, 20% rain chance, 0 mm, light winds; Saturday 12 September sunny, 10% rain chance, 0 mm, light winds becoming northeasterly 15-25 km/h; Sunday 13 September partly cloudy, 5% rain chance, 0 mm, light winds becoming northeasterly 15-25 km/h.",
-      "source":"Bureau of Meteorology Randwick forecast",
-      "source_url":"https://www.bom.gov.au/places/nsw/randwick/forecast/",
-      "decision_effect":"No demonstrated directional team edge. Weather retained as mandatory match context only."
-    },
-    {
-      "player":"Reuben Cotter",
-      "team":"Cowboys",
-      "fixture":"FW1-SHA-COW-2026-09-12",
-      "classification":"VERIFIED_NO_MATERIAL_CHANGE",
-      "observation":"Cotter remains named at lock and available after the judiciary downgrade to Grade 1/fine only.",
-      "availability_state":"AVAILABLE_NAMED_STARTER_JUDICIARY_RESOLVED",
-      "decision_effect":"Cowboys middle-continuity counter-case remains strengthened; no new change this cycle."
+      "player": "Reuben Cotter",
+      "team": "Cowboys",
+      "fixture": "FW1-SHA-COW-2026-09-12",
+      "classification": "VERIFIED_PERSISTENCE_RECONCILIATION",
+      "observation": "The Finals player-ingestion coverage file still carried the retired judiciary-pending state even though the canonical Finals state had Cotter available after the Grade 2 charge was downgraded to Grade 1 with a fine. The stale cross-layer state has been repaired.",
+      "availability_state": "AVAILABLE_NAMED_STARTER_JUDICIARY_RESOLVED",
+      "decision_effect": "No confidence rewrite. Cowboys middle-continuity counter-case remains strengthened; persistence integrity is restored across canonical and coverage layers.",
+      "tip_effect": "SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"
     }
   ],
-  "fixture_updates":[
-    {"fixture":"Rabbitohs v Knights","team_macro_effect":"Official Finals squad remains current. Sydney Friday forecast refreshed to 20% rain chance, 0 mm and light winds; no demonstrated directional edge.","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
-    {"fixture":"Warriors v Dolphins","team_macro_effect":"Official Finals squad remains current. Current direct Sportsbet two-sided market reconciles prior conflicting search surfaces at $1.54/$2.47.","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN_REVIEW_GATE_CLEARED"},
-    {"fixture":"Sharks v Cowboys","team_macro_effect":"Official named squads unchanged. Cotter remains verified available. Sydney Saturday forecast refreshed; no demonstrated directional weather edge.","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
-    {"fixture":"Panthers v Roosters","team_macro_effect":"Official named squads unchanged. Sydney Sunday forecast refreshed; no demonstrated directional weather edge.","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
+  "fixture_updates": [
+    {"fixture":"Rabbitohs v Knights","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
   ],
-  "market_absorption_clock":{
-    "Warriors_v_Dolphins":{"state":"RECONCILED_CURRENT_DIRECT_MARKET","home_price":1.54,"away_price":2.47,"normalized_home_probability":61.60,"normalized_away_probability":38.40,"mayhem_confidence":63,"delta_pp":1.40,"gate":"CLEAR","source":"SPORTSBET_DIRECT_MATCH_PAGE","captured_at":"2026-09-08T21:44:22+10:00"},
-    "other_fixtures":"No superior fresh direct two-sided market state established this cycle; latest reliable retained states remain audit history rather than being backfilled from weak surfaces.",
-    "integrity":"Market movement without a known cause remains SIGNAL; no causal explanation assigned."
+  "market_absorption_clock": {
+    "board": {
+      "Rabbitohs_v_Knights": {"home_price":1.40,"away_price":2.97,"normalized_home_probability":67.96,"mayhem_confidence":69,"delta_pp":1.04},
+      "Warriors_v_Dolphins": {"home_price":1.54,"away_price":2.47,"normalized_home_probability":61.60,"mayhem_confidence":63,"delta_pp":1.40},
+      "Sharks_v_Cowboys": {"home_price":1.45,"away_price":2.78,"normalized_home_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72,"movement_classification":"SIGNAL_TOWARD_COWBOYS"},
+      "Panthers_v_Roosters": {"home_price":1.31,"away_price":3.46,"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}
+    },
+    "source": "https://www.sportsbet.com.au/betting/rugby-league/nrl/finals-week-1",
+    "captured_at": "2026-09-08T23:58:51+10:00",
+    "integrity": "Current two-sided prices unchanged from the prior canonical board. Market movement without a known cause remains SIGNAL; no causal explanation assigned."
   },
-  "weather":{"Sydney":"Friday 20%/0 mm/light winds; Saturday 10%/0 mm/light then NE 15-25 km/h; Sunday 5%/0 mm/light then NE 15-25 km/h. No demonstrated directional football edge.","Auckland":"MetService checked in current-cycle search; no sufficiently machine-readable new match-day detail established for a verified directional edge.","decision_effect":"NONE"},
-  "player_roster_statistical_coverage":{"status":"ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE","material_change":false,"roster_identities":"176/176 official Finals Week 1 named squad identities persisted","statistics":"Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster. No completeness claim is made."},
-  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
-  "information_advantage":"NONE_ASSERTED",
-  "incorrect_tip_halt":"CLEAR",
-  "canonical_reconciliation":{"status":"PERSISTENCE_FAILED_CANONICAL_STALE","file":"data/finals-week1-2026.json","defect":"Canonical fixture file still contains pre-team-list roster-continuity language and older market/weather snapshots. Current public material intelligence is repaired here, but the canonical file itself remains stale and must not be treated as current roster/market authority until separately reconciled."},
-  "audit_integrity":"PRESERVED"
+  "weather": {
+    "Sydney": "BOM current forecast remains low-impact: Friday 20% rain chance and 0 mm with light winds; Saturday 10% and 0 mm with northeasterlies developing 15-25 km/h; Sunday 5% and 0 mm with northeasterlies developing 15-25 km/h. No demonstrated directional football edge.",
+    "Auckland": "No superior machine-readable verified match-day weather detail established in this cycle; no directional edge asserted.",
+    "decision_effect": "NONE"
+  },
+  "player_roster_statistical_coverage": {
+    "status": "ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE",
+    "material_change": true,
+    "roster_identities": "176/176 official Finals Week 1 named squad identities persisted",
+    "statistics": "Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster. No completeness claim is made.",
+    "repair": "Retired Cotter judiciary-pending wording removed from the player-ingestion coverage layer."
+  },
+  "current_decisions": [
+    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage": "NONE_ASSERTED",
+  "incorrect_tip_halt": "CLEAR",
+  "canonical_reconciliation": {
+    "status": "CANONICAL_CURRENT",
+    "file": "data/finals-week1-2026.json",
+    "captured_at": "2026-09-08T22:25:04+10:00",
+    "note": "The prior PERSISTENCE_FAILED_CANONICAL_STALE label in this public material-update file was itself stale after the canonical repair. It has now been retired."
+  },
+  "audit_integrity": "PRESERVED"
 }
