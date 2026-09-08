@@ -1,0 +1,42 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-08T13:36:36+10:00",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "checkpoint_due":false,
+  "next_checkpoint":"FW1-SS-NKN-2026-09-11 T-24h 2026-09-10T19:50:00+10:00",
+  "sources_checked":[
+    "NRL.com Finals Week 1 draw/current Finals reporting",
+    "NRL.com judiciary report updated 2026-09-07 18:32 AEST",
+    "NRL.com casualty ward current 2026-09-08",
+    "NRL.com Trindall Finals report 2026-09-08 06:01 AEST",
+    "BOM Sydney-area forecast for 2026-09-11 to 2026-09-13",
+    "MetService Auckland forecast surfaces",
+    "independent Finals Week 1 two-sided market surface crawled 2026-09-08"
+  ],
+  "material_change":false,
+  "player_state":{
+    "Braydon_Trindall":"SIGNAL_SET_TO_BE_NAMED_OFFICIAL_LIST_PENDING",
+    "Euan_Aitken":"VERIFIED_UNAVAILABLE_REMAINDER_2026",
+    "Reuben_Cotter":"JUDICIARY_UNRESOLVED_PENDING_2026-09-08T18:00:00+10:00"
+  },
+  "team_lists":"OFFICIAL_FINALS_WEEK_1_LISTS_NOT_YET_PUBLISHED_AT_CAPTURE; PREDICTED_LINEUPS_NOT_INGESTED_AS_ROSTER_FACT",
+  "market_state":{
+    "independent_snapshot":{"Rabbitohs":1.40,"Knights":2.97,"Warriors":1.54,"Dolphins":2.47,"Sharks":1.44,"Cowboys":2.81,"Panthers":1.28,"Roosters":3.70},
+    "normalized_favourite_probability":{"Rabbitohs":0.6796,"Warriors":0.6160,"Sharks":0.6612,"Panthers":0.7430},
+    "confidence_vs_market_pp":{"Rabbitohs":1.04,"Warriors":1.40,"Sharks":-2.12,"Panthers":-1.30},
+    "classification":"NO_MATERIAL_MOVEMENT_ASSERTED; SOURCE_NOT_COMPARABLE_TO_PRIOR_POINTSBet_SNAPSHOT; NO_CAUSAL_INFERENCE"
+  },
+  "weather_state":"MANDATORY_WEATHER_CHECK_COMPLETED; SYDNEY FRIDAY LOW RAIN/EASTERLY 15-20 KMH, SATURDAY 5% RAIN/NE 15-25 KMH, SUNDAY 5% RAIN/NE 15-20 KMH; AUCKLAND METSERVICE CHECKED; NO_NEW_VERIFIED_DIRECTIONAL_EDGE",
+  "roster_population":"PLAYER_ROSTER_POPULATION_INCOMPLETE_PENDING_AUTHORITATIVE_FINALS_WEEK_1_LISTS",
+  "decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage":"NONE_ASSERTED",
+  "audit_integrity":"PRESERVED",
+  "notification":"SUPPRESSED_NO_MATERIAL_CHANGE"
+}
