@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-08T23:58:51+10:00",
+  "captured_at": "2026-09-09T02:51:57+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "STALE_PUBLIC_INTELLIGENCE_AND_PLAYER_COVERAGE_REPAIRED",
+  "trigger": "PLAYER_AVAILABILITY_SIGNAL_AND_STALE_LAYER_REPAIRED",
   "lifecycle_reconciliation": {
     "status": "NO_KICKOFF_PASSED",
     "fixtures": [
@@ -21,14 +21,19 @@
   },
   "observations": [
     {
-      "player": "Reuben Cotter",
+      "player": "Jeremiah Nanai",
       "team": "Cowboys",
       "fixture": "FW1-SHA-COW-2026-09-12",
-      "classification": "VERIFIED_PERSISTENCE_RECONCILIATION",
-      "observation": "The Finals player-ingestion coverage file still carried the retired judiciary-pending state even though the canonical Finals state had Cotter available after the Grade 2 charge was downgraded to Grade 1 with a fine. The stale cross-layer state has been repaired.",
-      "availability_state": "AVAILABLE_NAMED_STARTER_JUDICIARY_RESOLVED",
-      "decision_effect": "No confidence rewrite. Cowboys middle-continuity counter-case remains strengthened; persistence integrity is restored across canonical and coverage layers.",
+      "classification": "SIGNAL",
+      "observation": "Official NRL Finals Week 1 team lists name Nanai to return, but fresh Daily Telegraph reporting says North Queensland is awaiting a Wednesday final fitness test on his knee.",
+      "availability_state": "VERIFIED_NAMED_FITNESS_UNRESOLVED_SIGNAL",
+      "decision_effect": "Cowboys edge-continuity counter-case remains conditional until the fitness test is resolved. No causal medical inference and no non-checkpoint confidence rewrite.",
       "tip_effect": "SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"
+    },
+    {
+      "system_effect": "AVAILABILITY_LAYER_RECONCILIATION",
+      "classification": "VERIFIED_PERSISTENCE_REPAIR",
+      "observation": "The dedicated Finals availability file still carried multiple pre-team-list states after official squads had been published. Returned/named players have now been reconciled to VERIFIED_NAMED states while unresolved fitness remains separately classified as SIGNAL."
     }
   ],
   "fixture_updates": [
@@ -44,21 +49,17 @@
       "Sharks_v_Cowboys": {"home_price":1.45,"away_price":2.78,"normalized_home_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72,"movement_classification":"SIGNAL_TOWARD_COWBOYS"},
       "Panthers_v_Roosters": {"home_price":1.31,"away_price":3.46,"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}
     },
-    "source": "https://www.sportsbet.com.au/betting/rugby-league/nrl/finals-week-1",
-    "captured_at": "2026-09-08T23:58:51+10:00",
-    "integrity": "Current two-sided prices unchanged from the prior canonical board. Market movement without a known cause remains SIGNAL; no causal explanation assigned."
+    "integrity": "No superior fresh two-sided board establishing a material change was verified in this cycle; last reliable board retained."
   },
   "weather": {
-    "Sydney": "BOM current forecast remains low-impact: Friday 20% rain chance and 0 mm with light winds; Saturday 10% and 0 mm with northeasterlies developing 15-25 km/h; Sunday 5% and 0 mm with northeasterlies developing 15-25 km/h. No demonstrated directional football edge.",
-    "Auckland": "No superior machine-readable verified match-day weather detail established in this cycle; no directional edge asserted.",
+    "Sydney": "BOM remains low-impact for Finals match days: Friday near-zero rainfall with light/easterly winds; Saturday mostly sunny with northeasterlies 15-25 km/h; Sunday mostly sunny with northeasterlies around 15-20 km/h. No demonstrated directional football edge.",
+    "Auckland": "No superior verified match-day weather detail established in this cycle; no directional edge asserted.",
     "decision_effect": "NONE"
   },
   "player_roster_statistical_coverage": {
     "status": "ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE",
-    "material_change": true,
     "roster_identities": "176/176 official Finals Week 1 named squad identities persisted",
-    "statistics": "Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster. No completeness claim is made.",
-    "repair": "Retired Cotter judiciary-pending wording removed from the player-ingestion coverage layer."
+    "statistics": "Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster."
   },
   "current_decisions": [
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -70,9 +71,7 @@
   "incorrect_tip_halt": "CLEAR",
   "canonical_reconciliation": {
     "status": "CANONICAL_CURRENT",
-    "file": "data/finals-week1-2026.json",
-    "captured_at": "2026-09-08T22:25:04+10:00",
-    "note": "The prior PERSISTENCE_FAILED_CANONICAL_STALE label in this public material-update file was itself stale after the canonical repair. It has now been retired."
+    "file": "data/finals-week1-2026.json"
   },
   "audit_integrity": "PRESERVED"
 }
