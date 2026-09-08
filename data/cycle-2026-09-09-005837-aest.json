@@ -1,0 +1,72 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-09T00:58:37+10:00",
+  "cycle_classification": "NO_MATERIAL_CHANGE",
+  "notification": "SUPPRESSED_BY_RULE",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ]
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+      "finding": "Official Finals Week 1 named squads remain the active roster baseline; no material new team-list change established this cycle."
+    },
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+      "finding": "No newly verified availability change sufficient to alter current fixture decisions."
+    },
+    {
+      "class": "MARKET_RELIABLE",
+      "url": "https://www.sportsbet.com.au/betting/rugby-league/nrl",
+      "finding": "Head-to-head board remains Rabbitohs 1.40 / Knights 2.97; Warriors 1.54 / Dolphins 2.47; Sharks 1.45 / Cowboys 2.78; Panthers 1.31 / Roosters 3.46. No material movement from prior verified state."
+    },
+    {
+      "class": "WEATHER_OFFICIAL",
+      "url": "https://www.bom.gov.au/places/nsw/glebe/forecast/",
+      "finding": "Sydney Friday forecast remains low-rain/0 mm at current horizon with no demonstrated directional football edge."
+    },
+    {
+      "class": "WEATHER_OFFICIAL",
+      "url": "https://www.metservice.com/",
+      "finding": "MetService Auckland source checked. No verified material weather change or directional team edge established this cycle."
+    }
+  ],
+  "market_state": {
+    "rabbitohs_normalized_probability_pct": 67.96,
+    "warriors_normalized_probability_pct": 61.60,
+    "sharks_normalized_probability_pct": 65.72,
+    "panthers_normalized_probability_pct": 72.54,
+    "status": "UNCHANGED_FROM_PRIOR_VERIFIED_STATE"
+  },
+  "player_population": {
+    "roster_state": "176_OF_176_CURRENT_NAMED_FINALS_PLAYERS_PERSISTED",
+    "statistical_dossier_state": "INCOMPLETE_KNOWN_OPEN_WORK",
+    "material_change": false,
+    "note": "No new roster-population failure identified. Existing official-profile/current-season/per-round dossier incompleteness remains explicitly open and is not represented as complete."
+  },
+  "current_decisions": [
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":1.04},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":1.40},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":-1.72},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":0.46}
+  ],
+  "information_advantage": "NONE_ASSERTED",
+  "persistence": "SUCCESS",
+  "public_site_write": "NOT_REQUIRED_NO_MATERIAL_PUBLIC_STATE_CHANGE",
+  "audit_integrity": "PRESERVED"
+}
