@@ -1,0 +1,87 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "captured_at": "2026-09-08T18:37:51+10:00",
+  "cycle_class": "NO_MATERIAL_CHANGE_COTTER_JUDICIARY_PENDING",
+  "lifecycle": "ALL_RELEVANT_FIXTURES_UPCOMING",
+  "due_checkpoint": false,
+  "next_checkpoint": "Rabbitohs v Knights T-24h — 2026-09-10T19:50:00+10:00",
+  "source_checks": [
+    {
+      "source": "NRL official Finals Week 1 team lists",
+      "url": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+      "classification": "VERIFIED_NO_NEW_ROSTER_CHANGE"
+    },
+    {
+      "source": "NRL official judiciary report",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/",
+      "classification": "VERIFIED_COTTER_VERDICT_NOT_YET_PUBLISHED_AT_CAPTURE"
+    },
+    {
+      "source": "North Queensland Cowboys official site",
+      "url": "https://www.cowboys.com.au/",
+      "classification": "VERIFIED_COTTER_HEARING_STILL_UNRESOLVED_ON_PUBLIC_OFFICIAL_SOURCE_AT_CAPTURE"
+    },
+    {
+      "source": "Bureau of Meteorology Sydney forecast",
+      "url": "https://www.bom.gov.au/location/australia/new-south-wales/metropolitan/bnsw_pt131-sydney/accessible-forecast",
+      "classification": "CHECKED_NO_NEW_MACHINE_READABLE_DIRECTIONAL_WEATHER_EDGE"
+    },
+    {
+      "source": "MetService Auckland",
+      "classification": "CHECKED_NO_NEW_VERIFIED_DIRECTIONAL_EDGE"
+    },
+    {
+      "source": "current public betting search surfaces",
+      "classification": "NO_NEW_RELIABLE_RECONCILED_TWO_SIDED_STATE_ESTABLISHED"
+    }
+  ],
+  "fixture_decisions": [
+    {
+      "fixture": "Rabbitohs v Knights",
+      "tip": "Rabbitohs",
+      "confidence": 69,
+      "state": "CURRENT_NOT_FROZEN",
+      "market_normalized_probability": 67.96,
+      "market_state_basis": "last verified reliable state retained",
+      "weather_effect": "no new demonstrated directional edge"
+    },
+    {
+      "fixture": "Warriors v Dolphins",
+      "tip": "Warriors",
+      "confidence": 63,
+      "state": "CURRENT_NOT_FROZEN_REVIEW_REQUIRED",
+      "market_gate": "REVIEW_REQUIRED_UNTIL_PREVIOUS_MARKET_CONFLICT_RECONCILED",
+      "weather_effect": "no new verified official directional edge"
+    },
+    {
+      "fixture": "Sharks v Cowboys",
+      "tip": "Sharks",
+      "confidence": 64,
+      "state": "CURRENT_NOT_FROZEN",
+      "market_normalized_probability": 65.72,
+      "market_state_basis": "last verified reliable state retained",
+      "player_effect": "Reuben Cotter remains named but judiciary verdict unavailable on official sources at capture"
+    },
+    {
+      "fixture": "Panthers v Roosters",
+      "tip": "Panthers",
+      "confidence": 73,
+      "state": "CURRENT_NOT_FROZEN",
+      "market_normalized_probability": 72.54,
+      "market_state_basis": "last verified reliable state retained",
+      "weather_effect": "no new demonstrated directional edge"
+    }
+  ],
+  "evidence_family_independence": "Official roster/judiciary evidence, weather, market pricing, historical matchup and statistical evidence remain separate; no shared-input evidence counted twice.",
+  "player_layer": {
+    "roster_population": "176/176 VERIFIED OFFICIAL NAMED SQUAD IDENTITIES",
+    "statistical_dossiers": "INCOMPLETE_RECONCILIATION_REQUIRED",
+    "material_change": false
+  },
+  "information_advantage": "NONE_ASSERTED",
+  "audit_integrity": "PRESERVED",
+  "missed_not_captured": false,
+  "public_write_required": false,
+  "notification_required": false
+}
