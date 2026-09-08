@@ -1,0 +1,41 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-08T11:02:20+10:00",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "checkpoint_due":false,
+  "next_checkpoint":"FW1-SS-NKN-2026-09-11 T-24h 2026-09-10T19:50:00+10:00",
+  "sources_checked":[
+    "NRL.com current Finals reporting",
+    "NRL.com Round 8 Cowboys v Sharks official match report",
+    "NRL.com draw/match centre",
+    "BOM Sydney forecast",
+    "current independent Finals market pages"
+  ],
+  "material_change":{
+    "fixture":"FW1-SHA-COW-2026-09-12",
+    "type":"MATCHUP_MEMORY_RECONCILIATION",
+    "classification":"VERIFIED",
+    "fact":"Cowboys defeated Sharks 46-34 in Round 8, 2026.",
+    "source":"https://www.nrl.com/news/2026/04/24/friday-night-footy-cowboys-v-sharks-broncos-v-bulldogs/",
+    "effect":"Strengthens North Queensland adversarial counter-case. Historical result remains separate from current roster, venue, form and judiciary evidence.",
+    "decision_effect":"SHARKS_64_RETAINED_CURRENT_NOT_FROZEN"
+  },
+  "player_state":{
+    "Braydon_Trindall":"SIGNAL_SET_TO_BE_NAMED_OFFICIAL_LIST_PENDING; 30 regular-season try assists reported by NRL.com",
+    "Euan_Aitken":"VERIFIED_UNAVAILABLE_REMAINDER_2026",
+    "Reuben_Cotter":"JUDICIARY_UNRESOLVED_PENDING_TUESDAY_1800_AEST"
+  },
+  "market_state":"NO_NEW_RELIABLE_MATERIAL_MOVEMENT_ESTABLISHED_FROM_ACTIVE_BASELINE",
+  "weather_state":"MANDATORY_WEATHER_REFRESHED; NO_VERIFIED_DIRECTIONAL_EDGE",
+  "roster_population":"PLAYER_ROSTER_POPULATION_INCOMPLETE; OFFICIAL_FINALS_WEEK_1_LISTS_NOT_YET_PUBLISHED",
+  "decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73}
+  ],
+  "information_advantage":"NONE_ASSERTED",
+  "audit_integrity":"PRESERVED"
+}
