@@ -1,0 +1,42 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-08T15:43:43+10:00",
+  "lifecycle": "ALL_RELEVANT_FIXTURES_UPCOMING",
+  "checkpoint_due": false,
+  "next_checkpoint": "FW1-SS-NKN-2026-09-11 T-24h 2026-09-10T19:50:00+10:00",
+  "sources_checked": [
+    "NRL.com Finals Week 1 schedule/current match-centre surfaces",
+    "NRL.com current Finals Week 1 team-list surfaces searched 2026-09-08 15:43 AEST",
+    "NRL.com current judiciary report for Reuben Cotter",
+    "NRL.com 2026-09-08 Rabbitohs/Latrell Mitchell finals reporting",
+    "BOM Sydney-area Finals forecast surfaces",
+    "current Sportsbet 2026 premiership market surface",
+    "current Ladbrokes 2026 premiership market surface"
+  ],
+  "material_change": false,
+  "team_lists": "OFFICIAL_FINALS_WEEK_1_LISTS_NOT_YET_PUBLISHED_AT_CAPTURE; PREDICTED_LINEUPS_NOT_INGESTED_AS_ROSTER_FACT",
+  "player_state": {
+    "Braydon_Trindall": "SIGNAL_SET_TO_BE_NAMED_OFFICIAL_LIST_PENDING",
+    "Euan_Aitken": "VERIFIED_UNAVAILABLE_REMAINDER_2026",
+    "Reuben_Cotter": "JUDICIARY_UNRESOLVED_PENDING_2026-09-08T18:00:00+10:00",
+    "Latrell_Mitchell": "VERIFIED_CURRENTLY_AVAILABLE; OFFICIAL_2026-09-08_REPORT_ADDS_NO_NEW_AVAILABILITY_CHANGE"
+  },
+  "weather_state": "MANDATORY_WEATHER_CHECK_COMPLETED; SYDNEY FRIDAY EVENING REMAINS LOW-RAIN/LIGHT-EASTERLY PROFILE; NO_NEW_VERIFIED_DIRECTIONAL_EDGE",
+  "market_state": {
+    "fixture_market": "NO_NEW_RELIABLE_TWO_SIDED_FIXTURE_PRICE SNAPSHOT ESTABLISHED THIS RUN; PRIOR SNAPSHOT NOT REWRITTEN",
+    "premiership_market_cross_bookmaker_snapshot": "OBSERVED_FOR_CONTEXT_ONLY; NOT TREATED AS MOVEMENT WITHOUT SAME-SOURCE TEMPORAL COMPARATOR",
+    "causality": "NONE_INFERRED"
+  },
+  "roster_population": "PLAYER_ROSTER_POPULATION_INCOMPLETE_PENDING_AUTHORITATIVE_FINALS_WEEK_1_LISTS",
+  "decisions": [
+    {"fixture": "Rabbitohs v Knights", "tip": "Rabbitohs", "confidence": 69, "state": "CURRENT_NOT_FROZEN"},
+    {"fixture": "Warriors v Dolphins", "tip": "Warriors", "confidence": 63, "state": "CURRENT_NOT_FROZEN"},
+    {"fixture": "Sharks v Cowboys", "tip": "Sharks", "confidence": 64, "state": "CURRENT_NOT_FROZEN"},
+    {"fixture": "Panthers v Roosters", "tip": "Panthers", "confidence": 73, "state": "CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage": "NONE_ASSERTED",
+  "audit_integrity": "PRESERVED",
+  "notification": "SUPPRESSED_NO_MATERIAL_CHANGE"
+}
