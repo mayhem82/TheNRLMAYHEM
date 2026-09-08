@@ -1,0 +1,30 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-08T20:52:28+10:00",
+  "cycle_class":"MATERIAL_COTTER_JUDICIARY_RESOLUTION",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "due_checkpoint":false,
+  "next_checkpoint":"Rabbitohs v Knights T-24h — 2026-09-10T19:50:00+10:00",
+  "source_checks":[
+    {"source":"North Queensland Cowboys official judiciary update","url":"https://www.cowboys.com.au/news/2026/09/08/cotter-cleared-to-play-in-saturdays-elimination-final-782/","classification":"VERIFIED_COTTER_AVAILABLE"},
+    {"source":"NRL Judiciary Report 2026","url":"https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/","classification":"VERIFIED_DOWNGRADE_FINE_ONLY"},
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","classification":"VERIFIED_NO_NEW_ROSTER_CHANGE"},
+    {"source":"Bureau of Meteorology Sydney forecast","classification":"CHECKED_NO_NEW_VERIFIED_DIRECTIONAL_EDGE"},
+    {"source":"MetService Auckland","classification":"CHECKED_NO_NEW_VERIFIED_DIRECTIONAL_EDGE"},
+    {"source":"current betting search surfaces","classification":"NO_RELIABLE_RECONCILIATION_OF_PRIOR_WARRIORS_DOLPHINS_CONFLICT"}
+  ],
+  "material_change":{"player":"Reuben Cotter","team":"Cowboys","classification":"VERIFIED","previous_state":"NAMED_STARTER_PENDING_JUDICIARY","new_state":"NAMED_STARTER_AVAILABLE_JUDICIARY_RESOLVED","mechanism":"Grade 2 careless high tackle downgraded to Grade 1; fine only","decision_effect":"Cowboys middle-continuity counter-case strengthened; Sharks 64% retained CURRENT_NOT_FROZEN"},
+  "fixture_decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN_REVIEW_REQUIRED","market_gate":"PRIOR_CONFLICT_UNRESOLVED"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","counter_case":"STRENGTHENED_BY_COTTER_VERIFIED_AVAILABILITY"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "player_layer":{"roster_population":"176/176 VERIFIED OFFICIAL NAMED SQUAD IDENTITIES","statistical_dossiers":"INCOMPLETE_RECONCILIATION_REQUIRED","cotter_state":"VERIFIED_AVAILABLE"},
+  "information_advantage":"NONE_ASSERTED",
+  "audit_integrity":"PRESERVED",
+  "missed_not_captured":false,
+  "public_write_required":true,
+  "notification_required":true
+}
