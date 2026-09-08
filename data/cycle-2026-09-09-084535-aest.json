@@ -1,0 +1,47 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-09T08:45:35+10:00",
+  "cycle_state": "NO_MATERIAL_NOTIFICATION_CHANGE",
+  "lifecycle_reconciliation": {
+    "state": "ALL_RELEVANT_FIXTURES_UPCOMING",
+    "result_verification_backlog": [],
+    "missed_not_captured": false
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "FW1-SS-NKN-2026-09-11 T-24h",
+    "due_sydney": "2026-09-10T19:50:00+10:00"
+  },
+  "sources_checked": [
+    "Official/current NRL Finals Week 1 team-list and club team-list surfaces",
+    "Current reporting on Jeremiah Nanai Wednesday fitness assessment",
+    "Sportsbet current NRL futures/Finals Week 1 surfaces",
+    "Bureau of Meteorology Sydney-area forecasts",
+    "MetService Auckland search surface"
+  ],
+  "fixture_states": [
+    {"fixture":"Rabbitohs v Knights","state":"UPCOMING","tip":"Rabbitohs","confidence":69,"decision_state":"CURRENT_NOT_FROZEN","material_change":false},
+    {"fixture":"Warriors v Dolphins","state":"UPCOMING","tip":"Warriors","confidence":63,"decision_state":"CURRENT_NOT_FROZEN","material_change":false},
+    {"fixture":"Sharks v Cowboys","state":"UPCOMING","tip":"Sharks","confidence":64,"decision_state":"CURRENT_NOT_FROZEN","material_change":false,"player_signal":"Jeremiah Nanai remains NAMED with Wednesday fitness assessment unresolved at capture time"},
+    {"fixture":"Panthers v Roosters","state":"UPCOMING","tip":"Panthers","confidence":73,"decision_state":"CURRENT_NOT_FROZEN","material_change":false}
+  ],
+  "weather": {
+    "sydney":"Low-rain match-day forecasts remain materially consistent with prior state; no demonstrated directional football edge.",
+    "auckland":"No new verified directional weather edge established in this cycle."
+  },
+  "market": {
+    "fixture_head_to_head":"No newly verified reliable two-sided fixture price state sufficient to replace the canonical board in this cycle.",
+    "futures_signal":"Sportsbet premiership futures showed Cronulla at 26.00 versus prior captured 29.00; recorded as a market SIGNAL only, with no causal attribution and no fixture-confidence effect.",
+    "decision_effect":"NONE"
+  },
+  "player_layer": {
+    "roster_population":"176/176 VERIFIED OFFICIAL FINALS WEEK 1 NAMED SQUAD IDENTITIES",
+    "statistical_dossiers":"INCOMPLETE_RECONCILIATION_REQUIRED; no new incompleteness or staleness event detected this cycle"
+  },
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED",
+  "notification":"SUPPRESSED_NO_QUALIFYING_MATERIAL_CHANGE"
+}
