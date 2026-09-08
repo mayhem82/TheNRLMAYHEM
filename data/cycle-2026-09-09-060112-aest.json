@@ -1,0 +1,45 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-09T06:01:12+10:00",
+  "timezone": "Australia/Sydney",
+  "cycle_classification": "NO_MATERIAL_NOTIFICATION_TRIGGER",
+  "lifecycle_reconciliation": {
+    "status": "ALL_RELEVANT_FIXTURES_UPCOMING",
+    "result_verification_backlog": [],
+    "missed_not_captured": false
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next_fixture": "FW1-SS-NKN-2026-09-11",
+    "next_checkpoint": "T-24h",
+    "due_sydney": "2026-09-10T19:50:00+10:00"
+  },
+  "fixture_decisions": [
+    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "player_intelligence": {
+    "roster_population": "176/176 VERIFIED OFFICIAL FINALS WEEK 1 NAMED SQUAD IDENTITIES",
+    "material_change": false,
+    "active_signal": "Jeremiah Nanai remains officially named with Wednesday fitness-test uncertainty unresolved at capture time.",
+    "statistical_dossiers": "INCOMPLETE_RECONCILIATION_REQUIRED"
+  },
+  "weather": {
+    "Sydney": "Fresh BOM/forecast checks remain low-impact for Friday-Sunday match windows; no demonstrated directional football edge.",
+    "Auckland": "No new superior verified match-day weather evidence established this cycle; no directional edge asserted."
+  },
+  "market": {
+    "state": "NO_NEW_RELIABLE_TWO_SIDED_BOARD_ESTABLISHED_THIS_CYCLE",
+    "last_verified_board_retained_for_Audit": true,
+    "causal_inference": "NONE"
+  },
+  "information_advantage": "NONE_ASSERTED",
+  "incorrect_tip_halt": "CLEAR",
+  "persistence_integrity": "CANONICAL_AND_ROSTER_BASELINE_CURRENT",
+  "public_render_verification": "NOT_COMPLETED_DUE_TRANSIENT_NETWORK_RESOLUTION_FAILURE",
+  "audit_integrity": "PRESERVED"
+}
