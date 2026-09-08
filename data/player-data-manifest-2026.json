@@ -1,9 +1,9 @@
 {
-  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-07-FINALS",
+  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-08-FINALS-OFFICIAL",
   "required":[
     "data/player-intelligence-2026.json",
     "data/player-intelligence-round27-current.json",
-    "data/player-roster-round27-2026.json"
+    "data/player-roster-finals-week1-2026.json"
   ],
   "supplements":[
     "data/player-intelligence-finals-current.json"
@@ -17,6 +17,6 @@
     "data/player-stats-tigers-supplement-2026.json",
     "data/player-stats-panthers-supplement-2026.json"
   ],
-  "coverage":"data/round27-sunday-player-ingestion-coverage-2026.json",
+  "coverage":"data/finals-week1-player-ingestion-coverage-2026.json",
   "contradictions":"data/contradiction-resolutions-2026.json"
 }
