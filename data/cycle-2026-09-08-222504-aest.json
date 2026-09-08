@@ -1,0 +1,36 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-08T22:25:04+10:00",
+  "cycle_class":"CANONICAL_PERSISTENCE_REPAIR_AND_MARKET_REFRESH",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "due_checkpoint":false,
+  "next_checkpoint":"Rabbitohs v Knights T-24h — 2026-09-10T19:50:00+10:00",
+  "source_checks":[
+    {"source":"NRL official Finals Week 1 team lists","classification":"VERIFIED_NO_NEW_ROSTER_CHANGE"},
+    {"source":"Sportsbet NRL Finals Week 1 board","classification":"VERIFIED_CURRENT_TWO_SIDED_MARKETS"},
+    {"source":"BOM Sydney/Randwick forecast","classification":"CHECKED_NO_NEW_VERIFIED_DIRECTIONAL_EDGE"},
+    {"source":"MetService Auckland","classification":"CHECKED_NO_NEW_MACHINE_READABLE_DIRECTIONAL_EDGE"}
+  ],
+  "material_changes":[
+    {"scope":"Canonical Finals data","classification":"PERSISTENCE_REPAIRED","file":"data/finals-week1-2026.json","finding":"Removed pre-team-list and judiciary-pending states; canonical source now reflects official Finals squads, Cotter availability resolution, current roster continuity and refreshed market board."},
+    {"fixture":"Sharks v Cowboys","classification":"MARKET_SIGNAL_TOWARD_COWBOYS","previous":{"sharks":1.42,"cowboys":2.85},"current":{"sharks":1.45,"cowboys":2.78,"normalized_sharks_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72},"causal_inference":"NONE"}
+  ],
+  "market_states":[
+    {"fixture":"Rabbitohs v Knights","prices":"1.40 / 2.97","normalized_preferred_probability":67.96,"mayhem_confidence":69,"delta_pp":1.04},
+    {"fixture":"Warriors v Dolphins","prices":"1.54 / 2.47","normalized_preferred_probability":61.60,"mayhem_confidence":63,"delta_pp":1.40},
+    {"fixture":"Sharks v Cowboys","prices":"1.45 / 2.78","normalized_preferred_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72},
+    {"fixture":"Panthers v Roosters","prices":"1.31 / 3.46","normalized_preferred_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}
+  ],
+  "fixture_decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "player_layer":{"roster_population":"176/176 VERIFIED OFFICIAL NAMED SQUAD IDENTITIES","statistical_dossiers":"INCOMPLETE_RECONCILIATION_REQUIRED"},
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED",
+  "notification_required":true
+}
