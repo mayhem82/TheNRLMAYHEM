@@ -1,0 +1,35 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-08T11:22:22+10:00",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "checkpoint_due":false,
+  "next_checkpoint":"FW1-SS-NKN-2026-09-11 T-24h 2026-09-10T19:50:00+10:00",
+  "sources_checked":[
+    "NRL.com current Finals reporting and draw/match centre",
+    "NRL.com judiciary report",
+    "BOM Sydney forecast",
+    "MetService Auckland forecast surface",
+    "current independent Finals market pages"
+  ],
+  "material_change":false,
+  "player_state":{
+    "Braydon_Trindall":"SIGNAL_SET_TO_BE_NAMED_OFFICIAL_LIST_PENDING",
+    "Euan_Aitken":"VERIFIED_UNAVAILABLE_REMAINDER_2026",
+    "Reuben_Cotter":"JUDICIARY_UNRESOLVED_PENDING_2026-09-08T18:00:00+10:00"
+  },
+  "team_lists":"OFFICIAL_FINALS_WEEK_1_LISTS_NOT_YET_PUBLISHED_AT_CAPTURE",
+  "market_state":"NO_NEW_RELIABLE_MATERIAL_MOVEMENT_ESTABLISHED_FROM_ACTIVE_BASELINE; CROSS-SOURCE_PRICE_DIFFERENCES_NOT_TREATED_AS_MOVEMENT",
+  "weather_state":"MANDATORY_WEATHER_CHECK_COMPLETED; NO_NEW_VERIFIED_DIRECTIONAL_EDGE",
+  "roster_population":"PLAYER_ROSTER_POPULATION_INCOMPLETE_PENDING_AUTHORITATIVE_FINALS_WEEK_1_LISTS",
+  "decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "information_advantage":"NONE_ASSERTED",
+  "audit_integrity":"PRESERVED",
+  "notification":"SUPPRESSED_NO_MATERIAL_CHANGE"
+}
