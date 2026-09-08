@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-09T03:48:02+10:00",
+  "captured_at": "2026-09-09T04:54:40+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "PUBLIC_PLAYER_RENDER_REPAIR_AND_ROSTER_BASELINE_STALE_DETECTED",
+  "trigger": "ROSTER_BASELINE_PERSISTENCE_REPAIR",
   "lifecycle_reconciliation": {
     "status": "NO_KICKOFF_PASSED",
     "fixtures": [
@@ -21,19 +21,13 @@
   },
   "observations": [
     {
-      "system_effect": "PUBLIC_PLAYERS_RENDER_REPAIR",
-      "classification": "VERIFIED_PERSISTENCE_REPAIR",
-      "observation": "Players page hardcoded an obsolete /80 roster denominator and labelled Finals roster-baseline evidence as Round 27. The denominator now derives from the current coverage document and roster evidence is stage-neutral.",
-      "decision_effect": "NONE"
-    },
-    {
       "player": "Reuben Cotter",
       "team": "Cowboys",
       "fixture": "FW1-SHA-COW-2026-09-12",
-      "classification": "CONTRADICTED_STALE_LAYER",
-      "observation": "Current player intelligence correctly records Cotter as NAMED_STARTER_AVAILABLE_JUDICIARY_RESOLVED, but data/player-roster-finals-week1-2026.json still contains the superseded NAMED_STARTER_PENDING_JUDICIARY value.",
-      "persistence_state": "PERSISTENCE_FAILED_ROSTER_BASELINE_STALE",
-      "decision_effect": "NONE_CURRENT_OVERLAY_HAS_PRECEDENCE"
+      "classification": "VERIFIED_PERSISTENCE_REPAIR",
+      "observation": "The Finals Week 1 roster baseline has been reconciled from the superseded NAMED_STARTER_PENDING_JUDICIARY state to NAMED_STARTER_AVAILABLE_JUDICIARY_RESOLVED following the official NRL judiciary outcome.",
+      "persistence_state": "REPAIRED_AND_REREAD",
+      "decision_effect": "NONE"
     },
     {
       "player": "Jeremiah Nanai",
@@ -56,7 +50,7 @@
       "Rabbitohs_v_Knights": {"home_price":1.40,"away_price":2.97,"normalized_home_probability":67.96,"mayhem_confidence":69,"delta_pp":1.04},
       "Warriors_v_Dolphins": {"home_price":1.54,"away_price":2.47,"normalized_home_probability":61.60,"mayhem_confidence":63,"delta_pp":1.40},
       "Sharks_v_Cowboys": {"home_price":1.45,"away_price":2.78,"normalized_home_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72,"movement_classification":"SIGNAL_TOWARD_COWBOYS"},
-      "Panthers_v_Roosters": {"home_price":1.31,"away_price":3.46,"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46,"fresh_surface_note":"A direct Sportsbet surface also showed 1.32/3.42; divergence is minor and not decision-material."}
+      "Panthers_v_Roosters": {"home_price":1.31,"away_price":3.46,"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}
     },
     "integrity": "No verified material two-sided market change breaches the +3 percentage-point MAYHEM gate."
   },
@@ -79,9 +73,9 @@
   "information_advantage": "NONE_ASSERTED",
   "incorrect_tip_halt": "CLEAR",
   "canonical_reconciliation": {
-    "status": "CANONICAL_CURRENT_WITH_ROSTER_BASELINE_DEFECT",
+    "status": "CANONICAL_AND_ROSTER_BASELINE_CURRENT",
     "file": "data/finals-week1-2026.json",
-    "defect": "data/player-roster-finals-week1-2026.json retains superseded Cotter judiciary-pending state"
+    "roster_file": "data/player-roster-finals-week1-2026.json"
   },
-  "audit_integrity": "PRESERVED_WITH_EXPLICIT_PERSISTENCE_DEFECT"
+  "audit_integrity": "PRESERVED"
 }
