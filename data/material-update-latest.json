@@ -2,25 +2,61 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-08T16:30:08+10:00",
+  "captured_at":"2026-09-08T17:34:47+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_OFFICIAL_FINALS_TEAM_LISTS_AND_ROSTER_RECONCILIATION",
+  "trigger":"MATERIAL_MARKET_CONFLICT_AND_WEATHER_UPDATE",
   "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
   "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
-  "official_team_list_source":{"classification":"VERIFIED","source_class":"OFFICIAL_NRL_TEAM_LIST","source_url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","published_at":"2026-09-08T15:59:00+10:00","capture_at":"2026-09-08T16:30:08+10:00"},
-  "fixture_updates":[
-    {"fixture":"Rabbitohs v Knights","observation":"South Sydney named Matt Dufty at fullback, Tallis Duncan starting, Adam Elliott on the bench and Euan Aitken absent. Newcastle named Dominic Young and Tyson Frizell after suspension, Phoenix Crossland at hooker and Francis Manuleleua in the second row.","team_macro_effect":"Newcastle continuity counter-case strengthened by multiple verified returns; South Sydney forward continuity improves through Duncan but Aitken remains a verified loss.","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
-    {"fixture":"Warriors v Dolphins","observation":"Warriors named Leka Halasima, Wayde Egan, Kurt Capewell and Jackson Ford; Dallin Watene-Zelezniak remains sidelined. Dolphins named Selwyn Cobbo, Kodi Nikorima and Kulikefu Finefeuiaki and are described by NRL.com as full strength.","team_macro_effect":"Both teams gain verified continuity; Dolphins counter-case strengthens materially because the previously provisional Cobbo/Nikorima/Finefeuiaki returns are now official.","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN"},
-    {"fixture":"Sharks v Cowboys","observation":"Cronulla named Braydon Trindall at five-eighth and restored Nicho Hynes, Blayke Brailey, KL Iro, Teig Wilton and Thomas Hazelton. North Queensland named Griffin Neame, Jeremiah Nanai and Zac Laybutt. Reuben Cotter is named at lock but remains pending judiciary.","team_macro_effect":"Cronulla spine and senior-unit continuity materially strengthens; Cowboys also regain three starters. Cotter remains a binary unresolved middle-continuity variable until the hearing outcome is verified.","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
-    {"fixture":"Panthers v Roosters","observation":"Penrith named Isaah Yeo to start and Scott Sorensen to return. Sydney restored its rested senior cohort including James Tedesco, Daly Cherry-Evans, Reece Robson, Victor Radley and others; Angus Crichton is named on the bench after 11 games out, while Sam Walker remains out for the season.","team_macro_effect":"Roosters counter-case materially strengthens and the Round 27 50-20 loss remains down-weighted because the Finals side is substantially different. Penrith continuity remains strong with Yeo and Sorensen named.","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
+  "observations":[
+    {
+      "player":"Market state",
+      "team":"Warriors v Dolphins",
+      "fixture":"FW1-WAR-DOL-2026-09-12",
+      "classification":"CONTRADICTED",
+      "observation":"Fresh Sportsbet surfaces captured in the same cycle returned conflicting Warriors/Dolphins head-to-head states: 1.54/2.47 on the primary NRL market page and 1.62/2.31 on a second Sportsbet NRL surface. These normalize to 61.60% and 58.78% Warriors respectively. The conflict is retained rather than selecting the price most favourable to the existing MAYHEM view.",
+      "availability_state":"NOT_APPLICABLE",
+      "decision_effect":"Warriors 63% remains the recorded current selection but the market gate is REVIEW_REQUIRED until a reliable current two-sided state is reconciled. At the lower 58.78% normalized market state, the MAYHEM uplift is +4.22pp and therefore crosses the mandatory +3pp evidence gate.",
+      "tip_effect":"NO_FREEZE; REVIEW_REQUIRED"
+    },
+    {
+      "player":"Weather intelligence",
+      "team":"Rabbitohs v Knights",
+      "fixture":"FW1-SS-NKN-2026-09-11",
+      "classification":"VERIFIED",
+      "observation":"BOM Sydney Olympic Park forecast issued 4:00pm AEST Tuesday 8 September now gives Friday 11 September a 10% rain chance, 0 mm possible rainfall and light winds. This replaces the prior persisted Friday easterly 15-20 km/h description. No demonstrated directional team edge is assigned.",
+      "availability_state":"NOT_APPLICABLE",
+      "decision_effect":"Weather profile updated; Rabbitohs 69% retained CURRENT_NOT_FROZEN.",
+      "tip_effect":"NONE"
+    }
   ],
-  "market_absorption_clock":{"status":"NO_NEW_RELIABLE_MATERIAL_MOVEMENT_ESTABLISHED_THIS_RUN","latest_reliable_baseline":{"Rabbitohs_v_Knights":{"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},"Warriors_v_Dolphins":{"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},"Sharks_v_Cowboys":{"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},"Panthers_v_Roosters":{"home":1.30,"away":3.50,"normalized_home_probability":72.92,"mayhem_confidence":73,"delta_pp":0.08}},"integrity":"Prior reliable baseline retained; no market movement assigned a causal explanation."},
-  "weather":{"Sydney":"BOM checked; no new verified material directional edge established in this run.","Auckland":"MetService checked; detailed forecast fields were not machine-readable in this run, so no directional edge was asserted.","decision_effect":"NONE"},
-  "judiciary_state":{"Reuben_Cotter":"NAMED_STARTER_PENDING_JUDICIARY; hearing remains unresolved at capture time","Michael_Gabrael":"VERIFIED_SUSPENDED_TWO_MATCHES","Victor_Radley":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only","Isaiah_Papalii":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only"},
-  "player_roster_statistical_coverage":{"status":"ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE","material_change":true,"roster_identities":"176/176 official Finals Week 1 named squad identities persisted","statistics":"Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster. No completeness claim is made."},
-  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
+  "fixture_updates":[
+    {"fixture":"Rabbitohs v Knights","team_macro_effect":"No new roster change after official Finals list. Friday forecast changed from persisted easterly 15-20 km/h to BOM light winds; no directional football edge demonstrated.","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","team_macro_effect":"Official named squads unchanged. Market absorption state is internally conflicted across fresh Sportsbet surfaces; causal explanation UNKNOWN.","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN_REVIEW_REQUIRED_MARKET_GATE"},
+    {"fixture":"Sharks v Cowboys","team_macro_effect":"Official named squads unchanged. Reuben Cotter remains named pending his 6:00pm Tuesday judiciary hearing at this capture time.","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","team_macro_effect":"Official named squads unchanged. No new material availability change established this cycle.","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
+  ],
+  "market_absorption_clock":{
+    "status":"MATERIAL_CONFLICT_REQUIRES_RECONCILIATION",
+    "source":"Sportsbet NRL market surfaces, captured 2026-09-08T17:34:47+10:00",
+    "states":{
+      "Rabbitohs_v_Knights":{"home":1.40,"away":2.97,"normalized_home_probability":67.96,"mayhem_confidence":69,"delta_pp":1.04},
+      "Warriors_v_Dolphins_primary":{"home":1.54,"away":2.47,"normalized_home_probability":61.60,"mayhem_confidence":63,"delta_pp":1.40},
+      "Warriors_v_Dolphins_conflict":{"home":1.62,"away":2.31,"normalized_home_probability":58.78,"mayhem_confidence":63,"delta_pp":4.22},
+      "Sharks_v_Cowboys":{"home":1.45,"away":2.78,"normalized_home_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72},
+      "Panthers_v_Roosters":{"home":1.31,"away":3.46,"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}
+    },
+    "integrity":"Warriors market conflict preserved as CONTRADICTED. No causal explanation assigned. No current Warriors probability freeze may claim full pre-freeze market-gate validation until the conflict is reconciled."
+  },
+  "weather":{
+    "Sydney":"BOM forecast issued 4:00pm AEST 8 September: Friday 10% rain, 0 mm and light winds; Saturday sunny, 5% rain, NE 15-25 km/h during the day becoming light in evening; Sunday mostly sunny, 5% rain, E-NE 15-25 km/h during the day.",
+    "Auckland":"Official MetService detailed forecast fields remained unavailable to machine-readable search. Secondary forecast still indicates cool, windy conditions with patchy rain nearby; retained as SIGNAL only. No directional edge asserted.",
+    "decision_effect":"NONE"
+  },
+  "judiciary_state":{"Reuben_Cotter":"NAMED_STARTER_PENDING_JUDICIARY; hearing scheduled 6:00pm Tuesday and unresolved at 17:34:47 capture","Michael_Gabrael":"VERIFIED_SUSPENDED_TWO_MATCHES","Victor_Radley":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only","Isaiah_Papalii":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only"},
+  "player_roster_statistical_coverage":{"status":"ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE","material_change":false,"roster_identities":"176/176 official Finals Week 1 named squad identities persisted","statistics":"Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster. No completeness claim is made."},
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN_REVIEW_REQUIRED"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
-  "persistence_reconciliation":"Official Finals Week 1 roster baseline promoted to the persistent player manifest. Previous PLAYER_ROSTER_POPULATION_INCOMPLETE defect is closed; statistical dossier completeness remains an open integrity item.",
+  "persistence_reconciliation":"Current material record includes render-compatible observations so the Intelligence interface exposes this cycle rather than silently showing an empty Latest Material Update.",
   "audit_integrity":"PRESERVED"
 }
