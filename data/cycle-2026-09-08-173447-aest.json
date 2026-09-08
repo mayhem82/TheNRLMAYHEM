@@ -1,0 +1,30 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-08T17:34:47+10:00",
+  "cycle_class":"MATERIAL_MARKET_CONFLICT_AND_WEATHER_UPDATE",
+  "lifecycle":"ALL_RELEVANT_FIXTURES_UPCOMING",
+  "due_checkpoint":false,
+  "next_checkpoint":"Rabbitohs v Knights T-24h — 2026-09-10T19:50:00+10:00",
+  "source_checks":[
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","classification":"VERIFIED_NO_NEW_ROSTER_CHANGE"},
+    {"source":"NRL/Cowboys judiciary report","url":"https://www.cowboys.com.au/news/2026/02/14/laybutt-facing-suspension/","classification":"VERIFIED_COTTER_HEARING_PENDING_AT_CAPTURE"},
+    {"source":"Sportsbet NRL markets","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","classification":"CONTRADICTED_INTERNAL_MARKET_SURFACES"},
+    {"source":"Bureau of Meteorology Sydney Olympic Park forecast","url":"https://www.bom.gov.au/places/nsw/sydney-olympic-park/forecast/","classification":"VERIFIED_FORECAST_REFRESH"},
+    {"source":"MetService Auckland","classification":"CHECKED_DETAILED_FIELDS_NOT_MACHINE_READABLE"}
+  ],
+  "fixture_decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","market_normalized_probability":67.96,"delta_pp":1.04,"weather_effect":"Friday now 10% rain, 0 mm, light winds; no directional edge"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN_REVIEW_REQUIRED","market_states":[{"prices":"1.54/2.47","normalized_warriors_probability":61.60,"delta_pp":1.40},{"prices":"1.62/2.31","normalized_warriors_probability":58.78,"delta_pp":4.22}],"market_gate":"REVIEW_REQUIRED_UNTIL_CONFLICT_RECONCILED","weather_effect":"No verified official directional edge"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_normalized_probability":65.72,"delta_pp":-1.72,"player_effect":"Reuben Cotter named but judiciary hearing unresolved at capture"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_normalized_probability":72.54,"delta_pp":0.46,"weather_effect":"Sunday 5% rain, E-NE 15-25 km/h; no directional edge"}
+  ],
+  "market_conflict":"Sportsbet fresh surfaces disagreed materially on Warriors-Dolphins. Movement without known cause remains SIGNAL; conflicting state is CONTRADICTED and blocks full market-gate validation.",
+  "evidence_family_independence":"Official roster/judiciary evidence, BOM weather, market pricing, historical matchup and statistical evidence remain separate. No shared-input evidence is counted twice.",
+  "adversarial_gate":"Dolphins counter-case remains strong through full-strength named squad and a 2026 head-to-head win. A market state implying only 58.78% Warriors probability raises the MAYHEM 63% uplift above the +3pp gate and therefore requires independent causal support or review.",
+  "falsification":"Warriors edge must be reduced or reclassified if a reconciled reliable market remains materially below the current MAYHEM probability without new independent football evidence supporting the uplift.",
+  "player_layer":{"roster_population":"176/176 VERIFIED OFFICIAL NAMED SQUAD IDENTITIES","statistical_dossiers":"INCOMPLETE_RECONCILIATION_REQUIRED","material_change":false},
+  "information_advantage":"NONE_ASSERTED",
+  "audit_integrity":"PRESERVED",
+  "missed_not_captured":false
+}
