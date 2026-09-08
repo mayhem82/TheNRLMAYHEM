@@ -1,93 +1,26 @@
 {
-  "system": "The NRL MAYHEM",
-  "season": 2026,
-  "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-08T11:02:20+10:00",
-  "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_MATCHUP_MEMORY_RECONCILIATION",
-  "lifecycle_reconciliation": {
-    "status": "NO_KICKOFF_PASSED",
-    "fixtures": [
-      "FW1-SS-NKN-2026-09-11:UPCOMING",
-      "FW1-WAR-DOL-2026-09-12:UPCOMING",
-      "FW1-SHA-COW-2026-09-12:UPCOMING",
-      "FW1-PEN-SYD-2026-09-13:UPCOMING"
-    ]
-  },
-  "checkpoint_state": {
-    "due_now": false,
-    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
-    "missed_not_captured": false
-  },
-  "material_observations": [
-    {
-      "fixture": "FW1-SHA-COW-2026-09-12",
-      "classification": "VERIFIED",
-      "source_class": "OFFICIAL_NRL_MATCH_REPORT",
-      "source_url": "https://www.nrl.com/news/2026/04/24/friday-night-footy-cowboys-v-sharks-broncos-v-bulldogs/",
-      "source_published": "2026-04-24T23:33:00+10:00",
-      "captured_at": "2026-09-08T11:02:20+10:00",
-      "observation": "North Queensland defeated Cronulla 46-34 in Round 8 at Queensland Country Bank Stadium. The match produced 80 points. Tom Dearden scored late, Scott Drinkwater produced a decisive 40/20, and Cronulla's Nicho Hynes and Braydon Trindall were both involved in the Sharks attack.",
-      "matchup_effect": "COWBOYS_COUNTER_CASE_STRENGTHENED. The Cowboys have a genuine 2026 win over Cronulla, so the elimination-final matchup memory must not treat Cronulla's season differential as sufficient evidence by itself.",
-      "inference_boundary": "The Round 8 result is historical matchup evidence only. Venue, current rosters, current form and judiciary state differ; no causal claim is inferred from the score alone.",
-      "decision_effect": "SHARKS_SELECTION_RETAINED_64; no non-checkpoint confidence rewrite. Carry the verified head-to-head into the next pre-freeze adversarial gate."
-    },
-    {
-      "fixture": "FW1-SHA-COW-2026-09-12",
-      "team": "Sharks",
-      "player": "Braydon Trindall",
-      "classification": "SIGNAL",
-      "source_class": "OFFICIAL_NRL",
-      "source_url": "https://www.nrl.com/news/2026/09/08/trindall-ready-to-spark-sharks-in-high-stakes-comeback/",
-      "source_published": "2026-09-08T06:01:00+10:00",
-      "captured_at": "2026-09-08T11:02:20+10:00",
-      "observation": "NRL.com reports Trindall is set to be named Tuesday afternoon. He finished the regular season with 30 try assists. Official team-list publication remains authoritative.",
-      "decision_effect": "SHARKS_SELECTION_RETAINED_64"
-    },
-    {
-      "fixture": "FW1-SS-NKN-2026-09-11",
-      "team": "Rabbitohs",
-      "player": "Euan Aitken",
-      "classification": "VERIFIED",
-      "source_class": "OFFICIAL_NRL",
-      "observation": "Euan Aitken remains verified unavailable for the remainder of 2026.",
-      "decision_effect": "RABBITOHS_SELECTION_RETAINED_69"
-    }
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-08T16:30:08+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"MATERIAL_OFFICIAL_FINALS_TEAM_LISTS_AND_ROSTER_RECONCILIATION",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
+  "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "official_team_list_source":{"classification":"VERIFIED","source_class":"OFFICIAL_NRL_TEAM_LIST","source_url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","published_at":"2026-09-08T15:59:00+10:00","capture_at":"2026-09-08T16:30:08+10:00"},
+  "fixture_updates":[
+    {"fixture":"Rabbitohs v Knights","observation":"South Sydney named Matt Dufty at fullback, Tallis Duncan starting, Adam Elliott on the bench and Euan Aitken absent. Newcastle named Dominic Young and Tyson Frizell after suspension, Phoenix Crossland at hooker and Francis Manuleleua in the second row.","team_macro_effect":"Newcastle continuity counter-case strengthened by multiple verified returns; South Sydney forward continuity improves through Duncan but Aitken remains a verified loss.","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","observation":"Warriors named Leka Halasima, Wayde Egan, Kurt Capewell and Jackson Ford; Dallin Watene-Zelezniak remains sidelined. Dolphins named Selwyn Cobbo, Kodi Nikorima and Kulikefu Finefeuiaki and are described by NRL.com as full strength.","team_macro_effect":"Both teams gain verified continuity; Dolphins counter-case strengthens materially because the previously provisional Cobbo/Nikorima/Finefeuiaki returns are now official.","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN"},
+    {"fixture":"Sharks v Cowboys","observation":"Cronulla named Braydon Trindall at five-eighth and restored Nicho Hynes, Blayke Brailey, KL Iro, Teig Wilton and Thomas Hazelton. North Queensland named Griffin Neame, Jeremiah Nanai and Zac Laybutt. Reuben Cotter is named at lock but remains pending judiciary.","team_macro_effect":"Cronulla spine and senior-unit continuity materially strengthens; Cowboys also regain three starters. Cotter remains a binary unresolved middle-continuity variable until the hearing outcome is verified.","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","observation":"Penrith named Isaah Yeo to start and Scott Sorensen to return. Sydney restored its rested senior cohort including James Tedesco, Daly Cherry-Evans, Reece Robson, Victor Radley and others; Angus Crichton is named on the bench after 11 games out, while Sam Walker remains out for the season.","team_macro_effect":"Roosters counter-case materially strengthens and the Round 27 50-20 loss remains down-weighted because the Finals side is substantially different. Penrith continuity remains strong with Yeo and Sorensen named.","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
   ],
-  "market_absorption_clock": {
-    "status": "NO_NEW_RELIABLE_MATERIAL_MOVEMENT_ESTABLISHED",
-    "latest_reliable_baseline": {
-      "Rabbitohs_v_Knights": {"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},
-      "Warriors_v_Dolphins": {"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},
-      "Sharks_v_Cowboys": {"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},
-      "Panthers_v_Roosters": {"home":1.30,"away":3.50,"normalized_home_probability":72.92,"mayhem_confidence":73,"delta_pp":0.08}
-    },
-    "integrity": "No market movement assigned a causal explanation."
-  },
-  "weather": {
-    "Sydney": "BOM refreshed; no verified material change supporting a directional team edge.",
-    "Auckland": "No new verified material weather change supporting a directional team edge established in this cycle.",
-    "decision_effect": "NONE"
-  },
-  "judiciary_state": {
-    "Reuben_Cotter": "JUDICIARY_UNRESOLVED; hearing Tuesday 18:00 AEST",
-    "Michael_Gabrael": "VERIFIED_SUSPENDED_TWO_MATCHES",
-    "Victor_Radley": "FINE_ONLY_NO_ROUND27_SUSPENSION",
-    "Isaiah_Papalii": "FINE_ONLY_NO_ROUND27_SUSPENSION"
-  },
-  "player_roster_statistical_coverage": {
-    "status": "PLAYER_ROSTER_POPULATION_INCOMPLETE",
-    "material_change": false,
-    "finding": "Official Finals Week 1 named squads are not yet published at this capture. Full roster/statistical reconciliation remains mandatory after authoritative squad publication."
-  },
-  "current_decisions": [
-    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
-    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},
-    {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
-    {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
-  ],
-  "information_advantage": "NONE_ASSERTED",
-  "incorrect_tip_halt": "CLEAR",
-  "persistence_reconciliation": "Verified 2026 Cowboys 46-34 Sharks head-to-head result added to active matchup memory. Frozen state not rewritten; current Sharks 64% retained.",
-  "audit_integrity": "PRESERVED"
+  "market_absorption_clock":{"status":"NO_NEW_RELIABLE_MATERIAL_MOVEMENT_ESTABLISHED_THIS_RUN","latest_reliable_baseline":{"Rabbitohs_v_Knights":{"home":1.40,"away":2.95,"normalized_home_probability":67.82,"mayhem_confidence":69,"delta_pp":1.18},"Warriors_v_Dolphins":{"home":1.58,"away":2.40,"normalized_home_probability":60.30,"mayhem_confidence":63,"delta_pp":2.70},"Sharks_v_Cowboys":{"home":1.42,"away":2.85,"normalized_home_probability":66.74,"mayhem_confidence":64,"delta_pp":-2.74},"Panthers_v_Roosters":{"home":1.30,"away":3.50,"normalized_home_probability":72.92,"mayhem_confidence":73,"delta_pp":0.08}},"integrity":"Prior reliable baseline retained; no market movement assigned a causal explanation."},
+  "weather":{"Sydney":"BOM checked; no new verified material directional edge established in this run.","Auckland":"MetService checked; detailed forecast fields were not machine-readable in this run, so no directional edge was asserted.","decision_effect":"NONE"},
+  "judiciary_state":{"Reuben_Cotter":"NAMED_STARTER_PENDING_JUDICIARY; hearing remains unresolved at capture time","Michael_Gabrael":"VERIFIED_SUSPENDED_TWO_MATCHES","Victor_Radley":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only","Isaiah_Papalii":"VERIFIED_NAMED_STARTER; prior Round 27 charge fine only"},
+  "player_roster_statistical_coverage":{"status":"ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE","material_change":true,"roster_identities":"176/176 official Finals Week 1 named squad identities persisted","statistics":"Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster. No completeness claim is made."},
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "persistence_reconciliation":"Official Finals Week 1 roster baseline promoted to the persistent player manifest. Previous PLAYER_ROSTER_POPULATION_INCOMPLETE defect is closed; statistical dossier completeness remains an open integrity item.",
+  "audit_integrity":"PRESERVED"
 }
