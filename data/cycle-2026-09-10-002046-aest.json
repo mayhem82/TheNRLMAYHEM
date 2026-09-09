@@ -1,0 +1,27 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-10T00:20:46+10:00",
+  "lifecycle_reconciliation":{"state":"ALL_RELEVANT_FIXTURES_UPCOMING","result_verification_backlog":[],"missed_not_captured":false},
+  "fixtures":[
+    {"id":"FW1-SS-NKN-2026-09-11","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Rabbitohs","confidence":69,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-10T19:50:00+10:00","market":"NO_FRESH_RELIABLE_TWO_SIDED_BOARD_ESTABLISHED_THIS_CYCLE"},
+    {"id":"FW1-WAR-DOL-2026-09-12","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Warriors","confidence":63,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-11T16:05:00+10:00","market":"NO_FRESH_RELIABLE_TWO_SIDED_BOARD_ESTABLISHED_THIS_CYCLE"},
+    {"id":"FW1-SHA-COW-2026-09-12","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Sharks","confidence":64,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-11T19:50:00+10:00","market":"NO_FRESH_RELIABLE_TWO_SIDED_BOARD_ESTABLISHED_THIS_CYCLE"},
+    {"id":"FW1-PEN-SYD-2026-09-13","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Panthers","confidence":73,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-12T16:05:00+10:00","market":"NO_FRESH_RELIABLE_TWO_SIDED_BOARD_ESTABLISHED_THIS_CYCLE"}
+  ],
+  "sources_checked":[
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","finding":"All four fixtures remain upcoming. Warriors current named squad still includes Erin Clark at lock and Sam Healey, Tanner Stowers-Smith and Demitric Vaimauga on the interchange."},
+    {"source":"NRL official Warriors player profiles","finding":"Batch 016 persisted for Erin Clark, Sam Healey, Tanner Stowers-Smith and Demitric Vaimauga."},
+    {"source":"Bureau of Meteorology Sydney area","url":"https://www.bom.gov.au/places/nsw/austral/forecast/","finding":"Friday 11 September partly cloudy, 0 mm expected rainfall, very low rain chance and light winds; no demonstrated directional football edge."}
+  ],
+  "player_intelligence":{"roster_population":"176/176 VERIFIED OFFICIAL FINALS WEEK 1 NAMED SQUAD IDENTITIES","statistical_dossier_state":"56 VERIFIED CURRENT-SEASON DOSSIERS; 1 VERIFIED NO COMPLETED SAMPLE; 3 PROFILE_DATA_UNAVAILABLE; 116 PENDING","warriors_reconciliation":"16/22","trend_update":"Erin Clark Rounds 1-2 and Demitric Vaimauga Rounds 1-2 preserved as descriptive workload evidence; Tanner Stowers-Smith one-row capture classified LOW_SAMPLE_VARIANCE_ONLY"},
+  "weather_state":"NO_MATERIAL_DIRECTIONAL_CHANGE",
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "material_change":true,
+  "material_change_type":"PLAYER_STATISTICAL_DOSSIER_PROGRESS",
+  "public_notification":"ELIGIBLE_PLAYER_PROFILE_PROGRESS",
+  "persistence":{"batch_016":"VERIFIED_REPOSITORY_WRITE","coverage":"VERIFIED_REPOSITORY_WRITE","manifest":"VERIFIED_REPOSITORY_WRITE","material_update":"VERIFIED_REPOSITORY_WRITE","rendered_public_page":"VERIFICATION_PATH_UNAVAILABLE"},
+  "audit_integrity":"PRESERVED"
+}
