@@ -1,0 +1,37 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-10T06:37:11+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_reconciliation":"NO_KICKOFF_PASSED",
+  "fixtures":{"Rabbitohs_Knights":"UPCOMING","Warriors_Dolphins":"UPCOMING","Sharks_Cowboys":"UPCOMING","Panthers_Roosters":"UPCOMING"},
+  "checkpoint":{"due":false,"next":"Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "sources_checked":[
+    "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/connelly-lemuelu/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/felise-kaufusi/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/brad-schneider/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/jake-averillo/",
+    "https://www.bom.gov.au/places/nsw/camperdown/forecast/",
+    "https://www.bom.gov.au/places/nsw/randwick/forecast",
+    "https://www.bom.gov.au/places/nsw/sydney-olympic-park/forecast/"
+  ],
+  "weather":{"Rabbitohs_Knights":"Friday Sydney: dry/partly cloudy to clearing, 0 mm expected, about 10% rain chance, light winds; NONE_DIRECTIONAL","Warriors_Dolphins":"Prior Auckland wind-variance signal retained; no fresh authoritative venue-specific change sufficient to alter classification","Sharks_Cowboys":"Saturday Sydney remains dry/mild; NONE_DIRECTIONAL","Panthers_Roosters":"Sunday western Sydney dry/mostly sunny; NONE_DIRECTIONAL"},
+  "market":{"Rabbitohs_Knights":{"prices":[1.39,3.00],"normalized":[68.34,31.66],"freshness":"PRIOR_VERIFIED_SNAPSHOT"},"Warriors_Dolphins":{"prices":[1.59,2.36],"normalized":[59.75,40.25],"state":"REVIEW_REQUIRED","confidence_delta_pp":3.25,"freshness":"PRIOR_VERIFIED_SNAPSHOT"},"Sharks_Cowboys":{"prices":[1.42,2.85],"normalized":[66.74,33.26],"freshness":"PRIOR_VERIFIED_SNAPSHOT"},"Panthers_Roosters":{"prices":[1.33,3.35],"normalized":[71.58,28.42],"freshness":"PRIOR_VERIFIED_SNAPSHOT"}},
+  "market_capture_state":"NO_NEW_RELIABLE_TWO_SIDED_STATE_VERIFIED",
+  "player_reconciliation":{"roster_identities":176,"verified_season_dossiers":80,"verified_no_completed_sample":1,"profile_data_unavailable":5,"reconciled":86,"pending":90,"Dolphins":"20/22"},
+  "new_player_dossiers":["Connelly Lemuelu","Felise Kaufusi","Bradley Schneider","Jake Averillo"],
+  "player_trend_effects":[
+    "Lemuelu: Rounds 23, 24 and 27 verify movement from starting second row to interchange; role-history only.",
+    "Kaufusi: Rounds 23-25 verify continuous interchange deployment with 16-20 minute workloads; descriptive only.",
+    "Schneider: Rounds 16-20 verify halfback/interchange role variability and variable kicking burden; uncertainty/utility evidence only.",
+    "Averillo: verified centre appearances in Rounds 18-19 and five-eighth in Round 27; role-change uncertainty only."
+  ],
+  "decision_effect":"No tip/confidence change. Warriors v Dolphins remains REVIEW_REQUIRED because 63% exceeds the last reliable normalized market probability by 3.25pp without newly established independent causal support.",
+  "evidence_family_independence":"No new market-linked or shared-input evidence family counted as independent corroboration.",
+  "adversarial_counter_case":"No pre-freeze gate due in this cycle; existing fixture counter-cases remain active and must be reconstructed at the formal checkpoint.",
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED"
+}
