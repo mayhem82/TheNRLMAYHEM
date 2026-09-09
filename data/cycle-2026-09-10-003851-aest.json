@@ -1,0 +1,23 @@
+{
+  "system":"The NRL MAYHEM",
+  "captured_at":"2026-09-10T00:38:51+10:00",
+  "stage":"FINALS_WEEK_1",
+  "lifecycle_reconciliation":{"result":"ALL_RELEVANT_FIXTURES_UPCOMING","result_verification_backlog":[],"stale_lifecycle_repaired":false},
+  "checkpoint_reconciliation":{"due_now":false,"next_checkpoint":"FW1-SS-NKN-2026-09-11 T-24h","due_sydney":"2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "weather":{"source":"https://www.bom.gov.au/places/nsw/randwick/forecast/","fixture":"Rabbitohs v Knights","forecast":"Friday 11 September: 12-20 C, partly cloudy, 0 mm possible rainfall, 20% chance of any rain, light winds.","classification":"VERIFIED_NO_DIRECTIONAL_EDGE"},
+  "player_reconciliation":{"batch":"017","warriors":{"reconciled":22,"roster":22,"verified_2026_nrl_season_dossiers":20,"profile_data_unavailable":2,"pending":0},"overall":{"roster":176,"reconciled":66,"verified_2026_nrl_season_dossiers":60,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending":110},"decision_effect":"NO_CONFIDENCE_CHANGE"},
+  "new_player_facts":[
+    {"player":"Jackson Ford","classification":"VERIFIED","season":{"appearances":14,"tries":4,"line_breaks":6,"tackles_made":576,"average_running_metres":161}},
+    {"player":"Eddie Ieremia-Toeava","classification":"VERIFIED","season":{"appearances":12,"tries":1,"line_break_assists":4,"tackles_made":316,"average_running_metres":92}},
+    {"player":"Adam Pompey","classification":"VERIFIED","season":{"appearances":16,"tries":5,"try_assists":6,"tackles_made":183,"average_running_metres":112}},
+    {"player":"Luke Laulilii","classification":"VERIFIED_OFFICIAL_NRL_PROFILE_CURRENTLY_LISTED_UNDER_WESTS_TIGERS","season":{"appearances":9,"tries":6,"try_assists":2,"line_breaks":7,"average_running_metres":157.4}},
+    {"player":"Jett Cleary","classification":"PROFILE_DATA_UNAVAILABLE","note":"NRL debut independently verified by official NRL reporting; no official NRL Premiership statistical profile verified this cycle."},
+    {"player":"Makaia Tafua","classification":"PROFILE_DATA_UNAVAILABLE","note":"Current Finals reserve presence verified; no official NRL Premiership statistical profile verified this cycle."}
+  ],
+  "market":{"state":"NO_NEW_RELIABLE_TWO_SIDED_MARKET_STATE_CAPTURED","decision_effect":"NONE","integrity":"No movement or cause asserted."},
+  "tips":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "persistence":{"batch_017":"PERSISTED","coverage":"PERSISTED","player_manifest":"PERSISTED","material_update":"PERSISTED"},
+  "audit_integrity":"PRESERVED"
+}
