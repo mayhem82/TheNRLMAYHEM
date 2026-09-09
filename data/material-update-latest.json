@@ -2,33 +2,33 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-10T05:42:18+10:00",
+  "captured_at":"2026-09-10T06:37:11+10:00",
   "timezone":"Australia/Sydney",
   "trigger":"PLAYER_STATISTICAL_DOSSIER_PROGRESS",
   "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
   "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
   "observations":[
-    {"player":"Morgan Knowles, Kurt Donoghoe, Ray Stone, Francis Molo","team":"Dolphins","fixture":"FW1-WAR-DOL-2026-09-12","classification":"PLAYER_LAYER_RECONCILED","observation":"Four additional current Dolphins players now have verified official NRL 2026 statistical dossiers persisted in batch 021. Knowles: 23 appearances, 773 tackles and 67 average running metres. Donoghoe: 15 appearances, 5 try assists, 411 tackles and 76 average running metres. Stone: 19 appearances, 429 tackles, 481.6 post-contact metres and 68 average running metres. Molo: 20 appearances, 423 tackles, 614 post-contact metres and 83 average running metres.","decision_effect":"Dolphins player reconciliation advances to 16/22. Opponent middle/interchange statistical visibility materially improves, but profile statistics alone do not establish a causal directional edge."},
-    {"fixture":"Warriors v Dolphins","classification":"MARKET_GATE_REVIEW_REQUIRED_RETAINED","observation":"Fresh DashBet H2H remains Warriors 1.59 / Dolphins 2.36, normalizing to 59.75% / 40.25%.","decision_effect":"Standing Warriors 63% remains +3.25 percentage points above normalized market probability. No new independent causal football mechanism was established, so REVIEW_REQUIRED remains in force.","cause":"UNKNOWN"}
+    {"player":"Connelly Lemuelu, Felise Kaufusi, Bradley Schneider, Jake Averillo","team":"Dolphins","fixture":"FW1-WAR-DOL-2026-09-12","classification":"PLAYER_LAYER_RECONCILED","observation":"Four additional current Dolphins players now have verified official NRL 2026 statistical dossiers persisted in batch 022. Lemuelu: 22 appearances, 6 tries, 710 tackles and 104 average running metres. Kaufusi: 19 appearances, 1 try, 273 tackles and 56 average running metres. Schneider: 13 appearances, 4 try assists, 3 forced drop-outs and 190.9 average kicking metres. Averillo: 10 appearances, 6 tries, 5 try assists and 156 average running metres.","decision_effect":"Dolphins player reconciliation advances to 20/22. Recent role samples materially improve opponent depth and contingency-role visibility, but profile statistics alone do not establish a directional edge."},
+    {"fixture":"Warriors v Dolphins","classification":"MARKET_GATE_REVIEW_REQUIRED_RETAINED","observation":"No newer reliable two-sided market state was independently verified in this cycle; the previously verified Warriors 1.59 / Dolphins 2.36 state remains the last reliable market snapshot.","decision_effect":"Standing Warriors 63% remains REVIEW_REQUIRED against the last verified normalized market probability of 59.75%; no confidence rewrite is permitted without new evidence.","cause":"UNKNOWN"}
   ],
   "fixture_updates":[
-    {"fixture":"Rabbitohs v Knights","market":{"prices":[1.39,3.00],"normalized":[68.34,31.66]},"selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":0.66},
-    {"fixture":"Warriors v Dolphins","market":{"prices":[1.59,2.36],"normalized":[59.75,40.25]},"selection":"Warriors","confidence":63,"state":"REVIEW_REQUIRED","confidence_vs_market_delta_pp":3.25},
-    {"fixture":"Sharks v Cowboys","market":{"prices":[1.42,2.85],"normalized":[66.74,33.26]},"selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":-2.74},
-    {"fixture":"Panthers v Roosters","market":{"prices":[1.33,3.35],"normalized":[71.58,28.42]},"selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":1.42}
+    {"fixture":"Rabbitohs v Knights","market":{"prices":[1.39,3.00],"normalized":[68.34,31.66],"freshness":"PRIOR_VERIFIED_SNAPSHOT"},"selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":0.66},
+    {"fixture":"Warriors v Dolphins","market":{"prices":[1.59,2.36],"normalized":[59.75,40.25],"freshness":"PRIOR_VERIFIED_SNAPSHOT"},"selection":"Warriors","confidence":63,"state":"REVIEW_REQUIRED","confidence_vs_market_delta_pp":3.25},
+    {"fixture":"Sharks v Cowboys","market":{"prices":[1.42,2.85],"normalized":[66.74,33.26],"freshness":"PRIOR_VERIFIED_SNAPSHOT"},"selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":-2.74},
+    {"fixture":"Panthers v Roosters","market":{"prices":[1.33,3.35],"normalized":[71.58,28.42],"freshness":"PRIOR_VERIFIED_SNAPSHOT"},"selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","confidence_vs_market_delta_pp":1.42}
   ],
-  "market_absorption_clock":{"source":"https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches","captured_at":"2026-09-10T05:42:18+10:00","movement_without_known_cause":"SIGNAL","integrity":"No causal explanation assigned to price movement without evidence."},
+  "market_absorption_clock":{"last_reliable_source":"https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches","last_reliable_capture":"2026-09-10T05:42:18+10:00","current_cycle":"NO_NEW_RELIABLE_TWO_SIDED_STATE_VERIFIED","movement_without_known_cause":"SIGNAL","integrity":"No causal explanation assigned to price movement without evidence."},
   "weather":{
-    "Rabbitohs_Knights":"BOM Friday 11 September remains partly cloudy with 0 mm expected rainfall, about 10% rain chance and light winds. No demonstrated directional football edge.",
-    "Warriors_Dolphins":"Prior Auckland wind-variance signal retained; no demonstrated team-specific directional edge established in this cycle.",
-    "Sharks_Cowboys":"Sydney Saturday remains non-directional in the current forecast set; mandatory weather monitoring remains active.",
-    "Panthers_Roosters":"No material directional weather change established; mandatory weather monitoring remains active.",
+    "Rabbitohs_Knights":"Fresh Sydney/BOM evidence for Friday 11 September remains dry/non-directional: partly cloudy or clearing, approximately 19-21C maximum, 0 mm expected and about 10% rain chance with light winds.",
+    "Warriors_Dolphins":"Prior Auckland wind-variance signal retained; no fresh authoritative venue-specific forecast sufficient to alter the directional classification was established in this cycle.",
+    "Sharks_Cowboys":"Fresh Sydney forecast for Saturday remains dry and mild with no demonstrated directional team effect.",
+    "Panthers_Roosters":"Fresh western-Sydney forecast for Sunday remains dry, mostly sunny and light-to-moderate northeasterly; no demonstrated directional team effect.",
     "decision_effect":"NONE_DIRECTIONAL"
   },
-  "player_roster_statistical_coverage":{"status":"ACTIVE_RECONCILIATION","roster_identities":"176/176 official Finals Week 1 named squad identities persisted","verified_season_dossiers":76,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":5,"reconciled_player_identities":82,"pending_profile_reconciliation":94,"team_completion":{"Rabbitohs":"22/22 RECONCILED","Knights":"22/22 RECONCILED","Warriors":"22/22 RECONCILED","Dolphins":"16/22 RECONCILED","Sharks":"0/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},"latest_completed":["Morgan Knowles","Kurt Donoghoe","Ray Stone","Francis Molo"]},
+  "player_roster_statistical_coverage":{"status":"ACTIVE_RECONCILIATION","roster_identities":"176/176 official Finals Week 1 named squad identities persisted","verified_season_dossiers":80,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":5,"reconciled_player_identities":86,"pending_profile_reconciliation":90,"team_completion":{"Rabbitohs":"22/22 RECONCILED","Knights":"22/22 RECONCILED","Warriors":"22/22 RECONCILED","Dolphins":"20/22 RECONCILED","Sharks":"0/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},"latest_completed":["Connelly Lemuelu","Felise Kaufusi","Bradley Schneider","Jake Averillo"]},
   "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"REVIEW_REQUIRED"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
-  "canonical_reconciliation":{"status":"LATEST_MATERIAL_OVERLAY_ACTIVE","file":"data/finals-week1-2026.json","roster_file":"data/player-roster-finals-week1-2026.json","latest_stats_file":"data/player-stats-finals-week1-batch-021-2026.json","coverage_file":"data/finals-week1-player-ingestion-coverage-2026.json"},
+  "canonical_reconciliation":{"status":"LATEST_MATERIAL_OVERLAY_ACTIVE","file":"data/finals-week1-2026.json","roster_file":"data/player-roster-finals-week1-2026.json","latest_stats_file":"data/player-stats-finals-week1-batch-022-2026.json","coverage_file":"data/finals-week1-player-ingestion-coverage-2026.json"},
   "audit_integrity":"PRESERVED"
 }
