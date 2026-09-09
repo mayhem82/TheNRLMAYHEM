@@ -1,0 +1,63 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "captured_at": "2026-09-10T08:29:00+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycle_reconciliation": "NO_KICKOFF_PASSED",
+  "fixtures": {
+    "Rabbitohs_Knights": "UPCOMING",
+    "Warriors_Dolphins": "UPCOMING",
+    "Sharks_Cowboys": "UPCOMING",
+    "Panthers_Roosters": "UPCOMING"
+  },
+  "checkpoint": {
+    "due": false,
+    "next": "Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "weather": {
+    "Rabbitohs_Knights": "Fresh Sydney forecast for Friday 2026-09-11: sunny breaks, approximately 19 C high / 11 C low; no new directional weather effect established.",
+    "Sharks_Cowboys": "Fresh Sydney forecast for Saturday 2026-09-12: pleasant with sunny spells, approximately 21 C high / 12 C low; no new directional weather effect established.",
+    "Panthers_Roosters": "Fresh Sydney-region outlook for Sunday 2026-09-13 remains mild/dry in the available city forecast; venue-specific directional effect not established.",
+    "Warriors_Dolphins": "Prior Auckland wind-variance signal retained; no fresh authoritative Auckland retrieval completed in this cycle."
+  },
+  "market": {
+    "Rabbitohs_Knights": {"last_verified_prices": [1.39, 3.00], "normalized": [68.34, 31.66], "freshness": "PRIOR_VERIFIED_STATE"},
+    "Warriors_Dolphins": {"last_verified_prices": [1.59, 2.36], "normalized": [59.75, 40.25], "state": "REVIEW_REQUIRED", "confidence_delta_pp": 3.25, "freshness": "PRIOR_VERIFIED_STATE"},
+    "Sharks_Cowboys": {"last_verified_prices": [1.42, 2.85], "normalized": [66.74, 33.26], "freshness": "PRIOR_VERIFIED_STATE"},
+    "Panthers_Roosters": {"last_verified_prices": [1.33, 3.35], "normalized": [71.58, 28.42], "freshness": "PRIOR_VERIFIED_STATE"}
+  },
+  "market_capture_state": "FRESH_EXTERNAL_MARKET_RETRIEVAL_UNAVAILABLE_TRANSIENT; PRIOR_VERIFIED_STATE_PRESERVED_WITHOUT_CAUSAL_INFERENCE",
+  "player_reconciliation": {
+    "roster_identities": 176,
+    "verified_season_dossiers": 82,
+    "verified_no_completed_sample": 1,
+    "profile_data_unavailable": 5,
+    "reconciled": 88,
+    "pending": 88,
+    "Rabbitohs": "22/22",
+    "Knights": "22/22",
+    "Warriors": "22/22",
+    "Dolphins": "22/22",
+    "Sharks": "0/22",
+    "Cowboys": "0/22",
+    "Panthers": "0/22",
+    "Roosters": "0/22"
+  },
+  "player_population_state": "INCOMPLETE_UNCHANGED; SHARKS_NEXT_PRIORITY",
+  "sources_checked": [
+    "repository:data/cycle-2026-09-10-072135-aest.json",
+    "repository:data/finals-week1-player-ingestion-coverage-2026.json",
+    "repository:data/player-roster-finals-week1-2026.json",
+    "fresh weather forecast source for Sydney",
+    "NRL/player-profile and market web retrieval attempted; transient source retrieval failure"
+  ],
+  "decision_effect": "No tip/confidence change. Warriors v Dolphins remains REVIEW_REQUIRED because standing 63% exceeds the last verified normalized market probability by 3.25pp without independent causal support sufficient to clear the gate.",
+  "evidence_family_independence": "No new evidence family admitted as independent corroboration.",
+  "adversarial_counter_case": "No formal pre-freeze checkpoint due; fixture-specific counter-case reconstruction remains mandatory at each applicable checkpoint.",
+  "information_advantage": "NONE_ASSERTED",
+  "incorrect_tip_halt": "CLEAR",
+  "audit_integrity": "PRESERVED",
+  "persistence": "WRITE_REQUESTED",
+  "notification_trigger": "NONE"
+}
