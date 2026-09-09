@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-09T16:06:03+10:00",
+  "captured_at": "2026-09-09T16:27:39+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "PLAYER_STATISTICAL_DOSSIER_PROGRESS_AND_MARKET_WEATHER_REFRESH",
+  "trigger": "PLAYER_STATISTICAL_DOSSIER_PROGRESS",
   "lifecycle_reconciliation": {
     "status": "NO_KICKOFF_PASSED",
     "fixtures": [
@@ -21,28 +21,16 @@
   },
   "observations": [
     {
-      "players": ["Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best"],
+      "players": ["Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell"],
       "team": "Knights",
       "fixture": "FW1-SS-NKN-2026-09-11",
       "classification": "VERIFIED_STATISTICAL_DOSSIERS",
-      "observation": "First four currently named Knights Finals Week 1 players received verified official NRL career/current-season statistical dossiers in batch 008. Knights season-profile dossier coverage is now 4/22.",
+      "observation": "Four additional currently named Knights Finals Week 1 players received verified official NRL career/current-season statistical dossiers in batch 009. Knights season-profile dossier coverage is now 8/22.",
       "decision_effect": "Opponent statistical visibility improved for the NEXT fixture; no standalone confidence increase."
-    },
-    {
-      "fixture": "FW1-SS-NKN-2026-09-11",
-      "classification": "INDEPENDENT_MARKET_CORROBORATION",
-      "observation": "A fresh Bet365 two-sided board reported Rabbitohs $1.35 and Knights $3.10. Overround-adjusted Rabbitohs probability is approximately 69.66%.",
-      "decision_effect": "The existing Rabbitohs 69% MAYHEM confidence is approximately 0.66 percentage points below this independently observed normalized market probability. This is a different bookmaker/source from the retained Sportsbet absorption state, so it is not treated as same-source movement."
-    },
-    {
-      "fixture": "FW1-SS-NKN-2026-09-11",
-      "classification": "WEATHER_REFRESH",
-      "observation": "Fresh Bureau of Meteorology Sydney-area forecast for Friday 11 September is partly cloudy, 0 mm expected rainfall, 10% chance of rain and light winds.",
-      "decision_effect": "No demonstrated directional football edge."
     }
   ],
   "fixture_updates": [
-    {"fixture":"Rabbitohs v Knights","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN; RABBITOHS_22_OF_22_DOSSIERS_COMPLETE; KNIGHTS_4_OF_22_DOSSIERS_COMPLETE"},
+    {"fixture":"Rabbitohs v Knights","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN; RABBITOHS_22_OF_22_DOSSIERS_COMPLETE; KNIGHTS_8_OF_22_DOSSIERS_COMPLETE"},
     {"fixture":"Warriors v Dolphins","decision_effect":"WARRIORS_SELECTION_RETAINED_63_REVIEW_REQUIRED_NOT_FROZEN; PLUS_3PP_LAST_VERIFIED_SPORTSBET_GATE_BREACH_REMAINS"},
     {"fixture":"Sharks v Cowboys","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
     {"fixture":"Panthers v Roosters","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
@@ -72,13 +60,13 @@
   "player_roster_statistical_coverage": {
     "status": "ACTIVE_RECONCILIATION",
     "roster_identities": "176/176 official Finals Week 1 named squad identities persisted",
-    "verified_season_dossiers": 26,
-    "pending_season_dossiers": 150,
-    "team_completion": {"Rabbitohs":"22/22 COMPLETE","Knights":"4/22","Warriors":"0/22","Dolphins":"0/22","Sharks":"0/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},
+    "verified_season_dossiers": 30,
+    "pending_season_dossiers": 146,
+    "team_completion": {"Rabbitohs":"22/22 COMPLETE","Knights":"8/22","Warriors":"0/22","Dolphins":"0/22","Sharks":"0/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},
     "per_round_complete": 1,
     "per_round_partial": 2,
-    "per_round_pending_with_verified_season_dossier": 23,
-    "latest_completed": ["Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best"]
+    "per_round_pending_with_verified_season_dossier": 27,
+    "latest_completed": ["Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell"]
   },
   "current_decisions": [
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -92,7 +80,7 @@
     "status": "LATEST_MATERIAL_OVERLAY_ACTIVE",
     "file": "data/finals-week1-2026.json",
     "roster_file": "data/player-roster-finals-week1-2026.json",
-    "stats_files": ["data/player-stats-finals-week1-2026.json","data/player-stats-finals-week1-batch-005-2026.json","data/player-stats-finals-week1-batch-006-2026.json","data/player-stats-finals-week1-batch-007-2026.json","data/player-stats-finals-week1-batch-008-2026.json"],
+    "stats_files": ["data/player-stats-finals-week1-2026.json","data/player-stats-finals-week1-batch-005-2026.json","data/player-stats-finals-week1-batch-006-2026.json","data/player-stats-finals-week1-batch-007-2026.json","data/player-stats-finals-week1-batch-008-2026.json","data/player-stats-finals-week1-batch-009-2026.json"],
     "coverage_file": "data/finals-week1-player-ingestion-coverage-2026.json"
   },
   "audit_integrity": "PRESERVED"
