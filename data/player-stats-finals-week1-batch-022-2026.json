@@ -1,0 +1,98 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "022",
+  "captured_at": "2026-09-10T06:37:11+10:00",
+  "source_class": "NRL.com official Finals Week 1 team list and official NRL player profiles",
+  "rule": "Raw profile facts are preserved separately from MAYHEM inference. Fields not established from the official profile capture are FIELD_NOT_PUBLISHED. Per-round observations remain separate from season totals and no causal explanation is inferred from statistics alone.",
+  "players": [
+    {
+      "player": "Connelly Lemuelu",
+      "team": "Dolphins",
+      "finals_role": "Named interchange",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":107,"tries":27},
+      "season": {"appearances":22,"tries":6,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":9,"line_break_assists":4,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":15,"tackles_made":710,"missed_tackles":46,"average_running_metres":104,"total_running_metres":2294,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":1042,"fantasy_average":47.4},
+      "per_round_state": "RECENT_ROLE_SAMPLE_VERIFIED",
+      "per_round": [
+        {"round":23,"opponent":"Broncos","result":"W 40-32","position":"2nd Row","minutes":80,"tries":2,"try_assists":1,"line_breaks":2,"tackle_breaks":2,"post_contact_metres":37,"tackles_made":23,"missed_tackles":4,"running_metres":126},
+        {"round":24,"opponent":"Sea Eagles","result":"W 22-0","position":"2nd Row","minutes":47,"tries":0,"tackle_breaks":0,"post_contact_metres":27,"tackles_made":19,"missed_tackles":1,"running_metres":53},
+        {"round":27,"opponent":"Titans","result":"W 24-20","position":"Interchange","minutes":29,"tries":0,"tackle_breaks":2,"post_contact_metres":33,"offloads":1,"tackles_made":13,"missed_tackles":0,"running_metres":67}
+      ],
+      "trend_state": "VERIFIED_ROLE_CHANGE_RECENT_SAMPLE",
+      "trend_note": "Rounds 23, 24 and 27 show movement from starting second row to interchange by Round 27. This is role-continuity evidence only; no causal explanation is inferred.",
+      "team_effect": "Interchange edge/middle depth baseline enriched; current Finals role is consistent with the verified Round 27 interchange deployment.",
+      "source": "https://www.nrl.com/players/nrl-premiership/dolphins/connelly-lemuelu/",
+      "captured_at": "2026-09-10T06:37:11+10:00"
+    },
+    {
+      "player": "Felise Kaufusi",
+      "team": "Dolphins",
+      "finals_role": "Named interchange",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":242,"tries":33},
+      "season": {"appearances":19,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":1,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":2,"tackles_made":273,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":56,"total_running_metres":1078,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":374,"fantasy_average":19.7},
+      "per_round_state": "RECENT_INTERCHANGE_SAMPLE_VERIFIED",
+      "per_round": [
+        {"round":23,"opponent":"Broncos","result":"W 40-32","position":"Interchange","minutes":16,"tries":0,"post_contact_metres":35,"tackles_made":9,"missed_tackles":0,"running_metres":88},
+        {"round":24,"opponent":"Sea Eagles","result":"W 22-0","position":"Interchange","minutes":20,"tries":0,"post_contact_metres":20,"tackles_made":7,"missed_tackles":0,"running_metres":55},
+        {"round":25,"opponent":"Eels","result":"W 34-16","position":"Interchange","minutes":17,"tries":0,"tackle_breaks":3,"post_contact_metres":18,"tackles_made":6,"missed_tackles":0,"running_metres":40}
+      ],
+      "trend_state": "VERIFIED_INTERCHANGE_ROLE_CONTINUITY",
+      "trend_note": "Rounds 23-25 show continuous interchange deployment with 16-20 minute workloads. Descriptive role/workload evidence only.",
+      "team_effect": "Veteran interchange-forward workload baseline enriched; no directional performance effect asserted from the statistics alone.",
+      "source": "https://www.nrl.com/players/nrl-premiership/dolphins/felise-kaufusi/",
+      "captured_at": "2026-09-10T06:37:11+10:00"
+    },
+    {
+      "player": "Bradley Schneider",
+      "team": "Dolphins",
+      "finals_role": "Named interchange",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":57,"tries":9},
+      "season": {"appearances":13,"tries":2,"try_assists":4,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":6,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":2,"tackles_made":276,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":49,"total_running_metres":640,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":190.9,"forced_drop_outs":3,"goals":"FIELD_NOT_PUBLISHED","fantasy_total":438,"fantasy_average":33.7},
+      "per_round_state": "MULTI_ROLE_SAMPLE_VERIFIED",
+      "per_round": [
+        {"round":16,"opponent":"Wests Tigers","result":"W 36-22","position":"Halfback","minutes":80,"kicking_metres":352,"try_assists":3,"tackle_breaks":2,"post_contact_metres":9,"tackles_made":17,"missed_tackles":4,"running_metres":81},
+        {"round":17,"opponent":"Warriors","result":"W 26-24","position":"Interchange","minutes":67,"kicking_metres":559,"tackle_breaks":4,"post_contact_metres":13,"tackles_made":22,"missed_tackles":2,"running_metres":56},
+        {"round":18,"opponent":"Knights","result":"L 12-13","position":"Halfback","minutes":80,"kicking_metres":595,"forced_drop_outs":1,"post_contact_metres":9,"tackles_made":22,"missed_tackles":3,"running_metres":62},
+        {"round":19,"opponent":"Sharks","result":"L 0-66","position":"Halfback","minutes":80,"kicking_metres":323,"post_contact_metres":8,"tackles_made":28,"missed_tackles":2,"running_metres":29},
+        {"round":20,"opponent":"Cowboys","result":"W 36-16","position":"Halfback","minutes":80,"kicking_metres":455,"tackle_breaks":2,"post_contact_metres":18,"tackles_made":17,"missed_tackles":2,"running_metres":67}
+      ],
+      "trend_state": "VERIFIED_ROLE_AND_KICKING_BURDEN_VARIABILITY",
+      "trend_note": "Rounds 16-20 establish genuine halfback/interchange movement and materially variable kicking burden. This supports utility-role uncertainty rather than a directional edge.",
+      "team_effect": "Halfback/five-eighth utility and contingency kicking baseline enriched; current Finals role remains interchange behind the named starting halves.",
+      "source": "https://www.nrl.com/players/nrl-premiership/dolphins/brad-schneider/",
+      "captured_at": "2026-09-10T06:37:11+10:00"
+    },
+    {
+      "player": "Jake Averillo",
+      "team": "Dolphins",
+      "finals_role": "Named reserve",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":135,"tries":59},
+      "season": {"appearances":10,"tries":6,"try_assists":5,"line_breaks":7,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":21,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":136,"missed_tackles":13,"average_running_metres":156,"total_running_metres":1565,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":457,"fantasy_average":45.7},
+      "per_round_state": "RETURN_ROLE_SAMPLE_VERIFIED",
+      "per_round": [
+        {"round":18,"opponent":"Knights","result":"L 12-13","position":"Centre","minutes":80,"try_assists":2,"line_breaks":1,"tackle_breaks":2,"post_contact_metres":39,"offloads":1,"tackles_made":15,"missed_tackles":2,"running_metres":174},
+        {"round":19,"opponent":"Sharks","result":"L 0-66","position":"Centre","minutes":80,"post_contact_metres":14,"offloads":1,"tackles_made":13,"missed_tackles":2,"running_metres":54},
+        {"round":27,"opponent":"Titans","result":"W 24-20","position":"Five-Eighth","minutes":80,"kicking_metres":37,"try_assists":1,"tackle_breaks":1,"post_contact_metres":40,"offloads":2,"tackles_made":13,"missed_tackles":0,"running_metres":101}
+      ],
+      "trend_state": "VERIFIED_POSITION_CHANGE_WITH_GAP",
+      "trend_note": "Verified appearances show centre deployment in Rounds 18-19 and five-eighth in Round 27 after later reserve listings. The gap and role change are retained as uncertainty; no hidden reason is inferred.",
+      "team_effect": "Backline/halves reserve utility baseline enriched; current Finals role is reserve, so no starting-unit directional effect is assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/dolphins/jake-averillo/",
+      "captured_at": "2026-09-10T06:37:11+10:00"
+    }
+  ],
+  "team_list_source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+}
