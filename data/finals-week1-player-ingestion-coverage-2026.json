@@ -1,24 +1,24 @@
 {
   "season": 2026,
   "round": "Finals Week 1",
-  "captured_at": "2026-09-09T16:06:03+10:00",
+  "captured_at": "2026-09-09T16:27:39+10:00",
   "scope": "Official NRL Finals Week 1 named squads for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters",
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 26,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 30,
     "current_players_with_verified_no_completed_2026_nrl_sample": 0,
-    "current_players_pending_profile_reconciliation": 150,
+    "current_players_pending_profile_reconciliation": 146,
     "current_players_with_per_round_reconciliation_complete": 1,
     "current_players_with_per_round_reconciliation_partial": 2,
-    "current_players_with_per_round_reconciliation_pending": 23
+    "current_players_with_per_round_reconciliation_pending": 27
   },
   "completed_players": [
-    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwalt","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best"
+    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwalt","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell"
   ],
   "teams": [
     {"team":"Rabbitohs","roster":22,"season_dossier_complete":22,"pending":0},
-    {"team":"Knights","roster":22,"season_dossier_complete":4,"pending":18},
+    {"team":"Knights","roster":22,"season_dossier_complete":8,"pending":14},
     {"team":"Warriors","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Dolphins","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Sharks","roster":22,"season_dossier_complete":0,"pending":22},
@@ -31,19 +31,20 @@
     "data/player-stats-finals-week1-batch-005-2026.json",
     "data/player-stats-finals-week1-batch-006-2026.json",
     "data/player-stats-finals-week1-batch-007-2026.json",
-    "data/player-stats-finals-week1-batch-008-2026.json"
+    "data/player-stats-finals-week1-batch-008-2026.json",
+    "data/player-stats-finals-week1-batch-009-2026.json"
   ],
   "sources": [
     "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
-    "https://www.nrl.com/players/nrl-premiership/knights/kalyn-ponga/",
-    "https://www.nrl.com/players/nrl-premiership/knights/dominic-young/",
-    "https://www.nrl.com/players/nrl-premiership/knights/dane-gagai/",
-    "https://www.nrl.com/players/nrl-premiership/knights/bradman-best/"
+    "https://www.nrl.com/players/nrl-premiership/knights/greg-marzhew/",
+    "https://www.nrl.com/players/nrl-premiership/knights/fletcher-sharpe/",
+    "https://www.nrl.com/players/nrl-premiership/knights/sandon-smith/",
+    "https://www.nrl.com/players/nrl-premiership/knights/tyson-frizell/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities are persisted from the official NRL team-list release.",
     "Rabbitohs season-profile statistical dossier reconciliation is complete at 22/22 for the currently named Finals Week 1 squad.",
-    "Knights season-profile statistical dossier reconciliation is in progress at 4/22.",
+    "Knights season-profile statistical dossier reconciliation is in progress at 8/22.",
     "Statistical-dossier progress is numeric and advances only after verified official-profile persistence.",
     "Missing official player-profile or statistical fields are recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
     "Per-round reconciliation is tracked separately from season-profile reconciliation.",
