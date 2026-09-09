@@ -1,0 +1,61 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "023",
+  "captured_at": "2026-09-10T07:21:35+10:00",
+  "source_class": "NRL.com official Finals Week 1 team list and official NRL player profiles",
+  "rule": "Raw profile facts are preserved separately from MAYHEM inference. Fields not established from the official profile capture are FIELD_NOT_PUBLISHED. Per-round observations remain separate from season totals and no causal explanation is inferred from statistics alone.",
+  "players": [
+    {
+      "player": "Brian Pouniu",
+      "team": "Dolphins",
+      "finals_role": "Named reserve",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "sample_class": "LOW_SAMPLE_VARIANCE",
+      "career": {"appearances":3,"tries":0},
+      "season": {"appearances":3,"tries":0,"try_assists":0,"line_breaks":1,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":6,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":103,"missed_tackles":2,"average_running_metres":140,"total_running_metres":421,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":162,"fantasy_average":54.0},
+      "per_round_state": "COMPLETE_2026_NRL_APPEARANCE_SAMPLE_VERIFIED",
+      "per_round": [
+        {"round":12,"opponent":"Raiders","result":"W 30-22","position":"Centre","minutes":80,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":0,"post_contact_metres":22,"offloads":0,"tackles_made":8,"missed_tackles":0,"running_metres":75},
+        {"round":25,"opponent":"Eels","result":"W 34-16","position":"2nd Row","minutes":80,"tries":0,"try_assists":0,"line_breaks":1,"tackle_breaks":6,"post_contact_metres":77,"offloads":0,"tackles_made":39,"missed_tackles":1,"running_metres":179},
+        {"round":27,"opponent":"Titans","result":"W 24-20","position":"2nd Row","minutes":80,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":0,"post_contact_metres":70,"offloads":0,"tackles_made":56,"missed_tackles":1,"running_metres":166}
+      ],
+      "trend_state": "VERIFIED_ROLE_CHANGE_LOW_SAMPLE",
+      "trend_note": "The complete three-game 2026 NRL sample shows centre deployment in Round 12 followed by full-game second-row deployment in Rounds 25 and 27. Because the NRL sample is only three appearances, this is uncertainty/variance and role-history evidence, not a directional effect.",
+      "source_conflict": "Official profile season summary and career-by-season table report 140 average running metres from 421 metres across 3 appearances; the career-overall table displays 35.00. The internally consistent 2026 season figure of 140 is retained and the conflicting career-overall display is not substituted.",
+      "team_effect": "Reserve edge/backline utility baseline enriched; no directional Finals effect assigned because he is a reserve and the first-grade sample is low.",
+      "source": "https://www.nrl.com/players/nrl-premiership/dolphins/brian-pouniu/",
+      "captured_at": "2026-09-10T07:21:35+10:00"
+    },
+    {
+      "player": "Tevita Naufahu",
+      "team": "Dolphins",
+      "finals_role": "Named reserve",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":15,"tries":9},
+      "season": {"appearances":8,"tries":3,"try_assists":1,"line_breaks":11,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":41,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":24,"missed_tackles":7,"average_running_metres":190,"total_running_metres":1522,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":10.28,"forced_drop_outs":2,"goals":"FIELD_NOT_PUBLISHED","fantasy_total":340,"fantasy_average":42.5},
+      "per_round_state": "COMPLETE_2026_NRL_APPEARANCE_SAMPLE_VERIFIED",
+      "per_round": [
+        {"round":8,"opponent":"Warriors","result":"L 18-20","position":"Interchange","minutes":15,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":0,"post_contact_metres":6,"offloads":0,"tackles_made":0,"missed_tackles":0,"running_metres":19},
+        {"round":12,"opponent":"Raiders","result":"W 30-22","position":"Winger","minutes":80,"tries":1,"try_assists":0,"line_breaks":3,"tackle_breaks":6,"post_contact_metres":52,"offloads":0,"tackles_made":3,"missed_tackles":0,"running_metres":195},
+        {"round":15,"opponent":"Roosters","result":"W 48-10","position":"Winger","minutes":80,"tries":1,"try_assists":1,"line_breaks":3,"tackle_breaks":3,"post_contact_metres":51,"offloads":0,"tackles_made":5,"missed_tackles":1,"running_metres":253},
+        {"round":16,"opponent":"Wests Tigers","result":"W 36-22","position":"Winger","minutes":80,"tries":1,"try_assists":0,"line_breaks":2,"tackle_breaks":8,"post_contact_metres":70,"offloads":0,"tackles_made":7,"missed_tackles":0,"running_metres":224},
+        {"round":18,"opponent":"Knights","result":"L 12-13","position":"Winger","minutes":80,"tries":0,"try_assists":0,"line_breaks":1,"tackle_breaks":4,"post_contact_metres":58,"offloads":0,"tackles_made":4,"missed_tackles":1,"running_metres":198},
+        {"round":19,"opponent":"Sharks","result":"L 0-66","position":"Winger","minutes":80,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":10,"post_contact_metres":58,"offloads":1,"tackles_made":3,"missed_tackles":2,"running_metres":186},
+        {"round":20,"opponent":"Cowboys","result":"W 36-16","position":"Winger","minutes":80,"tries":0,"try_assists":0,"line_breaks":1,"tackle_breaks":5,"post_contact_metres":55,"offloads":0,"tackles_made":1,"missed_tackles":1,"running_metres":189},
+        {"round":27,"opponent":"Titans","result":"W 24-20","position":"Winger","minutes":80,"tries":0,"try_assists":0,"line_breaks":1,"tackle_breaks":5,"post_contact_metres":98,"offloads":0,"tackles_made":1,"missed_tackles":2,"running_metres":255}
+      ],
+      "trend_state": "VERIFIED_WING_ROLE_CONTINUITY_AFTER_EARLY_INTERCHANGE",
+      "trend_note": "The complete eight-appearance 2026 NRL sample shows a 15-minute interchange appearance in Round 8 followed by seven full-game winger appearances through Round 27. Running workload is high across the full-game wing sample; this is descriptive production evidence only.",
+      "team_effect": "Reserve outside-back depth baseline enriched; no directional Finals effect assigned while he remains outside the starting 17.",
+      "source": "https://www.nrl.com/players/nrl-premiership/dolphins/tevita-naufahu/",
+      "captured_at": "2026-09-10T07:21:35+10:00"
+    }
+  ],
+  "team_list_source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+}
