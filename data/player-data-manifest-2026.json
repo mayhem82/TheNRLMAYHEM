@@ -1,5 +1,5 @@
 {
-  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-10-FINALS-BATCH-022",
+  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-10-FINALS-BATCH-023",
   "required":[
     "data/player-intelligence-2026.json",
     "data/player-intelligence-round27-current.json",
@@ -34,7 +34,8 @@
     "data/player-stats-finals-week1-batch-019-2026.json",
     "data/player-stats-finals-week1-batch-020-2026.json",
     "data/player-stats-finals-week1-batch-021-2026.json",
-    "data/player-stats-finals-week1-batch-022-2026.json"
+    "data/player-stats-finals-week1-batch-022-2026.json",
+    "data/player-stats-finals-week1-batch-023-2026.json"
   ],
   "coverage":"data/finals-week1-player-ingestion-coverage-2026.json",
   "contradictions":"data/contradiction-resolutions-2026.json"
