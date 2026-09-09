@@ -1,0 +1,39 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "006",
+  "captured_at": "2026-09-09T14:14:07+10:00",
+  "source_class": "NRL.com official player profiles",
+  "rule": "Statistics are source facts. Derived MAYHEM effects and trends remain separate from raw player performance data. Fields not published in the official profile are marked FIELD_NOT_PUBLISHED rather than inferred.",
+  "players": [
+    {
+      "player":"Lachlan Hubner","team":"Rabbitohs","finals_role":"Named interchange","profile_state":"VERIFIED",
+      "career":{"appearances":47,"tries":2},
+      "season":{"appearances":23,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":22,"offloads":7,"tackles_made":497,"missed_tackles":60,"average_running_metres":73,"total_running_metres":1689,"post_contact_metres":604.6,"average_hit_ups":8.6,"average_kicking_metres":0.97,"forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":640,"fantasy_average":27.8},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/lachlan-hubner/","captured_at":"2026-09-09T14:14:07+10:00"
+    },
+    {
+      "player":"Sean Keppie","team":"Rabbitohs","finals_role":"Named interchange","profile_state":"VERIFIED",
+      "career":{"appearances":138,"tries":5},
+      "season":{"appearances":17,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":17,"offloads":5,"tackles_made":388,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":76,"total_running_metres":1307,"post_contact_metres":459.7,"average_hit_ups":8,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":477,"fantasy_average":28.1},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/sean-keppie/","captured_at":"2026-09-09T14:14:07+10:00"
+    },
+    {
+      "player":"Jamie Humphreys","team":"Rabbitohs","finals_role":"Named interchange","profile_state":"VERIFIED",
+      "career":{"appearances":36,"tries":4},
+      "season":{"appearances":17,"tries":2,"goals":2,"try_assists":6,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":3,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":1,"tackles_made":410,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":40,"total_running_metres":684,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":142.5,"forced_drop_outs":0,"fantasy_total":543,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jamie-humphreys/","captured_at":"2026-09-09T14:14:07+10:00"
+    },
+    {
+      "player":"Adam Elliott","team":"Rabbitohs","finals_role":"Named interchange","profile_state":"VERIFIED",
+      "career":{"appearances":180,"tries":18},
+      "season":{"appearances":7,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":4,"offloads":1,"tackles_made":151,"missed_tackles":10,"average_running_metres":51,"total_running_metres":360,"post_contact_metres":144.1,"average_hit_ups":6.1,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":188,"fantasy_average":26.9},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/adam-elliott/","captured_at":"2026-09-09T14:14:07+10:00"
+    }
+  ]
+}
