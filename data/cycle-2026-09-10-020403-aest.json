@@ -1,0 +1,56 @@
+{
+  "season": 2026,
+  "captured_at": "2026-09-10T02:04:03+10:00",
+  "cycle_type": "HOURLY_INTELLIGENCE_RECONCILIATION",
+  "lifecycle_reconciliation": {
+    "Rabbitohs_v_Knights": "UPCOMING",
+    "Warriors_v_Dolphins": "UPCOMING",
+    "Sharks_v_Cowboys": "UPCOMING",
+    "Panthers_v_Roosters": "UPCOMING",
+    "past_kickoff_unverified_results": 0,
+    "misSED_not_captured_events": 0
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "Rabbitohs v Knights T-24h",
+    "due_at": "2026-09-10T19:50:00+10:00"
+  },
+  "fresh_checks": {
+    "official_team_lists": {
+      "source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+      "finding": "NO_MATERIAL_CHANGE",
+      "note": "Official Finals Week 1 squads remain the current reference state; no verified late-change event was found in this cycle."
+    },
+    "weather_rabbitohs_knights": {
+      "source": "https://www.bom.gov.au/places/nsw/queens-park/forecast/",
+      "finding": "NO_MATERIAL_CHANGE",
+      "forecast": "Friday 11 September: partly cloudy, 0 mm possible rainfall, low rain chance, light winds",
+      "decision_effect": "NONE"
+    },
+    "market_rabbitohs_knights": {
+      "source": "https://www.aussportsbetting.com/data/nrl-head-to-head-statistics/",
+      "prices": {"Rabbitohs": 1.40, "Knights": 3.00},
+      "normalized_probability_pct": {"Rabbitohs": 68.18, "Knights": 31.82},
+      "standing_mayhem_confidence_pct": 69,
+      "confidence_vs_market_delta_pp": 0.82,
+      "classification": "NO_MATERIAL_CHANGE",
+      "cause": "UNKNOWN"
+    }
+  },
+  "player_layer": {
+    "roster_identities_persisted": 176,
+    "reconciled": 66,
+    "pending_profile_reconciliation": 110,
+    "state": "INCOMPLETE_UNCHANGED_FROM_PRIOR_CYCLE",
+    "note": "No player is removed because of absent news. Ongoing statistical reconciliation remains required, but this cycle did not establish a new material roster/profile change."
+  },
+  "decision_state": {
+    "Rabbitohs": "69% CURRENT_NOT_FROZEN",
+    "Warriors": "63% CURRENT_NOT_FROZEN",
+    "Sharks": "64% CURRENT_NOT_FROZEN",
+    "Panthers": "73% CURRENT_NOT_FROZEN",
+    "new_freeze": false
+  },
+  "notification": "SUPPRESS_NO_MATERIAL_CHANGE",
+  "audit_integrity": "PRESERVED"
+}
