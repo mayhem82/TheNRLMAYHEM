@@ -1,0 +1,65 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "014",
+  "captured_at": "2026-09-09T21:38:33+10:00",
+  "source_class": "NRL.com official player profiles",
+  "rule": "Statistics are source facts. Derived MAYHEM effects and trends remain separate from raw player performance data. Fields not visible in the official profile capture are marked FIELD_NOT_PUBLISHED rather than inferred.",
+  "players": [
+    {
+      "player": "Alofiana Khan-Pereira",
+      "team": "Warriors",
+      "finals_role": "Named starting winger",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":71,"tries":69},
+      "season": {"appearances":17,"tries":16,"goals":"FIELD_NOT_PUBLISHED","try_assists":2,"line_breaks":18,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":38,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":91,"missed_tackles":27,"average_running_metres":117,"total_running_metres":1990,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":535,"fantasy_average":31.5},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/alofiana-khan-pereira/",
+      "captured_at": "2026-09-09T21:38:33+10:00"
+    },
+    {
+      "player": "Chanel Harris-Tavita",
+      "team": "Warriors",
+      "finals_role": "Named starting five-eighth",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":115,"tries":27},
+      "season": {"appearances":20,"tries":8,"goals":22,"try_assists":14,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":13,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":7,"tackles_made":312,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":48,"total_running_metres":970,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":297,"forced_drop_outs":3,"fantasy_total":770,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [{"round":1,"opponent":"Roosters","result":"W 42-18","position":"Five-Eighth","minutes":80,"tries":2,"goals":0,"kicking_metres":142,"forced_drop_outs":0,"try_assists":1,"line_breaks":1,"tackle_breaks":1,"post_contact_metres":18,"offloads":0,"tackles_made":14,"missed_tackles":4,"running_metres":57}],
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/chanel-harris-tavita/",
+      "captured_at": "2026-09-09T21:38:33+10:00"
+    },
+    {
+      "player": "Te Maire Martin",
+      "team": "Warriors",
+      "finals_role": "Named starting halfback",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":121,"tries":26},
+      "season": {"appearances":11,"tries":6,"goals":"FIELD_NOT_PUBLISHED","try_assists":12,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":12,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":11,"tackles_made":248,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":90,"total_running_metres":998,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":214,"forced_drop_outs":4,"fantasy_total":619,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [
+        {"round":11,"opponent":"Broncos","result":"W 42-12","position":"Interchange","minutes":74,"tries":1,"try_assists":2,"tackles_made":28,"missed_tackles":3,"running_metres":90,"kicking_metres":194},
+        {"round":12,"opponent":"Dragons","result":"W 30-12","position":"Halfback","minutes":80,"tries":2,"try_assists":0,"tackles_made":27,"missed_tackles":3,"running_metres":50,"kicking_metres":248}
+      ],
+      "trend_observation": {"class":"VERIFIED","statement":"Official per-round data shows a move from interchange in Round 11 to halfback in Round 12; the Finals Week 1 team list names Martin at halfback. This establishes role history only and does not by itself establish a causal performance effect.","rounds_used":[11,12]},
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/te-maire-martin/",
+      "captured_at": "2026-09-09T21:38:33+10:00"
+    },
+    {
+      "player": "James Fisher-Harris",
+      "team": "Warriors",
+      "finals_role": "Named starting prop",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":243,"tries":21},
+      "season": {"appearances":21,"tries":3,"goals":"FIELD_NOT_PUBLISHED","try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":31,"offloads":13,"tackles_made":631,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":140,"total_running_metres":2955,"post_contact_metres":1083.1,"average_hit_ups":13.9,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":970,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [
+        {"round":1,"opponent":"Roosters","result":"W 42-18","position":"Prop","minutes":50,"tries":0,"tackle_breaks":3,"post_contact_metres":62,"offloads":5,"tackles_made":18,"missed_tackles":1,"running_metres":157,"hit_up_running_metres":144},
+        {"round":2,"opponent":"Raiders","result":"W 40-6","position":"Prop","minutes":59,"tries":0,"tackle_breaks":2,"post_contact_metres":53,"offloads":0,"tackles_made":35,"missed_tackles":1,"running_metres":151,"hit_up_running_metres":104}
+      ],
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/james-fisher-harris/",
+      "captured_at": "2026-09-09T21:38:33+10:00"
+    }
+  ]
+}
