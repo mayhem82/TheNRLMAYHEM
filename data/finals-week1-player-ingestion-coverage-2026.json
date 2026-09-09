@@ -1,27 +1,27 @@
 {
   "season": 2026,
   "round": "Finals Week 1",
-  "captured_at": "2026-09-10T02:25:09+10:00",
+  "captured_at": "2026-09-10T03:58:01+10:00",
   "scope": "Official NRL Finals Week 1 named squads for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters",
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 64,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 68,
     "current_players_with_verified_no_completed_2026_nrl_sample": 1,
     "current_players_with_profile_data_unavailable": 5,
-    "current_players_pending_profile_reconciliation": 106,
+    "current_players_pending_profile_reconciliation": 102,
     "current_players_with_per_round_reconciliation_complete": 1,
-    "current_players_with_per_round_reconciliation_partial": 15,
-    "current_players_with_per_round_reconciliation_pending": 48
+    "current_players_with_per_round_reconciliation_partial": 16,
+    "current_players_with_per_round_reconciliation_pending": 51
   },
   "completed_players": [
-    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwald","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo","Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan","Taine Tuaupiki","Charnze Nicoll-Klokstad","Ali Leiataua","Leka Halasima","Alofiana Khan-Pereira","Chanel Harris-Tavita","Te Maire Martin","James Fisher-Harris","Wayde Egan","Mitchell Barnett","Kurt Capewell","Jacob Laban","Erin Clark","Sam Healey","Tanner Stowers-Smith","Demitric Vaimauga","Jackson Ford","Eddie Ieremia-Toeava","Adam Pompey","Jett Cleary","Luke Laulilii","Makaia Tafua","Hamiso Tabuai-Fidow","Jamayne Isaako","Herbie Farnworth","Kodi Nikorima"
+    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwald","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo","Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan","Taine Tuaupiki","Charnze Nicoll-Klokstad","Ali Leiataua","Leka Halasima","Alofiana Khan-Pereira","Chanel Harris-Tavita","Te Maire Martin","James Fisher-Harris","Wayde Egan","Mitchell Barnett","Kurt Capewell","Jacob Laban","Erin Clark","Sam Healey","Tanner Stowers-Smith","Demitric Vaimauga","Jackson Ford","Eddie Ieremia-Toeava","Adam Pompey","Jett Cleary","Luke Laulilii","Makaia Tafua","Hamiso Tabuai-Fidow","Jamayne Isaako","Herbie Farnworth","Kodi Nikorima","Jack Bostock","Selwyn Cobbo","Isaiya Katoa","Thomas Flegler"
   ],
   "teams": [
     {"team":"Rabbitohs","roster":22,"reconciled":22,"season_dossier_complete":22,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":0},
     {"team":"Knights","roster":22,"reconciled":22,"season_dossier_complete":18,"verified_no_completed_sample":1,"profile_data_unavailable":3,"pending":0},
     {"team":"Warriors","roster":22,"reconciled":22,"season_dossier_complete":20,"verified_no_completed_sample":0,"profile_data_unavailable":2,"pending":0},
-    {"team":"Dolphins","roster":22,"reconciled":4,"season_dossier_complete":4,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":18},
+    {"team":"Dolphins","roster":22,"reconciled":8,"season_dossier_complete":8,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":14},
     {"team":"Sharks","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
     {"team":"Cowboys","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
     {"team":"Panthers","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
@@ -42,22 +42,23 @@
     "data/player-stats-finals-week1-batch-015-2026.json",
     "data/player-stats-finals-week1-batch-016-2026.json",
     "data/player-stats-finals-week1-batch-017-2026.json",
-    "data/player-stats-finals-week1-batch-018-2026.json"
+    "data/player-stats-finals-week1-batch-018-2026.json",
+    "data/player-stats-finals-week1-batch-019-2026.json"
   ],
   "sources": [
     "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
-    "https://www.nrl.com/players/nrl-premiership/dolphins/hamiso-tabuai-fidow/",
-    "https://www.nrl.com/players/nrl-premiership/dolphins/jamayne-isaako/",
-    "https://www.nrl.com/players/nrl-premiership/dolphins/herbie-farnworth/",
-    "https://www.nrl.com/players/nrl-premiership/dolphins/kodi-nikorima/"
+    "https://www.nrl.com/players/nrl-premiership/dolphins/jack-bostock/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/selwyn-cobbo/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/isaiya-katoa/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/thomas-flegler/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities remain persisted from the official NRL team-list release.",
     "Rabbitohs, Knights and Warriors reconciliation remain complete at 22/22.",
-    "Dolphins reconciliation has commenced at 4/22 using official NRL player profiles for Hamiso Tabuai-Fidow, Jamayne Isaako, Herbie Farnworth and Kodi Nikorima.",
-    "Kodi Nikorima's official Finals team-list return is recorded as a verified roster/role observation only; no hidden medical inference is made.",
+    "Dolphins reconciliation advanced to 8/22 using official NRL player profiles for Jack Bostock, Selwyn Cobbo, Isaiya Katoa and Thomas Flegler.",
+    "Selwyn Cobbo's official Finals team-list return is recorded as a verified roster/role observation only; no hidden medical inference is made.",
+    "Thomas Flegler's captured Round 1 row is retained as low-sample descriptive evidence only.",
     "Missing official player-profile or statistical fields are recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
-    "Per-round reconciliation remains separate from season-profile reconciliation and is pending for the four new Dolphins dossiers.",
     "Official late changes remain subject to T-24h, T-3h, T-60m and T-10m reconciliation."
   ]
 }
