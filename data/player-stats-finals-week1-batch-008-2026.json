@@ -1,0 +1,55 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "008",
+  "captured_at": "2026-09-09T16:06:03+10:00",
+  "source_class": "NRL.com official player profiles",
+  "rule": "Statistics are source facts. Derived MAYHEM effects and trends remain separate from raw player performance data. Fields not visible in the official profile capture are marked FIELD_NOT_PUBLISHED rather than inferred.",
+  "players": [
+    {
+      "player":"Kalyn Ponga",
+      "team":"Knights",
+      "finals_role":"Named starting fullback",
+      "profile_state":"VERIFIED",
+      "career":{"appearances":161,"tries":60},
+      "season":{"appearances":15,"tries":5,"goals":37,"try_assists":14,"line_breaks":10,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":71,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":58,"missed_tackles":29,"average_running_metres":162,"total_running_metres":2438,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":777,"fantasy_average":51.8},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/knights/kalyn-ponga/",
+      "captured_at":"2026-09-09T16:06:03+10:00"
+    },
+    {
+      "player":"Dominic Young",
+      "team":"Knights",
+      "finals_role":"Named starting winger",
+      "profile_state":"VERIFIED",
+      "career":{"appearances":115,"tries":93},
+      "season":{"appearances":23,"tries":20,"goals":"FIELD_NOT_PUBLISHED","try_assists":5,"line_breaks":36,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":97,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":47,"missed_tackles":11,"average_running_metres":164,"total_running_metres":3777,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":951,"fantasy_average":41.4},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/knights/dominic-young/",
+      "captured_at":"2026-09-09T16:06:03+10:00"
+    },
+    {
+      "player":"Dane Gagai",
+      "team":"Knights",
+      "finals_role":"Named starting centre",
+      "profile_state":"VERIFIED",
+      "career":{"appearances":336,"tries":92},
+      "season":{"appearances":22,"tries":5,"goals":"FIELD_NOT_PUBLISHED","try_assists":10,"line_breaks":9,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":110,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":320,"missed_tackles":82,"average_running_metres":117,"total_running_metres":2590,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":860,"fantasy_average":39.1},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/knights/dane-gagai/",
+      "captured_at":"2026-09-09T16:06:03+10:00"
+    },
+    {
+      "player":"Bradman Best",
+      "team":"Knights",
+      "finals_role":"Named starting centre",
+      "profile_state":"VERIFIED",
+      "career":{"appearances":119,"tries":47},
+      "season":{"appearances":14,"tries":4,"goals":"FIELD_NOT_PUBLISHED","try_assists":15,"line_breaks":4,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":35,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":188,"missed_tackles":35,"average_running_metres":138,"total_running_metres":1935,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":592,"fantasy_average":42.3},
+      "per_round_state":"OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source":"https://www.nrl.com/players/nrl-premiership/knights/bradman-best/",
+      "captured_at":"2026-09-09T16:06:03+10:00"
+    }
+  ]
+}
