@@ -1,0 +1,34 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-10T07:21:35+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_reconciliation":"NO_KICKOFF_PASSED",
+  "fixtures":{"Rabbitohs_Knights":"UPCOMING","Warriors_Dolphins":"UPCOMING","Sharks_Cowboys":"UPCOMING","Panthers_Roosters":"UPCOMING"},
+  "checkpoint":{"due":false,"next":"Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "sources_checked":[
+    "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/brian-pouniu/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/tevita-naufahu/",
+    "https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches",
+    "https://www.bom.gov.au/places/nsw/camperdown/forecast/",
+    "https://www.bom.gov.au/places/nsw/sydney-olympic-park/forecast/"
+  ],
+  "weather":{"Rabbitohs_Knights":"Friday Sydney: partly cloudy, 0 mm expected, 10% rain chance, light winds; NONE_DIRECTIONAL","Warriors_Dolphins":"Prior Auckland wind-variance signal retained; no new authoritative team-specific directional evidence","Sharks_Cowboys":"Saturday Sydney dry/mild; NONE_DIRECTIONAL","Panthers_Roosters":"Western Sydney remains non-directional"},
+  "market":{"Rabbitohs_Knights":{"prices":[1.39,3.00],"normalized":[68.34,31.66],"freshness":"FRESH"},"Warriors_Dolphins":{"prices":[1.59,2.36],"normalized":[59.75,40.25],"state":"REVIEW_REQUIRED","confidence_delta_pp":3.25,"freshness":"FRESH"},"Sharks_Cowboys":{"prices":[1.42,2.85],"normalized":[66.74,33.26],"freshness":"FRESH"},"Panthers_Roosters":{"prices":[1.33,3.35],"normalized":[71.58,28.42],"freshness":"FRESH"}},
+  "market_capture_state":"FRESH_TWO_SIDED_STATE_VERIFIED_NO_MATERIAL_MOVEMENT",
+  "player_reconciliation":{"roster_identities":176,"verified_season_dossiers":82,"verified_no_completed_sample":1,"profile_data_unavailable":5,"reconciled":88,"pending":88,"Dolphins":"22/22"},
+  "new_player_dossiers":["Brian Pouniu","Tevita Naufahu"],
+  "player_trend_effects":[
+    "Pouniu: complete three-appearance 2026 NRL sample shows centre in Round 12 and full-game second row in Rounds 25 and 27; LOW_SAMPLE_VARIANCE only.",
+    "Naufahu: complete eight-appearance 2026 NRL sample shows early interchange followed by seven full-game winger appearances; descriptive role/workload evidence only."
+  ],
+  "source_conflicts":["Brian Pouniu official profile: 2026 season summary and career-by-season table report 140 average running metres from 421 metres/3 appearances, while career-overall table displays 35.00. Internally consistent season value retained; conflict preserved."],
+  "decision_effect":"No tip/confidence change. Warriors v Dolphins remains REVIEW_REQUIRED because 63% exceeds the fresh normalized market probability by 3.25pp without newly established independent causal support.",
+  "evidence_family_independence":"No new shared-input or market-linked family counted as independent corroboration.",
+  "adversarial_counter_case":"No formal pre-freeze checkpoint due; existing fixture counter-cases remain active and must be reconstructed at the applicable checkpoint.",
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED"
+}
