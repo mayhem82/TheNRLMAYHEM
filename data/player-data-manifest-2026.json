@@ -1,5 +1,5 @@
 {
-  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-08-FINALS-OFFICIAL",
+  "snapshot":"PLAYER-DATA-MANIFEST-2026-09-09-FINALS-BATCH-013",
   "required":[
     "data/player-intelligence-2026.json",
     "data/player-intelligence-round27-current.json",
@@ -15,7 +15,17 @@
     "data/player-stats-dragons-eels-supplement-2-2026.json",
     "data/player-stats-wests-tigers-2026.json",
     "data/player-stats-tigers-supplement-2026.json",
-    "data/player-stats-panthers-supplement-2026.json"
+    "data/player-stats-panthers-supplement-2026.json",
+    "data/player-stats-finals-week1-2026.json",
+    "data/player-stats-finals-week1-batch-005-2026.json",
+    "data/player-stats-finals-week1-batch-006-2026.json",
+    "data/player-stats-finals-week1-batch-007-2026.json",
+    "data/player-stats-finals-week1-batch-008-2026.json",
+    "data/player-stats-finals-week1-batch-009-2026.json",
+    "data/player-stats-finals-week1-batch-010-2026.json",
+    "data/player-stats-finals-week1-batch-011-2026.json",
+    "data/player-stats-finals-week1-batch-012-2026.json",
+    "data/player-stats-finals-week1-batch-013-2026.json"
   ],
   "coverage":"data/finals-week1-player-ingestion-coverage-2026.json",
   "contradictions":"data/contradiction-resolutions-2026.json"
