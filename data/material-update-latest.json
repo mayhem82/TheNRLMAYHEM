@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-09T14:14:07+10:00",
+  "captured_at": "2026-09-09T15:19:21+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_MARKET_CHANGE_AND_PLAYER_STATISTICAL_DOSSIER_PROGRESS",
+  "trigger": "PLAYER_STATISTICAL_DOSSIER_TEAM_COMPLETION_AND_WEATHER_REFRESH",
   "lifecycle_reconciliation": {
     "status": "NO_KICKOFF_PASSED",
     "fixtures": [
@@ -21,73 +21,75 @@
   },
   "observations": [
     {
-      "players": ["Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott"],
+      "players": ["Latrell Siegwalt","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos"],
       "team": "Rabbitohs",
       "fixture": "FW1-SS-NKN-2026-09-11",
       "classification": "VERIFIED_STATISTICAL_DOSSIERS",
-      "observation": "Four additional official NRL career/current-season dossiers persisted in batch 006. Hubner and Elliott also have official per-round tables available for later row-complete reconciliation.",
-      "decision_effect": "Roster-backed statistical evidence expanded; no standalone confidence increase."
+      "observation": "Final four currently named Rabbitohs Finals Week 1 players received verified official NRL career/current-season statistical dossiers in batch 007. Rabbitohs season-profile dossier coverage is now 22/22.",
+      "decision_effect": "Roster-backed statistical completeness improved for the NEXT fixture; no standalone confidence increase."
+    },
+    {
+      "player": "Talanoa Penitani",
+      "team": "Rabbitohs",
+      "fixture": "FW1-SS-NKN-2026-09-11",
+      "classification": "VERIFIED_LOW_SAMPLE",
+      "observation": "Official 2026 NRL sample is one completed match: Round 12 v Cowboys, 80 minutes at wing, two tries, three line breaks, five tackle breaks, five tackles, zero missed tackles and 199 running metres.",
+      "decision_effect": "LOW_SAMPLE_VARIANCE_ONLY; no directional edge assigned."
     },
     {
       "fixture": "FW1-WAR-DOL-2026-09-12",
-      "classification": "MATERIAL_MARKET_SIGNAL",
-      "observation": "Sportsbet moved from Warriors $1.54 / Dolphins $2.47 to Warriors $1.61 / Dolphins $2.33. Normalized Warriors probability fell from 61.60% to 59.14%.",
-      "causal_inference": "NONE",
-      "decision_effect": "Existing Warriors 63% is now +3.86pp above normalized market and therefore breaches the mandatory +3pp gate. Decision state changed to REVIEW_REQUIRED pending explicit independent causal justification including role-critical player-stat comparison; confidence is not frozen."
-    },
-    {
-      "fixture": "FW1-SS-NKN-2026-09-11",
-      "classification": "MARKET_SIGNAL",
-      "observation": "Sportsbet moved from Rabbitohs $1.40 / Knights $2.97 to Rabbitohs $1.42 / Knights $2.87. Normalized Rabbitohs probability is now 66.90%.",
-      "causal_inference": "NONE",
-      "decision_effect": "Rabbitohs 69% remains inside +3pp gate at +2.10pp. Signal direction is toward Newcastle; no confidence change asserted."
+      "classification": "WEATHER_VARIANCE_SIGNAL",
+      "observation": "Fresh Auckland forecast for Saturday 12 September remains windy and partly cloudy with brisk southwesterly winds around 38-39 km/h, about 15-16C by day and 10-20% rain chance with trace rainfall.",
+      "decision_effect": "Variance retained; no demonstrated team-specific directional edge."
     }
   ],
   "fixture_updates": [
-    {"fixture":"Rabbitohs v Knights","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN; MARKET_SIGNAL_TOWARD_KNIGHTS"},
-    {"fixture":"Warriors v Dolphins","decision_effect":"WARRIORS_SELECTION_RETAINED_63_REVIEW_REQUIRED_NOT_FROZEN; PLUS_3PP_MARKET_GATE_BREACH"},
+    {"fixture":"Rabbitohs v Knights","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN; RABBITOHS_SEASON_DOSSIER_COVERAGE_COMPLETE_22_OF_22"},
+    {"fixture":"Warriors v Dolphins","decision_effect":"WARRIORS_SELECTION_RETAINED_63_REVIEW_REQUIRED_NOT_FROZEN; PLUS_3PP_MARKET_GATE_BREACH_REMAINS"},
     {"fixture":"Sharks v Cowboys","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
     {"fixture":"Panthers v Roosters","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
   ],
   "market_absorption_clock": {
     "source": "Sportsbet NRL Finals Week 1 board",
     "captured_at": "2026-09-09T14:14:07+10:00",
+    "fresh_retrieval_this_cycle": "NOT_VERIFIED",
     "board": {
       "Rabbitohs_v_Knights": {"home_price":1.42,"away_price":2.87,"normalized_home_probability":66.90,"normalized_away_probability":33.10,"mayhem_confidence":69,"delta_pp":2.10,"movement_classification":"SIGNAL_TOWARD_KNIGHTS","causal_inference":"NONE"},
       "Warriors_v_Dolphins": {"home_price":1.61,"away_price":2.33,"normalized_home_probability":59.14,"normalized_away_probability":40.86,"mayhem_confidence":63,"delta_pp":3.86,"market_gate":"REVIEW_REQUIRED","movement_classification":"SIGNAL_TOWARD_DOLPHINS","causal_inference":"NONE"},
       "Sharks_v_Cowboys": {"home_price":1.45,"away_price":2.76,"normalized_home_probability":65.56,"normalized_away_probability":34.44,"mayhem_confidence":64,"delta_pp":-1.56,"movement_classification":"NO_NEW_DIRECTIONAL_CAUSE","causal_inference":"NONE"},
       "Panthers_v_Roosters": {"home_price":1.32,"away_price":3.42,"normalized_home_probability":72.15,"normalized_away_probability":27.85,"mayhem_confidence":73,"delta_pp":0.85,"movement_classification":"NO_MATERIAL_CHANGE","causal_inference":"NONE"}
     },
-    "integrity": "All probabilities are overround-adjusted from the contemporaneously retrieved two-sided Sportsbet prices. Market movement is SIGNAL only; no cause is inferred."
+    "integrity": "Previous verified two-sided market state retained because a fresh reliable Sportsbet board was not independently verified this cycle. No new movement or cause is asserted."
   },
   "weather": {
-    "Sydney": "BOM refreshed: Friday 11 Sep 0 mm and light winds; Saturday 12 Sep 0 mm with northeasterly winds developing 15-25 km/h; Sunday 13 Sep 0 mm with northeasterly 15-25 km/h. No demonstrated directional team edge.",
-    "Auckland": "Previous material wind-variance signal retained pending fresh authoritative match-day forecast; no demonstrated directional team edge.",
+    "Sydney": "BOM refresh for the Finals window remains effectively dry: Friday 11 September 0 mm with light winds; Saturday 12 September 0 mm with northeasterly winds developing around 15-25 km/h; Sunday 13 September 0 mm with east-to-northeasterly/northeasterly winds around 15-25 km/h. No demonstrated directional team edge.",
+    "Auckland": "WeatherWatch refresh for Saturday 12 September: windy and partly cloudy, about 15-16C, brisk SW winds around 38-39 km/h, 10-20% rain chance and trace rainfall. Variance signal retained; no demonstrated directional team edge.",
     "decision_effect": "NONE_DIRECTIONAL"
   },
   "player_roster_statistical_coverage": {
     "status": "ACTIVE_RECONCILIATION",
     "roster_identities": "176/176 official Finals Week 1 named squad identities persisted",
-    "verified_season_dossiers": 18,
-    "pending_season_dossiers": 158,
-    "per_round_complete": 0,
-    "per_round_partial": 1,
-    "per_round_pending_with_verified_season_dossier": 17,
-    "latest_completed": ["Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott"]
+    "verified_season_dossiers": 22,
+    "pending_season_dossiers": 154,
+    "team_completion": {"Rabbitohs":"22/22 COMPLETE","Knights":"0/22","Warriors":"0/22","Dolphins":"0/22","Sharks":"0/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},
+    "per_round_complete": 1,
+    "per_round_partial": 2,
+    "per_round_pending_with_verified_season_dossier": 19,
+    "latest_completed": ["Latrell Siegwalt","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos"]
   },
   "current_decisions": [
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
-    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"REVIEW_REQUIRED_NOT_FROZEN","reason":"MAYHEM confidence exceeds normalized Sportsbet market probability by 3.86pp; role-critical player-stat comparison not yet sufficiently reconciled for explicit uplift justification."},
+    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"REVIEW_REQUIRED_NOT_FROZEN","reason":"MAYHEM confidence remains 3.86pp above the last verified normalized Sportsbet market probability; role-critical player-stat comparison is not yet sufficiently reconciled for explicit uplift justification."},
     {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
     {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
   ],
   "information_advantage": "NONE_ASSERTED",
   "incorrect_tip_halt": "CLEAR",
   "canonical_reconciliation": {
-    "status": "LATEST_MATERIAL_OVERLAY_SUPERSEDES_STALE_MARKET_FIELDS_IN_CANONICAL_UNTIL_NEXT_CANONICAL_REWRITE",
+    "status": "LATEST_MATERIAL_OVERLAY_ACTIVE",
     "file": "data/finals-week1-2026.json",
     "roster_file": "data/player-roster-finals-week1-2026.json",
-    "stats_files": ["data/player-stats-finals-week1-2026.json","data/player-stats-finals-week1-batch-005-2026.json","data/player-stats-finals-week1-batch-006-2026.json"],
+    "stats_files": ["data/player-stats-finals-week1-2026.json","data/player-stats-finals-week1-batch-005-2026.json","data/player-stats-finals-week1-batch-006-2026.json","data/player-stats-finals-week1-batch-007-2026.json"],
     "coverage_file": "data/finals-week1-player-ingestion-coverage-2026.json"
   },
   "audit_integrity": "PRESERVED"
