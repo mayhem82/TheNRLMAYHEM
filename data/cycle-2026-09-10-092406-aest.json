@@ -1,0 +1,71 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "captured_at": "2026-09-10T09:24:06+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycle_reconciliation": "NO_KICKOFF_PASSED",
+  "fixtures": {
+    "Rabbitohs_Knights": "UPCOMING",
+    "Warriors_Dolphins": "UPCOMING",
+    "Sharks_Cowboys": "UPCOMING",
+    "Panthers_Roosters": "UPCOMING"
+  },
+  "checkpoint": {
+    "due": false,
+    "next": "Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "weather": {
+    "Rabbitohs_Knights": "Friday Sydney-area forecast remains effectively dry with light winds; no demonstrated team-specific directional effect.",
+    "Warriors_Dolphins": "Prior Auckland wind-variance signal retained; no fresh authoritative venue-specific weather capture admitted this cycle and no team-specific edge asserted.",
+    "Sharks_Cowboys": "Saturday Sydney-area forecast: 0 mm expected with light winds becoming northeasterly 15-20 km/h in the afternoon; no demonstrated team-specific directional effect.",
+    "Panthers_Roosters": "No new demonstrated team-specific weather edge established in this cycle."
+  },
+  "market": {
+    "Rabbitohs_Knights": {"last_verified_prices": [1.39, 3.00], "normalized": [68.34, 31.66], "freshness": "PRIOR_VERIFIED_STATE"},
+    "Warriors_Dolphins": {"last_verified_prices": [1.59, 2.36], "normalized": [59.75, 40.25], "state": "REVIEW_REQUIRED", "confidence_delta_pp": 3.25, "freshness": "PRIOR_VERIFIED_STATE"},
+    "Sharks_Cowboys": {"last_verified_prices": [1.42, 2.85], "normalized": [66.74, 33.26], "freshness": "PRIOR_VERIFIED_STATE"},
+    "Panthers_Roosters": {"last_verified_prices": [1.33, 3.35], "normalized": [71.58, 28.42], "freshness": "PRIOR_VERIFIED_STATE"}
+  },
+  "market_capture_state": "FRESH_RELIABLE_TWO_SIDED_H2H_NOT_ESTABLISHED_THIS_CYCLE; PRIOR_VERIFIED_STATE_PRESERVED_WITHOUT_CAUSAL_INFERENCE",
+  "player_reconciliation": {
+    "roster_identities": 176,
+    "verified_season_dossiers": 86,
+    "verified_no_completed_sample": 1,
+    "profile_data_unavailable": 5,
+    "reconciled": 92,
+    "pending": 84,
+    "Rabbitohs": "22/22",
+    "Knights": "22/22",
+    "Warriors": "22/22",
+    "Dolphins": "22/22",
+    "Sharks": "4/22",
+    "Cowboys": "0/22",
+    "Panthers": "0/22",
+    "Roosters": "0/22"
+  },
+  "player_population_state": "INCOMPLETE_ADVANCED; SHARKS_4_OF_22; SHARKS_REMAIN_NEXT_PRIORITY",
+  "player_material_change": {
+    "batch": "024",
+    "players": ["William Kennedy", "Sione Katoa", "Riley Jones", "KL Iro"],
+    "effect": "Official NRL 2026 statistical dossiers and verified role/trend evidence added. Riley Jones classified LOW_SAMPLE_VARIANCE from one completed 2026 NRL appearance. No standalone confidence uplift assigned from statistical production alone."
+  },
+  "sources_checked": [
+    "repository:data/cycle-2026-09-10-082900-aest.json",
+    "repository:data/finals-week1-player-ingestion-coverage-2026.json",
+    "repository:data/player-roster-finals-week1-2026.json",
+    "NRL.com official Finals Week 1 team list",
+    "NRL.com official Sharks v Cowboys Finals Week 1 preview",
+    "NRL.com official player profiles for William Kennedy, Sione Katoa, Riley Jones and KL Iro",
+    "Bureau of Meteorology Sydney-area forecasts",
+    "fresh two-sided H2H market retrieval attempted; no sufficiently reliable canonical state admitted"
+  ],
+  "decision_effect": "No tip/confidence change. Sharks remains 64% CURRENT_NOT_FROZEN. Warriors v Dolphins remains REVIEW_REQUIRED because standing 63% exceeds the last verified normalized market probability by 3.25pp without independent causal support sufficient to clear the gate.",
+  "evidence_family_independence": "Official roster/profile statistics are treated as player evidence, not independent corroboration of market-derived probability. No correlated evidence stacking admitted.",
+  "adversarial_counter_case": "No formal pre-freeze checkpoint due. Sharks low-sample starting-centre uncertainty and Cowboys verified returning personnel remain mandatory components of the fixture counter-case at the next applicable checkpoint.",
+  "information_advantage": "NONE_ASSERTED",
+  "incorrect_tip_halt": "CLEAR",
+  "audit_integrity": "PRESERVED",
+  "persistence": "WRITE_COMPLETED_PENDING_READBACK",
+  "notification_trigger": "PLAYER_STATISTICAL_DOSSIER_PROGRESS"
+}
