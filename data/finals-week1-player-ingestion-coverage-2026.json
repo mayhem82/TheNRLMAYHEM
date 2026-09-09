@@ -1,30 +1,31 @@
 {
   "season": 2026,
   "round": "Finals Week 1",
-  "captured_at": "2026-09-09T18:28:11+10:00",
+  "captured_at": "2026-09-09T19:37:54+10:00",
   "scope": "Official NRL Finals Week 1 named squads for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters",
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 38,
-    "current_players_with_verified_no_completed_2026_nrl_sample": 0,
-    "current_players_pending_profile_reconciliation": 138,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 40,
+    "current_players_with_verified_no_completed_2026_nrl_sample": 1,
+    "current_players_with_profile_data_unavailable": 3,
+    "current_players_pending_profile_reconciliation": 132,
     "current_players_with_per_round_reconciliation_complete": 1,
     "current_players_with_per_round_reconciliation_partial": 2,
-    "current_players_with_per_round_reconciliation_pending": 35
+    "current_players_with_per_round_reconciliation_pending": 37
   },
   "completed_players": [
-    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwalt","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo"
+    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwalt","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo","Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan"
   ],
   "teams": [
-    {"team":"Rabbitohs","roster":22,"season_dossier_complete":22,"pending":0},
-    {"team":"Knights","roster":22,"season_dossier_complete":16,"pending":6},
-    {"team":"Warriors","roster":22,"season_dossier_complete":0,"pending":22},
-    {"team":"Dolphins","roster":22,"season_dossier_complete":0,"pending":22},
-    {"team":"Sharks","roster":22,"season_dossier_complete":0,"pending":22},
-    {"team":"Cowboys","roster":22,"season_dossier_complete":0,"pending":22},
-    {"team":"Panthers","roster":22,"season_dossier_complete":0,"pending":22},
-    {"team":"Roosters","roster":22,"season_dossier_complete":0,"pending":22}
+    {"team":"Rabbitohs","roster":22,"reconciled":22,"season_dossier_complete":22,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":0},
+    {"team":"Knights","roster":22,"reconciled":22,"season_dossier_complete":18,"verified_no_completed_sample":1,"profile_data_unavailable":3,"pending":0},
+    {"team":"Warriors","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
+    {"team":"Dolphins","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
+    {"team":"Sharks","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
+    {"team":"Cowboys","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
+    {"team":"Panthers","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
+    {"team":"Roosters","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22}
   ],
   "statistical_data_files": [
     "data/player-stats-finals-week1-2026.json",
@@ -34,25 +35,28 @@
     "data/player-stats-finals-week1-batch-008-2026.json",
     "data/player-stats-finals-week1-batch-009-2026.json",
     "data/player-stats-finals-week1-batch-010-2026.json",
-    "data/player-stats-finals-week1-batch-011-2026.json"
+    "data/player-stats-finals-week1-batch-011-2026.json",
+    "data/player-stats-finals-week1-batch-012-2026.json"
   ],
   "sources": [
     "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
-    "https://www.nrl.com/players/nrl-premiership/knights/matt-croker/",
-    "https://www.nrl.com/players/nrl-premiership/knights/harrison-graham/",
-    "https://www.nrl.com/players/nrl-premiership/knights/lachlan-crouch/",
-    "https://www.nrl.com/players/nrl-premiership/knights/pasami-saulo/"
+    "https://www.nrl.com/players/nrl-premiership/knights/thomas-cant/",
+    "https://www.nrl.com/players/nrl-premiership/knights/toby-winter/",
+    "https://www.nrl.com/players/nrl-premiership/knights/diesel-hagan/",
+    "https://www.nrl.com/players/nsw-cup/newcastle-knights-nsw-cup/fletcher-hunt/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities are persisted from the official NRL team-list release.",
-    "Rabbitohs season-profile statistical dossier reconciliation is complete at 22/22 for the currently named Finals Week 1 squad.",
-    "Knights season-profile statistical dossier reconciliation is in progress at 16/22.",
-    "Statistical-dossier progress is numeric and advances only after verified official-profile persistence.",
+    "Rabbitohs current Finals Week 1 player reconciliation is complete at 22/22.",
+    "Knights current Finals Week 1 player reconciliation is complete at 22/22: 18 have verified current-season NRL statistical dossiers, Diesel Hagan has a verified NRL profile but no completed NRL sample, and Fletcher Hunt, Kyle McCarthy and Elijah Salesa-Leaumoana are retained as PROFILE_DATA_UNAVAILABLE rather than guessed.",
+    "Statistical-dossier progress advances only after official-profile persistence or an explicit PROFILE_DATA_UNAVAILABLE determination.",
     "Missing official player-profile or statistical fields are recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
     "Per-round reconciliation is tracked separately from season-profile reconciliation.",
     "Talanoa Penitani remains LOW_SAMPLE_VARIANCE_ONLY; his one-game 2026 NRL sample is not treated as a directional edge.",
     "Francis Manuleleua remains LOW_SAMPLE_VARIANCE_ONLY; his 11-game NRL sample is not treated as a standalone directional edge.",
-    "Lachlan Crouch is LOW_SAMPLE_VARIANCE_ONLY; his eight-game NRL sample is treated as uncertainty/variance rather than a directional effect.",
+    "Lachlan Crouch remains LOW_SAMPLE_VARIANCE_ONLY; his eight-game NRL sample is treated as uncertainty/variance rather than a directional effect.",
+    "Toby Winter is LOW_SAMPLE_VARIANCE_ONLY; his one-game NRL sample is not treated as a directional effect.",
+    "Diesel Hagan is LOW_SAMPLE_VARIANCE_ONLY because he has no completed NRL match sample.",
     "Official late changes remain subject to T-24h, T-3h, T-60m and T-10m reconciliation."
   ]
 }
