@@ -1,95 +1,27 @@
 {
-  "system": "The NRL MAYHEM",
-  "season": 2026,
-  "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-09T19:37:54+10:00",
-  "timezone": "Australia/Sydney",
-  "trigger": "PLAYER_STATISTICAL_DOSSIER_PROGRESS",
-  "lifecycle_reconciliation": {
-    "status": "NO_KICKOFF_PASSED",
-    "fixtures": [
-      "FW1-SS-NKN-2026-09-11:UPCOMING",
-      "FW1-WAR-DOL-2026-09-12:UPCOMING",
-      "FW1-SHA-COW-2026-09-12:UPCOMING",
-      "FW1-PEN-SYD-2026-09-13:UPCOMING"
-    ]
-  },
-  "checkpoint_state": {
-    "due_now": false,
-    "next": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00",
-    "missed_not_captured": false
-  },
-  "observations": [
-    {
-      "players": ["Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan"],
-      "team": "Knights",
-      "fixture": "FW1-SS-NKN-2026-09-11",
-      "classification": "PLAYER_LAYER_RECONCILED",
-      "observation": "The remaining six currently named Knights Finals Week 1 players were reconciled in batch 012. Thomas Cant and Toby Winter have verified current-season NRL statistical dossiers; Diesel Hagan has a verified NRL profile with no completed NRL sample; Fletcher Hunt, Kyle McCarthy and Elijah Salesa-Leaumoana remain visible as verified roster identities with PROFILE_DATA_UNAVAILABLE rather than guessed Premiership statistics.",
-      "decision_effect": "Knights current squad player reconciliation is complete 22/22. Toby Winter and Diesel Hagan are LOW_SAMPLE_VARIANCE_ONLY. No standalone directional confidence change is supported."
-    }
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-09T21:38:33+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"PLAYER_STATISTICAL_DOSSIER_PROGRESS",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
+  "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "observations":[
+    {"player":"Alofiana Khan-Pereira, Chanel Harris-Tavita, Te Maire Martin, James Fisher-Harris","team":"Warriors","fixture":"FW1-WAR-DOL-2026-09-12","classification":"PLAYER_LAYER_RECONCILED","observation":"Four additional currently named Warriors starters now have verified official NRL 2026 statistical dossiers persisted in batch 014. Khan-Pereira: 17 appearances, 16 tries, 18 line breaks, 117 average running metres. Harris-Tavita: 20 appearances, 8 tries, 14 try assists, 13 line-break assists, 297 average kicking metres. Martin: 11 appearances, 6 tries, 12 try assists, 12 line-break assists, 214 average kicking metres. Fisher-Harris: 21 appearances, 631 tackles, 140 average running metres, 1083.1 post-contact metres.","availability_state":"VERIFIED_NAMED_SQUAD_PRESENCE; NO_NEW_MATERIAL_AVAILABILITY_CHANGE","decision_effect":"Warriors player reconciliation advances to 8/22. The added role-critical profiles improve the pre-freeze evidence base but do not independently support a confidence change.","tip_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN"}
   ],
-  "fixture_updates": [
-    {"fixture":"Rabbitohs v Knights","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN; RABBITOHS_22_OF_22_RECONCILED; KNIGHTS_22_OF_22_RECONCILED"},
-    {"fixture":"Warriors v Dolphins","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN; NO_NEW_RELIABLE_MARKET_STATE_CAPTURED_THIS_CYCLE"},
-    {"fixture":"Sharks v Cowboys","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN; NO_NEW_RELIABLE_MARKET_STATE_CAPTURED_THIS_CYCLE"},
-    {"fixture":"Panthers v Roosters","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN; NO_NEW_RELIABLE_MARKET_STATE_CAPTURED_THIS_CYCLE"}
+  "fixture_updates":[
+    {"fixture":"Rabbitohs v Knights","decision_effect":"RABBITOHS_SELECTION_RETAINED_69_CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","decision_effect":"WARRIORS_SELECTION_RETAINED_63_CURRENT_NOT_FROZEN; WARRIORS_PLAYER_RECONCILIATION_8_OF_22"},
+    {"fixture":"Sharks v Cowboys","decision_effect":"SHARKS_SELECTION_RETAINED_64_CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","decision_effect":"PANTHERS_SELECTION_RETAINED_73_CURRENT_NOT_FROZEN"}
   ],
-  "market_absorption_clock": {
-    "historical_same_source_state": {
-      "source": "Sportsbet NRL Finals Week 1 board",
-      "captured_at": "2026-09-09T14:14:07+10:00",
-      "Rabbitohs_v_Knights": {"home_price":1.42,"away_price":2.87,"normalized_home_probability":66.90,"normalized_away_probability":33.10,"mayhem_confidence":69,"delta_pp":2.10,"movement_classification":"SIGNAL_TOWARD_KNIGHTS","causal_inference":"NONE"},
-      "Warriors_v_Dolphins": {"home_price":1.61,"away_price":2.33,"normalized_home_probability":59.14,"normalized_away_probability":40.86,"mayhem_confidence":63,"delta_pp":3.86,"market_gate":"REVIEW_REQUIRED_AT_CAPTURE","movement_classification":"SIGNAL_TOWARD_DOLPHINS","causal_inference":"NONE"},
-      "Sharks_v_Cowboys": {"home_price":1.45,"away_price":2.76,"normalized_home_probability":65.56,"normalized_away_probability":34.44,"mayhem_confidence":64,"delta_pp":-1.56,"movement_classification":"NO_NEW_DIRECTIONAL_CAUSE","causal_inference":"NONE"},
-      "Panthers_v_Roosters": {"home_price":1.32,"away_price":3.42,"normalized_home_probability":72.15,"normalized_away_probability":27.85,"mayhem_confidence":73,"delta_pp":0.85,"movement_classification":"NO_MATERIAL_CHANGE","causal_inference":"NONE"}
-    },
-    "latest_reliable_snapshot": {
-      "source": "Ladbrokes Finals Week 1 market board",
-      "captured_at": "2026-09-09T18:13:56+10:00",
-      "Rabbitohs_v_Knights": {"home_price":1.40,"away_price":3.00,"normalized_home_probability":68.18,"normalized_away_probability":31.82,"mayhem_confidence":69,"delta_pp":0.82},
-      "Warriors_v_Dolphins": {"home_price":1.55,"away_price":2.45,"normalized_home_probability":61.25,"normalized_away_probability":38.75,"mayhem_confidence":63,"delta_pp":1.75,"market_gate":"NO_PLUS_3PP_BREACH_ON_THIS_SNAPSHOT"},
-      "Sharks_v_Cowboys": {"home_price":1.44,"away_price":2.80,"normalized_home_probability":66.04,"normalized_away_probability":33.96,"mayhem_confidence":64,"delta_pp":-2.04},
-      "Panthers_v_Roosters": {"home_price":1.33,"away_price":3.35,"normalized_home_probability":71.58,"normalized_away_probability":28.42,"mayhem_confidence":73,"delta_pp":1.42}
-    },
-    "current_cycle": "NO_NEW_RELIABLE_TWO_SIDED_MARKET_STATE_CAPTURED",
-    "integrity": "Historical market observations remain timestamped and unchanged. No causal explanation is inferred from market movement."
-  },
-  "weather": {
-    "Sydney_Friday_11_September": "BOM refreshed 2026-09-09: partly cloudy, min 9C max 21C, 0 mm expected, 10% rain chance, light winds. No demonstrated directional team edge.",
-    "Sydney_Saturday_12_September": "Prior BOM Finals-window state retained; no material directional change identified this cycle.",
-    "Sydney_Sunday_13_September": "Prior BOM Finals-window state retained; no material directional change identified this cycle.",
-    "Auckland_Saturday_12_September": "Prior verified Finals-window weather state retained this cycle; no fresh source established a material directional change.",
-    "decision_effect": "NONE_DIRECTIONAL"
-  },
-  "player_roster_statistical_coverage": {
-    "status": "ACTIVE_RECONCILIATION",
-    "roster_identities": "176/176 official Finals Week 1 named squad identities persisted",
-    "verified_season_dossiers": 40,
-    "verified_no_completed_nrl_sample": 1,
-    "profile_data_unavailable": 3,
-    "reconciled_player_identities": 44,
-    "pending_profile_reconciliation": 132,
-    "team_completion": {"Rabbitohs":"22/22 RECONCILED","Knights":"22/22 RECONCILED","Warriors":"0/22","Dolphins":"0/22","Sharks":"0/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},
-    "per_round_complete": 1,
-    "per_round_partial": 2,
-    "per_round_pending_with_verified_season_dossier": 37,
-    "latest_completed": ["Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan"]
-  },
-  "current_decisions": [
-    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
-    {"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","reason":"Latest reliable Ladbrokes normalized market probability remains 61.25%, placing MAYHEM +1.75pp above market; prior Sportsbet +3.86pp breach remains retained historically."},
-    {"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},
-    {"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}
-  ],
-  "information_advantage": "NONE_ASSERTED",
-  "incorrect_tip_halt": "CLEAR",
-  "canonical_reconciliation": {
-    "status": "LATEST_MATERIAL_OVERLAY_ACTIVE",
-    "file": "data/finals-week1-2026.json",
-    "roster_file": "data/player-roster-finals-week1-2026.json",
-    "stats_files": ["data/player-stats-finals-week1-2026.json","data/player-stats-finals-week1-batch-005-2026.json","data/player-stats-finals-week1-batch-006-2026.json","data/player-stats-finals-week1-batch-007-2026.json","data/player-stats-finals-week1-batch-008-2026.json","data/player-stats-finals-week1-batch-009-2026.json","data/player-stats-finals-week1-batch-010-2026.json","data/player-stats-finals-week1-batch-011-2026.json","data/player-stats-finals-week1-batch-012-2026.json"],
-    "coverage_file": "data/finals-week1-player-ingestion-coverage-2026.json"
-  },
-  "audit_integrity": "PRESERVED"
+  "market_absorption_clock":{"current_cycle":"NO_NEW_RELIABLE_TWO_SIDED_MARKET_STATE_CAPTURED","integrity":"Last reliable market states remain historically timestamped; no movement or cause is asserted without a fresh reliable board."},
+  "weather":{"Sydney_Friday_11_September":"BOM refreshed 2026-09-09: partly cloudy, 0 mm expected, light winds; no demonstrated directional edge.","Sydney_Saturday_12_September":"No material directional change established.","Sydney_Sunday_13_September":"No material directional change established.","Auckland_Saturday_12_September":"No fresh evidence established a material directional change from the prior variance classification.","decision_effect":"NONE_DIRECTIONAL"},
+  "player_roster_statistical_coverage":{"status":"ACTIVE_RECONCILIATION","roster_identities":"176/176 official Finals Week 1 named squad identities persisted","verified_season_dossiers":48,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":3,"reconciled_player_identities":52,"pending_profile_reconciliation":124,"team_completion":{"Rabbitohs":"22/22 RECONCILED","Knights":"22/22 RECONCILED","Warriors":"8/22 RECONCILED","Dolphins":"0/22","Sharks":"0/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},"per_round_complete":1,"per_round_partial":7,"per_round_pending_with_verified_season_dossier":40,"latest_completed":["Alofiana Khan-Pereira","Chanel Harris-Tavita","Te Maire Martin","James Fisher-Harris"]},
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN"}],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "canonical_reconciliation":{"status":"LATEST_MATERIAL_OVERLAY_ACTIVE","file":"data/finals-week1-2026.json","roster_file":"data/player-roster-finals-week1-2026.json","stats_files":["data/player-stats-finals-week1-2026.json","data/player-stats-finals-week1-batch-005-2026.json","data/player-stats-finals-week1-batch-006-2026.json","data/player-stats-finals-week1-batch-007-2026.json","data/player-stats-finals-week1-batch-008-2026.json","data/player-stats-finals-week1-batch-009-2026.json","data/player-stats-finals-week1-batch-010-2026.json","data/player-stats-finals-week1-batch-011-2026.json","data/player-stats-finals-week1-batch-012-2026.json","data/player-stats-finals-week1-batch-013-2026.json","data/player-stats-finals-week1-batch-014-2026.json"],"coverage_file":"data/finals-week1-player-ingestion-coverage-2026.json"},
+  "audit_integrity":"PRESERVED"
 }
