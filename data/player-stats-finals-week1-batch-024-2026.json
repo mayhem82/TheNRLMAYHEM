@@ -1,0 +1,101 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "024",
+  "captured_at": "2026-09-10T09:24:06+10:00",
+  "source_class": "NRL.com official Finals Week 1 team list and official NRL player profiles",
+  "rule": "Raw profile facts are preserved separately from MAYHEM inference. Fields not established from the official profile capture are FIELD_NOT_PUBLISHED. Per-round observations remain separate from season totals and no causal explanation is inferred from statistics alone.",
+  "players": [
+    {
+      "player": "William Kennedy",
+      "team": "Sharks",
+      "finals_role": "Named starting fullback",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":158,"tries":61},
+      "season": {"appearances":24,"tries":10,"try_assists":16,"line_breaks":11,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":65,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":125,"missed_tackles":45,"average_running_metres":152,"total_running_metres":3662,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":839,"fantasy_average":35.0},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_18_TO_22",
+      "per_round": [
+        {"round":18,"opponent":"Broncos","result":"W 28-16","position":"Fullback","minutes":80,"tries":1,"try_assists":0,"line_breaks":1,"tackle_breaks":2,"post_contact_metres":33,"offloads":0,"tackles_made":6,"missed_tackles":2,"running_metres":147},
+        {"round":19,"opponent":"Dolphins","result":"W 66-0","position":"Fullback","minutes":80,"tries":0,"try_assists":2,"line_breaks":1,"tackle_breaks":3,"post_contact_metres":40,"offloads":0,"tackles_made":9,"missed_tackles":2,"running_metres":160},
+        {"round":20,"opponent":"Knights","result":"W 20-18","position":"Fullback","minutes":80,"tries":1,"try_assists":1,"line_breaks":1,"tackle_breaks":0,"post_contact_metres":53,"offloads":0,"tackles_made":5,"missed_tackles":0,"running_metres":190},
+        {"round":21,"opponent":"Sea Eagles","result":"W 48-12","position":"Fullback","minutes":80,"tries":1,"try_assists":0,"line_breaks":1,"tackle_breaks":1,"post_contact_metres":35,"offloads":0,"tackles_made":3,"missed_tackles":1,"running_metres":141},
+        {"round":22,"opponent":"Rabbitohs","result":"W 32-16","position":"Fullback","minutes":80,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":4,"post_contact_metres":28,"offloads":0,"tackles_made":4,"missed_tackles":2,"running_metres":111}
+      ],
+      "trend_state": "VERIFIED_PARTIAL_ROLE_CONTINUITY",
+      "trend_note": "Rounds 18-22 show five consecutive full-game fullback appearances with 111-190 running metres and repeated attacking involvement. This is descriptive recent-role/workload evidence only; later-round rows were not admitted from an older page capture.",
+      "team_effect": "Starting fullback baseline enriched; established ball-involvement and running workload retained as Sharks structural evidence without a standalone confidence uplift.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/william-kennedy/",
+      "captured_at": "2026-09-10T09:24:06+10:00"
+    },
+    {
+      "player": "Sione Katoa",
+      "team": "Sharks",
+      "finals_role": "Named starting winger",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":146,"tries":99},
+      "season": {"appearances":18,"tries":16,"try_assists":0,"line_breaks":19,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":116,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":32,"missed_tackles":16,"average_running_metres":159,"total_running_metres":2862,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":733,"fantasy_average":40.7},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_18_TO_22",
+      "per_round": [
+        {"round":18,"opponent":"Broncos","result":"W 28-16","position":"Winger","minutes":80,"tries":3,"try_assists":0,"line_breaks":2,"tackle_breaks":1,"post_contact_metres":40,"offloads":1,"tackles_made":3,"missed_tackles":0,"running_metres":169},
+        {"round":19,"opponent":"Dolphins","result":"W 66-0","position":"Winger","minutes":80,"tries":2,"try_assists":0,"line_breaks":2,"tackle_breaks":8,"post_contact_metres":59,"offloads":0,"tackles_made":0,"missed_tackles":1,"running_metres":209},
+        {"round":20,"opponent":"Knights","result":"W 20-18","position":"Winger","minutes":80,"tries":1,"try_assists":0,"line_breaks":1,"tackle_breaks":7,"post_contact_metres":57,"offloads":0,"tackles_made":2,"missed_tackles":0,"running_metres":172},
+        {"round":21,"opponent":"Sea Eagles","result":"W 48-12","position":"Winger","minutes":80,"tries":1,"try_assists":0,"line_breaks":1,"tackle_breaks":6,"post_contact_metres":61,"offloads":0,"tackles_made":1,"missed_tackles":0,"running_metres":193},
+        {"round":22,"opponent":"Rabbitohs","result":"W 32-16","position":"Winger","minutes":80,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":7,"post_contact_metres":27,"offloads":0,"tackles_made":2,"missed_tackles":1,"running_metres":120}
+      ],
+      "trend_state": "VERIFIED_PARTIAL_WING_ROLE_CONTINUITY",
+      "trend_note": "Rounds 18-22 show five consecutive 80-minute wing appearances, seven tries across the five-round sample and 120-209 running metres. This is descriptive production evidence only and does not establish causation.",
+      "team_effect": "Starting wing strike/running baseline enriched; no independent confidence change assigned from production statistics alone.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/sione-katoa/",
+      "captured_at": "2026-09-10T09:24:06+10:00"
+    },
+    {
+      "player": "Riley Jones",
+      "team": "Sharks",
+      "finals_role": "Named starting centre",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "sample_class": "LOW_SAMPLE_VARIANCE",
+      "career": {"appearances":2,"tries":1},
+      "season": {"appearances":1,"tries":1,"try_assists":0,"line_breaks":1,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":2,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":20,"missed_tackles":5,"average_running_metres":100,"total_running_metres":100,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":32,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state": "COMPLETE_2026_NRL_APPEARANCE_SAMPLE_VERIFIED",
+      "per_round": [
+        {"round":27,"opponent":"Storm","result":"L 20-24","position":"Centre","minutes":80,"tries":1,"try_assists":0,"line_breaks":1,"tackle_breaks":2,"post_contact_metres":32,"offloads":0,"tackles_made":20,"missed_tackles":5,"running_metres":100}
+      ],
+      "trend_state": "LOW_SAMPLE_VARIANCE_ONLY",
+      "trend_note": "The complete 2026 NRL sample is one appearance: 80 minutes at centre in Round 27. No recent-form trajectory can be established from one first-grade game.",
+      "team_effect": "Starting-centre selection carries low-sample uncertainty. No directional positive or negative effect is assigned solely from the single NRL appearance.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/riley-jones/",
+      "captured_at": "2026-09-10T09:24:06+10:00"
+    },
+    {
+      "player": "KL Iro",
+      "team": "Sharks",
+      "finals_role": "Named starting centre",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":59,"tries":30},
+      "season": {"appearances":21,"tries":12,"try_assists":2,"line_breaks":10,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":72,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":342,"missed_tackles":55,"average_running_metres":153,"total_running_metres":3218,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":876,"fantasy_average":41.7},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_18_TO_22",
+      "per_round": [
+        {"round":18,"opponent":"Broncos","result":"W 28-16","position":"Centre","minutes":80,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":4,"post_contact_metres":93,"offloads":1,"tackles_made":20,"missed_tackles":3,"running_metres":206},
+        {"round":19,"opponent":"Dolphins","result":"W 66-0","position":"Centre","minutes":80,"tries":2,"try_assists":0,"line_breaks":1,"tackle_breaks":0,"post_contact_metres":51,"offloads":0,"tackles_made":11,"missed_tackles":3,"running_metres":136},
+        {"round":20,"opponent":"Knights","result":"W 20-18","position":"Centre","minutes":80,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":5,"post_contact_metres":66,"offloads":0,"tackles_made":17,"missed_tackles":5,"running_metres":141},
+        {"round":21,"opponent":"Sea Eagles","result":"W 48-12","position":"Centre","minutes":80,"tries":1,"try_assists":0,"line_breaks":0,"tackle_breaks":10,"post_contact_metres":76,"offloads":0,"tackles_made":20,"missed_tackles":0,"running_metres":164},
+        {"round":22,"opponent":"Rabbitohs","result":"W 32-16","position":"Centre","minutes":27,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":0,"post_contact_metres":15,"offloads":1,"tackles_made":4,"missed_tackles":1,"running_metres":45}
+      ],
+      "trend_state": "VERIFIED_PARTIAL_CENTRE_ROLE_WITH_WORKLOAD_INTERRUPTION",
+      "trend_note": "Rounds 18-21 show four consecutive 80-minute centre appearances before a 27-minute Round 22 appearance. The data establish role continuity followed by reduced minutes; they do not establish the reason for the reduced minutes.",
+      "team_effect": "Starting-centre baseline enriched; role continuity is evidenced but no causal explanation is attached to the Round 22 workload change.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/kayal-iro/",
+      "captured_at": "2026-09-10T09:24:06+10:00"
+    }
+  ],
+  "team_list_source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+}
