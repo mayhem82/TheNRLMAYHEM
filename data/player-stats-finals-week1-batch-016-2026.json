@@ -1,0 +1,69 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "016",
+  "captured_at": "2026-09-10T00:20:46+10:00",
+  "source_class": "NRL.com official player profiles",
+  "rule": "Statistics are source facts. Derived MAYHEM effects and trends remain separate from raw player performance data. Fields not visible in the official profile capture are marked FIELD_NOT_PUBLISHED rather than inferred.",
+  "players": [
+    {
+      "player": "Erin Clark",
+      "team": "Warriors",
+      "finals_role": "Named starting lock",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":144,"tries":11},
+      "season": {"appearances":24,"tries":6,"goals":"FIELD_NOT_PUBLISHED","try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":42,"offloads":24,"tackles_made":629,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":135,"total_running_metres":3243,"post_contact_metres":1194.2,"average_hit_ups":13,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":1174,"fantasy_average":48.9},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [
+        {"round":1,"opponent":"Roosters","result":"W 42-18","position":"Lock","minutes":53,"tries":0,"try_assists":0,"line_breaks":0,"tackle_breaks":1,"post_contact_metres":49,"offloads":2,"tackles_made":21,"missed_tackles":1,"running_metres":128},
+        {"round":2,"opponent":"Raiders","result":"W 40-6","position":"Lock","minutes":50,"tries":0,"try_assists":2,"line_breaks":0,"tackle_breaks":1,"post_contact_metres":51,"offloads":1,"tackles_made":24,"missed_tackles":0,"running_metres":114}
+      ],
+      "trend_observation": {"class":"VERIFIED","statement":"Rounds 1-2 show continuous starting-lock deployment with 53 and 50 minutes, running output of 128 and 114 metres, and defensive workloads of 21 and 24 tackles. These are descriptive observations only and do not establish causation.","rounds_used":[1,2]},
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/erin-clark/",
+      "captured_at": "2026-09-10T00:20:46+10:00"
+    },
+    {
+      "player": "Sam Healey",
+      "team": "Warriors",
+      "finals_role": "Named interchange hooker",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":28,"tries":4},
+      "season": {"appearances":21,"tries":2,"goals":"FIELD_NOT_PUBLISHED","try_assists":1,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":0,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":5,"tackles_made":257,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":39,"total_running_metres":824,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":0.6,"forced_drop_outs":0,"fantasy_total":396,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/samuel-healey/",
+      "captured_at": "2026-09-10T00:20:46+10:00"
+    },
+    {
+      "player": "Tanner Stowers-Smith",
+      "team": "Warriors",
+      "finals_role": "Named interchange prop",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":32,"tries":0},
+      "season": {"appearances":19,"tries":0,"goals":"FIELD_NOT_PUBLISHED","try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":40,"offloads":2,"tackles_made":445,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":122,"total_running_metres":2321,"post_contact_metres":855.9,"average_hit_ups":10.3,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":682,"fantasy_average":35.9},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [
+        {"round":1,"opponent":"Roosters","result":"W 42-18","position":"Interchange","minutes":40,"tries":0,"tackle_breaks":1,"post_contact_metres":56,"offloads":0,"tackles_made":12,"missed_tackles":4,"running_metres":134}
+      ],
+      "trend_observation": {"class":"LOW_SAMPLE_VARIANCE_ONLY","statement":"Only one per-round row was captured in this batch; it is insufficient for a directional recent-form trend and is retained as descriptive workload evidence only.","rounds_used":[1]},
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/tanner-stowers-smith/",
+      "captured_at": "2026-09-10T00:20:46+10:00"
+    },
+    {
+      "player": "Demitric Vaimauga",
+      "team": "Warriors",
+      "finals_role": "Named interchange prop",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":51,"tries":4},
+      "season": {"appearances":20,"tries":1,"goals":"FIELD_NOT_PUBLISHED","try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":41,"offloads":12,"tackles_made":387,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":76,"total_running_metres":1531,"post_contact_metres":556.6,"average_hit_ups":7.5,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":615,"fantasy_average":30.8},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [
+        {"round":1,"opponent":"Roosters","result":"W 42-18","position":"Interchange","minutes":27,"tries":0,"tackle_breaks":0,"post_contact_metres":19,"offloads":0,"tackles_made":11,"missed_tackles":0,"running_metres":52},
+        {"round":2,"opponent":"Raiders","result":"W 40-6","position":"Interchange","minutes":36,"tries":0,"tackle_breaks":1,"post_contact_metres":38,"offloads":0,"tackles_made":14,"missed_tackles":1,"running_metres":100}
+      ],
+      "trend_observation": {"class":"VERIFIED","statement":"Rounds 1-2 show interchange deployment with minutes rising from 27 to 36 and running metres from 52 to 100. This is descriptive two-round evidence only and does not establish causation or a directional finals edge.","rounds_used":[1,2]},
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/demitric-sifakula/",
+      "captured_at": "2026-09-10T00:20:46+10:00"
+    }
+  ]
+}
