@@ -1,0 +1,47 @@
+{
+  "season": 2026,
+  "captured_at": "2026-09-10T02:25:09+10:00",
+  "cycle_type": "HOURLY_INTELLIGENCE_RECONCILIATION",
+  "lifecycle_reconciliation": {
+    "Rabbitohs_v_Knights": "UPCOMING",
+    "Warriors_v_Dolphins": "UPCOMING",
+    "Sharks_v_Cowboys": "UPCOMING",
+    "Panthers_v_Roosters": "UPCOMING",
+    "past_kickoff_unverified_results": 0,
+    "MISSED_NOT_CAPTURED_events": 0
+  },
+  "checkpoint_state": {"due_now": false, "next": "Rabbitohs v Knights T-24h", "due_at": "2026-09-10T19:50:00+10:00"},
+  "weather_checked": {
+    "Rabbitohs_v_Knights": "Sydney Friday: 0 mm, low rain chance, light winds; NO_DIRECTIONAL_EDGE",
+    "Warriors_v_Dolphins": "Auckland Saturday: official MetService checked; detailed match-window fields not exposed in retrieval. Independent forecasts indicate cool, mainly dry, SW 20-25 km/h; WEATHER_VARIANCE_ONLY",
+    "Sharks_v_Cowboys": "Sydney Saturday: 0 mm, mostly sunny, NE 15-25 km/h; NO_DIRECTIONAL_EDGE",
+    "Panthers_v_Roosters": "Parramatta/Sydney Sunday: 0 mm, mostly sunny, NE 15-25 km/h; NO_DIRECTIONAL_EDGE"
+  },
+  "market_gate": {
+    "source": "https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches",
+    "Rabbitohs_v_Knights": {"prices":[1.39,3.00],"normalized_favourite_pct":68.34,"mayhem_pct":69,"delta_pp":0.66,"state":"CLEAR"},
+    "Warriors_v_Dolphins": {"prices":[1.59,2.36],"normalized_favourite_pct":59.75,"mayhem_pct":63,"delta_pp":3.25,"state":"REVIEW_REQUIRED","reason":"No independent causal football evidence established this cycle to support >3pp uplift."},
+    "Sharks_v_Cowboys": {"prices":[1.42,2.85],"normalized_favourite_pct":66.74,"mayhem_pct":64,"delta_pp":-2.74,"state":"CLEAR"},
+    "Panthers_v_Roosters": {"prices":[1.33,3.35],"normalized_favourite_pct":71.58,"mayhem_pct":73,"delta_pp":1.42,"state":"CLEAR"}
+  },
+  "player_layer": {
+    "roster_identities_persisted": 176,
+    "reconciled": 70,
+    "verified_season_dossiers": 64,
+    "verified_no_completed_nrl_sample": 1,
+    "profile_data_unavailable": 5,
+    "pending_profile_reconciliation": 106,
+    "Dolphins_reconciled": "4/22",
+    "new_batch": "data/player-stats-finals-week1-batch-018-2026.json"
+  },
+  "decision_state": {
+    "Rabbitohs": "69% CURRENT_NOT_FROZEN",
+    "Warriors": "63% REVIEW_REQUIRED",
+    "Sharks": "64% CURRENT_NOT_FROZEN",
+    "Panthers": "73% CURRENT_NOT_FROZEN",
+    "new_freeze": false
+  },
+  "information_advantage": "NONE_ASSERTED",
+  "audit_integrity": "PRESERVED",
+  "notification": "MATERIAL_PLAYER_PROFILE_PROGRESS_AND_MARKET_GATE_CHANGE"
+}
