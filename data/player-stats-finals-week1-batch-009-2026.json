@@ -1,0 +1,55 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "009",
+  "captured_at": "2026-09-09T16:27:39+10:00",
+  "source_class": "NRL.com official player profiles",
+  "rule": "Statistics are source facts. Derived MAYHEM effects and trends remain separate from raw player performance data. Fields not published in the official profile capture are recorded as FIELD_NOT_PUBLISHED rather than inferred.",
+  "players": [
+    {
+      "player": "Greg Marzhew",
+      "team": "Knights",
+      "finals_role": "Named starting winger",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":110,"tries":74},
+      "season": {"appearances":23,"tries":24,"try_assists":0,"line_breaks":26,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":113,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":40,"missed_tackles":19,"average_running_metres":187,"total_running_metres":4302,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":984,"fantasy_average":42.8},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/knights/greg-marzhew/",
+      "captured_at": "2026-09-09T16:27:39+10:00"
+    },
+    {
+      "player": "Fletcher Sharpe",
+      "team": "Knights",
+      "finals_role": "Named starting five-eighth",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":48,"tries":34},
+      "season": {"appearances":22,"tries":12,"try_assists":11,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":15,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":14,"tackles_made":371,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":111,"total_running_metres":2444,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":34.6,"forced_drop_outs":4,"goals":"FIELD_NOT_PUBLISHED","fantasy_total":977,"fantasy_average":44.4},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/knights/fletcher-sharpe/",
+      "captured_at": "2026-09-09T16:27:39+10:00"
+    },
+    {
+      "player": "Sandon Smith",
+      "team": "Knights",
+      "finals_role": "Named starting halfback",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":67,"tries":7},
+      "season": {"appearances":21,"tries":1,"goals":51,"try_assists":14,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":19,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":10,"tackles_made":352,"missed_tackles":79,"average_running_metres":73,"total_running_metres":1543,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":234.7,"forced_drop_outs":8,"fantasy_total":785,"fantasy_average":37.4},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/knights/sandon-smith/",
+      "captured_at": "2026-09-09T16:27:39+10:00"
+    },
+    {
+      "player": "Tyson Frizell",
+      "team": "Knights",
+      "finals_role": "Named starting prop",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":302,"tries":42},
+      "season": {"appearances":21,"tries":2,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":1,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":16,"tackles_made":484,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":86,"total_running_metres":1821,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":707,"fantasy_average":33.7},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/knights/tyson-frizell/",
+      "captured_at": "2026-09-09T16:27:39+10:00"
+    }
+  ]
+}
