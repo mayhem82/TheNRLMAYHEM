@@ -6,20 +6,25 @@
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 4,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 8,
     "current_players_with_verified_no_completed_2026_nrl_sample": 0,
-    "current_players_pending_profile_reconciliation": 172,
+    "current_players_pending_profile_reconciliation": 168,
     "current_players_with_per_round_reconciliation_complete": 0,
-    "current_players_with_per_round_reconciliation_pending": 4
+    "current_players_with_per_round_reconciliation_partial": 1,
+    "current_players_with_per_round_reconciliation_pending": 7
   },
   "completed_players": [
     "Matthew Dufty",
     "Alex Johnston",
     "Latrell Mitchell",
-    "Cody Walker"
+    "Cody Walker",
+    "Jack Wighton",
+    "Campbell Graham",
+    "Jayden Sullivan",
+    "Brandon Smith"
   ],
   "teams": [
-    {"team":"Rabbitohs","roster":22,"season_dossier_complete":4,"pending":18},
+    {"team":"Rabbitohs","roster":22,"season_dossier_complete":8,"pending":14},
     {"team":"Knights","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Warriors","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Dolphins","roster":22,"season_dossier_complete":0,"pending":22},
@@ -34,11 +39,15 @@
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/matthew-dufty/",
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/alex-johnston/",
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/latrell-mitchell/",
-    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/cody-walker/"
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/cody-walker/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jack-wighton/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/campbell--graham/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jayden-sullivan/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/brandon-smith/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities are persisted from the official NRL team-list release.",
-    "Statistical-dossier progress is now numeric rather than a generic incomplete placeholder.",
+    "Statistical-dossier progress is numeric and advances only after verified official-profile persistence.",
     "Missing official player-profile or statistical fields are recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
     "Per-round reconciliation is tracked separately from season-profile reconciliation.",
     "Official late changes remain subject to T-24h, T-3h, T-60m and T-10m reconciliation."
