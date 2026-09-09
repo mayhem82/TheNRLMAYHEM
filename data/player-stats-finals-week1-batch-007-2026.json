@@ -1,0 +1,67 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "007",
+  "captured_at": "2026-09-09T15:19:21+10:00",
+  "source_class": "NRL.com official player profiles",
+  "rule": "Statistics are source facts. Derived MAYHEM effects and trends remain separate from raw player performance data. Fields not published in the official profile are marked FIELD_NOT_PUBLISHED rather than inferred.",
+  "players": [
+    {
+      "player": "Latrell Siegwalt",
+      "team": "Rabbitohs",
+      "finals_role": "Named interchange",
+      "profile_state": "VERIFIED",
+      "career": {"appearances": 8, "tries": 2},
+      "season": {"appearances": 8, "tries": 2, "goals": 28, "try_assists": 6, "line_breaks": 2, "line_break_assists": "FIELD_NOT_PUBLISHED", "tackle_breaks": 20, "offloads": "FIELD_NOT_PUBLISHED", "tackles_made": 102, "missed_tackles": 27, "average_running_metres": 117, "total_running_metres": 942, "post_contact_metres": "FIELD_NOT_PUBLISHED", "average_hit_ups": "FIELD_NOT_PUBLISHED", "average_kicking_metres": 1.93, "forced_drop_outs": "FIELD_NOT_PUBLISHED", "fantasy_total": 351, "fantasy_average": 43.9},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/latrell-siegwalt/",
+      "captured_at": "2026-09-09T15:19:21+10:00"
+    },
+    {
+      "player": "Liam Le Blanc",
+      "team": "Rabbitohs",
+      "finals_role": "Named reserve",
+      "profile_state": "VERIFIED",
+      "career": {"appearances": 27, "tries": 1},
+      "season": {"appearances": 6, "tries": 0, "try_assists": "FIELD_NOT_PUBLISHED", "line_breaks": "FIELD_NOT_PUBLISHED", "line_break_assists": "FIELD_NOT_PUBLISHED", "tackle_breaks": 1, "offloads": 1, "tackles_made": 111, "missed_tackles": 6, "average_running_metres": 48, "total_running_metres": 292, "post_contact_metres": 117, "average_hit_ups": 5.3, "average_kicking_metres": "FIELD_NOT_PUBLISHED", "forced_drop_outs": "FIELD_NOT_PUBLISHED", "goals": "FIELD_NOT_PUBLISHED", "fantasy_total": 133, "fantasy_average": 22.2},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [
+        {"round":12,"opponent":"Cowboys","result":"L 18-30","position":"Interchange","minutes":31,"tries":0,"try_assists":0,"tackles_made":20,"missed_tackles":1,"running_metres":75},
+        {"round":15,"opponent":"Broncos","result":"W 48-6","position":"Interchange","minutes":33,"tries":0,"try_assists":0,"tackles_made":16,"missed_tackles":1,"running_metres":60},
+        {"round":18,"opponent":"Panthers","result":"L 14-36","position":"Interchange","minutes":32,"tries":0,"try_assists":0,"tackles_made":18,"missed_tackles":2,"running_metres":26},
+        {"round":19,"opponent":"Knights","result":"W 26-24","position":"Interchange","minutes":45,"tries":0,"try_assists":0,"tackles_made":25,"missed_tackles":0,"running_metres":57},
+        {"round":21,"opponent":"Storm","result":"W 28-26","position":"Interchange","minutes":21,"tries":0,"try_assists":0,"tackles_made":14,"missed_tackles":0,"running_metres":48},
+        {"round":22,"opponent":"Sharks","result":"L 16-32","position":"Interchange","minutes":23,"tries":0,"try_assists":0,"tackles_made":18,"missed_tackles":2,"running_metres":24}
+      ],
+      "source": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/liam-le-blanc/",
+      "captured_at": "2026-09-09T15:19:21+10:00"
+    },
+    {
+      "player": "Talanoa Penitani",
+      "team": "Rabbitohs",
+      "finals_role": "Named reserve",
+      "profile_state": "VERIFIED_LOW_SAMPLE",
+      "career": {"appearances": 1, "tries": 2},
+      "season": {"appearances": 1, "tries": 2, "try_assists": 0, "line_breaks": 3, "line_break_assists": "FIELD_NOT_PUBLISHED", "tackle_breaks": 5, "offloads": "FIELD_NOT_PUBLISHED", "tackles_made": 5, "missed_tackles": 0, "average_running_metres": 199, "total_running_metres": 199, "post_contact_metres": 48, "average_hit_ups": "FIELD_NOT_PUBLISHED", "average_kicking_metres": "FIELD_NOT_PUBLISHED", "forced_drop_outs": "FIELD_NOT_PUBLISHED", "goals": "FIELD_NOT_PUBLISHED", "fantasy_total": 63, "fantasy_average": 63.0},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_COMPLETE_FOR_2026_NRL_SAMPLE",
+      "per_round": [
+        {"round":12,"opponent":"Cowboys","result":"L 18-30","position":"Winger","minutes":80,"tries":2,"try_assists":0,"tackles_made":5,"missed_tackles":0,"running_metres":199}
+      ],
+      "trend_state": "LOW_SAMPLE_VARIANCE_ONLY",
+      "source": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/talanoa-penitani/",
+      "captured_at": "2026-09-09T15:19:21+10:00"
+    },
+    {
+      "player": "Peter Mamouzelos",
+      "team": "Rabbitohs",
+      "finals_role": "Named reserve",
+      "profile_state": "VERIFIED",
+      "career": {"appearances": 49, "tries": 5},
+      "season": {"appearances": 10, "tries": 0, "try_assists": 2, "line_breaks": "FIELD_NOT_PUBLISHED", "line_break_assists": 3, "tackle_breaks": "FIELD_NOT_PUBLISHED", "offloads": 1, "tackles_made": 238, "missed_tackles": 15, "average_running_metres": 40, "total_running_metres": 402, "post_contact_metres": "FIELD_NOT_PUBLISHED", "average_hit_ups": "FIELD_NOT_PUBLISHED", "average_kicking_metres": 19.2, "forced_drop_outs": 2, "goals": "FIELD_NOT_PUBLISHED", "fantasy_total": 277, "fantasy_average": 27.7},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/peter-mamouzelos/",
+      "captured_at": "2026-09-09T15:19:21+10:00"
+    }
+  ]
+}
