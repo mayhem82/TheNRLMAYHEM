@@ -1,0 +1,33 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-10T04:52:42+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["Rabbitohs v Knights:UPCOMING","Warriors v Dolphins:UPCOMING","Sharks v Cowboys:UPCOMING","Panthers v Roosters:UPCOMING"]},
+  "checkpoint":{"due":false,"next":"Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "sources_checked":[
+    "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/jeremy-marshall-king/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/tom-gilbert/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/max-plath/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/kulikefu-finefeuiaki/",
+    "https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches"
+  ],
+  "material_changes":[
+    "Dolphins profile reconciliation advanced from 8/22 to 12/22.",
+    "Max Plath official per-round record establishes documented 2026 role movement from hooker through interchange to second row; retained as role-history evidence only.",
+    "Warriors 63% remains REVIEW_REQUIRED because current normalized market probability remains 59.75%, a +3.25pp MAYHEM uplift without newly established independent causal support."
+  ],
+  "market_states":[
+    {"fixture":"Rabbitohs v Knights","prices":[1.39,3.00],"normalized":[68.34,31.66],"selection":"Rabbitohs","confidence":69,"delta_pp":0.66,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Warriors v Dolphins","prices":[1.59,2.36],"normalized":[59.75,40.25],"selection":"Warriors","confidence":63,"delta_pp":3.25,"state":"REVIEW_REQUIRED"},
+    {"fixture":"Sharks v Cowboys","prices":[1.42,2.85],"normalized":[66.74,33.26],"selection":"Sharks","confidence":64,"delta_pp":-2.74,"state":"CURRENT_NOT_FROZEN"},
+    {"fixture":"Panthers v Roosters","prices":[1.33,3.35],"normalized":[71.58,28.42],"selection":"Panthers","confidence":73,"delta_pp":1.42,"state":"CURRENT_NOT_FROZEN"}
+  ],
+  "weather":{"status":"MANDATORY_CHECK_ACTIVE","decision_effect":"NONE_DIRECTIONAL","note":"No material directional change established this cycle; Auckland wind variance remains monitored."},
+  "player_coverage":{"roster_identities":176,"verified_season_dossiers":72,"verified_no_completed_sample":1,"profile_data_unavailable":5,"reconciled":78,"pending":98,"dolphins":"12/22"},
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED"
+}
