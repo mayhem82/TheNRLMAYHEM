@@ -6,12 +6,12 @@
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 8,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 10,
     "current_players_with_verified_no_completed_2026_nrl_sample": 0,
-    "current_players_pending_profile_reconciliation": 168,
+    "current_players_pending_profile_reconciliation": 166,
     "current_players_with_per_round_reconciliation_complete": 0,
     "current_players_with_per_round_reconciliation_partial": 1,
-    "current_players_with_per_round_reconciliation_pending": 7
+    "current_players_with_per_round_reconciliation_pending": 9
   },
   "completed_players": [
     "Matthew Dufty",
@@ -21,10 +21,12 @@
     "Jack Wighton",
     "Campbell Graham",
     "Jayden Sullivan",
-    "Brandon Smith"
+    "Brandon Smith",
+    "Tevita Tatola",
+    "Keaon Koloamatangi"
   ],
   "teams": [
-    {"team":"Rabbitohs","roster":22,"season_dossier_complete":8,"pending":14},
+    {"team":"Rabbitohs","roster":22,"season_dossier_complete":10,"pending":12},
     {"team":"Knights","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Warriors","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Dolphins","roster":22,"season_dossier_complete":0,"pending":22},
@@ -43,7 +45,9 @@
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jack-wighton/",
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/campbell--graham/",
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jayden-sullivan/",
-    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/brandon-smith/"
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/brandon-smith/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/tevita-tatola/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/keaon-koloamatangi/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities are persisted from the official NRL team-list release.",
