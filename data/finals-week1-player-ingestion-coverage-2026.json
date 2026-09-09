@@ -1,36 +1,23 @@
 {
   "season": 2026,
   "round": "Finals Week 1",
-  "captured_at": "2026-09-09T12:23:17+10:00",
+  "captured_at": "2026-09-09T14:14:07+10:00",
   "scope": "Official NRL Finals Week 1 named squads for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters",
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 14,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 18,
     "current_players_with_verified_no_completed_2026_nrl_sample": 0,
-    "current_players_pending_profile_reconciliation": 162,
+    "current_players_pending_profile_reconciliation": 158,
     "current_players_with_per_round_reconciliation_complete": 0,
     "current_players_with_per_round_reconciliation_partial": 1,
-    "current_players_with_per_round_reconciliation_pending": 13
+    "current_players_with_per_round_reconciliation_pending": 17
   },
   "completed_players": [
-    "Matthew Dufty",
-    "Alex Johnston",
-    "Latrell Mitchell",
-    "Cody Walker",
-    "Jack Wighton",
-    "Campbell Graham",
-    "Jayden Sullivan",
-    "Brandon Smith",
-    "Tevita Tatola",
-    "Keaon Koloamatangi",
-    "David Fifita",
-    "Tallis Duncan",
-    "Cameron Murray",
-    "Jye Gray"
+    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott"
   ],
   "teams": [
-    {"team":"Rabbitohs","roster":22,"season_dossier_complete":14,"pending":8},
+    {"team":"Rabbitohs","roster":22,"season_dossier_complete":18,"pending":4},
     {"team":"Knights","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Warriors","roster":22,"season_dossier_complete":0,"pending":22},
     {"team":"Dolphins","roster":22,"season_dossier_complete":0,"pending":22},
@@ -41,7 +28,8 @@
   ],
   "statistical_data_files": [
     "data/player-stats-finals-week1-2026.json",
-    "data/player-stats-finals-week1-batch-005-2026.json"
+    "data/player-stats-finals-week1-batch-005-2026.json",
+    "data/player-stats-finals-week1-batch-006-2026.json"
   ],
   "sources": [
     "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
@@ -58,7 +46,11 @@
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/david-fifita/",
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/tallis-duncan/",
     "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/cameron-murray/",
-    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jye-gray/"
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jye-gray/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/lachlan-hubner/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/sean-keppie/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jamie-humphreys/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/adam-elliott/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities are persisted from the official NRL team-list release.",
