@@ -1,34 +1,46 @@
 {
   "season": 2026,
   "round": "Finals Week 1",
-  "captured_at": "2026-09-08T23:58:51+10:00",
+  "captured_at": "2026-09-09T10:50:00+10:00",
   "scope": "Official NRL Finals Week 1 named squads for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters",
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_2026_nrl_season_statistical_dossier": "PARTIAL_RECONCILIATION_IN_PROGRESS",
-    "current_players_with_verified_no_completed_2026_nrl_sample": "NOT_YET_RECONCILED",
-    "unresolved_current_roster_profile_gaps": "STATISTICAL_DOSSIER_AUDIT_REQUIRED"
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 4,
+    "current_players_with_verified_no_completed_2026_nrl_sample": 0,
+    "current_players_pending_profile_reconciliation": 172,
+    "current_players_with_per_round_reconciliation_complete": 0,
+    "current_players_with_per_round_reconciliation_pending": 4
   },
-  "teams": [
-    {"team":"Rabbitohs","roster":22},
-    {"team":"Knights","roster":22},
-    {"team":"Warriors","roster":22},
-    {"team":"Dolphins","roster":22},
-    {"team":"Sharks","roster":22},
-    {"team":"Cowboys","roster":22},
-    {"team":"Panthers","roster":22},
-    {"team":"Roosters","roster":22}
+  "completed_players": [
+    "Matthew Dufty",
+    "Alex Johnston",
+    "Latrell Mitchell",
+    "Cody Walker"
   ],
+  "teams": [
+    {"team":"Rabbitohs","roster":22,"season_dossier_complete":4,"pending":18},
+    {"team":"Knights","roster":22,"season_dossier_complete":0,"pending":22},
+    {"team":"Warriors","roster":22,"season_dossier_complete":0,"pending":22},
+    {"team":"Dolphins","roster":22,"season_dossier_complete":0,"pending":22},
+    {"team":"Sharks","roster":22,"season_dossier_complete":0,"pending":22},
+    {"team":"Cowboys","roster":22,"season_dossier_complete":0,"pending":22},
+    {"team":"Panthers","roster":22,"season_dossier_complete":0,"pending":22},
+    {"team":"Roosters","roster":22,"season_dossier_complete":0,"pending":22}
+  ],
+  "statistical_data_file": "data/player-stats-finals-week1-2026.json",
   "sources": [
     "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
-    "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/matthew-dufty/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/alex-johnston/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/latrell-mitchell/",
+    "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/cody-walker/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities are persisted from the official NRL team-list release.",
-    "Roster population is complete; statistical-dossier completeness is not yet claimed.",
-    "Missing official player-profile or statistical fields must be recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
-    "Reuben Cotter is named by North Queensland and is available after his Grade 2 careless-high-tackle charge was downgraded to Grade 1 with a fine; the former judiciary-pending state is retired as stale.",
+    "Statistical-dossier progress is now numeric rather than a generic incomplete placeholder.",
+    "Missing official player-profile or statistical fields are recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
+    "Per-round reconciliation is tracked separately from season-profile reconciliation.",
     "Official late changes remain subject to T-24h, T-3h, T-60m and T-10m reconciliation."
   ]
 }
