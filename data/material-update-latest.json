@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-09T04:54:40+10:00",
+  "captured_at": "2026-09-09T11:55:27+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "ROSTER_BASELINE_PERSISTENCE_REPAIR",
+  "trigger": "PLAYER_STATISTICAL_DOSSIER_PROGRESS",
   "lifecycle_reconciliation": {
     "status": "NO_KICKOFF_PASSED",
     "fixtures": [
@@ -21,22 +21,29 @@
   },
   "observations": [
     {
-      "player": "Reuben Cotter",
-      "team": "Cowboys",
-      "fixture": "FW1-SHA-COW-2026-09-12",
-      "classification": "VERIFIED_PERSISTENCE_REPAIR",
-      "observation": "The Finals Week 1 roster baseline has been reconciled from the superseded NAMED_STARTER_PENDING_JUDICIARY state to NAMED_STARTER_AVAILABLE_JUDICIARY_RESOLVED following the official NRL judiciary outcome.",
-      "persistence_state": "REPAIRED_AND_REREAD",
-      "decision_effect": "NONE"
+      "player": "David Fifita",
+      "team": "Rabbitohs",
+      "fixture": "FW1-SS-NKN-2026-09-11",
+      "classification": "VERIFIED_STATISTICAL_DOSSIER",
+      "observation": "Official NRL profile persisted: 150 career appearances/56 tries; 2026: 16 appearances, 6 tries, 7 line breaks, 3 line-break assists, 21 offloads, 364 tackles, 140 average running metres, 2242 total running metres, fantasy 779/48.7.",
+      "decision_effect": "Role-critical Rabbitohs edge profile strengthened as source fact; no standalone confidence increase."
+    },
+    {
+      "player": "Tallis Duncan",
+      "team": "Rabbitohs",
+      "fixture": "FW1-SS-NKN-2026-09-11",
+      "classification": "VERIFIED_STATISTICAL_DOSSIER",
+      "observation": "Official NRL profile persisted: 72 career appearances/24 tries; 2026: 21 appearances, 12 tries, 16 line breaks, 10 line-break assists, 16 offloads, 512 tackles, 135 average running metres, 2839 total running metres, fantasy 1127/53.7.",
+      "decision_effect": "Role-critical Rabbitohs edge profile strengthened as source fact; no standalone confidence increase."
     },
     {
       "player": "Jeremiah Nanai",
       "team": "Cowboys",
       "fixture": "FW1-SHA-COW-2026-09-12",
       "classification": "SIGNAL",
-      "observation": "Nanai remains officially named, with the previously captured final-fitness-test uncertainty unresolved in this cycle.",
+      "observation": "Nanai remains officially named; previously captured final-fitness-test uncertainty remains unresolved in this cycle.",
       "availability_state": "VERIFIED_NAMED_FITNESS_UNRESOLVED_SIGNAL",
-      "decision_effect": "Cowboys edge-continuity counter-case remains conditional. No non-checkpoint confidence rewrite."
+      "decision_effect": "Cowboys edge-continuity counter-case remains conditional."
     }
   ],
   "fixture_updates": [
@@ -52,17 +59,23 @@
       "Sharks_v_Cowboys": {"home_price":1.45,"away_price":2.78,"normalized_home_probability":65.72,"mayhem_confidence":64,"delta_pp":-1.72,"movement_classification":"SIGNAL_TOWARD_COWBOYS"},
       "Panthers_v_Roosters": {"home_price":1.31,"away_price":3.46,"normalized_home_probability":72.54,"mayhem_confidence":73,"delta_pp":0.46}
     },
-    "integrity": "No verified material two-sided market change breaches the +3 percentage-point MAYHEM gate."
+    "capture_state": "LAST_VERIFIED_TWO_SIDED_BOARD_RETAINED; current Sportsbet page inaccessible to automated fetch, so no fresh price is asserted.",
+    "integrity": "No verified material market change established in this cycle."
   },
   "weather": {
-    "Sydney": "Fresh BOM checks remain low-impact for Finals match days, with low rainfall probability and no demonstrated directional football edge.",
-    "Auckland": "No superior verified match-day weather detail established in this cycle; no directional edge asserted.",
-    "decision_effect": "NONE"
+    "Sydney": "BOM: Friday 11 Sep 0 mm and light winds; Saturday 12 Sep 0 mm with northeasterly winds developing 15-25 km/h; Sunday 13 Sep 0 mm with northeasterly 15-25 km/h. No demonstrated directional team edge.",
+    "Auckland": "WeatherWatch: Saturday 12 Sep 16/11C, brisk southwesterly about 39 km/h, 10% rain chance/trace. Wind remains a material variance signal but no demonstrated directional team edge.",
+    "decision_effect": "NONE_DIRECTIONAL"
   },
   "player_roster_statistical_coverage": {
-    "status": "ROSTER_POPULATION_COMPLETE_STATISTICAL_DOSSIER_RECONCILIATION_INCOMPLETE",
+    "status": "ACTIVE_RECONCILIATION",
     "roster_identities": "176/176 official Finals Week 1 named squad identities persisted",
-    "statistics": "Mandatory current-season/career/per-round dossier reconciliation remains incomplete for the full Finals roster."
+    "verified_season_dossiers": 12,
+    "pending_season_dossiers": 164,
+    "per_round_complete": 0,
+    "per_round_partial": 1,
+    "per_round_pending_with_verified_season_dossier": 11,
+    "latest_completed": ["David Fifita","Tallis Duncan"]
   },
   "current_decisions": [
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN"},
@@ -75,7 +88,9 @@
   "canonical_reconciliation": {
     "status": "CANONICAL_AND_ROSTER_BASELINE_CURRENT",
     "file": "data/finals-week1-2026.json",
-    "roster_file": "data/player-roster-finals-week1-2026.json"
+    "roster_file": "data/player-roster-finals-week1-2026.json",
+    "stats_file": "data/player-stats-finals-week1-2026.json",
+    "coverage_file": "data/finals-week1-player-ingestion-coverage-2026.json"
   },
   "audit_integrity": "PRESERVED"
 }
