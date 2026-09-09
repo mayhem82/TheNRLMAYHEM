@@ -1,0 +1,37 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-09T10:16:42+10:00",
+  "lifecycle_reconciliation": {
+    "state": "ALL_RELEVANT_FIXTURES_UPCOMING",
+    "result_verification_backlog": [],
+    "missed_not_captured": false
+  },
+  "fixtures": [
+    {"id":"FW1-SS-NKN-2026-09-11","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Rabbitohs","confidence":69,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-10T19:50:00+10:00"},
+    {"id":"FW1-WAR-DOL-2026-09-12","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Warriors","confidence":63,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-11T16:05:00+10:00"},
+    {"id":"FW1-SHA-COW-2026-09-12","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Sharks","confidence":64,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-11T19:50:00+10:00"},
+    {"id":"FW1-PEN-SYD-2026-09-13","lifecycle":"UPCOMING","decision_state":"CURRENT_NOT_FROZEN","tip":"Panthers","confidence":73,"checkpoint_due":false,"next_checkpoint":"T-24h 2026-09-12T16:05:00+10:00"}
+  ],
+  "sources_checked": [
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","finding":"No new official squad change identified."},
+    {"source":"NRL Sharks v Cowboys Finals preview","url":"https://www.nrl.com/news/2026/09/08/sharks-v-cowboys-tricky-treat-for-home-fans-nanai-neame-add-punch/","finding":"Nanai, Neame and Laybutt remain named returns; Cotter remains free to play."},
+    {"source":"North Queensland Cowboys official Elimination Final team list","url":"https://www.cowboys.com.au/news/2026/09/08/cowboys-nrl-team-list-elimination-final-v-sharks-3-back/","finding":"Nanai remains officially named to return; no later club fitness clearance located by capture time."},
+    {"source":"Bureau of Meteorology Sydney-area forecasts","url":"https://www.bom.gov.au/places/nsw/kensington/forecast/","finding":"Friday 0 mm/light winds; Saturday and Sunday 0 mm with northeasterlies developing. No demonstrated directional football edge."},
+    {"source":"Sportsbet Finals Week 1 market board","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl/finals-week-1","finding":"No fresher reliably machine-verifiable two-sided board established this cycle; retain last verified canonical market state without inference."}
+  ],
+  "player_intelligence": {
+    "roster_population":"176/176 VERIFIED OFFICIAL FINALS WEEK 1 NAMED SQUAD IDENTITIES",
+    "statistical_dossier_state":"INCOMPLETE_RECONCILIATION_REQUIRED",
+    "nanai":"VERIFIED_NAMED_FITNESS_UNRESOLVED_SIGNAL",
+    "cotter":"VERIFIED_NAMED_AVAILABLE_JUDICIARY_RESOLVED"
+  },
+  "market_state":"NO_NEW_RELIABLE_MATERIAL_STATE_ESTABLISHED",
+  "weather_state":"NO_MATERIAL_DIRECTIONAL_CHANGE",
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "material_change": false,
+  "public_notification":"SUPPRESS_NO_MATERIAL_CHANGE",
+  "audit_integrity":"PRESERVED"
+}
