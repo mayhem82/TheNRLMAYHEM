@@ -1,0 +1,26 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "captured_at":"2026-09-10T05:42:18+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_reconciliation":"NO_KICKOFF_PASSED",
+  "fixtures":{"Rabbitohs_Knights":"UPCOMING","Warriors_Dolphins":"UPCOMING","Sharks_Cowboys":"UPCOMING","Panthers_Roosters":"UPCOMING"},
+  "checkpoint":{"due":false,"next":"Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "sources_checked":[
+    "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/morgan-knowles/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/kurt-donoghoe/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/ray-stone/",
+    "https://www.nrl.com/players/nrl-premiership/dolphins/francis-molo/",
+    "https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches",
+    "https://www.bom.gov.au/places/nsw/camperdown/forecast/"
+  ],
+  "weather":{"Rabbitohs_Knights":"Friday Sydney: partly cloudy, 0 mm expected, about 10% rain chance, light winds; NONE_DIRECTIONAL","Warriors_Dolphins":"Prior Auckland wind-variance signal retained; no new directional team effect established","Sharks_Cowboys":"No material directional change established","Panthers_Roosters":"No material directional change established"},
+  "market":{"Rabbitohs_Knights":{"prices":[1.39,3.00],"normalized":[68.34,31.66]},"Warriors_Dolphins":{"prices":[1.59,2.36],"normalized":[59.75,40.25],"state":"REVIEW_REQUIRED","confidence_delta_pp":3.25},"Sharks_Cowboys":{"prices":[1.42,2.85],"normalized":[66.74,33.26]},"Panthers_Roosters":{"prices":[1.33,3.35],"normalized":[71.58,28.42]}},
+  "player_reconciliation":{"roster_identities":176,"verified_season_dossiers":76,"verified_no_completed_sample":1,"profile_data_unavailable":5,"reconciled":82,"pending":94,"Dolphins":"16/22"},
+  "new_player_dossiers":["Morgan Knowles","Kurt Donoghoe","Ray Stone","Francis Molo"],
+  "decision_effect":"No tip/confidence change. Warriors v Dolphins remains REVIEW_REQUIRED because 63% exceeds current normalized market probability by 3.25pp without newly established independent causal support.",
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED"
+}
