@@ -66,6 +66,7 @@
   "information_advantage": "NONE_ASSERTED",
   "incorrect_tip_halt": "CLEAR",
   "audit_integrity": "PRESERVED",
-  "persistence": "WRITE_COMPLETED_PENDING_READBACK",
+  "persistence": "WRITE_COMPLETED_READBACK_VERIFIED",
+  "public_render_verification": "UNAVAILABLE_THIS_CYCLE; NO_RENDER_SUCCESS_CLAIM",
   "notification_trigger": "PLAYER_STATISTICAL_DOSSIER_PROGRESS"
 }
