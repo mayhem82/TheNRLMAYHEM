@@ -1,0 +1,61 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "015",
+  "captured_at": "2026-09-09T22:30:22+10:00",
+  "source_class": "NRL.com official player profiles",
+  "rule": "Statistics are source facts. Derived MAYHEM effects and trends remain separate from raw player performance data. Fields not visible in the official profile capture are marked FIELD_NOT_PUBLISHED rather than inferred.",
+  "players": [
+    {
+      "player": "Wayde Egan",
+      "team": "Warriors",
+      "finals_role": "Named starting hooker",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":173,"tries":24},
+      "season": {"appearances":23,"tries":3,"goals":"FIELD_NOT_PUBLISHED","try_assists":12,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":14,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":13,"tackles_made":697,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":49,"total_running_metres":1146,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":2.3,"forced_drop_outs":0,"fantasy_total":874,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/wayde-egan/",
+      "captured_at": "2026-09-09T22:30:22+10:00"
+    },
+    {
+      "player": "Mitchell Barnett",
+      "team": "Warriors",
+      "finals_role": "Named starting prop",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":192,"tries":28},
+      "season": {"appearances":15,"tries":1,"goals":"FIELD_NOT_PUBLISHED","try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":27,"offloads":8,"tackles_made":394,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":154,"total_running_metres":2317,"post_contact_metres":896.4,"average_hit_ups":14.8,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":665,"fantasy_average":"FIELD_NOT_PUBLISHED"},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/mitchell-barnett/",
+      "captured_at": "2026-09-09T22:30:22+10:00"
+    },
+    {
+      "player": "Kurt Capewell",
+      "team": "Warriors",
+      "finals_role": "Named starting second row",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":192,"tries":35},
+      "season": {"appearances":13,"tries":2,"goals":"FIELD_NOT_PUBLISHED","try_assists":"FIELD_NOT_PUBLISHED","line_breaks":3,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":7,"tackles_made":402,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":86,"total_running_metres":1128,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":491,"fantasy_average":37.8},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_RECONCILIATION_PENDING",
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/kurt-capewell/",
+      "captured_at": "2026-09-09T22:30:22+10:00"
+    },
+    {
+      "player": "Jacob Laban",
+      "team": "Warriors",
+      "finals_role": "Named starting second row",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":42,"tries":10},
+      "season": {"appearances":23,"tries":8,"goals":"FIELD_NOT_PUBLISHED","try_assists":"FIELD_NOT_PUBLISHED","line_breaks":10,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":11,"tackles_made":660,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":79,"total_running_metres":1838,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":937,"fantasy_average":40.7},
+      "per_round_state": "OFFICIAL_TABLE_PRESENT_PARTIAL_ROWS_CAPTURED",
+      "per_round": [
+        {"round":1,"opponent":"Roosters","result":"W 42-18","position":"2nd Row","minutes":46,"tries":0,"tackle_breaks":0,"post_contact_metres":10,"offloads":1,"tackles_made":17,"missed_tackles":5,"running_metres":39},
+        {"round":2,"opponent":"Raiders","result":"W 40-6","position":"2nd Row","minutes":65,"tries":0,"tackle_breaks":1,"post_contact_metres":39,"offloads":0,"tackles_made":37,"missed_tackles":5,"running_metres":88},
+        {"round":3,"opponent":"Knights","result":"L 12-38","position":"2nd Row","minutes":63,"tries":0,"tackle_breaks":2,"post_contact_metres":32,"offloads":1,"tackles_made":20,"missed_tackles":1,"running_metres":92}
+      ],
+      "trend_observation": {"class":"VERIFIED","statement":"Rounds 1-3 show continuous second-row deployment with minutes increasing 46 to 65 then 63; running metres increased 39 to 88 to 92 while missed tackles fell from five in each of the first two rounds to one in Round 3. These are descriptive trends only and do not establish causation.","rounds_used":[1,2,3]},
+      "source": "https://www.nrl.com/players/nrl-premiership/warriors/jacob-laban/",
+      "captured_at": "2026-09-09T22:30:22+10:00"
+    }
+  ]
+}
