@@ -1,0 +1,24 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-10T13:06:14+10:00",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","all_relevant_fixtures":"UPCOMING","result_verification_backlog":[]},
+  "checkpoint":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h","due_sydney":"2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "sources_checked":[
+    "Official NRL Finals Week 1 Sharks v Cowboys match preview/team list",
+    "Official NRL player profiles: Cameron McInnes, Siosifa Talakai, Billy Burns, Oregon Kaufusi",
+    "Current Sydney weather forecast",
+    "Canonical repository lifecycle, player coverage, manifest and material-update state"
+  ],
+  "player_population":{"roster_identities":176,"reconciled_identities":104,"verified_2026_dossiers":98,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending":72,"sharks":"16/22"},
+  "market":{"Rabbitohs_Knights":{"normalized_favourite_probability":66.90,"mayhem_confidence":69,"delta_pp":2.10,"state":"CURRENT_NOT_FROZEN"},"Warriors_Dolphins":{"normalized_favourite_probability":59.14,"mayhem_confidence":63,"delta_pp":3.86,"state":"REVIEW_REQUIRED"},"Sharks_Cowboys":{"prices":[1.45,2.78],"normalized":[65.72,34.28],"mayhem_confidence":64,"delta_pp":-1.72,"state":"CURRENT_NOT_FROZEN","movement_cause":"UNKNOWN_SIGNAL_ONLY"},"Panthers_Roosters":{"normalized_favourite_probability":72.15,"mayhem_confidence":73,"delta_pp":0.85,"state":"CURRENT_NOT_FROZEN"}},
+  "weather":{"Sydney_Fri":"mild/dry; NONE_DIRECTIONAL","Sydney_Sat":"sunny to partly cloudy, approximately 21C/12C; NONE_DIRECTIONAL","Sydney_Sun":"sunny, approximately 23C/13C; NONE_DIRECTIONAL","Auckland":"prior variance state retained; no directional edge asserted"},
+  "evidence_family_independence":"Market is not counted as independent corroboration. Official roster/profile evidence, season structural data, matchup history and weather remain separately classified.",
+  "adversarial_counter_case":"No current opposing case materially exceeded the existing structural counter-cases. Warriors-Dolphins remains REVIEW_REQUIRED because the confidence uplift exceeds the market gate without sufficient independent causal support.",
+  "information_advantage":"NONE_ASSERTED",
+  "prediction_decomposition":"UNCHANGED; no pseudo-precise new weights invented",
+  "decision_effect":"No tip or confidence changed. Sharks player baseline enriched; Warriors review halt remains in force for validation.",
+  "persistence":{"batch_027":"WRITTEN","manifest":"UPDATED","coverage":"UPDATED","material_update":"UPDATED","readback":"PENDING_AT_WRITE_TIME"},
+  "audit_integrity":"PRESERVED"
+}
