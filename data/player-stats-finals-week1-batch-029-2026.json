@@ -1,0 +1,44 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "029",
+  "captured_at": "2026-09-10T14:55:51+10:00",
+  "source_class": "NRL.com official Finals Week 1 team list and official NRL player profiles",
+  "rule": "Raw profile facts are preserved separately from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Derived trends identify genuine rounds used and do not establish causation.",
+  "players": [
+    {
+      "player": "Samuel Stonestreet",
+      "team": "Sharks",
+      "finals_role": "Named reserve",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":28,"tries":20},
+      "season": {"appearances":12,"tries":4,"try_assists":2,"line_breaks":4,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":21,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":81,"missed_tackles":19,"average_running_metres":141,"total_running_metres":1698,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":6.16,"forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":350,"fantasy_average":29.2},
+      "per_round_state": "VERIFIED_2026_SAMPLE_AVAILABLE",
+      "trend_rounds_used": [9,10,11,13,14],
+      "trend_note": "Latest completed first-grade appearances in the official table were five consecutive 80-minute wing games across Rounds 9-14, with running metres 167, 81, 135, 107 and 170. He was subsequently listed as reserve in Rounds 20, 22, 24, 25 and 27. This establishes role/selection continuity information only and does not establish causation.",
+      "team_effect": "Reserve outside-back depth and verified running baseline enriched; no standalone confidence adjustment.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/samuel-stonestreet/",
+      "captured_at": "2026-09-10T14:55:51+10:00"
+    },
+    {
+      "player": "Mawene Hiroti",
+      "team": "Sharks",
+      "finals_role": "Named reserve",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":45,"tries":16},
+      "season": {"appearances":11,"tries":2,"goals":1,"try_assists":1,"line_breaks":4,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":20,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":161,"missed_tackles":27,"average_running_metres":128,"total_running_metres":1412,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":327,"fantasy_average":29.7},
+      "per_round_state": "PARTIAL_VERIFIED",
+      "trend_rounds_used": [23,24,25,26],
+      "trend_note": "Rounds 23-26 show four consecutive centre selections, with minutes 80, 80, 80 and 26; running metres 150, 100, 119 and 35; tackles 32, 18, 19 and 3. This is a verified recent centre-role/workload trend. The Round 26 reduced minutes are retained as observation only with no hidden causal explanation inferred.",
+      "team_effect": "Reserve centre/wing depth and recent centre-role baseline enriched; no standalone confidence adjustment.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/mawene-hiroti/",
+      "captured_at": "2026-09-10T14:55:51+10:00"
+    }
+  ],
+  "team_list_source": "https://www.nrl.com/news/2026/09/08/sharks-v-cowboys-tricky-treat-for-home-fans-nanai-neame-add-punch/"
+}
