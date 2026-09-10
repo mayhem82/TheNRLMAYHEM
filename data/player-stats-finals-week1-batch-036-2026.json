@@ -1,0 +1,72 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "036",
+  "captured_at": "2026-09-11T00:26:25+10:00",
+  "source_class": "Official Penrith Panthers Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished summary fields are FIELD_NOT_PUBLISHED. Derived trends identify genuine per-round rows and do not establish causation.",
+  "players": [
+    {
+      "player": "Dylan Edwards",
+      "team": "Panthers",
+      "finals_role": "Named starter — Fullback",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":192,"tries":69},
+      "season": {"appearances":21,"tries":11,"try_assists":10,"line_breaks":8,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":107,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":120,"missed_tackles":18,"average_running_metres":214,"total_running_metres":4504,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":7.16,"forced_drop_outs":4,"fantasy_total":1067,"fantasy_average":50.8},
+      "recent_rounds": [{"round":24,"opponent":"Roosters","position":"Fullback","minutes":80,"tries":0,"try_assists":0,"tackles":4,"missed_tackles":0,"running_metres":195},{"round":25,"opponent":"Storm","position":"Fullback","minutes":80,"tries":0,"try_assists":0,"tackles":4,"missed_tackles":2,"running_metres":171},{"round":26,"opponent":"Bulldogs","position":"Fullback","minutes":80,"tries":0,"try_assists":1,"tackles":1,"missed_tackles":0,"running_metres":262},{"round":27,"opponent":"Wests Tigers","position":"Fullback","minutes":76,"tries":1,"try_assists":0,"tackles":8,"missed_tackles":2,"running_metres":179}],
+      "trend_rounds_used": [24,25,26,27],
+      "trend_note": "Fullback role continuity is verified across Rounds 24-27. Minutes were 80,80,80,76 and running metres 195,171,262,179. Production varied; no causal explanation is inferred.",
+      "team_effect": "Role-critical fullback baseline enriched; no standalone confidence adjustment.",
+      "source": "https://www.nrl.com/players/nrl-premiership/panthers/dylan-edwards/"
+    },
+    {
+      "player": "Thomas Jenkins",
+      "team": "Panthers",
+      "finals_role": "Named starter — Wing",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":56,"tries":48},
+      "season": {"appearances":24,"tries":30,"try_assists":7,"line_breaks":35,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":90,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":129,"missed_tackles":19,"average_running_metres":196,"total_running_metres":4715,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":1214,"fantasy_average":50.6},
+      "recent_rounds": [{"round":24,"opponent":"Roosters","position":"Winger","minutes":80,"tries":0,"try_assists":0,"tackles":6,"missed_tackles":0,"running_metres":197},{"round":25,"opponent":"Storm","position":"Winger","minutes":80,"tries":0,"try_assists":0,"tackles":1,"missed_tackles":1,"running_metres":194},{"round":26,"opponent":"Bulldogs","position":"Winger","minutes":80,"tries":0,"try_assists":0,"tackles":8,"missed_tackles":1,"running_metres":180},{"round":27,"opponent":"Wests Tigers","position":"Winger","minutes":80,"tries":2,"try_assists":1,"tackles":8,"missed_tackles":1,"running_metres":268}],
+      "trend_rounds_used": [24,25,26,27],
+      "trend_note": "Wing position and 80-minute workload were continuous across Rounds 24-27. Round 27 rose to two tries, one try assist and 268 running metres after three tryless rounds; this is an observed production change, not a causal claim.",
+      "team_effect": "Starting-wing statistical baseline enriched; no standalone confidence adjustment.",
+      "source": "https://www.nrl.com/players/nrl-premiership/panthers/thomas-jenkins/"
+    },
+    {
+      "player": "Luke Garner",
+      "team": "Panthers",
+      "finals_role": "Named starter — Centre",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":144,"tries":39},
+      "season": {"appearances":17,"tries":3,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":4,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":5,"tackles_made":362,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":73,"total_running_metres":1244,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":542,"fantasy_average":31.9},
+      "recent_rounds": [{"round":25,"opponent":"Storm","position":"Interchange","minutes":23,"tries":0,"tackles":16,"missed_tackles":1,"running_metres":23},{"round":26,"opponent":"Bulldogs","position":"Interchange","minutes":9,"tries":0,"tackles":4,"missed_tackles":1,"running_metres":17},{"round":27,"opponent":"Wests Tigers","position":"Centre","minutes":80,"tries":0,"tackles":22,"missed_tackles":4,"running_metres":108}],
+      "trend_rounds_used": [25,26,27],
+      "trend_note": "Verified role changed from short interchange minutes in Rounds 25-26 to 80 minutes at centre in Round 27. This is role continuity/disruption evidence only; no hidden reason or causal performance effect is inferred.",
+      "team_effect": "Named centre role carries verified recent positional change and therefore continuity uncertainty; no confidence adjustment from statistics alone.",
+      "source": "https://www.nrl.com/players/nrl-premiership/panthers/luke-garner/"
+    },
+    {
+      "player": "Casey McLean",
+      "team": "Panthers",
+      "finals_role": "Named starter — Centre",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":48,"tries":30},
+      "season": {"appearances":18,"tries":11,"try_assists":10,"line_breaks":12,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":52,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":254,"missed_tackles":60,"average_running_metres":142,"total_running_metres":2556,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":747,"fantasy_average":41.5},
+      "recent_rounds": [{"round":25,"opponent":"Storm","position":"Centre","minutes":80,"tries":0,"try_assists":0,"tackles":17,"missed_tackles":3,"running_metres":106},{"round":26,"opponent":"Bulldogs","position":"Centre","minutes":80,"tries":1,"try_assists":0,"tackles":15,"missed_tackles":4,"running_metres":136},{"round":27,"opponent":"Wests Tigers","position":"Centre","minutes":80,"tries":3,"try_assists":1,"tackles":16,"missed_tackles":2,"running_metres":195}],
+      "trend_rounds_used": [25,26,27],
+      "trend_note": "Centre role and 80-minute workload were continuous across Rounds 25-27. Tries progressed 0,1,3 and running metres 106,136,195; this is a verified recent production trajectory without causal attribution.",
+      "team_effect": "Starting-centre statistical baseline enriched; recent attacking production is observed but not converted to an unsupported confidence uplift.",
+      "source": "https://www.nrl.com/players/nrl-premiership/panthers/casey-mclean/"
+    }
+  ],
+  "team_list_source": "https://www.penrithpanthers.com.au/news/2026/09/08/nrl-team-list-finals-week-1/"
+}
