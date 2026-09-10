@@ -1,0 +1,12 @@
+{
+  "season":2026,
+  "round":"Finals Week 1",
+  "captured_at":"2026-09-11T05:10:50+10:00",
+  "base_coverage_file":"data/finals-week1-player-ingestion-coverage-2026.json",
+  "base_snapshot":"2026-09-11T03:44:19+10:00",
+  "delta":{"newly_reconciled":["Isaah Yeo","Freddy Lussick","Scott Sorensen","Liam Henry"],"reconciled_change":4,"verified_2026_statistical_dossier_change":4},
+  "effective_coverage":{"roster_identities":176,"reconciled_identities":148,"verified_2026_statistical_dossiers":142,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending_profile_reconciliation":28},
+  "team_completion":{"Rabbitohs":"22/22 RECONCILED","Knights":"22/22 RECONCILED","Warriors":"22/22 RECONCILED","Dolphins":"22/22 RECONCILED","Sharks":"22/22 RECONCILED","Cowboys":"22/22 RECONCILED","Panthers":"16/22","Roosters":"0/22"},
+  "latest_stats_batch":"data/player-stats-finals-week1-batch-039-2026.json",
+  "integrity":["This file is an append-only coverage delta over the canonical batch-038 coverage snapshot; it does not erase the prior completed-player list.","All four newly reconciled identities were already present in the official named Panthers squad.","Liam Henry's latest official season summary is newer than the retrievable by-round snapshot; the per-round trend is explicitly PARTIAL rather than extrapolated.","No statistics-only confidence adjustment was made."]
+}
