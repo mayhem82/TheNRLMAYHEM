@@ -1,0 +1,73 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "025",
+  "captured_at": "2026-09-10T11:02:29+10:00",
+  "source_class": "NRL.com official Finals Week 1 team list and official NRL player profiles",
+  "rule": "Raw profile facts are preserved separately from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Per-round observations remain separate from season totals and statistics alone do not establish causation.",
+  "players": [
+    {
+      "player": "Ronaldo Mulitalo",
+      "team": "Sharks",
+      "finals_role": "Named starting winger",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":151,"tries":112},
+      "season": {"appearances":15,"tries":12,"try_assists":3,"line_breaks":15,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":39,"offloads":"FIELD_NOT_PUBLISHED","tackles_made":67,"missed_tackles":22,"average_running_metres":147,"total_running_metres":2209,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":565,"fantasy_average":37.7},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_11_TO_20",
+      "trend_note": "Verified Round 11-20 sample shows continuous wing deployment when selected, including 80-minute appearances in captured rounds and running output spanning 86-202 metres. Descriptive role/production evidence only.",
+      "team_effect": "Starting wing strike/running baseline enriched; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/ronaldo-mulitalo/",
+      "captured_at": "2026-09-10T11:02:29+10:00"
+    },
+    {
+      "player": "Braydon Trindall",
+      "team": "Sharks",
+      "finals_role": "Named starting five-eighth",
+      "roster_state": "VERIFIED",
+      "observation_state": "VERIFIED_RETURN",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":118,"tries":37},
+      "season": {"appearances":21,"tries":9,"goals":10,"try_assists":30,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":21,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":9,"tackles_made":271,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":39,"total_running_metres":827,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":421.6,"forced_drop_outs":23,"fantasy_total":975,"fantasy_average":46.4},
+      "per_round_state": "PARTIAL_VERIFIED_EARLY_SEASON_ROWS",
+      "trend_note": "Official profile verifies an established five-eighth role and heavy kicking burden in captured rows. Separate official Finals reporting confirms return after two games out; no hidden medical inference is made.",
+      "team_effect": "Return restores the named Trindall-Hynes halves combination. This is a structural roster/role input; directional magnitude remains constrained pending checkpoint comparison against opponent baseline and market.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/braydon-trindall/",
+      "return_source": "https://www.nrl.com/news/2026/09/08/trindall-ready-to-spark-sharks-in-high-stakes-comeback/",
+      "captured_at": "2026-09-10T11:02:29+10:00"
+    },
+    {
+      "player": "Nicho Hynes",
+      "team": "Sharks",
+      "finals_role": "Named starting halfback",
+      "roster_state": "VERIFIED",
+      "observation_state": "VERIFIED_RETURN_FROM_REST",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":147,"tries":38},
+      "season": {"appearances":20,"tries":7,"goals":90,"try_assists":23,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":25,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":28,"tackles_made":445,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":99,"total_running_metres":1988,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":192.7,"forced_drop_outs":5,"fantasy_total":1280,"fantasy_average":64.0},
+      "per_round_state": "PARTIAL_VERIFIED_EARLY_SEASON_ROWS",
+      "trend_note": "Captured rows verify continuous halfback deployment and mixed kicking/running distribution. Finals team list confirms return after Round 27 rest. No causal explanation is inferred from statistics alone.",
+      "team_effect": "Starting halfback baseline enriched and halves continuity restored alongside Trindall; no standalone confidence uplift assigned solely from season production.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/nicholas-hynes/",
+      "captured_at": "2026-09-10T11:02:29+10:00"
+    },
+    {
+      "player": "Addin Fonua-Blake",
+      "team": "Sharks",
+      "finals_role": "Named starting prop",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":230,"tries":40},
+      "season": {"appearances":21,"tries":2,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":62,"offloads":20,"tackles_made":509,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":138,"total_running_metres":2913,"post_contact_metres":1225.9,"average_hit_ups":11,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":973,"fantasy_average":46.3},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_1_TO_11",
+      "trend_note": "Captured Round 1-11 rows verify persistent starting-prop deployment with 49-61 minute workloads and repeated high-contact running. Descriptive workload evidence only.",
+      "team_effect": "Starting middle baseline enriched with verified workload, post-contact and defensive production; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/addin-fonua-blake/",
+      "captured_at": "2026-09-10T11:02:29+10:00"
+    }
+  ],
+  "team_list_source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+}
