@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-09-10T18:14:54+10:00",
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "lifecycle_reconciliation": {
+    "Rabbitohs v Knights": "UPCOMING",
+    "Warriors v Dolphins": "UPCOMING",
+    "Sharks v Cowboys": "UPCOMING",
+    "Panthers v Roosters": "UPCOMING",
+    "result_backlog": false,
+    "missed_not_captured": false
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "Rabbitohs v Knights T-24h",
+    "next_due": "2026-09-10T19:50:00+10:00"
+  },
+  "official_team_list": {
+    "source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "last_updated_displayed_by_nrl_for_rabbitohs_knights": "2026-09-10 04:40:32",
+    "material_new_change_in_this_cycle": false
+  },
+  "weather": {
+    "fixture": "Rabbitohs v Knights",
+    "source": "https://www.bom.gov.au/places/nsw/ultimo/forecast/",
+    "forecast": "Friday 11 September: partly cloudy; slight coastal-fringe shower chance early, near-zero rain elsewhere; light winds.",
+    "classification": "NON_DIRECTIONAL"
+  },
+  "market": [
+    {"fixture":"Rabbitohs v Knights","source":"https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches","prices":{"Rabbitohs":1.39,"Knights":3.00},"normalized_probability":{"Rabbitohs":0.6834,"Knights":0.3166},"mayhem_selection":"Rabbitohs","mayhem_confidence":0.69,"confidence_vs_market_delta_pp":0.66,"gate":"CLEAR","movement_class":"SIGNAL","cause":"UNKNOWN"},
+    {"fixture":"Warriors v Dolphins","source":"https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches","prices":{"Warriors":1.59,"Dolphins":2.36},"normalized_probability":{"Warriors":0.5975,"Dolphins":0.4025},"mayhem_selection":"Warriors","mayhem_confidence":0.63,"confidence_vs_market_delta_pp":3.25,"gate":"REVIEW_REQUIRED","movement_class":"NO_NEW_DIRECTIONAL_CAUSE","cause":"UNKNOWN"},
+    {"fixture":"Sharks v Cowboys","source":"https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches","prices":{"Sharks":1.42,"Cowboys":2.85},"normalized_probability":{"Sharks":0.6674,"Cowboys":0.3326},"mayhem_selection":"Sharks","mayhem_confidence":0.64,"confidence_vs_market_delta_pp":-2.74,"gate":"CLEAR","movement_class":"NO_NEW_DIRECTIONAL_CAUSE","cause":"UNKNOWN"},
+    {"fixture":"Panthers v Roosters","source":"https://m.dashbet.com.au/Sport/Rugby_League/NRL/Matches","prices":{"Panthers":1.33,"Roosters":3.35},"normalized_probability":{"Panthers":0.7158,"Roosters":0.2842},"mayhem_selection":"Panthers","mayhem_confidence":0.73,"confidence_vs_market_delta_pp":1.42,"gate":"CLEAR","movement_class":"SIGNAL","cause":"UNKNOWN"}
+  ],
+  "player_population": {
+    "roster_identities": 176,
+    "verified_2026_dossiers": 116,
+    "verified_no_completed_sample": 1,
+    "profile_data_unavailable": 5,
+    "pending": 54,
+    "cowboys_reconciled": "12/22",
+    "batch_added": "032",
+    "players_added": ["Reed Mahoney","Jason Taumalolo","Heilum Luki","Jeremiah Nanai"]
+  },
+  "inference": {
+    "Rabbitohs v Knights": "69% remains inside normalized market gate; no confidence rewrite.",
+    "Warriors v Dolphins": "63% remains more than 3 percentage points above normalized market probability; REVIEW_REQUIRED persists absent explicit independent causal support.",
+    "Sharks v Cowboys": "64% remains below normalized market probability; gate clear.",
+    "Panthers v Roosters": "73% remains within the +3pp market gate; no confidence rewrite."
+  },
+  "information_advantage": "NONE_ASSERTED",
+  "learned_weight_change": "NONE",
+  "persistence": "WRITE_COMPLETED_PENDING_READBACK"
+}
