@@ -21,6 +21,7 @@
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
   "audit_integrity":"PRESERVED",
-  "persistence":"WRITE_COMPLETED_READBACK_PENDING",
+  "persistence":"VERIFIED_READBACK",
+  "readback_verified":["data/player-stats-finals-week1-batch-026-2026.json","data/finals-week1-player-ingestion-coverage-2026.json"],
   "notification_trigger":"PLAYER_STATISTICAL_DOSSIER_PROGRESS"
 }
