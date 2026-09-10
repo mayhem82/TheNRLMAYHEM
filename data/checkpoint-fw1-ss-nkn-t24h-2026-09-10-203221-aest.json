@@ -1,0 +1,104 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "fixture_id":"FW1-SS-NKN-2026-09-11",
+  "fixture":"South Sydney Rabbitohs v Newcastle Knights",
+  "checkpoint":"T-24h",
+  "captured_at":"2026-09-10T20:32:21+10:00",
+  "kickoff":"2026-09-11T19:50:00+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_state":"UPCOMING",
+  "missed_not_captured":false,
+  "sources_checked":[
+    {"source_class":"PRIMARY_OFFICIAL","name":"NRL.com Finals Week 1 official team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"},
+    {"source_class":"PRIMARY_OFFICIAL","name":"NRL.com Rabbitohs v Knights elimination final preview","url":"https://www.nrl.com/news/2026/09/08/rabbitohs-v-knights-tallis-gets-green-light-manuleleuas-miracle/"},
+    {"source_class":"PRIMARY_OFFICIAL","name":"NRL.com Latrell Mitchell player profile","url":"https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/latrell-mitchell/"},
+    {"source_class":"PRIMARY_OFFICIAL","name":"NRL.com Cody Walker player profile","url":"https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/cody-walker/"},
+    {"source_class":"PRIMARY_OFFICIAL","name":"NRL.com Kalyn Ponga player profile","url":"https://www.nrl.com/players/nrl-premiership/knights/kalyn-ponga/"},
+    {"source_class":"PRIMARY_OFFICIAL","name":"NRL.com Fletcher Sharpe player profile","url":"https://www.nrl.com/players/nrl-premiership/knights/fletcher-sharpe/"},
+    {"source_class":"PRIMARY_OFFICIAL","name":"Bureau of Meteorology Sydney forecast issued 2026-09-10","url":"https://www.bom.gov.au/places/nsw/ultimo/forecast/"},
+    {"source_class":"INDEPENDENT_RESULTS_FORM","name":"Australia Sports Betting NRL Finals Week 1 form guide","url":"https://www.aussportsbetting.com/data/nrl-head-to-head-statistics/"},
+    {"source_class":"INDEPENDENT_MARKET","name":"PandaBet NRL H2H/line market","url":"https://m.pandabet.com.au/Sport/Rugby_League/NRL/Matches"},
+    {"source_class":"INDEPENDENT_SEASON_RECORD","name":"Rugby League Project 2026 season summary/ladder","url":"https://www.rugbyleagueproject.org/seasons/nrl-2026/summary.html"}
+  ],
+  "weather":{
+    "classification":"VERIFIED_NON_DIRECTIONAL",
+    "forecast":"Sydney Friday 11 September: partly cloudy; slight chance of a shower along the coastal fringe early, near-zero chance elsewhere; light winds; 0 mm indicated in nearby Sydney forecasts.",
+    "decision_effect":"NONE_DIRECTIONAL"
+  },
+  "roster_state":{
+    "rabbitohs":"VERIFIED_NAMED_22_PLAYER_SQUAD_PERSISTED",
+    "knights":"VERIFIED_NAMED_22_PLAYER_SQUAD_PERSISTED",
+    "rabbitohs_material":"Tallis Duncan returns; Matt Dufty named at fullback; Euan Aitken and Jai Arrow out. Jayden Sullivan remains halfback alongside Cody Walker.",
+    "knights_material":"Dominic Young and Tyson Frizell return from suspension; Phoenix Crossland returns; Francis Manuleleua named; Trey Mooney season-ending shoulder injury leaves Cody Hopwood starting at prop.",
+    "classification":"VERIFIED"
+  },
+  "player_statistical_comparison":{
+    "rabbitohs_role_critical":[
+      {"player":"Cody Walker","2026":"23 apps, 9 tries, 26 try assists, 27 line-break assists, 11 forced drop-outs, 151.5 average kicking metres","effect":"High-volume primary creator; verified season baseline."},
+      {"player":"Latrell Mitchell","2026":"11 apps, 12 tries, 9 try assists, 11 line breaks, 52 tackle breaks, 119 average running metres, 65.4 fantasy average","effect":"High-impact attacking profile but reduced season sample relative to full-season players; no causal uplift beyond verified production."}
+    ],
+    "knights_role_critical":[
+      {"player":"Kalyn Ponga","2026":"15 apps, 5 tries, 14 try assists, 10 line breaks, 71 tackle breaks, 162 average running metres, 51.8 fantasy average","recent_rounds":"Rounds 24-26 all 80 minutes; running metres 240, 136, 52; Round 26 included 10 missed tackles","effect":"Elite attacking involvement retained; recent production/workload volatility treated as evidence, not medical inference."},
+      {"player":"Fletcher Sharpe","2026":"22 apps, 12 tries, 11 try assists, 15 line-break assists, 111 average running metres, 44.4 fantasy average","effect":"Established attacking support/secondary creator; not a low-sample player."}
+    ],
+    "classification":"VERIFIED_RAW_STATS_PLUS_SEPARATE_MAYHEM_INTERPRETATION"
+  },
+  "structural_baseline":{
+    "season_point_differential":{"rabbitohs":63,"knights":56,"interpretation":"SLIGHT_RABBITOHS_EDGE"},
+    "recent_five_scoring_differential":{"rabbitohs_total":51,"rabbitohs_per_match":10.2,"knights_total":6,"knights_per_match":1.2,"interpretation":"RABBITOHS_RECENT_EDGE"},
+    "recent_form":{"rabbitohs":"4 wins from last 5","knights":"3 wins from last 5, losses in final 2"},
+    "venue_context":{"classification":"MIXED_LOW_SAMPLE","evidence":"Official NRL preview states Rabbitohs have won both finals matches they have played at Allianz Stadium; broader recent Allianz form has been mixed, so venue is not treated as a strong independent edge."},
+    "roster_continuity":"Both clubs contain meaningful changes/returns. Rabbitohs retain Walker-Sullivan halves but change fullback and back-row personnel; Knights restore Young, Frizell and Crossland while replacing injured Mooney in the starting middle.",
+    "baseline_conclusion":"RABBITOHS_LEAN_NOT_DOMINANT"
+  },
+  "matchup_memory":{
+    "verified":"2026 regular-season series split 1-1: Knights 42-38 in Round 9; Rabbitohs 26-24 in Round 19. NRL preview states Knights have won four of the last five meetings overall.",
+    "inference":"Recent South form advantage is moderated by persistent Newcastle matchup competitiveness.",
+    "causal_claim":"NONE_BEYOND_EVIDENCE"
+  },
+  "market":{
+    "capture_time":"2026-09-10T20:32:21+10:00",
+    "prices":{"rabbitohs":1.39,"knights":2.95},
+    "implied_raw":{"rabbitohs":71.94,"knights":33.90},
+    "overround_adjusted":{"rabbitohs":67.97,"knights":32.03},
+    "market_movement_classification":"SIGNAL_ONLY",
+    "cause":"UNKNOWN"
+  },
+  "evidence_family_independence":{
+    "market":"DEPENDENT_MARKET_FAMILY_NOT_INDEPENDENT_CORROBORATION",
+    "official_roster_and_player_profiles":"PRIMARY_FOOTBALL_EVIDENCE",
+    "results_form":"RESULTS_DERIVED_FOOTBALL_EVIDENCE",
+    "weather":"INDEPENDENT_ENVIRONMENTAL_EVIDENCE_NON_DIRECTIONAL",
+    "rule":"No market-linked model or shared market input counted as independent support for confidence uplift."
+  },
+  "adversarial_counter_case":{
+    "preferred_selection":"Rabbitohs",
+    "strongest_case_for_opponent":"Newcastle split the 2026 season series, have won four of the last five meetings overall, recover Young, Frizell and Crossland, retain elite Ponga/Best/Sharpe attacking capability, and have shown enough attacking output to punish South defensive leakage.",
+    "falsifiers_of_rabbitohs_preference":[
+      "Material late withdrawal or role restriction involving Walker, Mitchell, Murray or another central Rabbitohs spine/middle organiser.",
+      "Verified Newcastle combination improvement or South disruption at T-3h/T-60m that materially changes roster continuity.",
+      "A material market move toward Newcastle accompanied by independent football evidence rather than unexplained price movement alone.",
+      "Weather deterioration that creates a demonstrated team-specific structural effect."
+    ]
+  },
+  "information_advantage_candidates":[],
+  "information_advantage_classification":"NONE",
+  "mayhem_inference":"South Sydney hold the better current structural baseline through recent scoring differential and current attacking form, but Newcastle's matchup record, returning personnel and role-critical attack constrain confidence. Market alignment provides calibration context only, not independent corroboration.",
+  "decision_effect":"NO_CONFIDENCE_CHANGE",
+  "decision":{"selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","normalized_market_probability":67.97,"confidence_vs_market_delta_pp":1.03,"review_required":false},
+  "prediction_decomposition":[
+    {"component":"season differential","direction":"Rabbitohs slight"},
+    {"component":"recent scoring differential","direction":"Rabbitohs material"},
+    {"component":"roster continuity/returns","direction":"Mixed"},
+    {"component":"role-critical player production","direction":"Both teams possess verified high-impact creators"},
+    {"component":"matchup history","direction":"Knights counterweight"},
+    {"component":"market calibration","direction":"Rabbitohs 69% aligned within +1.03pp"},
+    {"component":"weather","direction":"None"}
+  ],
+  "freeze_state":"NOT_FROZEN_T10M_REQUIRED",
+  "next_checkpoint":"T-3h at 2026-09-11T16:50:00+10:00",
+  "audit_integrity":"PRESERVED",
+  "learning_state":"NO_LEARNED_WEIGHT_CHANGE"
+}
