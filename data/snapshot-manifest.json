@@ -1,8 +1,8 @@
 {
-  "snapshot_id":"FINALS-WEEK1-CANONICAL-SNAPSHOT-2026-09-10-1623",
-  "generated_at":"2026-09-10T16:23:07+10:00",
+  "snapshot_id":"FINALS-WEEK1-CANONICAL-SNAPSHOT-2026-09-10-1932",
+  "generated_at":"2026-09-10T19:32:42+10:00",
   "timezone":"Australia/Sydney",
-  "repository_commit":"43189bb130675275c5e09fd306f309f1f075f6e9",
+  "repository_commit":"e6e44e91c96287190ee120a9c879f04383e5725e",
   "base_audit_commit":"8c18022c89062f166cc541ab5742f6335ec1eae3",
   "canonical":{
     "season":{"path":"data/season-canonical-2026.json","blob_sha":"e9e403ce16abe0004c6703410305c64bdadee428"},
@@ -15,6 +15,7 @@
     "source_classes":{"path":"data/source-class-registry.json","blob_sha":"cd57f69a1b0a8001a591cf24adc3865501ee6ccf"},
     "source_performance":{"path":"data/source-performance-ledger-2026.json","blob_sha":"7e87d6abd566d93af44b571ad77e07cded96ae29"}
   },
+  "material_overlay":{"path":"data/material-update-latest.json","blob_sha":"135b1d94264a308be6f969f36c3e06b99389fa4e","cycle":"data/cycle-2026-09-10-193242-aest.json"},
   "public_views":["index.html","intelligence.html","teams.html","players.html","audit-clock.html","glossary.html","site-master-glossary.html","sites.html"],
   "rule":"Every public view must derive factual state from current canonical objects. Historical source files remain audit lineage only and cannot override canonical current state."
 }
