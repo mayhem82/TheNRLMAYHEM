@@ -1,0 +1,31 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "capture_time":"2026-09-10T14:55:51+10:00",
+  "lifecycle_first":{"status":"NO_KICKOFF_PASSED","fixtures":{"Rabbitohs v Knights":"UPCOMING","Warriors v Dolphins":"UPCOMING","Sharks v Cowboys":"UPCOMING","Panthers v Roosters":"UPCOMING"}},
+  "checkpoint":{"due":false,"next":"Rabbitohs v Knights T-24h at 2026-09-10T19:50:00+10:00","MISSED_NOT_CAPTURED":false},
+  "sources_checked":[
+    "NRL official Sharks v Cowboys Finals Week 1 team list",
+    "NRL official Samuel Stonestreet player profile",
+    "NRL official Mawene Hiroti player profile",
+    "Bureau of Meteorology Sydney forecast issued 2026-09-10 09:57 AEST",
+    "Stats Insider current Sharks v Cowboys page carrying Bet365 H2H $1.42/$2.85"
+  ],
+  "weather":{"Rabbitohs v Knights":"0 mm Friday, 10% rain chance, light winds; NONE_DIRECTIONAL","Warriors v Dolphins":"prior Auckland variance retained; no fresh authoritative directional evidence","Sharks v Cowboys":"0 mm Saturday, 10% rain chance, NE 15-20 km/h afternoon then easing; NONE_DIRECTIONAL","Panthers v Roosters":"0 mm Sunday, 5% rain chance, NE 15-25 km/h then easing; NONE_DIRECTIONAL"},
+  "player_effects":{"Sharks":"Samuel Stonestreet and Mawene Hiroti dossiers verified; Sharks reconciliation complete 22/22; no directional tip effect"},
+  "player_statistical_trend_effects":{"Samuel Stonestreet":"12 appearances, 4 tries, 141 average running metres; completed 2026 first-grade appearances through Round 14 were 80-minute wing deployments; later reserve listings retained as role/selection history","Mawene Hiroti":"11 appearances, 2 tries, 128 average running metres; Rounds 23-26 consecutive centre selections with 80/80/80/26 minutes; no causal reason inferred for reduced Round 26 minutes"},
+  "team_macro_effects":{"Sharks":"outside-back reserve-depth baseline enriched; no confidence uplift","Cowboys":"NO_MATERIAL_CHANGE","Rabbitohs":"NO_MATERIAL_CHANGE","Knights":"NO_MATERIAL_CHANGE","Warriors":"NO_MATERIAL_CHANGE","Dolphins":"NO_MATERIAL_CHANGE","Panthers":"NO_MATERIAL_CHANGE","Roosters":"NO_MATERIAL_CHANGE"},
+  "matchup_effects":{"Sharks v Cowboys":"NO_NEW_DIRECTIONAL_MATCHUP_EFFECT"},
+  "market":{"Sharks v Cowboys":{"prices":{"Sharks":1.42,"Cowboys":2.85},"normalized_probability":{"Sharks":66.74,"Cowboys":33.26},"movement_vs_prior":"Sharks shortened from prior $1.45/$2.78 state","cause":"UNKNOWN_SIGNAL_ONLY"}},
+  "evidence_family_independence":"Market movement is not treated as independent football corroboration. Player profile statistics and official roster status are distinct raw evidence families but do not by themselves establish a causal confidence uplift.",
+  "adversarial_counter_case":{"Sharks v Cowboys":"Cowboys upset case remains supported by their Round 8 win over Cronulla and NRL-listed finals history; current player-profile completion does not falsify that counter-case."},
+  "information_advantage_candidates":"NONE_NEW",
+  "inference":"Sharks player-layer completeness improved materially; market moved toward Sharks but cause is unknown. No new causal evidence warrants changing the 64% MAYHEM confidence.",
+  "decision_effect":{"Rabbitohs v Knights":"Rabbitohs 69% CURRENT_NOT_FROZEN","Warriors v Dolphins":"Warriors 63% REVIEW_REQUIRED","Sharks v Cowboys":"Sharks 64% CURRENT_NOT_FROZEN","Panthers v Roosters":"Panthers 73% CURRENT_NOT_FROZEN"},
+  "confidence_vs_market_delta":{"Sharks v Cowboys":-2.74},
+  "prediction_decomposition":{"Sharks v Cowboys":"Roster/statistical completeness improved; market corroboration remains dependent and non-causal; no pseudo-precise new weight assigned."},
+  "next_checkpoint_eta":"2026-09-10T19:50:00+10:00",
+  "persistence":{"batch_029":"WRITTEN","coverage":"WRITTEN","manifest":"WRITTEN","material_update":"WRITTEN","readback":"PENDING"},
+  "audit_integrity":"PRESERVED"
+}
