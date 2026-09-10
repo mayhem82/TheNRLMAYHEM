@@ -1,17 +1,17 @@
 {
-  "snapshot_id":"FINALS-WEEK1-CANONICAL-SNAPSHOT-2026-09-10-1154",
-  "generated_at":"2026-09-10T11:54:08+10:00",
+  "snapshot_id":"FINALS-WEEK1-CANONICAL-SNAPSHOT-2026-09-10-1623",
+  "generated_at":"2026-09-10T16:23:07+10:00",
   "timezone":"Australia/Sydney",
-  "repository_commit":"0c948db17259972aba903db5b8e19a816761c9a5",
+  "repository_commit":"43189bb130675275c5e09fd306f309f1f075f6e9",
   "base_audit_commit":"8c18022c89062f166cc541ab5742f6335ec1eae3",
   "canonical":{
-    "season":{"path":"data/season-canonical-2026.json","blob_sha":"9c64f8a1984cf8ad7926ea72542d8d164238bf87"},
+    "season":{"path":"data/season-canonical-2026.json","blob_sha":"e9e403ce16abe0004c6703410305c64bdadee428"},
     "checkpoints":{"path":"data/checkpoints-round27-canonical.json","blob_sha":"75f87ee247398634494c07c15355e3fd6fc42a5d"},
     "finals_week1":{"path":"data/finals-week1-2026.json","blob_sha":"4cf0d481e0b9d0e0c9b7e1756ba8c27a294871b2"},
     "finals_roster":{"path":"data/player-roster-finals-week1-2026.json","blob_sha":"d9ad01fd656645c57a3eba45205ef945669aede4"},
     "contradictions":{"path":"data/contradiction-resolutions-2026.json","blob_sha":"6ba358e5721de3378228259cd72221fefe60b144"},
     "information_advantage":{"path":"data/information-advantage-ledger-2026.json","blob_sha":"f821221d804bfd2c4e69f179a5781ed80440c011"},
-    "player_manifest":{"path":"data/player-data-manifest-2026.json","blob_sha":"10bf7a9aa8d98c90a9b441f96c0afba56ad30852"},
+    "player_manifest":{"path":"data/player-data-manifest-2026.json","blob_sha":"d0ac0c7a662f3d4bf52950fbd8fe3aa4b36bd504"},
     "source_classes":{"path":"data/source-class-registry.json","blob_sha":"cd57f69a1b0a8001a591cf24adc3865501ee6ccf"},
     "source_performance":{"path":"data/source-performance-ledger-2026.json","blob_sha":"7e87d6abd566d93af44b571ad77e07cded96ae29"}
   },
