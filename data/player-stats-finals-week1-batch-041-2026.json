@@ -1,0 +1,25 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "041",
+  "captured_at": "2026-09-11T09:05:27+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED or PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON. Derived trends require genuine per-round rows and do not establish causation.",
+  "players": [
+    {
+      "player":"Kalani Leuluai-Going","team":"Panthers","finals_role":"Named reserve — Lock","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":5,"tries":0},
+      "season":{"appearances":4,"tries":0,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":4,"offloads":0,"tackles_made":58,"missed_tackles":8,"average_running_metres":45,"total_running_metres":181,"post_contact_metres":65.8,"average_hit_ups":5.2,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":67,"fantasy_average":16.8},
+      "trend_rounds_used":[],"trend_note":"Official profile exposes a 2026 by-round table but the retrieved source snapshot did not expose usable individual round rows in this cycle. Four-game NRL sample is LOW_SAMPLE_VARIANCE; no causal or directional effect is inferred.","team_effect":"Reserve lock/middle depth baseline enriched; LOW_SAMPLE_VARIANCE retained.","source":"https://www.nrl.com/players/nrl-premiership/panthers/kalani-going/"
+    },
+    {
+      "player":"Jesse McLean","team":"Panthers","finals_role":"Named reserve — Winger","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON",
+      "career":{"appearances":4,"tries":1},
+      "season":{"appearances":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","tries":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","try_assists":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","line_breaks":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","line_break_assists":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","tackle_breaks":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","offloads":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","tackles_made":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","missed_tackles":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","average_running_metres":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","total_running_metres":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","post_contact_metres":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","average_hit_ups":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","average_kicking_metres":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","forced_drop_outs":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","fantasy_total":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON","fantasy_average":"PROFILE_DATA_UNAVAILABLE_CURRENT_SEASON"},
+      "trend_rounds_used":[],"trend_note":"Official NRL player profile verifies identity and career baseline but did not expose a current 2026 NRL season statistical block in the retrieved source snapshot. Current-season NRL statistics are not inferred from NSW Cup data.","team_effect":"Reserve outside-back roster presence retained; current-season NRL statistical effect unavailable and not guessed.","source":"https://www.nrl.com/players/nrl-premiership/panthers/jesse-mclean/"
+    }
+  ],
+  "sources":["https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","https://www.nrl.com/players/nrl-premiership/panthers/kalani-going/","https://www.nrl.com/players/nrl-premiership/panthers/jesse-mclean/"],
+  "decision_effect":"Panthers roster/statistical reconciliation reaches 22/22. No tip confidence change; one low-sample reserve and one current-season-profile-unavailable reserve do not justify directional uplift."
+}
