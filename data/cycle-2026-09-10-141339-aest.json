@@ -5,19 +5,13 @@
   "captured_at":"2026-09-10T14:13:39+10:00",
   "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":{"Rabbitohs_v_Knights":"UPCOMING","Warriors_v_Dolphins":"UPCOMING","Sharks_v_Cowboys":"UPCOMING","Panthers_v_Roosters":"UPCOMING"}},
   "checkpoint":{"due_now":false,"next":"Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00","MISSED_NOT_CAPTURED":false},
-  "sources_checked":[
-    "NRL official Finals Week 1 team lists",
-    "NRL official player profiles: Thomas Hazelton, Hohepa Puru, Toby Rudolf, Niwhai Puru",
-    "NRL official Sharks v Cowboys match page / Sportsbet market display",
-    "Bureau of Meteorology Sydney/Parramatta forecasts",
-    "Auckland weather search; no newer authoritative venue-specific state admitted"
-  ],
+  "sources_checked":["NRL official Finals Week 1 team lists","NRL official player profiles: Thomas Hazelton, Hohepa Puru, Toby Rudolf, Niwhai Puru","NRL official Sharks v Cowboys match page / Sportsbet market display","Bureau of Meteorology Sydney/Parramatta forecasts","Auckland weather search; no newer authoritative venue-specific state admitted"],
   "player_layer":{"batch":"028","newly_reconciled":["Thomas Hazelton","Hohepa Puru","Toby Rudolf","Niwhai Puru"],"Sharks":"20/22","overall_reconciled":"108/176","verified_season_dossiers":102,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending":68,"low_sample_variance":["Niwhai Puru"],"decision_effect":"Statistical and genuine per-round role/workload enrichment only; no automatic confidence uplift."},
   "market":{"Rabbitohs_v_Knights":{"prices":[1.42,2.87],"normalized_favourite_probability":66.90,"selection_confidence":69,"delta_pp":2.10,"state":"CURRENT_NOT_FROZEN"},"Warriors_v_Dolphins":{"prices":[1.61,2.33],"normalized_favourite_probability":59.14,"selection_confidence":63,"delta_pp":3.86,"state":"REVIEW_REQUIRED"},"Sharks_v_Cowboys":{"prices":[1.45,2.78],"normalized_favourite_probability":65.72,"selection_confidence":64,"delta_pp":-1.72,"state":"CURRENT_NOT_FROZEN"},"Panthers_v_Roosters":{"prices":[1.32,3.42],"normalized_favourite_probability":72.15,"selection_confidence":73,"delta_pp":0.85,"state":"CURRENT_NOT_FROZEN"},"integrity":"Only Sharks-Cowboys was freshly re-verified this capture; other states are explicitly retained as last verified, not represented as fresh."},
   "weather":{"Rabbitohs_v_Knights":"NONE_DIRECTIONAL","Warriors_v_Dolphins":"PRIOR_VARIANCE_RETAINED_NO_NEW_AUTHORITATIVE_REFRESH","Sharks_v_Cowboys":"NONE_DIRECTIONAL","Panthers_v_Roosters":"NONE_DIRECTIONAL"},
   "pre_freeze_gates":{"overround_normalization":"ACTIVE","structural_baseline":"RETAINED","evidence_family_dependence":"ACTIVE","adversarial_counter_case":"REQUIRED_AT_FREEZE","falsification_case":"REQUIRED_AT_FREEZE","low_sample_rule":"APPLIED","player_stat_comparison":"ACTIVE","warriors_gate":"REVIEW_REQUIRED"},
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
-  "persistence":{"batch_028":"COMMITTED","coverage":"COMMITTED","manifest":"COMMITTED","material_update":"COMMITTED","cycle_record":"COMMITTED","readback":"PENDING_AT_RECORD_CREATION"},
+  "persistence":{"batch_028":"VERIFIED_READBACK","coverage":"VERIFIED_READBACK","manifest":"VERIFIED_READBACK","material_update":"VERIFIED_READBACK","cycle_record":"VERIFIED_READBACK"},
   "audit_integrity":"PRESERVED"
 }
