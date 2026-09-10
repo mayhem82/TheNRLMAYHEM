@@ -1,0 +1,40 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "039",
+  "captured_at": "2026-09-11T05:10:50+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Derived trends identify genuine per-round rows and do not establish causation.",
+  "players": [
+    {
+      "player":"Isaah Yeo","team":"Panthers","finals_role":"Named starter — Lock","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":284,"tries":34},
+      "season":{"appearances":18,"tries":2,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":33,"offloads":17,"tackles_made":653,"missed_tackles":17,"average_running_metres":120,"total_running_metres":2171,"post_contact_metres":838.1,"average_hit_ups":11.3,"average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_2026_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_2026_SUMMARY","fantasy_total":976,"fantasy_average":54.2},
+      "recent_rounds":[{"round":20,"opponent":"Broncos","position":"Lock","minutes":65,"tries":0,"try_assists":0,"tackles":49,"missed_tackles":1,"running_metres":103},{"round":21,"opponent":"Eels","position":"Lock","minutes":69,"tries":0,"try_assists":0,"tackles":36,"missed_tackles":0,"running_metres":117},{"round":22,"opponent":"Raiders","position":"Lock","minutes":75,"tries":0,"try_assists":0,"tackles":55,"missed_tackles":0,"running_metres":151},{"round":23,"opponent":"Warriors","position":"Lock","minutes":33,"tries":0,"try_assists":0,"tackles":19,"missed_tackles":2,"running_metres":52},{"round":27,"opponent":"Wests Tigers","position":"Interchange","minutes":54,"tries":0,"try_assists":0,"tackles":29,"missed_tackles":0,"running_metres":112}],
+      "trend_rounds_used":[20,21,22,23,27],"trend_note":"Official rows show lock minutes of 65,69,75,33 before a 54-minute interchange appearance in Round 27. This is role/workload variation only; no cause is inferred.","team_effect":"Captain/lock statistical baseline enriched. Round 27 role variation is retained as context, not a standalone confidence adjustment.","source":"https://www.nrl.com/players/nrl-premiership/panthers/isaah-yeo/"
+    },
+    {
+      "player":"Freddy Lussick","team":"Panthers","finals_role":"Named interchange — Hooker","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":70,"tries":7},
+      "season":{"appearances":20,"tries":4,"try_assists":1,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":4,"tackles_made":689,"missed_tackles":33,"average_running_metres":30,"total_running_metres":602,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":30.4,"forced_drop_outs":3,"fantasy_total":767,"fantasy_average":38.4},
+      "recent_rounds":[{"round":24,"opponent":"Roosters","position":"Hooker","minutes":68,"tries":0,"try_assists":0,"tackles":43,"missed_tackles":2,"running_metres":35},{"round":25,"opponent":"Storm","position":"Hooker","minutes":53,"tries":0,"try_assists":0,"tackles":37,"missed_tackles":3,"running_metres":12},{"round":26,"opponent":"Bulldogs","position":"Hooker","minutes":59,"tries":0,"try_assists":0,"tackles":35,"missed_tackles":1,"running_metres":12},{"round":27,"opponent":"Wests Tigers","position":"Reserve","minutes":null,"tries":null,"try_assists":null,"tackles":null,"missed_tackles":null,"running_metres":null}],
+      "trend_rounds_used":[24,25,26,27],"trend_note":"Hooker minutes were 68,53,59 across Rounds 24-26; he was listed reserve with no completed row in Round 27. This describes recent role/workload only.","team_effect":"Interchange-hooker depth and recent starting-hooker workload are now explicit; no standalone confidence adjustment.","source":"https://www.nrl.com/players/nrl-premiership/panthers/freddy-lussick/"
+    },
+    {
+      "player":"Scott Sorensen","team":"Panthers","finals_role":"Named interchange — Forward","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":162,"tries":14},
+      "season":{"appearances":23,"tries":0,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":2,"line_break_assists":0,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":5,"tackles_made":547,"missed_tackles":35,"average_running_metres":75,"total_running_metres":1746,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":677,"fantasy_average":29.4},
+      "recent_rounds":[{"round":23,"opponent":"Warriors","position":"Interchange","minutes":44,"tries":0,"try_assists":0,"tackles":33,"missed_tackles":3,"running_metres":93},{"round":24,"opponent":"Roosters","position":"Interchange","minutes":36,"tries":0,"try_assists":0,"tackles":23,"missed_tackles":4,"running_metres":66},{"round":25,"opponent":"Storm","position":"Interchange","minutes":38,"tries":0,"try_assists":0,"tackles":30,"missed_tackles":5,"running_metres":55},{"round":26,"opponent":"Bulldogs","position":"Interchange","minutes":33,"tries":0,"try_assists":0,"tackles":21,"missed_tackles":0,"running_metres":35}],
+      "trend_rounds_used":[23,24,25,26],"trend_note":"Interchange role remained continuous across Rounds 23-26, with minutes 44,36,38,33 and running metres 93,66,55,35. Declining output is descriptive only and no cause is inferred.","team_effect":"Interchange-forward statistical/workload baseline enriched; no statistics-only confidence adjustment.","source":"https://www.nrl.com/players/nrl-premiership/panthers/scott-sorensen/"
+    },
+    {
+      "player":"Liam Henry","team":"Panthers","finals_role":"Named interchange — Forward","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":65,"tries":9},
+      "season":{"appearances":15,"tries":4,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":19,"offloads":0,"tackles_made":501,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_LATEST_SUMMARY","average_running_metres":119,"total_running_metres":1790,"post_contact_metres":591.8,"average_hit_ups":11.2,"average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":700,"fantasy_average":"FIELD_NOT_PUBLISHED_IN_LATEST_SUMMARY"},
+      "recent_rounds_state":"PARTIAL_SOURCE_SNAPSHOT_BEHIND_LATEST_SUMMARY","recent_rounds":[{"round":23,"opponent":"Warriors","position":"Interchange","minutes":45,"tries":0,"try_assists":0,"tackles":47,"missed_tackles":1,"running_metres":82},{"round":24,"opponent":"Roosters","position":"Prop","minutes":59,"tries":0,"try_assists":0,"tackles":46,"missed_tackles":3,"running_metres":106},{"round":25,"opponent":"Storm","position":"Prop","minutes":52,"tries":1,"try_assists":0,"tackles":32,"missed_tackles":3,"running_metres":128}],
+      "trend_rounds_used":[23,24,25],"trend_note":"The latest official season summary reports 15 appearances, while the retrievable by-round snapshot exposed rows only through the older sample. Trend is therefore explicitly partial and not extrapolated.","team_effect":"Middle-forward statistical baseline enriched; stale per-round exposure creates uncertainty only and no standalone confidence adjustment.","source":"https://www.nrl.com/players/nrl-premiership/panthers/liam-henry"
+    }
+  ],
+  "team_list_source":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+}
