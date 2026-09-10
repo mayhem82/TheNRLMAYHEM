@@ -1,0 +1,19 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-11T02:50:27+10:00",
+  "lifecycle_first":{"status":"NO_KICKOFF_PASSED","states":{"Rabbitohs_Knights":"UPCOMING","Warriors_Dolphins":"UPCOMING","Sharks_Cowboys":"UPCOMING","Panthers_Roosters":"UPCOMING"},"result_backlog":false},
+  "active_fixture_precedence":"Rabbitohs v Knights",
+  "checkpoints":{"due_now":false,"last":"T-24h CAPTURED 2026-09-10T20:32:21+10:00","next":"T-3h 2026-09-11T16:50:00+10:00","MISSED_NOT_CAPTURED":false},
+  "weather":{"status":"MANDATORY_CHECK_RETAINED_NON_DIRECTIONAL","Rabbitohs_Knights":"BOM Sydney Friday: partly cloudy/near-zero rain/light winds","team_specific_edge":"NONE_EVIDENCED"},
+  "market":{"state":"NO_NEW_RELIABLE_TWO_SIDED_STATE_ADMITTED","retained_last_admitted":{"Rabbitohs_Knights":{"selection":"Rabbitohs","confidence":69,"normalized_market_probability":68.18,"delta_pp":0.82,"gate":"CLEAR"},"Warriors_Dolphins":{"selection":"Warriors","confidence":63,"normalized_market_probability":61.25,"delta_pp":1.75,"gate":"CLEAR"},"Sharks_Cowboys":{"selection":"Sharks","confidence":64,"normalized_market_probability":66.04,"delta_pp":-2.04,"gate":"CLEAR"},"Panthers_Roosters":{"selection":"Panthers","confidence":73,"normalized_market_probability":71.58,"delta_pp":1.42,"gate":"CLEAR"}},"movement_without_known_cause":"SIGNAL_ONLY"},
+  "player_population":{"roster_identities":176,"reconciled":140,"verified_2026_dossiers":134,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending":36,"Panthers":"8/22","Roosters":"0/22","new_batch":"data/player-stats-finals-week1-batch-037-2026.json"},
+  "new_player_intelligence":["Brian To'o — VERIFIED dossier and R24-27 wing workload","Jack Cole — VERIFIED dossier; LOW_SAMPLE_VARIANCE","Nathan Cleary — VERIFIED role-critical halfback/kicking dossier and R24-27 trend","Moses Leota — VERIFIED starting-middle dossier and R24-27 workload trend"],
+  "decision_state":"NO_CONFIDENCE_CHANGE_NO_FREEZE",
+  "information_advantage":"NONE_ASSERTED",
+  "learning":"NO_WEIGHT_CHANGE",
+  "incorrect_tip_halt":"CLEAR",
+  "persistence":{"batch_037":"WRITTEN","coverage":"WRITTEN","manifest":"WRITTEN","material_update":"WRITTEN","readback":"PENDING"},
+  "audit_integrity":"PRESERVED"
+}
