@@ -1,0 +1,20 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-10T22:45:30+10:00",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":{"Rabbitohs v Knights":"UPCOMING","Warriors v Dolphins":"UPCOMING","Sharks v Cowboys":"UPCOMING","Panthers v Roosters":"UPCOMING"}},
+  "result_acquisition":{"required":false,"reason":"No Finals Week 1 kickoff has passed."},
+  "checkpoint_reconciliation":{"due_now":false,"last_captured":"Rabbitohs v Knights T-24h","next_checkpoint":"Rabbitohs v Knights T-3h at 2026-09-11T16:50:00+10:00","MISSED_NOT_CAPTURED":false},
+  "weather":{"Rabbitohs v Knights":{"source":"Bureau of Meteorology Sydney forecast issued 2026-09-10","state":"Friday partly cloudy; slight early coastal-fringe shower chance, near-zero chance elsewhere, light winds","effect":"NON_DIRECTIONAL"},"Sharks v Cowboys":{"source":"Bureau of Meteorology Sydney forecast issued 2026-09-10","state":"Saturday mostly sunny, 0 mm expected, low rain chance, northeasterly 15-20 km/h developing","effect":"NON_DIRECTIONAL"},"Warriors v Dolphins":{"state":"LAST_AUTHORITATIVE_STATE_RETAINED_PENDING_CHECKPOINT","effect":"NO_DEMONSTRATED_DIRECTIONAL_EDGE"},"Panthers v Roosters":{"state":"LAST_AUTHORITATIVE_STATE_RETAINED_PENDING_CHECKPOINT","effect":"NO_DEMONSTRATED_DIRECTIONAL_EDGE"}},
+  "player_reconciliation":{"batch":"034","team":"Cowboys","players":["Coen Hess","Kaiden Lahrs","Ethan King","Kai O'Donnell"],"reconciled_total":130,"verified_2026_dossiers":124,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending":46,"cowboys":"20/22","integrity":"LOW_SAMPLE_VARIANCE applied to Lahrs, King and O'Donnell; no causal inference from statistics alone."},
+  "markets":{"Rabbitohs v Knights":{"prices":[1.39,2.95],"normalized_home_pct":67.97,"selection":"Rabbitohs","confidence":69,"delta_pp":1.03,"gate":"CLEAR","freshness":"LAST_VERIFIED_STATE_RETAINED"},"Warriors v Dolphins":{"prices":[1.59,2.34],"normalized_home_pct":59.54,"selection":"Warriors","confidence":63,"delta_pp":3.46,"gate":"REVIEW_REQUIRED","freshness":"LAST_VERIFIED_STATE_RETAINED"},"Sharks v Cowboys":{"prices":[1.42,2.85],"normalized_home_pct":66.74,"selection":"Sharks","confidence":64,"delta_pp":-2.74,"gate":"CLEAR","freshness":"LAST_VERIFIED_STATE_RETAINED"},"Panthers v Roosters":{"prices":[1.32,3.35],"normalized_home_pct":71.73,"selection":"Panthers","confidence":73,"delta_pp":1.27,"gate":"CLEAR","freshness":"LAST_VERIFIED_STATE_RETAINED"}},
+  "evidence_family_independence":"Market states remain calibration context and are not independent football corroboration.",
+  "adversarial_counter_case":"No new evidence in this cycle displaced the previously persisted opposing-team cases.",
+  "information_advantage":"NONE_ASSERTED",
+  "learned_weight_change":"NONE",
+  "freeze_change":"NONE",
+  "incorrect_tip_halt":"CLEAR",
+  "public_state":{"material_update":"data/material-update-latest.json","coverage":"data/finals-week1-player-ingestion-coverage-2026.json","manifest":"data/player-data-manifest-2026.json","batch":"data/player-stats-finals-week1-batch-034-2026.json","repository_readback":"PENDING"},
+  "audit_integrity":"PRESERVED"
+}
