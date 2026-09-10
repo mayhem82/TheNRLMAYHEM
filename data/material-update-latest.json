@@ -15,6 +15,6 @@
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
   "canonical_reconciliation":{"status":"LATEST_MATERIAL_OVERLAY_ACTIVE","cycle_file":"data/cycle-2026-09-11-034419-aest.json","coverage_file":"data/finals-week1-player-ingestion-coverage-2026.json","latest_stats_batch":"data/player-stats-finals-week1-batch-038-2026.json"},
-  "public_verification":{"repository_state":"PENDING_READBACK","rendered_github_pages_recheck":"PENDING"},
+  "public_verification":{"repository_state":"VERIFIED_READBACK","rendered_github_pages_recheck":"RENDER_VERIFICATION_UNAVAILABLE"},
   "audit_integrity":"PRESERVED"
 }
