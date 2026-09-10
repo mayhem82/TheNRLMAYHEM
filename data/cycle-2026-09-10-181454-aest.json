@@ -50,5 +50,5 @@
   },
   "information_advantage": "NONE_ASSERTED",
   "learned_weight_change": "NONE",
-  "persistence": "WRITE_COMPLETED_PENDING_READBACK"
+  "persistence": "VERIFIED_READBACK"
 }
