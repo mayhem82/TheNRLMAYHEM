@@ -4,67 +4,31 @@
   "captured_at": "2026-09-10T11:02:29+10:00",
   "timezone": "Australia/Sydney",
   "lifecycle_reconciliation": "NO_KICKOFF_PASSED",
-  "fixtures": {
-    "Rabbitohs_Knights": "UPCOMING",
-    "Warriors_Dolphins": "UPCOMING",
-    "Sharks_Cowboys": "UPCOMING",
-    "Panthers_Roosters": "UPCOMING"
-  },
-  "checkpoint": {
-    "due": false,
-    "next": "Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00",
-    "missed_not_captured": false
-  },
+  "fixtures": {"Rabbitohs_Knights":"UPCOMING","Warriors_Dolphins":"UPCOMING","Sharks_Cowboys":"UPCOMING","Panthers_Roosters":"UPCOMING"},
+  "checkpoint": {"due":false,"next":"Rabbitohs v Knights T-24h 2026-09-10T19:50:00+10:00","missed_not_captured":false},
   "weather": {
-    "Rabbitohs_Knights": "Fresh BOM Sydney-area forecast for Friday: partly cloudy, 0 mm, near-zero inland rain chance and light winds; no demonstrated team-specific directional effect.",
-    "Warriors_Dolphins": "Auckland Saturday forecast evidence indicates cool conditions, little precipitation and southwesterly winds around 19-26 km/h near the afternoon/evening period; weather retained as variance only, not a team-specific edge.",
-    "Sharks_Cowboys": "Fresh BOM Sydney-area forecast for Saturday: 0 mm with light winds becoming northeasterly around 15-20 km/h; no demonstrated team-specific directional effect.",
-    "Panthers_Roosters": "Sydney-region weekend outlook remains dry/mild; no demonstrated team-specific directional effect established this cycle."
+    "Rabbitohs_Knights":"Fresh BOM Sydney-area forecast for Friday: partly cloudy, 0 mm, near-zero inland rain chance and light winds; no demonstrated team-specific directional effect.",
+    "Warriors_Dolphins":"Auckland Saturday forecast evidence indicates cool conditions, little precipitation and southwesterly winds around 19-26 km/h near the afternoon/evening period; weather retained as variance only, not a team-specific edge.",
+    "Sharks_Cowboys":"Fresh BOM Sydney-area forecast for Saturday: 0 mm with light winds becoming northeasterly around 15-20 km/h; no demonstrated team-specific directional effect.",
+    "Panthers_Roosters":"Sydney-region weekend outlook remains dry/mild; no demonstrated team-specific directional effect established this cycle."
   },
   "market": {
-    "Rabbitohs_Knights": {"prices": [1.42, 2.87], "normalized": [66.90, 33.10], "mayhem_confidence": 69, "confidence_delta_pp": 2.10, "gate": "CLEAR", "source": "Sportsbet Finals Week 1"},
-    "Warriors_Dolphins": {"prices": [1.61, 2.33], "normalized": [59.14, 40.86], "mayhem_confidence": 63, "confidence_delta_pp": 3.86, "gate": "REVIEW_REQUIRED", "source": "Sportsbet Finals Week 1"},
-    "Sharks_Cowboys": {"prices": [1.45, 2.76], "normalized": [65.56, 34.44], "mayhem_confidence": 64, "confidence_delta_pp": -1.56, "gate": "CLEAR", "source": "Sportsbet Finals Week 1"},
-    "Panthers_Roosters": {"prices": [1.32, 3.42], "normalized": [72.15, 27.85], "mayhem_confidence": 73, "confidence_delta_pp": 0.85, "gate": "CLEAR", "source": "Sportsbet Finals Week 1"}
+    "Rabbitohs_Knights":{"prices":[1.42,2.87],"normalized":[66.90,33.10],"mayhem_confidence":69,"confidence_delta_pp":2.10,"gate":"CLEAR","source":"Sportsbet Finals Week 1"},
+    "Warriors_Dolphins":{"prices":[1.61,2.33],"normalized":[59.14,40.86],"mayhem_confidence":63,"confidence_delta_pp":3.86,"gate":"REVIEW_REQUIRED","source":"Sportsbet Finals Week 1"},
+    "Sharks_Cowboys":{"prices":[1.45,2.76],"normalized":[65.56,34.44],"mayhem_confidence":64,"confidence_delta_pp":-1.56,"gate":"CLEAR","source":"Sportsbet Finals Week 1"},
+    "Panthers_Roosters":{"prices":[1.32,3.42],"normalized":[72.15,27.85],"mayhem_confidence":73,"confidence_delta_pp":0.85,"gate":"CLEAR","source":"Sportsbet Finals Week 1"}
   },
-  "market_capture_state": "FRESH_RELIABLE_TWO_SIDED_H2H_CAPTURED; MOVEMENT_WITHOUT_CAUSE_REMAINS_SIGNAL_ONLY",
-  "player_reconciliation": {
-    "roster_identities": 176,
-    "verified_season_dossiers": 90,
-    "verified_no_completed_sample": 1,
-    "profile_data_unavailable": 5,
-    "reconciled": 96,
-    "pending": 80,
-    "Rabbitohs": "22/22",
-    "Knights": "22/22",
-    "Warriors": "22/22",
-    "Dolphins": "22/22",
-    "Sharks": "8/22",
-    "Cowboys": "0/22",
-    "Panthers": "0/22",
-    "Roosters": "0/22"
-  },
-  "player_population_state": "INCOMPLETE_ADVANCED; SHARKS_8_OF_22; SHARKS_REMAIN_NEXT_PRIORITY",
-  "player_material_change": {
-    "batch": "025",
-    "players": ["Ronaldo Mulitalo", "Braydon Trindall", "Nicho Hynes", "Addin Fonua-Blake"],
-    "effect": "Official NRL 2026 statistical dossiers added. Trindall return and Hynes return-from-rest are retained as verified roster/role inputs. No standalone confidence uplift assigned from season production statistics alone."
-  },
-  "sources_checked": [
-    "NRL.com official Finals Week 1 team list",
-    "NRL.com official player profiles for Ronaldo Mulitalo, Braydon Trindall, Nicho Hynes and Addin Fonua-Blake",
-    "NRL.com Trindall Finals return report",
-    "Sportsbet Finals Week 1 H2H market",
-    "Bureau of Meteorology Sydney-area forecasts",
-    "Auckland Saturday weather forecast evidence",
-    "repository lifecycle/player coverage state"
-  ],
-  "decision_effect": "No tip/confidence change. Rabbitohs 69%, Sharks 64% and Panthers 73% remain within the +3pp market gate. Warriors 63% remains REVIEW_REQUIRED because fresh normalized market probability is 59.14%, a +3.86pp MAYHEM uplift without sufficient independent causal support yet established.",
-  "evidence_family_independence": "Official roster/profile statistics are player evidence and are not counted as independent corroboration of market probability. Market-linked/shared-input evidence is not double-counted.",
-  "adversarial_counter_case": "No formal pre-freeze checkpoint is due. Warriors-Dolphins counter-case remains strengthened by Dolphins seven-game winning run and full-strength named side; Sharks-Cowboys counter-case must retain Cowboys returning personnel and Sharks low-sample centre uncertainty at freeze.",
-  "information_advantage": "NONE_ASSERTED",
-  "incorrect_tip_halt": "CLEAR",
-  "audit_integrity": "PRESERVED",
-  "persistence": "WRITE_COMPLETED_PENDING_READBACK",
-  "notification_trigger": "PLAYER_STATISTICAL_DOSSIER_PROGRESS_AND_FRESH_MARKET_GATE_UPDATE"
+  "market_capture_state":"FRESH_RELIABLE_TWO_SIDED_H2H_CAPTURED; MOVEMENT_WITHOUT_CAUSE_REMAINS_SIGNAL_ONLY",
+  "player_reconciliation":{"roster_identities":176,"verified_season_dossiers":90,"verified_no_completed_sample":1,"profile_data_unavailable":5,"reconciled":96,"pending":80,"Rabbitohs":"22/22","Knights":"22/22","Warriors":"22/22","Dolphins":"22/22","Sharks":"8/22","Cowboys":"0/22","Panthers":"0/22","Roosters":"0/22"},
+  "player_population_state":"INCOMPLETE_ADVANCED; SHARKS_8_OF_22; SHARKS_REMAIN_NEXT_PRIORITY",
+  "player_material_change":{"batch":"025","players":["Ronaldo Mulitalo","Braydon Trindall","Nicho Hynes","Addin Fonua-Blake"],"effect":"Official NRL 2026 statistical dossiers added. Trindall return and Hynes return-from-rest are retained as verified roster/role inputs. No standalone confidence uplift assigned from season production statistics alone."},
+  "sources_checked":["NRL.com official Finals Week 1 team list","NRL.com official player profiles for Ronaldo Mulitalo, Braydon Trindall, Nicho Hynes and Addin Fonua-Blake","NRL.com Trindall Finals return report","Sportsbet Finals Week 1 H2H market","Bureau of Meteorology Sydney-area forecasts","Auckland Saturday weather forecast evidence","repository lifecycle/player coverage state"],
+  "decision_effect":"No tip/confidence change. Rabbitohs 69%, Sharks 64% and Panthers 73% remain within the +3pp market gate. Warriors 63% remains REVIEW_REQUIRED because fresh normalized market probability is 59.14%, a +3.86pp MAYHEM uplift without sufficient independent causal support yet established.",
+  "evidence_family_independence":"Official roster/profile statistics are player evidence and are not counted as independent corroboration of market probability. Market-linked/shared-input evidence is not double-counted.",
+  "adversarial_counter_case":"No formal pre-freeze checkpoint is due. Warriors-Dolphins counter-case remains strengthened by Dolphins seven-game winning run and full-strength named side; Sharks-Cowboys counter-case must retain Cowboys returning personnel and Sharks low-sample centre uncertainty at freeze.",
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED",
+  "persistence":"VERIFIED_READBACK",
+  "notification_trigger":"PLAYER_STATISTICAL_DOSSIER_PROGRESS_AND_FRESH_MARKET_GATE_UPDATE"
 }
