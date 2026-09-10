@@ -1,0 +1,11 @@
+{
+  "season":2026,
+  "round":"Finals Week 1",
+  "batch":"040",
+  "captured_at":"2026-09-11T08:11:49+10:00",
+  "before":{"reconciled":148,"verified_2026_dossiers":142,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending":28,"Panthers":"16/22"},
+  "repair":{"canonical_coverage_found_stale_at":"144 reconciled / Panthers 12/22","correct_pre_batch_state":"148 reconciled / Panthers 16/22","basis":"Persisted batch 039 and 06:42 cycle record"},
+  "batch_additions":["Blaize Talagi:VERIFIED","Billy Scott:VERIFIED_LOW_SAMPLE_VARIANCE","Luron Patea:VERIFIED_LOW_SAMPLE_VARIANCE","Billy Phillips:PROFILE_DATA_UNAVAILABLE"],
+  "after":{"reconciled":152,"verified_2026_dossiers":145,"verified_no_completed_sample":1,"profile_data_unavailable":6,"pending":24,"Panthers":"20/22","Roosters":"0/22"},
+  "integrity":"No unavailable field or profile was guessed. Persistence defect was repaired explicitly rather than overwritten silently."
+}
