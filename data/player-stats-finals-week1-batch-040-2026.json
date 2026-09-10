@@ -1,0 +1,39 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "040",
+  "captured_at": "2026-09-11T08:11:49+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Derived trends identify genuine per-round rows and do not establish causation.",
+  "players": [
+    {
+      "player":"Blaize Talagi","team":"Panthers","finals_role":"Named interchange — Five-eighth/utility","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":60,"tries":22},
+      "season":{"appearances":19,"tries":5,"try_assists":8,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":11,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":14,"tackles_made":405,"missed_tackles":61,"average_running_metres":79,"total_running_metres":1510,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":62.6,"forced_drop_outs":5,"fantasy_total":714,"fantasy_average":37.6},
+      "recent_rounds":[{"round":23,"opponent":"Warriors","position":"Reserve","minutes":null,"tries":null,"try_assists":null,"tackles":null,"missed_tackles":null,"running_metres":null},{"round":24,"opponent":"Roosters","position":"Interchange","minutes":16,"tries":0,"try_assists":0,"tackles":2,"missed_tackles":0,"running_metres":35},{"round":26,"opponent":"Bulldogs","position":"Reserve","minutes":null,"tries":null,"try_assists":null,"tackles":null,"missed_tackles":null,"running_metres":null},{"round":27,"opponent":"Wests Tigers","position":"Reserve","minutes":null,"tries":null,"try_assists":null,"tackles":null,"missed_tackles":null,"running_metres":null}],
+      "trend_rounds_used":[23,24,26,27],"trend_note":"Recent official rows show one 16-minute interchange appearance in Round 24 among reserve listings in Rounds 23, 26 and 27. This is role/workload evidence only; no causal explanation is inferred.","team_effect":"Utility/playmaking depth baseline enriched; recent first-grade minutes are limited, so no standalone confidence uplift.","source":"https://www.nrl.com/players/nrl-premiership/panthers/blaize-talagi/"
+    },
+    {
+      "player":"Billy Scott","team":"Panthers","finals_role":"Named interchange — Hooker","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":8,"tries":0},
+      "season":{"appearances":8,"tries":0,"try_assists":0,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":0,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":0,"tackles_made":111,"missed_tackles":6,"average_running_metres":8,"total_running_metres":68,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":2,"forced_drop_outs":0,"fantasy_total":104,"fantasy_average":13},
+      "recent_rounds":[{"round":13,"opponent":"Warriors","position":"Interchange","minutes":21,"tries":0,"try_assists":0,"tackles":10,"missed_tackles":1,"running_metres":15},{"round":16,"opponent":"Titans","position":"Interchange","minutes":29,"tries":0,"try_assists":0,"tackles":22,"missed_tackles":2,"running_metres":10},{"round":18,"opponent":"Rabbitohs","position":"Interchange","minutes":24,"tries":0,"try_assists":0,"tackles":11,"missed_tackles":0,"running_metres":13},{"round":20,"opponent":"Broncos","position":"Interchange","minutes":18,"tries":0,"try_assists":0,"tackles":14,"missed_tackles":0,"running_metres":0},{"round":21,"opponent":"Eels","position":"Interchange","minutes":5,"tries":0,"try_assists":0,"tackles":6,"missed_tackles":0,"running_metres":0}],
+      "trend_rounds_used":[13,16,18,20,21],"trend_note":"Official rows show an interchange workload ranging from 5 to 29 minutes across the sampled completed appearances. Small first-grade sample is treated as uncertainty/variance, not directional evidence.","team_effect":"Hooker interchange depth baseline enriched; LOW_SAMPLE_VARIANCE retained.","source":"https://www.nrl.com/players/nrl-premiership/panthers/billy-scott/"
+    },
+    {
+      "player":"Luron Patea","team":"Panthers","finals_role":"Named reserve — Prop","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":21,"tries":1},
+      "season":{"appearances":5,"tries":0,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":10,"offloads":4,"tackles_made":73,"missed_tackles":6,"average_running_metres":66,"total_running_metres":330,"post_contact_metres":116.5,"average_hit_ups":6.8,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":128,"fantasy_average":25.6},
+      "recent_rounds":[{"round":23,"opponent":"Warriors","position":"Interchange","minutes":12,"tries":0,"try_assists":0,"tackles":5,"missed_tackles":1,"running_metres":39},{"round":24,"opponent":"Roosters","position":"Interchange","minutes":16,"tries":0,"try_assists":0,"tackles":14,"missed_tackles":2,"running_metres":64},{"round":27,"opponent":"Wests Tigers","position":"Interchange","minutes":28,"tries":0,"try_assists":0,"tackles":15,"missed_tackles":0,"running_metres":35}],
+      "trend_rounds_used":[23,24,27],"trend_note":"Official completed rows show 12, 16 and 28 interchange minutes in Rounds 23, 24 and 27 respectively. Five-game 2026 sample is LOW_SAMPLE_VARIANCE; no directional effect is inferred.","team_effect":"Reserve middle-depth baseline enriched; no standalone confidence adjustment.","source":"https://www.nrl.com/players/nrl-premiership/panthers/luron-patea/"
+    },
+    {
+      "player":"Billy Phillips","team":"Panthers","finals_role":"Named interchange — Forward","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"PROFILE_DATA_UNAVAILABLE",
+      "career":null,
+      "season":null,
+      "recent_rounds":[],
+      "trend_rounds_used":[],"trend_note":"No official NRL player profile was retrievable in the current search. No statistics or trend are inferred.","team_effect":"Roster presence remains verified; statistical effect unavailable and not guessed.","source":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+    }
+  ]
+}
