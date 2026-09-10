@@ -1,0 +1,72 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "027",
+  "captured_at": "2026-09-10T13:06:14+10:00",
+  "source_class": "NRL.com official Finals Week 1 team list and official NRL player profiles",
+  "rule": "Raw profile facts are preserved separately from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Per-round observations remain separate from season totals and statistics alone do not establish causation.",
+  "players": [
+    {
+      "player": "Cameron McInnes",
+      "team": "Sharks",
+      "finals_role": "Named starting lock",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":243,"tries":28},
+      "season": {"appearances":17,"tries":1,"try_assists":0,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":3,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":2,"tackles_made":547,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":77,"total_running_metres":1314,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":0,"forced_drop_outs":0,"goals":"FIELD_NOT_PUBLISHED","fantasy_total":695,"fantasy_average":40.9},
+      "per_round_state": "OFFICIAL_TABLE_AVAILABLE_NOT_FULLY_RECONCILED_THIS_CAPTURE",
+      "trend_note": "Official profile supplies per-round 2026 data, but this capture does not claim a full round-by-round reconciliation. Starting lock status is verified from the Finals Week 1 team list; no causal explanation is inferred from season totals.",
+      "team_effect": "Starting-lock defensive and middle-running baseline enriched; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/cameron-mcinnes/",
+      "captured_at": "2026-09-10T13:06:14+10:00"
+    },
+    {
+      "player": "Siosifa Talakai",
+      "team": "Sharks",
+      "finals_role": "Named interchange",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":154,"tries":32},
+      "season": {"appearances":21,"tries":5,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":3,"line_break_assists":3,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":6,"tackles_made":243,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":88,"total_running_metres":1867,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":509,"fantasy_average":24.2},
+      "per_round_state": "OFFICIAL_TABLE_AVAILABLE_NOT_FULLY_RECONCILED_THIS_CAPTURE",
+      "trend_note": "Official profile confirms a multi-role forward/back utility baseline; the Finals list names him on the interchange. This capture does not infer a directional effect from versatility alone.",
+      "team_effect": "Interchange versatility and running baseline enriched; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/siosifa-talakai/",
+      "captured_at": "2026-09-10T13:06:14+10:00"
+    },
+    {
+      "player": "Billy Burns",
+      "team": "Sharks",
+      "finals_role": "Named interchange",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":86,"tries":19},
+      "season": {"appearances":24,"tries":6,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":7,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":24,"tackles_made":672,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":76,"total_running_metres":1834,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":915,"fantasy_average":38.1},
+      "per_round_state": "OFFICIAL_TABLE_AVAILABLE_NOT_FULLY_RECONCILED_THIS_CAPTURE",
+      "trend_note": "Finals Week 1 team news records Burns reverting to the interchange. Season totals are retained separately from that role observation; no causal explanation is inferred.",
+      "team_effect": "Interchange edge-forward defensive and offload baseline enriched; no standalone directional adjustment assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/billy-burns/",
+      "captured_at": "2026-09-10T13:06:14+10:00"
+    },
+    {
+      "player": "Oregon Kaufusi",
+      "team": "Sharks",
+      "finals_role": "Named interchange",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":158,"tries":7},
+      "season": {"appearances":20,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":31,"offloads":29,"tackles_made":317,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":62,"total_running_metres":1251,"post_contact_metres":496.1,"average_hit_ups":6.3,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":623,"fantasy_average":31.2},
+      "per_round_state": "OFFICIAL_TABLE_AVAILABLE_NOT_FULLY_RECONCILED_THIS_CAPTURE",
+      "trend_note": "Official NRL profile provides genuine per-round 2026 data and the Finals list names Kaufusi on the interchange. This capture does not claim a completed round-by-round trend derivation.",
+      "team_effect": "Interchange prop running, post-contact and offload baseline enriched; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/oregon-kaufusi/",
+      "captured_at": "2026-09-10T13:06:14+10:00"
+    }
+  ],
+  "team_list_source": "https://www.nrl.com/news/2026/09/08/sharks-v-cowboys-tricky-treat-for-home-fans-nanai-neame-add-punch/"
+}
