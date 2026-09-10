@@ -1,28 +1,28 @@
 {
   "season": 2026,
   "round": "Finals Week 1",
-  "captured_at": "2026-09-10T13:06:14+10:00",
+  "captured_at": "2026-09-10T14:13:39+10:00",
   "scope": "Official NRL Finals Week 1 named squads for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters",
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 98,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 102,
     "current_players_with_verified_no_completed_2026_nrl_sample": 1,
     "current_players_with_profile_data_unavailable": 5,
-    "current_players_pending_profile_reconciliation": 72,
-    "current_players_with_per_round_reconciliation_complete": 5,
-    "current_players_with_per_round_reconciliation_partial": 39,
+    "current_players_pending_profile_reconciliation": 68,
+    "current_players_with_per_round_reconciliation_complete": 6,
+    "current_players_with_per_round_reconciliation_partial": 42,
     "current_players_with_per_round_reconciliation_pending": 42
   },
   "completed_players": [
-    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwald","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo","Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan","Taine Tuaupiki","Charnze Nicoll-Klokstad","Ali Leiataua","Leka Halasima","Alofiana Khan-Pereira","Chanel Harris-Tavita","Te Maire Martin","James Fisher-Harris","Wayde Egan","Mitchell Barnett","Kurt Capewell","Jacob Laban","Erin Clark","Sam Healey","Tanner Stowers-Smith","Demitric Vaimauga","Jackson Ford","Eddie Ieremia-Toeava","Adam Pompey","Jett Cleary","Luke Laulilii","Makaia Tafua","Hamiso Tabuai-Fidow","Jamayne Isaako","Herbie Farnworth","Kodi Nikorima","Jack Bostock","Selwyn Cobbo","Isaiya Katoa","Thomas Flegler","Jeremy Marshall-King","Tom Gilbert","Max Plath","Kulikefu Finefeuiaki","Morgan Knowles","Kurt Donoghoe","Ray Stone","Francis Molo","Connelly Lemuelu","Felise Kaufusi","Bradley Schneider","Jake Averillo","Brian Pouniu","Tevita Naufahu","William Kennedy","Sione Katoa","Riley Jones","KL Iro","Ronaldo Mulitalo","Braydon Trindall","Nicho Hynes","Addin Fonua-Blake","Blayke Brailey","Jesse Colquhoun","Briton Nikora","Teig Wilton","Cameron McInnes","Siosifa Talakai","Billy Burns","Oregon Kaufusi"
+    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwald","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo","Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan","Taine Tuaupiki","Charnze Nicoll-Klokstad","Ali Leiataua","Leka Halasima","Alofiana Khan-Pereira","Chanel Harris-Tavita","Te Maire Martin","James Fisher-Harris","Wayde Egan","Mitchell Barnett","Kurt Capewell","Jacob Laban","Erin Clark","Sam Healey","Tanner Stowers-Smith","Demitric Vaimauga","Jackson Ford","Eddie Ieremia-Toeava","Adam Pompey","Jett Cleary","Luke Laulilii","Makaia Tafua","Hamiso Tabuai-Fidow","Jamayne Isaako","Herbie Farnworth","Kodi Nikorima","Jack Bostock","Selwyn Cobbo","Isaiya Katoa","Thomas Flegler","Jeremy Marshall-King","Tom Gilbert","Max Plath","Kulikefu Finefeuiaki","Morgan Knowles","Kurt Donoghoe","Ray Stone","Francis Molo","Connelly Lemuelu","Felise Kaufusi","Bradley Schneider","Jake Averillo","Brian Pouniu","Tevita Naufahu","William Kennedy","Sione Katoa","Riley Jones","KL Iro","Ronaldo Mulitalo","Braydon Trindall","Nicho Hynes","Addin Fonua-Blake","Blayke Brailey","Jesse Colquhoun","Briton Nikora","Teig Wilton","Cameron McInnes","Siosifa Talakai","Billy Burns","Oregon Kaufusi","Thomas Hazelton","Hohepa Puru","Toby Rudolf","Niwhai Puru"
   ],
   "teams": [
     {"team":"Rabbitohs","roster":22,"reconciled":22,"season_dossier_complete":22,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":0},
     {"team":"Knights","roster":22,"reconciled":22,"season_dossier_complete":18,"verified_no_completed_sample":1,"profile_data_unavailable":3,"pending":0},
     {"team":"Warriors","roster":22,"reconciled":22,"season_dossier_complete":20,"verified_no_completed_sample":0,"profile_data_unavailable":2,"pending":0},
     {"team":"Dolphins","roster":22,"reconciled":22,"season_dossier_complete":22,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":0},
-    {"team":"Sharks","roster":22,"reconciled":16,"season_dossier_complete":16,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":6},
+    {"team":"Sharks","roster":22,"reconciled":20,"season_dossier_complete":20,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":2},
     {"team":"Cowboys","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
     {"team":"Panthers","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
     {"team":"Roosters","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22}
@@ -51,21 +51,22 @@
     "data/player-stats-finals-week1-batch-024-2026.json",
     "data/player-stats-finals-week1-batch-025-2026.json",
     "data/player-stats-finals-week1-batch-026-2026.json",
-    "data/player-stats-finals-week1-batch-027-2026.json"
+    "data/player-stats-finals-week1-batch-027-2026.json",
+    "data/player-stats-finals-week1-batch-028-2026.json"
   ],
   "sources": [
     "https://www.nrl.com/news/2026/09/08/sharks-v-cowboys-tricky-treat-for-home-fans-nanai-neame-add-punch/",
-    "https://www.nrl.com/players/nrl-premiership/sharks/cameron-mcinnes/",
-    "https://www.nrl.com/players/nrl-premiership/sharks/siosifa-talakai/",
-    "https://www.nrl.com/players/nrl-premiership/sharks/billy-burns/",
-    "https://www.nrl.com/players/nrl-premiership/sharks/oregon-kaufusi/"
+    "https://www.nrl.com/players/nrl-premiership/sharks/thomas-hazelton/",
+    "https://www.nrl.com/players/nrl-premiership/sharks/hohepa-puru/",
+    "https://www.nrl.com/players/nrl-premiership/sharks/toby-rudolf/",
+    "https://www.nrl.com/players/nrl-premiership/sharks/niwhai-puru/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities remain persisted from the official NRL team-list release.",
     "Rabbitohs, Knights, Warriors and Dolphins reconciliation remain complete at 22/22.",
-    "Sharks reconciliation advanced to 16/22 using official NRL player profiles for Cameron McInnes, Siosifa Talakai, Billy Burns and Oregon Kaufusi.",
+    "Sharks reconciliation advanced to 20/22 using official NRL player profiles for Thomas Hazelton, Hohepa Puru, Toby Rudolf and Niwhai Puru.",
+    "Niwhai Puru is LOW_SAMPLE_VARIANCE despite a complete six-appearance 2026 per-round sample.",
     "Season statistics remain raw source facts; causal interpretation is not inferred from statistics alone.",
-    "Per-round tables were verified as available for this batch, but full round-by-round reconciliation is not falsely claimed.",
     "Missing official player-profile or statistical fields are recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
     "Official late changes remain subject to T-24h, T-3h, T-60m and T-10m reconciliation."
   ]
