@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-09-10T19:09:01+10:00",
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "lifecycle_reconciliation": {
+    "Rabbitohs v Knights": "UPCOMING",
+    "Warriors v Dolphins": "UPCOMING",
+    "Sharks v Cowboys": "UPCOMING",
+    "Panthers v Roosters": "UPCOMING",
+    "result_backlog": false,
+    "missed_not_captured": false
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "next": "Rabbitohs v Knights T-24h",
+    "next_due": "2026-09-10T19:50:00+10:00"
+  },
+  "official_team_list": {
+    "source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "material_new_change_in_this_cycle": false
+  },
+  "weather": {
+    "Rabbitohs v Knights": {"source":"https://www.bom.gov.au/places/nsw/sydney-olympic-park/forecast/","classification":"NON_DIRECTIONAL"},
+    "Warriors v Dolphins": {"source":"current Auckland public forecast evidence","classification":"WEATHER_VARIANCE_NO_DEMONSTRATED_TEAM_EDGE"},
+    "Sharks v Cowboys": {"source":"https://www.bom.gov.au/places/nsw/sydney-olympic-park/forecast/","classification":"NON_DIRECTIONAL"},
+    "Panthers v Roosters": {"source":"current Sydney public forecast evidence","classification":"NON_DIRECTIONAL"}
+  },
+  "market": [
+    {"fixture":"Rabbitohs v Knights","prices":{"Rabbitohs":1.39,"Knights":3.00},"normalized_probability":{"Rabbitohs":0.6834,"Knights":0.3166},"mayhem_selection":"Rabbitohs","mayhem_confidence":0.69,"confidence_vs_market_delta_pp":0.66,"gate":"CLEAR","cause":"UNKNOWN"},
+    {"fixture":"Warriors v Dolphins","prices":{"Warriors":1.59,"Dolphins":2.36},"normalized_probability":{"Warriors":0.5975,"Dolphins":0.4025},"mayhem_selection":"Warriors","mayhem_confidence":0.63,"confidence_vs_market_delta_pp":3.25,"gate":"REVIEW_REQUIRED","cause":"UNKNOWN"},
+    {"fixture":"Sharks v Cowboys","prices":{"Sharks":1.42,"Cowboys":2.85},"normalized_probability":{"Sharks":0.6674,"Cowboys":0.3326},"mayhem_selection":"Sharks","mayhem_confidence":0.64,"confidence_vs_market_delta_pp":-2.74,"gate":"CLEAR","cause":"UNKNOWN"},
+    {"fixture":"Panthers v Roosters","prices":{"Panthers":1.33,"Roosters":3.35},"normalized_probability":{"Panthers":0.7158,"Roosters":0.2842},"mayhem_selection":"Panthers","mayhem_confidence":0.73,"confidence_vs_market_delta_pp":1.42,"gate":"CLEAR","cause":"UNKNOWN"}
+  ],
+  "player_population": {
+    "roster_identities": 176,
+    "verified_2026_dossiers": 120,
+    "verified_no_completed_sample": 1,
+    "profile_data_unavailable": 5,
+    "pending": 50,
+    "cowboys_reconciled": "16/22",
+    "batch_added": "033",
+    "players_added": ["Reuben Cotter","Soni Luke","John Bateman","Thomas Mikaele"]
+  },
+  "inference": {
+    "Rabbitohs v Knights": "69% remains inside normalized market gate; no confidence rewrite.",
+    "Warriors v Dolphins": "63% remains more than 3 percentage points above normalized market probability; REVIEW_REQUIRED persists absent explicit independent causal support.",
+    "Sharks v Cowboys": "64% remains below normalized market probability; gate clear.",
+    "Panthers v Roosters": "73% remains within the +3pp market gate; no confidence rewrite."
+  },
+  "information_advantage": "NONE_ASSERTED",
+  "learned_weight_change": "NONE",
+  "persistence": "WRITE_COMPLETE_READBACK_PENDING"
+}
