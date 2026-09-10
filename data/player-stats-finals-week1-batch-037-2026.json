@@ -1,0 +1,40 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "037",
+  "captured_at": "2026-09-11T02:50:27+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Derived trends identify genuine per-round rows and do not establish causation.",
+  "players": [
+    {
+      "player":"Brian To'o","team":"Panthers","finals_role":"Named starter — Wing","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":155,"tries":103},
+      "season":{"appearances":22,"tries":15,"try_assists":0,"line_breaks":21,"line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":107,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":106,"missed_tackles":37,"average_running_metres":194,"total_running_metres":4273,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":3.23,"forced_drop_outs":0,"fantasy_total":907,"fantasy_average":41.2},
+      "recent_rounds":[{"round":24,"opponent":"Roosters","position":"Winger","minutes":80,"tries":0,"try_assists":0,"tackles":3,"missed_tackles":3,"running_metres":173},{"round":25,"opponent":"Storm","position":"Winger","minutes":80,"tries":3,"try_assists":0,"tackles":6,"missed_tackles":2,"running_metres":225},{"round":26,"opponent":"Bulldogs","position":"Winger","minutes":80,"tries":0,"try_assists":0,"tackles":8,"missed_tackles":0,"running_metres":202},{"round":27,"opponent":"Wests Tigers","position":"Winger","minutes":80,"tries":1,"try_assists":0,"tackles":5,"missed_tackles":3,"running_metres":238}],
+      "trend_rounds_used":[24,25,26,27],"trend_note":"Wing role and 80-minute workload were continuous across Rounds 24-27. Running metres were 173,225,202,238 and tries 0,3,0,1; production change is descriptive only.","team_effect":"Role-critical starting-wing baseline enriched; no standalone confidence adjustment.","source":"https://www.nrl.com/players/nrl-premiership/panthers/brian-too/"
+    },
+    {
+      "player":"Jack Cole","team":"Panthers","finals_role":"Named starter — Five-Eighth","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED","sample_state":"LOW_SAMPLE_VARIANCE",
+      "career":{"appearances":21,"tries":3},
+      "season":{"appearances":4,"tries":0,"try_assists":1,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":2,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":1,"tackles_made":92,"missed_tackles":11,"average_running_metres":60,"total_running_metres":241,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":117.3,"forced_drop_outs":2,"fantasy_total":126,"fantasy_average":31.5},
+      "recent_rounds":[{"round":18,"opponent":"Rabbitohs","position":"Centre","minutes":80,"tries":0,"try_assists":0,"tackles":22,"missed_tackles":3,"running_metres":120}],
+      "trend_rounds_used":[18],"trend_note":"Only one recent completed NRL match row was exposed in the retrieved late-season sample; subsequent listed reserve appearances had no minutes. Low sample is uncertainty, not directional evidence.","team_effect":"Named five-eighth has a four-game 2026 NRL sample; classified uncertainty/variance with no directional confidence effect.","source":"https://www.nrl.com/players/nrl-premiership/panthers/jack-cole/"
+    },
+    {
+      "player":"Nathan Cleary","team":"Panthers","finals_role":"Named starter — Halfback","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":215,"tries":73},
+      "season":{"appearances":21,"tries":6,"goals":94,"try_assists":27,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":24,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":24,"tackles_made":424,"missed_tackles":61,"average_running_metres":97,"total_running_metres":2056,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":515.6,"forced_drop_outs":6,"fantasy_total":1500,"fantasy_average":71.4},
+      "recent_rounds":[{"round":24,"opponent":"Roosters","position":"Halfback","minutes":80,"tries":0,"try_assists":0,"tackles":23,"missed_tackles":4,"running_metres":132,"kicking_metres":538},{"round":25,"opponent":"Storm","position":"Halfback","minutes":80,"tries":0,"try_assists":2,"tackles":21,"missed_tackles":5,"running_metres":24,"kicking_metres":636},{"round":26,"opponent":"Bulldogs","position":"Halfback","minutes":80,"tries":0,"try_assists":1,"tackles":24,"missed_tackles":4,"running_metres":116,"kicking_metres":727},{"round":27,"opponent":"Wests Tigers","position":"Halfback","minutes":76,"tries":0,"try_assists":0,"tackles":14,"missed_tackles":5,"running_metres":70,"kicking_metres":329}],
+      "trend_rounds_used":[24,25,26,27],"trend_note":"Halfback role continuity persisted across Rounds 24-27. Kicking burden varied 538,636,727,329m while minutes were 80,80,80,76; no causal explanation is inferred.","team_effect":"Role-critical halfback statistical and kicking-burden baseline enriched; no confidence change from statistics alone.","source":"https://www.nrl.com/players/nrl-premiership/panthers/nathan-cleary/"
+    },
+    {
+      "player":"Moses Leota","team":"Panthers","finals_role":"Named starter — Prop","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":225,"tries":16},
+      "season":{"appearances":24,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":23,"offloads":16,"tackles_made":554,"missed_tackles":38,"average_running_metres":103,"total_running_metres":2484,"post_contact_metres":898.1,"average_hit_ups":9.2,"average_kicking_metres":0.59,"forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":850,"fantasy_average":35.4},
+      "recent_rounds":[{"round":24,"opponent":"Roosters","position":"Prop","minutes":44,"tries":1,"try_assists":0,"tackles":22,"missed_tackles":2,"running_metres":102},{"round":25,"opponent":"Storm","position":"Prop","minutes":35,"tries":0,"try_assists":0,"tackles":15,"missed_tackles":4,"running_metres":80},{"round":26,"opponent":"Bulldogs","position":"Prop","minutes":51,"tries":0,"try_assists":0,"tackles":26,"missed_tackles":0,"running_metres":100},{"round":27,"opponent":"Wests Tigers","position":"Prop","minutes":31,"tries":0,"try_assists":0,"tackles":11,"missed_tackles":0,"running_metres":110}],
+      "trend_rounds_used":[24,25,26,27],"trend_note":"Prop role continuity is verified, with minutes varying 44,35,51,31 and running metres 102,80,100,110 across Rounds 24-27. Workload variability is observed without causal attribution.","team_effect":"Starting-middle statistical/workload baseline enriched; no standalone confidence adjustment.","source":"https://www.nrl.com/players/nrl-premiership/panthers/moses-leota/"
+    }
+  ],
+  "team_list_source":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+}
