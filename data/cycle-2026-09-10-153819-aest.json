@@ -21,6 +21,6 @@
   "confidence_vs_market_delta":{"Rabbitohs v Knights":1.02,"Warriors v Dolphins":3.25,"Sharks v Cowboys":-2.74,"Panthers v Roosters":1.26},
   "prediction_decomposition":{"Rabbitohs v Knights":"No new independent causal weight assigned; market movement remains signal only.","Warriors v Dolphins":"No valid independent evidence yet clears the >3pp uplift gate; REVIEW_REQUIRED retained.","Sharks v Cowboys":"Cowboys player-statistical evidence enriches the opposing case but does not produce a pseudo-precise directional weight.","Panthers v Roosters":"No new directional evidence; prior structural case preserved."},
   "next_checkpoint_eta":"2026-09-10T19:50:00+10:00",
-  "persistence":{"batch_030":"PERSISTED_PENDING_READBACK","coverage":"PERSISTED_PENDING_READBACK","manifest":"PERSISTED_PENDING_READBACK","material_update":"PERSISTED_PENDING_READBACK","cycle":"PERSISTED"},
+  "persistence":{"batch_030":"VERIFIED_READBACK","coverage":"VERIFIED_READBACK","manifest":"VERIFIED_READBACK","material_update":"VERIFIED_READBACK","cycle":"VERIFIED_READBACK"},
   "audit_integrity":"PRESERVED"
 }
