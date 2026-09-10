@@ -1,21 +1,21 @@
 {
   "season": 2026,
   "round": "Finals Week 1",
-  "captured_at": "2026-09-10T15:38:19+10:00",
+  "captured_at": "2026-09-10T16:23:07+10:00",
   "scope": "Official NRL Finals Week 1 named squads for Rabbitohs, Knights, Warriors, Dolphins, Sharks, Cowboys, Panthers and Roosters",
   "roster_players": 176,
   "coverage": {
     "all_current_roster_identities_resolved": 176,
-    "current_players_with_verified_2026_nrl_season_statistical_dossier": 108,
+    "current_players_with_verified_2026_nrl_season_statistical_dossier": 112,
     "current_players_with_verified_no_completed_2026_nrl_sample": 1,
     "current_players_with_profile_data_unavailable": 5,
-    "current_players_pending_profile_reconciliation": 62,
+    "current_players_pending_profile_reconciliation": 58,
     "current_players_with_per_round_reconciliation_complete": 6,
-    "current_players_with_per_round_reconciliation_partial": 48,
-    "current_players_with_per_round_reconciliation_pending": 38
+    "current_players_with_per_round_reconciliation_partial": 52,
+    "current_players_with_per_round_reconciliation_pending": 34
   },
   "completed_players": [
-    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwald","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo","Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan","Taine Tuaupiki","Charnze Nicoll-Klokstad","Ali Leiataua","Leka Halasima","Alofiana Khan-Pereira","Chanel Harris-Tavita","Te Maire Martin","James Fisher-Harris","Wayde Egan","Mitchell Barnett","Kurt Capewell","Jacob Laban","Erin Clark","Sam Healey","Tanner Stowers-Smith","Demitric Vaimauga","Jackson Ford","Eddie Ieremia-Toeava","Adam Pompey","Jett Cleary","Luke Laulilii","Makaia Tafua","Hamiso Tabuai-Fidow","Jamayne Isaako","Herbie Farnworth","Kodi Nikorima","Jack Bostock","Selwyn Cobbo","Isaiya Katoa","Thomas Flegler","Jeremy Marshall-King","Tom Gilbert","Max Plath","Kulikefu Finefeuiaki","Morgan Knowles","Kurt Donoghoe","Ray Stone","Francis Molo","Connelly Lemuelu","Felise Kaufusi","Bradley Schneider","Jake Averillo","Brian Pouniu","Tevita Naufahu","William Kennedy","Sione Katoa","Riley Jones","KL Iro","Ronaldo Mulitalo","Braydon Trindall","Nicho Hynes","Addin Fonua-Blake","Blayke Brailey","Jesse Colquhoun","Briton Nikora","Teig Wilton","Cameron McInnes","Siosifa Talakai","Billy Burns","Oregon Kaufusi","Thomas Hazelton","Hohepa Puru","Toby Rudolf","Niwhai Puru","Samuel Stonestreet","Mawene Hiroti","Scott Drinkwater","Braidon Burns","Jaxon Purdue","Tom Chester"
+    "Matthew Dufty","Alex Johnston","Latrell Mitchell","Cody Walker","Jack Wighton","Campbell Graham","Jayden Sullivan","Brandon Smith","Tevita Tatola","Keaon Koloamatangi","David Fifita","Tallis Duncan","Cameron Murray","Jye Gray","Lachlan Hubner","Sean Keppie","Jamie Humphreys","Adam Elliott","Latrell Siegwald","Liam Le Blanc","Talanoa Penitani","Peter Mamouzelos","Kalyn Ponga","Dominic Young","Dane Gagai","Bradman Best","Greg Marzhew","Fletcher Sharpe","Sandon Smith","Tyson Frizell","Phoenix Crossland","Cody Hopwood","Jermaine McEwen","Francis Manuleleua","Mat Croker","Harrison Graham","Lachlan Crouch","Pasami Saulo","Thomas Cant","Fletcher Hunt","Toby Winter","Kyle McCarthy","Elijah Salesa-Leaumoana","Diesel Hagan","Taine Tuaupiki","Charnze Nicoll-Klokstad","Ali Leiataua","Leka Halasima","Alofiana Khan-Pereira","Chanel Harris-Tavita","Te Maire Martin","James Fisher-Harris","Wayde Egan","Mitchell Barnett","Kurt Capewell","Jacob Laban","Erin Clark","Sam Healey","Tanner Stowers-Smith","Demitric Vaimauga","Jackson Ford","Eddie Ieremia-Toeava","Adam Pompey","Jett Cleary","Luke Laulilii","Makaia Tafua","Hamiso Tabuai-Fidow","Jamayne Isaako","Herbie Farnworth","Kodi Nikorima","Jack Bostock","Selwyn Cobbo","Isaiya Katoa","Thomas Flegler","Jeremy Marshall-King","Tom Gilbert","Max Plath","Kulikefu Finefeuiaki","Morgan Knowles","Kurt Donoghoe","Ray Stone","Francis Molo","Connelly Lemuelu","Felise Kaufusi","Bradley Schneider","Jake Averillo","Brian Pouniu","Tevita Naufahu","William Kennedy","Sione Katoa","Riley Jones","KL Iro","Ronaldo Mulitalo","Braydon Trindall","Nicho Hynes","Addin Fonua-Blake","Blayke Brailey","Jesse Colquhoun","Briton Nikora","Teig Wilton","Cameron McInnes","Siosifa Talakai","Billy Burns","Oregon Kaufusi","Thomas Hazelton","Hohepa Puru","Toby Rudolf","Niwhai Puru","Samuel Stonestreet","Mawene Hiroti","Scott Drinkwater","Braidon Burns","Jaxon Purdue","Tom Chester","Zac Laybutt","Jake Clifford","Tom Dearden","Griffin Neame"
   ],
   "teams": [
     {"team":"Rabbitohs","roster":22,"reconciled":22,"season_dossier_complete":22,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":0},
@@ -23,7 +23,7 @@
     {"team":"Warriors","roster":22,"reconciled":22,"season_dossier_complete":20,"verified_no_completed_sample":0,"profile_data_unavailable":2,"pending":0},
     {"team":"Dolphins","roster":22,"reconciled":22,"season_dossier_complete":22,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":0},
     {"team":"Sharks","roster":22,"reconciled":22,"season_dossier_complete":22,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":0},
-    {"team":"Cowboys","roster":22,"reconciled":4,"season_dossier_complete":4,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":18},
+    {"team":"Cowboys","roster":22,"reconciled":8,"season_dossier_complete":8,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":14},
     {"team":"Panthers","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22},
     {"team":"Roosters","roster":22,"reconciled":0,"season_dossier_complete":0,"verified_no_completed_sample":0,"profile_data_unavailable":0,"pending":22}
   ],
@@ -54,19 +54,24 @@
     "data/player-stats-finals-week1-batch-027-2026.json",
     "data/player-stats-finals-week1-batch-028-2026.json",
     "data/player-stats-finals-week1-batch-029-2026.json",
-    "data/player-stats-finals-week1-batch-030-2026.json"
+    "data/player-stats-finals-week1-batch-030-2026.json",
+    "data/player-stats-finals-week1-batch-031-2026.json"
   ],
   "sources": [
     "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
     "https://www.nrl.com/players/nrl-premiership/cowboys/scott-drinkwater/",
     "https://www.nrl.com/players/nrl-premiership/cowboys/braidon-burns/",
     "https://www.nrl.com/players/nrl-premiership/cowboys/jaxon-purdue/",
-    "https://www.nrl.com/players/nrl-premiership/cowboys/tomas-chester/"
+    "https://www.nrl.com/players/nrl-premiership/cowboys/tomas-chester/",
+    "https://www.nrl.com/players/nrl-premiership/cowboys/zac-laybutt/",
+    "https://www.nrl.com/players/nrl-premiership/cowboys/jake-clifford/",
+    "https://www.nrl.com/players/nrl-premiership/cowboys/tom-dearden/",
+    "https://www.nrl.com/players/nrl-premiership/cowboys/griffin-neame/"
   ],
   "integrity": [
     "All 176 currently named Finals Week 1 squad identities remain persisted from the official NRL team-list release.",
     "Rabbitohs, Knights, Warriors, Dolphins and Sharks reconciliation remain complete at 22/22.",
-    "Cowboys reconciliation advanced to 4/22 using official NRL player profiles for Scott Drinkwater, Braidon Burns, Jaxon Purdue and Tomas Chester (roster identity Tom Chester).",
+    "Cowboys reconciliation advanced to 8/22 using official NRL player profiles for Zac Laybutt, Jake Clifford, Tom Dearden and Griffin Neame in addition to the first four completed Cowboys identities.",
     "Season statistics remain raw source facts; causal interpretation is not inferred from statistics alone.",
     "Missing official player-profile or statistical fields are recorded as PROFILE_DATA_UNAVAILABLE or FIELD_NOT_PUBLISHED, never guessed.",
     "Official late changes remain subject to T-24h, T-3h, T-60m and T-10m reconciliation."
