@@ -2,15 +2,16 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-10T21:48:00+10:00",
+  "captured_at":"2026-09-10T22:45:30+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_PLAYER_INTELLIGENCE_CHANGE",
+  "trigger":"MATERIAL_PLAYER_PROFILE_RECONCILIATION",
   "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
   "checkpoint_state":{"due_now":false,"last_captured":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T20:32:21+10:00","next":"FW1-SS-NKN-2026-09-11 T-3h at 2026-09-11T16:50:00+10:00","missed_not_captured":false},
   "observations":[
-    {"fixture":"Panthers v Roosters","player":"Mitch Kenny","classification":"SIGNAL","observation":"Reputable Finals Week 1 late-mail reporting states Kenny will return at hooker after a training setback delayed his comeback. Official NRL team list continues to name him at hooker.","decision_effect":"Readiness/workload uncertainty retained. No directional confidence adjustment without stronger evidence.","tip_effect":"NONE"},
-    {"fixture":"Panthers v Roosters","player":"Isaah Yeo","classification":"SIGNAL","observation":"Reputable Finals Week 1 late-mail reporting states Yeo is playing with a ruptured pectoral; official NRL preview continues to list him at lock and describes him as locked in.","decision_effect":"Material Panthers availability/workload uncertainty added; no hidden medical inference and no unsupported directional adjustment.","tip_effect":"NONE"},
-    {"fixture":"Panthers v Roosters","player":"Angus Crichton","classification":"VERIFIED","observation":"Official NRL casualty reporting confirms Crichton is back after 11 games out with a foot injury; official Finals Week 1 team list names him on the interchange.","decision_effect":"Roosters forward availability burden improves, while return workload remains uncertainty pending later checkpoints.","tip_effect":"NONE"}
+    {"fixture":"Sharks v Cowboys","player":"Coen Hess","classification":"VERIFIED","observation":"Official NRL profile reconciled: 210 career appearances, 36 tries; 24 appearances in 2026, 1 try, 572 tackles, 2,002 running metres, 83 average metres, 773 post-contact metres, 11 offloads, fantasy average 33.0.","decision_effect":"Experienced interchange-middle baseline enriched; no standalone confidence adjustment."},
+    {"fixture":"Sharks v Cowboys","player":"Kaiden Lahrs","classification":"VERIFIED","observation":"Official NRL profile reconciled: 9 career appearances; 2 NRL appearances in 2026, 146 running metres, 32 tackles, 4 tackle breaks.","decision_effect":"LOW_SAMPLE_VARIANCE; no directional confidence effect."},
+    {"fixture":"Sharks v Cowboys","player":"Ethan King","classification":"VERIFIED","observation":"Official NRL profile reconciled: 8 career appearances; 5 NRL appearances in 2026, 109 running metres, 36 tackles and 6 tackle breaks.","decision_effect":"LOW_SAMPLE_VARIANCE; utility-depth profile only."},
+    {"fixture":"Sharks v Cowboys","player":"Kai O'Donnell","classification":"VERIFIED","observation":"Official NRL profile reconciled: 29 career appearances, 1 try; 7 appearances in 2026, 166 tackles and 465 running metres.","decision_effect":"Reserve edge-depth baseline enriched; no standalone confidence adjustment."}
   ],
   "fixture_updates":[
     {"fixture":"Rabbitohs v Knights","market":{"prices":[1.39,2.95],"normalized":[67.97,32.03],"freshness":"LAST_VERIFIED_STATE_RETAINED"},"selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":1.03,"checkpoint":"T-24h CAPTURED"},
@@ -18,13 +19,13 @@
     {"fixture":"Sharks v Cowboys","market":{"prices":[1.42,2.85],"normalized":[66.74,33.26],"freshness":"LAST_VERIFIED_STATE_RETAINED"},"selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":-2.74},
     {"fixture":"Panthers v Roosters","market":{"prices":[1.32,3.35],"normalized":[71.73,28.27],"freshness":"LAST_VERIFIED_STATE_RETAINED"},"selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":1.27,"material_player_state":"KENNY_RETURN_SIGNAL; YEO_AVAILABILITY_SIGNAL; CRICHTON_RETURN_VERIFIED"}
   ],
-  "market_absorption_clock":{"capture":"2026-09-10T21:48:00+10:00","state":"NO_NEW_RELIABLE_TWO_SIDED_PRICE_ADMITTED_THIS_CYCLE","movement_without_known_cause":"SIGNAL_ONLY"},
-  "weather":{"Rabbitohs_Knights":"BOM Sydney Friday 11 September remains partly cloudy with low rain probability and light winds; NON_DIRECTIONAL.","other_fixtures":"Previous authoritative weather states retained pending formal checkpoints; no demonstrated directional team edge."},
-  "player_roster_statistical_coverage":{"status":"INCOMPLETE_ACTIVE_RECONCILIATION","roster_identities":"176/176 official Finals Week 1 named squad identities persisted","verified_season_dossiers":120,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":5,"reconciled_player_identities":126,"pending_profile_reconciliation":50,"team_completion":{"Rabbitohs":"22/22 RECONCILED","Knights":"22/22 RECONCILED","Warriors":"22/22 RECONCILED","Dolphins":"22/22 RECONCILED","Sharks":"22/22 RECONCILED","Cowboys":"16/22","Panthers":"0/22","Roosters":"0/22"}},
+  "market_absorption_clock":{"capture":"2026-09-10T22:45:30+10:00","state":"NO_NEW_RELIABLE_TWO_SIDED_PRICE_ADMITTED_THIS_CYCLE","movement_without_known_cause":"SIGNAL_ONLY"},
+  "weather":{"Rabbitohs_Knights":"BOM Sydney Friday 11 September: partly cloudy, slight early coastal-fringe shower chance, near-zero rain elsewhere, light winds; NON_DIRECTIONAL.","Sharks_Cowboys":"BOM Sydney Saturday 12 September: mostly sunny, 0 mm, low rain chance, northeasterly 15-20 km/h developing; NON_DIRECTIONAL.","other_fixtures":"Previous authoritative weather states retained pending formal checkpoints; no demonstrated directional team edge."},
+  "player_roster_statistical_coverage":{"status":"INCOMPLETE_ACTIVE_RECONCILIATION","roster_identities":"176/176 official Finals Week 1 named squad identities persisted","verified_season_dossiers":124,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":5,"reconciled_player_identities":130,"pending_profile_reconciliation":46,"team_completion":{"Rabbitohs":"22/22 RECONCILED","Knights":"22/22 RECONCILED","Warriors":"22/22 RECONCILED","Dolphins":"22/22 RECONCILED","Sharks":"22/22 RECONCILED","Cowboys":"20/22","Panthers":"0/22","Roosters":"0/22"}},
   "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","market_gate":"REVIEW_REQUIRED"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"}],
   "information_advantage":"NONE_ASSERTED",
   "incorrect_tip_halt":"CLEAR",
-  "canonical_reconciliation":{"status":"LATEST_MATERIAL_OVERLAY_ACTIVE","cycle_file":"data/cycle-2026-09-10-214800-aest.json","roster_file":"data/player-roster-finals-week1-2026.json","coverage_file":"data/finals-week1-player-ingestion-coverage-2026.json"},
+  "canonical_reconciliation":{"status":"LATEST_MATERIAL_OVERLAY_ACTIVE","cycle_file":"data/cycle-2026-09-10-224530-aest.json","roster_file":"data/player-roster-finals-week1-2026.json","coverage_file":"data/finals-week1-player-ingestion-coverage-2026.json","latest_stats_batch":"data/player-stats-finals-week1-batch-034-2026.json"},
   "public_verification":{"repository_state":"PENDING_READBACK","rendered_github_pages_recheck":"PENDING"},
   "audit_integrity":"PRESERVED"
 }
