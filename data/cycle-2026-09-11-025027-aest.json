@@ -14,6 +14,6 @@
   "information_advantage":"NONE_ASSERTED",
   "learning":"NO_WEIGHT_CHANGE",
   "incorrect_tip_halt":"CLEAR",
-  "persistence":{"batch_037":"WRITTEN","coverage":"WRITTEN","manifest":"WRITTEN","material_update":"WRITTEN","readback":"PENDING"},
+  "persistence":{"batch_037":"VERIFIED_READBACK","coverage":"VERIFIED_READBACK","manifest":"WRITTEN","material_update":"VERIFIED_READBACK","readback":"VERIFIED"},
   "audit_integrity":"PRESERVED"
 }
