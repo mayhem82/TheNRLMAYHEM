@@ -1,0 +1,72 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "026",
+  "captured_at": "2026-09-10T11:54:08+10:00",
+  "source_class": "NRL.com official Finals Week 1 team list and official NRL player profiles",
+  "rule": "Raw profile facts are preserved separately from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Per-round observations remain separate from season totals and statistics alone do not establish causation.",
+  "players": [
+    {
+      "player": "Blayke Brailey",
+      "team": "Sharks",
+      "finals_role": "Named starting hooker",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":183,"tries":21},
+      "season": {"appearances":19,"tries":3,"try_assists":15,"line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":13,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":11,"tackles_made":743,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":54,"total_running_metres":1031,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":14.8,"forced_drop_outs":4,"goals":"FIELD_NOT_PUBLISHED","fantasy_total":1013,"fantasy_average":53.3},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_1_TO_21",
+      "trend_note": "Verified captured rows show hooker deployment throughout, predominantly 80-minute workloads, with a 54-minute Round 13 and 63-minute Round 19 exception in the captured sample. Defensive workload is repeatedly high. This is descriptive role/workload evidence only.",
+      "team_effect": "Starting hooker distribution and defensive-workload baseline enriched; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/blayke-brailey/",
+      "captured_at": "2026-09-10T11:54:08+10:00"
+    },
+    {
+      "player": "Jesse Colquhoun",
+      "team": "Sharks",
+      "finals_role": "Named starting prop",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":50,"tries":4},
+      "season": {"appearances":21,"tries":3,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":"FIELD_NOT_PUBLISHED","line_break_assists":"FIELD_NOT_PUBLISHED","tackle_breaks":19,"offloads":8,"tackles_made":645,"missed_tackles":21,"average_running_metres":107,"total_running_metres":2265,"post_contact_metres":845.8,"average_hit_ups":12,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":903,"fantasy_average":43.0},
+      "per_round_state": "VERIFIED_AVAILABLE_ROUNDS_CAPTURED_THROUGH_27",
+      "trend_note": "Official per-round data shows role movement from lock early in the season through interchange and then prop from Round 15 onward in the captured late-season sample. Round 27 lists him as reserve with no minutes. Role trajectory is descriptive only and no causal explanation is inferred.",
+      "team_effect": "Named starting-prop baseline enriched, with verified middle-forward running and defensive workload; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/jesse-colquhoun/",
+      "captured_at": "2026-09-10T11:54:08+10:00"
+    },
+    {
+      "player": "Briton Nikora",
+      "team": "Sharks",
+      "finals_role": "Named starting second row",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":178,"tries":53},
+      "season": {"appearances":19,"tries":3,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":4,"line_break_assists":3,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":16,"tackles_made":576,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":72,"total_running_metres":1380,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":740,"fantasy_average":39.0},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_1_TO_23",
+      "trend_note": "Captured rows show second-row deployment as the dominant role, with short interchange usage in Rounds 5, 6 and 8 before returning to extended second-row minutes. This is role continuity/workload evidence only.",
+      "team_effect": "Starting edge-forward continuity baseline enriched; no standalone directional adjustment assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/briton-nikora/",
+      "captured_at": "2026-09-10T11:54:08+10:00"
+    },
+    {
+      "player": "Teig Wilton",
+      "team": "Sharks",
+      "finals_role": "Named starting second row",
+      "roster_state": "VERIFIED",
+      "observation_state": "NO_MATERIAL_CHANGE",
+      "profile_state": "VERIFIED",
+      "career": {"appearances":127,"tries":31},
+      "season": {"appearances":21,"tries":8,"try_assists":"FIELD_NOT_PUBLISHED","line_breaks":7,"line_break_assists":0,"tackle_breaks":"FIELD_NOT_PUBLISHED","offloads":12,"tackles_made":693,"missed_tackles":"FIELD_NOT_PUBLISHED","average_running_metres":94,"total_running_metres":1991,"post_contact_metres":"FIELD_NOT_PUBLISHED","average_hit_ups":"FIELD_NOT_PUBLISHED","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","goals":"FIELD_NOT_PUBLISHED","fantasy_total":931,"fantasy_average":44.3},
+      "per_round_state": "PARTIAL_VERIFIED_ROUNDS_3_TO_20",
+      "trend_note": "Captured rows show a Round 3 interchange appearance followed by sustained second-row deployment, overwhelmingly at or near 80 minutes in the available sample. Running and defensive workloads vary by round; no causal explanation is inferred.",
+      "team_effect": "Starting edge-forward workload and continuity baseline enriched; no standalone confidence uplift assigned.",
+      "source": "https://www.nrl.com/players/nrl-premiership/sharks/teig-wilton/",
+      "captured_at": "2026-09-10T11:54:08+10:00"
+    }
+  ],
+  "team_list_source": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/"
+}
