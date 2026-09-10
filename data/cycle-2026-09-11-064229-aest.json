@@ -1,0 +1,77 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-11T06:42:29+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycle_reconciliation": {
+    "status": "NO_KICKOFF_PASSED",
+    "fixtures": [
+      "FW1-SS-NKN-2026-09-11:UPCOMING",
+      "FW1-WAR-DOL-2026-09-12:UPCOMING",
+      "FW1-SHA-COW-2026-09-12:UPCOMING",
+      "FW1-PEN-SYD-2026-09-13:UPCOMING"
+    ],
+    "result_acquisition_required": false
+  },
+  "checkpoint_state": {
+    "due_now": false,
+    "last_captured": "FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T20:32:21+10:00",
+    "next": "FW1-SS-NKN-2026-09-11 T-3h at 2026-09-11T16:50:00+10:00",
+    "missed_not_captured": false
+  },
+  "fresh_checks": {
+    "official_team_lists": {
+      "source": "NRL.com NRL Late Mail: Finals Week 1, timestamp Thu 10 Sep 2026 07:51 PM; Rabbitohs-Knights 24-hour update retained",
+      "status": "NO_MATERIAL_CHANGE_ADMITTED",
+      "rabbitohs_knights": "No changes in Thursday 24-hour update; Talanoa Penitani and Kyle McCarthy remain reserves. Named spine/starting roles retained.",
+      "other_fixtures": "Named Finals Week 1 rosters retained; no fresh official change admitted this cycle."
+    },
+    "weather": {
+      "source": "Bureau of Meteorology Sydney area/local forecasts",
+      "rabbitohs_knights": "Friday 11 September: partly cloudy, 0 mm, about 10% rain chance around western/central Sydney, light winds; NON_DIRECTIONAL"
+    },
+    "market": {
+      "status": "NO_NEW_RELIABLE_TWO_SIDED_STATE_ADMITTED",
+      "retained": {
+        "Rabbitohs_Knights": {"normalized_selection_probability": 67.97, "selection": "Rabbitohs", "confidence": 69, "delta_pp": 1.03, "gate": "CLEAR"},
+        "Warriors_Dolphins": {"normalized_selection_probability": 61.25, "selection": "Warriors", "confidence": 63, "delta_pp": 1.75, "gate": "CLEAR"},
+        "Sharks_Cowboys": {"normalized_selection_probability": 66.04, "selection": "Sharks", "confidence": 64, "delta_pp": -2.04, "gate": "CLEAR"},
+        "Panthers_Roosters": {"normalized_selection_probability": 71.58, "selection": "Panthers", "confidence": 73, "delta_pp": 1.42, "gate": "CLEAR"}
+      },
+      "movement_without_known_cause": "SIGNAL_ONLY"
+    }
+  },
+  "player_roster_statistical_coverage": {
+    "status": "INCOMPLETE_ACTIVE_RECONCILIATION_UNCHANGED",
+    "roster_identities": 176,
+    "reconciled_identities": 148,
+    "verified_2026_statistical_dossiers": 142,
+    "verified_no_completed_sample": 1,
+    "profile_data_unavailable": 5,
+    "pending_profile_reconciliation": 28,
+    "team_completion": {
+      "Rabbitohs": "22/22",
+      "Knights": "22/22",
+      "Warriors": "22/22",
+      "Dolphins": "22/22",
+      "Sharks": "22/22",
+      "Cowboys": "22/22",
+      "Panthers": "16/22",
+      "Roosters": "0/22"
+    }
+  },
+  "decision_state": {
+    "Rabbitohs_Knights": "Rabbitohs 69% CURRENT_NOT_FROZEN",
+    "Warriors_Dolphins": "Warriors 63% CURRENT_NOT_FROZEN",
+    "Sharks_Cowboys": "Sharks 64% CURRENT_NOT_FROZEN",
+    "Panthers_Roosters": "Panthers 73% CURRENT_NOT_FROZEN",
+    "confidence_change_this_cycle": false,
+    "freeze_change_this_cycle": false
+  },
+  "information_advantage": "NONE_ASSERTED",
+  "incorrect_tip_halt": "CLEAR",
+  "learning": {"weight_change": false, "reason": "No audited post-match outcome event."},
+  "notification_trigger": "NONE",
+  "audit_integrity": "PRESERVED"
+}
