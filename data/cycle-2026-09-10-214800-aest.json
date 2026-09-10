@@ -1,0 +1,28 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-10T21:48:00+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
+  "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-3h at 2026-09-11T16:50:00+10:00","missed_not_captured":false},
+  "sources_checked":[
+    "https://www.nrl.com/news/2026/09/06/nrl-telstra-premiership-2026-finals-series-week-one/",
+    "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+    "https://www.nrl.com/news/2026/09/08/panthers-v-roosters-yeo-locked-in-big-guns-set-for-return/",
+    "https://www.bom.gov.au/places/nsw/ultimo/forecast/"
+  ],
+  "material_observations":[
+    {"fixture":"Panthers v Roosters","player":"Mitch Kenny","classification":"SIGNAL","observation":"Reputable Finals Week 1 late-mail reporting states Kenny will return at hooker after a training setback delayed his comeback. Official NRL team list continues to name him at hooker.","decision_effect":"Return remains expected but readiness/workload uncertainty is retained; no directional confidence adjustment without stronger evidence.","source_class":"REPUTABLE_MEDIA_PLUS_OFFICIAL_ROSTER_CORROBORATION"},
+    {"fixture":"Panthers v Roosters","player":"Isaah Yeo","classification":"SIGNAL","observation":"Reputable Finals Week 1 late-mail reporting states Yeo is playing with a ruptured pectoral; official NRL preview continues to list him at lock and describes him as locked in.","decision_effect":"Material availability/workload uncertainty added to Panthers macro profile; no hidden medical inference and no unsupported confidence uplift or reduction.","source_class":"REPUTABLE_MEDIA_PLUS_OFFICIAL_ROSTER_CORROBORATION"},
+    {"fixture":"Panthers v Roosters","player":"Angus Crichton","classification":"VERIFIED","observation":"Official NRL casualty reporting confirms Crichton is back after 11 games out with a foot injury and official Finals Week 1 team lists name him on the interchange.","decision_effect":"Roosters forward availability burden improves relative to prior injury state; role and workload at return remain uncertainty until later checkpoints.","source_class":"OFFICIAL_NRL"}
+  ],
+  "market_state":{"Rabbitohs_Knights":{"prices":[1.39,2.95],"normalized":[67.97,32.03],"state":"LAST_VERIFIED_STATE_RETAINED","mayhem_selection":"Rabbitohs","confidence":69,"gate":"CLEAR","delta_pp":1.03},"Warriors_Dolphins":{"prices":[1.59,2.34],"normalized":[59.54,40.46],"state":"LAST_VERIFIED_STATE_RETAINED","mayhem_selection":"Warriors","confidence":63,"gate":"REVIEW_REQUIRED","delta_pp":3.46},"Sharks_Cowboys":{"prices":[1.42,2.85],"normalized":[66.74,33.26],"state":"LAST_VERIFIED_STATE_RETAINED","mayhem_selection":"Sharks","confidence":64,"gate":"CLEAR","delta_pp":-2.74},"Panthers_Roosters":{"prices":[1.32,3.35],"normalized":[71.73,28.27],"state":"LAST_VERIFIED_STATE_RETAINED","mayhem_selection":"Panthers","confidence":73,"gate":"CLEAR","delta_pp":1.27}},
+  "weather":{"Rabbitohs_Knights":"BOM Sydney Friday remains partly cloudy with low rain probability and light winds; NON_DIRECTIONAL.","other_fixtures":"Previous authoritative weather states retained pending their formal checkpoints; no demonstrated directional team edge admitted."},
+  "player_roster_statistical_coverage":{"roster_identities":"176/176 persisted","reconciled_player_identities":126,"pending_profile_reconciliation":50,"Cowboys":"16/22","Panthers":"0/22","Roosters":"0/22","status":"INCOMPLETE_ACTIVE_RECONCILIATION"},
+  "decisions":{"Rabbitohs_Knights":"Rabbitohs 69 CURRENT_NOT_FROZEN","Warriors_Dolphins":"Warriors 63 CURRENT_NOT_FROZEN REVIEW_REQUIRED","Sharks_Cowboys":"Sharks 64 CURRENT_NOT_FROZEN","Panthers_Roosters":"Panthers 73 CURRENT_NOT_FROZEN"},
+  "information_advantage":"NONE_ASSERTED",
+  "learned_weight_change":"NONE",
+  "audit_integrity":"PRESERVED"
+}
