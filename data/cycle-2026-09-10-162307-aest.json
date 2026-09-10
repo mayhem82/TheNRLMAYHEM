@@ -1,0 +1,37 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-10T16:23:07+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_reconciliation":{"status":"ALL_RELEVANT_FIXTURES_UPCOMING","kickoff_passed":[],"result_verification_backlog":[],"stale_lifecycle_repaired":false},
+  "checkpoint":{"due":false,"next_fixture":"FW1-SS-NKN-2026-09-11","next_checkpoint":"T-24h","due_at":"2026-09-10T19:50:00+10:00","eta_from_capture":"PT3H26M53S","missed_not_captured":false},
+  "sources_checked":[
+    {"class":"OFFICIAL_NRL_PLAYER_PROFILE","url":"https://www.nrl.com/players/nrl-premiership/cowboys/zac-laybutt/","result":"VERIFIED"},
+    {"class":"OFFICIAL_NRL_PLAYER_PROFILE","url":"https://www.nrl.com/players/nrl-premiership/cowboys/jake-clifford/","result":"VERIFIED"},
+    {"class":"OFFICIAL_NRL_PLAYER_PROFILE","url":"https://www.nrl.com/players/nrl-premiership/cowboys/tom-dearden/","result":"VERIFIED"},
+    {"class":"OFFICIAL_NRL_PLAYER_PROFILE","url":"https://www.nrl.com/players/nrl-premiership/cowboys/griffin-neame/","result":"VERIFIED"},
+    {"class":"OFFICIAL_NRL_TEAM_LIST","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","result":"VERIFIED_CURRENT_NAMED_ROSTER_BASELINE"},
+    {"class":"REPUTABLE_LATE_MAIL","result":"CURRENT_PLAYER_AVAILABILITY_SIGNALS_REVIEWED"},
+    {"class":"BET365_VIA_CURRENT_ODDS_AGGREGATION","result":"FRESH_TWO_SIDED_H2H_STATES_CAPTURED"},
+    {"class":"BUREAU_OF_METEOROLOGY","url":"https://www.bom.gov.au/places/nsw/ultimo/forecast/","result":"SYDNEY_MATCH_WEATHER_REFRESHED"}
+  ],
+  "player_statistical_population":{"before":{"reconciled":114,"verified_dossiers":108,"pending":62,"Cowboys":"4/22"},"after":{"reconciled":118,"verified_dossiers":112,"verified_no_completed_sample":1,"profile_data_unavailable":5,"pending":58,"Cowboys":"8/22"},"batch":"data/player-stats-finals-week1-batch-031-2026.json","players":["Zac Laybutt","Jake Clifford","Tom Dearden","Griffin Neame"],"classification":"MATERIAL_PROFILE_PROGRESS"},
+  "player_effects":[
+    {"player":"Zac Laybutt","effect":"Verified named finals winger; recent centre-to-wing role transition and workload variation retained as role context only."},
+    {"player":"Jake Clifford","effect":"Verified continuous five-eighth role; recent kicking-burden variation retained without causal inference."},
+    {"player":"Tom Dearden","effect":"Verified named halfback and post-injury return state; role continuity enriched, no standalone directional uplift."},
+    {"player":"Griffin Neame","effect":"Verified named prop return; recent minutes/workload variation retained as uncertainty, no standalone directional uplift."}
+  ],
+  "fixture_cycles":[
+    {"fixture":"Rabbitohs v Knights","weather":"BOM: Friday partly cloudy; slight coastal-fringe early shower chance, near-zero elsewhere; light winds. NONE_DIRECTIONAL.","market":{"prices":[1.35,3.10],"normalized":[69.66,30.34]},"market_change":"Rabbitohs shortened from prior 1.39; cause unknown SIGNAL","evidence_family_independence":"MARKET_NOT_INDEPENDENT_FOOTBALL_CORROBORATION","counter_case":"Knights rested through Round 27 and have key senior returns in the named side.","falsification":"Material Rabbitohs spine/middle weakening or stronger-than-baseline restored Knights continuity at formal checkpoints.","selection":"Rabbitohs","confidence":69,"delta_pp":-0.66,"decision_state":"CURRENT_NOT_FROZEN","prediction_decomposition":"Structural season/recent scoring edge plus current roster continuity; market used as calibration gate, not supporting evidence.","information_advantage":"NONE"},
+    {"fixture":"Warriors v Dolphins","weather":"No superior authoritative Auckland venue-specific state established this cycle; prior weather-variance flag retained without directional effect.","market":{"prices":[1.54,2.35],"normalized":[60.41,39.59]},"market_change":"Warriors shortened from prior 1.59; cause unknown SIGNAL","evidence_family_independence":"MARKET_NOT_INDEPENDENT_FOOTBALL_CORROBORATION","counter_case":"Dolphins seven-match winning run, prior 2026 win over Warriors, restored senior roles.","falsification":"Late Warriors spine/middle weakening or materially stronger Dolphins restored-combination evidence.","selection":"Warriors","confidence":63,"delta_pp":2.59,"decision_state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR_AFTER_PRIOR_REVIEW_REQUIRED","prediction_decomposition":"Season differential, venue/home record and roster evidence separated from market calibration.","information_advantage":"NONE"},
+    {"fixture":"Sharks v Cowboys","weather":"BOM Sydney Saturday mostly sunny; light winds becoming northeasterly 15-20 km/h afternoon then easing. NONE_DIRECTIONAL.","market":{"prices":[1.42,2.85],"normalized":[66.74,33.26]},"market_change":"No material change","evidence_family_independence":"MARKET_NOT_INDEPENDENT_FOOTBALL_CORROBORATION","counter_case":"Cowboys have verified roster returns, Cotter available, and won the 2026 Round 8 matchup; player dossier population remains incomplete at 8/22.","falsification":"Late-list continuity shift toward Cowboys or Sharks role-critical availability deterioration.","selection":"Sharks","confidence":64,"delta_pp":-2.74,"decision_state":"CURRENT_NOT_FROZEN","prediction_decomposition":"Season differential and current roster state remain primary structural evidence; prior matchup retained as evidence-supported context only.","information_advantage":"NONE"},
+    {"fixture":"Panthers v Roosters","weather":"BOM Sydney Sunday sunny with northeasterly flow developing. NONE_DIRECTIONAL.","market":{"prices":[1.30,3.35],"normalized":[72.04,27.96]},"market_change":"Panthers shortened from prior 1.32; cause unknown SIGNAL","evidence_family_independence":"MARKET_NOT_INDEPENDENT_FOOTBALL_CORROBORATION","counter_case":"Roosters restore a large senior cohort and Angus Crichton; Panthers have current return/workload uncertainty around Mitch Kenny and a published injury-management context for Isaah Yeo.","falsification":"Material Penrith spine/middle weakening or stronger verified Roosters continuity at formal checkpoints.","selection":"Panthers","confidence":73,"delta_pp":0.96,"decision_state":"CURRENT_NOT_FROZEN","prediction_decomposition":"Season differential/minor-premiership baseline plus current roster continuity; market only calibrates confidence.","information_advantage":"NONE"}
+  ],
+  "public_site":{"player_manifest":"UPDATED_BATCH_031","players_coverage_render_defect":"REPAIRED","intelligence_material_render_defect":"REPAIRED","intelligence_availability_render_defect":"REPAIRED","snapshot_manifest":"REFRESHED_2026-09-10T16:23:07+10:00","rendered_pages_recheck":"PENDING_CACHE_PROPAGATION"},
+  "learning":{"weight_changes":[],"incorrect_tip_halt":"CLEAR","failure_audit_required":false,"frozen_state_rewrites":false},
+  "information_advantage_ledger":{"classification_change":false,"state":"NONE_ASSERTED"},
+  "audit_integrity":"PRESERVED",
+  "persistence_state":"WRITE_COMPLETED_READBACK_PENDING"
+}
