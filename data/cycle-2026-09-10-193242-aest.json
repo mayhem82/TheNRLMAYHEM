@@ -1,0 +1,18 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-10T19:32:42+10:00",
+  "timezone":"Australia/Sydney",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
+  "checkpoint_state":{"due_now":false,"next":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T19:50:00+10:00","missed_not_captured":false},
+  "sources_checked":["NRL.com Finals Week 1 official team lists","NRL.com Rabbitohs halves feature 2026-09-10","Bureau of Meteorology Sydney forecasts issued 2026-09-10","current public H2H market listings"],
+  "material_findings":[{"fixture":"Rabbitohs v Knights","classification":"VERIFIED","finding":"Official NRL reporting confirms Jayden Sullivan is the current No.7 alongside Cody Walker, with Jamie Humphreys used across multiple roles and having shared the halves late in Round 27.","decision_effect":"Role/combination evidence enriched; no standalone confidence change."},{"fixture":"Rabbitohs v Knights","classification":"SIGNAL","finding":"Current H2H state $1.39/$2.95 normalizes to 67.97% Rabbitohs / 32.03% Knights.","decision_effect":"MAYHEM Rabbitohs 69% remains inside market gate at +1.03pp."},{"fixture":"Warriors v Dolphins","classification":"SIGNAL","finding":"Current H2H state $1.59/$2.34 normalizes to 59.54% Warriors / 40.46% Dolphins.","decision_effect":"MAYHEM Warriors 63% remains REVIEW_REQUIRED at +3.46pp absent independent causal support."},{"fixture":"Sharks v Cowboys","classification":"SIGNAL","finding":"Current H2H state $1.42/$2.85 normalizes to 66.74% Sharks / 33.26% Cowboys.","decision_effect":"MAYHEM Sharks 64% remains inside market gate."},{"fixture":"Panthers v Roosters","classification":"SIGNAL","finding":"Current H2H state $1.32/$3.35 normalizes to 71.73% Panthers / 28.27% Roosters.","decision_effect":"MAYHEM Panthers 73% remains inside market gate at +1.27pp."}],
+  "weather":{"Rabbitohs_Knights":"BOM Sydney Friday 11 September: partly cloudy; slight coastal-fringe shower chance early, near zero elsewhere; light winds; NON_DIRECTIONAL.","Sharks_Cowboys":"BOM Sydney Saturday 12 September: mostly sunny; light winds becoming northeasterly 15-20 km/h during afternoon then easing; NON_DIRECTIONAL.","decision_effect":"NONE_DIRECTIONAL"},
+  "player_roster_statistical_coverage":{"reconciled_player_identities":126,"pending_profile_reconciliation":50,"status":"ACTIVE_RECONCILIATION"},
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":1.03},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","market_gate":"REVIEW_REQUIRED","confidence_vs_market_delta_pp":3.46},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":-2.74},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":1.27}],
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "learned_weight_change":"NONE",
+  "audit_integrity":"PRESERVED"
+}
