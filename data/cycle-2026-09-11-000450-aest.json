@@ -1,0 +1,20 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-11T00:04:50+10:00",
+  "lifecycle_reconciliation":{"status":"NO_KICKOFF_PASSED","fixtures":["FW1-SS-NKN-2026-09-11:UPCOMING","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
+  "checkpoint_state":{"due_now":false,"last_captured":"FW1-SS-NKN-2026-09-11 T-24h at 2026-09-10T20:32:21+10:00","next":"FW1-SS-NKN-2026-09-11 T-3h at 2026-09-11T16:50:00+10:00","missed_not_captured":false},
+  "fresh_sources_checked":["NRL official Finals Week 1 team lists","NRL official Sam McIntyre player profile","NRL official Liam Sutton player profile","Bureau of Meteorology current Friday forecasts"],
+  "material_change":{"type":"PLAYER_PROFILE_RECONCILIATION","fixture":"Sharks v Cowboys","detail":"Cowboys advanced from 20/22 to 22/22 reconciled named players; Sam McIntyre and Liam Sutton official 2026 dossiers persisted."},
+  "player_effects":[{"player":"Sam McIntyre","classification":"VERIFIED","effect":"Reserve middle-depth statistical baseline enriched; NO_MATERIAL_CHANGE; no confidence effect."},{"player":"Liam Sutton","classification":"VERIFIED","effect":"Reserve halves-depth baseline enriched; LOW_SAMPLE_VARIANCE from four 2026 NRL appearances; no directional confidence effect."}],
+  "team_macro_effects":{"Cowboys":"Roster-backed statistical layer now complete 22/22 for the current named Finals Week 1 squad; no confidence adjustment from population completion alone.","Sharks":"No material team-state change detected in this cycle."},
+  "matchup_effects":"No new evidence-supported structural matchup effect admitted.",
+  "market_state":"No new reliable two-sided price admitted; last verified states retained. Movement without known cause remains SIGNAL only.",
+  "weather":"Mandatory weather intelligence checked; no demonstrated directional team effect admitted.",
+  "current_decisions":[{"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"},{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","market_gate":"REVIEW_REQUIRED"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"}],
+  "information_advantage":"NONE_ASSERTED",
+  "learned_weight_change":"NONE",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED"
+}
