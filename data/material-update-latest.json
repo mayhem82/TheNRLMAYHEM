@@ -2,28 +2,25 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-11T22:30:06+10:00",
+  "captured_at":"2026-09-12T09:57:39+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"VERIFIED_RESULT_INCORRECT_TIP_FAILURE_AUDIT",
-  "lifecycle_reconciliation":{"status":"RABBITOHS_KNIGHTS_VERIFIED_RESULT","fixtures":["FW1-SS-NKN-2026-09-11:VERIFIED_RESULT","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
-  "checkpoint_state":{"due_now":false,"last_captured":"FW1-SS-NKN post-match verified 2026-09-11T22:30:06+10:00","next":"FW1-WAR-DOL-2026-09-12 T-3h at 2026-09-12T13:05:00+10:00","missed_not_captured":true},
+  "trigger":"MATERIAL_PLAYER_AVAILABILITY_CHANGE",
+  "lifecycle_reconciliation":{"status":"NO_STALE_LIFECYCLE_FOUND","fixtures":["FW1-SS-NKN-2026-09-11:VERIFIED_RESULT","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
+  "checkpoint_state":{"due_now":false,"next":"FW1-WAR-DOL-2026-09-12 T-3h at 2026-09-12T13:05:00+10:00","missed_not_captured_preserved":true},
   "observations":[
-    {"fixture":"Rabbitohs v Knights","team":"Result","classification":"VERIFIED_PRIMARY","observation":"Official NRL match state records full time: Rabbitohs 10, Knights 20. Independent reporting agrees Newcastle won 20-10.","decision_effect":"Lifecycle advanced to VERIFIED_RESULT and genuine Rabbitohs 69% selection graded INCORRECT.","tip_effect":"INCORRECT"},
-    {"fixture":"Rabbitohs v Knights","team":"Audit","classification":"PREDICTION_FAILURE_AUDIT_COMPLETED","observation":"The failure audit found no market-normalization or confidence-inflation defect: Rabbitohs 69% was 1.63pp below the captured normalized market probability of 70.63%. The material analytical defects were insufficient action on the already-recorded Newcastle counter-case, underweighting the combined unit-continuity effect of Young/Frizell/Crossland returns, incomplete role-critical statistical synthesis, and the missed T-10 final validation gate.","decision_effect":"Learning state released for the next unfrozen decision with mandatory restored-unit combination and counter-case action gates.","tip_effect":"HISTORICAL RABBITOHS 69% REMAINS IMMUTABLE AND INCORRECT"},
-    {"fixture":"Rabbitohs v Knights","team":"Player","classification":"VERIFIED_SECONDARY_POST_KICKOFF","observation":"Cody Walker left with a reported calf injury; Alex Johnston also left late with a reported groin issue. These are post-kickoff observations only and are excluded from retrospective pre-match causal reasoning.","decision_effect":"Update player/team post-match state only.","tip_effect":"NO RETROACTIVE CHANGE"},
-    {"fixture":"Rabbitohs v Knights","team":"Checkpoint","classification":"MISSED_NOT_CAPTURED","observation":"T-10 remains MISSED_NOT_CAPTURED and is not reconstructed.","decision_effect":"Reduces final-process assurance but does not suppress the genuine INCORRECT tip grade.","tip_effect":"NO GRADE QUALIFIER"}
+    {"fixture":"Sharks v Cowboys","team":"Cowboys","player":"Jeremiah Nanai","classification":"VERIFIED","observation":"Official NRL late mail states back-rower Jeremiah Nanai (knee) returns for the elimination final. The earlier named-but-fitness-unresolved SIGNAL is therefore resolved at this cycle point.","source":"NRL late mail Finals Week 1","source_url":"https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","decision_effect":"COWBOYS_EDGE_CONTINUITY_UP; carry into next formal Sharks-Cowboys gate without rewriting the existing T-24h state."},
+    {"fixture":"Sharks v Cowboys","team":"Cowboys","player":"Reuben Cotter","classification":"VERIFIED","observation":"Official NRL late mail confirms Cotter received a judiciary downgrade and is free to play; this was already persisted and produces no new decision-state change in this cycle.","decision_effect":"NO_NEW_CHANGE"},
+    {"fixture":"Warriors v Dolphins","classification":"NO_MATERIAL_CHANGE","observation":"Official NRL preview reports no changes in the Friday 24-hour update; existing named returns and availability state remain current.","decision_effect":"NO_CHANGE"}
   ],
   "fixture_updates":[
-    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"state":"COMPLETED_GENUINE_PREMATCH_SELECTION","lifecycle":"VERIFIED_RESULT","result":"Rabbitohs 10-20 Knights","grade":"INCORRECT","checkpoint":"POST_MATCH VERIFIED_RESULT","failure_audit":"COMPLETED"},
+    {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"lifecycle":"VERIFIED_RESULT","result":"Rabbitohs 10-20 Knights","grade":"INCORRECT","failure_audit":"COMPLETED"},
     {"fixture":"Warriors v Dolphins","normalized_market_probability":59.14,"selection":"Warriors","confidence":62,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":2.86,"checkpoint":"T-24h CAPTURED_LATE_BEFORE_KICKOFF"},
-    {"fixture":"Sharks v Cowboys","normalized_market_probability":65.72,"selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":-1.72,"checkpoint":"T-24h CAPTURED_LATE_BEFORE_KICKOFF"},
+    {"fixture":"Sharks v Cowboys","normalized_market_probability":65.72,"selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":-1.72,"checkpoint":"T-24h CAPTURED_LATE_BEFORE_KICKOFF","material_player_change":"JEREMIAH_NANAI_SIGNAL_RESOLVED_VERIFIED_RETURN"},
     {"fixture":"Panthers v Roosters","normalized_market_probability":70.46,"selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":2.54}
   ],
-  "weather":{"Rabbitohs_Knights":"Historical pre-match weather remained non-directional and did not explain the result.","Warriors_Dolphins":"T-24h retained: Auckland windy/partly cloudy, low rain chance; NON_DIRECTIONAL_WITH_WIND_VARIANCE.","Sharks_Cowboys":"T-24h captured: Sydney-area 0 mm, 10% rain chance, light/east-northeasterly winds; NON_DIRECTIONAL.","Panthers_Roosters":"Formal T-24h refresh due 16:05 AEST Saturday."},
-  "player_roster_statistical_coverage":{"status":"PERSISTENT_PLAYER_LAYER_COMPLETE","persistent_roster_identities":"176/176","verified_season_dossiers":168,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":7,"persistent_team_completion":{"Rabbitohs":"22/22","Knights":"22/22","Warriors":"22/22","Dolphins":"22/22","Sharks":"22/22","Cowboys":"22/22","Panthers":"22/22","Roosters":"22/22"},"per_round_counter_state":"LEGACY_COUNTER_NOT_RECONCILED_THIS_CYCLE"},
+  "player_roster_statistical_coverage":{"status":"PERSISTENT_PLAYER_LAYER_COMPLETE","persistent_roster_identities":"176/176","verified_season_dossiers":168,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":7},
   "information_advantage":"NONE",
-  "incorrect_tip_halt":"CLEARED_BY_COMPLETED_FAILURE_AUDIT; learning may resume only under persisted mandatory corrections",
-  "canonical_reconciliation":{"status":"VERIFIED_RESULT_PERSISTED","finals_week1_commit":"219a69f8a09a074ecd87f8864716ae6f61177b27","failure_audit_commit":"a9cb23838413523e3009ecad5906ebc009594deb","failure_audit_record":"data/failure-audit-fw1-ss-nkn-2026-09-11.json","t10_record":"data/checkpoint-fw1-ss-nkn-t10m-missed-2026-09-11-201952-aest.json"},
-  "public_verification":{"repository_state":"WRITE_COMPLETED_PENDING_PUBLIC_RENDER_READBACK","rendered_github_pages_recheck":"PENDING"},
+  "incorrect_tip_halt":"CLEARED_BY_COMPLETED_FAILURE_AUDIT",
+  "persistence":{"availability_intelligence_commit":"9fb9cfc6c712c97369088cefc88c871a416cff41","status":"WRITE_COMPLETED_PENDING_PUBLIC_RENDER_READBACK"},
   "audit_integrity":"PRESERVED"
 }
