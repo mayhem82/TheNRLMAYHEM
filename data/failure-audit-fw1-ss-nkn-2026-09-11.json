@@ -1,0 +1,70 @@
+{
+  "architecture":"PREDICTION_FAILURE_AUDIT",
+  "season":2026,
+  "fixture_id":"FW1-SS-NKN-2026-09-11",
+  "fixture":"Rabbitohs v Knights",
+  "stage":"FINALS_WEEK_1_ELIMINATION_FINAL",
+  "captured_at":"2026-09-11T22:30:06+10:00",
+  "frozen_tip":"Rabbitohs",
+  "frozen_confidence":0.69,
+  "freeze_integrity":"LATEST_GENUINE_PREMATCH_SELECTION_RETAINED; T-10 MISSED_NOT_CAPTURED; no retrospective rewrite",
+  "result":"Rabbitohs 10-20 Knights",
+  "grade":"INCORRECT",
+  "severity":"SELECTION_FAILURE_WITH_FINAL_FREEZE_ASSURANCE_GAP",
+  "core_finding":"The Rabbitohs selection failed. The recorded 69% was not inflated above the latest normalized market baseline; at T-60m MAYHEM was 1.63 percentage points below the 70.63% market probability. The principal pre-match analytical defect was therefore not market-normalization or confidence inflation. The failure lies in insufficiently translating a strong, already-recorded Newcastle counter-case into the directional decision: Newcastle entered rested after a Round 27 bye and had verified returns of Dominic Young, Tyson Frizell and Phoenix Crossland, while the season series had already shown Newcastle could beat South Sydney. Those factors were recorded but remained counterweights rather than causing a deeper reassessment of the Rabbitohs structural edge. The missed T-10 checkpoint also removed the final opportunity to retest roster, market and role-critical player evidence immediately before kickoff.",
+  "pre_match_evidence":{
+    "market":"Latest captured two-sided market state normalized to Rabbitohs 70.63% / Knights 29.37%; MAYHEM Rabbitohs 69%, delta -1.63pp. Market gate CLEAR.",
+    "structural_baseline":"Rabbitohs approximately +113 season point differential versus Knights approximately +42 before the Knights' Round 27 bye. South Sydney had won its final two regular-season matches 42-22 and 50-20, but the 50-20 Roosters result was explicitly down-weighted because Sydney rested a large senior cohort.",
+    "roster":"Rabbitohs had Tallis Duncan returning. Newcastle had verified returns of Dominic Young, Tyson Frizell and Phoenix Crossland, materially strengthening backline, middle and hooker continuity.",
+    "matchup":"2026 meetings were 42-38 Newcastle and 26-24 South Sydney; this established genuine matchup competitiveness rather than a one-sided structural history.",
+    "weather":"Dry/light-wind Sydney state with no demonstrated directional edge.",
+    "counter_case":"Newcastle's Round 27 rest plus the returns of Young, Frizell and Crossland created an evidence-supported upset mechanism around Ponga, Gagai, Best and Marzhew.",
+    "checkpoint_integrity":"T-24h, T-3h and T-60m were captured before kickoff. T-10 was MISSED_NOT_CAPTURED and remains immutable."
+  },
+  "tests":{
+    "confidence_inflation":"NOT_FOUND: MAYHEM confidence was below normalized market probability.",
+    "correlated_evidence_stacking":"NO_MATERIAL_DEFECT_IDENTIFIED in the recorded decision state.",
+    "structural_baseline_suppression":"PARTIAL: season differential was properly recorded, but the interaction between Newcastle's rest advantage and restored continuity was not strong enough in the final directional synthesis.",
+    "roster_role_underweighting":"FOUND: the combined return of Young, Frizell and Crossland was recorded but not translated into sufficient reduction of the Rabbitohs edge.",
+    "player_statistical_underweighting":"FOUND: role-critical player dossiers existed, but the decision record did not demonstrate a full cross-team comparison that converted Newcastle's restored hooker/middle/backline production into a quantified directional adjustment.",
+    "market_normalization_error":"NOT_FOUND.",
+    "narrative_dominance":"PARTIAL: South Sydney's stronger season differential and recent scoring retained dominance after the recent Roosters result had already been structurally down-weighted.",
+    "variance_misclassification":"NO SPECIFIC DEBUTANT OR LOW-SAMPLE DEFECT IDENTIFIED.",
+    "missing_counter_case":"NOT_MISSING, BUT INSUFFICIENTLY_ACTIONED: the counter-case was explicit yet did not materially reduce the selection confidence.",
+    "source_weight_defect":"NO SPECIFIC SOURCE-RELIABILITY FAILURE IDENTIFIED."
+  },
+  "post_match_validation":{
+    "official_result":"NRL.com records full time Rabbitohs 10, Knights 20.",
+    "independent_result":"Independent reporting also records Newcastle 20-10.",
+    "verified_events":[
+      "Jermaine McEwen scored twice for Newcastle.",
+      "Dane Gagai scored after a Sandon Smith kick.",
+      "Dominic Young scored late to put the result beyond doubt.",
+      "Cody Walker left with a reported calf injury.",
+      "Alex Johnston also left late with a reported groin issue."
+    ],
+    "causal_separation":"Walker and Johnston's in-match injuries are post-kickoff events and cannot be used to justify a retrospective pre-match downgrade. The pre-match failure finding is limited to evidence that existed before kickoff: Newcastle rest, restored personnel, matchup competitiveness and the incomplete final role/statistical reassessment."
+  },
+  "confidence_error":{
+    "recorded_rabbitohs_probability":0.69,
+    "normalized_market_rabbitohs_probability":0.7063,
+    "delta_pp":-1.63,
+    "finding":"No excess-confidence breach occurred relative to the captured market. The error was selection synthesis rather than unsupported market uplift."
+  },
+  "failure_mechanisms":[
+    {"code":"COUNTER_CASE_INSUFFICIENTLY_ACTIONED","finding":"The verified Newcastle counter-case existed before kickoff but did not cause a sufficiently deep reassessment of the preferred Rabbitohs selection."},
+    {"code":"RESTORED_UNIT_CONTINUITY_UNDERWEIGHT","finding":"Young, Frizell and Crossland returned across three role-important units. The combined continuity restoration was treated as separate observations rather than as a coherent Newcastle structural mechanism."},
+    {"code":"ROLE_CRITICAL_STAT_SYNTHESIS_INCOMPLETE","finding":"Player statistical dossiers were present, but the final decision record did not show a complete role-critical comparison translating restored Newcastle personnel into a directional team adjustment."},
+    {"code":"FINAL_FREEZE_CHECKPOINT_MISSED","finding":"T-10 was MISSED_NOT_CAPTURED. This does not alter the INCORRECT public grade, but it removed the mandatory final validation opportunity."}
+  ],
+  "mandatory_corrections":[
+    "RESTORED_UNIT_COMBINATION_GATE: when multiple verified returns strengthen different role-critical units, assess their combined structural effect rather than treating each as an isolated note.",
+    "COUNTER_CASE_ACTION_RULE: if the opposing case is supported by rest, roster restoration and relevant matchup evidence simultaneously, explicitly test whether the preferred confidence should be reduced even when the market gate is clear.",
+    "ROLE_CRITICAL_STAT_SYNTHESIS: before freeze, compare current-season and recent-round production for restored spine, middle and strike players against the preferred side's corresponding roles and record the directional implication or uncertainty.",
+    "T10_INTEGRITY: retain MISSED_NOT_CAPTURED permanently; no reconstruction. Future T-10 capture remains mandatory before a full validation claim.",
+    "PUBLIC_GRADE_SEPARATION: Rabbitohs 69% remains the historical genuine selection and is publicly graded INCORRECT without calibration qualifiers."
+  ],
+  "learning_state":"ACTIVE_FROM_NEXT_UNFROZEN_DECISION",
+  "information_advantage":"NONE: correct/incorrect outcome alone does not establish an information advantage.",
+  "integrity":"No retrospective tip switch, no probability rewrite, no use of post-kickoff injuries as pre-match evidence."
+}
