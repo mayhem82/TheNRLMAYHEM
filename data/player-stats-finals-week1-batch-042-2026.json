@@ -1,0 +1,37 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "042",
+  "captured_at": "2026-09-11T10:20:26+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Derived trends use genuine per-round rows and do not establish causation.",
+  "players": [
+    {
+      "player":"James Tedesco","team":"Roosters","finals_role":"Named starter — Fullback","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":290,"tries":155},
+      "season":{"appearances":14,"tries":6,"try_assists":10,"line_breaks":12,"line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":72,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":41,"missed_tackles":11,"average_running_metres":209,"total_running_metres":2934,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":3,"fantasy_total":721,"fantasy_average":51.5},
+      "trend_rounds_used":[13,14,16,17],"trend_note":"Official per-round rows show 80 minutes at fullback in each of Rounds 13, 14, 16 and 17; running metres 115, 170, 171 and 164 respectively. Role continuity is verified. Statistics alone do not establish causation.","team_effect":"Role-critical fullback baseline enriched; no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco"
+    },
+    {
+      "player":"Daniel Tupou","team":"Roosters","finals_role":"Named starter — Winger","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":303,"tries":196},
+      "season":{"appearances":14,"tries":13,"try_assists":2,"line_breaks":10,"line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":29,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":22,"missed_tackles":9,"average_running_metres":154,"total_running_metres":2160,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":445,"fantasy_average":31.8},
+      "trend_rounds_used":[19,20,21,27],"trend_note":"Official rows show winger minutes of 74, 80, 49 and 60 across Rounds 19, 20, 21 and 27, with running metres 204, 173, 81 and 107 and tries 3, 1, 0 and 1. Workload variation is retained without causal inference.","team_effect":"Experienced starting-wing baseline enriched; no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/daniel-tupou/"
+    },
+    {
+      "player":"Reece Robson","team":"Roosters","finals_role":"Named starter — Hooker","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":159,"tries":28},
+      "season":{"appearances":19,"tries":3,"try_assists":4,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":3,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":6,"tackles_made":795,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":56,"total_running_metres":1082,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":3,"forced_drop_outs":2,"fantasy_total":910,"fantasy_average":47.9},
+      "trend_rounds_used":[23,24,25,26],"trend_note":"Official rows show 80 minutes at hooker in Rounds 23-26. Tackles made were 36, 55, 46 and 60; running metres 67, 41, 76 and 70. Defensive workload and role continuity are verified; no causal explanation is inferred.","team_effect":"Role-critical hooker workload baseline enriched; no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/reece-robson/"
+    },
+    {
+      "player":"Lindsay Collins","team":"Roosters","finals_role":"Named starter — Prop","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":146,"tries":11},
+      "season":{"appearances":17,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":14,"offloads":1,"tackles_made":391,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":76,"total_running_metres":1301,"post_contact_metres":543.4,"average_hit_ups":6.7,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":495,"fantasy_average":29.1},
+      "trend_rounds_used":[1,2,3,4],"trend_note":"Official rows show prop minutes of 61, 63, 44 and 46 across Rounds 1-4 with running metres 49, 149, 68 and 112. This is a historical workload sample only; no causal inference is made.","team_effect":"Starting-prop statistical baseline enriched; no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/lindsay-collins/"
+    }
+  ],
+  "sources":["https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco","https://www.nrl.com/players/nrl-premiership/roosters/daniel-tupou/","https://www.nrl.com/players/nrl-premiership/roosters/reece-robson/","https://www.nrl.com/players/nrl-premiership/roosters/lindsay-collins/"],
+  "decision_effect":"Roosters reconciliation advances 0/22 to 4/22. Role-critical fullback and hooker data materially improve player-layer completeness but do not justify a Panthers/Roosters confidence change by themselves."
+}
