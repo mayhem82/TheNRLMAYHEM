@@ -1,0 +1,24 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "fixture_id":"FW1-SS-NKN-2026-09-11",
+  "fixture":"Rabbitohs v Knights",
+  "checkpoint":"T-10m",
+  "scheduled_sydney":"2026-09-11T19:40:00+10:00",
+  "kickoff_sydney":"2026-09-11T19:50:00+10:00",
+  "reconciled_at":"2026-09-11T20:19:52+10:00",
+  "status":"MISSED_NOT_CAPTURED",
+  "lifecycle":"MATCH_WINDOW",
+  "rule":"No retrospective checkpoint reconstruction. T-10 evidence and decision freeze must be contemporaneous pre-kickoff.",
+  "pre_match_selection":{"team":"Rabbitohs","confidence":69,"latest_genuine_pre_match_capture":"2026-09-11T19:01:04+10:00","source_record":"data/checkpoint-fw1-ss-nkn-t60m-2026-09-11-190104-aest.json"},
+  "freeze_state":"NO_VALID_T10_FREEZE",
+  "grading_rule":"The genuine pre-match Rabbitohs 69% selection remains eligible for CORRECT/INCORRECT grading after a verified result. Missing T-10 cannot suppress grading.",
+  "result_state":"MATCH_IN_PROGRESS_OR_RESULT_NOT_YET_DUE_FOR_MANDATORY_ACQUISITION",
+  "sources_checked":[
+    {"source":"NRL official match preview/team state","url":"https://www.nrl.com/news/2026/09/08/rabbitohs-v-knights-tallis-gets-green-light-manuleleuas-miracle/","finding":"Official fixture kickoff 19:50 AEST; pre-match team context retained."},
+    {"source":"NRL official live streams page","url":"https://www.nrl.com/watch/live/","finding":"Rabbitohs v Knights listed as live broadcast."},
+    {"source":"Daily Telegraph live coverage","url":"https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-week-one-rabbitohs-v-knights-live-scores-team-news/live-coverage/c999fbcc998e92f7557551d3ebd7043d","finding":"Live coverage exists; no verified final result available at reconciliation time."}
+  ],
+  "audit_integrity":"PRESERVED"
+}
