@@ -1,0 +1,37 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "fixture_id":"FW1-WAR-DOL-2026-09-12",
+  "fixture":"Warriors v Dolphins",
+  "checkpoint":"T-24h",
+  "scheduled_at":"2026-09-11T16:05:00+10:00",
+  "captured_at":"2026-09-11T16:41:02+10:00",
+  "capture_status":"CAPTURED_LATE_BEFORE_KICKOFF",
+  "lifecycle":"UPCOMING",
+  "sources_checked":[
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","classification":"VERIFIED"},
+    {"source":"NRL Finals Week 1 late mail","url":"https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","classification":"VERIFIED"},
+    {"source":"NRL Warriors v Dolphins preview","url":"https://www.nrl.com/news/2026/09/08/warriors-v-dolphins-ford-set-to-motor-big-three-return/","classification":"VERIFIED"},
+    {"source":"Sportsbet NRL current board","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","classification":"CURRENT_TWO_SIDED_MARKET"},
+    {"source":"WeatherWatch Auckland forecast","url":"https://www.weatherwatch.co.nz/forecasts/Takapuna%2C%20Auckland","classification":"WEATHER_FORECAST"}
+  ],
+  "weather":{"forecast":"Auckland Saturday: around 15C daytime, windy and partly cloudy, south-westerly about 35 km/h, around 10% rain chance with trace rainfall in the Takapuna/Auckland forecast.","classification":"VERIFIED_FORECAST_NON_DIRECTIONAL_BUT_WIND_VARIANCE","decision_effect":"No demonstrated team-specific edge. Wind retained as match-variance input, especially for kicking/high-ball execution, without directional weighting."},
+  "player_effects":[
+    "Warriors: Jackson Ford named on bench for first game since Round 16; Leka Halasima returns; Wayde Egan and Kurt Capewell return after Round 27 rest.",
+    "Dolphins: Selwyn Cobbo, Kodi Nikorima and Kulikefu Finefeuiaki are officially restored; current official reporting describes Dolphins as full strength for their first finals match.",
+    "No new official 24-hour squad reduction for this fixture was visible in the checked NRL late-mail source at capture time; current verified named-squad baseline is retained rather than inferred."
+  ],
+  "player_statistical_trend_effects":"Persistent player layer remains complete for both clubs. No new per-round trend claim is added at this checkpoint without newly exposed official row data.",
+  "team_macro":{"Warriors":"Approx +310 season point differential, six straight wins, eight wins from 10 at Go Media Stadium, home final, key personnel restored.","Dolphins":"Approx +156 season point differential, seven straight wins, current reporting says full strength, beat Warriors 26-24 in Round 17; genuine upset mechanism retained."},
+  "matchup_effect":"The 2026 head-to-head and both teams' strong recent form keep this materially closer than the season differential alone suggests.",
+  "market":{"home_price":1.61,"away_price":2.33,"normalized_home_probability":59.14,"normalized_away_probability":40.86,"mayhem_selection":"Warriors","mayhem_confidence":62,"confidence_vs_market_delta_pp":2.86,"market_gate":"CLEAR","movement_classification":"MATERIAL_SIGNAL_TOWARD_DOLPHINS_RETAINED","causal_inference":"NONE"},
+  "evidence_family_independence":"Market movement is not counted as independent corroboration. Season differential, venue/results, official availability and prior head-to-head remain separated evidence families.",
+  "adversarial_counter_case":"Dolphins have seven straight wins, a prior 2026 win over the Warriors, restored Cobbo/Nikorima/Finefeuiaki and a current market that prices them more strongly than the earlier cycle.",
+  "falsification":"Reduce the Warriors edge if formal late lists weaken Warriors middle/spine continuity, if Dolphins restored combinations remain intact through later checkpoints while Warriors continuity deteriorates, or if market continues moving against Warriors without independent evidence supporting a 62% position.",
+  "information_advantage":"NONE_ASSERTED",
+  "prediction_decomposition":["Warriors structural season edge","Go Media Stadium home record","Warriors restored personnel","Dolphins seven-match winning streak","Dolphins Round 17 head-to-head win","Dolphins restored full-strength personnel","market signal toward Dolphins","wind retained as variance rather than directional evidence"],
+  "decision":{"tip":"Warriors","confidence":62,"state":"CURRENT_NOT_FROZEN","change_from_prior":"NONE"},
+  "next_checkpoint":{"fixture_id":"FW1-SS-NKN-2026-09-11","checkpoint":"T-3h","due_sydney":"2026-09-11T16:50:00+10:00"},
+  "audit_integrity":"PRESERVED"
+}
