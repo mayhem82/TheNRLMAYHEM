@@ -1,0 +1,43 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "044",
+  "captured_at": "2026-09-11T11:48:46+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Per-round trends are not fabricated when retrieved official profile snapshots expose the table schema but not row values.",
+  "players": [
+    {
+      "player":"Daly Cherry-Evans","team":"Roosters","finals_role":"Named starter — Halfback","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":375,"tries":104},
+      "season":{"appearances":23,"tries":6,"try_assists":11,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":11,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":16,"tackles_made":512,"missed_tackles":47,"average_running_metres":51,"total_running_metres":1179,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":366.1,"forced_drop_outs":9,"fantasy_total":1075,"fantasy_average":46.7},
+      "trend_rounds_used":[],"trend_note":"Official NRL profile exposes a 2026 by-round table schema, but the retrieved source snapshot did not expose row values. PER_ROUND_RECONCILIATION_PENDING; no trend inferred.","team_effect":"Role-critical halfback dossier enriched. High 2026 kicking burden and 11 try assists are verified raw facts; no standalone Panthers/Roosters confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/daly-cherry-evans/"
+    },
+    {
+      "player":"Naufahu Whyte","team":"Roosters","finals_role":"Named starter — Prop","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":80,"tries":4},
+      "season":{"appearances":23,"tries":0,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":68,"offloads":26,"tackles_made":545,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":174,"total_running_metres":4003,"post_contact_metres":1865.7,"average_hit_ups":14.6,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":1090,"fantasy_average":47.4},
+      "trend_rounds_used":[],"trend_note":"Official NRL profile exposes a 2026 by-round table schema, but the retrieved source snapshot did not expose row values. PER_ROUND_RECONCILIATION_PENDING; no trend inferred.","team_effect":"Starting-prop workload baseline enriched. Verified 174 average running metres and 14.6 average hit-ups materially improve role-level context but do not independently move confidence.","source":"https://www.nrl.com/players/nrl-premiership/roosters/naufahu-whyte/"
+    },
+    {
+      "player":"Siua Wong","team":"Roosters","finals_role":"Named starter — Second Row","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":63,"tries":10},
+      "season":{"appearances":23,"tries":4,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":1,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":23,"tackles_made":875,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":113,"total_running_metres":2618,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":1194,"fantasy_average":51.9},
+      "trend_rounds_used":[],"trend_note":"Official NRL profile exposes a 2026 by-round table schema, but the retrieved source snapshot did not expose row values. PER_ROUND_RECONCILIATION_PENDING; no trend inferred.","team_effect":"Starting-edge defensive/workload baseline enriched; 875 tackles is verified season volume. No causal explanation or standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/siua-wong/"
+    },
+    {
+      "player":"Victor Radley","team":"Roosters","finals_role":"Named starter — Lock","roster_state":"VERIFIED","observation_state":"VERIFIED_RETURN","profile_state":"VERIFIED",
+      "career":{"appearances":177,"tries":27},
+      "season":{"appearances":16,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":14,"offloads":2,"tackles_made":497,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":87,"total_running_metres":1395,"post_contact_metres":484.8,"average_hit_ups":8.2,"average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":558,"fantasy_average":34.9},
+      "trend_rounds_used":[],"trend_note":"Official NRL profile exposes a 2026 by-round table schema, but the retrieved source snapshot did not expose row values. PER_ROUND_RECONCILIATION_PENDING; no statistical trajectory inferred.","team_effect":"Role-critical lock dossier enriched. Official Finals reporting also identifies Radley as returning from concussion; no hidden medical inference and no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/victor-radley/"
+    }
+  ],
+  "sources":[
+    "https://www.nrl.com/news/2026/09/08/panthers-v-roosters-yeo-locked-in-big-guns-set-for-return/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/daly-cherry-evans/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/naufahu-whyte/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/siua-wong/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/victor-radley/"
+  ],
+  "decision_effect":"Roosters profile reconciliation advances from 8/22 to 12/22. Four role-critical starter dossiers are now verified. DCE kicking/creation volume, Whyte middle workload, Wong defensive volume and Radley lock workload improve player-layer completeness, but this batch alone does not justify changing Panthers 73%."
+}
