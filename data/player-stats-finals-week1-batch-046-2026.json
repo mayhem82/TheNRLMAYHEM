@@ -1,0 +1,75 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "046",
+  "captured_at": "2026-09-11T13:10:44+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Per-round trends use only genuine official rows exposed in the source capture; no causal explanation is inferred from statistics alone.",
+  "players": [
+    {
+      "player":"Salesi Foketi","team":"Roosters","finals_role":"Named starter — Second Row","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":41,"tries":4},
+      "season":{"appearances":22,"tries":3,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":3,"line_break_assists":2,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":8,"tackles_made":405,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":62,"total_running_metres":1365,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":641,"fantasy_average":29.1},
+      "trend_rounds_used":[1],
+      "trend_note":"The official profile exposed a Round 1 row at interchange for 13 minutes with 10 tackles. This single row is insufficient for a recent-form trajectory; no directional inference is made.",
+      "team_effect":"Starting edge dossier completed; verified season workload improves role-level completeness without independently changing Panthers/Roosters confidence.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/salesi-foketi/"
+    },
+    {
+      "player":"Cody Ramsey","team":"Roosters","finals_role":"Named extended interchange — Fullback","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":48,"tries":16},
+      "season":{"appearances":12,"tries":2,"goals":2,"try_assists":7,"line_breaks":10,"line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":37,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":49,"missed_tackles":13,"average_running_metres":158,"total_running_metres":1904,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":1.92,"forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":404,"fantasy_average":33.7},
+      "trend_rounds_used":[],
+      "trend_note":"The current official profile capture exposed the by-round schema without sufficient current row detail for a reliable recent-form sequence. PER_ROUND_RECONCILIATION_PENDING; no trend inferred.",
+      "team_effect":"Extended-squad outside-back/fullback depth dossier completed; no standalone confidence change.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/cody-ramsey/"
+    },
+    {
+      "player":"Tommy Talau","team":"Roosters","finals_role":"Named extended interchange — Centre","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":88,"tries":42},
+      "season":{"appearances":5,"tries":1,"try_assists":1,"line_breaks":3,"line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":15,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":39,"missed_tackles":3,"average_running_metres":133,"total_running_metres":665,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":153,"fantasy_average":30.6},
+      "trend_rounds_used":[15,16,22,26,27],
+      "trend_note":"Official rows show 80-minute wing appearances in Rounds 15, 16 and 22, 27 minutes from interchange in Round 26, and 80 minutes at centre in Round 27. Running metres were 96, 128, 234, 135 and 71 respectively. This verifies recent role variation and workload only; no causal effect is assumed.",
+      "team_effect":"Extended-squad backline depth and multi-role evidence completed; no standalone confidence change.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/tommy-talau/"
+    },
+    {
+      "player":"Egan Butcher","team":"Roosters","finals_role":"Named reserve — Lock","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":89,"tries":9},
+      "season":{"appearances":16,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":13,"offloads":3,"tackles_made":283,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":57,"total_running_metres":916,"post_contact_metres":332.6,"average_hit_ups":5,"average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":357,"fantasy_average":22.3},
+      "trend_rounds_used":[],
+      "trend_note":"The official profile exposed the by-round table schema without usable row values in this capture. PER_ROUND_RECONCILIATION_PENDING; no trend inferred.",
+      "team_effect":"Reserve forward dossier completed; no standalone confidence change.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/egan-butcher/"
+    },
+    {
+      "player":"Benaiah Ioelu","team":"Roosters","finals_role":"Named reserve — Hooker","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":17,"tries":0},
+      "season":{"appearances":5,"tries":0,"try_assists":1,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":0,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":0,"tackles_made":151,"missed_tackles":11,"average_running_metres":27,"total_running_metres":135,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":43.4,"forced_drop_outs":0,"fantasy_total":170,"fantasy_average":34.0},
+      "trend_rounds_used":[1,2,15,19,27],
+      "trend_note":"Official rows show hooker/interchange usage across Rounds 1, 2, 15, 19 and 27 with minutes 49, 24, 45, 48 and 80. Tackles made were 38, 12, 37, 19 and 45. This verifies variable hooker workload and a full 80-minute Round 27 role; no causal explanation is inferred.",
+      "team_effect":"Reserve hooker dossier completed; role-continuity depth is now explicit but does not independently move confidence.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/benaiah-ioelu/"
+    },
+    {
+      "player":"Taylor Losalu","team":"Roosters","finals_role":"Named reserve — Prop","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":8,"tries":0},
+      "season":{"appearances":2,"tries":0,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":2,"offloads":1,"tackles_made":39,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":78,"total_running_metres":157,"post_contact_metres":70.4,"average_hit_ups":7,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":59,"fantasy_average":"FIELD_NOT_PUBLISHED_IN_SUMMARY"},
+      "trend_rounds_used":[],
+      "trend_note":"The NRL profile confirms a two-game 2026 NRL sample. This is treated as LOW_SAMPLE uncertainty rather than directional evidence; no recent-form trajectory is asserted.",
+      "team_effect":"Reserve middle dossier completed; low NRL sample is retained as uncertainty, not a positive or negative edge.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/taylor-losalu/"
+    }
+  ],
+  "sources":[
+    "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/salesi-foketi/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/cody-ramsey/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/tommy-talau/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/egan-butcher/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/benaiah-ioelu/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/taylor-losalu/"
+  ],
+  "decision_effect":"Roosters profile reconciliation completes from 16/22 to 22/22. All 176 Finals Week 1 named squad identities are now reconciled. Six final dossiers improve depth, edge and reserve-role visibility; no new evidence from this batch alone justifies changing Panthers 73%."
+}
