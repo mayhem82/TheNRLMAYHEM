@@ -2,7 +2,7 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_1",
-  "captured_at": "2026-09-09T02:51:57+10:00",
+  "captured_at": "2026-09-12T09:57:39+10:00",
   "timezone": "Australia/Sydney",
   "source_class": "OFFICIAL_NRL_PLUS_REPUTABLE_SECONDARY_SIGNAL",
   "official_team_list_url": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
@@ -47,9 +47,9 @@
         {"player":"Reuben Cotter","state":"VERIFIED_NAMED_AVAILABLE_JUDICIARY_RESOLVED","decision_effect":"COWBOYS_MIDDLE_CONTINUITY_UP"},
         {"player":"Griffin Neame","state":"VERIFIED_NAMED_RETURN","decision_effect":"COWBOYS_MIDDLE_CONTINUITY_UP"},
         {"player":"Zac Laybutt","state":"VERIFIED_NAMED_RETURN","decision_effect":"COWBOYS_BACKLINE_CONTINUITY_UP"},
-        {"player":"Jeremiah Nanai","state":"VERIFIED_NAMED_FITNESS_UNRESOLVED_SIGNAL","classification":"SIGNAL","decision_effect":"COWBOYS_EDGE_CONTINUITY_CONDITIONAL","source_observation":"Official NRL Finals Week 1 team list names Nanai to return. Fresh Daily Telegraph reporting on 9 September says North Queensland is awaiting a Wednesday final fitness test on his knee. Named roster presence is verified; match availability remains unresolved pending the fitness test.","source_url":"https://www.dailytelegraph.com.au/sport/nrl/supercoach-news/nrl-teams-for-finals-week-1-angus-crichton-among-slew-of-big-guns-back-for-finals/news-story/1d2042ecb0167cc15e47528bbedab0ca"}
+        {"player":"Jeremiah Nanai","state":"VERIFIED_NAMED_RETURN","classification":"VERIFIED","decision_effect":"COWBOYS_EDGE_CONTINUITY_UP","source_observation":"Official NRL late mail now states Jeremiah Nanai (knee) returns for the elimination final. This resolves the earlier unresolved fitness-test signal without inferring anything beyond the published availability update.","source_url":"https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","resolved_from":"VERIFIED_NAMED_FITNESS_UNRESOLVED_SIGNAL","resolved_at":"2026-09-12T09:57:39+10:00"}
       ],
-      "material_notes": ["NEW: Jeremiah Nanai is officially named but fresh reputable reporting says a Wednesday final fitness test remains. This is a genuine availability SIGNAL and strengthens the Cowboys counter-case only conditionally until resolved."]
+      "material_notes": ["RESOLVED: Jeremiah Nanai's prior fitness uncertainty is no longer carried as SIGNAL. Official NRL late mail states he returns; Cowboys edge continuity is therefore treated as verified available at this cycle point."]
     },
     "FW1-PEN-SYD-2026-09-13": {
       "Panthers": [
