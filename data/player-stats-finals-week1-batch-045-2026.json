@@ -1,0 +1,55 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "045",
+  "captured_at": "2026-09-11T11:50:04+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Derived trends use only genuine exposed per-round rows; no causal explanation is inferred from statistics alone.",
+  "players": [
+    {
+      "player":"Connor Watson","team":"Roosters","finals_role":"Named interchange","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":190,"tries":34},
+      "season":{"appearances":23,"tries":1,"try_assists":2,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":4,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":8,"tackles_made":610,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":66,"total_running_metres":1536,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":4.2,"forced_drop_outs":0,"fantasy_total":806,"fantasy_average":35.0},
+      "trend_rounds_used":[19,20,27],
+      "trend_note":"Official exposed rows show Round 19 at hooker for 54 minutes, Round 20 from interchange for 44 minutes, and Round 27 at lock for 80 minutes. Tackles made were 26, 33 and 37; running metres 82, 72 and 55. This verifies multi-role usage and variable workload only; no causal effect is assumed.",
+      "team_effect":"Interchange utility dossier enriched; role flexibility is verified but does not independently change Panthers/Roosters confidence.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/connor-watson/"
+    },
+    {
+      "player":"Spencer Leniu","team":"Roosters","finals_role":"Named interchange — Prop","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":140,"tries":10},
+      "season":{"appearances":20,"tries":0,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":45,"offloads":7,"tackles_made":314,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":82,"total_running_metres":1651,"post_contact_metres":734.1,"average_hit_ups":7.2,"average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":528,"fantasy_average":26.4},
+      "trend_rounds_used":[],
+      "trend_note":"Retrieved official profile exposed the by-round schema without usable row values in this capture. PER_ROUND_RECONCILIATION_PENDING; no trend inferred.",
+      "team_effect":"Interchange middle dossier enriched; verified contact and running workload improves depth modelling without standalone confidence adjustment.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/spencer-leniu/"
+    },
+    {
+      "player":"Nat Butcher","team":"Roosters","finals_role":"Named interchange — Prop","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":175,"tries":27},
+      "season":{"appearances":22,"tries":1,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":22,"offloads":7,"tackles_made":706,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":127,"total_running_metres":2811,"post_contact_metres":1038.3,"average_hit_ups":12.1,"average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":1005,"fantasy_average":45.7},
+      "trend_rounds_used":[1,2,3,4,6],
+      "trend_note":"Official exposed rows verify role variation between second row and interchange early in 2026, with minutes 80, 35, 23, 45 and 49. This is historical role evidence only and is not treated as a current-form trend.",
+      "team_effect":"Interchange forward dossier enriched; no standalone confidence change.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/nat-butcher/"
+    },
+    {
+      "player":"Angus Crichton","team":"Roosters","finals_role":"Named interchange — Second Row","roster_state":"VERIFIED","observation_state":"VERIFIED_RETURN","profile_state":"VERIFIED",
+      "career":{"appearances":211,"tries":52},
+      "season":{"appearances":13,"tries":2,"try_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_breaks":1,"line_break_assists":1,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":15,"tackles_made":381,"missed_tackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_running_metres":112,"total_running_metres":1463,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":562,"fantasy_average":43.2},
+      "trend_rounds_used":[1,2],
+      "trend_note":"The retrieved profile exposed Round 1 and Round 2 rows only in this capture, both starting second row with 80 and 77 minutes. These rows are insufficient for a current recent-form trend; no directional effect inferred.",
+      "team_effect":"Official Finals reporting names Crichton on the interchange after an 11-game absence. Return status is verified; no medical inference and no standalone confidence change.",
+      "source":"https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
+    }
+  ],
+  "sources":[
+    "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/connor-watson/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/spencer-leniu/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/nat-butcher/",
+    "https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
+  ],
+  "decision_effect":"Roosters profile reconciliation advances from 12/22 to 16/22. Four interchange/forward dossiers are verified. Connor Watson's multi-role usage, Leniu and Butcher middle workload, and Crichton's verified return improve roster-continuity modelling, but this batch alone does not justify changing Panthers 73%."
+}
