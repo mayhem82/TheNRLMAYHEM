@@ -1,0 +1,40 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "fixture_id":"FW1-SS-NKN-2026-09-11",
+  "fixture":"Rabbitohs v Knights",
+  "checkpoint":"T-60m",
+  "scheduled_at":"2026-09-11T18:50:00+10:00",
+  "captured_at":"2026-09-11T19:01:04+10:00",
+  "status":"CAPTURED_LATE_BEFORE_KICKOFF",
+  "kickoff":"2026-09-11T19:50:00+10:00",
+  "lifecycle":"UPCOMING",
+  "sources_checked":[
+    {"source":"NRL Late Mail: Finals Week 1","url":"https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","classification":"OFFICIAL_CURRENT_TEAM_STATE"},
+    {"source":"NRL Match Centre","url":"https://www.nrl.com/draw/nrl-premiership/2026/finals-week-1/rabbitohs-v-knights/","classification":"OFFICIAL_FIXTURE_STATE"},
+    {"source":"Stake current match market","url":"https://stake.com/pt/sports/rugby/rugby-league/nrl/46877691-south-sydney-rabbitohs-newcastle-knights","classification":"CURRENT_TWO_SIDED_MARKET"},
+    {"source":"Fonbet current match market","url":"https://fonbet.com/sports/rugby/category/rugbyleague/113975/67853644","classification":"CROSS_MARKET_CHECK"},
+    {"source":"Bureau of Meteorology Sydney-area forecast","url":"https://www.bom.gov.au/places/nsw/kensington/forecast/","classification":"OFFICIAL_WEATHER"}
+  ],
+  "weather":{"state":"NON_DIRECTIONAL","forecast":"Sydney area partly cloudy, 0 mm expected, about 10% chance of rain and light winds.","decision_effect":"No demonstrated team-specific weather edge."},
+  "market":{"primary_current_home_price":1.31,"primary_current_away_price":3.15,"normalized_home_probability":70.63,"normalized_away_probability":29.37,"cross_market_home_price":1.35,"cross_market_away_price":2.90,"cross_market_normalized_home_probability":68.24,"mayhem_selection":"Rabbitohs","mayhem_confidence":69,"confidence_vs_primary_market_delta_pp":-1.63,"market_gate":"CLEAR","movement_classification":"SIGNAL_TOWARD_RABBITOHS_WITH_CROSS_MARKET_DISPERSION","causal_inference":"NONE","integrity_note":"Current reliable books disagree materially on price magnitude. Market movement is not assigned a cause and no pseudo-consensus price is fabricated."},
+  "player_intelligence":[
+    {"team":"Rabbitohs","classification":"VERIFIED","observation":"Official late-mail core starting 17 remains Matthew Dufty, Alex Johnston, Latrell Mitchell, Jack Wighton, Campbell Graham, Cody Walker, Jayden Sullivan, Tevita Tatola, Brandon Smith, Keaon Koloamatangi, David Fifita, Tallis Duncan, Cameron Murray; interchange Jye Gray, Lachlan Hubner, Sean Keppie and Jamie Humphreys.","decision_effect":"No verified late disruption to South Sydney spine/middle continuity at this checkpoint."},
+    {"team":"Knights","classification":"VERIFIED","observation":"Official late-mail core starting 17 remains Kalyn Ponga, Dominic Young, Dane Gagai, Bradman Best, Greg Marzhew, Fletcher Sharpe, Sandon Smith, Tyson Frizell, Phoenix Crossland, Cody Hopwood, Jermaine McEwen, Francis Manuleleua, Mat Croker; interchange Harrison Graham, Lachlan Crouch, Pasami Saulo and Thomas Cant.","decision_effect":"Newcastle's restored Young-Frizell-Crossland counter-case remains intact."}
+  ],
+  "player_statistical_trend_effects":"No new verified per-round statistical trajectory supersedes the T-3h role-critical comparison. Existing Mitchell/Walker creation and Ponga/Crossland workload evidence is retained without double counting.",
+  "team_macro":{"Rabbitohs":"Stronger season differential and recent scoring baseline retained; no verified T-60m continuity loss.","Knights":"Rest advantage and restored personnel remain a material adversarial counterweight; no verified T-60m continuity loss."},
+  "matchup_effect":"Recent 2026 meetings and Newcastle's four wins in the last five meetings remain counterweights; not treated as deterministic.",
+  "conflicts":["Cross-market price dispersion: current two-sided sources range from approximately 68.24% to 70.63% normalized Rabbitohs probability."],
+  "evidence_family_independence":"Market prices are one evidence family and are not counted as independent corroboration. Official roster state, historical results, player-profile evidence and weather remain separated; overlapping team/player attacking production is not double-counted.",
+  "strongest_opposing_case":"Newcastle remain rested and reinforced by Young, Frizell and Crossland, with Ponga as the primary attacking mechanism and recent matchup success demonstrating a credible upset path.",
+  "falsification":"Reduce or reverse the Rabbitohs position at T-10 if final team lists materially weaken South Sydney spine/middle continuity, materially strengthen Newcastle continuity, or reveal a verified role change with a clear football mechanism.",
+  "information_advantage_candidates":[],
+  "information_advantage_classification":"NONE",
+  "prediction_decomposition":["Structural season/form edge: Rabbitohs","Current market: Rabbitohs favourite with cross-market dispersion; MAYHEM 69% remains within the mandatory +3pp gate across checked prices","Roster/rest counterweight: Knights","Role-critical player evidence: existing South Sydney creation edge balanced by Ponga/Crossland and restored Knights personnel","Weather: non-directional"],
+  "decision":{"selection":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","effect":"NO_CHANGE","reason":"No verified T-60m evidence warrants moving the 69% position. The strongest Newcastle counter-case remains active, and market dispersion does not justify manufacturing a more precise estimate."},
+  "next_checkpoint":{"checkpoint":"T-10m","due_sydney":"2026-09-11T19:40:00+10:00"},
+  "missed_not_captured":false,
+  "audit_integrity":"PRESERVED"
+}
