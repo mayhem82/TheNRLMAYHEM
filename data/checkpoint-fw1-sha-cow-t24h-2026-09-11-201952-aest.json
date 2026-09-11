@@ -1,0 +1,30 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "fixture_id":"FW1-SHA-COW-2026-09-12",
+  "fixture":"Sharks v Cowboys",
+  "checkpoint":"T-24h",
+  "scheduled_sydney":"2026-09-11T19:50:00+10:00",
+  "captured_at":"2026-09-11T20:19:52+10:00",
+  "status":"CAPTURED_LATE_BEFORE_KICKOFF",
+  "kickoff_sydney":"2026-09-12T19:50:00+10:00",
+  "sources_checked":[
+    {"source":"NRL official Finals Week 1 team lists","url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","classification":"VERIFIED_ROSTER_BASELINE"},
+    {"source":"Bureau of Meteorology Sydney-area forecast","url":"https://www.bom.gov.au/places/nsw/arncliffe/forecast/","classification":"VERIFIED_WEATHER"},
+    {"source":"Stats Insider citing Bet365 market updated 2026-09-10 19:33","url":"https://www.statsinsider.com.au/news/sharks-vs-cowboys-prediction-and-tips-nrl-finals-week-1-2026","classification":"MARKET_CROSS_CHECK_NOT_CONTEMPORANEOUS"}
+  ],
+  "weather":{"forecast":"Saturday: 0 mm, 10% rain chance; Sydney-area light winds with east to northeasterly winds around 15-20 km/h during the afternoon before easing.","classification":"NON_DIRECTIONAL","decision_effect":"No demonstrated team-specific weather edge."},
+  "market":{"canonical_retained_home_price":1.45,"canonical_retained_away_price":2.78,"canonical_normalized_sharks_probability":65.72,"cross_check_home_price":1.39,"cross_check_away_price":2.85,"cross_check_normalized_sharks_probability":67.22,"cross_check_age_note":"Cross-check was updated the prior evening and is not substituted for the retained canonical market state.","movement_classification":"DISPERSION_SIGNAL_ONLY","causal_inference":"NONE"},
+  "player_effects":["Sharks named squad retains Braydon Trindall, Nicho Hynes, Blayke Brailey, KL Iro, Teig Wilton and Thomas Hazelton.","Cowboys named squad retains Jeremiah Nanai, Griffin Neame and Zac Laybutt as returns; Reuben Cotter remains available under the current verified squad state.","All 44 persistent roster identities for the fixture remain present in the player layer."],
+  "team_macro":{"Sharks":"Stronger season point differential remains the primary structural baseline, offset by two losses entering finals and neutralised home-ground advantage at Allianz Stadium.","Cowboys":"Weaker season differential but verified returning personnel and a prior 46-34 win over Cronulla preserve a credible elimination-final counter-case."},
+  "matchup_effect":"Round 8 Cowboys 46-34 Sharks remains a verified relevant interaction but is not treated as causal proof of a current edge.",
+  "opposing_case":"North Queensland's verified returns, Cotter availability and prior win over Cronulla are the strongest evidence-supported case against the Sharks selection.",
+  "falsification":"Reduce or reverse the Sharks preference if later lists materially weaken Cronulla spine/middle continuity, or if North Queensland's restored roles materially strengthen at formal checkpoints.",
+  "evidence_family_independence":"Market is not independent corroboration. Season differential, recent results, official availability and prior head-to-head are kept distinct and not double-counted.",
+  "prediction_decomposition":["Sharks structural season edge","Recent-form drag on Sharks","Cowboys roster-return counterweight","Prior Cowboys matchup success","Neutralised venue advantage","Weather non-directional","Market used as calibration gate, not independent evidence"],
+  "information_advantage":"NONE_ASSERTED",
+  "decision":{"selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","normalized_market_probability_retained":65.72,"confidence_vs_market_delta_pp":-1.72,"market_gate":"CLEAR"},
+  "next_checkpoint":"2026-09-12T16:50:00+10:00 T-3h",
+  "audit_integrity":"PRESERVED"
+}
