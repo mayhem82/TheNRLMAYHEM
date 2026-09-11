@@ -1,0 +1,18 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-11T10:33:28+10:00",
+  "lifecycle_first":{"status":"NO_KICKOFF_PASSED","fixtures":{"Rabbitohs v Knights":"UPCOMING","Warriors v Dolphins":"UPCOMING","Sharks v Cowboys":"UPCOMING","Panthers v Roosters":"UPCOMING"}},
+  "checkpoint":{"due_now":false,"next":"Rabbitohs v Knights T-3h 2026-09-11T16:50:00+10:00","missed_not_captured":false},
+  "active_fixture_precedence":"Rabbitohs v Knights",
+  "active_fixture_checks":{"official_late_mail":"No new material change admitted beyond already-known Finals Week 1 availability/watch items.","weather":"BOM Sydney Friday: partly cloudy, 0 mm, 10% rain chance, light winds; NON_DIRECTIONAL.","market":"Reliable current two-sided states remain around Rabbitohs 1.39-1.40 / Knights 2.90-2.95; retained normalized Rabbitohs probability 67.97%; MAYHEM 69%; +1.03pp; gate CLEAR.","decision":"Rabbitohs 69% CURRENT_NOT_FROZEN"},
+  "other_fixture_decisions":[{"fixture":"Warriors v Dolphins","selection":"Warriors","confidence":63,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"},{"fixture":"Sharks v Cowboys","selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"},{"fixture":"Panthers v Roosters","selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR"}],
+  "player_reconciliation":{"batch":"043","roosters":"8/22","overall":"162/176","verified_2026_dossiers":154,"verified_no_completed_sample":1,"profile_data_unavailable":7,"pending":14,"players_added":["Billy Smith","Robert Toia","Mark Nawaqanitawase","Hugo Savala"],"decision_effect":"No confidence change. Hugo Savala Finals five-eighth role versus recent exposed centre sample retained as role-change uncertainty."},
+  "information_advantage":"NONE_ASSERTED",
+  "learned_weight_change":"NONE",
+  "freeze_change":"NONE",
+  "result_acquisition_required":false,
+  "audit_integrity":"PRESERVED",
+  "sources":["https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","https://www.nrl.com/players/nrl-premiership/roosters/billy-smith/","https://www.nrl.com/players/nrl-premiership/roosters/robert-toia/","https://www.nrl.com/players/nrl-premiership/roosters/mark-nawaqanitawase/","https://www.nrl.com/players/nrl-premiership/roosters/hugo-savala/","https://www.bom.gov.au/places/nsw/wentworth-point/forecast"]
+}
