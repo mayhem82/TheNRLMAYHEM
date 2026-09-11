@@ -1,0 +1,37 @@
+{
+  "season": 2026,
+  "stage": "Finals Week 1",
+  "architecture": "PLAYER_STATISTICAL_INTELLIGENCE",
+  "batch": "043",
+  "captured_at": "2026-09-11T10:33:28+10:00",
+  "source_class": "Official NRL Finals Week 1 team list and official NRL.com player profiles",
+  "rule": "Raw profile facts remain separate from MAYHEM inference. Unpublished fields are FIELD_NOT_PUBLISHED. Derived trends use genuine per-round rows and do not establish causation.",
+  "players": [
+    {
+      "player":"Billy Smith","team":"Roosters","finals_role":"Named starter — Centre","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":59,"tries":28},
+      "season":{"appearances":14,"tries":12,"try_assists":5,"line_breaks":16,"line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":42,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":138,"missed_tackles":18,"average_running_metres":153,"total_running_metres":2154,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED","forced_drop_outs":"FIELD_NOT_PUBLISHED","fantasy_total":643,"fantasy_average":45.9},
+      "trend_rounds_used":[23,24,25,26],"trend_note":"Official rows show 80 minutes on the wing in Rounds 23-26; tries 2, 0, 2 and 0; running metres 211, 178, 166 and 149. Position continuity over this sample is verified; statistics alone do not establish causation.","team_effect":"Starting outside-back dossier enriched; no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/billy-smith/"
+    },
+    {
+      "player":"Robert Toia","team":"Roosters","finals_role":"Named starter — Centre","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":42,"tries":19},
+      "season":{"appearances":20,"tries":12,"try_assists":12,"line_breaks":13,"line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":93,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":413,"missed_tackles":52,"average_running_metres":112,"total_running_metres":2247,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":948,"fantasy_average":47.4},
+      "trend_rounds_used":[22,23,24,25],"trend_note":"Official rows show 80 minutes at centre in Rounds 22-25; running metres 135, 92, 140 and 135; tackles made 11, 20, 30 and 26; missed tackles 2, 1, 4 and 2. Role continuity and workload are verified without causal inference.","team_effect":"Starting-centre baseline enriched; no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/robert-toia/"
+    },
+    {
+      "player":"Mark Nawaqanitawase","team":"Roosters","finals_role":"Named starter — Winger","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":43,"tries":40},
+      "season":{"appearances":19,"tries":15,"try_assists":6,"line_breaks":16,"line_break_assists":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackle_breaks":80,"offloads":"FIELD_NOT_PUBLISHED_IN_SUMMARY","tackles_made":76,"missed_tackles":16,"average_running_metres":166,"total_running_metres":3166,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","forced_drop_outs":"FIELD_NOT_PUBLISHED_IN_SUMMARY","fantasy_total":797,"fantasy_average":42.0},
+      "trend_rounds_used":[23,24,25,26],"trend_note":"Official rows show 80 minutes on the wing in Rounds 23-26; running metres 116, 178, 179 and 154; tries 0 in each round; Round 25 recorded one try assist and three line breaks. The production pattern is descriptive only and does not establish a causal explanation.","team_effect":"Starting-wing dossier enriched; no standalone confidence change.","source":"https://www.nrl.com/players/nrl-premiership/roosters/mark-nawaqanitawase/"
+    },
+    {
+      "player":"Hugo Savala","team":"Roosters","finals_role":"Named starter — Five-Eighth","roster_state":"VERIFIED","observation_state":"NO_MATERIAL_CHANGE","profile_state":"VERIFIED",
+      "career":{"appearances":40,"tries":12},
+      "season":{"appearances":19,"tries":8,"try_assists":10,"line_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","line_break_assists":11,"tackle_breaks":"FIELD_NOT_PUBLISHED_IN_SUMMARY","offloads":15,"tackles_made":318,"missed_tackles":34,"average_running_metres":80,"total_running_metres":1538,"post_contact_metres":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_hit_ups":"FIELD_NOT_PUBLISHED_IN_SUMMARY","average_kicking_metres":14.5,"forced_drop_outs":1,"fantasy_total":674,"fantasy_average":35.5},
+      "trend_rounds_used":[23,24,25,26],"trend_note":"Official rows show 80 minutes at centre in Rounds 23-26; running metres 30, 56, 60 and 144; tackles made 24, 24, 24 and 19; Round 26 included 7 kicking metres. The Finals named five-eighth role is therefore a verified role change relative to the latest exposed four-round sample; no causal effect is assumed.","team_effect":"Role-critical halves dossier enriched; named Finals role differs from recent centre sample and is retained as role-change uncertainty, not directional evidence.","source":"https://www.nrl.com/players/nrl-premiership/roosters/hugo-savala/"
+    }
+  ],
+  "sources":["https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","https://www.nrl.com/players/nrl-premiership/roosters/billy-smith/","https://www.nrl.com/players/nrl-premiership/roosters/robert-toia/","https://www.nrl.com/players/nrl-premiership/roosters/mark-nawaqanitawase/","https://www.nrl.com/players/nrl-premiership/roosters/hugo-savala/"],
+  "decision_effect":"Roosters reconciliation advances 4/22 to 8/22. Role-critical outside-back and five-eighth data improve player-layer completeness. Hugo Savala's named Finals role differs from his recent exposed centre sample and is retained as uncertainty; no Panthers/Roosters confidence change is justified by this batch alone."
+}
