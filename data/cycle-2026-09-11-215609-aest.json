@@ -1,0 +1,21 @@
+{
+  "system":"The NRL MAYHEM",
+  "cycle_captured_at":"2026-09-11T21:56:09+10:00",
+  "timezone":"Australia/Sydney",
+  "priority":"ACTIVE_FIXTURE_LIFECYCLE_RECONCILIATION",
+  "fixture":"FW1-SS-NKN-2026-09-11",
+  "sources_checked":[
+    {"class":"OFFICIAL_PRIMARY","source":"NRL.com finals match preview / match information","state":"CURRENT_RETRIEVAL_DID_NOT_EXPOSE_FINAL_RESULT"},
+    {"class":"REPUTABLE_SECONDARY","source":"news.com.au live/final match report","url":"https://www.news.com.au/sport/nrl/rabbitohs-vs-knights-live-latrell-mitchell-exchanges-blows-with-rival-in-fiery-scene/news-story/33148d4fb9673f6c4e63fa9f7ae191e9","state":"MATCH_FINISH_AND_WINNER_REPORTED","facts":["Newcastle triumphed","Newcastle advances to face the loser of Warriors v Dolphins","South Sydney trailed 10-6 at half-time","Jermaine McEwen second-half try pushed Newcastle to 16-6","Cody Walker left with a reported calf injury"]},
+    {"class":"INDEPENDENT_SECONDARY_SEARCH","source":"ABC/Fox/ESPN/Zero Tackle/Sporting News targeted result search","state":"NO_SECOND_SOURCE_FINAL_SCORE_CORROBORATION_OBTAINED_THIS_CYCLE"}
+  ],
+  "lifecycle_before":"MATCH_WINDOW",
+  "lifecycle_after":"RESULT_VERIFICATION_PENDING",
+  "result_state":{"reported_winner":"Knights","reported_score_signal":"Knights 16-6","canonical_final_score":"UNVERIFIED","canonical_grade":"PENDING","reason":"Mandatory result acquisition requires reliable corroboration before canonical score/result promotion."},
+  "prediction_state":{"selection":"Rabbitohs","confidence":69,"pre_match_state":"IMMUTABLE","t10":"MISSED_NOT_CAPTURED","retroactive_change":"DENIED"},
+  "post_kickoff_player_observation":{"player":"Cody Walker","classification":"VERIFIED_SECONDARY","observation":"Left match with reported calf injury","medical_inference":"NONE","pre_match_decision_effect":"NONE"},
+  "failure_audit":{"state":"NOT_STARTED","reason":"INCORRECT grade is not persisted until verified result acquisition completes."},
+  "information_advantage":{"classification":"NONE","change":"NONE"},
+  "next_checkpoint":{"fixture":"FW1-WAR-DOL-2026-09-12","checkpoint":"T-3h","due_sydney":"2026-09-12T13:05:00+10:00"},
+  "audit_integrity":"PRESERVED"
+}
