@@ -1,0 +1,30 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_1",
+  "captured_at":"2026-09-11T15:03:29+10:00",
+  "mode":"HOURLY_INTELLIGENCE_CYCLE",
+  "lifecycle_reconciliation":{"status":"ALL_RELEVANT_FIXTURES_UPCOMING","result_verification_backlog":[],"missed_not_captured":false},
+  "checkpoint_reconciliation":{"due_at_capture":false,"next_due":{"fixture":"Warriors v Dolphins","checkpoint":"T-24h","due":"2026-09-11T16:05:00+10:00"},"following":{"fixture":"Rabbitohs v Knights","checkpoint":"T-3h","due":"2026-09-11T16:50:00+10:00"},"repair":"Prior canonical next-checkpoint pointer skipped Warriors-Dolphins T-24h; chronological queue repaired."},
+  "sources_checked":[
+    {"source":"NRL Late Mail Finals Week 1","url":"https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","finding":"Rabbitohs-Knights official 24-hour squads reduced to 19 with starting 17 and extended interchange unchanged."},
+    {"source":"Sportsbet NRL current board","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","finding":"Rabbitohs 1.40 / Knights 3.00; Warriors 1.61 / Dolphins 2.33; Sharks 1.45 / Cowboys 2.78; Panthers 1.35 / Roosters 3.22."},
+    {"source":"BOM Sydney-area forecast","url":"https://www.bom.gov.au/places/nsw/kensington/forecast/","finding":"Friday 0 mm, 10% chance of rain, light winds; no demonstrated directional edge."}
+  ],
+  "material_changes":[
+    {"fixture":"Rabbitohs v Knights","classification":"VERIFIED_24H_SQUAD_REDUCTION","finding":"South Sydney reserve cut to Talanoa Penitani; Liam Le Blanc and Peter Mamouzelos outside current 19. Newcastle reserve cut to Kyle McCarthy; Elijah Salesa-Leaumoana and Diesel Hagan outside current 19. Persistent player identities retained; no medical inference."},
+    {"fixture":"Rabbitohs v Knights","classification":"CURRENT_MARKET_REFRESH","finding":"1.40 / 3.00 normalizes to 68.18% Rabbitohs. MAYHEM 69% is +0.82pp; gate CLEAR."},
+    {"fixture":"All Finals Week 1","classification":"CHECKPOINT_PRIORITY_REPAIR","finding":"Warriors-Dolphins T-24h at 16:05 AEST is the next due checkpoint, ahead of Rabbitohs-Knights T-3h at 16:50."}
+  ],
+  "decisions":[
+    {"fixture":"Rabbitohs v Knights","tip":"Rabbitohs","confidence":69,"state":"CURRENT_NOT_FROZEN","effect":"NO_CHANGE"},
+    {"fixture":"Warriors v Dolphins","tip":"Warriors","confidence":62,"state":"CURRENT_NOT_FROZEN","effect":"NO_CHANGE"},
+    {"fixture":"Sharks v Cowboys","tip":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","effect":"NO_CHANGE"},
+    {"fixture":"Panthers v Roosters","tip":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","effect":"NO_CHANGE"}
+  ],
+  "player_layer":{"persistent_identities":"176/176","verified_2026_dossiers":168,"verified_no_completed_sample":1,"profile_data_unavailable":7,"active_fixture_current_match_squads":"Rabbitohs 19/19; Knights 19/19","per_round_counter_state":"LEGACY_COUNTER_NOT_RECONCILED_THIS_CYCLE"},
+  "information_advantage":"NONE_ASSERTED",
+  "incorrect_tip_halt":"CLEAR",
+  "audit_integrity":"PRESERVED",
+  "persistence":{"canonical":"UPDATED_AND_READ_BACK","material_update":"UPDATED","public_render":"NOT_VERIFIED_THIS_CYCLE"}
+}
