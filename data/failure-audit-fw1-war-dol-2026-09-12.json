@@ -1,0 +1,75 @@
+{
+  "architecture":"PREDICTION_FAILURE_AUDIT",
+  "season":2026,
+  "fixture_id":"FW1-WAR-DOL-2026-09-12",
+  "fixture":"Warriors v Dolphins",
+  "stage":"FINALS_WEEK_1_QUALIFYING_FINAL",
+  "captured_at":"2026-09-12T20:29:00+10:00",
+  "frozen_tip":"Warriors",
+  "frozen_confidence":0.60,
+  "freeze_integrity":"LATEST_GENUINE_PREMATCH_SELECTION_RETAINED; T-10 MISSED_NOT_CAPTURED; no retrospective rewrite",
+  "result":"Warriors 16-26 Dolphins",
+  "grade":"INCORRECT",
+  "severity":"SELECTION_FAILURE_WITH_COUNTER_CASE_TRANSLATION_DEFECT",
+  "core_finding":"The Warriors selection failed. The recorded 60% was only 0.97 percentage points above the latest normalized market baseline of 59.03%, so the principal defect was not a market-uplift breach. The pre-match record already contained a strong Dolphins counter-case: seven consecutive wins, a 26-24 Round 17 win over the Warriors, restored Cobbo/Nikorima/Finefeuiaki combinations, and role-critical attacking evidence through Katoa, Nikorima and Tabuai-Fidow. MAYHEM reduced the Warriors from 62% to 60% after the prior failure audit, but still allowed the Warriors season differential, home-final record and structural strength to dominate the final directional decision. The process correction is to require an explicit team-level synthesis when current-form, restored-unit continuity, matchup evidence and role-critical production all support the opposing case simultaneously.",
+  "pre_match_evidence":{
+    "market":"Warriors $1.61 / Dolphins $2.32; overround-adjusted Warriors 59.03% / Dolphins 40.97%; MAYHEM Warriors 60%, delta +0.97pp. Market gate CLEAR.",
+    "structural_baseline":"Warriors approximately +310 season point differential versus Dolphins approximately +156; Warriors six straight wins and eight of 10 at Go Media Stadium; Dolphins seven straight wins.",
+    "roster":"Warriors had Leka Halasima, Wayde Egan and Kurt Capewell returning with Jackson Ford on the interchange. Dolphins restored Selwyn Cobbo, Kodi Nikorima and Kulikefu Finefeuiaki.",
+    "player_statistics":"Role-critical pre-match profiles included Isaiya Katoa with 17 try assists and about 482 average kicking metres, Kodi Nikorima with 16 try assists and 23 line-break assists, and Hamiso Tabuai-Fidow with 13 tries, 77 tackle breaks and about 184 average running metres.",
+    "matchup":"Dolphins had beaten Warriors 26-24 in Round 17; the season series was split and recent meetings were structurally competitive.",
+    "weather":"Windy Auckland conditions were retained as execution variance only, with no demonstrated directional team edge.",
+    "counter_case":"Dolphins current form, restored unit continuity, prior win and role-critical attacking production formed a coherent evidence-supported upset mechanism.",
+    "checkpoint_integrity":"T-24h, T-3h and T-60m were captured before kickoff. T-10 was MISSED_NOT_CAPTURED and remains immutable."
+  },
+  "tests":{
+    "confidence_inflation":"NOT_FOUND: +0.97pp versus normalized market was inside the +3pp gate.",
+    "correlated_evidence_stacking":"NO MATERIAL DEFECT IDENTIFIED in the recorded market/structural evidence families.",
+    "structural_baseline_suppression":"PARTIAL IN REVERSE: Warriors season differential and venue strength were valid but retained too much directional dominance once the Dolphins opposing evidence converged.",
+    "roster_role_underweighting":"FOUND: the restored Dolphins combination was recognized but not translated strongly enough at team level.",
+    "player_statistical_underweighting":"FOUND: role-critical Dolphins production was captured but did not materially alter the preferred selection beyond the 62% to 60% reduction.",
+    "market_normalization_error":"NOT_FOUND.",
+    "narrative_dominance":"FOUND: Warriors structural/home narrative remained preferred despite multiple independent opposing football mechanisms.",
+    "variance_misclassification":"NO SPECIFIC LOW-SAMPLE DEFECT IDENTIFIED.",
+    "missing_counter_case":"NOT_MISSING, BUT INSUFFICIENTLY_ACTIONED.",
+    "source_weight_defect":"NO SPECIFIC SOURCE-RELIABILITY FAILURE IDENTIFIED."
+  },
+  "post_match_validation":{
+    "result_sources":[
+      "News.com.au reported the Dolphins victory and the late sequence from 20-16 to Jack Bostock sealing the result.",
+      "Courier-Mail reported the final score as Dolphins 26-16 Warriors."
+    ],
+    "verified_events":[
+      "Dolphins won 26-16 after trailing 16-8 around the hour mark.",
+      "Herbie Farnworth scored to narrow the deficit.",
+      "Hamiso Tabuai-Fidow broke away in the decisive comeback passage.",
+      "Jack Bostock scored the late sealing try.",
+      "Tom Flegler left after a concussion during the match."
+    ],
+    "causal_separation":"Flegler's concussion, sin-bins and all other in-match events are post-kickoff evidence and are excluded from the pre-match failure finding. The audit defect is limited to pre-kickoff synthesis of current form, restored combinations, matchup evidence and player production."
+  },
+  "confidence_error":{
+    "recorded_warriors_probability":0.60,
+    "normalized_market_warriors_probability":0.5903,
+    "delta_pp":0.97,
+    "finding":"No excess-confidence gate breach occurred. The error was directional synthesis rather than unsupported market uplift."
+  },
+  "failure_mechanisms":[
+    {"code":"COUNTER_CASE_INSUFFICIENTLY_ACTIONED","finding":"The Dolphins counter-case was explicit and multi-source but did not produce a sufficient directional reassessment."},
+    {"code":"RESTORED_UNIT_CONTINUITY_UNDERWEIGHT","finding":"Cobbo, Nikorima and Finefeuiaki were assessed as a restored combination, but its team-level effect remained underweighted."},
+    {"code":"ROLE_CRITICAL_STAT_SYNTHESIS_UNDERWEIGHT","finding":"Katoa, Nikorima and Tabuai-Fidow production was captured yet did not sufficiently affect the final team comparison."},
+    {"code":"STRUCTURAL_NARRATIVE_DOMINANCE","finding":"Warriors season differential and home record retained too much influence after the opposing evidence converged."},
+    {"code":"FINAL_FREEZE_CHECKPOINT_MISSED","finding":"T-10 was MISSED_NOT_CAPTURED. This does not alter the INCORRECT grade but removed the final mandatory validation opportunity."}
+  ],
+  "mandatory_corrections":[
+    "CONVERGENT_OPPOSING_EVIDENCE_GATE: when current form, restored-unit continuity, relevant matchup evidence and role-critical player production all support the opposing side, require an explicit switch-or-reduce test before retaining the preferred team.",
+    "TEAM_LEVEL_COMBINATION_SYNTHESIS: translate multiple restored role-critical players into a team mechanism rather than preserving them as parallel notes.",
+    "PLAYER_STAT_DECISION_EFFECT: role-critical statistical comparisons must state whether they strengthen, weaken or leave unchanged the team-level selection and why.",
+    "STRUCTURAL_BASELINE_BALANCE: strong season differential and venue history cannot by themselves override convergent current opposing evidence.",
+    "T10_INTEGRITY: retain MISSED_NOT_CAPTURED permanently; no reconstruction.",
+    "PUBLIC_GRADE_SEPARATION: Warriors 60% remains the genuine historical selection and is publicly graded INCORRECT without calibration qualifiers."
+  ],
+  "learning_state":"ACTIVE_FROM_NEXT_UNFROZEN_DECISION",
+  "information_advantage":"NONE: the result alone does not demonstrate an information advantage.",
+  "integrity":"No retrospective tip switch, no probability rewrite, and no use of post-kickoff events as pre-match evidence."
+}
