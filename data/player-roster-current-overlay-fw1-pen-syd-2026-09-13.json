@@ -1,0 +1,42 @@
+{
+  "snapshot": "FW1-PEN-SYD-CURRENT-ROSTER-OVERLAY-2026-09-13T095530+1000",
+  "captured_at": "2026-09-13T09:55:30+10:00",
+  "fixture_id": "FW1-PEN-SYD",
+  "fixture": "Panthers v Roosters — Finals Week 1",
+  "classification": "VERIFIED",
+  "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+  "purpose": "Persistent current-state overlay for verified late-mail changes that supersede the original Finals Week 1 team-list baseline without rewriting historical roster capture.",
+  "records": [
+    {
+      "player": "Angus Crichton",
+      "team": "Roosters",
+      "position_context": "Second Row / late withdrawal",
+      "fixture": "Panthers v Roosters — Finals Week 1",
+      "captured_at": "2026-09-13T09:55:30+10:00",
+      "classification": "VERIFIED",
+      "status": "OUT",
+      "observation": "Official NRL late mail states Angus Crichton has been ruled out after failing to overcome a foot injury.",
+      "record_type": "ROSTER_LATE_MAIL_CURRENT",
+      "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+      "medical_inference": "NONE"
+    },
+    {
+      "player": "Egan Butcher",
+      "team": "Roosters",
+      "position_context": "Interchange",
+      "fixture": "Panthers v Roosters — Finals Week 1",
+      "captured_at": "2026-09-13T09:55:30+10:00",
+      "classification": "VERIFIED",
+      "status": "NAMED_INTERCHANGE",
+      "observation": "Official NRL late mail lists Egan Butcher on the interchange in jersey 20 after Angus Crichton was ruled out.",
+      "record_type": "ROSTER_LATE_MAIL_CURRENT",
+      "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+      "jersey": 20
+    }
+  ],
+  "integrity": {
+    "historical_baseline_preserved": true,
+    "supersedes_public_current_state_for_named_players": true,
+    "guessing_prohibited": true
+  }
+}
