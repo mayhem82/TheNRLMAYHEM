@@ -1,18 +1,18 @@
 {
-  "snapshot_id":"FINALS-WEEK1-RUNTIME-2026-09-12-202900",
-  "generated_at":"2026-09-12T20:29:00+10:00",
+  "snapshot_id":"FINALS-WEEK1-RUNTIME-2026-09-12-221516",
+  "generated_at":"2026-09-12T22:15:16+10:00",
   "timezone":"Australia/Sydney",
-  "repository_commit":"582cd1ee512fc0f04d058b65bf70946dc08b9bc0",
+  "repository_commit":"28bf71026dcb44c205babaa4f3c619948f266e0b",
   "base_audit_commit":"8c18022c89062f166cc541ab5742f6335ec1eae3",
   "canonical":{
     "season":{"path":"data/season-canonical-2026.json","state":"CANONICAL_BASE_PLUS_RUNTIME_RECONCILIATION"},
     "finals_week1":{"path":"data/finals-week1-2026.json","state":"CANONICAL_BASE_PLUS_RUNTIME_RECONCILIATION"},
-    "runtime_reconciliation":{"path":"data/runtime-reconciliation-latest.json","blob_sha":"7f159df0871c0b62118db14717b57756c87e4aa3"},
+    "runtime_reconciliation":{"path":"data/runtime-reconciliation-latest.json","blob_sha":"f85820d273cc1e740d60149b7fc67be7fce9ef93"},
     "finals_roster":{"path":"data/player-roster-finals-week1-2026.json"},
     "information_advantage":{"path":"data/information-advantage-ledger-2026.json"},
     "player_manifest":{"path":"data/player-data-manifest-2026.json"}
   },
-  "material_overlay":{"path":"data/runtime-reconciliation-latest.json","cycle":"POST_MATCH_WAR_DOL_RESULT_VERIFIED_ACTIVE_SHA_COW"},
+  "material_overlay":{"path":"data/runtime-reconciliation-latest.json","cycle":"POST_MATCH_SHA_COW_RESULT_VERIFICATION_PENDING_NEXT_PEN_SYD"},
   "public_views":["index.html","intelligence.html","teams.html","players.html","audit-clock.html","glossary.html","site-master-glossary.html","sites.html"],
   "rule":"Public views must use current canonical objects plus the authoritative runtime reconciliation overlay; historical checkpoint files remain audit lineage only and cannot override current lifecycle/result state."
 }
