@@ -1,7 +1,7 @@
 {
   "season":2026,
   "architecture":"INFORMATION_ADVANTAGE_LEDGER",
-  "updated_at":"2026-09-06T16:46:37+10:00",
+  "updated_at":"2026-09-12T22:27:39+10:00",
   "advantage_classes":["NONE","POSSIBLE","CORROBORATED","DEMONSTRATED"],
   "required_fields":["fixture","signal","public_available_at","captured_at","source_class","fragments","inference","market_state_at_capture","market_response_at","decision_effect","frozen_state","outcome_validation","advantage_class"],
   "events":[
@@ -51,6 +51,22 @@
       "decision_effect":"CONFIDENCE_CHANGE",
       "frozen_state":"Cowboys 68%",
       "outcome_validation":"Raiders won 50-30; failure audit found correlated evidence stacking and confidence inflation.",
+      "advantage_class":"NONE"
+    },
+    {
+      "event_id":"IA-FW1-SHA-COW-001",
+      "fixture":"Sharks v Cowboys",
+      "signal":"Pre-match Sharks selection remained approximately market-aligned while unexplained market movement toward North Queensland was retained as SIGNAL only.",
+      "public_available_at":"2026-09-12T17:40:00+10:00 or earlier",
+      "captured_at":"2026-09-12T19:06:09+10:00",
+      "source_class":"MIXED_OFFICIAL_MARKET_OBSERVATION",
+      "fragments":["MAYHEM Sharks 64%","normalized market Sharks approximately 64.49%","movement toward Cowboys had no verified cause","T-10 MISSED_NOT_CAPTURED"],
+      "inference":"No independent pre-market information edge was demonstrated. Market movement without a verified cause remained a signal rather than causal evidence.",
+      "market_state_at_capture":"Sharks $1.47 / Cowboys $2.67; normalized Sharks probability approximately 64.49%",
+      "market_response_at":null,
+      "decision_effect":"NO_DIRECTIONAL_CHANGE",
+      "frozen_state":"No genuine T-10 frozen probability; Sharks 64% genuine pre-match selection preserved",
+      "outcome_validation":"Sharks won 26-16. Correct outcome alone does not establish information advantage and no post-result probability was backfilled.",
       "advantage_class":"NONE"
     }
   ],
