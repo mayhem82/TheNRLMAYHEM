@@ -1,21 +1,18 @@
 {
-  "snapshot_id":"FINALS-WEEK1-WAR-DOL-T3H-2026-09-12-130521",
-  "generated_at":"2026-09-12T13:05:21+10:00",
+  "snapshot_id":"FINALS-WEEK1-RUNTIME-2026-09-12-202900",
+  "generated_at":"2026-09-12T20:29:00+10:00",
   "timezone":"Australia/Sydney",
-  "repository_commit":"565089bf5c8fd0bf0184c84aefc3095ae8f4f8ef",
+  "repository_commit":"582cd1ee512fc0f04d058b65bf70946dc08b9bc0",
   "base_audit_commit":"8c18022c89062f166cc541ab5742f6335ec1eae3",
   "canonical":{
-    "season":{"path":"data/season-canonical-2026.json","blob_sha":"e9e403ce16abe0004c6703410305c64bdadee428"},
-    "checkpoints":{"path":"data/checkpoints-round27-canonical.json","blob_sha":"75f87ee247398634494c07c15355e3fd6fc42a5d"},
-    "finals_week1":{"path":"data/finals-week1-2026.json","blob_sha":"79f0e8850a0d7e13ec7678b7759f4610df1859e3"},
-    "finals_roster":{"path":"data/player-roster-finals-week1-2026.json","blob_sha":"d9ad01fd656645c57a3eba45205ef945669aede4"},
-    "contradictions":{"path":"data/contradiction-resolutions-2026.json","blob_sha":"6ba358e5721de3378228259cd72221fefe60b144"},
-    "information_advantage":{"path":"data/information-advantage-ledger-2026.json","blob_sha":"f821221d804bfd2c4e69f179a5781ed80440c011"},
-    "player_manifest":{"path":"data/player-data-manifest-2026.json","blob_sha":"d0ac0c7a662f3d4bf52950fbd8fe3aa4b36bd504"},
-    "source_classes":{"path":"data/source-class-registry.json","blob_sha":"cd57f69a1b0a8001a591cf24adc3865501ee6ccf"},
-    "source_performance":{"path":"data/source-performance-ledger-2026.json","blob_sha":"7e87d6abd566d93af44b571ad77e07cded96ae29"}
+    "season":{"path":"data/season-canonical-2026.json","state":"CANONICAL_BASE_PLUS_RUNTIME_RECONCILIATION"},
+    "finals_week1":{"path":"data/finals-week1-2026.json","state":"CANONICAL_BASE_PLUS_RUNTIME_RECONCILIATION"},
+    "runtime_reconciliation":{"path":"data/runtime-reconciliation-latest.json","blob_sha":"7f159df0871c0b62118db14717b57756c87e4aa3"},
+    "finals_roster":{"path":"data/player-roster-finals-week1-2026.json"},
+    "information_advantage":{"path":"data/information-advantage-ledger-2026.json"},
+    "player_manifest":{"path":"data/player-data-manifest-2026.json"}
   },
-  "material_overlay":{"path":"data/material-update-latest.json","blob_sha":"342f972641831c59b0384f63106d75254dd10da9","cycle":"data/checkpoint-fw1-war-dol-t3h-2026-09-12-130521-aest.json"},
+  "material_overlay":{"path":"data/runtime-reconciliation-latest.json","cycle":"POST_MATCH_WAR_DOL_RESULT_VERIFIED_ACTIVE_SHA_COW"},
   "public_views":["index.html","intelligence.html","teams.html","players.html","audit-clock.html","glossary.html","site-master-glossary.html","sites.html"],
-  "rule":"Every public view must derive factual state from current canonical objects. Historical source files remain audit lineage only and cannot override canonical current state."
+  "rule":"Public views must use current canonical objects plus the authoritative runtime reconciliation overlay; historical checkpoint files remain audit lineage only and cannot override current lifecycle/result state."
 }
