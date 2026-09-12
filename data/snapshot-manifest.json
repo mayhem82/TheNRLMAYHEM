@@ -1,13 +1,13 @@
 {
-  "snapshot_id":"FINALS-WEEK1-CANONICAL-SNAPSHOT-2026-09-10-1932",
-  "generated_at":"2026-09-10T19:32:42+10:00",
+  "snapshot_id":"FINALS-WEEK1-LIVE-2026-09-12-1026",
+  "generated_at":"2026-09-12T10:26:00+10:00",
   "timezone":"Australia/Sydney",
-  "repository_commit":"e6e44e91c96287190ee120a9c879f04383e5725e",
+  "repository_commit":"42f3c1d0506fc1ee18fa0da0f3ffff1a1da0b7ca",
   "base_audit_commit":"8c18022c89062f166cc541ab5742f6335ec1eae3",
   "canonical":{
     "season":{"path":"data/season-canonical-2026.json","blob_sha":"e9e403ce16abe0004c6703410305c64bdadee428"},
     "checkpoints":{"path":"data/checkpoints-round27-canonical.json","blob_sha":"75f87ee247398634494c07c15355e3fd6fc42a5d"},
-    "finals_week1":{"path":"data/finals-week1-2026.json","blob_sha":"4cf0d481e0b9d0e0c9b7e1756ba8c27a294871b2"},
+    "finals_week1":{"path":"data/finals-week1-2026.json","blob_sha":"ba36928c93c22d84a1aca39857a17f7b4efb2f4c"},
     "finals_roster":{"path":"data/player-roster-finals-week1-2026.json","blob_sha":"d9ad01fd656645c57a3eba45205ef945669aede4"},
     "contradictions":{"path":"data/contradiction-resolutions-2026.json","blob_sha":"6ba358e5721de3378228259cd72221fefe60b144"},
     "information_advantage":{"path":"data/information-advantage-ledger-2026.json","blob_sha":"f821221d804bfd2c4e69f179a5781ed80440c011"},
