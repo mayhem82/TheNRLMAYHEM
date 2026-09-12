@@ -1,0 +1,33 @@
+{
+  "fixture_id": "FW1-PEN-SYD",
+  "fixture": "Panthers v Roosters",
+  "captured_at": "2026-09-13T08:59:30+10:00",
+  "classification": "VERIFIED",
+  "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+  "scope": "Official late-mail delta against the existing Finals Week 1 persistent roster layer",
+  "changes": [
+    {
+      "player": "Angus Crichton",
+      "team": "Roosters",
+      "previous_persistent_state": "NAMED_INTERCHANGE",
+      "current_verified_state": "OUT",
+      "observation": "Official NRL late mail states Angus Crichton has been ruled out after failing to overcome a foot injury.",
+      "medical_inference": "NONE"
+    },
+    {
+      "player": "Egan Butcher",
+      "team": "Roosters",
+      "previous_persistent_state": "NAMED_RESERVE",
+      "current_verified_state": "ENTERING_LINE_UP",
+      "observation": "Official NRL late mail states Egan Butcher enters the Roosters line-up in the Crichton change.",
+      "exact_final_jersey_role": "FIELD_NOT_YET_RECONCILED_TO_CANONICAL_ROSTER"
+    }
+  ],
+  "integrity": {
+    "canonical_roster_file": "data/player-roster-finals-week1-2026.json",
+    "canonical_state": "STALE",
+    "status": "PERSISTENCE_FAILED",
+    "reason": "The canonical roster still exposes the superseded Crichton/Butcher roles. This delta preserves the verified change without guessing an unresolved exact final role.",
+    "required_action": "Reconcile the canonical roster and public player role display no later than the T-3h checkpoint."
+  }
+}
