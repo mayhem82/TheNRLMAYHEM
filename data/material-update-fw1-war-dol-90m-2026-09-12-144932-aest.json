@@ -1,0 +1,88 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_1",
+  "captured_at": "2026-09-12T14:49:32+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_ROSTER_UPDATE_90_MINUTES_BEFORE_KICKOFF",
+  "fixture": "FW1-WAR-DOL-2026-09-12",
+  "lifecycle": "UPCOMING",
+  "formal_checkpoint_due": false,
+  "next_formal_checkpoint": "2026-09-12T15:05:00+10:00",
+  "public_commentary_time_phrase": "about an hour and a quarter before kickoff",
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_PRIMARY",
+      "name": "NRL Late Mail: Finals Week 1",
+      "url": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+      "published_update": "2026-09-12T14:42:00+10:00"
+    },
+    {
+      "class": "MARKET",
+      "name": "Sportsbet NRL",
+      "url": "https://www.sportsbet.com.au/betting/rugby-league/nrl"
+    },
+    {
+      "class": "WEATHER_CROSSCHECK",
+      "name": "Auckland current forecast",
+      "url": "https://www.weather-atlas.com/en/new-zealand/auckland-weather-tomorrow"
+    }
+  ],
+  "observations": [
+    {
+      "classification": "VERIFIED",
+      "team": "Warriors",
+      "observation": "Official 90-minute squad update omitted Jett Cleary as reserve and left the Warriors with a settled game-day line-up. Jackson Ford remains on the interchange; no starting-side promotion was published at capture time.",
+      "decision_effect": "NO_CONFIDENCE_CHANGE; continuity confirmation only"
+    },
+    {
+      "classification": "VERIFIED",
+      "team": "Dolphins",
+      "observation": "Tevita Naufahu joined the Dolphins game-day 19 at the expense of Felise Kaufusi. The starting 17 and the restored Cobbo-Nikorima-Finefeuiaki combination remained intact.",
+      "decision_effect": "NO_CONFIDENCE_CHANGE; game-day reserve composition changed"
+    },
+    {
+      "classification": "VERIFIED_MARKET",
+      "observation": "Sportsbet remained Warriors $1.61 and Dolphins $2.32, equivalent to approximately 59.03% and 40.97% after overround adjustment.",
+      "decision_effect": "NO_NEW_MARKET_MOVEMENT; MAYHEM Warriors 60% remains approximately +0.97 percentage points above market"
+    },
+    {
+      "classification": "VERIFIED_WEATHER",
+      "observation": "Auckland remained windy with sunny/partly cloudy periods around 14-15C near the match window. Weather remains execution variance only, with no demonstrated directional team edge.",
+      "decision_effect": "NO_DIRECTIONAL_CHANGE"
+    }
+  ],
+  "decision": {
+    "selection": "Warriors",
+    "confidence": 60,
+    "state": "CURRENT_NOT_FROZEN",
+    "changed": false,
+    "reason": "The 90-minute squad trim confirms continuity but does not add sufficient directional evidence to change the three-hours-before-kickoff decision."
+  },
+  "audit_integrity": {
+    "formal_checkpoint_not_backfilled": true,
+    "T-60m_remains_due_at": "2026-09-12T15:05:00+10:00",
+    "T-10m_remains_due_at": "2026-09-12T15:55:00+10:00",
+    "MISSED_NOT_CAPTURED_rule_preserved": true
+  },
+  "other_relevant_fixtures": [
+    {
+      "fixture": "FW1-SHA-COW-2026-09-12",
+      "lifecycle": "UPCOMING",
+      "observation": "No new official roster change identified in this cycle. Sportsbet moved from the stored $1.45/$2.78 state to approximately $1.47/$2.67 in the freshest page capture, a modest signal toward North Queensland; causal attribution remains NONE.",
+      "decision_effect": "MARKET_SIGNAL_ONLY; no tip/confidence rewrite outside formal checkpoint"
+    },
+    {
+      "fixture": "FW1-PEN-SYD-2026-09-13",
+      "lifecycle": "UPCOMING",
+      "observation": "No new official roster change identified in this cycle. Current stored Panthers 73% position remains unfrozen.",
+      "decision_effect": "NO_CHANGE"
+    },
+    {
+      "fixture": "FW1-SS-NKN-2026-09-11",
+      "lifecycle": "VERIFIED_RESULT",
+      "observation": "Result and completed failure audit remain reconciled.",
+      "decision_effect": "NO_CHANGE"
+    }
+  ]
+}
