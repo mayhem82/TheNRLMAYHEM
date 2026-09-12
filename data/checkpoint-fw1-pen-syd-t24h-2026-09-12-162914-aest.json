@@ -1,0 +1,33 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "fixture_id":"FW1-PEN-SYD-2026-09-13",
+  "fixture":"Panthers v Roosters",
+  "checkpoint":"T-24h",
+  "due_sydney":"2026-09-12T16:05:00+10:00",
+  "captured_at":"2026-09-12T16:29:14+10:00",
+  "status":"CAPTURED_LATE_BEFORE_KICKOFF",
+  "sources_checked":[
+    "NRL Late Mail: Finals Week 1",
+    "Sportsbet NRL market",
+    "Sydney forecast for Sunday 13 September 2026"
+  ],
+  "weather":{"classification":"VERIFIED_FORECAST","observation":"Sydney forecast for Sunday is pleasant with sunny spells and breezy conditions developing in the afternoon, around 23C maximum. No demonstrated directional team edge.","decision_effect":"NON_DIRECTIONAL"},
+  "market":{"home_price":1.35,"away_price":3.22,"normalized_home_probability":70.46,"normalized_away_probability":29.54,"mayhem_confidence":73,"confidence_vs_market_delta_pp":2.54,"market_gate":"CLEAR","causal_inference":"NONE"},
+  "player_effects":[
+    "Panthers: Isaah Yeo remains named at starting lock and Scott Sorensen on the interchange.",
+    "Roosters: James Tedesco, Daly Cherry-Evans, Reece Robson and Victor Radley remain restored; Angus Crichton remains named on the interchange."
+  ],
+  "team_macro_effects":{"Panthers":"NO_MATERIAL_CHANGE","Roosters":"RESTED_SENIOR_COHORT_RESTORATION_REMAINS_ACTIVE_COUNTERWEIGHT"},
+  "matchup_effects":"Panthers have won 12 of the last 14 against the Roosters according to official NRL late mail; this is retained as observed matchup history, not standalone causal proof.",
+  "evidence_family_independence":"Market, official availability, season structure, matchup history and weather treated as separate evidence families.",
+  "adversarial_counter_case":"Roosters restore a large senior cohort, including Tedesco, Cherry-Evans, Robson, Radley and Crichton, so their Round 27 result remains structurally down-weighted and the restored spine/middle combination remains the strongest case against Penrith.",
+  "information_advantage":"NONE",
+  "mayhem_inference":"Panthers remain preferred, but no additional uplift is justified beyond the existing 73 percent because the Roosters restoration is materially relevant and already represented in the counter-case.",
+  "decision_effect":"NO_TEAM_SWITCH_NO_CONFIDENCE_CHANGE",
+  "tip":"Panthers",
+  "confidence":73,
+  "decision_state":"CURRENT_NOT_FROZEN",
+  "next_checkpoint":"T-3h at 2026-09-13T13:05:00+10:00",
+  "audit_integrity":"PRESERVED"
+}
