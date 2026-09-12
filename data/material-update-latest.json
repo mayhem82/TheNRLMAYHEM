@@ -2,25 +2,27 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_1",
-  "captured_at":"2026-09-12T09:57:39+10:00",
+  "captured_at":"2026-09-12T11:37:00+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_PLAYER_AVAILABILITY_CHANGE",
+  "trigger":"NEXT_FIXTURE_INTELLIGENCE_REFRESH",
   "lifecycle_reconciliation":{"status":"NO_STALE_LIFECYCLE_FOUND","fixtures":["FW1-SS-NKN-2026-09-11:VERIFIED_RESULT","FW1-WAR-DOL-2026-09-12:UPCOMING","FW1-SHA-COW-2026-09-12:UPCOMING","FW1-PEN-SYD-2026-09-13:UPCOMING"]},
-  "checkpoint_state":{"due_now":false,"next":"FW1-WAR-DOL-2026-09-12 T-3h at 2026-09-12T13:05:00+10:00","missed_not_captured_preserved":true},
+  "checkpoint_state":{"due_now":false,"next":"Warriors v Dolphins — three hours before kickoff, 1:05 pm AEST","next_checkpoint_code":"T-3h","missed_not_captured_preserved":true},
+  "commentary_language":{"rule":"Public spoken commentary uses natural broadcast language, not checkpoint-code jargon.","examples":{"T-24h":"a day before kickoff","T-3h":"three hours before kickoff","T-60m":"an hour before kickoff","T-30m":"half an hour before kickoff","T-10m":"ten minutes before kickoff"},"internal_codes_preserved":true},
   "observations":[
-    {"fixture":"Sharks v Cowboys","team":"Cowboys","player":"Jeremiah Nanai","classification":"VERIFIED","observation":"Official NRL late mail states back-rower Jeremiah Nanai (knee) returns for the elimination final. The earlier named-but-fitness-unresolved SIGNAL is therefore resolved at this cycle point.","source":"NRL late mail Finals Week 1","source_url":"https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/","decision_effect":"COWBOYS_EDGE_CONTINUITY_UP; carry into next formal Sharks-Cowboys gate without rewriting the existing T-24h state."},
-    {"fixture":"Sharks v Cowboys","team":"Cowboys","player":"Reuben Cotter","classification":"VERIFIED","observation":"Official NRL late mail confirms Cotter received a judiciary downgrade and is free to play; this was already persisted and produces no new decision-state change in this cycle.","decision_effect":"NO_NEW_CHANGE"},
-    {"fixture":"Warriors v Dolphins","classification":"NO_MATERIAL_CHANGE","observation":"Official NRL preview reports no changes in the Friday 24-hour update; existing named returns and availability state remain current.","decision_effect":"NO_CHANGE"}
+    {"fixture":"Warriors v Dolphins","classification":"VERIFIED","observation":"Official NRL preview still reports no changes in the Warriors' Friday 24-hour update. Jackson Ford remains named on the bench for his first game since Round 16, while Leka Halasima, Wayde Egan and Kurt Capewell remain in the return group.","source":"NRL Warriors v Dolphins preview","source_url":"https://www.nrl.com/news/2026/09/08/warriors-v-dolphins-ford-set-to-motor-big-three-return/","decision_effect":"NO_SELECTION_CHANGE; restored Warriors personnel remains a positive continuity input but must be tested against the recent failure-audit rule on restored-unit effects."},
+    {"fixture":"Warriors v Dolphins","classification":"VERIFIED","observation":"Official NRL team information continues to list the Dolphins at full strength for their first finals match, with Selwyn Cobbo, Kodi Nikorima and Kulikefu Finefeuiaki restored.","source":"NRL Finals Week 1 team lists","source_url":"https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/","decision_effect":"DOLPHINS_COUNTER_CASE_REMAINS_STRONG; restored-unit combination must be treated structurally, not as isolated player news."},
+    {"fixture":"Warriors v Dolphins","classification":"VERIFIED_MARKET","observation":"Current Sportsbet head-to-head is Warriors $1.61 and Dolphins $2.32. Overround-adjusted probabilities are approximately Warriors 59.03% and Dolphins 40.97%.","source":"Sportsbet NRL market","source_url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","decision_effect":"MAYHEM Warriors 62% is about 2.97 percentage points above normalized market probability; still below the greater-than-3-point uplift gate but now effectively on its boundary."},
+    {"fixture":"Warriors v Dolphins","classification":"VERIFIED_WEATHER","observation":"Auckland conditions remain windy. Current forecast sources place the day around 15-16C with south-westerly winds roughly in the low-to-mid 30 km/h range and low-to-moderate rain risk. Treat wind as execution variance only; no demonstrated team-specific directional edge is established.","source":"Current Auckland forecast cross-check","decision_effect":"WEATHER_VARIANCE_UP; NO_DIRECTIONAL_TEAM_EDGE"},
+    {"fixture":"Warriors v Dolphins","classification":"AUDIT_CARRY_FORWARD","observation":"The Rabbitohs failure audit is active for this unfrozen decision. Warriors confidence must not be carried forward merely because the market gate remains technically clear. The Dolphins' seven-match winning run, prior 26-24 win over the Warriors and restored Cobbo-Nikorima-Finefeuiaki group require an explicit confidence-reduction test at the next formal checkpoint.","decision_effect":"MANDATORY_COUNTER_CASE_ACTION_AT_NEXT_GATE"}
   ],
   "fixture_updates":[
     {"fixture":"Rabbitohs v Knights","selection":"Rabbitohs","confidence":69,"lifecycle":"VERIFIED_RESULT","result":"Rabbitohs 10-20 Knights","grade":"INCORRECT","failure_audit":"COMPLETED"},
-    {"fixture":"Warriors v Dolphins","normalized_market_probability":59.14,"selection":"Warriors","confidence":62,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":2.86,"checkpoint":"T-24h CAPTURED_LATE_BEFORE_KICKOFF"},
+    {"fixture":"Warriors v Dolphins","normalized_market_probability":59.03,"selection":"Warriors","confidence":62,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR_BOUNDARY","confidence_vs_market_delta_pp":2.97,"checkpoint":"Next formal capture: three hours before kickoff at 1:05 pm AEST","weather":"Windy Auckland conditions; execution variance only","counter_case":"Dolphins seven straight wins, prior 26-24 win over Warriors, restored Cobbo/Nikorima/Finefeuiaki","learning_gate":"RABBITOHS_FAILURE_AUDIT_ACTIVE"},
     {"fixture":"Sharks v Cowboys","normalized_market_probability":65.72,"selection":"Sharks","confidence":64,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":-1.72,"checkpoint":"T-24h CAPTURED_LATE_BEFORE_KICKOFF","material_player_change":"JEREMIAH_NANAI_SIGNAL_RESOLVED_VERIFIED_RETURN"},
     {"fixture":"Panthers v Roosters","normalized_market_probability":70.46,"selection":"Panthers","confidence":73,"state":"CURRENT_NOT_FROZEN","market_gate":"CLEAR","confidence_vs_market_delta_pp":2.54}
   ],
   "player_roster_statistical_coverage":{"status":"PERSISTENT_PLAYER_LAYER_COMPLETE","persistent_roster_identities":"176/176","verified_season_dossiers":168,"verified_no_completed_nrl_sample":1,"profile_data_unavailable":7},
   "information_advantage":"NONE",
   "incorrect_tip_halt":"CLEARED_BY_COMPLETED_FAILURE_AUDIT",
-  "persistence":{"availability_intelligence_commit":"9fb9cfc6c712c97369088cefc88c871a416cff41","status":"WRITE_COMPLETED_PENDING_PUBLIC_RENDER_READBACK"},
   "audit_integrity":"PRESERVED"
 }
