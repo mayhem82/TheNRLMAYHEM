@@ -1,0 +1,46 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "fixture_id":"FW1-WAR-DOL-2026-09-12",
+  "fixture":"Warriors v Dolphins",
+  "checkpoint":"T-60m",
+  "public_language":"an hour before kickoff",
+  "scheduled_at":"2026-09-12T15:05:00+10:00",
+  "captured_at":"2026-09-12T15:50:39+10:00",
+  "capture_status":"CAPTURED_LATE_BEFORE_KICKOFF",
+  "kickoff_sydney":"2026-09-12T16:05:00+10:00",
+  "lifecycle":"UPCOMING",
+  "sources_checked":[
+    {"class":"OFFICIAL_PRIMARY","source":"NRL Late Mail: Finals Week 1","url":"https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/"},
+    {"class":"OFFICIAL_PRIMARY","source":"NRL Warriors v Dolphins match preview","url":"https://www.nrl.com/news/2026/09/08/warriors-v-dolphins-ford-set-to-motor-big-three-return/"},
+    {"class":"MARKET","source":"Sportsbet NRL","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl"},
+    {"class":"WEATHER","source":"Auckland current forecast cross-check","url":"https://www.weather-atlas.com/en/new-zealand/auckland-weather-tomorrow"}
+  ],
+  "weather":{"classification":"VERIFIED_WEATHER","observation":"Auckland remains windy around the match window, about 14-15C, low rain expectation. Wind remains execution variance only; no demonstrated directional team edge.","directional_effect":"NONE"},
+  "player_effects":[
+    {"team":"Warriors","classification":"VERIFIED","observation":"Official game-day squad remains structurally settled. Jackson Ford remains on the interchange; Leka Halasima, Wayde Egan and Kurt Capewell remain in the return group.","decision_effect":"NO_CHANGE"},
+    {"team":"Dolphins","classification":"VERIFIED","observation":"Selwyn Cobbo, Kodi Nikorima and Kulikefu Finefeuiaki remain restored in the named side; no late starting-17 disruption identified at capture time.","decision_effect":"COUNTER_CASE_REMAINS_LIVE"}
+  ],
+  "player_statistical_trend_effects":[
+    "Warriors role-critical profile remains supported by James Fisher-Harris middle workload, Te Maire Martin attacking involvement and Wayde Egan defensive/creative workload from the previously verified official dossier layer.",
+    "Dolphins counter-case remains supported by previously verified official 2026 production from Isaiya Katoa, Kodi Nikorima and Hamiso Tabuai-Fidow.",
+    "No new verified per-round trend evidence at this capture materially changes the three-hours-before-kickoff assessment."
+  ],
+  "team_macro_effects":{"Warriors":"Home-final and season-differential advantages remain; no new continuity loss identified.","Dolphins":"Seven-match winning run, prior 26-24 win over Warriors and restored attacking combination remain active counterweights."},
+  "matchup_effect":"No new evidence displaces the stored Round 17 26-24 Dolphins win as a genuine counterweight only.",
+  "market":{"home_price":1.61,"away_price":2.32,"normalized_home_probability":59.03,"normalized_away_probability":40.97,"movement":"UNCHANGED_FROM_PREVIOUS_CAPTURE","causal_inference":"NONE","market_gate":"CLEAR"},
+  "evidence_family_independence":"Market is not counted as independent corroboration. Official roster state, season/venue results, official player statistics, prior head-to-head and weather remain separated.",
+  "adversarial_counter_case":"Dolphins have seven straight wins, a prior 26-24 win over the Warriors, restored Cobbo/Nikorima/Finefeuiaki continuity and verified role-critical attack. This remains sufficient to prevent confidence expansion.",
+  "information_advantage":{"classification":"NONE","candidates":[]},
+  "mayhem_inference":"Warriors retain the narrow preferred position, but the evidence does not justify moving confidence above the current 60 percent. The Dolphins counter-case remains materially credible.",
+  "decision_effect":"NO_TEAM_SWITCH_NO_CONFIDENCE_CHANGE",
+  "tip":"Warriors",
+  "confidence":60,
+  "confidence_vs_market_delta_pp":0.97,
+  "decision_state":"CURRENT_NOT_FROZEN",
+  "prediction_decomposition":["Warriors season differential and Go Media Stadium record support the preferred side.","Dolphins current winning sequence, prior head-to-head result and restored combination suppress confidence.","Market alignment provides no independent uplift.","Wind increases variance without team-specific direction."],
+  "falsification":"Reduce or switch at the final pre-match freeze if official final lists materially weaken Warriors middle/spine continuity, materially strengthen the Dolphins relative unit state, or a reliable new signal independently changes the structural comparison.",
+  "next_checkpoint":{"checkpoint":"T-10m","public_language":"ten minutes before kickoff","due_sydney":"2026-09-12T15:55:00+10:00"},
+  "audit_integrity":"PRESERVED",
+  "missed_not_captured_rule":"NOT_APPLICABLE; checkpoint captured late but before kickoff"
+}
