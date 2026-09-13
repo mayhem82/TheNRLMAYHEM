@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "stage": "FINALS_WEEK_2_EARLY_MAIL",
-  "captured_at": "2026-09-14T02:50:45+10:00",
+  "captured_at": "2026-09-14T05:31:00+10:00",
   "timezone": "Australia/Sydney",
   "records": [
     {
@@ -9,11 +9,11 @@
       "team": "Roosters",
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "VERIFIED",
-      "status": "HEAD_KNOCK_PROTOCOL_TBC_WEEK2_AVAILABILITY",
-      "observation": "Official NRL casualty reporting confirms Butcher failed his HIA against Penrith and entered the head-knock protocol. NRL.com states he is likely to be subject to the 11-day stand-down period; the casualty table lists his return as TBC.",
-      "decision_effect": "ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; TREAT_AS_STRONG_AVAILABILITY_NEGATIVE_PENDING_FORMAL_TEAM_LIST",
-      "source": "NRL Casualty Ward, 13 Sep 2026 18:54 AEST",
-      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+      "status": "WEEK2_UNAVAILABLE_REPORTED_OFFICIAL_TABLE_LAG_TBC",
+      "observation": "A fresh News.com.au finals report states the Roosters will miss Egan Butcher against Cronulla after he failed his HIA against Penrith. This materially strengthens the prior head-knock/11-day-stand-down evidence. The NRL casualty table previously carried head knock/TBC, so that older table state is retained as a source-lag conflict rather than overwritten.",
+      "decision_effect": "ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; WEEK2_AVAILABILITY_NEGATIVE_STRENGTHENED; FORMAL_TEAM_LIST_STILL_REQUIRED_FOR_ROSTER_PERSISTENCE",
+      "source": "News.com.au NRL finals report, 14 Sep 2026 + NRL Casualty Ward prior state",
+      "source_url": "https://www.news.com.au/sport/nrl/nathan-cleary-sent-to-the-sin-bin-and-facing-nervous-wait-in-dramatic-finish-to-the-first-half/news-story/fe7df63e776aa6199080273e60630545"
     },
     {
       "player": "Sam Walker",
@@ -82,5 +82,5 @@
       "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
     }
   ],
-  "integrity": "No Week 2 roster identity, tip, confidence or frozen decision is created from early-mail reporting. Egan Butcher's failed HIA/head-knock protocol is VERIFIED, while actual Week 2 selection remains unresolved until formal team-list/medical clearance evidence. Sam Walker remains unresolved against prior official season-out reporting. Dylan Lucas is explicitly CONTRADICTED by the current official casualty table and cannot be promoted to available."
+  "integrity": "No Week 2 roster identity, tip, confidence or frozen decision is created from early-mail reporting. Egan Butcher's Week 2 unavailability has materially strengthened from likely/TBC to a fresh reputable report that the Roosters will miss him, while the older official casualty-table TBC remains preserved as source lag. Sam Walker remains unresolved against prior official season-out reporting. Dylan Lucas remains contradicted by the current official casualty table."
 }
