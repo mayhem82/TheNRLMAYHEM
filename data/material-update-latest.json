@@ -2,7 +2,7 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-14T02:50:45+10:00",
+  "captured_at": "2026-09-14T05:31:00+10:00",
   "timezone": "Australia/Sydney",
   "trigger": "MATERIAL_WEEK_2_PLAYER_AVAILABILITY_CHANGE",
   "lifecycle_reconciliation": {
@@ -18,24 +18,24 @@
     "following_fixture": "Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"
   },
   "observations": [
-    {"fixture":"Roosters v Sharks","player":"Egan Butcher","classification":"VERIFIED","observation":"Official NRL reporting confirms a failed HIA and head-knock protocol; NRL.com says he is likely to be subject to the 11-day stand-down period. Casualty table return remains TBC.","decision_effect":"ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; STRONG_WEEK2_AVAILABILITY_NEGATIVE_PENDING_FORMAL_LIST"},
-    {"fixture":"Roosters v Sharks","player":"Sam Walker","classification":"SIGNAL_CONFLICT_UNRESOLVED","observation":"Current official casualty table lists ankle/TBC; possible Week 2 return reporting still conflicts with earlier official season-out reporting.","decision_effect":"NO_AVAILABILITY_PROMOTION"},
-    {"fixture":"Roosters v Sharks","player":"Angus Crichton","classification":"SIGNAL","observation":"Official casualty table carries a Finals Week 2 return marker, while early mail reports Robinson is less optimistic about his return.","decision_effect":"ROOSTERS_EDGE_AVAILABILITY_UNCERTAINTY"},
-    {"fixture":"Roosters v Sharks","player":"Braydon Trindall","classification":"VERIFIED_WEEK1_RETURN_WITH_WEEK2_MONITOR","observation":"Official NRL reporting confirms he completed Week 1 after returning from the shoulder injury but played through discomfort.","decision_effect":"SHARKS_SPINE_CONTINUITY_PROVISIONAL; SHOULDER_MONITOR_REMAINS"},
-    {"fixture":"Warriors v Knights","player":"Dylan Lucas","classification":"CONTRADICTED","observation":"Early mail suggests a possible Week 2 return, but current official NRL casualty data still lists ankle/2027.","decision_effect":"NO_AVAILABILITY_PROMOTION; OFFICIAL_CONFIRMATION_REQUIRED"}
+    {"fixture":"Roosters v Sharks","player":"Egan Butcher","classification":"VERIFIED","observation":"Fresh News.com.au reporting states the Roosters will miss Butcher against Cronulla after his failed HIA. The previously captured NRL casualty-table state of head knock/TBC is retained as source lag pending formal team-list or refreshed official confirmation.","decision_effect":"ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; WEEK2_AVAILABILITY_NEGATIVE_STRENGTHENED"},
+    {"fixture":"Roosters v Sharks","player":"Sam Walker","classification":"SIGNAL_CONFLICT_UNRESOLVED","observation":"Possible Week 2 return reporting still conflicts with earlier official season-out reporting and the current ankle/TBC casualty state.","decision_effect":"NO_AVAILABILITY_PROMOTION"},
+    {"fixture":"Roosters v Sharks","player":"Angus Crichton","classification":"SIGNAL","observation":"Return remains uncertain pending official Week 2 selection.","decision_effect":"ROOSTERS_EDGE_AVAILABILITY_UNCERTAINTY"},
+    {"fixture":"Roosters v Sharks","player":"Braydon Trindall","classification":"VERIFIED_WEEK1_RETURN_WITH_WEEK2_MONITOR","observation":"Completed Week 1 after shoulder return; Week 2 shoulder monitor remains.","decision_effect":"SHARKS_SPINE_CONTINUITY_PROVISIONAL"},
+    {"fixture":"Warriors v Knights","player":"Dylan Lucas","classification":"CONTRADICTED","observation":"Possible return reporting remains contradicted by the captured official casualty-table 2027 return state.","decision_effect":"NO_AVAILABILITY_PROMOTION"}
   ],
   "fixture_updates": [
-    {"fixture_id":"W2-ROO-SHA-2026-09-19","fixture":"Roosters v Sharks","lifecycle":"UPCOMING","venue":"Allianz Stadium","kickoff_sydney":"2026-09-19T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"EGAN_BUTCHER_HEAD_KNOCK_PROTOCOL_PLUS_EXISTING_AVAILABILITY_CONFLICTS"},
-    {"fixture_id":"W2-WAR-NKN-2026-09-20","fixture":"Warriors v Knights","lifecycle":"UPCOMING","venue":"Eden Park","kickoff_sydney":"2026-09-20T16:05:00+10:00","kickoff_local_nz":"2026-09-20T18:05:00+12:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"DYLAN_LUCAS_SOURCE_CONTRADICTION_REMAINS_UNRESOLVED"}
+    {"fixture_id":"W2-ROO-SHA-2026-09-19","fixture":"Roosters v Sharks","lifecycle":"UPCOMING","venue":"Allianz Stadium","kickoff_sydney":"2026-09-19T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"EGAN_BUTCHER_WEEK2_UNAVAILABILITY_REPORT_STRENGTHENS_PRIOR_HEAD_KNOCK_TBC_STATE"},
+    {"fixture_id":"W2-WAR-NKN-2026-09-20","fixture":"Warriors v Knights","lifecycle":"UPCOMING","venue":"Eden Park","kickoff_sydney":"2026-09-20T16:05:00+10:00","kickoff_local_nz":"2026-09-20T18:05:00+12:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"NO_NEW_MATERIAL_CHANGE_THIS_CYCLE"}
   ],
   "weather_state": "NO_CHECKPOINT_DUE; no material forecast change promoted this cycle.",
   "market_state": "NO_CHECKPOINT_DUE; no reliable two-sided Week 2 market state promoted this cycle.",
-  "player_state": "Week 2 signal supplement updated in place. Egan Butcher head-knock protocol is verified; actual Week 2 roster selection remains unresolved until official team lists.",
+  "player_state": "Egan Butcher Week 2 availability negative strengthened by fresh reputable reporting; formal Week 2 team-list persistence remains pending.",
   "learning_state": "NO_NEW_LEARNED_WEIGHT",
   "information_advantage": "NO_CHANGE",
   "audit_integrity": "PRESERVED",
   "persistence": {
-    "material_record": "data/material-update-w2-roo-sha-egan-butcher-2026-09-14-025045-aest.json",
+    "material_record": "data/material-update-w2-roo-sha-egan-butcher-2026-09-14-053100-aest.json",
     "player_signal_supplement": "data/player-intelligence-finals-week2-signals-2026-09-13.json",
     "player_manifest": "UNCHANGED_PATH_ALREADY_REGISTERED"
   }
