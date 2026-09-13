@@ -1,0 +1,96 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-13T21:21:43+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_WEEK_2_PLAYER_EARLY_MAIL_CHANGE",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
+    "completed_week_1": [
+      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
+      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
+      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
+      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
+    ],
+    "active_fixture": null,
+    "next_fixture": "Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium",
+    "following_fixture": "Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"
+  },
+  "observations": [
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Sam Walker",
+      "classification": "SIGNAL_CONTRADICTS_PRIOR_VERIFIED_STATE",
+      "observation": "Daily Telegraph early mail reports a possible Week 2 return from ankle surgery, conflicting with the earlier official Finals Week 1 state that Walker was unavailable for the remainder of 2026.",
+      "decision_effect": "ROOSTERS_SPINE_UNCERTAINTY_UP; OFFICIAL_CONFIRMATION_REQUIRED"
+    },
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Angus Crichton",
+      "classification": "SIGNAL",
+      "observation": "Early mail reports Trent Robinson is less optimistic about Crichton's Week 2 return from his foot injury.",
+      "decision_effect": "ROOSTERS_EDGE_AVAILABILITY_UNCERTAINTY"
+    },
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Braydon Trindall",
+      "classification": "SIGNAL_WITH_PRIMARY_WEEK1_RETURN_CONFIRMED",
+      "observation": "Early mail reports his shoulder remains a monitor but he is expected to play; Sharks official reporting confirms he returned and played in the Week 1 win.",
+      "decision_effect": "SHARKS_SPINE_CONTINUITY_PROVISIONAL"
+    },
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Ronaldo Mulitalo",
+      "classification": "SIGNAL",
+      "observation": "Early mail reports a hand issue but expects him to play.",
+      "decision_effect": "SHARKS_BACKLINE_AVAILABILITY_UNCERTAINTY"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "player": "Dylan Lucas",
+      "classification": "SIGNAL",
+      "observation": "Early mail reports a possible return from ankle dislocation. Low recent sample is treated as uncertainty/variance, not directional uplift.",
+      "decision_effect": "KNIGHTS_EDGE_DEPTH_UNCERTAINTY"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "player": "Tyson Frizell",
+      "classification": "SIGNAL",
+      "observation": "Early mail reports Newcastle is monitoring a hamstring issue and expects Frizell to be available.",
+      "decision_effect": "KNIGHTS_MIDDLE_CONTINUITY_PROVISIONAL"
+    }
+  ],
+  "sources": [
+    "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65",
+    "https://www.sharks.com.au/news/2026/09/12/cronulla-through-to-nrl-finals-week-2/"
+  ],
+  "fixture_updates": [
+    {
+      "fixture_id": "W2-ROO-SHA-2026-09-19",
+      "fixture": "Roosters v Sharks",
+      "lifecycle": "UPCOMING",
+      "next_checkpoint": "T-24h",
+      "next_checkpoint_due_sydney": "2026-09-18T19:50:00+10:00",
+      "decision_state": "UNFROZEN",
+      "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
+      "material_change": "PLAYER_AVAILABILITY_EARLY_MAIL_SIGNAL_CLUSTER"
+    },
+    {
+      "fixture_id": "W2-WAR-NKN-2026-09-20",
+      "fixture": "Warriors v Knights",
+      "lifecycle": "UPCOMING",
+      "next_checkpoint": "T-24h",
+      "next_checkpoint_due_sydney": "2026-09-19T16:05:00+10:00",
+      "decision_state": "UNFROZEN",
+      "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
+      "material_change": "KNIGHTS_PLAYER_AVAILABILITY_EARLY_MAIL_SIGNALS_PLUS_EXISTING_WARRIORS_INJURY_BURDEN"
+    }
+  ],
+  "weather_state": "NO_CHECKPOINT_DUE; no material forecast change promoted this cycle.",
+  "market_state": "NO_CHECKPOINT_DUE; no reliable two-sided Week 2 market state promoted this cycle.",
+  "player_state": "Signals persisted in data/player-intelligence-finals-week2-signals-2026-09-13.json and registered in the player-data manifest. No official Week 2 roster is inferred.",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT; no outcome or audit event occurred.",
+  "information_advantage": "NO_CHANGE",
+  "audit_integrity": "PRESERVED"
+}
