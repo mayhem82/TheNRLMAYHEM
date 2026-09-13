@@ -1,0 +1,32 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T05:31:00+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_PLAYER_AVAILABILITY_CHANGE",
+  "fixture_id": "W2-ROO-SHA-2026-09-19",
+  "fixture": "Roosters v Sharks",
+  "lifecycle": "UPCOMING",
+  "observation": {
+    "player": "Egan Butcher",
+    "classification": "VERIFIED",
+    "status": "WEEK2_UNAVAILABLE_REPORTED_OFFICIAL_TABLE_LAG_TBC",
+    "fact": "News.com.au reports the Roosters will miss Egan Butcher against Cronulla after he failed his HIA against Penrith.",
+    "conflict": "The previously captured NRL casualty table state was head knock/TBC; that older state is retained as source lag pending formal team-list or refreshed official casualty confirmation.",
+    "decision_effect": "ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; WEEK2_AVAILABILITY_NEGATIVE_STRENGTHENED"
+  },
+  "source": {
+    "class": "REPUTABLE_SPORTS_MEDIA",
+    "publisher": "News.com.au",
+    "published_date": "2026-09-14",
+    "url": "https://www.news.com.au/sport/nrl/nathan-cleary-sent-to-the-sin-bin-and-facing-nervous-wait-in-dramatic-finish-to-the-first-half/news-story/fe7df63e776aa6199080273e60630545"
+  },
+  "decision_state": "UNFROZEN",
+  "tip": null,
+  "confidence": null,
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NO_CHANGE",
+  "audit_integrity": "PRESERVED",
+  "next_checkpoint": "T-24h — 2026-09-18T19:50:00+10:00"
+}
