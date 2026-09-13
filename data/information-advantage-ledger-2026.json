@@ -1,7 +1,7 @@
 {
   "season":2026,
   "architecture":"INFORMATION_ADVANTAGE_LEDGER",
-  "updated_at":"2026-09-12T22:27:39+10:00",
+  "updated_at":"2026-09-13T18:26:19+10:00",
   "advantage_classes":["NONE","POSSIBLE","CORROBORATED","DEMONSTRATED"],
   "required_fields":["fixture","signal","public_available_at","captured_at","source_class","fragments","inference","market_state_at_capture","market_response_at","decision_effect","frozen_state","outcome_validation","advantage_class"],
   "events":[
@@ -67,6 +67,22 @@
       "decision_effect":"NO_DIRECTIONAL_CHANGE",
       "frozen_state":"No genuine T-10 frozen probability; Sharks 64% genuine pre-match selection preserved",
       "outcome_validation":"Sharks won 26-16. Correct outcome alone does not establish information advantage and no post-result probability was backfilled.",
+      "advantage_class":"NONE"
+    },
+    {
+      "event_id":"IA-FW1-PEN-SYD-001",
+      "fixture":"Panthers v Roosters",
+      "signal":"MAYHEM retained Penrith after explicitly reducing confidence for late roster disruption and a market reference that placed the selection above market but below the mandatory three-percentage-point uplift threshold.",
+      "public_available_at":"2026-09-13T15:37:43+10:00 or earlier",
+      "captured_at":"2026-09-13T15:37:43+10:00",
+      "source_class":"MIXED_OFFICIAL_ROSTER_MARKET_OBSERVATION",
+      "fragments":["MAYHEM Panthers 72%","last reliable normalized market Panthers approximately 69.51%","MAYHEM delta +2.49 percentage points","Luke Garner OUT and Penrith positional reshuffle","Round 24 same-venue Roosters 12-6 win retained as counter-case","T-10 MISSED_NOT_CAPTURED"],
+      "inference":"The pre-match selection survived the switch-or-reduce test but did not demonstrate an independently timed information edge over the market. The market and MAYHEM remained broadly aligned.",
+      "market_state_at_capture":"Panthers $1.36 / Roosters $3.10; normalized Panthers probability approximately 69.51%",
+      "market_response_at":null,
+      "decision_effect":"CONFIDENCE_REDUCED_FROM_73_TO_72; SELECTION_RETAINED",
+      "frozen_state":"No genuine T-10 frozen probability; Panthers 72% genuine T-60 pre-match selection preserved",
+      "outcome_validation":"Panthers won 19-12. Correct outcome alone does not establish information advantage; no post-result probability or causal edge is backfilled.",
       "advantage_class":"NONE"
     }
   ],
