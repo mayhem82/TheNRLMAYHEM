@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "stage": "FINALS_WEEK_2_EARLY_MAIL",
-  "captured_at": "2026-09-14T08:11:59+10:00",
+  "captured_at": "2026-09-14T08:55:06+10:00",
   "timezone": "Australia/Sydney",
   "records": [
     {
@@ -10,10 +10,10 @@
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "VERIFIED",
       "status": "WEEK2_UNAVAILABLE_REPORTED_OFFICIAL_TABLE_LAG_TBC",
-      "observation": "A fresh News.com.au finals report states the Roosters will miss Egan Butcher against Cronulla after he failed his HIA against Penrith. This materially strengthens the prior head-knock/11-day-stand-down evidence. The NRL casualty table previously carried head knock/TBC, so that older table state is retained as a source-lag conflict rather than overwritten.",
-      "decision_effect": "ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; WEEK2_AVAILABILITY_NEGATIVE_STRENGTHENED; FORMAL_TEAM_LIST_STILL_REQUIRED_FOR_ROSTER_PERSISTENCE",
-      "source": "News.com.au NRL finals report, 14 Sep 2026 + NRL Casualty Ward prior state",
-      "source_url": "https://www.news.com.au/sport/nrl/nathan-cleary-sent-to-the-sin-bin-and-facing-nervous-wait-in-dramatic-finish-to-the-first-half/news-story/fe7df63e776aa6199080273e60630545"
+      "observation": "NRL.com confirms Butcher failed his HIA against Penrith and entered the head-knock protocol, with the 11-day stand-down likely. Fresh Week 2 reporting states the Roosters will be forced into at least one change and Butcher is ruled out.",
+      "decision_effect": "ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; FORMAL_TEAM_LIST_RECONCILIATION_PENDING",
+      "source": "NRL.com Casualty Ward + Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     },
     {
       "player": "Sam Walker",
@@ -21,10 +21,10 @@
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "SIGNAL",
       "status": "POSSIBLE_RETURN_CONTRADICTS_PRIOR_OUT_FOR_SEASON_STATE",
-      "observation": "Daily Telegraph early mail now includes direct coach-level evidence that Trent Robinson has not ruled out Walker returning from ankle surgery for Week 2. This strengthens the possible-return signal but still conflicts with earlier season-out reporting and does not constitute official selection or medical clearance.",
+      "observation": "Trent Robinson has not ruled out Walker returning from ankle surgery and Walker has reportedly been sighted running at training. This remains incompatible with earlier season-out evidence and does not establish selection or clearance.",
       "decision_effect": "ROOSTERS_SPINE_UNCERTAINTY_UP; DO_NOT_PROMOTE_TO_AVAILABLE_WITHOUT_OFFICIAL_CONFIRMATION",
-      "source": "Daily Telegraph NRL Finals Early Mail, 14 Sep 2026 + prior official NRL casualty state",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026 + prior official NRL casualty state",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
     },
     {
       "player": "Angus Crichton",
@@ -32,31 +32,53 @@
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "SIGNAL",
       "status": "RETURN_UNCERTAIN",
-      "observation": "Early mail reports Trent Robinson is less optimistic about Crichton's return from his foot injury for Week 2. Current official NRL casualty data carries a Finals Week 2 return marker, which is a target state rather than confirmed selection.",
+      "observation": "Butcher's absence opens a possible route back for Crichton from his foot injury, but Robinson said he did not know whether Crichton would be available. No selection is assumed.",
       "decision_effect": "ROOSTERS_EDGE_AVAILABILITY_UNCERTAINTY",
-      "source": "Daily Telegraph early mail + NRL Casualty Ward, 13-14 Sep 2026",
-      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
     },
     {
       "player": "Siua Wong",
       "team": "Roosters",
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "SIGNAL",
-      "status": "INJURY_MONITOR_DETAIL_NOT_YET_OFFICIALLY_RESOLVED",
-      "observation": "Fresh Finals Week 2 early mail reports Siua Wong is nursing an injury after the Penrith final. The available report does not establish a confirmed Week 2 withdrawal or sufficiently precise medical detail, so MAYHEM retains this as an availability monitor only.",
+      "status": "RIBS_AVAILABILITY_MONITOR",
+      "observation": "Fresh Week 2 reporting identifies Wong's injury concern specifically as ribs after the Penrith loss. No confirmed withdrawal, severity or return timetable is established.",
       "decision_effect": "ROOSTERS_EDGE_ROTATION_UNCERTAINTY_UP; NO_DIRECTIONAL_PLAYER_PRODUCTION_EFFECT_WITHOUT_TEAM_LIST_OR_CLEARANCE",
-      "source": "Daily Telegraph NRL Finals Early Mail, 14 Sep 2026",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "source": "Sporting News Finals Week 2 predicted teams, updated 14 Sep 2026",
+      "source_url": "https://www.sportingnews.com/au/rugby-league/news/nrl-team-lists-finals-week-2-2026-lineups-injuries-results/885175820ceb3f19dab1ddf9"
+    },
+    {
+      "player": "Lindsay Collins",
+      "team": "Roosters",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "LEG_AVAILABILITY_MONITOR",
+      "observation": "Fresh Week 2 reporting says Collins took a leg knock in the loss to Penrith and may be in doubt depending on recovery during the week. No confirmed withdrawal is established.",
+      "decision_effect": "ROOSTERS_MIDDLE_CONTINUITY_UNCERTAINTY_UP",
+      "source": "Sporting News Finals Week 2 predicted teams, updated 14 Sep 2026",
+      "source_url": "https://www.sportingnews.com/au/rugby-league/news/nrl-team-lists-finals-week-2-2026-lineups-injuries-results/885175820ceb3f19dab1ddf9"
+    },
+    {
+      "player": "Salesi Foketi",
+      "team": "Roosters",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "RECOVERY_MONITOR_FLU",
+      "observation": "Robinson said Foketi had flu through the previous week and there had been a significant chance he would miss the Penrith game. Week 2 reporting expects him back to full fitness, but formal selection remains pending.",
+      "decision_effect": "ROOSTERS_EDGE_CONTINUITY_PROVISIONAL",
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
     },
     {
       "player": "Braydon Trindall",
       "team": "Sharks",
       "fixture": "Roosters v Sharks — Finals Week 2",
-      "classification": "SIGNAL",
+      "classification": "VERIFIED_WEEK1_RETURN_WITH_WEEK2_MONITOR",
       "status": "EXPECTED_AVAILABLE_SHOULDER_MONITOR",
-      "observation": "Early mail reports Trindall is managing a shoulder issue but is expected to play. Sharks official reporting confirms he returned from a shoulder injury and played in the Week 1 win over North Queensland. NRL casualty reporting confirms he completed the match despite ongoing shoulder discomfort.",
+      "observation": "Trindall completed the Week 1 elimination final after returning from a right shoulder injury. Post-match he reported he pulled up all right, while acknowledging strapping and a brace restricted movement. Week 2 availability remains expected rather than frozen before the team list.",
       "decision_effect": "SHARKS_SPINE_CONTINUITY_PROVISIONAL; MONITOR_OFFICIAL_TEAM_LIST",
-      "source": "Daily Telegraph early mail + Sharks official Week 1 report + NRL Casualty Ward",
+      "source": "NRL.com Casualty Ward + Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
       "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     },
     {
@@ -65,10 +87,32 @@
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "SIGNAL",
       "status": "EXPECTED_AVAILABLE_HAND_MONITOR",
-      "observation": "Early mail reports Mulitalo is managing a hand issue but is expected to play Week 2.",
-      "decision_effect": "SHARKS_BACKLINE_AVAILABILITY_UNCERTAINTY",
-      "source": "Daily Telegraph NRL Finals Early Mail, 13-14 Sep 2026",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "observation": "Mulitalo reports a ligament-and-bone thumb injury but says he is in no doubt for the remainder of the finals. This is an expected-availability signal, not medical clearance.",
+      "decision_effect": "SHARKS_BACKLINE_CONTINUITY_PROVISIONAL",
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
+    },
+    {
+      "player": "Sione Katoa",
+      "team": "Sharks",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "VERIFIED",
+      "status": "WEEK1_HIA_PASSED_RETURNED_TO_FIELD",
+      "observation": "Katoa underwent an HIA early in the Week 1 elimination final and returned to the field after passing it. No Week 2 withdrawal evidence is currently established.",
+      "decision_effect": "SHARKS_BACKLINE_CONTINUITY_PROVISIONAL; CONTINUE_STANDARD_MONITORING",
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
+    },
+    {
+      "player": "Mawene Hiroti",
+      "team": "Sharks",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "POSSIBLE_RETURN_RIBS",
+      "observation": "Hiroti is reported as a possible recall from a ribs issue after being named in the Week 1 reserves. This is not an official Week 2 selection.",
+      "decision_effect": "SHARKS_CENTRE_DEPTH_OPTION_UP; NO_STARTING_ROLE_ASSUMPTION",
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
     },
     {
       "player": "Leka Halasima",
@@ -76,9 +120,20 @@
       "fixture": "Warriors v Knights — Finals Week 2",
       "classification": "CONTRADICTED",
       "status": "OFFICIAL_SOURCE_INTERNAL_CONFLICT_WEEK2_RETURN_TARGET",
-      "observation": "The current official NRL casualty table lists Halasima as ankle — Finals Week 2, while the narrative text in the same NRL casualty article states he was ruled out in the qualifying-final warm-up with a hamstring injury. The Week 2 return marker materially improves the availability outlook compared with earlier expected-miss reporting, but the injury-type contradiction prevents a clean medical-state classification.",
-      "decision_effect": "WARRIORS_MIDDLE_EDGE_AVAILABILITY_OUTLOOK_UP_FROM_PRIOR_EXPECTED_MISS; INJURY_TYPE_CONFLICT_UNRESOLVED; NO_AVAILABLE_PROMOTION_BEFORE_TEAM_LIST_OR_CLUB_CONFIRMATION",
-      "source": "NRL.com Casualty Ward, captured 14 Sep 2026",
+      "observation": "The current official NRL casualty table lists Halasima as ankle — Finals Week 2, while the narrative text in the same NRL casualty article states he was ruled out in the qualifying-final warm-up with a hamstring injury. Separate Week 2 reporting also describes the warm-up injury as hamstring and says the eight-day turnaround makes an immediate return difficult.",
+      "decision_effect": "WARRIORS_MIDDLE_EDGE_AVAILABILITY_OUTLOOK_UNCERTAIN; INJURY_TYPE_CONFLICT_UNRESOLVED; NO_AVAILABLE_PROMOTION_BEFORE_TEAM_LIST_OR_CLUB_CONFIRMATION",
+      "source": "NRL.com Casualty Ward + Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+    },
+    {
+      "player": "Jackson Ford",
+      "team": "Warriors",
+      "fixture": "Warriors v Knights — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "ANKLE_SCAN_PENDING_LONG_ODDS_REPORTED",
+      "observation": "NRL.com verifies Ford left the Dolphins final with an ankle injury and could not return. Fresh Week 2 reporting says scan results are awaited and he is considered long odds to play, with multi-week absence feared. No final diagnosis or official Week 2 withdrawal is yet persisted.",
+      "decision_effect": "WARRIORS_MIDDLE_EDGE_CONTINUITY_DOWN_PROVISIONALLY; TEAM_LIST_OR_CLUB_SCAN_UPDATE_REQUIRED",
+      "source": "NRL.com Casualty Ward + Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
       "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     },
     {
@@ -86,11 +141,22 @@
       "team": "Warriors",
       "fixture": "Warriors v Knights — Finals Week 2",
       "classification": "SIGNAL",
-      "status": "WEEK2_AVAILABILITY_MONITOR",
-      "observation": "Fresh Finals Week 2 early mail identifies Jacob Laban among the Warriors injury concerns after the qualifying final. The available evidence does not establish a confirmed withdrawal or a sufficiently precise injury diagnosis, so no hidden cause, severity or return date is inferred.",
+      "status": "KNEE_AVAILABILITY_MONITOR",
+      "observation": "Fresh Week 2 reporting identifies Laban's concern specifically as a knee issue after he was seen in pain during the Dolphins final. No confirmed withdrawal, diagnosis severity or return date is established.",
       "decision_effect": "WARRIORS_EDGE_FORWARD_CONTINUITY_UNCERTAINTY_UP; FORMAL_TEAM_LIST_OR_CLUB_UPDATE_REQUIRED",
-      "source": "Daily Telegraph NRL Finals Early Mail, 14 Sep 2026",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
+    },
+    {
+      "player": "Dallin Watene-Zelezniak",
+      "team": "Warriors",
+      "fixture": "Warriors v Knights — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_RETURN_BROKEN_COLLARBONE",
+      "observation": "Fresh Week 2 reporting expects Watene-Zelezniak to return from a broken collarbone and move directly into the starting side. This remains predicted team news until official selection is published.",
+      "decision_effect": "WARRIORS_BACKLINE_AVAILABILITY_OUTLOOK_UP; POSSIBLE_CNK_CENTRE_ROLE_CHANGE; NO_ROLE_PROMOTION_BEFORE_TEAM_LIST",
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
     },
     {
       "player": "Dylan Lucas",
@@ -98,10 +164,10 @@
       "fixture": "Warriors v Knights — Finals Week 2",
       "classification": "CONTRADICTED",
       "status": "POSSIBLE_RETURN_REPORTED_BUT_OFFICIAL_CASUALTY_TABLE_STILL_2027",
-      "observation": "Early mail reports Lucas could return from an ankle dislocation for Week 2, but current official NRL casualty data still lists his ankle return as 2027. No availability or directional production uplift is assigned until the conflict is resolved by newer official selection or club evidence.",
-      "decision_effect": "KNIGHTS_EDGE_DEPTH_UNCERTAINTY; LOW_SAMPLE_VARIANCE; OFFICIAL_CONFIRMATION_REQUIRED",
-      "source": "Daily Telegraph early mail + NRL Casualty Ward, 13-14 Sep 2026",
-      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+      "observation": "Multiple reports now describe Lucas as a strong chance to be named after eight weeks out from an ankle fracture-dislocation, but current official casualty data previously listed a 2027 return. No availability or production uplift is assigned until newer official selection or club evidence resolves the conflict.",
+      "decision_effect": "KNIGHTS_EDGE_DEPTH_UNCERTAINTY; LOW_SAMPLE_RETURN_VARIANCE; OFFICIAL_CONFIRMATION_REQUIRED",
+      "source": "Fox Sports Finals Week 2 Team Tips + prior NRL Casualty Ward state, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
     },
     {
       "player": "Tyson Frizell",
@@ -109,11 +175,22 @@
       "fixture": "Warriors v Knights — Finals Week 2",
       "classification": "SIGNAL",
       "status": "EXPECTED_AVAILABLE_HAMSTRING_MONITOR",
-      "observation": "Early mail reports Newcastle is monitoring Frizell's hamstring and expects him to be available.",
+      "observation": "Frizell had hamstring tightness and ice on the lower leg after Week 1, but current Week 2 reporting expects him to play.",
       "decision_effect": "KNIGHTS_MIDDLE_CONTINUITY_PROVISIONAL",
-      "source": "Daily Telegraph NRL Finals Early Mail, 13-14 Sep 2026",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
+    },
+    {
+      "player": "Jermaine McEwen",
+      "team": "Knights",
+      "fixture": "Warriors v Knights — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_AVAILABLE_POST_CRAMP",
+      "observation": "McEwen did not finish the Rabbitohs match because of cramps, but current Week 2 reporting expects him to play.",
+      "decision_effect": "KNIGHTS_EDGE_CONTINUITY_PROVISIONAL",
+      "source": "Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
     }
   ],
-  "integrity": "No Week 2 roster identity, tip, confidence or frozen decision is created from early-mail reporting. Egan Butcher remains a strengthened Week 2 unavailability negative subject to formal team-list reconciliation. Sam Walker remains unresolved despite stronger coach-level possible-return evidence. Leka Halasima now carries a material official-source conflict: the casualty table targets Finals Week 2 and labels ankle, while the same official article narrative says hamstring; no medical explanation is inferred and no available promotion occurs before team-list or club confirmation. Siua Wong and Jacob Laban remain availability signals only. Dylan Lucas remains contradicted by the current official casualty table."
+  "integrity": "No Week 2 official roster identity, tip, confidence or frozen decision is created from predicted-team reporting. New injury labels are persisted only where a source states them. Egan Butcher remains a Week 2 unavailability negative; Sam Walker and Dylan Lucas remain unresolved contradictions; Siua Wong (ribs), Lindsay Collins (leg), Jacob Laban (knee) and Jackson Ford (ankle) are availability monitors; Dallin Watene-Zelezniak is an expected-return signal only."
 }
