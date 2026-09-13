@@ -1,42 +1,143 @@
 {
-  "snapshot": "FW1-PEN-SYD-CURRENT-ROSTER-OVERLAY-2026-09-13T095530+1000",
-  "captured_at": "2026-09-13T09:55:30+10:00",
+  "snapshot": "FW1-PEN-SYD-CURRENT-ROSTER-OVERLAY-2026-09-13T153743+1000",
+  "captured_at": "2026-09-13T15:37:43+10:00",
   "fixture_id": "FW1-PEN-SYD",
   "fixture": "Panthers v Roosters — Finals Week 1",
   "classification": "VERIFIED",
-  "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
-  "purpose": "Persistent current-state overlay for verified late-mail changes that supersede the original Finals Week 1 team-list baseline without rewriting historical roster capture.",
+  "sources": [
+    "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+    "https://www.penrithpanthers.com.au/news/2026/09/13/nrl-team-list-finals-week-13/",
+    "https://www.roosters.com.au/news/2026/09/13/late-mail--qualifying-final/"
+  ],
+  "purpose": "Persistent current-state overlay for final late-mail roles and withdrawals that supersede the original Finals Week 1 team-list baseline without rewriting historical roster capture.",
   "records": [
     {
-      "player": "Angus Crichton",
-      "team": "Roosters",
-      "position_context": "Second Row / late withdrawal",
-      "fixture": "Panthers v Roosters — Finals Week 1",
-      "captured_at": "2026-09-13T09:55:30+10:00",
+      "player": "Luke Garner",
+      "team": "Panthers",
+      "position_context": "Centre / late withdrawal",
       "classification": "VERIFIED",
       "status": "OUT",
-      "observation": "Official NRL late mail states Angus Crichton has been ruled out after failing to overcome a foot injury.",
-      "record_type": "ROSTER_LATE_MAIL_CURRENT",
+      "observation": "Official Panthers and NRL late mail state Luke Garner has been ruled out with a minor groin strain.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.penrithpanthers.com.au/news/2026/09/13/nrl-team-list-finals-week-13/",
+      "medical_inference": "NONE_BEYOND_PUBLISHED_WORDING"
+    },
+    {
+      "player": "Blaize Talagi",
+      "team": "Panthers",
+      "position_context": "Centre",
+      "classification": "VERIFIED",
+      "status": "NAMED_STARTER",
+      "jersey": 18,
+      "observation": "Official final team lists move Blaize Talagi into the centres.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/"
+    },
+    {
+      "player": "Isaah Yeo",
+      "team": "Panthers",
+      "position_context": "Interchange",
+      "classification": "VERIFIED",
+      "status": "NAMED_INTERCHANGE",
+      "jersey": 13,
+      "observation": "Official NRL late mail shifts Isaah Yeo from starting lock to the interchange.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
       "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
       "medical_inference": "NONE"
     },
     {
-      "player": "Egan Butcher",
-      "team": "Roosters",
-      "position_context": "Interchange",
-      "fixture": "Panthers v Roosters — Finals Week 1",
-      "captured_at": "2026-09-13T09:55:30+10:00",
+      "player": "Liam Henry",
+      "team": "Panthers",
+      "position_context": "Prop",
+      "classification": "VERIFIED",
+      "status": "NAMED_STARTER",
+      "jersey": 16,
+      "observation": "Official final team list has Liam Henry starting at prop.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/"
+    },
+    {
+      "player": "Lindsay Smith",
+      "team": "Panthers",
+      "position_context": "Lock",
+      "classification": "VERIFIED",
+      "status": "NAMED_STARTER",
+      "jersey": 10,
+      "observation": "Official final team list moves Lindsay Smith to lock.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/"
+    },
+    {
+      "player": "Jesse McLean",
+      "team": "Panthers",
+      "position_context": "Interchange / final six-man bench",
       "classification": "VERIFIED",
       "status": "NAMED_INTERCHANGE",
-      "observation": "Official NRL late mail lists Egan Butcher on the interchange in jersey 20 after Angus Crichton was ruled out.",
-      "record_type": "ROSTER_LATE_MAIL_CURRENT",
+      "jersey": 22,
+      "observation": "Official final team list adds Jesse McLean to the final six-man bench.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/"
+    },
+    {
+      "player": "Scott Sorensen",
+      "team": "Panthers",
+      "position_context": "Interchange",
+      "classification": "VERIFIED",
+      "status": "NAMED_INTERCHANGE",
+      "jersey": 15,
+      "observation": "Scott Sorensen is confirmed on the final six-man bench.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/"
+    },
+    {
+      "player": "Angus Crichton",
+      "team": "Roosters",
+      "position_context": "Second Row / withdrawal",
+      "classification": "VERIFIED",
+      "status": "OUT",
+      "observation": "Official NRL late mail states Angus Crichton remains ruled out after failing to overcome a foot injury.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
       "source": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
-      "jersey": 20
+      "medical_inference": "NONE_BEYOND_PUBLISHED_WORDING"
+    },
+    {
+      "player": "Egan Butcher",
+      "team": "Roosters",
+      "position_context": "Second Row",
+      "classification": "VERIFIED",
+      "status": "NAMED_STARTER",
+      "jersey": 20,
+      "observation": "Official Roosters late mail confirms Egan Butcher starts in the second row.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.roosters.com.au/news/2026/09/13/late-mail--qualifying-final/"
+    },
+    {
+      "player": "Salesi Foketi",
+      "team": "Roosters",
+      "position_context": "Interchange",
+      "classification": "VERIFIED",
+      "status": "NAMED_INTERCHANGE",
+      "jersey": 11,
+      "observation": "Official Roosters late mail moves Salesi Foketi to the interchange.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.roosters.com.au/news/2026/09/13/late-mail--qualifying-final/"
+    },
+    {
+      "player": "Taylor Losalu",
+      "team": "Roosters",
+      "position_context": "Final squad trim",
+      "classification": "VERIFIED",
+      "status": "DROPPED_FROM_FINAL_SQUAD",
+      "observation": "Official Roosters late mail states Taylor Losalu drops out of the squad.",
+      "record_type": "ROSTER_FINAL_LATE_MAIL_CURRENT",
+      "source": "https://www.roosters.com.au/news/2026/09/13/late-mail--qualifying-final/"
     }
   ],
   "integrity": {
     "historical_baseline_preserved": true,
-    "supersedes_public_current_state_for_named_players": true,
+    "persistent_named_player_identity_preserved": true,
+    "final_match_day_roles_supersede_public_current_state": true,
+    "players_out_or_trimmed_remain_visible": true,
     "guessing_prohibited": true
   }
 }
