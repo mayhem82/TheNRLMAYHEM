@@ -1,0 +1,98 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T08:55:06+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_PLAYER_PROFILE_AND_AVAILABILITY_DETAIL_CHANGE",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
+    "completed_week_1": [
+      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
+      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
+      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
+      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
+    ],
+    "active_fixture": null,
+    "next_fixture": "Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium",
+    "following_fixture": "Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"
+  },
+  "material_changes": [
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Siua Wong",
+      "classification": "SIGNAL",
+      "new_detail": "Ribs identified as the Week 2 injury concern; no confirmed withdrawal.",
+      "decision_effect": "ROOSTERS_EDGE_ROTATION_UNCERTAINTY_UP"
+    },
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Lindsay Collins",
+      "classification": "SIGNAL",
+      "new_detail": "Leg knock from the Penrith loss; Week 2 availability requires monitoring.",
+      "decision_effect": "ROOSTERS_MIDDLE_CONTINUITY_UNCERTAINTY_UP"
+    },
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Sione Katoa",
+      "classification": "VERIFIED",
+      "new_detail": "Passed Week 1 HIA and returned to the field; no current Week 2 withdrawal evidence.",
+      "decision_effect": "SHARKS_BACKLINE_CONTINUITY_PROVISIONAL"
+    },
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Mawene Hiroti",
+      "classification": "SIGNAL",
+      "new_detail": "Possible recall from ribs issue after Week 1 reserve status.",
+      "decision_effect": "SHARKS_CENTRE_DEPTH_OPTION_UP"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "player": "Jacob Laban",
+      "classification": "SIGNAL",
+      "new_detail": "Knee identified as the injury concern; withdrawal and severity remain unconfirmed.",
+      "decision_effect": "WARRIORS_EDGE_FORWARD_CONTINUITY_UNCERTAINTY_UP"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "player": "Dallin Watene-Zelezniak",
+      "classification": "SIGNAL",
+      "new_detail": "Expected return from broken collarbone; predicted starting role remains unverified until official team list.",
+      "decision_effect": "WARRIORS_BACKLINE_AVAILABILITY_OUTLOOK_UP"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "player": "Jackson Ford",
+      "classification": "SIGNAL",
+      "new_detail": "Fresh reporting says scans are awaited and he is long odds to play after the verified Week 1 ankle injury.",
+      "decision_effect": "WARRIORS_MIDDLE_EDGE_CONTINUITY_DOWN_PROVISIONALLY"
+    }
+  ],
+  "sources": [
+    {
+      "class": "OFFICIAL_LEAGUE",
+      "name": "NRL.com Casualty Ward",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+      "captured": "2026-09-14T08:55:06+10:00"
+    },
+    {
+      "class": "REPUTABLE_SPORTS_MEDIA",
+      "name": "Fox Sports Finals Week 2 Team Tips",
+      "url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245",
+      "published": "2026-09-14T06:49:00+10:00",
+      "captured": "2026-09-14T08:55:06+10:00"
+    },
+    {
+      "class": "REPUTABLE_SPORTS_MEDIA",
+      "name": "Sporting News Finals Week 2 predicted teams",
+      "url": "https://www.sportingnews.com/au/rugby-league/news/nrl-team-lists-finals-week-2-2026-lineups-injuries-results/885175820ceb3f19dab1ddf9",
+      "captured": "2026-09-14T08:55:06+10:00"
+    }
+  ],
+  "weather_state": "NO_CHECKPOINT_DUE; weather not promoted into a decision.",
+  "market_state": "NO_CHECKPOINT_DUE; market not promoted into a decision.",
+  "decision_state": "BOTH_WEEK2_FIXTURES_UNFROZEN",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NO_CHANGE",
+  "audit_integrity": "PRESERVED"
+}
