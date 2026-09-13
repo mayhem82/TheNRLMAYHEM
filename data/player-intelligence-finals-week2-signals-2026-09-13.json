@@ -1,0 +1,75 @@
+{
+  "season": 2026,
+  "stage": "FINALS_WEEK_2_EARLY_MAIL",
+  "captured_at": "2026-09-13T21:21:43+10:00",
+  "timezone": "Australia/Sydney",
+  "records": [
+    {
+      "player": "Sam Walker",
+      "team": "Roosters",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "POSSIBLE_RETURN_CONTRADICTS_PRIOR_OUT_FOR_SEASON_STATE",
+      "observation": "Daily Telegraph early mail reports the Roosters may receive Sam Walker back from ankle surgery for Week 2. This conflicts with the earlier official Finals Week 1 state that had Walker unavailable for the remainder of 2026.",
+      "decision_effect": "ROOSTERS_SPINE_UNCERTAINTY_UP; DO_NOT_PROMOTE_TO_AVAILABLE_WITHOUT_OFFICIAL_CONFIRMATION",
+      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
+      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+    },
+    {
+      "player": "Angus Crichton",
+      "team": "Roosters",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "RETURN_UNCERTAIN",
+      "observation": "Daily Telegraph early mail reports Trent Robinson is less optimistic about Crichton's return from his foot injury for Week 2.",
+      "decision_effect": "ROOSTERS_EDGE_AVAILABILITY_UNCERTAINTY",
+      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
+      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+    },
+    {
+      "player": "Braydon Trindall",
+      "team": "Sharks",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_AVAILABLE_SHOULDER_MONITOR",
+      "observation": "Early mail reports Trindall is managing a shoulder issue but is expected to play. Sharks official reporting confirms he returned from a shoulder injury and played in the Week 1 win over North Queensland.",
+      "decision_effect": "SHARKS_SPINE_CONTINUITY_PROVISIONAL; MONITOR_OFFICIAL_TEAM_LIST",
+      "source": "Daily Telegraph early mail + Sharks official Week 1 match report",
+      "source_url": "https://www.sharks.com.au/news/2026/09/12/cronulla-through-to-nrl-finals-week-2/"
+    },
+    {
+      "player": "Ronaldo Mulitalo",
+      "team": "Sharks",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_AVAILABLE_HAND_MONITOR",
+      "observation": "Early mail reports Mulitalo is managing a hand issue but is expected to play Week 2.",
+      "decision_effect": "SHARKS_BACKLINE_AVAILABILITY_UNCERTAINTY",
+      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
+      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+    },
+    {
+      "player": "Dylan Lucas",
+      "team": "Knights",
+      "fixture": "Warriors v Knights — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "POSSIBLE_RETURN_LOW_RECENT_SAMPLE",
+      "observation": "Early mail reports Lucas could return from an ankle dislocation for Week 2. No directional production uplift is assigned before official selection and workload evidence.",
+      "decision_effect": "KNIGHTS_EDGE_DEPTH_UNCERTAINTY; LOW_SAMPLE_VARIANCE",
+      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
+      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+    },
+    {
+      "player": "Tyson Frizell",
+      "team": "Knights",
+      "fixture": "Warriors v Knights — Finals Week 2",
+      "classification": "SIGNAL",
+      "status": "EXPECTED_AVAILABLE_HAMSTRING_MONITOR",
+      "observation": "Early mail reports Newcastle is monitoring Frizell's hamstring and expects him to be available.",
+      "decision_effect": "KNIGHTS_MIDDLE_CONTINUITY_PROVISIONAL",
+      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
+      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+    }
+  ],
+  "integrity": "Early-mail signals only. No Week 2 roster identity, availability state, tip, confidence or frozen decision is created from these reports. Sam Walker is explicitly retained as a contradiction against the prior official OUT_FOR_SEASON state pending newer official confirmation."
+}
