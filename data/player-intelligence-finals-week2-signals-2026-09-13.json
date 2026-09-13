@@ -1,19 +1,30 @@
 {
   "season": 2026,
   "stage": "FINALS_WEEK_2_EARLY_MAIL",
-  "captured_at": "2026-09-13T21:21:43+10:00",
+  "captured_at": "2026-09-14T02:50:45+10:00",
   "timezone": "Australia/Sydney",
   "records": [
+    {
+      "player": "Egan Butcher",
+      "team": "Roosters",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "VERIFIED",
+      "status": "HEAD_KNOCK_PROTOCOL_TBC_WEEK2_AVAILABILITY",
+      "observation": "Official NRL casualty reporting confirms Butcher failed his HIA against Penrith and entered the head-knock protocol. NRL.com states he is likely to be subject to the 11-day stand-down period; the casualty table lists his return as TBC.",
+      "decision_effect": "ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN; TREAT_AS_STRONG_AVAILABILITY_NEGATIVE_PENDING_FORMAL_TEAM_LIST",
+      "source": "NRL Casualty Ward, 13 Sep 2026 18:54 AEST",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+    },
     {
       "player": "Sam Walker",
       "team": "Roosters",
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "SIGNAL",
       "status": "POSSIBLE_RETURN_CONTRADICTS_PRIOR_OUT_FOR_SEASON_STATE",
-      "observation": "Daily Telegraph early mail reports the Roosters may receive Sam Walker back from ankle surgery for Week 2. This conflicts with the earlier official Finals Week 1 state that had Walker unavailable for the remainder of 2026.",
+      "observation": "Daily Telegraph early mail reports the Roosters may receive Sam Walker back from ankle surgery for Week 2. This conflicts with the earlier official Finals Week 1 state that had Walker unavailable for the remainder of 2026. Current official NRL casualty data lists Walker as ankle/TBC, so the contradiction remains unresolved rather than promoted to available.",
       "decision_effect": "ROOSTERS_SPINE_UNCERTAINTY_UP; DO_NOT_PROMOTE_TO_AVAILABLE_WITHOUT_OFFICIAL_CONFIRMATION",
-      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "source": "Daily Telegraph NRL Finals Early Mail + NRL Casualty Ward, 13 Sep 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     },
     {
       "player": "Angus Crichton",
@@ -21,10 +32,10 @@
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "SIGNAL",
       "status": "RETURN_UNCERTAIN",
-      "observation": "Daily Telegraph early mail reports Trent Robinson is less optimistic about Crichton's return from his foot injury for Week 2.",
+      "observation": "Early mail reports Trent Robinson is less optimistic about Crichton's return from his foot injury for Week 2. Current official NRL casualty data carries a Finals Week 2 return marker, which is a target state rather than confirmed selection.",
       "decision_effect": "ROOSTERS_EDGE_AVAILABILITY_UNCERTAINTY",
-      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "source": "Daily Telegraph early mail + NRL Casualty Ward, 13 Sep 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     },
     {
       "player": "Braydon Trindall",
@@ -32,10 +43,10 @@
       "fixture": "Roosters v Sharks — Finals Week 2",
       "classification": "SIGNAL",
       "status": "EXPECTED_AVAILABLE_SHOULDER_MONITOR",
-      "observation": "Early mail reports Trindall is managing a shoulder issue but is expected to play. Sharks official reporting confirms he returned from a shoulder injury and played in the Week 1 win over North Queensland.",
+      "observation": "Early mail reports Trindall is managing a shoulder issue but is expected to play. Sharks official reporting confirms he returned from a shoulder injury and played in the Week 1 win over North Queensland. NRL casualty reporting confirms he completed the match despite ongoing shoulder discomfort.",
       "decision_effect": "SHARKS_SPINE_CONTINUITY_PROVISIONAL; MONITOR_OFFICIAL_TEAM_LIST",
-      "source": "Daily Telegraph early mail + Sharks official Week 1 match report",
-      "source_url": "https://www.sharks.com.au/news/2026/09/12/cronulla-through-to-nrl-finals-week-2/"
+      "source": "Daily Telegraph early mail + Sharks official Week 1 report + NRL Casualty Ward",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     },
     {
       "player": "Ronaldo Mulitalo",
@@ -52,12 +63,12 @@
       "player": "Dylan Lucas",
       "team": "Knights",
       "fixture": "Warriors v Knights — Finals Week 2",
-      "classification": "SIGNAL",
-      "status": "POSSIBLE_RETURN_LOW_RECENT_SAMPLE",
-      "observation": "Early mail reports Lucas could return from an ankle dislocation for Week 2. No directional production uplift is assigned before official selection and workload evidence.",
-      "decision_effect": "KNIGHTS_EDGE_DEPTH_UNCERTAINTY; LOW_SAMPLE_VARIANCE",
-      "source": "Daily Telegraph NRL Finals Early Mail, 13 Sep 2026",
-      "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+      "classification": "CONTRADICTED",
+      "status": "POSSIBLE_RETURN_REPORTED_BUT_OFFICIAL_CASUALTY_TABLE_STILL_2027",
+      "observation": "Early mail reports Lucas could return from an ankle dislocation for Week 2, but current official NRL casualty data still lists his ankle return as 2027. No availability or directional production uplift is assigned until the conflict is resolved by newer official selection or club evidence.",
+      "decision_effect": "KNIGHTS_EDGE_DEPTH_UNCERTAINTY; LOW_SAMPLE_VARIANCE; OFFICIAL_CONFIRMATION_REQUIRED",
+      "source": "Daily Telegraph early mail + NRL Casualty Ward, 13 Sep 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
     },
     {
       "player": "Tyson Frizell",
@@ -71,5 +82,5 @@
       "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
     }
   ],
-  "integrity": "Early-mail signals only. No Week 2 roster identity, availability state, tip, confidence or frozen decision is created from these reports. Sam Walker is explicitly retained as a contradiction against the prior official OUT_FOR_SEASON state pending newer official confirmation."
+  "integrity": "No Week 2 roster identity, tip, confidence or frozen decision is created from early-mail reporting. Egan Butcher's failed HIA/head-knock protocol is VERIFIED, while actual Week 2 selection remains unresolved until formal team-list/medical clearance evidence. Sam Walker remains unresolved against prior official season-out reporting. Dylan Lucas is explicitly CONTRADICTED by the current official casualty table and cannot be promoted to available."
 }
