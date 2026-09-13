@@ -1,0 +1,150 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW1-PEN-SYD-2026-09-13",
+  "checkpoint": "T-60m",
+  "due_sydney": "2026-09-13T15:05:00+10:00",
+  "captured_at": "2026-09-13T15:37:43+10:00",
+  "status": "CAPTURED_LATE_BEFORE_KICKOFF",
+  "late_by_seconds": 1963,
+  "kickoff_sydney": "2026-09-13T16:05:00+10:00",
+  "lifecycle": "UPCOMING",
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_PRIMARY",
+      "url": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+      "finding": "Final late-mail state: Luke Garner OUT; Blaize Talagi to centre; Isaah Yeo shifted to interchange; Liam Henry starts prop; Lindsay Smith starts lock; Jesse McLean joins the six-man bench. Roosters: Angus Crichton OUT; Egan Butcher starts second row; Salesi Foketi shifts to interchange; Victor Radley, Daly Cherry-Evans and James Tedesco remain in the side."
+    },
+    {
+      "class": "OFFICIAL_CLUB_PRIMARY",
+      "url": "https://www.penrithpanthers.com.au/news/2026/09/13/nrl-team-list-finals-week-13/",
+      "finding": "Penrith final squad confirmed at 14:34 AEST; Luke Garner ruled out and the final 19-man match-day squad published."
+    },
+    {
+      "class": "OFFICIAL_CLUB_PRIMARY",
+      "url": "https://www.roosters.com.au/news/2026/09/13/late-mail--qualifying-final/",
+      "finding": "Roosters final squad confirmed at 14:36 AEST; Egan Butcher starts, Salesi Foketi moves to interchange and Taylor Losalu drops out."
+    },
+    {
+      "class": "MARKET",
+      "url": "https://www.onlybets.com.au/Sport",
+      "finding": "Current two-sided snapshot: Panthers $1.36 / Roosters $3.10. Other current market pages checked showed Panthers approximately $1.33-$1.34 and Roosters $3.20-$3.25, so source dispersion is retained rather than hidden."
+    },
+    {
+      "class": "WEATHER_CURRENT",
+      "url": "weather:Parramatta",
+      "finding": "Parramatta current conditions at 15:37 AEST: partly sunny, approximately 24 C; around 22 C at 16:00 and 21 C at 17:00, with no material rain signal."
+    }
+  ],
+  "weather": {
+    "classification": "DRY_MODERATE_WIND_NON_DIRECTIONAL",
+    "current": "Partly sunny, approximately 24 C at 15:37 AEST; approximately 22 C around kickoff; dry conditions expected.",
+    "wind": "Regional Sydney forecast indicates light winds becoming north-easterly around 20-30 km/h during the day. No demonstrated team-specific directional sensitivity is established.",
+    "decision_effect": "NONE"
+  },
+  "evidence_findings": [
+    {
+      "classification": "VERIFIED",
+      "observation": "Penrith's final match-day structure materially changed after T-3h: Garner OUT, Talagi to centre, Yeo to interchange, Henry to starting prop and Smith to lock."
+    },
+    {
+      "classification": "VERIFIED",
+      "observation": "Roosters final match-day structure: Crichton remains OUT; Egan Butcher starts; Foketi moves to interchange; Taylor Losalu drops out; Tedesco, Cherry-Evans, Robson and Radley remain available."
+    },
+    {
+      "classification": "VERIFIED_ROSTER_PERSISTENCE",
+      "observation": "Historical 22-player named-squad identities remain persistent. Final match-day trimming and withdrawals change current status/role but do not delete players from the persistent player layer."
+    },
+    {
+      "classification": "MARKET_SIGNAL",
+      "observation": "Current accessible market sources are dispersed. The most Roosters-favourable two-sided snapshot checked was Panthers $1.36 / Roosters $3.10; normalized 69.51% / 30.49%. Market-source divergence is retained as uncertainty, not treated as independent corroboration."
+    }
+  ],
+  "player_effects": {
+    "Panthers": [
+      "Luke Garner OUT is VERIFIED from official NRL and club sources; no hidden medical inference beyond the published minor groin strain is made.",
+      "Blaize Talagi moves into centre, creating a verified role/position-continuity change.",
+      "Isaah Yeo shifts from starting lock to interchange; this is a verified deployment change and increases pre-match workload/rotation uncertainty without implying a medical restriction.",
+      "Liam Henry starts at prop and Lindsay Smith at lock; Jesse McLean enters the final bench group.",
+      "Persistent roster identities remain visible even where players are OUT or trimmed."
+    ],
+    "Roosters": [
+      "Angus Crichton remains OUT.",
+      "Egan Butcher is promoted to starting second row and Salesi Foketi moves to interchange.",
+      "Taylor Losalu drops from the final match-day squad.",
+      "James Tedesco, Daly Cherry-Evans, Reece Robson and Victor Radley remain in the senior spine/middle structure."
+    ]
+  },
+  "player_statistical_trend_effects": [
+    "Role-critical official-profile comparison from the T-3h evidence base remains active: Yeo 2026 profile 18 appearances, 653 tackles, approximately 120 average running metres and 838.1 post-contact metres; Cherry-Evans 23 appearances, 11 try assists, 11 line-break assists, 512 tackles and approximately 366.1 average kicking metres; Robson 19 appearances, 795 tackles and approximately 56 average running metres; Tedesco 17 appearances, 11 tries, 14 try assists and approximately 198 average running metres.",
+    "Yeo's shift to the interchange is a role change layered onto those raw statistics; it is not converted into a causal performance claim.",
+    "Talagi's move to centre is treated as position-continuity uncertainty, not a directional effect unsupported by role-specific sample evidence.",
+    "Low-sample/debutant-class players remain uncertainty/variance only unless directional evidence exists."
+  ],
+  "team_macro_effects": {
+    "Panthers": "Structural baseline remains strong at approximately +336 season point differential and +42 across the last two verified regular-season games, but unit continuity is downgraded by the late Garner/Talagi/Yeo/Henry/Smith reshuffle.",
+    "Roosters": "Season baseline remains approximately +118. Restored Tedesco-Cherry-Evans-Robson-Radley senior structure remains a material counter-case; Crichton's absence still weakens edge continuity, while Egan Butcher's promotion is a verified role replacement."
+  },
+  "matchup_effects": [
+    "2026 head-to-head remains 1-1: Panthers 40-4 in Round 3; Roosters 12-6 at CommBank Stadium in Round 24.",
+    "The Roosters' same-venue Round 24 win remains adverse evidence for Penrith and gains relevance when considered alongside Penrith's late positional reshuffle, but is not proof of recurrence."
+  ],
+  "market": {
+    "current_reference_home_price": 1.36,
+    "current_reference_away_price": 3.10,
+    "normalized_home_probability": 69.51,
+    "normalized_away_probability": 30.49,
+    "other_current_snapshots": [
+      "Panthers $1.33 / Roosters $3.25",
+      "Panthers $1.34 / Roosters $3.25",
+      "Panthers $1.34 / Roosters $3.20"
+    ],
+    "market_source_dispersion": "MATERIAL",
+    "mayhem_home_confidence_before_gate": 73.0,
+    "pre_adjustment_delta_vs_reference_pp": 3.49,
+    "mayhem_home_confidence_after_gate": 72.0,
+    "post_adjustment_delta_vs_reference_pp": 2.49,
+    "market_gate": "CLEAR_AFTER_CONFIDENCE_REDUCTION",
+    "movement_classification": "SIGNAL_ONLY",
+    "causal_inference": "NONE"
+  },
+  "structural_baseline": {
+    "season_point_differential": "Panthers approximately +336; Roosters approximately +118 from prior verified official team-profile scoring totals.",
+    "recent_scoring_differential": "Panthers last two verified regular-season games: 62-20 aggregate (+42). Roosters recent negative scoring run remains roster-context contaminated by resting and is not independently stacked.",
+    "venue_split": "CommBank Stadium; Roosters' 12-6 Round 24 win over Penrith at this venue remains adverse evidence.",
+    "roster_continuity": "Panthers continuity downgraded by late multi-position reshuffle. Roosters retain restored senior spine/middle but remain without Crichton."
+  },
+  "evidence_family_independence": {
+    "market": "NOT_INDEPENDENT_CORROBORATION",
+    "season_structure": "SEPARATE",
+    "recent_results": "SEPARATE_WITH_ROSTER_CONTEXT",
+    "official_roster_availability": "SEPARATE",
+    "official_player_statistics": "SEPARATE",
+    "matchup_history": "SEPARATE",
+    "weather": "SEPARATE_NON_DIRECTIONAL"
+  },
+  "adversarial_counter_case": "The Roosters have already beaten Penrith 12-6 at CommBank this season, retain Tedesco, Cherry-Evans, Robson and Radley in the final side, and Penrith has now lost Garner while reshuffling Talagi, Yeo, Henry and Smith. This is stronger opposing evidence than at T-3h and must constrain confidence even though Penrith retains the superior season baseline.",
+  "falsification": "At T-10m, reduce further or switch only if final official information materially weakens Penrith's spine/middle/rotation, Yeo's availability becomes restricted, another role-critical withdrawal occurs, or reliable late markets move materially toward the Roosters without offsetting independent football evidence.",
+  "information_advantage_candidates": [],
+  "information_advantage_classification": "NONE",
+  "mayhem_inference": "Panthers remain preferred on structural season strength, but the late Penrith reshuffle materially weakens roster-continuity support while the same-venue Roosters win and restored senior cohort remain live counter-evidence. Because one current reliable two-sided reference puts the prior 73% position 3.49 percentage points above normalized market and the late roster changes do not supply an independent causal basis for that uplift, the mandatory gate reduces MAYHEM confidence to 72%. Market movement itself remains SIGNAL only.",
+  "decision_effect": "REDUCE_CONFIDENCE_73_TO_72",
+  "tip": "Panthers",
+  "confidence": 72,
+  "decision_state": "CURRENT_NOT_FROZEN",
+  "prediction_decomposition": [
+    "Panthers season structure and recent scoring: supports Panthers.",
+    "Late Penrith roster/role reshuffle: reduces continuity confidence.",
+    "Roosters restored senior spine/middle: supports Roosters counter-case.",
+    "Angus Crichton absence: weakens Roosters edge continuity.",
+    "Round 24 Roosters 12-6 same-venue win: supports Roosters counter-case.",
+    "Dry weather with moderate breeze: no demonstrated directional edge.",
+    "Market: source-dispersed; conservative current reference normalizes Panthers to 69.51%, so 73% breached the +3pp gate and was reduced to 72%."
+  ],
+  "next_checkpoint": {
+    "checkpoint": "T-10m",
+    "due_sydney": "2026-09-13T15:55:00+10:00",
+    "eta_from_capture": "17m17s"
+  },
+  "audit_integrity": "PRESERVED"
+}
