@@ -1,0 +1,106 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW1-PEN-SYD-2026-09-13",
+  "fixture": "Panthers v Roosters",
+  "captured_at": "2026-09-13T18:26:19+10:00",
+  "timezone": "Australia/Sydney",
+  "checkpoint": "post-match",
+  "lifecycle": "VERIFIED_RESULT",
+  "result": {
+    "home": "Panthers",
+    "away": "Roosters",
+    "score_home": 19,
+    "score_away": 12,
+    "winner": "Panthers",
+    "verification_state": "VERIFIED_RESULT",
+    "official_source": "https://www.nrl.com/news/2026/09/13/finals-blockbuster-panthers-v-roosters/",
+    "official_source_state": "OFFICIAL_NRL_FULL_TIME_SCORE_EXPOSED",
+    "independent_corroboration": "ABC/independent result reporting agrees with Panthers 19-12 Roosters",
+    "source_conflict": "A News.com.au live report exposed 17-12 in one version. That conflicts with the official NRL full-time score and independent 19-12 reporting and is retained as a stale-source conflict, not used as the canonical result."
+  },
+  "tip_grade": {
+    "genuine_pre_match_selection": "Panthers",
+    "confidence": 72,
+    "last_genuine_pre_kickoff_record": "data/checkpoint-fw1-pen-syd-t60m-2026-09-13-153743-aest.json",
+    "grade": "CORRECT",
+    "public_grade_rule": "Display CORRECT without calibration qualifier",
+    "T-10m": "MISSED_NOT_CAPTURED",
+    "T-10m_record": "data/checkpoint-fw1-pen-syd-t10m-missed-2026-09-13-164341-aest.json",
+    "freeze_integrity": "No T-10 probability or evidence state is reconstructed after kickoff."
+  },
+  "pre_match_market": {
+    "last_reliable_two_sided_reference": "Panthers $1.36 / Roosters $3.10",
+    "normalized_panthers_probability": 69.51,
+    "normalized_roosters_probability": 30.49,
+    "mayhem_panthers_probability": 72,
+    "mayhem_delta_pp": 2.49,
+    "market_gate": "CLEAR_BELOW_PLUS_3PP",
+    "movement_classification": "SIGNAL_ONLY",
+    "causal_inference": "NONE"
+  },
+  "weather_audit": {
+    "pre_match_state": "Dry CommBank Stadium match window with benign-to-moderate wind context.",
+    "directional_effect": "NONE_DEMONSTRATED",
+    "outcome_learning": "No weather weight change justified."
+  },
+  "evidence_family_independence": "Market, season structure, recent scoring, official roster/role changes, player statistical dossiers, prior same-venue matchup evidence and weather were treated as separate evidence families; market was not counted as independent corroboration.",
+  "adversarial_counter_case": "The Roosters had beaten Penrith 12-6 at CommBank Stadium in Round 24, retained a senior Tedesco-Cherry-Evans-Robson-Radley core, and Penrith entered the final after a late positional reshuffle. This remained the strongest supported case against Penrith.",
+  "falsification_state": "The Panthers edge would have required further reduction or switch if late evidence materially weakened Penrith spine/middle continuity, strengthened the Roosters continuity edge, or reliable market movement pushed the normalized Penrith probability far enough below MAYHEM without independent football evidence.",
+  "post_kickoff_observations": [
+    {
+      "classification": "VERIFIED_PRIMARY",
+      "observation": "Nathan Cleary was sin-binned late in the first half. Penrith began the second half with 12 men, but the Roosters did not score during the one-man advantage.",
+      "decision_effect": "POST_KICKOFF_ONLY_NO_RETROACTIVE_PREMATCH_EFFECT"
+    },
+    {
+      "classification": "VERIFIED_PRIMARY",
+      "observation": "Nathan Cleary kicked the go-ahead field goal in the 72nd minute for a 13-12 Penrith lead.",
+      "decision_effect": "OUTCOME_VALIDATION_ONLY"
+    },
+    {
+      "classification": "VERIFIED_PRIMARY",
+      "observation": "Brian To'o scored in the 78th minute and Dylan Edwards converted, producing the official final score Panthers 19-12 Roosters.",
+      "decision_effect": "VERIFIED_RESULT"
+    },
+    {
+      "classification": "VERIFIED_PRIMARY",
+      "observation": "Egan Butcher failed an HIA; Salesi Foketi later left for an HIA. These events occurred after kickoff and cannot be used to justify the pre-match selection retrospectively.",
+      "decision_effect": "POST_MATCH_PLAYER_EFFECT_ONLY"
+    }
+  ],
+  "team_macro_effects": {
+    "Panthers": "Verified finals win after surviving a second-half period without Cleary and reversing the Round 24 same-venue loss. Add as a longitudinal finals-performance observation without overwriting pre-match state.",
+    "Roosters": "Verified 19-12 qualifying-final loss after leading 12-6 and entering halftime 12-12. They move to a sudden-death Week 2 final against the Sharks. Add as a longitudinal finals-performance observation without treating in-match HIA events as pre-match defects."
+  },
+  "player_effects": {
+    "Nathan Cleary": "Post-kickoff: sin-bin, returned with score still level, kicked 72nd-minute field goal; reported late leg issue is post-match medical/availability evidence only and requires future official verification before any Week 3 role inference.",
+    "Brian To'o": "Post-kickoff: late try extended Penrith beyond a converted-try margin.",
+    "Dylan Edwards": "Post-kickoff: first-half try and late conversion recorded in official match chronology.",
+    "Egan Butcher": "Post-kickoff: failed HIA; no hidden medical inference.",
+    "Salesi Foketi": "Post-kickoff: left for HIA; no hidden medical inference."
+  },
+  "matchup_memory_update": "Penrith lost 6-12 to the Roosters at CommBank Stadium in Round 24, then won the qualifying final 19-12 at the same venue. Preserve both observations; do not reduce the relationship to a single directional matchup rule.",
+  "calibration": {
+    "eligibility": "NOT_ENTERED_IN_FROZEN_PROBABILITY_CALIBRATION",
+    "reason": "T-10m was MISSED_NOT_CAPTURED and no contemporaneous T-10 frozen probability exists.",
+    "integrity": "No probability is backfilled after the result. This internal metadata does not qualify the public CORRECT grade."
+  },
+  "information_advantage": {
+    "classification": "NONE",
+    "reason": "The correct result alone does not prove information advantage. MAYHEM 72% was close to the last reliable normalized market probability and no independently demonstrated pre-market causal signal was validated by the outcome."
+  },
+  "learning": {
+    "weight_change": "NONE_FROM_CORRECT_OUTCOME_ALONE",
+    "validated_carry_forward": "Continue the previously audited switch-or-reduce test when current form, restored-unit continuity, matchup evidence and role-critical statistical production converge against the preferred side.",
+    "frozen_history_rewritten": false
+  },
+  "next_fixture_candidate": {
+    "fixture": "Roosters v Sharks",
+    "stage": "FINALS_WEEK_2",
+    "date": "2026-09-19",
+    "kickoff_sydney": "TBC_OFFICIAL_CONFIRMATION",
+    "basis": "Official NRL post-match report states the Roosters will host the Sharks in a sudden-death final next Saturday night."
+  },
+  "audit_integrity": "PRESERVED"
+}
