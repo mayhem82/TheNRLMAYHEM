@@ -1,0 +1,140 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW1-PEN-SYD-2026-09-13",
+  "checkpoint": "T-3h",
+  "due_sydney": "2026-09-13T13:05:00+10:00",
+  "captured_at": "2026-09-13T13:14:19+10:00",
+  "status": "CAPTURED_LATE_BEFORE_KICKOFF",
+  "late_by_seconds": 559,
+  "kickoff_sydney": "2026-09-13T16:05:00+10:00",
+  "lifecycle": "UPCOMING",
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_PRIMARY",
+      "url": "https://www.nrl.com/news/2026/09/08/panthers-v-roosters-yeo-locked-in-big-guns-set-for-return/",
+      "finding": "Official NRL preview/team list current at capture: Panthers core remains named; Isaah Yeo starts at lock; Scott Sorensen returns on interchange; Roosters have Angus Crichton ruled out, Egan Butcher entering the line-up, Victor Radley returning, Daly Cherry-Evans at halfback and James Tedesco at fullback. No newer three-hour team-list change was published at capture."
+    },
+    {
+      "class": "OFFICIAL_PRIMARY",
+      "url": "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+      "finding": "Current official named squads checked against persistent roster layer."
+    },
+    {
+      "class": "OFFICIAL_PRIMARY",
+      "url": "https://www.nrl.com/news/2026/09/10/nrl-late-mail-finals-week-1/",
+      "finding": "Late-mail source checked; current published change remains Crichton OUT / Egan Butcher IN. Ninety-minute final-list gate not yet due at this capture."
+    },
+    {
+      "class": "MARKET",
+      "url": "https://www.sportsbet.com.au/",
+      "finding": "No fresher reliably extractable two-sided quote was obtained in this capture; latest reliable persisted state remains Panthers $1.35 / Roosters $3.22."
+    },
+    {
+      "class": "WEATHER_CURRENT",
+      "url": "weather:Parramatta",
+      "finding": "Parramatta current conditions at capture: sunny, approximately 24 C; Sunday forecast approximately 25 C maximum / 11 C minimum with no material rain signal."
+    }
+  ],
+  "weather": {
+    "classification": "NON_DIRECTIONAL_EXECUTION_CONTEXT",
+    "current": "Sunny, approximately 24 C in Parramatta at 13:14 AEST; dry Sunday forecast.",
+    "wind": "Last verified prior checkpoint identified afternoon breeze/wind as execution variance. A fresh authoritative wind value was not retrieved in this capture, so no new directional wind effect is asserted.",
+    "decision_effect": "NONE"
+  },
+  "evidence_findings": [
+    {
+      "classification": "VERIFIED",
+      "observation": "Panthers current official structure retains Dylan Edwards, Nathan Cleary, Mitch Kenny, Isaah Yeo, Moses Leota, Lindsay Smith, Liam Martin and Isaiah Papali'i in the named core."
+    },
+    {
+      "classification": "VERIFIED",
+      "observation": "Roosters current official structure retains James Tedesco, Daly Cherry-Evans, Reece Robson, Victor Radley, Lindsay Collins and the rest of the named senior core; Angus Crichton is OUT and Egan Butcher is IN."
+    },
+    {
+      "classification": "VERIFIED",
+      "observation": "All 176 Finals Week 1 named-player identities are reconciled in the persistent player layer; Panthers 22/22 and Roosters 22/22 roster reconciliation is complete."
+    },
+    {
+      "classification": "DATA_QUALITY",
+      "observation": "Panthers statistical dossier coverage remains 20 verified 2026 dossiers plus 2 PROFILE_DATA_UNAVAILABLE; Roosters remain 22 verified 2026 dossiers. Unavailable fields are not guessed."
+    }
+  ],
+  "player_effects": {
+    "Panthers": [
+      "Isaah Yeo starting at lock in his second game back from pectoral injury is VERIFIED availability/role state; no hidden medical inference is made.",
+      "Mitch Kenny is available after his Round 27 return; recent-minutes uncertainty is retained rather than converted to a directional injury claim.",
+      "No material T-3h withdrawal or positional downgrade was verified."
+    ],
+    "Roosters": [
+      "Angus Crichton OUT / Egan Butcher IN remains the material verified late change.",
+      "Victor Radley, James Tedesco, Daly Cherry-Evans and Reece Robson remain named, preserving the restored senior-spine/middle counter-case.",
+      "Low-sample players remain variance/uncertainty only unless directional evidence emerges."
+    ]
+  },
+  "player_statistical_trend_effects": [
+    "Persistent official NRL dossiers remain active for every current roster identity where published; no player disappears because no new news item exists.",
+    "Role-critical comparison remains evidence-supported rather than news-only: Isaah Yeo's 2026 official profile records 18 appearances, 653 tackles, 120 average running metres and 838.1 post-contact metres; Daly Cherry-Evans' official 2026 profile records 23 appearances, 11 try assists, 11 line-break assists, 512 tackles and 366.1 average kicking metres; Reece Robson's official 2026 profile records 19 appearances, 795 tackles and 56 average running metres; James Tedesco's official 2026 profile records 17 appearances, 11 tries, 14 try assists and 198 average running metres.",
+    "Per-round trends remain separate from raw facts; incomplete legacy per-round aggregate counters are not treated as complete trend evidence."
+  ],
+  "team_macro_effects": {
+    "Panthers": "2026 official team profile baseline remains approximately +336 point differential (683 scored, 347 conceded). Last two verified regular-season results used for recent scoring are 24-10 over Bulldogs and 38-10 over Wests Tigers, a combined +42 differential. Roster continuity is strong but Yeo/Kenny return-state workload uncertainty is retained.",
+    "Roosters": "2026 official team profile baseline remains approximately +118 point differential (619 scored, 501 conceded). Recent losses are contextualised rather than mechanically stacked because Round 27 involved substantial resting; restored senior personnel materially strengthen the current side, while Crichton's withdrawal reduces edge continuity."
+  },
+  "matchup_effects": [
+    "2026 head-to-head is 1-1: Panthers won 40-4 in Round 3; Roosters won 12-6 at CommBank Stadium in Round 24.",
+    "The Roosters' Round 24 win at this venue is retained as a genuine counter-case mechanism; it is not treated as proof of repeat outcome.",
+    "Longer official matchup history favouring Penrith is retained as context only and not double-counted with season strength."
+  ],
+  "market": {
+    "latest_reliable_home_price": 1.35,
+    "latest_reliable_away_price": 3.22,
+    "normalized_home_probability": 70.46,
+    "normalized_away_probability": 29.54,
+    "mayhem_home_confidence": 73.0,
+    "confidence_vs_market_delta_pp": 2.54,
+    "market_gate": "CLEAR",
+    "fresh_quote_status": "NO_FRESHER_RELIABLE_EXTRACT_AT_CAPTURE",
+    "movement_classification": "SIGNAL_ONLY",
+    "causal_inference": "NONE"
+  },
+  "structural_baseline": {
+    "season_point_differential": "Panthers approximately +336; Roosters approximately +118 from official 2026 team-profile scoring totals.",
+    "recent_scoring_differential": "Panthers last two verified regular-season games: 62-20 aggregate (+42). Roosters recent negative scoring run is down-weighted for Round 27 roster resting and not used as an independent causal proof.",
+    "venue_split": "CommBank Stadium. Roosters' 12-6 Round 24 win over Penrith at this venue is retained as adverse evidence.",
+    "roster_continuity": "Panthers retain core spine/middle; Roosters restore major senior personnel but lose Angus Crichton, with Egan Butcher replacing him."
+  },
+  "evidence_family_independence": {
+    "market": "NOT_INDEPENDENT_CORROBORATION",
+    "season_structure": "SEPARATE",
+    "recent_results": "SEPARATE_WITH_ROSTER_CONTEXT",
+    "official_roster_availability": "SEPARATE",
+    "official_player_statistics": "SEPARATE",
+    "matchup_history": "SEPARATE",
+    "weather": "SEPARATE_NON_DIRECTIONAL"
+  },
+  "adversarial_counter_case": "The Roosters already beat Penrith 12-6 at CommBank in Round 24 and now restore Tedesco, Cherry-Evans, Robson and Radley around an experienced forward rotation. Their recent results are partially contaminated by rest/rotation, so raw losing streak evidence cannot safely be treated as current-team weakness. This is the strongest evidence-supported case against the Panthers.",
+  "falsification": "Reduce or switch the Panthers selection if later official lists materially weaken Penrith spine/middle continuity, if Yeo/Kenny availability becomes restricted, if the restored Roosters senior cohort remains intact while Penrith suffers a late role loss, or if a reliable late market moves materially toward Sydney without offsetting independent football evidence.",
+  "information_advantage_candidates": [],
+  "information_advantage_classification": "NONE",
+  "mayhem_inference": "Panthers retain the stronger structural baseline and recent verified scoring profile. The Roosters' same-venue Round 24 win plus restored senior personnel are substantial counter-evidence, but Crichton's withdrawal and Penrith's stronger season structure keep the preferred side unchanged. The prior Warriors failure-audit switch-or-reduce test was explicitly applied; opposing evidence is material but does not currently justify a switch or confidence reduction.",
+  "decision_effect": "NO_CHANGE",
+  "tip": "Panthers",
+  "confidence": 73,
+  "decision_state": "CURRENT_NOT_FROZEN",
+  "prediction_decomposition": [
+    "Panthers structural season advantage: supports Panthers.",
+    "Panthers recent verified scoring differential: supports Panthers.",
+    "Roosters restored senior personnel: supports Roosters counter-case.",
+    "Angus Crichton withdrawal: weakens Roosters continuity relative to earlier state.",
+    "Round 24 Roosters 12-6 win at same venue: supports Roosters counter-case.",
+    "Current dry weather: no directional edge.",
+    "Market: approximately aligned; MAYHEM uplift +2.54 percentage points and below mandatory +3 pp evidence-uplift threshold."
+  ],
+  "next_checkpoint": {
+    "checkpoint": "T-60m",
+    "due_sydney": "2026-09-13T15:05:00+10:00",
+    "eta_from_capture": "1h50m41s"
+  },
+  "audit_integrity": "PRESERVED"
+}
