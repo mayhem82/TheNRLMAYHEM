@@ -1,0 +1,60 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW1-PEN-SYD-2026-09-13",
+  "captured_at": "2026-09-13T13:48:22+10:00",
+  "event_type": "MATERIAL_WEATHER_PROFILE_CHANGE",
+  "lifecycle": "UPCOMING",
+  "kickoff_sydney": "2026-09-13T16:05:00+10:00",
+  "sources_checked": [
+    {
+      "class": "OFFICIAL_TEAM_PRIMARY",
+      "url": "https://www.roosters.com.au/news/2026/09/08/nrl-team-list--finals-week-1/",
+      "finding": "Current Roosters 24-hour update continues to show Angus Crichton out and Egan Butcher promoted to interchange; no new roster change identified at this capture."
+    },
+    {
+      "class": "WEATHER_CURRENT",
+      "url": "weather:Parramatta",
+      "finding": "Fresh Parramatta forecast at 13:48 AEST: sunny/currently about 24 C; 3pm about 24 C partly sunny, 4pm about 22 C with intermittent cloud, 5pm about 21 C with intermittent cloud. Independent current forecast source reports easterly wind about 17 km/h with gusts about 25 km/h and low rain risk."
+    },
+    {
+      "class": "MARKET_MONITOR",
+      "url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-finals-2026-week-1-team-news-injuries-changes-late-mail-who-is-in-and-out/news-story/19748a07cd154a6af4a7810773fdcf09",
+      "finding": "Market page current timestamp observed at 13:46 AEST but no reliable fresh two-sided Panthers/Roosters prices were extractable in the captured text; latest reliable persisted market state remains unchanged."
+    }
+  ],
+  "weather": {
+    "previous_material_signal": "Earlier cycle carried stronger afternoon wind as execution/kicking variance, including a prior forecast near 29-35 km/h with higher gust potential.",
+    "current_verified_state": "Fresh forecast now indicates materially lighter wind around 17 km/h easterly with gusts around 25 km/h, dry conditions, and temperature easing from about 24 C at 3pm to about 22 C around kickoff.",
+    "classification": "NON_DIRECTIONAL_BENIGN_TO_MODERATE_EXECUTION_CONTEXT",
+    "change": "WIND_VARIANCE_DOWNGRADED",
+    "decision_effect": "NONE"
+  },
+  "player_effects": {
+    "Panthers": "NO_MATERIAL_CHANGE",
+    "Roosters": "NO_MATERIAL_CHANGE; Angus Crichton OUT / Egan Butcher IN remains verified current state."
+  },
+  "team_macro_effects": {
+    "Panthers": "NO_MATERIAL_CHANGE",
+    "Roosters": "NO_MATERIAL_CHANGE"
+  },
+  "matchup_effects": "NO_MATERIAL_CHANGE",
+  "market": {
+    "latest_reliable_persisted_home_price": 1.35,
+    "latest_reliable_persisted_away_price": 3.22,
+    "normalized_home_probability": 70.46,
+    "normalized_away_probability": 29.54,
+    "fresh_quote_status": "NO_FRESHER_RELIABLE_EXTRACT_AT_CAPTURE",
+    "causal_inference": "NONE"
+  },
+  "mayhem_inference": "The earlier stronger-wind execution-variance signal is downgraded. Current weather is not evidence for either side and does not change the structural or adversarial assessment.",
+  "tip": "Panthers",
+  "confidence": 73,
+  "decision_state": "CURRENT_NOT_FROZEN",
+  "decision_effect": "NO_CHANGE",
+  "next_checkpoint": {
+    "checkpoint": "T-60m",
+    "due_sydney": "2026-09-13T15:05:00+10:00"
+  },
+  "audit_integrity": "PRESERVED"
+}
