@@ -1,0 +1,57 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T02:50:45+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_PLAYER_AVAILABILITY_CHANGE",
+  "fixture_id": "W2-ROO-SHA-2026-09-19",
+  "fixture": "Roosters v Sharks",
+  "lifecycle": "UPCOMING",
+  "decision_state": "UNFROZEN",
+  "checkpoint_state": "NO_FORMAL_CHECKPOINT_DUE",
+  "observations": [
+    {
+      "player": "Egan Butcher",
+      "team": "Roosters",
+      "classification": "VERIFIED",
+      "source_class": "PRIMARY_OFFICIAL_NRL",
+      "observation": "Failed HIA against Penrith; entered head-knock protocol. NRL.com reports he is likely to be subject to the 11-day stand-down period. Official casualty table lists head knock/TBC.",
+      "team_effect": "ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN",
+      "match_effect": "MATERIAL_WEEK2_AVAILABILITY_NEGATIVE_PENDING_FORMAL_TEAM_LIST"
+    },
+    {
+      "player": "Sam Walker",
+      "team": "Roosters",
+      "classification": "SIGNAL_CONFLICT_UNRESOLVED",
+      "observation": "Current NRL casualty table lists ankle/TBC, while early mail reports a possible Week 2 return and earlier official Finals Week 1 reporting had him gone for the season.",
+      "decision_effect": "NO_AVAILABILITY_PROMOTION"
+    },
+    {
+      "player": "Dylan Lucas",
+      "team": "Knights",
+      "classification": "CONTRADICTED",
+      "observation": "Current NRL casualty table still lists ankle/2027 despite early-mail reporting of a possible Week 2 return.",
+      "decision_effect": "NO_AVAILABILITY_PROMOTION"
+    }
+  ],
+  "weather_state": "NO_CHECKPOINT_DUE; no material weather state promoted.",
+  "market_state": "NO_CHECKPOINT_DUE; no market state promoted from this event.",
+  "tip": null,
+  "confidence": null,
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NO_CHANGE",
+  "audit_integrity": "PRESERVED",
+  "sources": [
+    {
+      "name": "NRL Casualty Ward",
+      "published": "2026-09-13T18:54:00+10:00",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+    },
+    {
+      "name": "NRL Panthers v Roosters live blog",
+      "published": "2026-09-13T19:40:00+10:00",
+      "url": "https://www.nrl.com/news/2026/09/13/finals-blockbuster-panthers-v-roosters/"
+    }
+  ]
+}
