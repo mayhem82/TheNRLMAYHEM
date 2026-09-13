@@ -1,0 +1,63 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW1-PEN-SYD-2026-09-13",
+  "captured_at": "2026-09-13T18:26:19+10:00",
+  "purpose": "append-only longitudinal team and player outcome effects from the verified Panthers v Roosters qualifying final",
+  "source": "https://www.nrl.com/news/2026/09/13/finals-blockbuster-panthers-v-roosters/",
+  "teams": {
+    "Panthers": {
+      "classification": "VERIFIED_POST_MATCH",
+      "result": "Won 19-12",
+      "observations": [
+        "Advanced to a seventh-straight preliminary final.",
+        "Recovered from a 12-6 deficit and entered halftime level 12-12.",
+        "Conceded no points during Nathan Cleary's second-half sin-bin period.",
+        "Reversed the Round 24 same-venue 12-6 loss to the Roosters in the qualifying final."
+      ],
+      "macro_effect": "Positive finals-resilience observation. Preserve separately from the pre-match structural baseline; do not convert one result into a universal clutch or venue rule."
+    },
+    "Roosters": {
+      "classification": "VERIFIED_POST_MATCH",
+      "result": "Lost 12-19",
+      "observations": [
+        "Led 12-6 during the first half and entered halftime level 12-12.",
+        "Did not score during Penrith's one-man disadvantage after Nathan Cleary's sin-bin.",
+        "Will host the Sharks in a sudden-death Week 2 final next Saturday night according to the official NRL post-match report."
+      ],
+      "macro_effect": "Qualifying-final loss added to longitudinal form. The failure to convert the numerical advantage is an observed match fact, not by itself proof of a persistent attacking mechanism."
+    }
+  },
+  "players": {
+    "Nathan Cleary": {
+      "classification": "VERIFIED_POST_MATCH",
+      "observations": ["Sin-binned late in the first half.","Returned with the score still 12-12.","Kicked the 72nd-minute field goal for a 13-12 lead.","Official NRL report noted a late leg issue; future availability effect remains UNKNOWN pending new official evidence."],
+      "causal_limit": "No post-kickoff event may retrospectively justify the pre-match selection."
+    },
+    "Brian To'o": {
+      "classification": "VERIFIED_POST_MATCH",
+      "observations": ["Scored the 78th-minute try that extended Penrith's lead beyond a converted try."],
+      "causal_limit": "Outcome evidence only."
+    },
+    "Dylan Edwards": {
+      "classification": "VERIFIED_POST_MATCH",
+      "observations": ["Scored Penrith's 36th-minute try.","Converted the late Brian To'o try while Cleary was affected by a late leg issue."],
+      "causal_limit": "Outcome evidence only."
+    },
+    "Egan Butcher": {
+      "classification": "VERIFIED_POST_MATCH",
+      "observations": ["Failed an HIA during the first half."],
+      "availability_next_match": "UNKNOWN_PENDING_OFFICIAL_EVIDENCE"
+    },
+    "Salesi Foketi": {
+      "classification": "VERIFIED_POST_MATCH",
+      "observations": ["Left the field for an HIA in the 72nd minute."],
+      "availability_next_match": "UNKNOWN_PENDING_OFFICIAL_EVIDENCE"
+    }
+  },
+  "statistics_refresh": {
+    "state": "POST_MATCH_PER_ROUND_FINAL_STATS_NOT_CLAIMED_IN_THIS RECORD",
+    "rule": "Do not infer unpublished final player-stat fields. Refresh official per-round statistical dossiers when stable official profile/match data is available."
+  },
+  "audit_integrity": "PRESERVED"
+}
