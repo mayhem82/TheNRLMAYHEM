@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "stage": "FINALS_WEEK_2_EARLY_MAIL",
-  "captured_at": "2026-09-14T07:08:41+10:00",
+  "captured_at": "2026-09-14T08:11:59+10:00",
   "timezone": "Australia/Sydney",
   "records": [
     {
@@ -71,6 +71,17 @@
       "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
     },
     {
+      "player": "Leka Halasima",
+      "team": "Warriors",
+      "fixture": "Warriors v Knights — Finals Week 2",
+      "classification": "CONTRADICTED",
+      "status": "OFFICIAL_SOURCE_INTERNAL_CONFLICT_WEEK2_RETURN_TARGET",
+      "observation": "The current official NRL casualty table lists Halasima as ankle — Finals Week 2, while the narrative text in the same NRL casualty article states he was ruled out in the qualifying-final warm-up with a hamstring injury. The Week 2 return marker materially improves the availability outlook compared with earlier expected-miss reporting, but the injury-type contradiction prevents a clean medical-state classification.",
+      "decision_effect": "WARRIORS_MIDDLE_EDGE_AVAILABILITY_OUTLOOK_UP_FROM_PRIOR_EXPECTED_MISS; INJURY_TYPE_CONFLICT_UNRESOLVED; NO_AVAILABLE_PROMOTION_BEFORE_TEAM_LIST_OR_CLUB_CONFIRMATION",
+      "source": "NRL.com Casualty Ward, captured 14 Sep 2026",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+    },
+    {
       "player": "Jacob Laban",
       "team": "Warriors",
       "fixture": "Warriors v Knights — Finals Week 2",
@@ -104,5 +115,5 @@
       "source_url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
     }
   ],
-  "integrity": "No Week 2 roster identity, tip, confidence or frozen decision is created from early-mail reporting. Egan Butcher remains a strengthened Week 2 unavailability negative subject to formal team-list reconciliation. Sam Walker remains unresolved despite stronger coach-level possible-return evidence. New Siua Wong and Jacob Laban items are availability signals only because neither report establishes confirmed Week 2 withdrawal or sufficiently precise medical detail. Dylan Lucas remains contradicted by the current official casualty table."
+  "integrity": "No Week 2 roster identity, tip, confidence or frozen decision is created from early-mail reporting. Egan Butcher remains a strengthened Week 2 unavailability negative subject to formal team-list reconciliation. Sam Walker remains unresolved despite stronger coach-level possible-return evidence. Leka Halasima now carries a material official-source conflict: the casualty table targets Finals Week 2 and labels ankle, while the same official article narrative says hamstring; no medical explanation is inferred and no available promotion occurs before team-list or club confirmation. Siua Wong and Jacob Laban remain availability signals only. Dylan Lucas remains contradicted by the current official casualty table."
 }
