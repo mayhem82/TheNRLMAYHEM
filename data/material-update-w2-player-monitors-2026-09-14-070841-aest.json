@@ -1,0 +1,61 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T07:08:41+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_WEEK_2_PLAYER_AVAILABILITY_CHANGE",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
+    "completed_week_1": [
+      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
+      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
+      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
+      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
+    ],
+    "next_fixture": "Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium",
+    "following_fixture": "Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"
+  },
+  "observations": [
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Sam Walker",
+      "classification": "SIGNAL_CONFLICT_UNRESOLVED",
+      "observation": "Fresh Finals Week 2 early mail now includes direct coach-level evidence that Trent Robinson has not ruled out a Walker return from ankle surgery. This strengthens the possible-return signal but does not resolve the conflict with earlier season-out reporting or establish official selection/clearance.",
+      "decision_effect": "ROOSTERS_SPINE_UNCERTAINTY_UP; NO_AVAILABILITY_PROMOTION"
+    },
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Siua Wong",
+      "classification": "SIGNAL",
+      "observation": "Fresh Finals Week 2 early mail reports Wong is nursing an injury after the Penrith final. No confirmed Week 2 withdrawal or sufficiently precise injury detail has been established.",
+      "decision_effect": "ROOSTERS_EDGE_ROTATION_UNCERTAINTY_UP"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "player": "Jacob Laban",
+      "classification": "SIGNAL",
+      "observation": "Fresh Finals Week 2 early mail identifies Laban among the Warriors injury concerns after the qualifying final. No confirmed withdrawal, severity or return date has been established.",
+      "decision_effect": "WARRIORS_EDGE_FORWARD_CONTINUITY_UNCERTAINTY_UP"
+    }
+  ],
+  "weather_state": "NO_CHECKPOINT_DUE; no material forecast change promoted this cycle.",
+  "market_state": "NO_CHECKPOINT_DUE; no reliable material two-sided market movement promoted this cycle.",
+  "decision_state": "NO_TIP_OR_CONFIDENCE_CHANGE; BOTH_WEEK2_FIXTURES_UNFROZEN",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NO_CHANGE",
+  "audit_integrity": "PRESERVED",
+  "sources": [
+    {
+      "class": "REPUTABLE_SECONDARY_EARLY_MAIL",
+      "publisher": "Daily Telegraph",
+      "published_date": "2026-09-14",
+      "url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65"
+    },
+    {
+      "class": "OFFICIAL_NRL_PRIOR_CONFLICT_CONTEXT",
+      "publisher": "NRL.com",
+      "url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+    }
+  ]
+}
