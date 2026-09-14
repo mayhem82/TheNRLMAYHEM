@@ -1,6 +1,6 @@
 {
-  "snapshot":"CONTRADICTION-RESOLUTION-SNAP-001",
-  "captured_at":"2026-09-06T12:49:01+10:00",
+  "snapshot":"CONTRADICTION-RESOLUTION-SNAP-002",
+  "captured_at":"2026-09-15T06:40:05+10:00",
   "conflicts":[
     {
       "conflict_id":"R27-WAR-MAN-CNK-ROLE",
@@ -13,6 +13,19 @@
       "resolved_by":"NRL Late Mail Round 27 final selection state",
       "resolved_at":"2026-09-05T14:52:55+10:00",
       "resolution_event":"Final official selection placed Charnze Nicoll-Klokstad on the wing with Adam Pompey at centre.",
+      "historical_state_retained":true
+    },
+    {
+      "conflict_id":"FW2-WAR-NKN-DYLAN-LUCAS-AVAILABILITY",
+      "fixture":"Warriors v Knights",
+      "subject":"Dylan Lucas",
+      "type":"SECONDARY_RETURN_REPORTS_VS_CURRENT_OFFICIAL_CASUALTY_WARD",
+      "resolution_state":"RESOLVED_CURRENT_SOURCE_HIERARCHY",
+      "superseded_state":"CONTRADICTED_SIGNAL_REOPENED — secondary reports described a possible Finals Week 2 return",
+      "resolved_to":"OFFICIAL_CASUALTY_WARD_ANKLE_2027",
+      "resolved_by":"NRL.com Casualty Ward, timestamped 14 September 2026 6:30pm AEST",
+      "resolved_at":"2026-09-15T06:40:05+10:00",
+      "resolution_event":"Current official NRL casualty data lists Dylan Lucas under Newcastle as ankle — 2027. MAYHEM therefore removes Week 2 return upside from the current decision stack unless later official evidence reverses the state.",
       "historical_state_retained":true
     }
   ]
