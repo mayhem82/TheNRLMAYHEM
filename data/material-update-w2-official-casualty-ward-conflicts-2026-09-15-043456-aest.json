@@ -1,0 +1,41 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-15T04:34:56+10:00",
+  "timezone": "Australia/Sydney",
+  "event_type": "MATERIAL_PLAYER_INTELLIGENCE_CHANGE",
+  "fixtures": [
+    {
+      "fixture": "Roosters v Sharks",
+      "team": "Roosters",
+      "player": "Angus Crichton",
+      "classification": "VERIFIED_OFFICIAL_RETURN_WINDOW_SIGNAL_NOT_CLEARANCE",
+      "observation": "NRL.com Casualty Ward updated 14 September lists Angus Crichton (foot) with a return window of Finals Week 2. The same NRL article records that he was ruled out of the qualifying final after 11 games absent. This is stronger timing evidence than a generic unresolved status but is not official team selection or medical clearance.",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+      "source_published_at": "2026-09-14T18:30:00+10:00",
+      "source_class": "OFFICIAL_NRL",
+      "decision_effect": "Upgrade Week 2 return possibility to official return-window signal; retain unresolved availability until official team list or direct club clearance. No performance uplift inferred."
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "team": "Warriors",
+      "player": "Leka Halasima",
+      "classification": "CONTRADICTED_OFFICIAL_SOURCE_INJURY_LABEL",
+      "observation": "The same NRL.com Casualty Ward article contains an internal conflict: its narrative says Halasima was ruled out in warm-up with a hamstring injury, while the club casualty list labels Halasima with an ankle injury and a Finals Week 2 return window. Injury site is therefore not treated as resolved by MAYHEM.",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+      "source_published_at": "2026-09-14T18:30:00+10:00",
+      "source_class": "OFFICIAL_NRL_INTERNAL_CONTRADICTION",
+      "decision_effect": "Preserve availability concern and Finals Week 2 return-window signal, but classify injury location as CONTRADICTED/UNKNOWN until club or later official source resolves hamstring versus ankle. Do not infer mechanism or severity."
+    }
+  ],
+  "lifecycle": "ALL_FINALS_WEEK1_VERIFIED_RESULT; ROOSTERS_V_SHARKS_NEXT_UPCOMING_UNFROZEN; WARRIORS_V_KNIGHTS_UPCOMING_UNFROZEN",
+  "checkpoint_state": "NO_CHECKPOINT_DUE",
+  "market_state": "NO_NEW_COMPARABLE_TWO_SIDED_MOVEMENT_ESTABLISHED",
+  "weather_state": "NO_CHECKPOINT_DUE_NO_WEATHER_DECISION_PROMOTION",
+  "statistical_freshness": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NO_CHANGE",
+  "frozen_decision_changed": false,
+  "audit_integrity": "Prior Crichton uncertainty and prior Halasima hamstring reporting remain preserved; newer official return-window information qualifies those states without overwriting contradictory evidence."
+}
