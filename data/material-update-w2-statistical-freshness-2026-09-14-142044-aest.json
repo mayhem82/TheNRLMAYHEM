@@ -1,0 +1,62 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T14:20:44+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "PLAYER_STATISTICAL_POPULATION_STALE_CAPTURE",
+  "classification": "MATERIAL_PROFILE_STALENESS",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
+    "completed_week_1": [
+      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
+      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
+      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
+      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
+    ],
+    "active_fixture": null,
+    "next_fixture": "Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium",
+    "following_fixture": "Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"
+  },
+  "observation": {
+    "roster_identity_state": "PRESERVED",
+    "week1_coverage": "176/176 named Finals Week 1 roster identities reconciled; no identity is removed because of absent news.",
+    "statistical_freshness": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
+    "basis": [
+      "The canonical Finals Week 1 player statistical population and its batches were captured before the relevant Finals Week 1 matches were completed.",
+      "The coverage record itself retains incomplete per-round reconciliation and a LEGACY_COUNTER_NOT_RECONCILED_THIS_CYCLE state.",
+      "Therefore the stored aggregates remain valid contemporaneous historical captures but must not be represented as guaranteed post-Finals-Week-1 current statistics for players whose Week 1 match changed their season totals or recent-form sample. Players who did not play Week 1 remain persistent but also require freshness revalidation before a role-critical statistical comparison is treated as current."
+    ],
+    "not_claimed": [
+      "No claim is made that every official NRL profile has already published a Finals Week 1 row.",
+      "No statistic is backfilled, projected or guessed.",
+      "No player identity is removed or marked unavailable solely because the statistical refresh is pending."
+    ]
+  },
+  "affected_fixtures": [
+    {
+      "fixture_id": "W2-ROO-SHA-2026-09-19",
+      "fixture": "Roosters v Sharks",
+      "state": "UPCOMING_UNFROZEN",
+      "effect": "POST_WEEK1_STATISTICAL_REFRESH_REQUIRED_BEFORE_ROLE_CRITICAL_PLAYER_COMPARISON_CAN_CLAIM_CURRENTNESS"
+    },
+    {
+      "fixture_id": "W2-WAR-NKN-2026-09-20",
+      "fixture": "Warriors v Knights",
+      "state": "UPCOMING_UNFROZEN",
+      "effect": "POST_WEEK1_STATISTICAL_REFRESH_REQUIRED_BEFORE_ROLE_CRITICAL_PLAYER_COMPARISON_CAN_CLAIM_CURRENTNESS"
+    }
+  ],
+  "decision_effect": "NO_TIP_OR_CONFIDENCE_CHANGE. If a confidence freeze were attempted before this freshness defect is reconciled, the mandatory player-statistical comparison gate must be REVIEW_REQUIRED rather than presented as fully current.",
+  "weather_state": "NO_CHECKPOINT_DUE; no weather state promoted into a decision.",
+  "market_state": "NO_CHECKPOINT_DUE; no market state promoted into a decision.",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NO_CHANGE",
+  "audit_integrity": "PRESERVED_BY_EXPLICIT_STALE_CAPTURE_CLASSIFICATION",
+  "sources": [
+    "data/finals-week1-player-ingestion-coverage-2026.json",
+    "data/player-data-manifest-2026.json",
+    "data/player-stats-finals-week1-2026.json",
+    "data/player-stats-finals-week1-batch-005-2026.json through data/player-stats-finals-week1-batch-046-2026.json"
+  ]
+}
