@@ -1,0 +1,23 @@
+{
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T11:51:45+10:00",
+  "timezone": "Australia/Sydney",
+  "records": [
+    {
+      "player": "Salesi Foketi",
+      "team": "Roosters",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "VERIFIED_EVENT_WITH_UNRESOLVED_CLEARANCE",
+      "status": "WEEK1_LATE_HIA_WEEK2_MONITOR",
+      "observation": "Official NRL match coverage records Foketi leaving the field for an HIA in the 72nd minute of the qualifying final against Penrith. No official HIA outcome or Week 2 medical clearance was located in this cycle. Separate Week 2 reporting says he had influenza throughout the prior week and is expected to return to full fitness from that illness; this does not resolve the HIA clearance state.",
+      "decision_effect": "ROOSTERS_EDGE_CONTINUITY_UNCERTAINTY_UP; DO_NOT_TREAT_AS_CLEARED_OR_UNAVAILABLE_PENDING_OFFICIAL_TEAM_LIST_OR_MEDICAL_UPDATE",
+      "source": "NRL.com Panthers v Roosters live coverage, 13 Sep 2026 + Fox Sports Finals Week 2 Team Tips, 14 Sep 2026",
+      "source_urls": [
+        "https://www.nrl.com/news/2026/09/13/finals-blockbuster-panthers-v-roosters/",
+        "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
+      ]
+    }
+  ],
+  "audit_note": "The HIA event is a verified match observation. No concussion diagnosis, HIA result, stand-down status or Week 2 availability is inferred beyond published evidence."
+}
