@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-14T23:47:08+10:00",
+  "captured_at": "2026-09-15T02:03:56+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_PLAYER_AVAILABILITY_CORRECTION",
+  "trigger": "MATERIAL_PLAYER_AVAILABILITY_CONTRADICTION",
   "lifecycle_reconciliation": {
     "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
     "completed_week_1": [
@@ -22,23 +22,23 @@
       "fixture": "Warriors v Knights",
       "team": "Knights",
       "player": "Dylan Lucas",
-      "classification": "VERIFIED_OFFICIAL_CORRECTION",
-      "observation": "Official NRL reporting states Newcastle officials identified a possible Lucas return only if the Knights reach the grand final. This does not support the existing secondary-source suggestion that he could return in Finals Week 2.",
-      "decision_effect": "REMOVE_DYLAN_LUCAS_FROM_WEEK2_RETURN_UPSIDE; ASSESS_KNIGHTS_EDGE_CONTINUITY_WITHOUT_ASSUMING_LUCAS_AVAILABLE"
+      "classification": "CONTRADICTED_SIGNAL_REOPENED",
+      "observation": "Fresh 15 September reporting says Lucas is again a serious or 'big chance' Week 2 return candidate, including reporting attributing the development to Justin Holbrook/Newcastle sources. This conflicts with NRL.com reporting from 12 September that Newcastle officials contemplated a possible return only if the Knights reached the grand final.",
+      "decision_effect": "REOPEN WEEK2 AVAILABILITY AS UNRESOLVED; DO NOT ASSUME AVAILABLE OR UNAVAILABLE; IF NAMED CLASSIFY AS LOW-SAMPLE RETURN VARIANCE UNTIL ROLE AND CLEARANCE ARE VERIFIED"
     },
     {
       "fixture": "Warriors v Knights",
       "team": "Warriors v Knights market",
       "classification": "VERIFIED_TWO_SIDED_MARKET_BASELINE",
       "observation": "The existing comparable two-sided baseline remains Warriors $1.39 and Knights $2.80, normalized to Warriors 66.8258% and Knights 33.1742% after overround removal.",
-      "decision_effect": "NO MATERIAL MARKET CHANGE; NO TIP OR MAYHEM CONFIDENCE CREATED"
+      "decision_effect": "NO MATERIAL MARKET CHANGE ESTABLISHED; NO TIP OR MAYHEM CONFIDENCE CREATED"
     },
     {
       "fixture": "Roosters v Sharks",
       "team": "Roosters v Sharks market",
       "classification": "VERIFIED_MARKET_BASELINE_UNCHANGED",
       "observation": "The comparable two-sided baseline remains Roosters $1.36 and Sharks $2.90, normalized to Roosters 68.0751% and Sharks 31.9249%.",
-      "decision_effect": "NO MATERIAL MARKET CHANGE; NO TIP OR MAYHEM CONFIDENCE CREATED"
+      "decision_effect": "NO MATERIAL MARKET CHANGE ESTABLISHED; NO TIP OR MAYHEM CONFIDENCE CREATED"
     }
   ],
   "fixture_updates": [
@@ -65,7 +65,7 @@
       "next_checkpoint_due_sydney": "2026-09-19T16:05:00+10:00",
       "decision_state": "UNFROZEN",
       "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
-      "material_change": "DYLAN_LUCAS_WEEK2_RETURN_SIGNAL_CORRECTED_BY_OFFICIAL_NRL_EVIDENCE; TWO_SIDED_MARKET_GATE COMPLETE; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
+      "material_change": "DYLAN_LUCAS_WEEK2_AVAILABILITY_CONTRADICTION_REOPENED; TWO_SIDED_MARKET_GATE COMPLETE; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
     }
   ],
   "weather_state": "NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
@@ -90,7 +90,7 @@
       "movement_classification": "BASELINE_UNCHANGED_NO_CAUSAL_INFERENCE"
     }
   },
-  "player_state": "Dylan Lucas is no longer treated as a plausible Finals Week 2 return input. Official NRL evidence supports only a possible grand-final return if Newcastle progresses. Other Week 2 player states remain unchanged pending official team lists. Relevant Week 2 statistical data remains STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH.",
+  "player_state": "Dylan Lucas Week 2 availability is reopened as a CONTRADICTED signal: fresh later reporting points toward a possible Week 2 return, while the stronger earlier NRL report only contemplated a grand-final return. Official Week 2 team lists or direct club confirmation are required before promotion to VERIFIED roster availability. Other Week 2 player states remain unchanged pending official team lists. Relevant Week 2 statistical data remains STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH.",
   "statistical_freshness": {
     "status": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
     "affected_teams": ["Roosters", "Sharks", "Warriors", "Knights"],
@@ -99,9 +99,9 @@
   },
   "learning_state": "NO_NEW_LEARNED_WEIGHT",
   "information_advantage": "NO_CHANGE",
-  "audit_integrity": "PRESERVED; earlier secondary-source Lucas signal remains historically preserved, but current decision state is corrected to the stronger official NRL evidence. No player is promoted without official support.",
+  "audit_integrity": "PRESERVED; both the 12 September official NRL report and later 15 September return reporting are retained. Later timing reopens the question but does not establish VERIFIED availability before official team selection or equivalent direct confirmation.",
   "persistence": {
-    "material_record": "data/material-update-w2-dylan-lucas-official-correction-2026-09-14-234708-aest.json",
+    "material_record": "data/material-update-w2-dylan-lucas-return-contradiction-2026-09-15-020356-aest.json",
     "public_interface_source": "data/material-update-latest.json"
   }
 }
