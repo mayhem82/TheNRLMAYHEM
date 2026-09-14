@@ -1,0 +1,21 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T23:47:08+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_PLAYER_AVAILABILITY_CORRECTION",
+  "fixture": "Warriors v Knights — Finals Week 2",
+  "player": "Dylan Lucas",
+  "team": "Knights",
+  "classification": "VERIFIED_OFFICIAL_CORRECTION",
+  "previous_state": "CONTRADICTED — POSSIBLE_RETURN_REPORTED_BUT_OFFICIAL_CASUALTY_TABLE_STILL_2027",
+  "observation": "Official NRL reporting published 12 September 2026 states Newcastle officials revealed Lucas could potentially return only if the Knights reach the grand final. The same report says he is progressing toward World Cup availability after ankle fracture-dislocation surgery. This official evidence does not support a Finals Week 2 return.",
+  "corrected_status": "NOT_SUPPORTED_FOR_WEEK2_RETURN; GRAND_FINAL_EARLIEST_REPORTED_CLUB_POSSIBILITY",
+  "decision_effect": "REMOVE_DYLAN_LUCAS_FROM_WEEK2_RETURN_UPSIDE; KNIGHTS_EDGE_CONTINUITY_MUST_BE_ASSESSED_WITHOUT_ASSUMING_LUCAS_AVAILABLE; NO_MEDICAL_CAUSAL_INFERENCE",
+  "source": "NRL.com — Lucas set for shock return — 12 Sep 2026",
+  "source_url": "https://www.nrl.com/news/2026/09/12/lucas-set-for-shock-return/",
+  "audit_note": "Secondary reports describing Lucas as a strong chance for Finals Week 2 are superseded for MAYHEM decision purposes by the newer directly attributable official NRL report of Newcastle officials' grand-final-only possibility. The earlier conflicting signal remains preserved historically and is not deleted.",
+  "learning_state": "NO_WEIGHT_CHANGE; SOURCE_HIERARCHY_CORRECTION_ONLY",
+  "information_advantage": "NO_CHANGE"
+}
