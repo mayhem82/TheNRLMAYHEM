@@ -1,0 +1,39 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-15T02:03:56+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_PLAYER_AVAILABILITY_CONTRADICTION",
+  "fixture": "Warriors v Knights — Finals Week 2",
+  "player": "Dylan Lucas",
+  "team": "Knights",
+  "classification": "CONTRADICTED_SIGNAL_REOPENED",
+  "previous_state": "VERIFIED_OFFICIAL_CORRECTION — NOT_SUPPORTED_FOR_WEEK2_RETURN; GRAND_FINAL_EARLIEST_REPORTED_CLUB_POSSIBILITY",
+  "observation": "Fresh 15 September reporting from multiple reputable outlets says Dylan Lucas is now a serious or 'big chance' Week 2 return candidate, including reporting attributing the development to Knights coach Justin Holbrook and Newcastle sources. This conflicts with NRL.com reporting published 12 September stating Newcastle officials contemplated a possible return only if the Knights reached the grand final.",
+  "evidence_state": "CONFLICT_UNRESOLVED_PENDING_OFFICIAL_WEEK2_TEAM_LIST_OR_DIRECT_CLUB_CONFIRMATION",
+  "decision_effect": "REOPEN_DYLAN_LUCAS_WEEK2_AVAILABILITY_AS_UNCERTAINTY; DO_NOT_ASSUME_AVAILABLE; DO_NOT_ASSUME_UNAVAILABLE; IF_NAMED_TREAT_AS_LOW_SAMPLE_RETURN_VARIANCE_UNTIL_ROLE_AND_CLEARANCE_CONFIRMED",
+  "sources": [
+    {
+      "class": "OFFICIAL_NRL_PRIOR",
+      "source": "NRL.com — Lucas set for shock return — 12 Sep 2026",
+      "url": "https://www.nrl.com/news/2026/09/12/lucas-set-for-shock-return/",
+      "finding": "Grand-final return was the earliest club possibility reported at that time."
+    },
+    {
+      "class": "REPUTABLE_SECONDARY_FRESH",
+      "source": "Newcastle Herald — Dylan Lucas 58 days after horror injury: star poised for return — 15 Sep 2026",
+      "url": "https://www.newcastleherald.com.au/story/9349984/dylan-lucas-58-days-after-horror-injury-star-poised-for-return/",
+      "finding": "Reports Lucas poised for an extraordinary return."
+    },
+    {
+      "class": "REPUTABLE_SECONDARY_FRESH",
+      "source": "Daily Telegraph — NRL Finals Early Mail — 15 Sep 2026",
+      "url": "https://www.dailytelegraph.com.au/sport/nrl/nrl-finals-early-mail-dolphin-isaiya-katoa-escapes-ban-for-dangerous-tackle-trio-cop-fines/news-story/a5e021ef85f38d10d8f5f78f0195ac65",
+      "finding": "Search-indexed report says Holbrook has confirmed Lucas is set for an extraordinary comeback; full article access unavailable this cycle."
+    }
+  ],
+  "audit_note": "The 12 September official NRL report remains preserved and is not deleted. The fresh reports are later in time but are not treated as equivalent to an official Week 2 team list or direct medical clearance. Current MAYHEM state is therefore CONTRADICTED, not VERIFIED_AVAILABLE.",
+  "learning_state": "NO_WEIGHT_CHANGE; SOURCE_CONFLICT_ONLY",
+  "information_advantage": "NO_CHANGE"
+}
