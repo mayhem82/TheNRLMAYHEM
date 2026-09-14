@@ -1,0 +1,61 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T19:54:47+10:00",
+  "timezone": "Australia/Sydney",
+  "classification": "MATERIAL_MARKET_STATE_CAPTURE",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE_BEFORE_MARKET_WORK",
+    "completed_week_1": [
+      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
+      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
+      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
+      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
+    ],
+    "active_fixture": null,
+    "next_fixture": "W2-ROO-SHA-2026-09-19"
+  },
+  "fixtures": [
+    {
+      "fixture_id": "W2-ROO-SHA-2026-09-19",
+      "fixture": "Roosters v Sharks",
+      "source": "https://stake.com/pt/sports/rugby/rugby-league/nrl/46899616-sydney-roosters-cronulla-sutherland-sharks",
+      "source_class": "RELIABLE_MARKET_STATE",
+      "market_type": "WINNER_INCLUDING_EXTRA_TIME_AND_PENALTIES",
+      "home_price": 1.36,
+      "away_price": 2.90,
+      "raw_implied_probability_home_pct": 73.5294,
+      "raw_implied_probability_away_pct": 34.4828,
+      "overround_pct": 8.0122,
+      "normalized_home_probability_pct": 68.0751,
+      "normalized_away_probability_pct": 31.9249,
+      "independent_market_check": "PokerStars match market concurrently showed Roosters 1.40, draw 15.00, Sharks 2.88; market shape independently corroborates Roosters favouritism but is not treated as an independent football evidence family.",
+      "movement_state": "BASELINE_CAPTURED_NO_PRIOR_COMPARABLE_WEEK2_TWO_SIDED_STATE_IN_CURRENT_CANONICAL_RECORD",
+      "causal_inference": "NONE",
+      "decision_effect": "MARKET_ABSORPTION_CLOCK_STARTED; NO_TIP_OR_CONFIDENCE_CREATED"
+    },
+    {
+      "fixture_id": "W2-WAR-NKN-2026-09-20",
+      "fixture": "Warriors v Knights",
+      "source": "https://www.pokerstars.fr/en/sports/rugby-league/1477/nrl/10564377/",
+      "source_class": "RELIABLE_MARKET_STATE",
+      "market_type": "MATCH_BETTING_HOME_DRAW_AWAY",
+      "home_price": 1.44,
+      "draw_price": 15.00,
+      "away_price": 2.63,
+      "two_sided_normalization_status": "NOT_APPLIED_TO_THREE_WAY_MARKET",
+      "three_way_raw_implied_probability_home_pct": 69.4444,
+      "three_way_raw_implied_probability_draw_pct": 6.6667,
+      "three_way_raw_implied_probability_away_pct": 38.0228,
+      "three_way_overround_pct": 14.1339,
+      "movement_state": "BASELINE_CAPTURED; TWO_SIDED_EXTRA_TIME_MARKET_NOT_VERIFIED_THIS CYCLE",
+      "causal_inference": "NONE",
+      "decision_effect": "MARKET_ABSORPTION_CLOCK_STARTED; PRE_FREEZE_TWO_SIDED_NORMALIZATION_GATE_REMAINS OPEN; NO_TIP_OR_CONFIDENCE_CREATED"
+    }
+  ],
+  "evidence_family_independence": "Market states are recorded as market evidence only and are not counted as independent corroboration of roster, structural, player-statistical, matchup or weather evidence.",
+  "information_advantage": "NONE",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "audit_integrity": "PRESERVED"
+}
