@@ -1,0 +1,49 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T22:33:11+10:00",
+  "timezone": "Australia/Sydney",
+  "classification": "MATERIAL_MARKET_GATE_COMPLETION",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
+    "completed_week_1": [
+      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
+      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
+      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
+      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
+    ],
+    "active_fixture": null,
+    "next_fixture": "W2-ROO-SHA-2026-09-19"
+  },
+  "fixture": {
+    "fixture_id": "W2-WAR-NKN-2026-09-20",
+    "fixture": "Warriors v Knights",
+    "lifecycle": "UPCOMING",
+    "decision_state": "UNFROZEN",
+    "source": "https://stake.com/sports/rugby/rugby-league",
+    "source_class": "RELIABLE_MARKET_STATE",
+    "market_type": "WINNER_INCLUDING_OVERTIME_AND_PENALTIES",
+    "home_price": 1.39,
+    "away_price": 2.80,
+    "raw_implied_probability_home_pct": 71.9424,
+    "raw_implied_probability_away_pct": 35.7143,
+    "overround_pct": 7.6567,
+    "normalized_home_probability_pct": 66.8258,
+    "normalized_away_probability_pct": 33.1742,
+    "prior_state": "Three-way PokerStars baseline at Warriors 1.44 / Draw 15.00 / Knights 2.63. That state is retained but is not used as a direct price-movement comparator because market structure differs.",
+    "movement_state": "FIRST_COMPARABLE_TWO_SIDED_WEEK2_BASELINE_FOR_THIS_FIXTURE",
+    "causal_inference": "NONE",
+    "decision_effect": "MANDATORY_TWO_SIDED_NORMALIZED_MARKET_GATE_NOW HAS A VERIFIED BASELINE; NO TIP OR MAYHEM CONFIDENCE CREATED"
+  },
+  "player_review": {
+    "new_material_player_change": false,
+    "note": "Fresh Week 2 reporting was checked. Existing Sam Walker, Angus Crichton, Siua Wong, Lindsay Collins, Salesi Foketi, Braydon Trindall, Ronaldo Mulitalo, Jackson Ford, Leka Halasima, Jacob Laban, Dallin Watene-Zelezniak, Dylan Lucas, Tyson Frizell and Jermaine McEwen states remain materially unchanged. Brodie Jones remains an injury-return possibility rather than an official Week 2 selection and is not promoted into the current named-squad layer before official team lists."
+  },
+  "weather_state": "NO_CHECKPOINT_DUE; no weather state promoted into a decision.",
+  "statistical_freshness": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
+  "evidence_family_independence": "Market evidence remains one evidence family and is not counted as independent football corroboration.",
+  "information_advantage": "NO_CHANGE",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "audit_integrity": "PRESERVED"
+}
