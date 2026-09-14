@@ -1,0 +1,31 @@
+{
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-14T10:22:06+10:00",
+  "timezone": "Australia/Sydney",
+  "records": [
+    {
+      "player": "Adam Pompey",
+      "team": "Warriors",
+      "fixture": "Warriors v Knights — Finals Week 2",
+      "classification": "VERIFIED",
+      "status": "JUDICIARY_CHARGE_PLEA_TBC_CONDITIONAL_AVAILABILITY",
+      "observation": "Official NRL judiciary report records a Grade 1 Shoulder Charge, second offence. The published table lists plea TBC. An early guilty plea produces a $3000 fine and no suspension; an unsuccessful challenge produces a two-match suspension.",
+      "decision_effect": "WARRIORS_CENTRE_AVAILABILITY_CONDITIONAL; DO_NOT_TREAT_AS_SUSPENDED_OR_CLEARED_UNTIL_PLEA_OUTCOME",
+      "source": "NRL.com Judiciary Report, published 13 Sep 2026 11:37 AEST",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    },
+    {
+      "player": "KL Iro",
+      "team": "Sharks",
+      "fixture": "Roosters v Sharks — Finals Week 2",
+      "classification": "VERIFIED",
+      "status": "JUDICIARY_FINE_ONLY_NO_SUSPENSION_FROM_CURRENT_CHARGE",
+      "observation": "Official NRL judiciary report records a Grade 1 Careless High Tackle, first offence. The published penalty range is $1000 with the guilty plea or $1500 if unsuccessfully challenged; no match suspension is attached to the current charge.",
+      "decision_effect": "SHARKS_CENTRE_AVAILABILITY_NOT_REDUCED_BY_CURRENT_JUDICIARY_CHARGE; TEAM_SELECTION_STILL_PENDING",
+      "source": "NRL.com Judiciary Report, published 13 Sep 2026 11:37 AEST",
+      "source_url": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/"
+    }
+  ],
+  "audit_note": "Judiciary availability is separated from injury/selection status. No team selection, medical clearance, tip or confidence is inferred from these charge outcomes."
+}
