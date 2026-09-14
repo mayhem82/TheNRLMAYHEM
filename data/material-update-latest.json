@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-14T18:46:43+10:00",
+  "captured_at": "2026-09-14T19:54:47+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_PLAYER_PROFILE_CHANGE",
+  "trigger": "MATERIAL_MARKET_STATE_CAPTURE",
   "lifecycle_reconciliation": {
     "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
     "completed_week_1": [
@@ -18,44 +18,80 @@
     "following_fixture": "Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"
   },
   "observations": [
-    {"fixture":"Roosters v Sharks","player":"Egan Butcher","classification":"VERIFIED","observation":"Failed Week 1 HIA and entered head-knock protocol; Week 2 reporting says Roosters are forced into a change and he is ruled out.","decision_effect":"ROOSTERS_EDGE_ROTATION_CONTINUITY_DOWN"},
-    {"fixture":"Roosters v Sharks","player":"Sam Walker","classification":"SIGNAL_CONFLICT_UNRESOLVED","observation":"Possible Week 2 return remains unresolved against earlier season-out evidence; no selection or clearance established.","decision_effect":"ROOSTERS_SPINE_UNCERTAINTY_UP; NO_AVAILABILITY_PROMOTION"},
-    {"fixture":"Roosters v Sharks","player":"Siua Wong","classification":"SIGNAL","observation":"Ribs identified as the injury concern after the Penrith final; no confirmed withdrawal.","decision_effect":"ROOSTERS_EDGE_ROTATION_UNCERTAINTY_UP"},
-    {"fixture":"Roosters v Sharks","player":"Lindsay Collins","classification":"SIGNAL","observation":"Leg knock reported after the Penrith loss; Week 2 availability remains unresolved.","decision_effect":"ROOSTERS_MIDDLE_CONTINUITY_UNCERTAINTY_UP"},
-    {"fixture":"Roosters v Sharks","player":"Salesi Foketi","classification":"VERIFIED_EVENT_WITH_UNRESOLVED_CLEARANCE","observation":"Official NRL match coverage records Foketi leaving for an HIA in the 72nd minute against Penrith. No official HIA result or Week 2 medical clearance was located. Separate Week 2 reporting says he is expected to recover from influenza that affected him throughout the prior week, which does not resolve the HIA state.","decision_effect":"ROOSTERS_EDGE_CONTINUITY_UNCERTAINTY_UP; NO_CLEARANCE_OR_UNAVAILABILITY_ASSUMPTION"},
-    {"fixture":"Roosters v Sharks","player":"Sione Katoa","classification":"VERIFIED","observation":"Passed his Week 1 HIA and returned to the field; no current Week 2 withdrawal evidence.","decision_effect":"SHARKS_BACKLINE_CONTINUITY_PROVISIONAL"},
-    {"fixture":"Roosters v Sharks","player":"Mawene Hiroti","classification":"SIGNAL","observation":"Possible recall from ribs issue after Week 1 reserve status.","decision_effect":"SHARKS_CENTRE_DEPTH_OPTION_UP; NO_STARTING_ROLE_ASSUMPTION"},
-    {"fixture":"Roosters v Sharks","player":"Braydon Trindall","classification":"VERIFIED_WEEK1_RETURN_WITH_WEEK2_MONITOR","observation":"Completed Week 1 after shoulder return and reported pulling up all right; shoulder remains a monitor.","decision_effect":"SHARKS_SPINE_CONTINUITY_PROVISIONAL"},
-    {"fixture":"Roosters v Sharks","player":"Nicho Hynes","classification":"VERIFIED_RETROSPECTIVE_CONTEXT","observation":"On 14 September Hynes said he had battled influenza for a couple of weeks late in the season and Cronulla gave him a week off. This is recent illness/rest context only; no current illness, medical restriction or causal performance effect is inferred.","decision_effect":"SHARKS_SPINE_RECENT_WORKLOAD_CONTEXT_ADDED; NO_CURRENT_AVAILABILITY_PENALTY"},
-    {"fixture":"Roosters v Sharks","player":"Ronaldo Mulitalo","classification":"SIGNAL","observation":"Reports a thumb ligament injury with associated bone injury and says he is in no doubt for the remainder of the finals; this is expected availability, not medical clearance.","decision_effect":"SHARKS_BACKLINE_CONTINUITY_PROVISIONAL; NO_DIRECTIONAL_PRODUCTION_PENALTY_ASSIGNED"},
-    {"fixture":"Roosters v Sharks","player":"KL Iro","classification":"VERIFIED","observation":"Official NRL judiciary report lists a Grade 1 Careless High Tackle with a monetary fine whether the guilty plea is taken or an unsuccessful challenge occurs; no match suspension is attached to the current charge.","decision_effect":"SHARKS_CENTRE_AVAILABILITY_NOT_REDUCED_BY_CURRENT_JUDICIARY_CHARGE; TEAM_SELECTION_PENDING"},
-    {"fixture":"Warriors v Knights","player":"Leka Halasima","classification":"CONTRADICTED","observation":"Official casualty source remains internally inconsistent on ankle versus hamstring; separate Week 2 reporting describes hamstring and a difficult eight-day turnaround.","decision_effect":"WARRIORS_MIDDLE_EDGE_AVAILABILITY_UNCERTAIN; NO_AVAILABLE_PROMOTION"},
-    {"fixture":"Warriors v Knights","player":"Jackson Ford","classification":"SIGNAL","observation":"Verified Week 1 ankle injury now carries scan-pending and long-odds-to-play reporting.","decision_effect":"WARRIORS_MIDDLE_EDGE_CONTINUITY_DOWN_PROVISIONALLY"},
-    {"fixture":"Warriors v Knights","player":"Jacob Laban","classification":"SIGNAL","observation":"Knee identified as his Week 2 injury concern; withdrawal and severity remain unconfirmed.","decision_effect":"WARRIORS_EDGE_FORWARD_CONTINUITY_UNCERTAINTY_UP"},
-    {"fixture":"Warriors v Knights","player":"Dallin Watene-Zelezniak","classification":"SIGNAL","observation":"Expected return from broken collarbone is reported; predicted starting role remains unverified before the official team list.","decision_effect":"WARRIORS_BACKLINE_AVAILABILITY_OUTLOOK_UP"},
-    {"fixture":"Warriors v Knights","player":"Adam Pompey","classification":"VERIFIED","observation":"Official NRL judiciary report states Pompey is free to play the semi-final if he takes the early guilty plea, which carries a $3000 fine; an unsuccessful challenge carries a two-match suspension. The published plea table remained TBC at the latest check.","decision_effect":"WARRIORS_CENTRE_AVAILABILITY_CONDITIONAL; NO_SUSPENSION_OR_CLEARANCE_ASSUMPTION_UNTIL_PLEA_OUTCOME"},
-    {"fixture":"Warriors v Knights","player":"Dylan Lucas","classification":"CONTRADICTED","observation":"Possible eight-week return remains in conflict with the prior official casualty state; classify as low-sample return variance until official selection resolves it.","decision_effect":"KNIGHTS_EDGE_DEPTH_UNCERTAINTY; NO_AVAILABILITY_PROMOTION"},
-    {"fixture":"Warriors v Knights","player":"Tyson Frizell","classification":"SIGNAL","observation":"Hamstring tightness and post-match lower-leg icing were reported after Week 1; current Week 2 reporting expects him to play.","decision_effect":"KNIGHTS_MIDDLE_CONTINUITY_PROVISIONAL; CONTINUE_AVAILABILITY_MONITOR"},
-    {"fixture":"Warriors v Knights","player":"Jermaine McEwen","classification":"SIGNAL","observation":"Failed to finish the Week 1 elimination final due to cramps; current Week 2 reporting expects him to play.","decision_effect":"KNIGHTS_EDGE_CONTINUITY_PROVISIONAL; CONTINUE_AVAILABILITY_MONITOR"}
+    {
+      "fixture": "Roosters v Sharks",
+      "team": "Roosters v Sharks market",
+      "classification": "VERIFIED_MARKET_BASELINE",
+      "observation": "A reliable two-sided winner market including extra time and penalties was captured at Roosters $1.36 and Sharks $2.90. Removing the 8.01% overround yields normalized probabilities of Roosters 68.08% and Sharks 31.92%. A separate PokerStars three-way market independently corroborated strong Roosters favouritism, but market sources remain one evidence family.",
+      "decision_effect": "MARKET_ABSORPTION_CLOCK_STARTED; NORMALIZED_MARKET_GATE_NOW HAS A BASELINE; NO TIP OR MAYHEM CONFIDENCE CREATED"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "team": "Warriors v Knights market",
+      "classification": "VERIFIED_MARKET_BASELINE_PARTIAL",
+      "observation": "PokerStars match betting was captured at Warriors $1.44, draw $15.00 and Knights $2.63. This establishes market direction and timestamp, but it is a three-way market; MAYHEM has not substituted it for the mandatory two-sided overround-adjusted probability gate.",
+      "decision_effect": "MARKET_ABSORPTION_CLOCK_STARTED; TWO_SIDED_NORMALIZATION_GATE_REMAINS OPEN; NO TIP OR MAYHEM CONFIDENCE CREATED"
+    }
   ],
   "fixture_updates": [
-    {"fixture_id":"W2-ROO-SHA-2026-09-19","fixture":"Roosters v Sharks","lifecycle":"UPCOMING","venue":"Allianz Stadium","kickoff_sydney":"2026-09-19T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"NICHO_HYNES_RECENT_ILLNESS_AND_REST_CONTEXT_ADDED; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"},
-    {"fixture_id":"W2-WAR-NKN-2026-09-20","fixture":"Warriors v Knights","lifecycle":"UPCOMING","venue":"Eden Park","kickoff_sydney":"2026-09-20T16:05:00+10:00","kickoff_local_nz":"2026-09-20T18:05:00+12:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"}
+    {
+      "fixture_id": "W2-ROO-SHA-2026-09-19",
+      "fixture": "Roosters v Sharks",
+      "lifecycle": "UPCOMING",
+      "venue": "Allianz Stadium",
+      "kickoff_sydney": "2026-09-19T19:50:00+10:00",
+      "next_checkpoint": "T-24h",
+      "next_checkpoint_due_sydney": "2026-09-18T19:50:00+10:00",
+      "decision_state": "UNFROZEN",
+      "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
+      "material_change": "RELIABLE_TWO_SIDED_MARKET_BASELINE_CAPTURED; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
+    },
+    {
+      "fixture_id": "W2-WAR-NKN-2026-09-20",
+      "fixture": "Warriors v Knights",
+      "lifecycle": "UPCOMING",
+      "venue": "Eden Park",
+      "kickoff_sydney": "2026-09-20T16:05:00+10:00",
+      "kickoff_local_nz": "2026-09-20T18:05:00+12:00",
+      "next_checkpoint": "T-24h",
+      "next_checkpoint_due_sydney": "2026-09-19T16:05:00+10:00",
+      "decision_state": "UNFROZEN",
+      "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
+      "material_change": "THREE_WAY_MARKET_BASELINE_CAPTURED; TWO_SIDED_NORMALIZATION_GATE_OPEN; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
+    }
   ],
   "weather_state": "NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
-  "market_state": "NO_CHECKPOINT_DUE; no market state promoted into a decision this cycle.",
-  "player_state": "Roster identities remain preserved. Relevant Week 2 statistical data remains marked STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH. Hynes recent illness/rest context is now persisted without converting retrospective illness into a current medical state.",
+  "market_state": {
+    "Roosters v Sharks": {
+      "home_price": 1.36,
+      "away_price": 2.90,
+      "normalized_home_probability_pct": 68.0751,
+      "normalized_away_probability_pct": 31.9249,
+      "overround_pct": 8.0122,
+      "source": "Stake winner including extra time and penalties",
+      "movement_classification": "BASELINE_CAPTURE_NO_CAUSAL_INFERENCE"
+    },
+    "Warriors v Knights": {
+      "home_price": 1.44,
+      "draw_price": 15.00,
+      "away_price": 2.63,
+      "source": "PokerStars three-way match betting",
+      "two_sided_normalization_status": "REQUIRED_BEFORE_FREEZE; NOT DERIVED FROM THREE_WAY PRICE",
+      "movement_classification": "BASELINE_CAPTURE_NO_CAUSAL_INFERENCE"
+    }
+  },
+  "player_state": "No new player availability state displaced the existing Week 2 intelligence in this cycle. Roster identities remain preserved. Relevant Week 2 statistical data remains marked STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH.",
   "statistical_freshness": {
     "status": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
-    "affected_teams": ["Roosters","Sharks","Warriors","Knights"],
+    "affected_teams": ["Roosters", "Sharks", "Warriors", "Knights"],
     "decision_gate": "If a confidence freeze were attempted before refresh, the mandatory role-critical player statistical comparison gate is REVIEW_REQUIRED.",
     "material_record": "data/material-update-w2-statistical-freshness-2026-09-14-142044-aest.json"
   },
   "learning_state": "NO_NEW_LEARNED_WEIGHT",
   "information_advantage": "NO_CHANGE",
-  "audit_integrity": "PRESERVED; retrospective illness context separated from current availability and causal inference.",
+  "audit_integrity": "PRESERVED; market evidence remains a single evidence family and no causal explanation is assigned to price state.",
   "persistence": {
-    "material_record": "data/material-update-w2-hynes-illness-context-2026-09-14-184643-aest.json",
+    "material_record": "data/material-update-w2-market-baseline-2026-09-14-195447-aest.json",
     "public_interface_source": "data/material-update-latest.json"
   }
 }
