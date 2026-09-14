@@ -1,0 +1,32 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-15T02:22:17+10:00",
+  "timezone": "Australia/Sydney",
+  "event_type": "MATERIAL_PLAYER_INTELLIGENCE_CHANGE",
+  "fixture": "Roosters v Sharks",
+  "player": "Braydon Trindall",
+  "previous_state": "RETURNED_FROM_SHOULDER_INJURY_WITH_POSITIVE_POST_MATCH_SIGNAL",
+  "current_state": "VERIFIED_PLAYING_THROUGH_REPORTED_SIGNIFICANT_SHOULDER_INJURY",
+  "classification": "VERIFIED_SOURCE_REPORT_WITH_ONGOING_AVAILABILITY_SIGNAL",
+  "source": {
+    "publisher": "Fox Sports",
+    "published_at": "2026-09-14T13:13:00+10:00",
+    "source_class": "SECONDARY_NEWS_WITH_DIRECT_TEAMMATE_QUOTES",
+    "url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-braydon-trindall-to-play-on-despite-severe-shoulder-injury-cronulla-sharks-vs-sydney-roosters-finals-week-2-daniel-atkinson/news-story/41373e7d2257446ac1bddb43c912d9d1"
+  },
+  "observations": [
+    "Fox Sports reports, based on direct comments from teammate Daniel Atkinson, that Trindall is playing through a severe SC joint injury.",
+    "Atkinson said Trindall remained very sore and that trainers had thought pre-match RLPA physical testing could rule him out before the Finals Week 1 match; Trindall nevertheless played that match.",
+    "Atkinson expects Trindall to continue playing through the finals. This is an availability signal, not official Week 2 selection or medical clearance."
+  ],
+  "medical_inference": "NONE_BEYOND_REPORTED_INJURY_DESCRIPTION",
+  "player_effect": "Role-critical Sharks playmaker remains a likely availability signal but with materially elevated physical-condition and workload uncertainty.",
+  "team_macro_effect": "Cronulla spine continuity remains provisionally intact; no automatic performance decrement or medical clearance is assigned.",
+  "matchup_effect": "Roosters v Sharks analysis must carry Trindall's ongoing shoulder limitation into the role-critical player comparison and counter-case.",
+  "decision_effect": "NO TIP OR CONFIDENCE CHANGE. Monitor official Week 2 team selection and later checkpoint status; do not quantify an injury penalty without evidence.",
+  "frozen_decision_changed": false,
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NO_CHANGE"
+}
