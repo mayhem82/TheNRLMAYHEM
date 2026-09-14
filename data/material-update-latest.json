@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-15T02:03:56+10:00",
+  "captured_at": "2026-09-15T02:22:17+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_PLAYER_AVAILABILITY_CONTRADICTION",
+  "trigger": "MATERIAL_PLAYER_INTELLIGENCE_CHANGE",
   "lifecycle_reconciliation": {
     "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
     "completed_week_1": [
@@ -19,12 +19,20 @@
   },
   "observations": [
     {
+      "fixture": "Roosters v Sharks",
+      "team": "Sharks",
+      "player": "Braydon Trindall",
+      "classification": "VERIFIED_SOURCE_REPORT_WITH_ONGOING_AVAILABILITY_SIGNAL",
+      "observation": "Fresh reporting based on direct teammate comments describes Trindall as playing through a severe SC joint injury and remaining very sore. Trainers had reportedly expected pre-match physical testing could rule him out before Finals Week 1, but he played the match; his teammate expects him to continue through the finals.",
+      "decision_effect": "QUALIFY PRIOR POSITIVE RETURN SIGNAL; RETAIN PROVISIONAL SPINE CONTINUITY BUT ELEVATE ROLE-CRITICAL PHYSICAL-CONDITION/WORKLOAD UNCERTAINTY; NO QUANTIFIED PERFORMANCE PENALTY OR MEDICAL CLEARANCE INFERRED"
+    },
+    {
       "fixture": "Warriors v Knights",
       "team": "Knights",
       "player": "Dylan Lucas",
       "classification": "CONTRADICTED_SIGNAL_REOPENED",
-      "observation": "Fresh 15 September reporting says Lucas is again a serious or 'big chance' Week 2 return candidate, including reporting attributing the development to Justin Holbrook/Newcastle sources. This conflicts with NRL.com reporting from 12 September that Newcastle officials contemplated a possible return only if the Knights reached the grand final.",
-      "decision_effect": "REOPEN WEEK2 AVAILABILITY AS UNRESOLVED; DO NOT ASSUME AVAILABLE OR UNAVAILABLE; IF NAMED CLASSIFY AS LOW-SAMPLE RETURN VARIANCE UNTIL ROLE AND CLEARANCE ARE VERIFIED"
+      "observation": "Fresh 15 September reporting says Lucas is again a serious or 'big chance' Week 2 return candidate, conflicting with NRL.com reporting from 12 September that Newcastle officials contemplated a possible return only if the Knights reached the grand final.",
+      "decision_effect": "WEEK2 AVAILABILITY REMAINS UNRESOLVED; DO NOT ASSUME AVAILABLE OR UNAVAILABLE"
     },
     {
       "fixture": "Warriors v Knights",
@@ -52,7 +60,7 @@
       "next_checkpoint_due_sydney": "2026-09-18T19:50:00+10:00",
       "decision_state": "UNFROZEN",
       "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
-      "material_change": "NO_NEW_PLAYER_CHANGE; TWO_SIDED_MARKET_BASELINE_UNCHANGED; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
+      "material_change": "BRAYDON_TRINDALL_ONGOING_SHOULDER_LIMITATION_MATERIALLY_QUALIFIES_PRIOR_RETURN_SIGNAL; TWO_SIDED_MARKET_BASELINE_UNCHANGED; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
     },
     {
       "fixture_id": "W2-WAR-NKN-2026-09-20",
@@ -90,7 +98,7 @@
       "movement_classification": "BASELINE_UNCHANGED_NO_CAUSAL_INFERENCE"
     }
   },
-  "player_state": "Dylan Lucas Week 2 availability is reopened as a CONTRADICTED signal: fresh later reporting points toward a possible Week 2 return, while the stronger earlier NRL report only contemplated a grand-final return. Official Week 2 team lists or direct club confirmation are required before promotion to VERIFIED roster availability. Other Week 2 player states remain unchanged pending official team lists. Relevant Week 2 statistical data remains STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH.",
+  "player_state": "Braydon Trindall's prior successful-return signal is materially qualified by fresh direct-teammate reporting that he remains very sore while playing through a reported severe SC joint injury. Week 2 selection is not yet official, so availability remains a signal rather than VERIFIED Week 2 roster status. Dylan Lucas remains a contradicted Week 2 return signal. Other player states remain unchanged pending official team lists. Relevant Week 2 statistical data remains STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH.",
   "statistical_freshness": {
     "status": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
     "affected_teams": ["Roosters", "Sharks", "Warriors", "Knights"],
@@ -99,9 +107,9 @@
   },
   "learning_state": "NO_NEW_LEARNED_WEIGHT",
   "information_advantage": "NO_CHANGE",
-  "audit_integrity": "PRESERVED; both the 12 September official NRL report and later 15 September return reporting are retained. Later timing reopens the question but does not establish VERIFIED availability before official team selection or equivalent direct confirmation.",
+  "audit_integrity": "PRESERVED; Trindall's earlier successful-return and positive post-match evidence remains historical. The newer report qualifies rather than overwrites that state. No medical inference beyond the reported injury description is made.",
   "persistence": {
-    "material_record": "data/material-update-w2-dylan-lucas-return-contradiction-2026-09-15-020356-aest.json",
+    "material_record": "data/material-update-w2-braydon-trindall-shoulder-2026-09-15-022217-aest.json",
     "public_interface_source": "data/material-update-latest.json"
   }
 }
