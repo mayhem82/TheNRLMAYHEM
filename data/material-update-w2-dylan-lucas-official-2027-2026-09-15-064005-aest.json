@@ -1,0 +1,38 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-15T06:40:05+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_PLAYER_INTELLIGENCE_CHANGE",
+  "fixture": "Warriors v Knights",
+  "source": {
+    "class": "OFFICIAL_NRL",
+    "url": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+    "published_at": "2026-09-14T18:30:00+10:00",
+    "observation": "The current official NRL Casualty Ward lists Dylan Lucas (ankle, 2027)."
+  },
+  "player": {
+    "name": "Dylan Lucas",
+    "team": "Knights",
+    "classification": "VERIFIED_OFFICIAL_CURRENT_AVAILABILITY_STATE",
+    "previous_state": "CONTRADICTED_SIGNAL_REOPENED",
+    "current_state": "OFFICIAL_CASUALTY_WARD_ANKLE_2027",
+    "conflict_handling": "Secondary reports describing a possible Finals Week 2 return are preserved as historical contradictory evidence but no longer control the current availability state.",
+    "decision_effect": "REMOVE_WEEK2_RETURN_UPSIDE_FROM_CURRENT_DECISION_STACK; treat Lucas as unavailable for Week 2 unless a later official NRL or Newcastle source reverses the state.",
+    "medical_inference": "NONE"
+  },
+  "fixture_effect": {
+    "team_macro": "Newcastle cannot currently receive a roster-continuity or edge-forward uplift from a Lucas Week 2 return.",
+    "matchup": "No directional match tip or confidence is created from this single availability correction.",
+    "market": "No causal market inference assigned.",
+    "information_advantage": "NONE"
+  },
+  "lifecycle": "UPCOMING",
+  "decision_state": "UNFROZEN",
+  "checkpoint_due": false,
+  "next_checkpoint_due_sydney": "2026-09-19T16:05:00+10:00",
+  "statistical_freshness": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "audit_integrity": "Prior contradictory reports are retained; the current official source is promoted without rewriting historical evidence."
+}
