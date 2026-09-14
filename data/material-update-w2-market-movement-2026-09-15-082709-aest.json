@@ -1,0 +1,78 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-15T08:27:09+10:00",
+  "timezone": "Australia/Sydney",
+  "classification": "MATERIAL_MARKET_MOVEMENT",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
+    "completed_week_1": [
+      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
+      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
+      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
+      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
+    ],
+    "active_fixture": null,
+    "next_fixture": "W2-ROO-SHA-2026-09-19"
+  },
+  "source": {
+    "url": "https://stake.com/sports/rugby/rugby-league",
+    "source_class": "RELIABLE_MARKET_STATE",
+    "market_type": "WINNER_INCLUDING_OVERTIME_AND_PENALTIES",
+    "capture_note": "Same source and same market type as the stored Week 2 baselines, permitting direct temporal comparison."
+  },
+  "fixtures": [
+    {
+      "fixture_id": "W2-ROO-SHA-2026-09-19",
+      "fixture": "Roosters v Sharks",
+      "lifecycle": "UPCOMING",
+      "decision_state": "UNFROZEN",
+      "prior_home_price": 1.36,
+      "prior_away_price": 2.90,
+      "current_home_price": 1.37,
+      "current_away_price": 2.85,
+      "current_overround_pct": 8.0804,
+      "prior_normalized_home_probability_pct": 68.0751,
+      "prior_normalized_away_probability_pct": 31.9249,
+      "current_normalized_home_probability_pct": 67.5355,
+      "current_normalized_away_probability_pct": 32.4645,
+      "normalized_home_change_pp": -0.5396,
+      "normalized_away_change_pp": 0.5396,
+      "movement_classification": "VERIFIED_SAME_SOURCE_TEMPORAL_MOVEMENT_SMALL",
+      "causal_inference": "NONE",
+      "decision_effect": "MARKET_FAVOURITISM_FOR_ROOSTERS_SLIGHTLY_REDUCED; NO TIP OR MAYHEM CONFIDENCE CREATED"
+    },
+    {
+      "fixture_id": "W2-WAR-NKN-2026-09-20",
+      "fixture": "Warriors v Knights",
+      "lifecycle": "UPCOMING",
+      "decision_state": "UNFROZEN",
+      "prior_home_price": 1.39,
+      "prior_away_price": 2.80,
+      "current_home_price": 1.44,
+      "current_away_price": 2.60,
+      "current_overround_pct": 7.9060,
+      "prior_normalized_home_probability_pct": 66.8258,
+      "prior_normalized_away_probability_pct": 33.1742,
+      "current_normalized_home_probability_pct": 64.3564,
+      "current_normalized_away_probability_pct": 35.6436,
+      "normalized_home_change_pp": -2.4694,
+      "normalized_away_change_pp": 2.4694,
+      "movement_classification": "VERIFIED_SAME_SOURCE_TEMPORAL_MOVEMENT_MATERIAL",
+      "causal_inference": "NONE",
+      "decision_effect": "MARKET_FAVOURITISM_FOR_WARRIORS_MATERIALLY_REDUCED; PRESERVE AS SIGNAL UNTIL EVIDENCE EXPLAINS OR REVERSES MOVEMENT; NO TIP OR MAYHEM CONFIDENCE CREATED"
+    }
+  ],
+  "player_review": {
+    "new_material_player_change": false,
+    "official_casualty_state_checked": true,
+    "note": "Current official NRL casualty states for the four relevant clubs were checked. Existing Angus Crichton, Sam Walker, Egan Butcher, Braydon Trindall, Leka Halasima, Jackson Ford, Dallin Watene-Zelezniak, Luke Metcalf, Brodie Jones and Dylan Lucas classifications remain materially unchanged in this cycle."
+  },
+  "weather_state": "NO_CHECKPOINT_DUE; no weather decision state promoted.",
+  "statistical_freshness": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
+  "evidence_family_independence": "Market movement is one evidence family and is not counted as independent football corroboration.",
+  "information_advantage": "NO_CHANGE",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "audit_integrity": "PRESERVED; direct same-source temporal comparison used, causal explanation withheld, frozen decisions unchanged."
+}
