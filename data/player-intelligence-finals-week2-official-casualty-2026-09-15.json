@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-09-15T06:40:05+10:00",
+  "timezone": "Australia/Sydney",
+  "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
+  "source_class": "OFFICIAL_NRL",
+  "source_published_at": "2026-09-14T18:30:00+10:00",
+  "records": [
+    {
+      "player": "Dylan Lucas",
+      "team": "Knights",
+      "fixture": "Warriors v Knights",
+      "position_context": "back-row / edge",
+      "classification": "VERIFIED_OFFICIAL_CURRENT_AVAILABILITY_STATE",
+      "status": "OFFICIAL_CASUALTY_WARD_ANKLE_2027",
+      "observation": "The current official NRL Casualty Ward lists Dylan Lucas under Newcastle Knights as 'ankle, 2027'. This directly conflicts with secondary Finals Week 2 return reports. No additional diagnosis or causal performance effect is inferred.",
+      "decision_effect": "REMOVE_WEEK2_RETURN_UPSIDE_FROM_CURRENT_DECISION_STACK; TREAT_AS_UNAVAILABLE_FOR_WEEK2_UNLESS_A_LATER_OFFICIAL_CLUB_OR_NRL_SOURCE_REVERSES_THIS_STATE",
+      "conflict_preserved": "Prior secondary reports describing Lucas as a big chance for Finals Week 2 remain historical contradictory evidence and are not deleted.",
+      "record_type": "PLAYER_AVAILABILITY"
+    }
+  ]
+}
