@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-14T14:20:44+10:00",
+  "captured_at": "2026-09-14T18:46:43+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "PLAYER_STATISTICAL_POPULATION_STALE_CAPTURE",
+  "trigger": "MATERIAL_PLAYER_PROFILE_CHANGE",
   "lifecycle_reconciliation": {
     "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
     "completed_week_1": [
@@ -22,10 +22,11 @@
     {"fixture":"Roosters v Sharks","player":"Sam Walker","classification":"SIGNAL_CONFLICT_UNRESOLVED","observation":"Possible Week 2 return remains unresolved against earlier season-out evidence; no selection or clearance established.","decision_effect":"ROOSTERS_SPINE_UNCERTAINTY_UP; NO_AVAILABILITY_PROMOTION"},
     {"fixture":"Roosters v Sharks","player":"Siua Wong","classification":"SIGNAL","observation":"Ribs identified as the injury concern after the Penrith final; no confirmed withdrawal.","decision_effect":"ROOSTERS_EDGE_ROTATION_UNCERTAINTY_UP"},
     {"fixture":"Roosters v Sharks","player":"Lindsay Collins","classification":"SIGNAL","observation":"Leg knock reported after the Penrith loss; Week 2 availability remains unresolved.","decision_effect":"ROOSTERS_MIDDLE_CONTINUITY_UNCERTAINTY_UP"},
-    {"fixture":"Roosters v Sharks","player":"Salesi Foketi","classification":"VERIFIED_EVENT_WITH_UNRESOLVED_CLEARANCE","observation":"Official NRL match coverage records Foketi leaving for an HIA in the 72nd minute against Penrith. No official HIA result or Week 2 medical clearance was located this cycle. Separate Week 2 reporting says he is expected to recover from influenza that affected him throughout the prior week, which does not resolve the HIA state.","decision_effect":"ROOSTERS_EDGE_CONTINUITY_UNCERTAINTY_UP; NO_CLEARANCE_OR_UNAVAILABILITY_ASSUMPTION"},
+    {"fixture":"Roosters v Sharks","player":"Salesi Foketi","classification":"VERIFIED_EVENT_WITH_UNRESOLVED_CLEARANCE","observation":"Official NRL match coverage records Foketi leaving for an HIA in the 72nd minute against Penrith. No official HIA result or Week 2 medical clearance was located. Separate Week 2 reporting says he is expected to recover from influenza that affected him throughout the prior week, which does not resolve the HIA state.","decision_effect":"ROOSTERS_EDGE_CONTINUITY_UNCERTAINTY_UP; NO_CLEARANCE_OR_UNAVAILABILITY_ASSUMPTION"},
     {"fixture":"Roosters v Sharks","player":"Sione Katoa","classification":"VERIFIED","observation":"Passed his Week 1 HIA and returned to the field; no current Week 2 withdrawal evidence.","decision_effect":"SHARKS_BACKLINE_CONTINUITY_PROVISIONAL"},
     {"fixture":"Roosters v Sharks","player":"Mawene Hiroti","classification":"SIGNAL","observation":"Possible recall from ribs issue after Week 1 reserve status.","decision_effect":"SHARKS_CENTRE_DEPTH_OPTION_UP; NO_STARTING_ROLE_ASSUMPTION"},
     {"fixture":"Roosters v Sharks","player":"Braydon Trindall","classification":"VERIFIED_WEEK1_RETURN_WITH_WEEK2_MONITOR","observation":"Completed Week 1 after shoulder return and reported pulling up all right; shoulder remains a monitor.","decision_effect":"SHARKS_SPINE_CONTINUITY_PROVISIONAL"},
+    {"fixture":"Roosters v Sharks","player":"Nicho Hynes","classification":"VERIFIED_RETROSPECTIVE_CONTEXT","observation":"On 14 September Hynes said he had battled influenza for a couple of weeks late in the season and Cronulla gave him a week off. This is recent illness/rest context only; no current illness, medical restriction or causal performance effect is inferred.","decision_effect":"SHARKS_SPINE_RECENT_WORKLOAD_CONTEXT_ADDED; NO_CURRENT_AVAILABILITY_PENALTY"},
     {"fixture":"Roosters v Sharks","player":"Ronaldo Mulitalo","classification":"SIGNAL","observation":"Reports a thumb ligament injury with associated bone injury and says he is in no doubt for the remainder of the finals; this is expected availability, not medical clearance.","decision_effect":"SHARKS_BACKLINE_CONTINUITY_PROVISIONAL; NO_DIRECTIONAL_PRODUCTION_PENALTY_ASSIGNED"},
     {"fixture":"Roosters v Sharks","player":"KL Iro","classification":"VERIFIED","observation":"Official NRL judiciary report lists a Grade 1 Careless High Tackle with a monetary fine whether the guilty plea is taken or an unsuccessful challenge occurs; no match suspension is attached to the current charge.","decision_effect":"SHARKS_CENTRE_AVAILABILITY_NOT_REDUCED_BY_CURRENT_JUDICIARY_CHARGE; TEAM_SELECTION_PENDING"},
     {"fixture":"Warriors v Knights","player":"Leka Halasima","classification":"CONTRADICTED","observation":"Official casualty source remains internally inconsistent on ankle versus hamstring; separate Week 2 reporting describes hamstring and a difficult eight-day turnaround.","decision_effect":"WARRIORS_MIDDLE_EDGE_AVAILABILITY_UNCERTAIN; NO_AVAILABLE_PROMOTION"},
@@ -38,12 +39,12 @@
     {"fixture":"Warriors v Knights","player":"Jermaine McEwen","classification":"SIGNAL","observation":"Failed to finish the Week 1 elimination final due to cramps; current Week 2 reporting expects him to play.","decision_effect":"KNIGHTS_EDGE_CONTINUITY_PROVISIONAL; CONTINUE_AVAILABILITY_MONITOR"}
   ],
   "fixture_updates": [
-    {"fixture_id":"W2-ROO-SHA-2026-09-19","fixture":"Roosters v Sharks","lifecycle":"UPCOMING","venue":"Allianz Stadium","kickoff_sydney":"2026-09-19T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"},
+    {"fixture_id":"W2-ROO-SHA-2026-09-19","fixture":"Roosters v Sharks","lifecycle":"UPCOMING","venue":"Allianz Stadium","kickoff_sydney":"2026-09-19T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"NICHO_HYNES_RECENT_ILLNESS_AND_REST_CONTEXT_ADDED; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"},
     {"fixture_id":"W2-WAR-NKN-2026-09-20","fixture":"Warriors v Knights","lifecycle":"UPCOMING","venue":"Eden Park","kickoff_sydney":"2026-09-20T16:05:00+10:00","kickoff_local_nz":"2026-09-20T18:05:00+12:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED","material_change":"PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"}
   ],
   "weather_state": "NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
   "market_state": "NO_CHECKPOINT_DUE; no market state promoted into a decision this cycle.",
-  "player_state": "Roster identities remain preserved. The relevant Week 2 statistical layer is explicitly marked STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH because its canonical Finals Week 1 aggregates were captured before those matches and per-round reconciliation remains incomplete. Existing figures remain historical source facts; currentness is not claimed until refreshed.",
+  "player_state": "Roster identities remain preserved. Relevant Week 2 statistical data remains marked STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH. Hynes recent illness/rest context is now persisted without converting retrospective illness into a current medical state.",
   "statistical_freshness": {
     "status": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
     "affected_teams": ["Roosters","Sharks","Warriors","Knights"],
@@ -52,10 +53,9 @@
   },
   "learning_state": "NO_NEW_LEARNED_WEIGHT",
   "information_advantage": "NO_CHANGE",
-  "audit_integrity": "PRESERVED_BY_EXPLICIT_STALE_CAPTURE_CLASSIFICATION",
+  "audit_integrity": "PRESERVED; retrospective illness context separated from current availability and causal inference.",
   "persistence": {
-    "material_record": "data/material-update-w2-statistical-freshness-2026-09-14-142044-aest.json",
-    "player_manifest": "data/player-data-manifest-2026.json",
+    "material_record": "data/material-update-w2-hynes-illness-context-2026-09-14-184643-aest.json",
     "public_interface_source": "data/material-update-latest.json"
   }
 }
