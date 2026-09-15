@@ -1,0 +1,50 @@
+{
+  "capture_time_australia_sydney": "2026-09-15T16:53:51+10:00",
+  "event": "FINALS_WEEK2_OFFICIAL_TEAM_LIST_RECONCILIATION",
+  "source": {
+    "class": "PRIMARY_OFFICIAL_NRL_AND_CLUB",
+    "nrl": "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
+    "warriors": "https://www.warriors.kiwi/news/2026/09/15/nrl-team-list-watene-zelezniak-on-extended-bench/",
+    "knights": "https://www.newcastleknights.com.au/news/2026/09/15/nrl-team-list--semi-final/",
+    "sharks": "https://www.sharks.com.au/news/2026/09/15/nrl-team-list-week-2-finals-v-roosters/"
+  },
+  "fixtures": {
+    "Roosters v Sharks": {
+      "state": "UPCOMING_NEXT_UNFROZEN",
+      "kickoff": "2026-09-19T19:50:00+10:00",
+      "material": [
+        "Angus Crichton named on Roosters interchange in jersey 17; return is roster-verified but actual participation remains subject to later reductions/final team.",
+        "Sam Walker absent from the official 22-man Roosters squad; current Week 2 return speculation is superseded for roster state.",
+        "Egan Butcher officially OUT; NRL records concussion and 11-day stand-down.",
+        "Salesi Foketi named to start and NRL reports him right to play after Week 1 HIA.",
+        "Sharks name same starting 1-17; Braydon Trindall named at five-eighth and Sharks report shoulder came through Week 1 unscathed.",
+        "Hohepa Puru remains absent; Jayden Berrell is jersey 18."
+      ]
+    },
+    "Warriors v Knights": {
+      "state": "UPCOMING_UNFROZEN",
+      "kickoff": "2026-09-20T16:05:00+10:00",
+      "material": [
+        "Jackson Ford officially OUT; Morgan Gannon takes his bench place.",
+        "Jacob Laban named starting second row in jersey 12, resolving earlier knee-doubt signal to VERIFIED_ROSTER_PRESENCE while not proving condition beyond selection.",
+        "Leka Halasima named reserve jersey 22 after Week 1 warm-up hamstring withdrawal; return remains conditional.",
+        "Dallin Watene-Zelezniak named reserve jersey 23 after collarbone injury; return remains conditional.",
+        "Dylan Lucas named Knights reserve jersey 22 and club states he has until kickoff to prove fitness; prior official 2027 casualty designation is superseded as current roster state but preserved as historical contradiction.",
+        "Luke Metcalf not named in Warriors 23-man squad; no Week 2 return roster presence."
+      ]
+    }
+  },
+  "decision_state": {
+    "tip": null,
+    "confidence": null,
+    "freeze": "NOT_DUE",
+    "checkpoint_due": false,
+    "statistical_gate": "REVIEW_REQUIRED_PENDING_POST_WEEK1_REFRESH"
+  },
+  "audit": {
+    "roster_population": "OFFICIAL_WEEK2_LISTS_NOW_REQUIRE_FULL_PERSISTENT_PLAYER_LAYER_RECONCILIATION",
+    "player_statistical_population": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
+    "weather_checkpoint": "NOT_DUE",
+    "market": "NO_NEW_RELIABLE_SAME_SOURCE_STATE_CAPTURED_IN_THIS_EVENT"
+  }
+}
