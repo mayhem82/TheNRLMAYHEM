@@ -1,0 +1,26 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_2",
+  "captured_at":"2026-09-15T23:33:05+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"MATERIAL_PLAYER_STATISTICAL_ENRICHMENT",
+  "lifecycle_reconciliation":{"status":"COMPLETE_BEFORE_FUTURE_FIXTURE_WORK","active_fixture":null,"next_fixture":"Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium","following_fixture":"Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"},
+  "observations":[
+    {"fixture":"Roosters v Sharks","player":"Teig Wilton","classification":"VERIFIED_SECONDARY_MATCH_STAT","source_class":"AAP syndicated report","source_url":"https://theqldr.com.au/sport/2026/09/15/rl_sharks-325/","observation":"AAP reports Wilton made a team-high 42 tackles against North Queensland in the Week 1 elimination final; Blayke Brailey made 38.","decision_effect":"Verified recent defensive-workload evidence for a role-critical Sharks edge; no causal performance uplift inferred."},
+    {"fixture":"Roosters v Sharks","player":"Siosifa Talakai","classification":"VERIFIED_SECONDARY_MATCH_STAT","source_class":"AAP syndicated report","source_url":"https://theqldr.com.au/sport/2026/09/15/rl_sharks_talakai-2/","observation":"AAP reports Talakai played 35 minutes against North Queensland and recorded seven tackle busts, one line break, 12 runs for 155 metres and 72 post-contact metres.","decision_effect":"Verified recent interchange impact/workload evidence; no standalone directional weighting."},
+    {"fixture":"Warriors v Knights","player":"Taine Tuaupiki","classification":"VERIFIED_SECONDARY_MATCH_STAT","source_class":"AAP syndicated report","source_url":"https://nit.com.au/15-09-2026/26456/right-the-wrongs-warriors-dynamo-eyes-knights-bounce","observation":"AAP reports Tuaupiki produced 227 running metres, two line breaks and nine tackle busts against the Dolphins while scoring all 16 Warriors points via one try and six goals from six attempts.","decision_effect":"Verified Week 1 attacking/running production for the Warriors fullback; retained as recent-form evidence without causal extrapolation."},
+    {"fixture":"Warriors v Knights","player":"Jermaine McEwen","classification":"VERIFIED_SECONDARY_MATCH_STAT","source_class":"ABC-derived report indexed by News Minimalist","source_url":"https://www.newsminimalist.com/articles/jermaine-mcewens-finals-debut-for-newcastle-two-tries-187-metres-and-a-win-over-souths-5b005ef1","observation":"Report attributes two tries and 187 running metres to McEwen in Newcastle's 20-10 Week 1 win over South Sydney.","decision_effect":"Recent attacking/running production supports role continuity evidence; remains secondary until official NRL per-match dossier capture."},
+    {"fixture":"Warriors v Knights","player":"Dylan Lucas","classification":"SIGNAL_RETURN_FITNESS_LONG_ODDS","source_class":"AAP syndicated report","source_url":"https://theqldr.com.au/sport/2026/09/15/rl_knights-237/","observation":"AAP reports Lucas completed running drills Tuesday but describes him as long odds to play Sunday, despite official reserve #22 roster presence.","decision_effect":"Preserves roster presence while reducing any unsupported assumption that naming implies likely participation; no Newcastle uplift assigned."}
+  ],
+  "fixture_updates":[
+    {"fixture_id":"W2-ROO-SHA-2026-09-19","lifecycle":"UPCOMING","decision_state":"UNFROZEN","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","material_change":"PLAYER_STATISTICAL_ENRICHMENT"},
+    {"fixture_id":"W2-WAR-NKN-2026-09-20","lifecycle":"UPCOMING","decision_state":"UNFROZEN","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","material_change":"PLAYER_STATISTICAL_ENRICHMENT_AND_LUCAS_FITNESS_SIGNAL"}
+  ],
+  "weather_state":"NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
+  "market_state":"NO_RELIABLE_NEW_TWO_SIDED_STATE_ACCEPTED_THIS_CYCLE.",
+  "statistical_freshness":{"status":"PARTIAL_POST_WEEK1_ENRICHMENT_ONLY","decision_gate":"REVIEW_REQUIRED remains until full role-critical official statistical refresh is complete."},
+  "learning_state":"NO_NEW_LEARNED_WEIGHT",
+  "information_advantage":"NO_CHANGE",
+  "audit_integrity":"PRESERVED; raw reported match statistics are separated from trend inference and causal explanation."
+}
