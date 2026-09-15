@@ -1,0 +1,36 @@
+{
+  "cycleCapture": "2026-09-15T12:47:55+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycleReconciliation": {
+    "finalsWeek1": "VERIFIED_RESULT",
+    "next": "Roosters v Sharks",
+    "roostersSharks": "UPCOMING_UNFROZEN",
+    "warriorsKnights": "UPCOMING_UNFROZEN"
+  },
+  "materialUpdate": {
+    "fixture": "Warriors v Knights",
+    "player": "Dylan Lucas",
+    "classification": "CONTRADICTED_SIGNAL_REOPENED_DIRECT_COACH_SELECTION_INTENT",
+    "observation": "Fresh reporting dated 15 September attributes to Knights coach Justin Holbrook that Dylan Lucas will be named in Newcastle's Tuesday 22-man squad. Holbrook also states that whether Lucas reaches the field remains uncertain and multiple steps remain before he can play.",
+    "source": "Fox Sports Australia, 15 September 2026 10:36 AEST, quoting Justin Holbrook on The Agenda Setters",
+    "sourceUrl": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245",
+    "evidenceClass": "SIGNAL_DIRECT_COACH_QUOTE_VIA_SECONDARY_SOURCE",
+    "conflict": "Conflicts with the current NRL Casualty Ward listing of ankle / 2027. The casualty listing is not deleted; the newer direct coach selection-intent statement requires the Week 2 state to remain unresolved until the official Tuesday team list and subsequent fitness evidence.",
+    "decisionEffect": "Do not treat Lucas as definitively unavailable for Week 2. Do not treat him as available either. If named, classify as roster presence plus low-sample/return-from-injury uncertainty until confirmed to play. No directional performance uplift is assigned.",
+    "learningEffect": "NONE",
+    "informationAdvantageChange": "NONE"
+  },
+  "otherSignals": {
+    "Sam Walker": "Secondary report says he was sighted running at training and Trent Robinson said never say never. Remains return signal only, not verified Week 2 availability.",
+    "Angus Crichton": "Robinson remained uncertain; no promotion to verified availability.",
+    "Jackson Ford": "Secondary reporting describes long odds for Week 2 pending scans; not official exclusion.",
+    "Leka Halasima": "Secondary reporting expects absence pending scans; not official Week 2 team-list exclusion.",
+    "Jacob Laban": "Secondary knee-doubt signal remains unresolved.",
+    "Dallin Watene-Zelezniak": "Secondary reporting expects return; official Week 2 roster not yet captured."
+  },
+  "checkpoint": "NONE_DUE",
+  "tip": null,
+  "confidence": null,
+  "freeze": false,
+  "statisticalFreshnessGate": "REVIEW_REQUIRED_POST_WEEK1_REFRESH_STILL_ACTIVE"
+}
