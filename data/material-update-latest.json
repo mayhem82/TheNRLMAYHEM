@@ -2,23 +2,28 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_2",
-  "captured_at":"2026-09-16T07:57:08+10:00",
+  "captured_at":"2026-09-16T09:48:48+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_MATCHUP_MEMORY_UPDATE",
+  "trigger":"MATERIAL_AUDIT_CORRECTION_AND_ROSTER_RECONCILIATION",
   "lifecycle_reconciliation":{"status":"COMPLETE","active_fixture":null,"next_fixture":"Roosters v Sharks — 19 September 2026, 7:50pm AEST","following_fixture":"Warriors v Knights — 20 September 2026, 4:05pm AEST"},
-  "source":{"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/15/warriors-v-knights-leka-dwz-in-mix-lucas-nears-return/"},
+  "sources":[
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/"},
+    {"class":"OFFICIAL_CLUB","url":"https://www.warriors.kiwi/news/2026/09/15/nrl-team-list-watene-zelezniak-on-extended-bench/"}
+  ],
   "observations":[
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_MATCHUP_MEMORY","observation":"Warriors have won six of their last seven games against Newcastle; Newcastle have not won in New Zealand since 2019.","decision_effect":"Historical matchup evidence only; no causal or pseudo-precise uplift."},
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_VENUE_COUNTER_CASE","observation":"Warriors have lost five of their six games played at Eden Park.","decision_effect":"Material counter-case against simplistic home-ground weighting; no invented numerical penalty."}
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_CANONICAL_ROSTER_PRESENCE","observation":"Official NRL team list and the rendered Warriors team list both place Morgan Gannon on the interchange in jersey 20 for Finals Week 2.","decision_effect":"Morgan Gannon is the canonical current roster replacement for Jackson Ford unless a later official squad reduction or final-team update changes the selection."},
+    {"fixture":"Warriors v Knights","classification":"CONTRADICTED_OFFICIAL_SOURCE_INTERNAL_ROSTER_TEXT","observation":"Warriors article prose says Eddie Ieremia-Toeava replaces Jackson Ford in jersey 17, while the rendered list on that same article and official NRL team list show Morgan Gannon on the interchange. Preserve prose conflict for audit.","decision_effect":"Do not treat Eddie Ieremia-Toeava as the canonical replacement from this conflicted prose; later official team updates retain precedence."},
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_ROSTER_PRESENCE_RETURN_CANDIDATE","player":"Dallin Watene-Zelezniak","observation":"Named reserve 23 after collarbone injury; if selected the match would be his 250th NRL appearance.","decision_effect":"Participation remains unverified; no directional uplift."}
   ],
   "fixture_updates":[
     {"fixture":"Roosters v Sharks","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","material_change":"NO_NEW_MATERIAL_CHANGE"},
-    {"fixture":"Warriors v Knights","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"MATCHUP_MEMORY_AND_VENUE_COUNTER_CASE"}
+    {"fixture":"Warriors v Knights","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"OFFICIAL_ROSTER_CONFLICT_RECONCILED_WITH_CANONICAL_RENDERED_LIST"}
   ],
   "weather_state":"NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
   "market_state":"NO_NEW_RELIABLE_SAME_PROVIDER_TWO_SIDED_STATE_ACCEPTED_THIS_CYCLE",
   "statistical_freshness":{"status":"PARTIAL_POST_WEEK1_ENRICHMENT_ONLY","decision_gate":"REVIEW_REQUIRED"},
   "learning_state":"NO_NEW_LEARNED_WEIGHT",
   "information_advantage":"NO_CHANGE",
-  "audit_integrity":"PRESERVED"
+  "audit_integrity":"PRESERVED",
+  "persistence":"WRITE_ATTEMPTED"
 }
