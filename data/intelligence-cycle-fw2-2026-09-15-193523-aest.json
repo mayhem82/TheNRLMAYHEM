@@ -1,0 +1,46 @@
+{
+  "captured_at": "2026-09-15T19:35:23+10:00",
+  "timezone": "Australia/Sydney",
+  "cycle": "Finals Week 2 intelligence",
+  "lifecycle_reconciliation": {
+    "completed_week1": "VERIFIED_RESULT",
+    "next_fixture": "Roosters v Sharks",
+    "roosters_sharks": "UPCOMING_UNFROZEN",
+    "warriors_knights": "UPCOMING_UNFROZEN"
+  },
+  "checkpoint_state": {
+    "roosters_sharks": "NO_CHECKPOINT_DUE",
+    "warriors_knights": "NO_CHECKPOINT_DUE"
+  },
+  "material_update": {
+    "fixture": "Roosters v Sharks",
+    "player": "Angus Crichton",
+    "classification": "VERIFIED_ROSTER_PRESENCE_FITNESS_NOT_VERIFIED",
+    "correction": "Official Week 2 squad naming verifies roster presence only. It does not verify that Crichton has passed fit or will play. Secondary post-list reporting states he has a second attempt at passing fit after failing to do so in Week 1.",
+    "decision_effect": "Treat Crichton as named return candidate with unresolved fitness/participation uncertainty. Do not assign confirmed-return performance uplift until later reduction/final-team evidence.",
+    "sources": [
+      "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
+      "https://www.roosters.com.au/news/2026/09/15/team-list--finals-week-2-v-sharks/",
+      "https://www.zerotackle.com/rapid-fire-tuesday-semi-finals-crichton-again-warriors-late-changes-likely-lucas-a-chance-238128/"
+    ]
+  },
+  "market": {
+    "roosters_sharks": {
+      "stake": {"home": 1.37, "away": 2.85},
+      "state": "NO_MATERIAL_CHANGE_FROM_1752_CAPTURE"
+    },
+    "warriors_knights": {
+      "stake_observation_conflict": true,
+      "observed_current_direct_nrl_page": {"home": 1.43, "away": 2.65},
+      "alternate_stake_listing_same_cycle": {"home": 1.39, "away": 2.75},
+      "classification": "SOURCE_RENDER_CONFLICT_DO_NOT_TREAT_AS_RELIABLE_TEMPORAL_MOVEMENT",
+      "decision_effect": "No market-derived confidence change until a stable same-source state is captured."
+    }
+  },
+  "validation_gate": "REVIEW_REQUIRED_PENDING_POST_WEEK1_PLAYER_STATISTICAL_REFRESH",
+  "tip_change": false,
+  "confidence_change": false,
+  "learned_weight_change": false,
+  "information_advantage_change": false,
+  "audit_integrity": "Prior Crichton VERIFIED_ROSTER_PRESENCE_RETURN_FROM_INJURY wording is narrowed: roster presence is verified; fitness/participation is not. Historical record is not overwritten."
+}
