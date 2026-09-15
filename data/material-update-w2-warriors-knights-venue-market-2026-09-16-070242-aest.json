@@ -1,0 +1,25 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_2",
+  "captured_at":"2026-09-16T07:02:42+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"MATERIAL_VENUE_MATCHUP_MARKET_UPDATE_AND_PERSISTENCE_REPAIR",
+  "lifecycle_reconciliation":{"status":"COMPLETE_BEFORE_FUTURE_FIXTURE_WORK","active_fixture":null,"next_fixture":"Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium","following_fixture":"Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"},
+  "source":{"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/16/origin-atmosphere-suncorp-success-driving-best-towards-hostile-eden-park/","captured_at":"2026-09-16T07:02:42+10:00"},
+  "observations":[
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_VENUE_CONTEXT","observation":"Official NRL reporting states more than 40,000 Warriors supporters are expected at Eden Park; Newcastle players describe an Origin-like/hostile environment.","decision_effect":"Venue-environment evidence only; no invented numerical home-field uplift."},
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_PRIOR_MEETING_CONTEXT_WITH_CONFOUNDER","observation":"Warriors won the Round 26 meeting 46-32, but Newcastle forward Jacob Saifiti was sent off in the 12th minute.","decision_effect":"Prior scoreline retained with major early-dismissal confounder; not clean independent predictive evidence."},
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_CURRENT_TWO_SIDED_MARKET_CROSS_PROVIDER_NON_TEMPORAL","observation":"Official NRL article displayed Sportsbet Warriors $1.52 / Knights $2.57. Overround-adjusted probabilities approximately Warriors 62.84%, Knights 37.16%.","decision_effect":"Current market baseline only; provider differs from prior Stake captures, therefore no temporal movement inference."}
+  ],
+  "fixture_updates":[
+    {"fixture_id":"W2-ROO-SHA-2026-09-19","fixture":"Roosters v Sharks","lifecycle":"UPCOMING","kickoff_sydney":"2026-09-19T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","material_change":"NO_NEW_MATERIAL_CHANGE"},
+    {"fixture_id":"W2-WAR-NKN-2026-09-20","fixture":"Warriors v Knights","lifecycle":"UPCOMING","kickoff_sydney":"2026-09-20T16:05:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"VENUE_MATCHUP_MARKET_CONTEXT"}
+  ],
+  "weather_state":"NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
+  "statistical_freshness":{"status":"PARTIAL_POST_WEEK1_ENRICHMENT_ONLY","decision_gate":"REVIEW_REQUIRED remains until full role-critical official statistical refresh is complete."},
+  "learning_state":"NO_NEW_LEARNED_WEIGHT",
+  "information_advantage":"NO_CHANGE",
+  "audit_integrity":"PRESERVED; cross-provider market is not treated as temporal movement and confounded prior result is not treated as clean corroboration.",
+  "persistence":{"prior_failure":"REPAIRED_THIS_CYCLE","material_record":"data/material-update-w2-warriors-knights-venue-market-2026-09-16-070242-aest.json","public_interface_source":"data/material-update-latest.json"}
+}
