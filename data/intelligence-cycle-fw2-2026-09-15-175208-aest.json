@@ -1,0 +1,60 @@
+{
+  "capture_time_australia_sydney": "2026-09-15T17:52:08+10:00",
+  "cycle": "Finals Week 2",
+  "lifecycle_reconciliation": {
+    "completed_week_1": "VERIFIED_RESULT retained",
+    "active_fixture": null,
+    "next_fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+    "state": "UPCOMING_UNFROZEN"
+  },
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "kickoff": "2026-09-19T19:50:00+10:00",
+      "checkpoint_due": false,
+      "official_roster_state": "VERIFIED_FINALS_WEEK2_22_MAN_SQUADS",
+      "material_change_this_cycle": false,
+      "market": {
+        "source": "Stake",
+        "captured": "2026-09-15T17:52:08+10:00",
+        "roosters": 1.37,
+        "sharks": 2.85,
+        "normalized_roosters_probability": 0.6754,
+        "normalized_sharks_probability": 0.3246,
+        "movement_from_prior_same_source": "NO_MATERIAL_CHANGE"
+      },
+      "decision": "UNFROZEN",
+      "statistical_dossier_gate": "REVIEW_REQUIRED_PENDING_POST_WEEK1_REFRESH"
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "kickoff": "2026-09-20T16:05:00+10:00",
+      "checkpoint_due": false,
+      "official_roster_state": "VERIFIED_FINALS_WEEK2_22_MAN_SQUADS",
+      "material_change_this_cycle": true,
+      "market": {
+        "source": "Stake",
+        "captured": "2026-09-15T17:52:08+10:00",
+        "warriors": 1.39,
+        "knights": 2.75,
+        "normalized_warriors_probability": 0.6643,
+        "normalized_knights_probability": 0.3357,
+        "prior_same_source": {"warriors": 1.44, "knights": 2.60, "normalized_warriors_probability": 0.6436, "normalized_knights_probability": 0.3564},
+        "movement": "Warriors +2.07 percentage points normalized probability; Knights -2.07pp",
+        "classification": "VERIFIED_SAME_SOURCE_TEMPORAL_MOVEMENT_MATERIAL",
+        "cause": "SIGNAL_UNKNOWN"
+      },
+      "player_observation": {
+        "player": "Dylan Lucas",
+        "status": "VERIFIED_ROSTER_PRESENCE_RESERVE_22_RETURN_UNCERTAINTY",
+        "new_secondary_observation": "AAP/Sport Nation reports Lucas trained ahead of Warriors clash",
+        "classification": "CORROBORATING_SIGNAL_NOT_FINAL_SELECTION",
+        "decision_effect": "Return possibility strengthened but no directional Newcastle uplift assigned"
+      },
+      "decision": "UNFROZEN",
+      "statistical_dossier_gate": "REVIEW_REQUIRED_PENDING_POST_WEEK1_REFRESH"
+    }
+  ],
+  "learning_change": false,
+  "information_advantage_change": false
+}
