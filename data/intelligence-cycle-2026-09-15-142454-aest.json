@@ -1,0 +1,56 @@
+{
+  "captureTimeAustraliaSydney": "2026-09-15T14:24:54+10:00",
+  "cycle": "FINALS_WEEK_2",
+  "lifecycle": {
+    "roostersSharks": "UPCOMING_NEXT_UNFROZEN",
+    "warriorsKnights": "UPCOMING_UNFROZEN",
+    "checkpointDue": false
+  },
+  "sources": [
+    {
+      "sourceClass": "SECONDARY_SPORTS_REPORTING_WITH_DIRECT_PLAYER_QUOTES",
+      "publisher": "Fox Sports Australia",
+      "published": "2026-09-15T13:39:00+10:00",
+      "url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-semi-finals-week-2-injuries-and-suspension-team-tips-finals-week-two-sam-walker-dylan-lucas/news-story/2b0e9da9f9078bbb263f68d22afec245"
+    }
+  ],
+  "materialObservations": [
+    {
+      "fixture": "Sydney Roosters v Cronulla Sharks",
+      "player": "Nicho Hynes",
+      "classification": "VERIFIED_DIRECT_PLAYER_QUOTE_SECONDARY_CARRIER",
+      "observation": "Hynes said he had influenza over the final couple of weeks of the regular season and that the week off was beneficial.",
+      "decisionEffect": "Historical workload/health context only; no current unavailability inferred."
+    },
+    {
+      "fixture": "Sydney Roosters v Cronulla Sharks",
+      "player": "Ronaldo Mulitalo",
+      "classification": "VERIFIED_DIRECT_PLAYER_QUOTE_SECONDARY_CARRIER",
+      "observation": "Mulitalo described a right-thumb ligament/bone injury from the prior week but stated he was in no doubt for the remainder of the finals.",
+      "decisionEffect": "Physical-condition signal retained, but current availability remains supported by the player's direct statement; no quantified performance penalty inferred."
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "player": "Luke Metcalf",
+      "classification": "SIGNAL_SECONDARY_REPORT_EXPLICIT_WEEK2_UNAVAILABLE",
+      "observation": "Dave Riccio reported Metcalf will not be available this week and is expected back for a preliminary final.",
+      "decisionEffect": "Do not count Metcalf as Week 2 return upside unless official Warriors/team-list evidence reverses this state."
+    }
+  ],
+  "unchangedMaterialStates": [
+    "Sam Walker return remains unverified",
+    "Angus Crichton return remains unresolved pending team list",
+    "Braydon Trindall physical-condition signal remains active",
+    "Dylan Lucas remains contradictory pending official squad",
+    "Jackson Ford, Leka Halasima and Jacob Laban remain availability concerns",
+    "Dallin Watene-Zelezniak return remains unresolved"
+  ],
+  "decision": {
+    "tipChanged": false,
+    "confidenceChanged": false,
+    "frozen": false,
+    "informationAdvantageChanged": false,
+    "statisticalFreshnessGate": "REVIEW_REQUIRED_PENDING_POST_WEEK1_REFRESH"
+  },
+  "nextEvidenceEvent": "Official Finals Week 2 team lists scheduled for 16:00 AEST on 2026-09-15"
+}
