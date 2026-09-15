@@ -1,0 +1,55 @@
+{
+  "captureTimeAustraliaSydney": "2026-09-15T14:03:49+10:00",
+  "cycle": "FINALS_WEEK_2",
+  "lifecycleReconciliation": {
+    "status": "NO_PAST_DUE_UNRESOLVED_FIXTURE_IDENTIFIED_IN_CURRENT_WEEK2_SCOPE",
+    "nextFixture": "Sydney Roosters v Cronulla Sharks",
+    "nextState": "UPCOMING_UNFROZEN"
+  },
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla Sharks",
+      "checkpointDue": false,
+      "materialObservations": [
+        {
+          "player": "Sam Walker",
+          "classification": "SIGNAL_SECONDARY_REPORT_RETURN_PROGRESS_NOT_SELECTION",
+          "observation": "Fresh reporting says Walker has resumed running and Roosters have not ruled out a Week 2 return; team announcement due later 15 September. No selection or clearance inferred.",
+          "source": "https://www.news.com.au/sport/nrl/roosters/big-ask-roosters-leave-the-door-open-for-sam-walker-to-make-stunning-return-for-sharks-clash/news-story/f414dad61a52ec21b82b2e3128c400cc"
+        },
+        {
+          "player": "Egan Butcher",
+          "classification": "VERIFIED_OFFICIAL_HEAD_KNOCK_PROTOCOL_TBC",
+          "observation": "Official NRL casualty data lists head knock, TBC; no Week 2 availability assumed.",
+          "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+        }
+      ],
+      "decisionEffect": "NO_FREEZE_CHANGE"
+    },
+    {
+      "fixture": "Warriors v Newcastle Knights",
+      "checkpointDue": false,
+      "materialObservations": [
+        {
+          "player": "Jackson Ford",
+          "classification": "SIGNAL_SECONDARY_REPORT_WEEK2_OUT_PENDING_OFFICIAL_TEAM_LIST",
+          "observation": "Fresh reporting states Ford is ruled out of Sunday's elimination final after the ankle injury sustained in Finals Week 1. Official NRL casualty data still lists ankle, TBC, so the stronger secondary report is retained as a signal pending official selection/club confirmation.",
+          "source": "https://www.dailytelegraph.com.au/sport/nrl/nrl-teams-finals-week-2-sam-walker-makes-promising-progress-jackson-ford-out/news-story/c1b13762e9ba16ee6f973fbc645e5f30"
+        },
+        {
+          "player": "Dylan Lucas",
+          "classification": "CONTRADICTED_SIGNAL_DIRECT_SELECTION_INTENT_VS_OFFICIAL_CASUALTY_2027",
+          "observation": "Fresh secondary reporting says Lucas is set for an early return, while current official NRL casualty data continues to list ankle, 2027. Existing contradiction remains unresolved until official team list/club evidence.",
+          "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/"
+        }
+      ],
+      "decisionEffect": "WARRIORS_FORWARD_CONTINUITY_RISK_INCREASED_SIGNAL_ONLY_NO_CONFIDENCE_CHANGE"
+    }
+  ],
+  "statisticalDossierGate": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
+  "freezeStatus": "REVIEW_REQUIRED_IF_ATTEMPTED_BEFORE_REFRESH",
+  "tipChange": false,
+  "confidenceChange": false,
+  "learnedWeightChange": false,
+  "informationAdvantageChange": false
+}
