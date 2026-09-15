@@ -1,109 +1,26 @@
 {
-  "system": "The NRL MAYHEM",
-  "season": 2026,
-  "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-15T08:27:09+10:00",
-  "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_MARKET_CHANGE",
-  "lifecycle_reconciliation": {
-    "status": "COMPLETE_BEFORE_FUTURE_FIXTURE_WORK",
-    "completed_week_1": [
-      "FW1-SS-NKN-2026-09-11:VERIFIED_RESULT",
-      "FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT",
-      "FW1-SHA-COW-2026-09-12:VERIFIED_RESULT",
-      "FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"
-    ],
-    "active_fixture": null,
-    "next_fixture": "Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium",
-    "following_fixture": "Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"
-  },
-  "observations": [
-    {
-      "fixture": "Roosters v Sharks",
-      "team": "Roosters v Sharks market",
-      "classification": "VERIFIED_SAME_SOURCE_TEMPORAL_MOVEMENT_SMALL",
-      "observation": "Stake winner-including-overtime market moved from Roosters $1.36 / Sharks $2.90 to Roosters $1.37 / Sharks $2.85. Overround-adjusted probability moved from Roosters 68.0751% / Sharks 31.9249% to Roosters 67.5355% / Sharks 32.4645%.",
-      "decision_effect": "ROOSTERS MARKET FAVOURITISM SLIGHTLY REDUCED; NO CAUSAL EXPLANATION; NO TIP OR MAYHEM CONFIDENCE CREATED"
-    },
-    {
-      "fixture": "Warriors v Knights",
-      "team": "Warriors v Knights market",
-      "classification": "VERIFIED_SAME_SOURCE_TEMPORAL_MOVEMENT_MATERIAL",
-      "observation": "Stake winner-including-overtime market moved from Warriors $1.39 / Knights $2.80 to Warriors $1.44 / Knights $2.60. Overround-adjusted probability moved from Warriors 66.8258% / Knights 33.1742% to Warriors 64.3564% / Knights 35.6436%.",
-      "decision_effect": "WARRIORS MARKET FAVOURITISM REDUCED BY 2.4694 PERCENTAGE POINTS; MOVEMENT REMAINS SIGNAL WITHOUT KNOWN CAUSE; NO TIP OR MAYHEM CONFIDENCE CREATED"
-    },
-    {
-      "fixture": "Warriors v Knights",
-      "team": "Knights",
-      "player": "Dylan Lucas",
-      "classification": "VERIFIED_OFFICIAL_CURRENT_AVAILABILITY_STATE",
-      "observation": "Official NRL Casualty Ward continues to list Dylan Lucas as ankle — 2027.",
-      "decision_effect": "NO NEW CHANGE THIS CYCLE"
-    }
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_2",
+  "captured_at":"2026-09-15T20:46:05+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"MATERIAL_MATCHUP_INTELLIGENCE_AND_STALE_PUBLIC_SOURCE_REPAIR",
+  "lifecycle_reconciliation":{"status":"COMPLETE_BEFORE_FUTURE_FIXTURE_WORK","completed_week_1":["FW1-SS-NKN-2026-09-11:VERIFIED_RESULT","FW1-WAR-DOL-2026-09-12:VERIFIED_RESULT","FW1-SHA-COW-2026-09-12:VERIFIED_RESULT","FW1-PEN-SYD-2026-09-13:VERIFIED_RESULT"],"active_fixture":null,"next_fixture":"Roosters v Sharks — Saturday 19 September, 7:50pm AEST, Allianz Stadium","following_fixture":"Warriors v Knights — Sunday 20 September, 4:05pm AEST / 6:05pm NZ, Eden Park"},
+  "observations":[
+    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_MATCHUP_MEMORY","observation":"NRL.com records that the Roosters defeated the Sharks in both 2026 regular-season meetings. Official Stat Attack also records the Roosters have won three of four finals clashes against Cronulla, while Cronulla have won four of their last six finals games.","decision_effect":"Matchup history favours the Roosters; Cronulla's recent finals record is the counter-signal. No tip or confidence change."},
+    {"fixture":"Roosters v Sharks","player":"Billy Smith","classification":"VERIFIED_OFFICIAL_PLAYER_TREND_SIGNAL","observation":"Seven tries in his last six games at Allianz Stadium.","decision_effect":"Attacking trend only; no causal or standalone directional weighting."},
+    {"fixture":"Roosters v Sharks","player":"Sione Katoa","classification":"VERIFIED_OFFICIAL_PLAYER_TREND_SIGNAL","observation":"Seven tries in his last four games.","decision_effect":"Attacking trend only; no causal or standalone directional weighting."}
   ],
-  "fixture_updates": [
-    {
-      "fixture_id": "W2-ROO-SHA-2026-09-19",
-      "fixture": "Roosters v Sharks",
-      "lifecycle": "UPCOMING",
-      "venue": "Allianz Stadium",
-      "kickoff_sydney": "2026-09-19T19:50:00+10:00",
-      "next_checkpoint": "T-24h",
-      "next_checkpoint_due_sydney": "2026-09-18T19:50:00+10:00",
-      "decision_state": "UNFROZEN",
-      "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
-      "material_change": "SAME_SOURCE_MARKET_FAVOURITISM_SLIGHTLY_REDUCED; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
-    },
-    {
-      "fixture_id": "W2-WAR-NKN-2026-09-20",
-      "fixture": "Warriors v Knights",
-      "lifecycle": "UPCOMING",
-      "venue": "Eden Park",
-      "kickoff_sydney": "2026-09-20T16:05:00+10:00",
-      "kickoff_local_nz": "2026-09-20T18:05:00+12:00",
-      "next_checkpoint": "T-24h",
-      "next_checkpoint_due_sydney": "2026-09-19T16:05:00+10:00",
-      "decision_state": "UNFROZEN",
-      "roster_state": "OFFICIAL_WEEK_2_TEAM_LIST_NOT_YET_CAPTURED",
-      "material_change": "SAME_SOURCE_MARKET_FAVOURITISM_REDUCED_2.4694PP; CAUSE_UNKNOWN_SIGNAL; PLAYER_STATISTICAL_REFRESH_REQUIRED_POST_FINALS_WEEK1"
-    }
+  "fixture_updates":[
+    {"fixture_id":"W2-ROO-SHA-2026-09-19","fixture":"Roosters v Sharks","lifecycle":"UPCOMING","venue":"Allianz Stadium","kickoff_sydney":"2026-09-19T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_CAPTURED","material_change":"OFFICIAL_MATCHUP_MEMORY_AND_PLAYER_TREND_ENRICHED"},
+    {"fixture_id":"W2-WAR-NKN-2026-09-20","fixture":"Warriors v Knights","lifecycle":"UPCOMING","venue":"Eden Park","kickoff_sydney":"2026-09-20T16:05:00+10:00","kickoff_local_nz":"2026-09-20T18:05:00+12:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","roster_state":"OFFICIAL_WEEK_2_TEAM_LIST_CAPTURED","material_change":"NO_NEW_MATERIAL_CHANGE_THIS_CYCLE"}
   ],
-  "weather_state": "NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
-  "market_state": {
-    "Roosters v Sharks": {
-      "home_price": 1.37,
-      "away_price": 2.85,
-      "normalized_home_probability_pct": 67.5355,
-      "normalized_away_probability_pct": 32.4645,
-      "overround_pct": 8.0804,
-      "source": "Stake winner including overtime and penalties",
-      "prior_normalized_home_probability_pct": 68.0751,
-      "normalized_home_change_pp": -0.5396,
-      "movement_classification": "VERIFIED_SAME_SOURCE_TEMPORAL_MOVEMENT_SMALL_NO_CAUSAL_INFERENCE"
-    },
-    "Warriors v Knights": {
-      "home_price": 1.44,
-      "away_price": 2.60,
-      "normalized_home_probability_pct": 64.3564,
-      "normalized_away_probability_pct": 35.6436,
-      "overround_pct": 7.9060,
-      "source": "Stake winner including overtime and penalties",
-      "prior_normalized_home_probability_pct": 66.8258,
-      "normalized_home_change_pp": -2.4694,
-      "movement_classification": "VERIFIED_SAME_SOURCE_TEMPORAL_MOVEMENT_MATERIAL_NO_CAUSAL_INFERENCE"
-    }
-  },
-  "player_state": "Official NRL casualty states checked. No new player availability classification promoted this cycle. Existing Week 2 player states and contradictions remain preserved.",
-  "statistical_freshness": {
-    "status": "STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH",
-    "affected_teams": ["Roosters", "Sharks", "Warriors", "Knights"],
-    "decision_gate": "REVIEW_REQUIRED if a confidence freeze is attempted before role-critical statistical refresh."
-  },
-  "learning_state": "NO_NEW_LEARNED_WEIGHT",
-  "information_advantage": "NO_CHANGE",
-  "audit_integrity": "PRESERVED; same-source and same-market temporal comparison used, market evidence remains one evidence family, and movement without an identified cause remains SIGNAL rather than proof.",
-  "persistence": {
-    "material_record": "data/material-update-w2-market-movement-2026-09-15-082709-aest.json",
-    "public_interface_source": "data/material-update-latest.json"
-  }
+  "weather_state":"NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
+  "market_state":"NO_RELIABLE_NEW_TWO_SIDED_STATE_ACCEPTED_THIS_CYCLE; prior market-source conflict remains audit history.",
+  "player_state":"Official Week 2 named squads remain the roster authority. No additional availability state promoted this cycle.",
+  "statistical_freshness":{"status":"STALE_CAPTURE_REQUIRES_POST_WEEK1_REFRESH","affected_teams":["Roosters","Sharks","Warriors","Knights"],"decision_gate":"REVIEW_REQUIRED if a confidence freeze is attempted before role-critical statistical refresh."},
+  "learning_state":"NO_NEW_LEARNED_WEIGHT",
+  "information_advantage":"NO_CHANGE",
+  "audit_integrity":"PRESERVED; matchup and player trend facts remain distinct from causal inference and market evidence.",
+  "persistence":{"material_record":"data/material-update-w2-official-matchup-refresh-2026-09-15-204605-aest.json","public_interface_source":"data/material-update-latest.json","repair":"STALE_PUBLIC_SOURCE_REPAIRED_FROM_08:27_STATE"}
 }
