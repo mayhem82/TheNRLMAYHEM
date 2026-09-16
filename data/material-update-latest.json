@@ -2,22 +2,27 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_2",
-  "captured_at":"2026-09-16T11:33:30+10:00",
+  "captured_at":"2026-09-16T12:50:07+10:00",
   "timezone":"Australia/Sydney",
   "trigger":"MATERIAL_PLAYER_AVAILABILITY_SIGNAL",
   "lifecycle_reconciliation":{"status":"COMPLETE","active_fixture":null,"next_fixture":"Roosters v Sharks — 19 September 2026, 7:50pm AEST","following_fixture":"Warriors v Knights — 20 September 2026, 4:05pm AEST"},
   "sources":[
-    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/11/sudden-death-showdown-rabbitohs-v-knights/"},
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/","source_timestamp":"2026-09-15T16:06:00+10:00"},
     {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/"},
     {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/15/warriors-v-knights-leka-dwz-in-mix-lucas-nears-return/"}
   ],
   "observations":[
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_RECENT_PHYSICAL_SIGNAL_CURRENTLY_NAMED","player":"Tyson Frizell","observation":"Official NRL live reporting from Newcastle's Week 1 elimination-final win records Frizell leaving the field at 73 minutes and applying ice to a tight hamstring. The same official report records 13 runs for 137 metres, and the official Finals Week 2 list names him to start at prop against the Warriors.","decision_effect":"Preserve as a decision-relevant recent workload/physical-status signal. Do not infer a medical diagnosis, severity, reduced capacity or directional team penalty without later evidence. Recheck at squad reduction/final-team checkpoints."},
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_ROSTER_PRESENCE_RETURN_NOT_FINAL_TEAM_VERIFIED","player":"Dallin Watene-Zelezniak","observation":"Official NRL/Warriors sources continue to place Watene-Zelezniak on the extended bench rather than confirm final participation.","decision_effect":"No return uplift until later squad reduction/final-team evidence."}
+    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_CASUALTY_SIGNAL","player":"Hohepa Puru","observation":"Official NRL Casualty Ward lists Puru with illness and return timing TBC.","decision_effect":"Availability uncertainty only; do not infer diagnosis, severity or directional team effect. Recheck later team reductions/final team."},
+    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_CASUALTY_SIGNAL","player":"Mawene Hiroti","observation":"Official NRL Casualty Ward lists Hiroti with a ribs issue and Finals Week 2 return timing.","decision_effect":"Return-window signal only; roster/final participation requires later verification."},
+    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_CASUALTY_SIGNAL","player":"Toby Rodwell","observation":"Official NRL Casualty Ward lists Rodwell with concussion and Finals Week 2 return timing.","decision_effect":"Availability signal only; no assumption of clearance or role effect before later verification."},
+    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_AVAILABILITY","player":"Egan Butcher","observation":"Official NRL Casualty Ward records the 11-day concussion stand-down and Finals Week 3 return timing.","decision_effect":"Confirms absence from Finals Week 2; no speculative replacement weighting."},
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_CASUALTY_SIGNAL","player":"Dylan Lucas","observation":"Official NRL Casualty Ward lists Lucas with ankle injury and Finals Week 2 return timing; official Week 2 team material retains him among reserves.","decision_effect":"Return candidate remains uncertain; no return uplift until final participation is verified."},
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_CASUALTY_SIGNAL","player":"Leka Halasima","observation":"Official NRL Casualty Ward lists Halasima with hamstring issue and Finals Week 2 return timing; he remains among Warriors reserves.","decision_effect":"Return candidate remains uncertain; no directional uplift until final participation is verified."},
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_CASUALTY_SIGNAL","player":"Dallin Watene-Zelezniak","observation":"Official NRL Casualty Ward lists Watene-Zelezniak with collarbone injury and Finals Week 2 return timing; he remains on the extended squad.","decision_effect":"No return uplift until later squad reduction/final-team evidence."}
   ],
   "fixture_updates":[
-    {"fixture":"Roosters v Sharks","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","material_change":"NO_NEW_MATERIAL_CHANGE"},
-    {"fixture":"Warriors v Knights","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"TYSON_FRIZELL_RECENT_HAMSTRING_SIGNAL_CAPTURED"}
+    {"fixture":"Roosters v Sharks","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","material_change":"OFFICIAL_CASUALTY_WARD_SIGNALS_CAPTURED"},
+    {"fixture":"Warriors v Knights","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"OFFICIAL_RETURN_WINDOW_SIGNALS_RECONFIRMED"}
   ],
   "weather_state":"NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
   "market_state":"NO_NEW_RELIABLE_SAME_PROVIDER_TWO_SIDED_STATE_ACCEPTED_THIS_CYCLE",
