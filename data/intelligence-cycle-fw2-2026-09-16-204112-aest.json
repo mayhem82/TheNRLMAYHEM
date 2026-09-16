@@ -1,0 +1,45 @@
+{
+  "capture_time": "2026-09-16T20:41:12+10:00",
+  "cycle": "Finals Week 2",
+  "lifecycle_reconciliation": {
+    "Roosters v Sharks": "UPCOMING_UNFROZEN",
+    "Warriors v Knights": "UPCOMING_UNFROZEN",
+    "next": "Roosters v Sharks"
+  },
+  "checkpoint_status": {
+    "Roosters v Sharks": "NO_CHECKPOINT_DUE",
+    "Warriors v Knights": "NO_CHECKPOINT_DUE"
+  },
+  "material_observations": [
+    {
+      "fixture": "Roosters v Sharks",
+      "player": "Braydon Trindall",
+      "class": "VERIFIED_RECENT_PHYSICAL_SIGNAL_CURRENTLY_NAMED",
+      "observation": "Contemporary reporting states Trindall returned from a recent shoulder injury for the elimination final, recorded nine tackles and two missed tackles, and sustained a stinger while tackling Heilum Luki. He remains officially named at five-eighth for Finals Week 2.",
+      "decision_effect": "Mandatory later-checkpoint recheck and role-critical defensive profile comparison. No inferred diagnosis, severity, reduced capacity or numerical downgrade.",
+      "sources": [
+        "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
+        "https://www.news.com.au/sport/nrl/make-sure-we-capitalise-on-it-roosters-duo-will-make-life-hell-for-braydon-trindall-if-they-can-target-his-injured-shoulder/news-story/acc3be27bc62975dd9c853cd31dba6f0"
+      ]
+    }
+  ],
+  "weather": {
+    "Roosters v Sharks": {
+      "source": "Australian Bureau of Meteorology Sydney-area forecast",
+      "forecast_for_2026-09-19": "Sunny; 0% chance of rain; westerly 15-20 km/h becoming light during the morning.",
+      "decision_effect": "No demonstrated weather-driven directional adjustment at this stage. Recheck at due checkpoints."
+    },
+    "Warriors v Knights": {
+      "status": "OFFICIAL_LOCATION_FORECAST_NOT_RELIABLY_CAPTURED_THIS_CYCLE",
+      "decision_effect": "No weather inference permitted; mandatory recheck remains open."
+    }
+  },
+  "market": {
+    "Roosters v Sharks": "No new accepted same-provider two-sided state this cycle.",
+    "Warriors v Knights": "No new accepted same-provider two-sided state this cycle."
+  },
+  "validation_state": "REVIEW_REQUIRED",
+  "validation_reason": "Mandatory current-roster player statistical dossier enrichment remains incomplete; no new confidence freeze claims full MAYHEM validation.",
+  "learning": "NO_WEIGHT_CHANGE",
+  "information_advantage": "NO_CLASSIFICATION_CHANGE"
+}
