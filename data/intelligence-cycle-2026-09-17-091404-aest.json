@@ -1,0 +1,49 @@
+{
+  "capture_time": "2026-09-17T09:14:04+10:00",
+  "cycle_type": "HOURLY_INTELLIGENCE",
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "kickoff": "2026-09-19T19:50:00+10:00",
+      "state": "UPCOMING",
+      "checkpoint_due": false,
+      "next_checkpoint": "T-24h 2026-09-18T19:50:00+10:00",
+      "roster_source": "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
+      "roster_state": "VERIFIED_CURRENT_NAMED_SQUAD",
+      "weather": {
+        "location": "Sydney",
+        "date": "2026-09-19",
+        "forecast": "Very warm with spells of sunshine; breezy in the afternoon; approximately 28C maximum and 14C minimum",
+        "decision_effect": "NO_DIRECTIONAL_ADJUSTMENT"
+      },
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED"
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "kickoff": "2026-09-20T16:05:00+10:00",
+      "state": "UPCOMING",
+      "checkpoint_due": false,
+      "next_checkpoint": "T-24h 2026-09-19T16:05:00+10:00",
+      "roster_source": "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
+      "roster_state": "VERIFIED_CURRENT_NAMED_SQUAD_WITH_WARRIORS_BENCH_TEXT_RENDER_CONFLICT_RETAINED",
+      "player_updates": [
+        {
+          "player": "Tyson Frizell",
+          "classification": "VERIFIED_RECENT_PHYSICAL_SIGNAL_CURRENTLY_NAMED_WITH_EXPECTED_AVAILABILITY",
+          "observation": "Contemporary Finals Week 2 late-mail reporting says Frizell is expected to be available despite the minor issue after last match. This reduces but does not erase the previously recorded physical-status recheck requirement."
+        },
+        {
+          "player": "Jermaine McEwen",
+          "classification": "VERIFIED_CURRENTLY_NAMED_WITH_EXPECTED_AVAILABILITY",
+          "observation": "Contemporary Finals Week 2 late-mail reporting says McEwen is expected to be available despite a minor issue after last match."
+        }
+      ],
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED"
+    }
+  ],
+  "player_dossier_state": "INCOMPLETE_REVIEW_REQUIRED",
+  "learned_weight_change": "NONE",
+  "information_advantage_change": "NONE",
+  "tip_freeze": "NONE",
+  "persistence": "PERSISTED"
+}
