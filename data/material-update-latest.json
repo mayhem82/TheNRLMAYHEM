@@ -2,32 +2,30 @@
   "system":"The NRL MAYHEM",
   "season":2026,
   "stage":"FINALS_WEEK_2",
-  "captured_at":"2026-09-16T13:24:49+10:00",
+  "captured_at":"2026-09-18T09:05:39+10:00",
   "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_PLAYER_AND_VENUE_SIGNAL",
+  "trigger":"MATERIAL_PLAYER_STATISTICAL_ENRICHMENT",
   "lifecycle_reconciliation":{"status":"COMPLETE","active_fixture":null,"next_fixture":"Roosters v Sharks — 19 September 2026, 7:50pm AEST","following_fixture":"Warriors v Knights — 20 September 2026, 4:05pm AEST"},
   "sources":[
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/17/nrl-late-mail-finals-week-2---lucas-in-the-mix/","source_timestamp":"2026-09-17T18:01:00+10:00"},
     {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/"},
-    {"class":"OFFICIAL_CLUB_NRL_MEDIA_RELEASE","url":"https://www.newcastleknights.com.au/news/2026/09/16/eden-park-semi-final-sold-out/","source_timestamp":"2026-09-16T07:44:00+10:00"},
-    {"class":"SECONDARY_REPUTABLE","url":"https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-semifinals-latest-team-and-injury-news-warriors-provide-update-on-leka-halasima-and-dallin-watenezelezniak-dylan-lucas-comeback/news-story/7ccfbb503de78373aef9f872887c9e5a","source_timestamp":"2026-09-16T12:52:00+10:00"},
-    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/16/redemption-mission-driving-roosters-into-sudden-death-showdown/","source_timestamp":"2026-09-16T12:01:00+10:00"}
+    {"class":"REPUTABLE_CURRENT_REPORT","url":"https://www.news.com.au/sport/nrl/you-dont-do-that-through-luck-fletcher-sharpe-one-of-the-stories-of-the-season-a-year-after-he-suffered-car-crash-injuries/news-story/2b43e5b84da4545255c99c67f88c3beb","capture_date":"2026-09-18"},
+    {"class":"MARKET_PROVIDER","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","capture_date":"2026-09-18"}
   ],
   "observations":[
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_QUOTED_COACH_STATUS_SECONDARY","player":"Dallin Watene-Zelezniak","observation":"Warriors coach Andrew Webster is reported saying Watene-Zelezniak has completed only little pieces of contact, must tick multiple boxes, and the science is probably against his return.","decision_effect":"Return probability qualitatively downgraded from generic return candidate to doubtful/clearance-dependent; no numerical team downgrade or medical inference."},
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_QUOTED_COACH_STATUS_SECONDARY","player":"Leka Halasima","observation":"Webster is reported describing Halasima as a chance but highly doubtful after the warm-up hamstring issue; the issue was subsequently described as not as bad as initially feared.","decision_effect":"Return remains possible but doubtful; no directional uplift until participation is verified."},
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_VENUE_CONTEXT","observation":"NRL media release states the Eden Park semi-final sold out in less than 48 hours and all general-public tickets were exhausted.","decision_effect":"Strengthens verified crowd/venue environment context only; no manufactured home-field probability uplift."},
-    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_MARKET_STATE","observation":"Official NRL article displayed Sportsbet Roosters $1.44 / Sharks $2.81 at capture context.","normalized_market_probability":{"Roosters":0.6613,"Sharks":0.3387},"decision_effect":"Current cross-provider market baseline only unless matched to a same-provider temporal capture; no movement causation inferred."},
-    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_TEAM_TREND","observation":"Official NRL reports the Roosters have lost four consecutive matches after their Round 24 win over Penrith.","decision_effect":"Season/recent-form macro context; must be evaluated with opponent strength and performance detail rather than treated as standalone predictive evidence."}
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_CURRENT_SEASON_PERFORMANCE_REPORT","player":"Fletcher Sharpe","observation":"Current reporting credits Sharpe with a career-high 12 tries and 11 assists in 2026 and identifies his support role alongside Kalyn Ponga as a major component of Newcastle's attack.","decision_effect":"Adds verified 2026 attacking-production evidence to a role-critical Newcastle spine player. Raw reported totals are preserved separately from MAYHEM inference; no causal explanation or numerical probability uplift is inferred from the totals alone."},
+    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_RETURN_ASSESSMENT_PENDING","player":"Dylan Lucas","observation":"Official NRL late mail retains Lucas in reserve jersey 22 after training; Newcastle coach Justin Holbrook says a final fitness decision will be made Saturday.","decision_effect":"Mandatory later recheck; no promotion into canonical 17 until verified."},
+    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_ROSTER_STATE","observation":"Official NRL late mail continues to expect no Cronulla late changes; Angus Crichton remains on track to return from the Roosters interchange and Salesi Foketi retains the starting back-row role.","decision_effect":"No new directional adjustment; roster state remains current pending squad reduction."}
   ],
   "fixture_updates":[
-    {"fixture":"Roosters v Sharks","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","material_change":"OFFICIAL_CURRENT_MARKET_AND_RECENT_FORM_CONTEXT"},
-    {"fixture":"Warriors v Knights","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"RETURN_CANDIDATES_DOWNGRADED_TO_DOUBTFUL_AND_EDEN_PARK_SELLOUT_VERIFIED"}
+    {"fixture":"Roosters v Sharks","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","material_change":"NO_NEW_ROSTER_CHANGE_THIS_CAPTURE"},
+    {"fixture":"Warriors v Knights","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"FLETCHER_SHARPE_2026_ATTACKING_PROFILE_ENRICHED"}
   ],
-  "weather_state":"NO_CHECKPOINT_DUE; no weather state promoted into a decision this cycle.",
-  "market_state":"ROOSTERS_SHARKS_OFFICIAL_NRL_SPORTSBET_1.44_2.81_NORMALIZED_66.13_33.87; provider continuity required before movement inference.",
-  "statistical_freshness":{"status":"PARTIAL_POST_WEEK1_ENRICHMENT_ONLY","decision_gate":"REVIEW_REQUIRED"},
+  "weather_state":{"Roosters v Sharks":"Sydney Saturday forecast remains very warm with spells of sunshine; no precipitation mechanism promoted into the decision.","Warriors v Knights":"Mandatory Auckland weather remains on watch for the later checkpoint; no new directional weather effect asserted in this capture."},
+  "market_state":{"Roosters v Sharks":"Sportsbet $1.44/$2.81, normalized approximately 66.15%/33.85%; line Roosters -7.5.","Warriors v Knights":"Sportsbet $1.51/$2.57, normalized approximately 62.97%/37.03%; line Warriors -5.5."},
+  "statistical_freshness":{"status":"ROSTER_POPULATION_AND_DOSSIER_ENRICHMENT_IN_PROGRESS","decision_gate":"REVIEW_REQUIRED"},
   "learning_state":"NO_NEW_LEARNED_WEIGHT",
   "information_advantage":"NO_CHANGE",
   "audit_integrity":"PRESERVED",
-  "persistence":"WRITE_ATTEMPTED"
+  "persistence":"WRITTEN"
 }
