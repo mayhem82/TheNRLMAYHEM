@@ -1,0 +1,79 @@
+{
+  "cycle": "FW2_2026_09_17_144015_AEST",
+  "captured_at": "2026-09-17T14:40:15+10:00",
+  "lifecycle_reconciliation": "NO_PAST_DUE_FW2_FIXTURES",
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "kickoff": "2026-09-19T19:50:00+10:00",
+      "state": "UPCOMING_UNFROZEN",
+      "precedence": "NEXT",
+      "next_checkpoint": "T-24h 2026-09-18T19:50:00+10:00",
+      "material_observations": [
+        {
+          "player": "Ronaldo Mulitalo",
+          "classification": "VERIFIED_PHYSICAL_STATUS_SIGNAL_CURRENTLY_NAMED",
+          "observation": "Contemporary reporting states Mulitalo has a torn thumb ligament with bone damage and is expected to play. No impairment magnitude or hidden medical inference assigned.",
+          "source": "news.com.au report crawled 2026-09-17"
+        },
+        {
+          "player": "Hohepa Puru",
+          "classification": "VERIFIED_OFFICIAL_UNAVAILABLE",
+          "observation": "Cronulla club-primary team update states Puru, a late withdrawal with a virus in Week 1, will also miss the Roosters semi-final.",
+          "source": "sharks.com.au 2026-09-15 team list"
+        },
+        {
+          "player": "Jayden Berrell",
+          "classification": "VERIFIED_ROSTER_PRESENCE",
+          "observation": "Recalled to Cronulla bench/squad in place of Puru; official NRL says fifth NRL game of 2026 and first since Round 18.",
+          "source": "nrl.com 2026-09-15 Finals Week 2 team lists"
+        }
+      ],
+      "weather": {
+        "status": "VERIFIED_FORECAST_NON_DIRECTIONAL",
+        "summary": "Sydney Saturday forecast remains very warm with spells of sunshine and afternoon breeze; no precipitation-driven adjustment established.",
+        "decision_effect": "NONE"
+      },
+      "decision": "UNFROZEN",
+      "validation": "REVIEW_REQUIRED_FULL_ROSTER_STATISTICAL_DOSSIERS_INCOMPLETE"
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "kickoff": "2026-09-20T16:05:00+10:00",
+      "state": "UPCOMING_UNFROZEN",
+      "precedence": "SECONDARY",
+      "next_checkpoint": "T-24h 2026-09-19T16:05:00+10:00",
+      "material_observations": [
+        {
+          "player": "Dylan Lucas",
+          "classification": "SIGNAL_RETURN_PROSPECT_STRENGTHENED",
+          "observation": "Remains reserve #22 and subject to late fitness determination; not promoted into canonical 17.",
+          "source": "nrl.com 2026-09-15 Finals Week 2 team lists; contemporary late mail 2026-09-17"
+        },
+        {
+          "player": "Leka Halasima",
+          "classification": "VERIFIED_ROSTER_RESERVE_WITH_AVAILABILITY_UNCERTAINTY",
+          "observation": "Official NRL list retains Halasima among Warriors reserves after Week 1 warm-up hamstring issue.",
+          "source": "nrl.com 2026-09-15 Finals Week 2 team lists"
+        },
+        {
+          "player": "Dallin Watene-Zelezniak",
+          "classification": "VERIFIED_ROSTER_RESERVE_WITH_AVAILABILITY_UNCERTAINTY",
+          "observation": "Official NRL list retains Watene-Zelezniak among Warriors reserves following collarbone injury absence.",
+          "source": "nrl.com 2026-09-15 Finals Week 2 team lists"
+        }
+      ],
+      "weather": {
+        "status": "MANDATORY_RECHECK_PENDING",
+        "summary": "No sufficiently reliable fresh Auckland official-location forecast captured in this cycle; no weather inference made.",
+        "decision_effect": "NONE"
+      },
+      "decision": "UNFROZEN",
+      "validation": "REVIEW_REQUIRED_FULL_ROSTER_STATISTICAL_DOSSIERS_INCOMPLETE"
+    }
+  ],
+  "market": "NO_NEW_RELIABLE_TWO_SIDED_SAME_PROVIDER_STATE_ACCEPTED",
+  "information_advantage": "NO_RECLASSIFICATION",
+  "learned_weight_change": "NONE",
+  "audit_integrity": "RAW_OBSERVATIONS_SEPARATED_FROM_INFERENCE"
+}
