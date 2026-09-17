@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-09-17T16:14:18+10:00",
+  "timezone": "Australia/Sydney",
+  "cycle_state": "REVIEW_REQUIRED",
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "lifecycle": "UPCOMING",
+      "precedence": "NEXT",
+      "decision": "UNFROZEN",
+      "next_checkpoint": "T-24h — 2026-09-18T19:50:00+10:00",
+      "material_change": "NO_NEW_MATERIAL_CHANGE_THIS_CYCLE",
+      "weather": "Mandatory weather watch retained; no new directional weather effect accepted this cycle."
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "lifecycle": "UPCOMING",
+      "decision": "UNFROZEN",
+      "next_checkpoint": "T-24h — 2026-09-19T16:05:00+10:00",
+      "material_change": "Dylan Lucas return signal strengthened: contemporary reporting states he trained on Thursday and is tracking toward a potential return; he remains reserve #22 until official squad reduction/final-team confirmation.",
+      "classification": "SIGNAL_RETURN_PROSPECT_STRENGTHENED",
+      "decision_effect": "Mandatory later-checkpoint recheck; no directional probability adjustment and no promotion into canonical 17 without official confirmation.",
+      "weather": "Mandatory weather watch retained; no new verified directional weather effect accepted this cycle."
+    }
+  ],
+  "market": "No new reliable same-provider two-sided market state accepted this cycle.",
+  "information_advantage": "NO_RECLASSIFICATION",
+  "learning": "NO_WEIGHT_CHANGE",
+  "player_dossiers": "INCOMPLETE — REVIEW_REQUIRED remains until current named rosters are statistically populated to required standard.",
+  "audit_integrity": "No checkpoint due; no MISSED_NOT_CAPTURED event created; no confidence frozen."
+}
