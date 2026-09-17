@@ -1,0 +1,56 @@
+{
+  "captureTimeAEST": "2026-09-17T22:10:23+10:00",
+  "cycle": "Finals Week 2",
+  "lifecycleReconciliation": {
+    "passedKickoffUnverifiedFixtures": [],
+    "status": "NO_STALE_LIFECYCLE"
+  },
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "kickoff": "2026-09-19T19:50:00+10:00",
+      "state": "UPCOMING_UNFROZEN",
+      "precedence": "NEXT",
+      "checkpointDue": false,
+      "nextCheckpoint": "T-24h 2026-09-18T19:50:00+10:00",
+      "latestOfficialTeamEvidence": "NRL Late Mail Finals Week 2, published 2026-09-17 18:01 AEST",
+      "materialChangeSincePriorCycle": false,
+      "weather": {
+        "source": "Australian Bureau of Meteorology Sydney-area forecast",
+        "forecastIssueDate": "2026-09-17",
+        "matchDay": "Sunny; 0 mm; 0% chance of rain; westerly tending southwesterly, easing in evening",
+        "decisionEffect": "NONE"
+      },
+      "decision": "UNFROZEN",
+      "validationState": "REVIEW_REQUIRED"
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "kickoff": "2026-09-20T16:05:00+10:00",
+      "state": "UPCOMING_UNFROZEN",
+      "precedence": "SECONDARY",
+      "checkpointDue": false,
+      "nextCheckpoint": "T-24h 2026-09-19T16:05:00+10:00",
+      "latestOfficialTeamEvidence": "NRL Late Mail Finals Week 2, published 2026-09-17 18:01 AEST",
+      "materialChangeSincePriorCycle": false,
+      "weather": {
+        "source": "MetService official-location forecast not reliably captured in this cycle",
+        "status": "WEATHER_SOURCE_CAPTURE_PENDING",
+        "decisionEffect": "NONE_NO_INFERENCE"
+      },
+      "decision": "UNFROZEN",
+      "validationState": "REVIEW_REQUIRED"
+    }
+  ],
+  "playerLayer": {
+    "status": "ROSTER_PRESENCE_MAINTAINED_STATISTICAL_DOSSIERS_INCOMPLETE",
+    "validationState": "REVIEW_REQUIRED"
+  },
+  "market": {
+    "acceptedTwoSidedState": false,
+    "normalizedProbability": "NOT_CALCULATED_NO_RELIABLE_ACCEPTED_TWO_SIDED_STATE"
+  },
+  "informationAdvantageChange": false,
+  "learnedWeightChange": false,
+  "notificationCondition": "NONE"
+}
