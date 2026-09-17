@@ -1,0 +1,35 @@
+{
+  "captured_at": "2026-09-17T20:25:01+10:00",
+  "timezone": "Australia/Sydney",
+  "cycle_state": "REVIEW_REQUIRED",
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "lifecycle": "UPCOMING",
+      "precedence": "NEXT",
+      "decision": "UNFROZEN",
+      "next_checkpoint": "T-24h — 2026-09-18T19:50:00+10:00",
+      "material_change": "NO_NEW_MATERIAL_CHANGE_SINCE_2026-09-17T18:01:00+10:00_OFFICIAL_LATE_MAIL",
+      "weather": "Mandatory weather watch retained; Sydney match-day forecast remains non-directional for decision purposes."
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "lifecycle": "UPCOMING",
+      "decision": "UNFROZEN",
+      "next_checkpoint": "T-24h — 2026-09-19T16:05:00+10:00",
+      "material_change": "NO_NEW_MATERIAL_CHANGE_SINCE_2026-09-17T18:01:00+10:00_OFFICIAL_LATE_MAIL",
+      "weather": "Mandatory Auckland weather watch retained; no verified directional weather effect accepted this cycle."
+    }
+  ],
+  "sources_checked": [
+    "NRL official Late Mail Finals Week 2 — published 2026-09-17T18:01:00+10:00",
+    "NRL official Team Lists Finals Week 2",
+    "Bureau of Meteorology Sydney forecast",
+    "fresh market/result-source search"
+  ],
+  "market": "No new reliable same-provider two-sided market state accepted this cycle.",
+  "information_advantage": "NO_RECLASSIFICATION",
+  "learning": "NO_WEIGHT_CHANGE",
+  "player_dossiers": "INCOMPLETE — REVIEW_REQUIRED remains until current named rosters are statistically populated to required standard.",
+  "audit_integrity": "No checkpoint due; no MISSED_NOT_CAPTURED event created; no confidence frozen. Official 18:01 late-mail state retained without rewriting prior observations."
+}
