@@ -1,0 +1,61 @@
+{
+  "capture_time_australia_sydney": "2026-09-17T23:02:54+10:00",
+  "cycle": "Finals Week 2",
+  "lifecycle_reconciliation": "No relevant fixture kickoff has passed; no result backlog.",
+  "active_fixture_precedence": "Sydney Roosters v Cronulla-Sutherland Sharks",
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "kickoff": "2026-09-19T19:50:00+10:00",
+      "state": "UPCOMING_UNFROZEN",
+      "next_checkpoint": "T-24h 2026-09-18T19:50:00+10:00",
+      "checkpoint_due": false,
+      "official_late_mail": "No Cronulla late changes expected. Angus Crichton on track to return from Roosters interchange; Sam Walker unavailable; Salesi Foketi starts; Egan Butcher unavailable due concussion.",
+      "weather": "Sydney forecast remains very warm with spells of sunshine; no precipitation mechanism presently established.",
+      "market": {
+        "source": "Sportsbet",
+        "captured": "2026-09-17T23:02:54+10:00",
+        "roosters_decimal": 1.44,
+        "sharks_decimal": 2.81,
+        "normalized_probability_roosters": 0.6615,
+        "normalized_probability_sharks": 0.3385,
+        "method": "inverse odds normalized to remove two-sided overround"
+      },
+      "decision": "UNFROZEN_REVIEW_REQUIRED",
+      "information_advantage": "NONE_ESTABLISHED"
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "kickoff": "2026-09-20T16:05:00+10:00",
+      "venue": "Eden Park, Auckland; 18:05 local",
+      "state": "UPCOMING_UNFROZEN",
+      "next_checkpoint": "T-24h 2026-09-19T16:05:00+10:00",
+      "checkpoint_due": false,
+      "official_late_mail": "Dylan Lucas trained and will be assessed Saturday; if selected Francis Manuleleua likely moves to interchange. Leka Halasima unlikely; Dallin Watene-Zelezniak remains possible late inclusion. Morgan Gannon identified as Jackson Ford bench replacement.",
+      "weather": "Auckland sources indicate windy Sunday conditions with brisk southwesterlies and morning shower risk. Treat as material weather watch; directional football effect not yet demonstrated.",
+      "market": {
+        "source": "Sportsbet",
+        "captured": "2026-09-17T23:02:54+10:00",
+        "warriors_decimal": 1.51,
+        "knights_decimal": 2.57,
+        "normalized_probability_warriors": 0.6297,
+        "normalized_probability_knights": 0.3703,
+        "method": "inverse odds normalized to remove two-sided overround"
+      },
+      "decision": "UNFROZEN_REVIEW_REQUIRED",
+      "information_advantage": "NONE_ESTABLISHED"
+    }
+  ],
+  "audit": {
+    "player_dossiers": "INCOMPLETE_REVIEW_REQUIRED",
+    "confidence_freeze": false,
+    "learned_weight_change": false,
+    "market_movement_causation": "NOT_INFERRED",
+    "notes": "Current official late mail checked. No checkpoint due. Market probabilities are market baseline only and are not MAYHEM confidence. Full structural/player statistical gates remain required before freeze."
+  },
+  "sources": [
+    "https://www.nrl.com/news/2026/09/17/nrl-late-mail-finals-week-2---lucas-in-the-mix/",
+    "https://www.sportsbet.com.au/betting/rugby-league/nrl",
+    "https://www.weatherwatch.co.nz/forecasts/auckland"
+  ]
+}
