@@ -1,0 +1,44 @@
+{
+  "captureTime": "2026-09-17T10:43:48+10:00",
+  "timezone": "Australia/Sydney",
+  "cycle": "FINALS_WEEK_2",
+  "lifecycleReconciliation": "NO_PAST_KICKOFF_UNRESOLVED_FIXTURE_IN_FW2",
+  "fixtures": [
+    {
+      "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+      "kickoff": "2026-09-19T19:50:00+10:00",
+      "state": "UPCOMING_UNFROZEN",
+      "precedence": "NEXT",
+      "nextCheckpoint": "T-24h",
+      "nextCheckpointDue": "2026-09-18T19:50:00+10:00",
+      "weather": {
+        "location": "Sydney NSW",
+        "matchDayForecast": "Very warm with spells of sunshine; breezy in the afternoon; 28C high, 14C low",
+        "decisionEffect": "NO_DIRECTIONAL_ADJUSTMENT"
+      },
+      "materialPlayerEnrichment": {
+        "matchup": "Reece Robson v Blayke Brailey",
+        "classification": "VERIFIED_OFFICIAL_PROFILE_STATISTICAL_COMPARISON",
+        "reeceRobson2026": {"appearances":20,"tries":3,"tryAssists":4,"lineBreakAssists":3,"offloads":6,"tacklesMade":844,"missedTackles":57,"averageRunningMetres":55,"totalRunningMetres":1115,"forcedDropOuts":2,"averageKickingMetres":2.8,"fantasyTotal":954,"fantasyAverage":47.7,"careerAppearances":160,"careerTries":28},
+        "blaykeBrailey2026": {"appearances":20,"tries":3,"tryAssists":15,"lineBreakAssists":13,"offloads":11,"tacklesMade":781,"averageRunningMetres":54,"totalRunningMetres":1091,"forcedDropOuts":4,"averageKickingMetres":14.1,"fantasyTotal":1052,"fantasyAverage":52.6,"careerAppearances":184,"careerTries":21,"missedTackles":"FIELD_NOT_PUBLISHED_IN_SUMMARY_CAPTURE"},
+        "inference": "Brailey's verified 2026 profile shows materially greater published creative and kicking involvement; Robson's profile shows higher tackles made. This is role-profile evidence only and does not by itself establish a team probability uplift.",
+        "sourceUrls": ["https://www.nrl.com/players/nrl-premiership/roosters/reece-robson/","https://www.nrl.com/players/nrl-premiership/sharks/blayke-brailey/","https://www.nrl.com/news/2026/09/17/kangaroos-jumper-on-the-line-as-childhood-rivals-face-off/"]
+      },
+      "decision": "UNFROZEN_REVIEW_REQUIRED"
+    },
+    {
+      "fixture": "New Zealand Warriors v Newcastle Knights",
+      "kickoff": "2026-09-20T16:05:00+10:00",
+      "state": "UPCOMING_UNFROZEN",
+      "nextCheckpoint": "T-24h",
+      "nextCheckpointDue": "2026-09-19T16:05:00+10:00",
+      "materialChange": "NONE_NEW_VERIFIED_THIS_CYCLE",
+      "decision": "UNFROZEN_REVIEW_REQUIRED"
+    }
+  ],
+  "market": "NO_NEW_RELIABLE_TWO_SIDED_SAME_PROVIDER_MONEYLINE_ACCEPTED_THIS_CYCLE",
+  "informationAdvantage": "NO_CLASSIFICATION_CHANGE",
+  "learning": "NO_WEIGHT_CHANGE",
+  "auditState": "REVIEW_REQUIRED",
+  "reason": "MANDATORY_CURRENT_ROSTER_STATISTICAL_DOSSIER_POPULATION_REMAINS_INCOMPLETE"
+}
