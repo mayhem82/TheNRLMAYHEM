@@ -1,0 +1,34 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW2-NZW-NKN-2026-09-20",
+  "fixture": "New Zealand Warriors v Newcastle Knights",
+  "kickoff_sydney": "2026-09-20T16:05:00+10:00",
+  "checkpoint": "T-24h",
+  "scheduled_checkpoint_time": "2026-09-19T16:05:00+10:00",
+  "capture_time": "2026-09-19T20:09:37+10:00",
+  "capture_status": "PERSISTENCE_REPAIR_AFTER_PRIOR_PUBLIC_CLAIM",
+  "lifecycle": "UPCOMING",
+  "sources_checked": [
+    "NRL.com Finals Week 2 Late Mail, timestamped 2026-09-19 18:26 AEST",
+    "NRL.com Casualty Ward, timestamped 2026-09-19 16:27 AEST"
+  ],
+  "roster_material_changes": {
+    "warriors": "Leka Halasima added to the interchange in the 24-hour update; Dallin Watene-Zelezniak remains reserve; Morgan Gannon on bench replacing injured Jackson Ford.",
+    "knights": "Dylan Lucas added to the six-man interchange bench after recovery from the Round 21 fractured ankle; Kyle McCarthy remains reserve."
+  },
+  "player_effects": {
+    "Leka Halasima": "VERIFIED_ROSTER_RETURN / RECENT_HAMSTRING_WITHDRAWAL / RETURN_VARIANCE",
+    "Dallin Watene-Zelezniak": "VERIFIED_RESERVE / RETURN_POSSIBILITY",
+    "Dylan Lucas": "VERIFIED_ROSTER_RETURN / RETURN_FROM_FRACTURED_ANKLE / PERFORMANCE_VARIANCE",
+    "Morgan Gannon": "VERIFIED_INTERCHANGE / REPLACEMENT_FOR_JACKSON_FORD"
+  },
+  "decision": {
+    "state": "REVIEW_REQUIRED_UNFROZEN",
+    "tip": null,
+    "confidence": null
+  },
+  "audit_integrity": "Prior T-24h response was not found persisted in repository. This file repairs persistence without pretending the write occurred at the earlier time.",
+  "persistence_state": "REPAIRED_AFTER_PERSISTENCE_FAILED",
+  "next_checkpoint": "T-3h at 2026-09-20T13:05:00+10:00"
+}
