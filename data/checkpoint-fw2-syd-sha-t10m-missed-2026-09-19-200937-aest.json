@@ -1,0 +1,23 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW2-SYD-SHA-2026-09-19",
+  "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+  "checkpoint": "T-10m",
+  "due_sydney": "2026-09-19T19:40:00+10:00",
+  "reconciled_at": "2026-09-19T20:09:37+10:00",
+  "kickoff_sydney": "2026-09-19T19:50:00+10:00",
+  "status": "MISSED_NOT_CAPTURED",
+  "reason": "Mandatory T-10m evidence and decision freeze was not captured before kickoff. No post-kickoff reconstruction or synthetic freeze is permitted.",
+  "latest_genuine_pre_kickoff_record": "data/checkpoint-fw2-syd-sha-t3h-2026-09-19-170026-aest.json",
+  "pre_match_selection_preserved": {
+    "tip": null,
+    "confidence": null,
+    "decision_state": "NO_GENUINE_PREMATCH_SELECTION_RECORDED_AT_LAST_CAPTURE"
+  },
+  "post_kickoff_information_excluded_from_freeze": true,
+  "audit_integrity": "PRESERVED",
+  "calibration_eligibility": "NO_CONTEMPORANEOUS_T10_PROBABILITY_TO_CALIBRATE",
+  "public_tip_grading_rule": "No genuine pre-match team selection existed in the preserved checkpoint record, so no team tip can be invented after kickoff.",
+  "learning_rule": "No later information may rewrite this missed checkpoint, create a retroactive tip, or fabricate a frozen confidence."
+}
