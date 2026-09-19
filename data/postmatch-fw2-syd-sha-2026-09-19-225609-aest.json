@@ -1,0 +1,36 @@
+{
+  "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+  "competition": "NRL 2026 Finals Week 2",
+  "kickoff_aest": "2026-09-19T19:50:00+10:00",
+  "capture_time_aest": "2026-09-19T22:56:09+10:00",
+  "lifecycle_state": "VERIFIED_RESULT",
+  "result": {"Sydney Roosters": 46, "Cronulla-Sutherland Sharks": 10, "winner": "Sydney Roosters"},
+  "result_sources": [
+    "https://www.nrl.com/news/2026/09/19/sudden-death-saturday-roosters-v-sharks/",
+    "https://www.espn.com.au/nrl/match/_/gameId/604756/league/3"
+  ],
+  "pre_match_audit": {
+    "t60m": "MISSED_NOT_CAPTURED",
+    "t10m": "MISSED_NOT_CAPTURED",
+    "genuine_frozen_tip": null,
+    "genuine_frozen_confidence": null,
+    "tip_grade": "NO_GENUINE_PREMATCH_SELECTION_TO_GRADE",
+    "calibration_eligible": false
+  },
+  "post_match_observations": [
+    {"class":"VERIFIED","observation":"Roosters led 18-10 at halftime and won 46-10."},
+    {"class":"VERIFIED_POST_KICKOFF_PLAYER_EVENT","player":"Nicho Hynes","observation":"Left in minute 3 for HIA and was ruled out after failing it."},
+    {"class":"VERIFIED_POST_KICKOFF_PLAYER_EVENT","player":"Mawene Hiroti","observation":"Ruled out after a knee injury suffered in the 18th minute."},
+    {"class":"VERIFIED","player":"James Tedesco","observation":"161 run metres and 11 tackle breaks."},
+    {"class":"VERIFIED","player":"Mark Nawaqanitawase","observation":"Two tries and 187 run metres."},
+    {"class":"VERIFIED","player":"Daly Cherry-Evans","observation":"Try, three try assists and two line-break assists."}
+  ],
+  "team_macro_update": {
+    "Sydney Roosters":"Advanced to preliminary final against Dolphins; 46 points is the club's highest finals score per NRL report.",
+    "Cronulla-Sutherland Sharks":"Eliminated; post-kickoff loss of Hynes and Hiroti retained as outcome-context evidence, not retroactive prediction evidence."
+  },
+  "information_advantage": "NONE",
+  "learning_state": "NO_PREDICTION_WEIGHT_UPDATE_FROM_THIS_FIXTURE_BECAUSE_NO_GENUINE_FROZEN_DECISION_EXISTED",
+  "next_fixture": "New Zealand Warriors v Newcastle Knights",
+  "audit_note": "No CORRECT/INCORRECT grade is manufactured because no genuine pre-match team selection existed. MISSED_NOT_CAPTURED checkpoints remain immutable."
+}
