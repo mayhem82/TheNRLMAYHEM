@@ -1,0 +1,57 @@
+{
+  "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+  "kickoff": "2026-09-19T19:50:00+10:00",
+  "checkpoint": "T-3h",
+  "scheduled_checkpoint_time": "2026-09-19T16:50:00+10:00",
+  "capture_time": "2026-09-19T17:00:26+10:00",
+  "capture_status": "CAPTURED_WITHIN_CHECKPOINT_WINDOW",
+  "lifecycle": "MATCH_WINDOW",
+  "sources_checked": [
+    "NRL.com Finals Week 2 Late Mail, updated 2026-09-19",
+    "NRL.com Finals Week 2 Team Lists, updated 2026-09-19",
+    "Sydney Roosters 24 Hour Update",
+    "current Sydney hourly weather",
+    "Before You Bet current published match odds"
+  ],
+  "roster": {
+    "roosters": "No further change found from official 24-hour squad; Angus Crichton #17, Salesi Foketi #11, Toby Rodwell reserve.",
+    "sharks": "Niwhai Puru remains #20 interchange after replacing Jayden Berrell; Mawene Hiroti reserve."
+  },
+  "weather": {
+    "classification": "VERIFIED_NON_DIRECTIONAL",
+    "match_window": "Clear, 0% precipitation at 18:00, 19:00 and 20:00 Sydney local time",
+    "decision_effect": "No wet-weather adjustment supported."
+  },
+  "market": {
+    "source": "Before You Bet published match odds",
+    "roosters_decimal": 1.46,
+    "sharks_decimal": 2.75,
+    "normalized_probability_roosters": 0.6532,
+    "normalized_probability_sharks": 0.3468,
+    "classification": "RELIABLE_PUBLISHED_TWO_SIDED_BASELINE"
+  },
+  "structural_baseline": {
+    "recent_form": "Roosters enter on four consecutive losses; Sharks latest verified result was 26-16 elimination-final win over North Queensland.",
+    "roster_continuity": "Cronulla late bench change to low-sample Niwhai Puru; Roosters return Angus Crichton from extended absence.",
+    "matchup": "Roosters won both 2026 regular-season meetings; retained as historical observation, not deterministic evidence."
+  },
+  "evidence_family_independence": "Market, recent results, roster availability and matchup history kept separate; no shared-input stacking used as independent corroboration.",
+  "adversarial_counter_case": "Cronulla have the superior immediate result trajectory, stable starting spine and verified dual-playmaker production; Roosters' four-game losing run and Crichton's return variance weaken any assumption that home favouritism alone establishes superiority.",
+  "falsification": "A material final-team withdrawal, role change, market reversal with corroborated football cause, or late player availability change can invalidate the present preference basis before freeze.",
+  "player_effects": {
+    "Angus Crichton": "VERIFIED_AVAILABLE / RETURN_FROM_LONG_ABSENCE_VARIANCE",
+    "Niwhai Puru": "VERIFIED_ROSTER / LOW_SAMPLE_UNCERTAINTY",
+    "Braydon Trindall": "VERIFIED_AVAILABLE",
+    "Salesi Foketi": "VERIFIED_AVAILABLE"
+  },
+  "information_advantage": "NONE_DEMONSTRATED",
+  "decision": {
+    "state": "REVIEW_REQUIRED_UNFROZEN",
+    "tip": null,
+    "confidence": null,
+    "confidence_vs_market_delta": null,
+    "reason": "Roster-wide mandatory player statistical dossier remains incomplete; no pseudo-precise MAYHEM probability permitted."
+  },
+  "next_checkpoint": "T-60m at 2026-09-19T18:50:00+10:00",
+  "audit_integrity": "No frozen state overwritten; no learned weight changed."
+}
