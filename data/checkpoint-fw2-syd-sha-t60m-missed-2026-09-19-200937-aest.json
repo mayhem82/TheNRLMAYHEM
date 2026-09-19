@@ -1,0 +1,24 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "fixture_id": "FW2-SYD-SHA-2026-09-19",
+  "fixture": "Sydney Roosters v Cronulla-Sutherland Sharks",
+  "checkpoint": "T-60m",
+  "due_sydney": "2026-09-19T18:50:00+10:00",
+  "reconciled_at": "2026-09-19T20:09:37+10:00",
+  "kickoff_sydney": "2026-09-19T19:50:00+10:00",
+  "status": "MISSED_NOT_CAPTURED",
+  "reason": "Checkpoint was not captured before kickoff. No post-kickoff reconstruction is permitted.",
+  "latest_genuine_pre_kickoff_record": "data/checkpoint-fw2-syd-sha-t3h-2026-09-19-170026-aest.json",
+  "latest_genuine_decision_state": "REVIEW_REQUIRED_UNFROZEN",
+  "latest_genuine_tip": null,
+  "latest_genuine_confidence": null,
+  "post_kickoff_information_excluded_from_freeze": true,
+  "pre_kickoff_information_discovered_after_checkpoint": [
+    "NRL late mail timestamped 18:26 AEST reported Toby Rodwell replacing Tommy Talau on the Roosters bench/reserve structure.",
+    "NRL late mail timestamped 18:26 AEST reported Mawene Hiroti into the Sharks starting centres with Riley Jones moving to the bench.",
+    "These facts existed before kickoff but were not captured by MAYHEM at T-60m and therefore cannot be retroactively inserted into a frozen decision."
+  ],
+  "audit_integrity": "PRESERVED",
+  "learning_rule": "No later information may rewrite this missed checkpoint or fabricate a T-60m decision."
+}
