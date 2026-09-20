@@ -1,0 +1,70 @@
+{
+  "fixture": "New Zealand Warriors v Newcastle Knights",
+  "stage": "Finals Week 2",
+  "checkpoint": "T-60m",
+  "capture_time_australia_sydney": "2026-09-20T15:06:01+10:00",
+  "kickoff_australia_sydney": "2026-09-20T16:05:00+10:00",
+  "lifecycle": "MATCH_WINDOW",
+  "sources_checked": [
+    "https://www.warriors.kiwi/news/2026/09/20/nrl-confirmed-lineup-dwz-and-halasima-to-start/",
+    "https://www.nrl.com/news/2026/09/17/nrl-late-mail-finals-week-2---lucas-in-the-mix/",
+    "https://www.newcastleknights.com.au/news/2026/09/15/nrl-team-list--semi-final/",
+    "https://www.aussportstipping.com/fixtures/nrl/2026/09/20/warriors_vs_knights/"
+  ],
+  "material_roster_change": {
+    "classification": "VERIFIED",
+    "warriors": [
+      "Dallin Watene-Zelezniak promoted from reserve to starting right wing for Charnze Nicoll-Klokstad's previous right-wing slot; Nicoll-Klokstad shifts to left wing; Alofiana Khan-Pereira moves to extended bench.",
+      "Leka Halasima promoted from interchange to starting centre replacing Adam Pompey; Pompey moves to extended bench.",
+      "Morgan Gannon omitted."
+    ],
+    "knights": [
+      "Dylan Lucas retained in the final interchange group as jersey 22."
+    ]
+  },
+  "player_effects": {
+    "Dallin Watene-Zelezniak": "VERIFIED_STARTER / RETURN_FROM_COLLARBONE_INJURY / RETURN_STATE_VARIANCE; no unsupported directional uplift",
+    "Leka Halasima": "VERIFIED_STARTER / RETURN_AFTER_LATE_WITHDRAWAL / RETURN_STATE_VARIANCE; no unsupported directional uplift",
+    "Dylan Lucas": "VERIFIED_INTERCHANGE / RETURN_FROM_FRACTURED_ANKLE / RETURN_STATE_VARIANCE; no unsupported directional uplift"
+  },
+  "weather": {
+    "location": "Eden Park, Auckland",
+    "classification": "WIND_MATERIAL / PRECIPITATION_NON_DIRECTIONAL",
+    "current": "Clouds and sun, approximately 14C",
+    "match_window": "Intermittent/partly cloudy around 6-8pm local",
+    "daily_wind": "Gusts forecast up to approximately 65 km/h",
+    "decision_effect": "Potential kicking/high-ball/goal-kicking variance retained; no team-directional effect without demonstrated differential sensitivity."
+  },
+  "market": {
+    "source": "Australia Sports Tipping current market",
+    "warriors_decimal": 1.52,
+    "knights_decimal": 2.55,
+    "normalized_two_way_probability": {
+      "warriors_pct": 62.65,
+      "knights_pct": 37.35
+    },
+    "prior_normalized_warriors_pct": 64.59,
+    "movement": "Approximately -1.94 percentage points Warriors versus prior captured baseline; SIGNAL only, cause unknown."
+  },
+  "evidence_family_independence": "Market, season strength and head-to-head are not counted as independent corroboration where shared team-strength inputs overlap.",
+  "adversarial_counter_case": "Newcastle retain Ponga/Young/Gagai/Best/Marzhew strike, Lucas return option, recent elimination-final survival, and demonstrated ability to score heavily against Warriors. Warriors introduce two return-state starters and positional reshuffling inside T-60m, increasing uncertainty.",
+  "falsification": "Late withdrawal or materially reduced role for DWZ/Halasima/Lucas, further final-team reshuffle, materially adverse market move, or weather escalation would require reassessment at T-10m.",
+  "information_advantage": "NONE",
+  "prediction_decomposition": {
+    "structural": "Warriors-positive",
+    "matchup": "Warriors-positive with Eden Park counter-signal",
+    "roster_continuity": "Warriors uncertainty increased by two return-state starters and reshuffle; Newcastle Lucas return remains variance",
+    "weather": "non-directional variance",
+    "market": "Warriors favourite but weaker than prior captured normalized baseline"
+  },
+  "decision": {
+    "preferred_team": "New Zealand Warriors",
+    "state": "UNFROZEN / REVIEW_REQUIRED",
+    "confidence": null,
+    "confidence_vs_market_delta": null,
+    "reason": "Material final-team changes occurred inside T-60m and mandatory player statistical dossier remains incomplete. No pseudo-precise confidence is manufactured."
+  },
+  "player_statistical_dossier_status": "INCOMPLETE_STALE_RISK; official match centre/player profiles remain required for every final rostered player before full MAYHEM validation.",
+  "next_checkpoint": "T-10m at 2026-09-20T15:55:00+10:00",
+  "audit_integrity": "Contemporaneous capture; no future information used."
+}
