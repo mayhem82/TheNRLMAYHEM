@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-20T18:07:00+10:00",
+  "captured_at": "2026-09-20T18:12:00+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "POST_KICKOFF_LIFECYCLE_RECONCILIATION",
+  "trigger": "MATCH_FINISHED_RESULT_ACQUISITION_ACTIVE",
   "lifecycle_reconciliation": {
     "status": "COMPLETE",
     "Sydney Roosters v Cronulla-Sutherland Sharks": "VERIFIED_RESULT",
@@ -52,6 +52,12 @@
       "classification": "MISSED_NOT_CAPTURED",
       "observation": "No canonical contemporaneous T-10 checkpoint artifact exists after kickoff.",
       "decision_effect": "T-10 remains permanently MISSED_NOT_CAPTURED."
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "classification": "MATCH_FINISHED_USER_SIGNAL_RESULT_NOT_YET_VERIFIED",
+      "observation": "Match is reported finished; fresh official NRL and ABC indexed pages checked immediately but had not yet exposed a reliable final score in retrievable text.",
+      "decision_effect": "Immediate result-acquisition loop active. Do not invent score; lifecycle remains POST_MATCH_RESULT_VERIFICATION_PENDING until verified."
     }
   ],
   "fixture_updates": [
@@ -68,7 +74,9 @@
       "t60m": "CAPTURED",
       "t10m": "MISSED_NOT_CAPTURED",
       "decision_state": "UNFROZEN_REVIEW_REQUIRED",
-      "confidence": null
+      "confidence": null,
+      "match_finished_signal": "RECEIVED",
+      "result": "VERIFICATION_PENDING"
     }
   ],
   "weather_state": {
