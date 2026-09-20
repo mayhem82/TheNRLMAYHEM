@@ -1,0 +1,34 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_3",
+  "captured_at":"2026-09-20T21:44:21+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"MATERIAL_PLAYER_AVAILABILITY_AND_MARKET_UPDATE",
+  "lifecycle_reconciliation":{"status":"COMPLETE","Roosters v Sharks":"VERIFIED_RESULT","Warriors v Knights":"VERIFIED_RESULT","next_fixture":"Dolphins v Sydney Roosters — 25 September 2026, 7:50pm AEST","following_fixture":"Penrith Panthers v Newcastle Knights — 27 September 2026, 4:00pm AEST"},
+  "sources":[
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/","source_timestamp":"2026-09-20T18:39:00+10:00"},
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/20/walker-on-track-as-dce-eyes-fairytale-suncorp-farewell/","source_timestamp":"2026-09-20T12:20:00+10:00"},
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/20/nrl-sunday-blockbuster-warriors-v-knights/","source_timestamp":"2026-09-20T18:21:00+10:00"},
+    {"class":"CURRENT_MARKET","url":"https://www.ladbrokes.com.au/blog/betting-info/nrl/draw/","capture_date":"2026-09-20"}
+  ],
+  "observations":[
+    {"fixture":"Penrith Panthers v Newcastle Knights","classification":"VERIFIED_OFFICIAL_POSTMATCH_HIA_PASSED_RETURN_SIGNAL","player":"Kalyn Ponga","observation":"Official NRL casualty update reports Ponga left late against the Warriors for HIA, passed the assessment and was back on field post-game; coach Justin Holbrook expressed confidence he will be fit for Penrith.","decision_effect":"Material availability clarification. Ponga remains a current preliminary-final availability signal, not an inferred medical guarantee; official Week 3 team list/final team retains precedence."},
+    {"fixture":"Penrith Panthers v Newcastle Knights","classification":"VERIFIED_OFFICIAL_INJURY_STATUS","player":"Nathan Cleary","observation":"Official NRL casualty state lists Cleary with a foot issue and return TBC.","decision_effect":"Mandatory Week 3 recheck; no assumed absence and no directional probability adjustment without later selection/role evidence."},
+    {"fixture":"Penrith Panthers v Newcastle Knights","classification":"VERIFIED_OFFICIAL_INJURY_STATUS","player":"Luke Garner","observation":"Official NRL casualty state lists Garner with groin issue and return TBC.","decision_effect":"Mandatory Week 3 recheck; no assumed absence."},
+    {"fixture":"Penrith Panthers v Newcastle Knights","classification":"VERIFIED_OFFICIAL_RETURN_WINDOW","players":["Paul Alamoti","Izack Tago"],"observation":"Official NRL casualty state lists both for Finals Week 3 return timing.","decision_effect":"Return-window signals only pending official selection."},
+    {"fixture":"Dolphins v Sydney Roosters","classification":"VERIFIED_OFFICIAL_RETURN_WINDOW","player":"Tom Flegler","observation":"Official NRL casualty state lists Flegler with head knock and Finals Week 3 return timing.","decision_effect":"Return-window signal only; no participation assumption."},
+    {"fixture":"Dolphins v Sydney Roosters","classification":"VERIFIED_OFFICIAL_RETURN_WINDOW","players":["Sam Walker","Egan Butcher"],"observation":"Official NRL casualty state lists Walker (ankle) and Butcher (concussion) for Finals Week 3; separate NRL reporting says Walker is on track but not yet a verified starter.","decision_effect":"Mandatory official team-list/final-team recheck; no unsupported uplift."}
+  ],
+  "fixture_updates":[
+    {"fixture":"Dolphins v Sydney Roosters","lifecycle":"UPCOMING","kickoff_sydney":"2026-09-25T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-24T19:50:00+10:00","decision_state":"UNFROZEN_REVIEW_REQUIRED"},
+    {"fixture":"Penrith Panthers v Newcastle Knights","lifecycle":"UPCOMING","kickoff_sydney":"2026-09-27T16:00:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-26T16:00:00+10:00","decision_state":"UNFROZEN_REVIEW_REQUIRED"}
+  ],
+  "market_state":{"Dolphins v Sydney Roosters":{"provider":"Ladbrokes","dolphins":1.67,"roosters":2.25,"normalized_pct":{"dolphins":57.38,"roosters":42.62},"prior_normalized_dolphins_pct":55.85,"movement":"+1.53pp Dolphins versus prior captured baseline; SIGNAL only, cause unknown."},"Penrith Panthers v Newcastle Knights":{"provider":"Ladbrokes","panthers":1.28,"knights":3.80,"normalized_pct":{"panthers":74.80,"knights":25.20},"prior_normalized_panthers_pct":75.73,"movement":"-0.93pp Panthers versus prior captured baseline; SIGNAL only, cause unknown."}},
+  "weather_state":{"Dolphins v Sydney Roosters":"MANDATORY_WATCH_ACTIVE; checkpoint-grade match-window weather not yet due.","Penrith Panthers v Newcastle Knights":"MANDATORY_WATCH_ACTIVE; checkpoint-grade match-window weather not yet due."},
+  "statistical_freshness":{"status":"WEEK3_OFFICIAL_TEAM_LISTS_NOT_YET_PUBLISHED; roster-backed Week 3 dossier population pending","decision_gate":"REVIEW_REQUIRED"},
+  "learning_state":"NO_NEW_LEARNED_WEIGHT",
+  "information_advantage":"NONE",
+  "audit_integrity":"PRESERVED",
+  "persistence":"WRITTEN"
+}
