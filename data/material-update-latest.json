@@ -1,93 +1,18 @@
 {
-  "system": "The NRL MAYHEM",
-  "season": 2026,
-  "stage": "FINALS_WEEK_2",
-  "captured_at": "2026-09-20T18:12:00+10:00",
-  "timezone": "Australia/Sydney",
-  "trigger": "MATCH_FINISHED_RESULT_ACQUISITION_ACTIVE",
-  "lifecycle_reconciliation": {
-    "status": "COMPLETE",
-    "Sydney Roosters v Cronulla-Sutherland Sharks": "VERIFIED_RESULT",
-    "New Zealand Warriors v Newcastle Knights": "POST_MATCH_RESULT_VERIFICATION_PENDING",
-    "next_fixture": "PENDING_WARRIORS_KNIGHTS_RESULT"
-  },
-  "sources": [
-    {
-      "class": "OFFICIAL_NRL",
-      "url": "https://www.nrl.com/news/2026/09/20/nrl-sunday-blockbuster-warriors-v-knights/",
-      "capture_date": "2026-09-20"
-    },
-    {
-      "class": "OFFICIAL_NRL",
-      "url": "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
-      "capture_date": "2026-09-20"
-    },
-    {
-      "class": "INDEPENDENT_RESULT_CHECK",
-      "url": "https://www.abc.net.au/news/2026-09-20/nrl-finals-live-warriors-knights-eden-park/107155146",
-      "capture_date": "2026-09-20"
-    }
-  ],
-  "observations": [
-    {
-      "fixture": "Roosters v Sharks",
-      "classification": "VERIFIED_RESULT",
-      "observation": "Sydney Roosters 46, Cronulla-Sutherland Sharks 10.",
-      "decision_effect": "Roosters advance; Sharks eliminated."
-    },
-    {
-      "fixture": "Warriors v Knights",
-      "classification": "VERIFIED_FINAL_TEAM",
-      "observation": "DWZ and Leka Halasima started; Adam Pompey and Alofiana Khan-Pereira shifted to bench; Morgan Gannon omitted; Dylan Lucas retained on Newcastle interchange.",
-      "decision_effect": "Preserves T-60 roster-change evidence; no retrospective probability manufactured."
-    },
-    {
-      "fixture": "Warriors v Knights",
-      "classification": "RESULT_VERIFICATION_PENDING",
-      "observation": "Kickoff has passed and no reliable full-time score was exposed by checked indexed sources at this capture.",
-      "decision_effect": "Do not invent result; fixture cannot remain UPCOMING or ACTIVE."
-    },
-    {
-      "fixture": "Warriors v Knights",
-      "classification": "MISSED_NOT_CAPTURED",
-      "observation": "No canonical contemporaneous T-10 checkpoint artifact exists after kickoff.",
-      "decision_effect": "T-10 remains permanently MISSED_NOT_CAPTURED."
-    },
-    {
-      "fixture": "Warriors v Knights",
-      "classification": "MATCH_FINISHED_USER_SIGNAL_RESULT_NOT_YET_VERIFIED",
-      "observation": "Match is reported finished; fresh official NRL and ABC indexed pages checked immediately but had not yet exposed a reliable final score in retrievable text.",
-      "decision_effect": "Immediate result-acquisition loop active. Do not invent score; lifecycle remains POST_MATCH_RESULT_VERIFICATION_PENDING until verified."
-    }
-  ],
-  "fixture_updates": [
-    {
-      "fixture": "Roosters v Sharks",
-      "lifecycle": "VERIFIED_RESULT",
-      "result": "46-10 Roosters",
-      "tip_grade": "NO_GENUINE_PREMATCH_SELECTION_TO_GRADE"
-    },
-    {
-      "fixture": "Warriors v Knights",
-      "lifecycle": "POST_MATCH_RESULT_VERIFICATION_PENDING",
-      "t3h": "PERSISTENCE_FAILED",
-      "t60m": "CAPTURED",
-      "t10m": "MISSED_NOT_CAPTURED",
-      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
-      "confidence": null,
-      "match_finished_signal": "RECEIVED",
-      "result": "VERIFICATION_PENDING"
-    }
-  ],
-  "weather_state": {
-    "Warriors v Knights": "T-60 weather evidence retained: material wind variance, no demonstrated directional team edge."
-  },
-  "statistical_freshness": {
-    "status": "ROSTER_POPULATION_AND_DOSSIER_ENRICHMENT_INCOMPLETE",
-    "decision_gate": "REVIEW_REQUIRED"
-  },
-  "learning_state": "NO_NEW_LEARNED_WEIGHT",
-  "information_advantage": "NONE",
-  "audit_integrity": "PRESERVED",
-  "persistence": "WRITTEN"
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_2_POSTMATCH",
+  "captured_at":"2026-09-20T19:03:21+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"VERIFIED_RESULT_PERSISTENCE_CASCADE",
+  "lifecycle_reconciliation":{"status":"COMPLETE","Sydney Roosters v Cronulla-Sutherland Sharks":"VERIFIED_RESULT","New Zealand Warriors v Newcastle Knights":"VERIFIED_RESULT","next_fixture":"Penrith Panthers v Newcastle Knights — preliminary final"},
+  "sources":[{"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/20/nrl-sunday-blockbuster-warriors-v-knights/","result":"Knights 12-10 Warriors"},{"class":"INDEPENDENT_RESULT_VERIFICATION","url":"https://www.espn.com/nrl/match/_/gameId/604757/league/3","result":"Knights 12-10 Warriors"}],
+  "observations":[{"fixture":"Warriors v Knights","classification":"VERIFIED_RESULT","observation":"Newcastle Knights defeated New Zealand Warriors 12-10 at Eden Park.","decision_effect":"Newcastle advance to preliminary final against Penrith; Warriors eliminated."},{"fixture":"Warriors v Knights","classification":"AUDIT_INTEGRITY","observation":"T-3 persistence failure retained; T-60 captured; T-10 MISSED_NOT_CAPTURED. Latest genuine pre-match preference was Warriors but remained UNFROZEN / REVIEW_REQUIRED with no confidence.","decision_effect":"No post-hoc frozen tip and no CORRECT/INCORRECT grade manufactured."},{"fixture":"Warriors v Knights","classification":"VERIFIED_POSTMATCH_PLAYER_CONTEXT","observation":"Leka Halasima scored both Warriors tries; Fletcher Sharpe and Dominic Young scored Newcastle's tries. Charnze Nicoll-Klokstad was ruled out after HIA; Kalyn Ponga and Taine Tuaupiki also left for HIA late.","decision_effect":"Player and team macro outcome context only; post-kickoff events cannot alter pre-match reasoning."}],
+  "fixture_updates":[{"fixture":"Roosters v Sharks","lifecycle":"VERIFIED_RESULT","result":"46-10 Roosters","tip_grade":"NO_GENUINE_PREMATCH_SELECTION_TO_GRADE"},{"fixture":"Warriors v Knights","lifecycle":"VERIFIED_RESULT","result":"12-10 Knights","winner":"Newcastle Knights","t3h":"PERSISTENCE_FAILED","t60m":"CAPTURED","t10m":"MISSED_NOT_CAPTURED","decision_state":"UNFROZEN_REVIEW_REQUIRED","confidence":null,"tip_grade":"NO_GENUINE_FROZEN_SELECTION_TO_GRADE"}],
+  "weather_state":{"Warriors v Knights":"Pre-match wind remained a non-directional variance signal; no retrospective causal attribution."},
+  "statistical_freshness":{"status":"POSTMATCH_PLAYER_DOSSIER_AND_PRELIMINARY_FINAL_ROSTER_REFRESH_REQUIRED","decision_gate":"REVIEW_REQUIRED_UNTIL_NEXT_FIXTURE_GATES_COMPLETE"},
+  "learning_state":"NO_PREDICTION_WEIGHT_UPDATE_FROM_WARRIORS_KNIGHTS_WITHOUT_GENUINE_FROZEN_DECISION",
+  "information_advantage":"NONE",
+  "audit_integrity":"PRESERVED",
+  "persistence":"WRITTEN"
 }
