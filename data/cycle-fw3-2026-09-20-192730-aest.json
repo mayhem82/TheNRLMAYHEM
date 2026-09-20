@@ -1,0 +1,33 @@
+{
+  "system":"The NRL MAYHEM",
+  "season":2026,
+  "stage":"FINALS_WEEK_3",
+  "captured_at":"2026-09-20T19:27:30+10:00",
+  "timezone":"Australia/Sydney",
+  "trigger":"MATERIAL_PLAYER_AVAILABILITY_CHANGE_AND_PRELIMINARY_FINAL_INITIALIZATION",
+  "lifecycle_reconciliation":{"status":"COMPLETE","Roosters v Sharks":"VERIFIED_RESULT","Warriors v Knights":"VERIFIED_RESULT","next_fixture":"Dolphins v Sydney Roosters — 2026-09-25T19:50:00+10:00","following_fixture":"Penrith Panthers v Newcastle Knights — 2026-09-27T16:00:00+10:00"},
+  "sources":[
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/20/walker-on-track-as-dce-eyes-fairytale-suncorp-farewell/","source_timestamp":"2026-09-20T12:20:00+10:00"},
+    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/17/nrl-and-nrlw-preliminary-finals/"},
+    {"class":"CURRENT_MARKET","url":"https://www.ladbrokes.com.au/blog/betting-info/nrl/draw/","capture_date":"2026-09-20"}
+  ],
+  "observations":[
+    {"fixture":"Dolphins v Sydney Roosters","classification":"VERIFIED_OFFICIAL_RETURN_SIGNAL_NOT_FINAL_SELECTION","player":"Sam Walker","observation":"NRL reports Roosters coach Trent Robinson is confident Walker is on track to return from ankle surgery for Friday's preliminary final; Walker is running and kicking at training.","decision_effect":"Material reversal from earlier semi-final ruled-out state. Treat as return candidate only until official Week 3 team list/final team confirms selection. Return-state variance; no unsupported numerical uplift."},
+    {"fixture":"Dolphins v Sydney Roosters","classification":"VERIFIED_POSTMATCH_ROLE_SIGNAL","player":"Angus Crichton","observation":"NRL reports successful return against Cronulla: 30-minute bench cameo, 90 run metres and six tackle breaks.","decision_effect":"Verified recent workload/performance evidence for preliminary-final dossier; no causal extrapolation."}
+  ],
+  "fixture_updates":[
+    {"fixture":"Dolphins v Sydney Roosters","lifecycle":"UPCOMING","kickoff_sydney":"2026-09-25T19:50:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-24T19:50:00+10:00","decision_state":"UNFROZEN_REVIEW_REQUIRED"},
+    {"fixture":"Penrith Panthers v Newcastle Knights","lifecycle":"UPCOMING","kickoff_sydney":"2026-09-27T16:00:00+10:00","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-26T16:00:00+10:00","decision_state":"UNFROZEN_REVIEW_REQUIRED"}
+  ],
+  "market_state":{
+    "Dolphins v Sydney Roosters":{"source":"Ladbrokes current draw page","prices":{"Dolphins":1.70,"Sydney Roosters":2.15},"normalized_two_way_probability_pct":{"Dolphins":55.85,"Sydney Roosters":44.15},"classification":"INITIAL_CROSS_SECTIONAL_BASELINE_NOT_TEMPORAL_MOVEMENT"},
+    "Penrith Panthers v Newcastle Knights":{"source":"Ladbrokes current draw page","prices":{"Penrith Panthers":1.25,"Newcastle Knights":3.90},"normalized_two_way_probability_pct":{"Penrith Panthers":75.73,"Newcastle Knights":24.27},"classification":"INITIAL_CROSS_SECTIONAL_BASELINE_NOT_TEMPORAL_MOVEMENT"}
+  },
+  "weather_state":{"Dolphins v Sydney Roosters":"MANDATORY_WATCH_INITIALIZED; checkpoint-grade match-window weather not yet due.","Penrith Panthers v Newcastle Knights":"MANDATORY_WATCH_INITIALIZED; checkpoint-grade match-window weather not yet due."},
+  "roster_state":"OFFICIAL_WEEK3_TEAM_LISTS_NOT_YET_PUBLISHED; do not carry Week 2 squads forward as current Week 3 named squads.",
+  "player_dossier_state":"WEEK3_ROSTER_POPULATION_PENDING_OFFICIAL_TEAM_LISTS; existing longitudinal dossiers retained but Week 3 named-player completeness cannot be asserted before team lists.",
+  "information_advantage":"NONE",
+  "learning_state":"NO_NEW_LEARNED_WEIGHT",
+  "audit_integrity":"PRESERVED",
+  "persistence":"WRITTEN"
+}
