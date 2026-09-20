@@ -1,0 +1,28 @@
+{
+  "fixture":"New Zealand Warriors v Newcastle Knights",
+  "competition":"NRL 2026 Finals Week 2",
+  "kickoff_aest":"2026-09-20T16:05:00+10:00",
+  "capture_time_aest":"2026-09-20T19:03:21+10:00",
+  "lifecycle_state":"VERIFIED_RESULT",
+  "result":{"New Zealand Warriors":10,"Newcastle Knights":12,"winner":"Newcastle Knights"},
+  "result_sources":[
+    "https://www.nrl.com/news/2026/09/20/nrl-sunday-blockbuster-warriors-v-knights/",
+    "https://www.espn.com/nrl/match/_/gameId/604757/league/3"
+  ],
+  "pre_match_audit":{"t3h":"PERSISTENCE_FAILED","t60m":"CAPTURED","t10m":"MISSED_NOT_CAPTURED","latest_genuine_pre_match_preference":"New Zealand Warriors","genuine_frozen_tip":null,"genuine_frozen_confidence":null,"tip_grade":"NO_GENUINE_FROZEN_SELECTION_TO_GRADE","calibration_eligible":false},
+  "post_match_observations":[
+    {"class":"VERIFIED","observation":"Newcastle defeated the Warriors 12-10 at Eden Park and advanced to the preliminary final against Penrith."},
+    {"class":"VERIFIED","player":"Leka Halasima","observation":"Scored both Warriors tries, including the 70th-minute try that reduced the margin to two points."},
+    {"class":"VERIFIED","player":"Fletcher Sharpe","observation":"Scored Newcastle's first try in the 29th minute."},
+    {"class":"VERIFIED","player":"Dominic Young","observation":"Scored Newcastle's second try in the 45th minute; it ultimately supplied the decisive margin."},
+    {"class":"VERIFIED_POST_KICKOFF_PLAYER_EVENT","player":"Charnze Nicoll-Klokstad","observation":"Left for HIA and was ruled out after failing it; retained only as outcome context."},
+    {"class":"VERIFIED_POST_KICKOFF_PLAYER_EVENT","player":"Kalyn Ponga","observation":"Left late for HIA; NRL live report stated early reports suggested he passed. No medical inference beyond source."},
+    {"class":"VERIFIED_POST_KICKOFF_PLAYER_EVENT","player":"Taine Tuaupiki","observation":"Taken for HIA after the 70th-minute Warriors try; retained only as outcome context."}
+  ],
+  "team_macro_update":{"Newcastle Knights":"Advanced to preliminary final against Penrith after defending a two-point second-half lead at Eden Park.","New Zealand Warriors":"Eliminated 12-10; late return-state starters and post-kickoff HIA events retained as outcome context, not retroactive prediction evidence."},
+  "weather_audit":"Pre-match wind was classified as material variance without directional team effect; no retrospective directional attribution added.",
+  "information_advantage":"NONE",
+  "learning_state":"NO_PREDICTION_WEIGHT_UPDATE_FROM_THIS_FIXTURE_BECAUSE_NO_GENUINE_FROZEN_DECISION_EXISTED",
+  "next_fixture":"Penrith Panthers v Newcastle Knights — preliminary final",
+  "audit_note":"The T-60 preferred-team state was Warriors but remained UNFROZEN / REVIEW_REQUIRED with no confidence. It is not converted after the event into a genuine frozen tip and therefore is not graded CORRECT/INCORRECT. T-10 remains MISSED_NOT_CAPTURED."
+}
