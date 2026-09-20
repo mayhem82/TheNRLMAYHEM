@@ -1,0 +1,56 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-20T18:07:00+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "LIFECYCLE_RECONCILIATION_AND_POST_KICKOFF_VERIFICATION",
+  "lifecycle_reconciliation": {
+    "Sydney Roosters v Cronulla-Sutherland Sharks": "VERIFIED_RESULT",
+    "New Zealand Warriors v Newcastle Knights": "POST_MATCH_RESULT_VERIFICATION_PENDING"
+  },
+  "roosters_sharks": {
+    "result": "Roosters 46-10 Sharks",
+    "winner": "Sydney Roosters",
+    "grade_state": "NO_GENUINE_PREMATCH_SELECTION_TO_GRADE",
+    "result_sources": [
+      "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
+      "https://www.sharks.com.au/draw/nrl-premiership/2026/finals-week-2-roosters-v-sharks/"
+    ],
+    "next_effect": "Roosters advance to preliminary final against Dolphins"
+  },
+  "warriors_knights": {
+    "kickoff_sydney": "2026-09-20T16:05:00+10:00",
+    "t3h": "PERSISTENCE_FAILED_PREVIOUSLY_RECORDED",
+    "t60m": "CAPTURED_2026-09-20T15:06:01+10:00",
+    "t10m": "MISSED_NOT_CAPTURED",
+    "t10m_integrity": "No canonical contemporaneous T-10 artifact exists after kickoff; must not be reconstructed.",
+    "latest_genuine_prematch_decision": {
+      "preferred_team": "New Zealand Warriors",
+      "state": "UNFROZEN_REVIEW_REQUIRED",
+      "confidence": null
+    },
+    "final_team_verified_changes": [
+      "Dallin Watene-Zelezniak promoted to starting wing",
+      "Leka Halasima promoted to starting centre",
+      "Adam Pompey and Alofiana Khan-Pereira shifted to bench",
+      "Morgan Gannon omitted",
+      "Dylan Lucas retained on Newcastle interchange"
+    ],
+    "official_source": "https://www.nrl.com/news/2026/09/20/nrl-sunday-blockbuster-warriors-v-knights/",
+    "result_verification": {
+      "state": "PENDING",
+      "note": "Current official/live indexed sources had not yet exposed a reliable full-time score at capture. No result invented.",
+      "acquisition_rule": "Continue official NRL first; if still stale once >3h after kickoff, require two reputable independent agreeing sources."
+    }
+  },
+  "weather": {
+    "warriors_knights": "T-60 record retained: Auckland wind material to variance, precipitation non-directional; no retrospective directional weather claim."
+  },
+  "player_dossier_state": "INCOMPLETE_STALE_RISK",
+  "decision_gate": "REVIEW_REQUIRED",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NONE",
+  "audit_integrity": "PRESERVED",
+  "persistence": "WRITTEN"
+}
