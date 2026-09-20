@@ -1,31 +1,85 @@
 {
-  "system":"The NRL MAYHEM",
-  "season":2026,
-  "stage":"FINALS_WEEK_2",
-  "captured_at":"2026-09-18T09:05:39+10:00",
-  "timezone":"Australia/Sydney",
-  "trigger":"MATERIAL_PLAYER_STATISTICAL_ENRICHMENT",
-  "lifecycle_reconciliation":{"status":"COMPLETE","active_fixture":null,"next_fixture":"Roosters v Sharks — 19 September 2026, 7:50pm AEST","following_fixture":"Warriors v Knights — 20 September 2026, 4:05pm AEST"},
-  "sources":[
-    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/17/nrl-late-mail-finals-week-2---lucas-in-the-mix/","source_timestamp":"2026-09-17T18:01:00+10:00"},
-    {"class":"OFFICIAL_NRL","url":"https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/"},
-    {"class":"REPUTABLE_CURRENT_REPORT","url":"https://www.news.com.au/sport/nrl/you-dont-do-that-through-luck-fletcher-sharpe-one-of-the-stories-of-the-season-a-year-after-he-suffered-car-crash-injuries/news-story/2b43e5b84da4545255c99c67f88c3beb","capture_date":"2026-09-18"},
-    {"class":"MARKET_PROVIDER","url":"https://www.sportsbet.com.au/betting/rugby-league/nrl","capture_date":"2026-09-18"}
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_2",
+  "captured_at": "2026-09-20T18:07:00+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "POST_KICKOFF_LIFECYCLE_RECONCILIATION",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE",
+    "Sydney Roosters v Cronulla-Sutherland Sharks": "VERIFIED_RESULT",
+    "New Zealand Warriors v Newcastle Knights": "POST_MATCH_RESULT_VERIFICATION_PENDING",
+    "next_fixture": "PENDING_WARRIORS_KNIGHTS_RESULT"
+  },
+  "sources": [
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/20/nrl-sunday-blockbuster-warriors-v-knights/",
+      "capture_date": "2026-09-20"
+    },
+    {
+      "class": "OFFICIAL_NRL",
+      "url": "https://www.nrl.com/news/2026/09/15/nrl-team-lists-finals-week-2/",
+      "capture_date": "2026-09-20"
+    },
+    {
+      "class": "INDEPENDENT_RESULT_CHECK",
+      "url": "https://www.abc.net.au/news/2026-09-20/nrl-finals-live-warriors-knights-eden-park/107155146",
+      "capture_date": "2026-09-20"
+    }
   ],
-  "observations":[
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_CURRENT_SEASON_PERFORMANCE_REPORT","player":"Fletcher Sharpe","observation":"Current reporting credits Sharpe with a career-high 12 tries and 11 assists in 2026 and identifies his support role alongside Kalyn Ponga as a major component of Newcastle's attack.","decision_effect":"Adds verified 2026 attacking-production evidence to a role-critical Newcastle spine player. Raw reported totals are preserved separately from MAYHEM inference; no causal explanation or numerical probability uplift is inferred from the totals alone."},
-    {"fixture":"Warriors v Knights","classification":"VERIFIED_OFFICIAL_RETURN_ASSESSMENT_PENDING","player":"Dylan Lucas","observation":"Official NRL late mail retains Lucas in reserve jersey 22 after training; Newcastle coach Justin Holbrook says a final fitness decision will be made Saturday.","decision_effect":"Mandatory later recheck; no promotion into canonical 17 until verified."},
-    {"fixture":"Roosters v Sharks","classification":"VERIFIED_OFFICIAL_ROSTER_STATE","observation":"Official NRL late mail continues to expect no Cronulla late changes; Angus Crichton remains on track to return from the Roosters interchange and Salesi Foketi retains the starting back-row role.","decision_effect":"No new directional adjustment; roster state remains current pending squad reduction."}
+  "observations": [
+    {
+      "fixture": "Roosters v Sharks",
+      "classification": "VERIFIED_RESULT",
+      "observation": "Sydney Roosters 46, Cronulla-Sutherland Sharks 10.",
+      "decision_effect": "Roosters advance; Sharks eliminated."
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "classification": "VERIFIED_FINAL_TEAM",
+      "observation": "DWZ and Leka Halasima started; Adam Pompey and Alofiana Khan-Pereira shifted to bench; Morgan Gannon omitted; Dylan Lucas retained on Newcastle interchange.",
+      "decision_effect": "Preserves T-60 roster-change evidence; no retrospective probability manufactured."
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "classification": "RESULT_VERIFICATION_PENDING",
+      "observation": "Kickoff has passed and no reliable full-time score was exposed by checked indexed sources at this capture.",
+      "decision_effect": "Do not invent result; fixture cannot remain UPCOMING or ACTIVE."
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "classification": "MISSED_NOT_CAPTURED",
+      "observation": "No canonical contemporaneous T-10 checkpoint artifact exists after kickoff.",
+      "decision_effect": "T-10 remains permanently MISSED_NOT_CAPTURED."
+    }
   ],
-  "fixture_updates":[
-    {"fixture":"Roosters v Sharks","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-18T19:50:00+10:00","decision_state":"UNFROZEN","material_change":"NO_NEW_ROSTER_CHANGE_THIS_CAPTURE"},
-    {"fixture":"Warriors v Knights","lifecycle":"UPCOMING","next_checkpoint":"T-24h","next_checkpoint_due_sydney":"2026-09-19T16:05:00+10:00","decision_state":"UNFROZEN","material_change":"FLETCHER_SHARPE_2026_ATTACKING_PROFILE_ENRICHED"}
+  "fixture_updates": [
+    {
+      "fixture": "Roosters v Sharks",
+      "lifecycle": "VERIFIED_RESULT",
+      "result": "46-10 Roosters",
+      "tip_grade": "NO_GENUINE_PREMATCH_SELECTION_TO_GRADE"
+    },
+    {
+      "fixture": "Warriors v Knights",
+      "lifecycle": "POST_MATCH_RESULT_VERIFICATION_PENDING",
+      "t3h": "PERSISTENCE_FAILED",
+      "t60m": "CAPTURED",
+      "t10m": "MISSED_NOT_CAPTURED",
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+      "confidence": null
+    }
   ],
-  "weather_state":{"Roosters v Sharks":"Sydney Saturday forecast remains very warm with spells of sunshine; no precipitation mechanism promoted into the decision.","Warriors v Knights":"Mandatory Auckland weather remains on watch for the later checkpoint; no new directional weather effect asserted in this capture."},
-  "market_state":{"Roosters v Sharks":"Sportsbet $1.44/$2.81, normalized approximately 66.15%/33.85%; line Roosters -7.5.","Warriors v Knights":"Sportsbet $1.51/$2.57, normalized approximately 62.97%/37.03%; line Warriors -5.5."},
-  "statistical_freshness":{"status":"ROSTER_POPULATION_AND_DOSSIER_ENRICHMENT_IN_PROGRESS","decision_gate":"REVIEW_REQUIRED"},
-  "learning_state":"NO_NEW_LEARNED_WEIGHT",
-  "information_advantage":"NO_CHANGE",
-  "audit_integrity":"PRESERVED",
-  "persistence":"WRITTEN"
+  "weather_state": {
+    "Warriors v Knights": "T-60 weather evidence retained: material wind variance, no demonstrated directional team edge."
+  },
+  "statistical_freshness": {
+    "status": "ROSTER_POPULATION_AND_DOSSIER_ENRICHMENT_INCOMPLETE",
+    "decision_gate": "REVIEW_REQUIRED"
+  },
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NONE",
+  "audit_integrity": "PRESERVED",
+  "persistence": "WRITTEN"
 }
