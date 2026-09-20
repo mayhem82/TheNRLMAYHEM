@@ -1,0 +1,17 @@
+{
+  "fixture": "New Zealand Warriors v Newcastle Knights",
+  "fixture_id": "FW2-NZW-NKN",
+  "audit_capture_time": "2026-09-20T15:31:03+10:00",
+  "checkpoint": "T-3h",
+  "expected_checkpoint_time": "2026-09-20T13:05:00+10:00",
+  "status": "PERSISTENCE_FAILED",
+  "finding": "A T-3h checkpoint was reported contemporaneously in the intelligence cycle, but repository reconciliation at 15:31 AEST found no canonical T-3h checkpoint artifact. It must not be silently recreated as if persistence had succeeded.",
+  "integrity_action": "Preserve the gap explicitly. Do not backfill a new T-3h freeze or alter later T-60m evidence. T-60m artifact remains independently persisted.",
+  "repository_head_observed_before_repair": "495622705e9ba9d56d3d64ac2594fd81ef9f1f6b",
+  "t60m_artifact_present": "data/checkpoint-fw2-nzw-nkn-t60m-2026-09-20-150601-aest.json",
+  "t10m_due": "2026-09-20T15:55:00+10:00",
+  "player_dossier_state": "INCOMPLETE",
+  "player_dossier_rule": "No full MAYHEM validation claim until roster-wide statistical dossier requirement is satisfied; unavailable fields must be explicitly classified rather than guessed.",
+  "learning_effect": "NONE",
+  "frozen_decision_effect": "NONE"
+}
