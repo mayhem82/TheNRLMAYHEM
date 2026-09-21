@@ -1,0 +1,45 @@
+{
+  "schema": "MAYHEM_MATERIAL_UPDATE_V1",
+  "captured_at": "2026-09-21T21:55:36+10:00",
+  "scope": "2026 NRL Finals Week 3",
+  "fixtures": [
+    "Dolphins v Sydney Roosters — 2026-09-25 19:50 AEST — Suncorp Stadium",
+    "Penrith Panthers v Newcastle Knights — 2026-09-27 16:00 AEST — Accor Stadium"
+  ],
+  "lifecycle_reconciliation": "Both relevant fixtures remain UPCOMING. No passed-kickoff fixture requires result acquisition in this cycle.",
+  "checkpoint_state": "No T-24h/T-3h/T-60m/T-10m checkpoint is due. Existing checkpoint history is unchanged; MISSED_NOT_CAPTURED remains immutable where previously recorded.",
+  "material_change": {
+    "type": "OFFICIATING_CHANGE_CONFIRMED",
+    "classification": "VERIFIED",
+    "observation": "Ashley Klein has been dropped from the 2026 preliminary-final referee appointments after the NRL acknowledged the late Tyson Frizell escort in Warriors v Knights should have been penalised.",
+    "prior_state": "OFFICIATING_CHANGE_SIGNAL",
+    "new_state": "VERIFIED_OFFICIATING_CHANGE",
+    "decision_effect": "No directional advantage assigned to Dolphins, Roosters, Panthers or Knights. Appointment identities for the two preliminary finals remain to be verified before any officiating-specific matchup effect is considered.",
+    "sources": [
+      {
+        "class": "reputable_independent/AAP",
+        "url": "https://www.abc.net.au/news/2026-09-21/nrl-could-drop-referee-ashley-klein-from-preliminary-final/107178294",
+        "captured_at": "2026-09-21T21:55:36+10:00"
+      },
+      {
+        "class": "reputable_independent",
+        "url": "https://www.nine.com.au/sport/nrl/finals-ashley-klein-referee-dropped-newcastle-knights-new-zealand-warriors-eden-park-20260921-p60z9m.html",
+        "captured_at": "2026-09-21T21:55:36+10:00"
+      }
+    ]
+  },
+  "player_layer": {
+    "official_week3_team_lists": "NOT_YET_PUBLISHED_AT_CAPTURE",
+    "population_state": "PENDING_OFFICIAL_TEAM_LISTS",
+    "note": "No player is removed because of absent news. Existing verified availability and return signals remain preserved without promotion to verified starter unless supported by official selection evidence."
+  },
+  "weather": "Mandatory match-window weather watch remains active; no temporal checkpoint is due in this cycle.",
+  "market": "No reliable same-provider two-sided market update accepted in this cycle; prior market state remains frozen as the latest accepted observation.",
+  "decision": {
+    "Dolphins_v_Roosters": "UNFROZEN / REVIEW_REQUIRED",
+    "Panthers_v_Knights": "UNFROZEN / REVIEW_REQUIRED"
+  },
+  "information_advantage": "NO_CLASSIFICATION_CHANGE",
+  "learning": "NO_LEARNED_WEIGHT_CHANGE",
+  "audit_integrity": "Prior frozen states and completed-match records unchanged."
+}
