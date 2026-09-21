@@ -1,0 +1,43 @@
+{
+  "cycle_id": "FW3-2026-09-22T07:55:47+10:00",
+  "capture_time_australia_sydney": "2026-09-22T07:55:47+10:00",
+  "lifecycle_reconciliation": {
+    "Dolphins_v_Roosters": "UPCOMING",
+    "Panthers_v_Knights": "UPCOMING",
+    "checkpoint_due": false
+  },
+  "material_updates": [
+    {
+      "fixture": "Panthers v Knights",
+      "player": "Isaah Yeo",
+      "classification": "VERIFIED_RETURNED_FROM_PECTORAL_INJURY_WITH_CURRENT_WORKLOAD_EVIDENCE",
+      "observation": "Official NRL late mail verifies Yeo returned after three games out with a pectoral injury and Finals Week 1 official team lists verify he returned to the starting side in his second game back. Subsequent published reporting records that the injury was a ruptured pectoral and that across his first two games back he made 50 tackles with zero misses. This is retained as verified/strongly corroborated player workload and return-state evidence; no causal performance uplift is inferred solely from the statistics.",
+      "sources": [
+        "https://www.nrl.com/news/2026/09/02/nrl-late-mail-round-27--yeo-in-frame-duncan-hamstrung/",
+        "https://www.nrl.com/news/2026/09/08/nrl-team-lists-finals-week-1/",
+        "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-cronulla-sharks-ceo-suggests-bold-solution-to-stadium-debate-how-isaah-yeo-recovered-from-pec-injury/news-story/257b90eba6c048068221f3af23dfbfe4"
+      ],
+      "team_effect": "Penrith role-critical lock continuity strengthened relative to an availability-only view; residual injury/workload context remains part of the player dossier.",
+      "decision_effect": "No confidence freeze. Feed into role-critical player comparison at pre-freeze gates."
+    },
+    {
+      "fixture": "Dolphins v Roosters",
+      "player": "Sam Walker",
+      "classification": "CORROBORATED_RETURN_SIGNAL_NOT_VERIFIED_STARTER",
+      "observation": "Fresh reporting continues to state Walker is expected to be named after training progress. Official Week 3 team list remains controlling evidence.",
+      "sources": [
+        "https://www.news.com.au/sport/nrl/sam-walker-set-for-dolphins-preliminary-final-as-roosters-forwards-overcome-injury-scares/news-story/1f497d075bd744e9cbca30353958b5c0"
+      ],
+      "decision_effect": "No promotion to VERIFIED_STARTER before official team list."
+    }
+  ],
+  "market_reference_not_frozen": {
+    "Dolphins_v_Roosters": {"prices": {"Dolphins": 1.61, "Roosters": 2.20}, "normalized_probability": {"Dolphins": 0.5775, "Roosters": 0.4225}, "source_capture": "Stats Insider / Bet365 prices last updated 2026-09-21 16:30"},
+    "Panthers_v_Knights": {"prices": {"Panthers": 1.20, "Knights": 4.20}, "normalized_probability": {"Panthers": 0.7778, "Knights": 0.2222}, "source_capture": "Stats Insider / Bet365 prices last updated 2026-09-21 16:30"}
+  },
+  "decision_state": "UPCOMING_UNFROZEN_REVIEW_REQUIRED",
+  "roster_population_state": "PENDING_OFFICIAL_FINALS_WEEK_3_TEAM_LISTS",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage_change": "NONE",
+  "audit_note": "No due temporal checkpoint. No pseudo-precise player weighting applied. Market references are timestamped observations only and are not treated as independent corroboration of football evidence."
+}
