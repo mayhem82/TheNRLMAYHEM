@@ -1,0 +1,35 @@
+{
+  "cycle_capture_time": "2026-09-21T23:42:10+10:00",
+  "timezone": "Australia/Sydney",
+  "lifecycle_reconciliation": {
+    "status": "NO_STALE_FIXTURE_REQUIRING_REPAIR",
+    "relevant_fixtures": [
+      {"fixture": "Dolphins v Sydney Roosters", "kickoff": "2026-09-25T19:50:00+10:00", "state": "UPCOMING", "decision": "UNFROZEN_REVIEW_REQUIRED"},
+      {"fixture": "Penrith Panthers v Newcastle Knights", "kickoff": "2026-09-27T16:00:00+10:00", "state": "UPCOMING", "decision": "UNFROZEN_REVIEW_REQUIRED"}
+    ]
+  },
+  "checkpoint_status": "NO_TEMPORAL_CHECKPOINT_DUE",
+  "weather_intelligence": {
+    "fixture": "Dolphins v Sydney Roosters",
+    "venue": "Suncorp Stadium, Brisbane",
+    "forecast_date": "2026-09-25",
+    "forecast": "Morning rain easing; decreasing cloud. Match-window forecast 19:00-22:00 partly cloudy to mostly clear with 0% precipitation in the captured hourly forecast.",
+    "classification": "FORECAST_SIGNAL_NOT_CHECKPOINT_FREEZE",
+    "decision_effect": "NO_DIRECTIONAL_ADJUSTMENT",
+    "source_class": "structured weather forecast",
+    "capture_time": "2026-09-21T23:42:10+10:00"
+  },
+  "market_state": {
+    "Dolphins_v_Roosters": {"prices": {"Dolphins": 1.67, "Roosters": 2.25}, "normalized_probability_pct": {"Dolphins": 57.38, "Roosters": 42.62}, "source_state": "latest reliable same captured baseline located; no new material move established"},
+    "Panthers_v_Knights": {"prices": {"Panthers": 1.28, "Knights": 3.80}, "normalized_probability_pct": {"Panthers": 74.80, "Knights": 25.20}, "source_state": "latest reliable same captured baseline located; no new material move established"}
+  },
+  "player_state": {
+    "Sam Walker": "CORROBORATED_RETURN_SIGNAL_NOT_VERIFIED_STARTER",
+    "Nathan Cleary": "VERIFIED_INJURY_EXPECTED_SELECTION_ROLE_UNCERTAINTY",
+    "Kalyn Ponga": "VERIFIED_AVAILABILITY"
+  },
+  "roster_population": "PENDING_OFFICIAL_FINALS_WEEK_3_TEAM_LISTS",
+  "information_advantage_change": "NONE",
+  "learned_weight_change": "NONE",
+  "notification_reason": "MANDATORY_WEATHER_INTELLIGENCE_MATERIAL_FORECAST_CAPTURE"
+}
