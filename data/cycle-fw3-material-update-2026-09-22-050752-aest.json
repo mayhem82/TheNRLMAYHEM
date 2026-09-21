@@ -1,0 +1,64 @@
+{
+  "capture_time_australia_sydney": "2026-09-22T05:07:52+10:00",
+  "cycle": "Finals Week 3",
+  "lifecycle_reconciliation": "NO_PAST_UNRESOLVED_FW3_FIXTURES; BOTH PRELIMINARY FINALS UPCOMING",
+  "material_change": true,
+  "fixtures": [
+    {
+      "fixture": "Dolphins v Sydney Roosters",
+      "state": "UPCOMING_UNFROZEN_REVIEW_REQUIRED",
+      "checkpoint_due": false,
+      "player_observations": [
+        {
+          "player": "Sam Walker",
+          "classification": "CORROBORATED_RETURN_SIGNAL_NOT_VERIFIED_STARTER",
+          "observation": "Fresh reporting continues to place Walker on track to be named for Friday, conditional on training; official team list remains controlling evidence."
+        },
+        {
+          "player": "Naufahu Whyte",
+          "classification": "VERIFIED_SELF_REPORTED_AVAILABLE_WITH_MANAGED_HAMSTRING_ISSUE",
+          "observation": "Reported fit and ready despite managing a hamstring issue."
+        },
+        {
+          "player": "Lindsay Collins",
+          "classification": "VERIFIED_SELF_REPORTED_AVAILABLE",
+          "observation": "Confirmed not in doubt after post-match limp concern."
+        }
+      ],
+      "decision_effect": "NO_FREEZE; retain REVIEW_REQUIRED pending official Week 3 team list and roster/statistical reconciliation"
+    },
+    {
+      "fixture": "Penrith Panthers v Newcastle Knights",
+      "state": "UPCOMING_UNFROZEN_REVIEW_REQUIRED",
+      "checkpoint_due": false,
+      "player_observations": [
+        {
+          "player": "Nathan Cleary",
+          "classification": "CONFIRMED_EXPECTED_TO_PLAY_ROLE_MODIFICATION_SIGNAL",
+          "observation": "Fresh preliminary-final early mail reports Cleary will play despite the previously reported stress-related foot bone issue, with goal-kicking/general-play kicking workload potentially redistributed. Official Week 3 team list remains controlling roster evidence."
+        },
+        {
+          "player": "Kalyn Ponga",
+          "classification": "VERIFIED_AVAILABLE",
+          "observation": "Cleared after HIA; no adverse change found in this cycle."
+        },
+        {
+          "player": "Dylan Lucas",
+          "classification": "AVAILABLE_RETURNING_PLAYER",
+          "observation": "Available after returning in the semi-final; role/minutes remain selection-dependent."
+        }
+      ],
+      "team_macro_effect": "Penrith halfback availability uncertainty reduced; kicking-role uncertainty remains. Newcastle availability baseline unchanged.",
+      "decision_effect": "NO_FREEZE; retain REVIEW_REQUIRED pending official Week 3 team list and roster/statistical reconciliation"
+    }
+  ],
+  "market": "No new reliable same-provider two-sided market state accepted in this cycle.",
+  "weather": "Mandatory weather watch remains active; no checkpoint-grade weather update due at this capture.",
+  "information_advantage": "NO_CLASSIFICATION_CHANGE",
+  "learning": "NO_NEW_LEARNED_WEIGHT",
+  "sources": [
+    "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-preliminary-finals-week-3-injuries-and-suspension-team-tips-finals-week-three-update-on-sam-walkers-availability-panthers-set-for-boost-with-luke-garner-paul-alamoti-returning-nrl-news/news-story/d47d9c13e996d08c5af8006465ced2b8",
+    "https://www.dailytelegraph.com.au/sport/nrl/nrl-preliminary-finals-early-mail-daly-cherryevans-cleared-to-play-after-tripping-controversy/news-story/48d4d94603eff62cc29a44cbd519332a",
+    "https://www.nrl.com/news/2026/09/20/nrl-sunday-blockbuster-warriors-v-knights/"
+  ]
+}
