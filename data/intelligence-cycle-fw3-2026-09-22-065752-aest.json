@@ -1,0 +1,68 @@
+{
+  "capture_time_australia_sydney": "2026-09-22T06:57:52+10:00",
+  "cycle": "Finals Week 3",
+  "lifecycle_reconciliation": "UPCOMING",
+  "fixtures": [
+    {
+      "fixture": "Dolphins v Sydney Roosters",
+      "kickoff": "2026-09-25T19:50:00+10:00",
+      "checkpoint_due": false,
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+      "material_observations": [
+        {
+          "classification": "SIGNAL",
+          "observation": "James Tedesco and Daly Cherry-Evans were absent from Roosters Monday training; secondary reporting says both were told to stay away. No reason is inferred and this is not treated as unavailability.",
+          "source": "Fox Sports Finals Team Tips, published 2026-09-21 21:28 AEST",
+          "source_url": "https://www.foxsports.com.au/nrl/nrl-premiership/nrl-2026-team-lists-and-selections-for-preliminary-finals-week-3-injuries-and-suspension-team-tips-finals-week-three-update-on-sam-walkers-availability-panthers-set-for-boost-with-luke-garner-paul-alamoti-returning-nrl-news/news-story/d47d9c13e996d08c5af8006465ced2b8"
+        },
+        {
+          "classification": "CORROBORATED_RETURN_SIGNAL_NOT_VERIFIED_STARTER",
+          "observation": "Sam Walker remains on track for a preliminary-final return but official selection remains controlling evidence.",
+          "source": "NRL Casualty Ward updated 2026-09-20; Fox Sports Finals Team Tips"
+        }
+      ],
+      "market": {
+        "source": "PointsBet prices displayed by Fox Sports",
+        "captured_display_time": "2026-09-22T06:26:00+10:00",
+        "dolphins_decimal": 1.74,
+        "roosters_decimal": 2.10,
+        "normalized_probability": {"Dolphins": 0.5469, "Sydney Roosters": 0.4531},
+        "note": "Market movement without established cause remains SIGNAL. No MAYHEM confidence freeze."
+      }
+    },
+    {
+      "fixture": "Penrith Panthers v Newcastle Knights",
+      "kickoff": "2026-09-27T16:00:00+10:00",
+      "checkpoint_due": false,
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+      "material_observations": [
+        {
+          "classification": "SIGNAL",
+          "observation": "Nathan Cleary is reported certain to play but with reduced kicking workload; official NRL casualty data still lists foot injury TBC. No medical inference beyond published evidence.",
+          "source": "Fox Sports Finals Team Tips; NRL Casualty Ward"
+        },
+        {
+          "classification": "SIGNAL",
+          "observation": "Luke Garner is reported returning; Jack Cogger is reported returning from suspension and projected to replace Jack Cole. Paul Alamoti remains an availability uncertainty pending fitness/official selection.",
+          "source": "Fox Sports Finals Team Tips"
+        },
+        {
+          "classification": "VERIFIED_AVAILABILITY",
+          "observation": "Kalyn Ponga reported that he passed his HIA; official NRL reporting records the passed assessment and Newcastle optimism for the preliminary final.",
+          "source": "NRL Casualty Ward; Fox Sports Finals Team Tips"
+        },
+        {
+          "classification": "ROLE_SELECTION_UNCERTAINTY",
+          "observation": "Dylan Lucas returned from ankle injury in the semi-final; his Week 3 role versus Jermaine McEwen and Francis Manuleleua remains an official-selection question.",
+          "source": "Fox Sports Finals Team Tips"
+        }
+      ]
+    }
+  ],
+  "roster_population_state": "PENDING_OFFICIAL_FINALS_WEEK_3_TEAM_LISTS",
+  "player_statistical_dossier_state": "PENDING_OFFICIAL_FINALS_WEEK_3_TEAM_LISTS",
+  "weather": "No formal checkpoint due; mandatory checkpoint weather capture remains pending.",
+  "learning_change": "NONE",
+  "information_advantage_change": "NONE",
+  "next_action": "Reconcile official Finals Week 3 team lists when published on 2026-09-22 and populate every named player before any confidence freeze."
+}
