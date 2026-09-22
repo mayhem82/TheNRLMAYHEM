@@ -1,0 +1,41 @@
+{
+  "capture_time_australia_sydney": "2026-09-23T00:05:43+10:00",
+  "cycle": "Finals Week 3",
+  "lifecycle_reconciliation": {
+    "Dolphins_v_Roosters": "UPCOMING",
+    "Panthers_v_Knights": "UPCOMING",
+    "past_unresolved_fixture_repair": "NONE_IDENTIFIED_THIS_CYCLE"
+  },
+  "checkpoint_due": false,
+  "material_updates": [
+    {
+      "fixture": "Panthers v Knights",
+      "player": "Nathan Cleary",
+      "classification": "VERIFIED_OFFICIAL_PLAYER_AVAILABILITY_DETAIL",
+      "observation": "NRL.com reports Cleary is named at halfback despite a bone stress injury in his foot, has been on restricted duties since the qualifying-final win, and benefited from the week off. Isaah Yeo said the injury has settled somewhat and expects him to be ready.",
+      "decision_effect": "Maintain availability/workload uncertainty; named selection is verified but unrestricted match workload is not assumed. Preserve Jack Cogger bench cover and Jack Cole potential additional kicking burden as role-contingency evidence.",
+      "source": "https://www.nrl.com/news/2026/09/22/all-systems-go-panthers-back-cleary-for-newcastle-showdown/"
+    },
+    {
+      "fixture": "Dolphins v Roosters",
+      "player": "Sam Walker",
+      "classification": "VERIFIED_OFFICIAL_SELECTION_RETURN_FROM_INJURY",
+      "observation": "Official Finals Week 3 list names Walker at halfback 24 days after syndesmosis injury and surgery; Daly Cherry-Evans shifts to five-eighth and Hugo Savala to interchange.",
+      "decision_effect": "Return-state uncertainty remains a mandatory variance input; do not infer full pre-injury workload or directional uplift solely from selection.",
+      "source": "https://www.nrl.com/news/2026/09/22/nrl-team-lists-preliminary-finals/"
+    }
+  ],
+  "weather": {
+    "Dolphins_v_Roosters": "Friday Brisbane match window forecast currently dry; structured forecast shows 0% precipitation 18:00-22:00 after possible morning rain. No directional adjustment.",
+    "Panthers_v_Knights": "No new material weather change established this cycle; refresh remains mandatory at checkpoints."
+  },
+  "market": "No reliable fresh two-sided same-provider market state captured this cycle; no normalized probability update and no confidence freeze.",
+  "decision_state": {
+    "Dolphins_v_Roosters": "UNFROZEN_REVIEW_REQUIRED",
+    "Panthers_v_Knights": "UNFROZEN_REVIEW_REQUIRED"
+  },
+  "player_population_integrity": "Official 22-player squads per club remain controlling. Roster-wide statistical enrichment remains incomplete/stale until all 88 named players have current official-profile dossier treatment or explicit PROFILE_DATA_UNAVAILABLE/FIELD_NOT_PUBLISHED markers.",
+  "information_advantage": "NO_CLASSIFICATION_CHANGE",
+  "learning": "NO_WEIGHT_CHANGE",
+  "audit_note": "No checkpoint was due. This file records only material evidence changes; frozen decisions were not rewritten."
+}
