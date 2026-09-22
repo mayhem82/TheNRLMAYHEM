@@ -1,0 +1,62 @@
+{
+  "capture_time_australia_sydney": "2026-09-23T03:11:58+10:00",
+  "cycle": "FINALS_WEEK_3",
+  "lifecycle_reconciliation": {
+    "Dolphins_v_Roosters": "UPCOMING",
+    "Panthers_v_Knights": "UPCOMING",
+    "result_backlog": "NONE_FOR_FW3"
+  },
+  "fixtures": [
+    {
+      "fixture": "Dolphins v Sydney Roosters",
+      "kickoff": "2026-09-25T19:50:00+10:00",
+      "checkpoint_due": false,
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+      "official_selection_state": "VERIFIED_OFFICIAL_SELECTION",
+      "material_evidence": [
+        "Sam Walker officially named at halfback four weeks after ankle surgery; return-state variance retained.",
+        "Daly Cherry-Evans named at five-eighth and available after judiciary outcome.",
+        "Tom Flegler named at prop after concussion clearance.",
+        "Naufahu Whyte named at prop; workload/fitness monitoring remains relevant."
+      ],
+      "weather": "MANDATORY_REFRESH_REQUIRED_AT_DUE_CHECKPOINT; no new directional weather evidence captured this cycle",
+      "market": "NO_NEW_RELIABLE_SAME_PROVIDER_STATE_CAPTURED",
+      "information_advantage_change": "NONE",
+      "player_population": "22 VERIFIED roster identities; roster-wide statistical enrichment remains incomplete/stale"
+    },
+    {
+      "fixture": "Penrith Panthers v Newcastle Knights",
+      "kickoff": "2026-09-27T16:00:00+10:00",
+      "checkpoint_due": false,
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+      "official_selection_state": "VERIFIED_OFFICIAL_SELECTION",
+      "material_evidence": [
+        "Nathan Cleary officially named at halfback with NRL reporting a bone stress injury and restricted duties since the qualifying final.",
+        "Jack Cole named at five-eighth; Jack Cogger bench cover; additional kicking workload remains a contingency rather than a presumed change.",
+        "Newcastle retains settled preliminary-final squad core."
+      ],
+      "weather": "MANDATORY_REFRESH_REQUIRED_AT_DUE_CHECKPOINT; no new directional weather evidence captured this cycle",
+      "market": "NO_NEW_RELIABLE_SAME_PROVIDER_STATE_CAPTURED",
+      "information_advantage_change": "NONE",
+      "player_population": "22 VERIFIED roster identities; roster-wide statistical enrichment remains incomplete/stale"
+    }
+  ],
+  "player_layer_integrity": {
+    "named_roster_total": 88,
+    "status": "STALE_CAPTURE_REQUIRES_FW3_ROSTER_WIDE_REFRESH",
+    "rule": "Absence of news does not remove VERIFIED roster presence; NO_MATERIAL_CHANGE applies where appropriate."
+  },
+  "sources_checked": [
+    "NRL.com Dolphins v Roosters preliminary final preview/team list, 22 Sep 2026",
+    "NRL.com Panthers v Knights preliminary final preview/team list, 21-22 Sep 2026",
+    "NRL.com Nathan Cleary injury/team report, 22 Sep 2026",
+    "NRL.com Naufahu Whyte feature, 22 Sep 2026",
+    "current independent preliminary-final reporting searched 23 Sep 2026"
+  ],
+  "audit": {
+    "missed_not_captured_rule": "PRESERVED",
+    "frozen_decision_rewritten": false,
+    "learned_weight_change": false,
+    "notification_trigger": "PLAYER_ROSTER_STATISTICAL_POPULATION_REMAINS_INCOMPLETE_STALE"
+  }
+}
