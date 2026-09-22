@@ -2,9 +2,9 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_3",
-  "captured_at": "2026-09-22T18:32:19+10:00",
+  "captured_at": "2026-09-23T06:19:42+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_OFFICIATING_RESOLUTION_AND_WEATHER_REFRESH",
+  "trigger": "MATERIAL_PLAYER_WORKLOAD_SIGNAL",
   "lifecycle_reconciliation": {
     "status": "COMPLETE",
     "Dolphins v Sydney Roosters": "UPCOMING",
@@ -13,16 +13,11 @@
   },
   "observations": [
     {
-      "fixture": "Dolphins v Sydney Roosters",
-      "classification": "VERIFIED_OFFICIAL_APPOINTMENT",
-      "observation": "Adam Gee is appointed on-field referee for the Friday preliminary final at Suncorp Stadium.",
-      "decision_effect": "No directional team advantage inferred."
-    },
-    {
       "fixture": "Penrith Panthers v Newcastle Knights",
-      "classification": "VERIFIED_OFFICIAL_APPOINTMENT",
-      "observation": "Gerard Sutton is appointed on-field referee for the Sunday preliminary final at Accor Stadium; Ashley Klein is assigned to bunker duties.",
-      "decision_effect": "No directional team advantage inferred."
+      "player": "Isaah Yeo",
+      "classification": "CORROBORATED_PLAYER_WORKLOAD_SIGNAL",
+      "observation": "Current reporting says Yeo has been managing pectoral pain while remaining named to start at lock for Penrith.",
+      "decision_effect": "Preserve as workload/availability uncertainty for checkpoint monitoring; do not infer a hidden diagnosis, withdrawal, minutes restriction or directional match effect without further evidence."
     }
   ],
   "fixture_updates": [
@@ -44,12 +39,12 @@
     }
   ],
   "market_state": {
-    "Dolphins v Sydney Roosters": "No material same-provider movement established from prior accepted baseline.",
-    "Penrith Panthers v Newcastle Knights": "TAB 1.27/3.80 snapshot normalizes to approximately 74.95% Penrith / 25.05% Newcastle; no confidence freeze."
+    "Dolphins v Sydney Roosters": "No new reliable same-provider two-sided state captured this cycle; prior accepted baseline retained without backfill.",
+    "Penrith Panthers v Newcastle Knights": "No new reliable same-provider two-sided state captured this cycle; prior accepted baseline retained without backfill."
   },
   "weather_state": {
-    "Dolphins v Sydney Roosters": "BOM Friday Brisbane: showers mainly morning; detailed evening rain chance 5% at 7pm and 10% at 10pm. No directional adjustment.",
-    "Penrith Panthers v Newcastle Knights": "BOM Sydney Olympic Park Sunday: cloudy, slight shower chance, 0-1 mm, 30% chance of rain, southerly 15-20 km/h turning E-SE. No directional adjustment."
+    "Dolphins v Sydney Roosters": "No material weather decision effect established this cycle; mandatory checkpoint refresh remains due at T-24h.",
+    "Penrith Panthers v Newcastle Knights": "Sydney Olympic Park forecast remains non-directional at this horizon; mandatory checkpoint refresh remains due at T-24h."
   },
   "roster_state": "OFFICIAL_FINALS_WEEK_3_SQUADS_PERSISTED; roster-wide statistical enrichment remains incomplete/stale and requires refresh before full validation.",
   "learning_state": "NO_NEW_LEARNED_WEIGHT",
