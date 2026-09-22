@@ -1,0 +1,49 @@
+{
+  "capture_time_australia_sydney": "2026-09-22T14:11:48+10:00",
+  "cycle": "Finals Week 3",
+  "lifecycle_reconciliation": {
+    "Dolphins_v_Roosters": "UPCOMING",
+    "Panthers_v_Knights": "UPCOMING",
+    "result_backlog": false
+  },
+  "checkpoint_due": false,
+  "material_updates": [
+    {
+      "fixture": "Dolphins v Roosters",
+      "classification": "VERIFIED_TEAM_MACRO_CONTINUITY",
+      "source_class": "OFFICIAL_NRL",
+      "source_url": "https://www.nrl.com/news/2026/01/01/2026-nrl-signings-tracker-the-latest-from-all-17-clubs/",
+      "observation": "NRL Signings Tracker updated 21 September 2026 reports Dolphins players Selwyn Cobbo and Kulikefu Finefeuiaki have signed contract extensions; Finefeuiaki through end of 2029.",
+      "decision_effect": "Longitudinal Dolphins roster-continuity evidence only. No current-fixture availability inference and no numerical confidence uplift."
+    },
+    {
+      "fixture": "Panthers v Knights",
+      "classification": "VERIFIED_PLAYER_STATISTICAL_DOSSIER_ENRICHMENT",
+      "player": "Nathan Cleary",
+      "source_class": "OFFICIAL_NRL_PLAYER_PROFILE",
+      "source_url": "https://www.nrl.com/players/nrl-premiership/panthers/nathan-cleary/",
+      "raw_2026": {
+        "appearances": 22,
+        "tries": 6,
+        "goals": 96,
+        "forced_drop_outs": 6,
+        "average_kicking_metres": 513.7,
+        "try_assists": 29,
+        "line_break_assists": 25,
+        "offloads": 24,
+        "tackles_made": 445,
+        "average_running_metres": 99,
+        "total_running_metres": 2190,
+        "fantasy_total": 1565,
+        "fantasy_average": 71.1
+      },
+      "career": {"appearances": 216, "tries": 73},
+      "decision_effect": "Role-critical verified statistical baseline added; raw statistics kept separate from injury/role inference."
+    }
+  ],
+  "official_week3_team_lists": "NOT_LOCATED_AT_CAPTURE_TIME",
+  "roster_population_state": "PENDING_OFFICIAL_FINALS_WEEK_3_TEAM_LISTS",
+  "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+  "information_advantage_change": "NONE",
+  "learned_weight_change": "NONE"
+}
