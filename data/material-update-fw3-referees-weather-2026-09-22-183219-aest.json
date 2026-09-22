@@ -1,0 +1,44 @@
+{
+  "system": "The NRL MAYHEM",
+  "season": 2026,
+  "stage": "FINALS_WEEK_3",
+  "captured_at": "2026-09-22T18:32:19+10:00",
+  "timezone": "Australia/Sydney",
+  "trigger": "MATERIAL_OFFICIATING_RESOLUTION_AND_WEATHER_REFRESH",
+  "lifecycle_reconciliation": {
+    "status": "COMPLETE",
+    "Dolphins v Sydney Roosters": "UPCOMING",
+    "Penrith Panthers v Newcastle Knights": "UPCOMING",
+    "next_fixture": "Dolphins v Sydney Roosters — 25 September 2026, 7:50pm AEST"
+  },
+  "observations": [
+    {
+      "fixture": "Dolphins v Sydney Roosters",
+      "classification": "VERIFIED_OFFICIAL_APPOINTMENT",
+      "observation": "Adam Gee is appointed on-field referee for the Friday preliminary final at Suncorp Stadium.",
+      "source": "NRL preliminary-final reporting, 22 September 2026",
+      "decision_effect": "Officiating identity is resolved; no directional team advantage is inferred without evidence."
+    },
+    {
+      "fixture": "Penrith Panthers v Newcastle Knights",
+      "classification": "VERIFIED_OFFICIAL_APPOINTMENT",
+      "observation": "Gerard Sutton is appointed on-field referee for the Sunday preliminary final at Accor Stadium. Ashley Klein is assigned to bunker duties following his on-field demotion.",
+      "source": "NRL preliminary-final reporting, 22 September 2026",
+      "decision_effect": "Officiating identity is resolved; no directional team advantage is inferred without evidence."
+    }
+  ],
+  "weather_state": {
+    "Dolphins v Sydney Roosters": "BOM Friday Brisbane forecast: partly cloudy, medium chance of showers most likely in the morning; detailed BOM forecast gives 5% chance of rain at 7pm and 10% at 10pm. Independent structured forecast shows 0% precipitation 7pm-10pm. No directional adjustment; refresh at T-24h.",
+    "Penrith Panthers v Newcastle Knights": "BOM Sydney Olympic Park Sunday forecast: cloudy, slight chance of shower, 0-1 mm possible, 30% chance of any rain, southerly 15-20 km/h turning E-SE. Forecast signal only; refresh at T-24h."
+  },
+  "market_state": {
+    "Dolphins v Sydney Roosters": "No material same-provider movement established from prior accepted baseline; remain UNFROZEN.",
+    "Penrith Panthers v Newcastle Knights": "Current TAB snapshot 1.27/3.80 implies approximately 74.95%/25.05% after two-sided overround normalization; no confidence freeze."
+  },
+  "roster_state": "OFFICIAL_FINALS_WEEK_3_SQUADS_PERSISTED; roster-wide statistical enrichment remains incomplete/stale and requires refresh before full validation.",
+  "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+  "learning_state": "NO_NEW_LEARNED_WEIGHT",
+  "information_advantage": "NONE",
+  "audit_integrity": "PRESERVED",
+  "persistence": "WRITTEN"
+}
