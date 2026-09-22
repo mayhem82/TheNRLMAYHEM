@@ -1,0 +1,13 @@
+{
+  "snapshot":"FW3-ROLE-CRITICAL-BATCH-003-2026",
+  "captured_at":"2026-09-22T22:23:33+10:00",
+  "source_class":"OFFICIAL_NRL_PLAYER_PROFILE",
+  "status":"VERIFIED",
+  "players":[
+    {"player":"Jamayne Isaako","team":"Dolphins","named_role":"winger","profile_url":"https://www.nrl.com/players/nrl-premiership/dolphins/jamayne-isaako/","career":{"appearances":185,"tries":95},"season_2026":{"appearances":25,"tries":21,"goals":107,"try_assists":2,"line_breaks":22,"tackle_breaks":71,"tackles_made":110,"missed_tackles":30,"average_running_metres":161,"total_running_metres":4047,"fantasy_total":1168,"fantasy_average":46.7},"per_round":"OFFICIAL_PROFILE_TABLE_AVAILABLE","classification":"VERIFIED"},
+    {"player":"Daly Cherry-Evans","team":"Roosters","named_role":"five-eighth","profile_url":"https://www.nrl.com/players/nrl-premiership/roosters/daly-cherry-evans/","career":{"appearances":377,"tries":105},"season_2026":{"appearances":25,"tries":7,"forced_drop_outs":9,"average_kicking_metres":376.7,"try_assists":14,"line_break_assists":13,"offloads":18,"tackles_made":562,"missed_tackles":49,"average_running_metres":49,"total_running_metres":1248,"fantasy_total":1212,"fantasy_average":48.5},"per_round":"OFFICIAL_PROFILE_TABLE_AVAILABLE","classification":"VERIFIED"},
+    {"player":"Moses Leota","team":"Panthers","named_role":"prop","profile_url":"https://www.nrl.com/players/nrl-premiership/panthers/moses-leota/","career":{"appearances":226,"tries":16},"season_2026":{"appearances":25,"tries":1,"tackle_breaks":23,"average_hit_ups":9.3,"post_contact_metres":932.9,"offloads":17,"tackles_made":578,"average_running_metres":102,"total_running_metres":2574,"fantasy_total":885,"fantasy_average":35.4},"per_round":"OFFICIAL_PROFILE_TABLE_AVAILABLE","classification":"VERIFIED"},
+    {"player":"Fletcher Sharpe","team":"Knights","named_role":"five-eighth","profile_url":"https://www.nrl.com/players/nrl-premiership/knights/fletcher-sharpe/","career":{"appearances":50,"tries":35},"season_2026":{"appearances":24,"tries":13,"forced_drop_outs":6,"average_kicking_metres":36.1,"try_assists":11,"line_break_assists":16,"offloads":16,"tackles_made":418,"average_running_metres":111,"total_running_metres":2684,"fantasy_total":1085,"fantasy_average":45.2},"per_round":"OFFICIAL_PROFILE_TABLE_AVAILABLE","classification":"VERIFIED"}
+  ],
+  "integrity":{"raw_facts_separate_from_inference":true,"missing_fields":"FIELD_NOT_PUBLISHED where not exposed in captured official profile summary","causal_inference_from_statistics":false}
+}
