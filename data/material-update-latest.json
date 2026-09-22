@@ -2,40 +2,27 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_3",
-  "captured_at": "2026-09-22T15:35:59+10:00",
+  "captured_at": "2026-09-22T18:32:19+10:00",
   "timezone": "Australia/Sydney",
-  "trigger": "MATERIAL_PLAYER_AVAILABILITY_UPDATE",
+  "trigger": "MATERIAL_OFFICIATING_RESOLUTION_AND_WEATHER_REFRESH",
   "lifecycle_reconciliation": {
     "status": "COMPLETE",
-    "Roosters v Sharks": "VERIFIED_RESULT",
-    "Warriors v Knights": "VERIFIED_RESULT",
-    "next_fixture": "Dolphins v Sydney Roosters — 25 September 2026, 7:50pm AEST",
-    "following_fixture": "Penrith Panthers v Newcastle Knights — 27 September 2026, 4:00pm AEST"
+    "Dolphins v Sydney Roosters": "UPCOMING",
+    "Penrith Panthers v Newcastle Knights": "UPCOMING",
+    "next_fixture": "Dolphins v Sydney Roosters — 25 September 2026, 7:50pm AEST"
   },
   "observations": [
     {
       "fixture": "Dolphins v Sydney Roosters",
-      "classification": "CORROBORATED_AVAILABILITY_SIGNAL_PENDING_OFFICIAL_TEAM_LIST",
-      "players": ["James Tedesco", "Daly Cherry-Evans"],
-      "observation": "Fresh reporting identifies a virus as the reason James Tedesco and Daly Cherry-Evans missed Monday Roosters training and reports both as confirmed starters for Friday. This resolves the earlier unexplained training-absence signal but remains subordinate to the official Finals Week 3 team list.",
-      "source": "https://www.dailytelegraph.com.au/sport/nrl/supercoach-news/teams-for-nrl-preliminary-finals-james-tedesco-daly-cherryevans-miss-roosters-training/news-story/b62b1e92c9949d60f42948608e3e8fad",
-      "decision_effect": "Do not classify either player unavailable from the Monday training absence. No numerical Roosters uplift before official selection."
-    },
-    {
-      "fixture": "Dolphins v Sydney Roosters",
-      "classification": "CORROBORATED_CLEARANCE_SIGNAL_PENDING_OFFICIAL_TEAM_LIST",
-      "player": "Tom Flegler",
-      "observation": "Fresh reporting says Tom Flegler has cleared the concussion stand-down and is available for Friday. Official team selection remains controlling evidence.",
-      "source": "https://www.dailytelegraph.com.au/sport/nrl/supercoach-news/teams-for-nrl-preliminary-finals-james-tedesco-daly-cherryevans-miss-roosters-training/news-story/b62b1e92c9949d60f42948608e3e8fad",
-      "decision_effect": "Dolphins middle-availability uncertainty is materially reduced but not converted to VERIFIED_STARTER before the official list."
+      "classification": "VERIFIED_OFFICIAL_APPOINTMENT",
+      "observation": "Adam Gee is appointed on-field referee for the Friday preliminary final at Suncorp Stadium.",
+      "decision_effect": "No directional team advantage inferred."
     },
     {
       "fixture": "Penrith Panthers v Newcastle Knights",
-      "classification": "NO_NEW_MATERIAL_CHANGE",
-      "player": "Nathan Cleary",
-      "observation": "Cleary remains expected to play in independent reporting while the official NRL Casualty Ward remains foot — TBC. Source conflict preserved pending official selection.",
-      "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
-      "decision_effect": "No confidence change."
+      "classification": "VERIFIED_OFFICIAL_APPOINTMENT",
+      "observation": "Gerard Sutton is appointed on-field referee for the Sunday preliminary final at Accor Stadium; Ashley Klein is assigned to bunker duties.",
+      "decision_effect": "No directional team advantage inferred."
     }
   ],
   "fixture_updates": [
@@ -57,17 +44,14 @@
     }
   ],
   "market_state": {
-    "Dolphins v Sydney Roosters": "No new reliable same-provider two-sided state accepted in this cycle; prior normalized market state retained.",
-    "Penrith Panthers v Newcastle Knights": "No new reliable same-provider two-sided state accepted in this cycle; prior normalized market state retained."
+    "Dolphins v Sydney Roosters": "No material same-provider movement established from prior accepted baseline.",
+    "Penrith Panthers v Newcastle Knights": "TAB 1.27/3.80 snapshot normalizes to approximately 74.95% Penrith / 25.05% Newcastle; no confidence freeze."
   },
   "weather_state": {
-    "Dolphins v Sydney Roosters": "MANDATORY_WATCH_ACTIVE; no checkpoint freeze due.",
-    "Penrith Panthers v Newcastle Knights": "MANDATORY_WATCH_ACTIVE; no checkpoint freeze due."
+    "Dolphins v Sydney Roosters": "BOM Friday Brisbane: showers mainly morning; detailed evening rain chance 5% at 7pm and 10% at 10pm. No directional adjustment.",
+    "Penrith Panthers v Newcastle Knights": "BOM Sydney Olympic Park Sunday: cloudy, slight shower chance, 0-1 mm, 30% chance of rain, southerly 15-20 km/h turning E-SE. No directional adjustment."
   },
-  "statistical_freshness": {
-    "status": "OFFICIAL_FINALS_WEEK_3_TEAM_LIST_NOT_YET_LOCATED_AT_CAPTURE_TIME; full roster-backed Week 3 population remains pending",
-    "decision_gate": "REVIEW_REQUIRED"
-  },
+  "roster_state": "OFFICIAL_FINALS_WEEK_3_SQUADS_PERSISTED; roster-wide statistical enrichment remains incomplete/stale and requires refresh before full validation.",
   "learning_state": "NO_NEW_LEARNED_WEIGHT",
   "information_advantage": "NONE",
   "audit_integrity": "PRESERVED",
