@@ -1,0 +1,48 @@
+{
+  "capture_time_australia_sydney": "2026-09-23T03:16:00+10:00",
+  "cycle": "Finals Week 3",
+  "lifecycle_reconciliation": "NO_PAST_KICKOFF_FW3_FIXTURES",
+  "fixtures": [
+    {
+      "fixture": "Dolphins v Roosters",
+      "state": "UPCOMING",
+      "checkpoint_due": false,
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+      "material_change": false,
+      "sources_checked": [
+        "NRL.com Dolphins v Roosters Finals Week 3 preview/team update",
+        "NRL.com Naufahu Whyte preliminary-final feature",
+        "NRL.com casualty ward",
+        "fresh independent finals team reporting"
+      ],
+      "finding": "No newly verified material change beyond already captured official FW3 selections, Walker return-state uncertainty, Whyte workload signal, Flegler availability and existing matchup evidence.",
+      "weather": "MANDATORY_REFRESH_NOT_CHECKPOINT_DUE_NO_MATERIAL_CHANGE_IDENTIFIED",
+      "market": "NO_NEW_RELIABLE_SAME_PROVIDER_STATE_CAPTURED",
+      "information_advantage_change": "NONE"
+    },
+    {
+      "fixture": "Panthers v Knights",
+      "state": "UPCOMING",
+      "checkpoint_due": false,
+      "decision_state": "UNFROZEN_REVIEW_REQUIRED",
+      "material_change": false,
+      "sources_checked": [
+        "NRL.com Panthers v Knights preliminary-final preview",
+        "NRL.com Nathan Cleary availability report",
+        "NRL.com casualty ward",
+        "fresh independent finals team reporting"
+      ],
+      "finding": "No newly verified material change beyond already captured official FW3 selections, Cleary restricted-duty/bone-stress state, Ponga availability and existing role-cover evidence.",
+      "weather": "MANDATORY_REFRESH_NOT_CHECKPOINT_DUE_NO_MATERIAL_CHANGE_IDENTIFIED",
+      "market": "NO_NEW_RELIABLE_SAME_PROVIDER_STATE_CAPTURED",
+      "information_advantage_change": "NONE"
+    }
+  ],
+  "player_layer": {
+    "official_fw3_roster_identities": 88,
+    "roster_wide_statistical_enrichment": "INCOMPLETE_STALE_WARNING_REMAINS",
+    "integrity_rule": "Do not represent incomplete dossier coverage as complete"
+  },
+  "learning_weight_change": "NONE",
+  "notification": "SUPPRESSED_NO_TRIGGER"
+}
