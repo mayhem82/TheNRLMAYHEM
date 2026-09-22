@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-09-22T11:20:04+10:00",
+  "cycle": "Finals Week 3",
+  "lifecycle_reconciliation": {
+    "DOL-SYD": "UPCOMING",
+    "PEN-NKN": "UPCOMING"
+  },
+  "checkpoints_due": [],
+  "material_updates": [
+    {
+      "fixture": "Dolphins v Roosters",
+      "player": "Connor Watson",
+      "classification": "VERIFIED_PLAYER_PROFILE_ENRICHMENT",
+      "observation": "Official NRL reporting states Watson has 191 NRL games and 35 career tries, with two tries in 2026. Since moving into the middle at lock/hooker he has a reported 95.5% tackle efficiency. This is role/workload and defensive-profile evidence only; no causal team uplift is inferred.",
+      "source": "https://www.nrl.com/news/2026/09/22/watson-ready-to-deliver-on-pre-game-prediction/",
+      "source_timestamp": "2026-09-22T06:01:00+10:00"
+    }
+  ],
+  "weather": {
+    "Dolphins v Roosters": {
+      "venue": "Suncorp Stadium, Brisbane",
+      "match_window": "2026-09-25 19:50 AEST",
+      "forecast_state": "FORECAST_SIGNAL_NOT_CHECKPOINT_FREEZE",
+      "observation": "Current Brisbane hourly forecast shows precipitation probability falling to 0% from 19:00 through 22:00 after possible morning rain; no directional team adjustment.",
+      "source_class": "current forecast"
+    },
+    "Panthers v Knights": {
+      "venue": "Accor Stadium, Sydney Olympic Park",
+      "match_window": "2026-09-27 16:00 AEST",
+      "forecast_state": "NO_MATERIAL_VERIFIED_CHANGE_THIS_CYCLE"
+    }
+  },
+  "roster_population": "PENDING_OFFICIAL_FINALS_WEEK_3_TEAM_LISTS",
+  "decision_state": {
+    "Dolphins v Roosters": "UPCOMING_UNFROZEN_REVIEW_REQUIRED",
+    "Panthers v Knights": "UPCOMING_UNFROZEN_REVIEW_REQUIRED"
+  },
+  "information_advantage_change": "NONE",
+  "learned_weight_change": "NONE",
+  "notes": "No T-24h, T-3h, T-60m or T-10m checkpoint due. No new confidence freeze. Official Finals Week 3 team lists were not located in the official NRL search results at capture time; roster-wide statistical reconciliation remains gated rather than guessed."
+}
