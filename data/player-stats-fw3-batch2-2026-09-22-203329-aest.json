@@ -1,0 +1,45 @@
+{
+  "capture_time_australia_sydney": "2026-09-22T20:33:29+10:00",
+  "scope": "Finals Week 3 official-roster statistical enrichment batch 2",
+  "source_class": "OFFICIAL_NRL_PLAYER_PROFILE",
+  "players": [
+    {
+      "name": "Hamiso Tabuai-Fidow",
+      "team": "Dolphins",
+      "role": "Fullback",
+      "career": {"appearances":127,"tries":87},
+      "season_2026": {"appearances":20,"tries":14,"try_assists":10,"line_breaks":12,"tackle_breaks":86,"tackles_made":109,"missed_tackles":21,"average_running_metres":182,"total_running_metres":3645,"fantasy_total":938,"fantasy_average":46.9},
+      "source_url": "https://www.nrl.com/players/nrl-premiership/dolphins/hamiso-tabuai-fidow/"
+    },
+    {
+      "name": "James Tedesco",
+      "team": "Roosters",
+      "role": "Fullback",
+      "career": {"appearances":295,"tries":161},
+      "season_2026": {"appearances":19,"tries":12,"try_assists":15,"line_breaks":16,"tackle_breaks":98,"tackles_made":58,"missed_tackles":14,"average_running_metres":194,"total_running_metres":3691,"fantasy_total":1000,"fantasy_average":52.6},
+      "source_url": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
+    },
+    {
+      "name": "Isaah Yeo",
+      "team": "Panthers",
+      "role": "Lock",
+      "career": {"appearances":285,"tries":34},
+      "season_2026": {"appearances":19,"tries":2,"tackle_breaks":33,"average_hit_ups":11.4,"post_contact_metres":887.5,"offloads":18,"tackles_made":678,"average_running_metres":121,"total_running_metres":2300,"fantasy_total":1013,"fantasy_average":53.3},
+      "source_url": "https://www.nrl.com/players/nrl-premiership/panthers/isaah-yeo/"
+    },
+    {
+      "name": "Kalyn Ponga",
+      "team": "Knights",
+      "role": "Fullback",
+      "career": {"appearances":163,"tries":60},
+      "season_2026": {"appearances":17,"tries":5,"goals":37,"try_assists":14,"line_breaks":14,"tackle_breaks":90,"tackles_made":64,"missed_tackles":29,"average_running_metres":169,"total_running_metres":2886,"fantasy_total":901},
+      "source_url": "https://www.nrl.com/players/nrl-premiership/knights/kalyn-ponga/"
+    }
+  ],
+  "integrity": {
+    "raw_facts_only": true,
+    "causal_inference_from_stats": false,
+    "missing_fields": "FIELD_NOT_PUBLISHED where absent from captured official profile",
+    "roster_wide_refresh_complete": false
+  }
+}
