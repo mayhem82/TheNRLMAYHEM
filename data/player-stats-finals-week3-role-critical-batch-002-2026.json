@@ -1,0 +1,15 @@
+{
+  "snapshot":"FW3-ROLE-CRITICAL-STATS-BATCH-002-2026-09-22-221048-AEST",
+  "capture_time_australia_sydney":"2026-09-22T22:10:48+10:00",
+  "source_class":"OFFICIAL_NRL_PLAYER_PROFILE",
+  "scope_note":"Incremental Finals Week 3 statistical refresh. Raw official profile facts only; no causal inference from statistics alone.",
+  "players":[
+    {"team":"Dolphins","player":"Herbie Farnworth","named_role":"Centre","career":{"appearances":142,"tries":68},"season_2026":{"appearances":24,"tries":14,"try_assists":9,"line_breaks":15,"tackle_breaks":161,"tackles_made":354,"missed_tackles":24,"average_running_metres":172,"total_running_metres":4134,"fantasy_total":1569,"fantasy_average":65.4},"source_url":"https://www.nrl.com/players/nrl-premiership/dolphins/herbie-farnworth/","status":"VERIFIED"},
+    {"team":"Roosters","player":"Mark Nawaqanitawase","named_role":"Winger","career":{"appearances":45,"tries":43},"season_2026":{"appearances":21,"tries":18,"try_assists":6,"line_breaks":18,"tackle_breaks":85,"tackles_made":81,"missed_tackles":16,"average_running_metres":169,"total_running_metres":3567,"fantasy_total":900,"fantasy_average":42.9},"source_url":"https://www.nrl.com/players/nrl-premiership/roosters/mark-nawaqanitawase/","status":"VERIFIED"},
+    {"team":"Panthers","player":"Brian To'o","named_role":"Winger","career":{"appearances":156,"tries":104},"season_2026":{"appearances":23,"tries":16,"try_assists":0,"line_breaks":21,"tackle_breaks":112,"tackles_made":113,"missed_tackles":37,"average_running_metres":194,"total_running_metres":4483,"fantasy_total":953,"fantasy_average":41.4},"source_url":"https://www.nrl.com/players/nrl-premiership/panthers/brian-too/","status":"VERIFIED"},
+    {"team":"Knights","player":"Bradman Best","named_role":"Centre","career":{"appearances":121,"tries":47},"season_2026":{"appearances":16,"tries":4,"try_assists":16,"line_breaks":5,"tackle_breaks":40,"tackles_made":230,"missed_tackles":38,"average_running_metres":137,"total_running_metres":2202,"fantasy_total":673,"fantasy_average":42.1},"source_url":"https://www.nrl.com/players/nrl-premiership/knights/bradman-best/","status":"VERIFIED"}
+  ],
+  "field_policy":"Any mandatory field not present in the official profile capture is FIELD_NOT_PUBLISHED for this batch. Per-round rows are available on official profiles but full row ingestion remains pending.",
+  "coverage_status":"PARTIAL_ROLE_CRITICAL_REFRESH",
+  "roster_wide_status":"STALE_CAPTURE_REQUIRES_FW3_ROSTER_WIDE_REFRESH"
+}
