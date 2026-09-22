@@ -2,7 +2,7 @@
   "system": "The NRL MAYHEM",
   "season": 2026,
   "stage": "FINALS_WEEK_3",
-  "captured_at": "2026-09-22T14:36:48+10:00",
+  "captured_at": "2026-09-22T15:35:59+10:00",
   "timezone": "Australia/Sydney",
   "trigger": "MATERIAL_PLAYER_AVAILABILITY_UPDATE",
   "lifecycle_reconciliation": {
@@ -15,43 +15,27 @@
   "observations": [
     {
       "fixture": "Dolphins v Sydney Roosters",
-      "classification": "VERIFIED_OFFICIAL_CASUALTY_WARD_SIGNAL",
+      "classification": "CORROBORATED_AVAILABILITY_SIGNAL_PENDING_OFFICIAL_TEAM_LIST",
+      "players": ["James Tedesco", "Daly Cherry-Evans"],
+      "observation": "Fresh reporting identifies a virus as the reason James Tedesco and Daly Cherry-Evans missed Monday Roosters training and reports both as confirmed starters for Friday. This resolves the earlier unexplained training-absence signal but remains subordinate to the official Finals Week 3 team list.",
+      "source": "https://www.dailytelegraph.com.au/sport/nrl/supercoach-news/teams-for-nrl-preliminary-finals-james-tedesco-daly-cherryevans-miss-roosters-training/news-story/b62b1e92c9949d60f42948608e3e8fad",
+      "decision_effect": "Do not classify either player unavailable from the Monday training absence. No numerical Roosters uplift before official selection."
+    },
+    {
+      "fixture": "Dolphins v Sydney Roosters",
+      "classification": "CORROBORATED_CLEARANCE_SIGNAL_PENDING_OFFICIAL_TEAM_LIST",
       "player": "Tom Flegler",
-      "observation": "Official NRL Casualty Ward lists Tom Flegler with a head knock and an estimated return of Finals Week 3. This is verified injury/return-window evidence, not verification that he will be selected or cleared to play.",
-      "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
-      "decision_effect": "Dolphins middle availability remains unresolved until official Week 3 selection and subsequent clearance/late-mail evidence; no directional confidence adjustment manufactured."
-    },
-    {
-      "fixture": "Dolphins v Sydney Roosters",
-      "classification": "VERIFIED_OFFICIAL_CASUALTY_WARD_SIGNAL",
-      "player": "Egan Butcher",
-      "observation": "Official NRL Casualty Ward lists Egan Butcher with concussion and an estimated return of Finals Week 3.",
-      "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
-      "decision_effect": "Roosters forward availability remains unresolved until official Week 3 selection and clearance evidence."
-    },
-    {
-      "fixture": "Dolphins v Sydney Roosters",
-      "classification": "CORROBORATED_RETURN_SIGNAL_NOT_VERIFIED_STARTER",
-      "player": "Sam Walker",
-      "observation": "Official NRL Casualty Ward lists Walker's ankle return window as Finals Week 3; contemporaneous reporting says he is on track for a rapid return. Official Week 3 selection remains controlling evidence.",
-      "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
-      "decision_effect": "Return signal retained; no VERIFIED_STARTER or numerical uplift before official selection."
-    },
-    {
-      "fixture": "Dolphins v Sydney Roosters",
-      "classification": "VERIFIED_JUDICIARY_AVAILABILITY",
-      "player": "Daly Cherry-Evans",
-      "observation": "Official NRL Judiciary confirms Cherry-Evans avoided suspension after an early guilty plea and will be available for the preliminary final against the Dolphins.",
-      "source": "https://www.nrl.com/news/2026/01/01/nrl-judiciary-report-2026/",
-      "decision_effect": "Suspension risk resolved; official named role remains subject to Week 3 team list."
+      "observation": "Fresh reporting says Tom Flegler has cleared the concussion stand-down and is available for Friday. Official team selection remains controlling evidence.",
+      "source": "https://www.dailytelegraph.com.au/sport/nrl/supercoach-news/teams-for-nrl-preliminary-finals-james-tedesco-daly-cherryevans-miss-roosters-training/news-story/b62b1e92c9949d60f42948608e3e8fad",
+      "decision_effect": "Dolphins middle-availability uncertainty is materially reduced but not converted to VERIFIED_STARTER before the official list."
     },
     {
       "fixture": "Penrith Panthers v Newcastle Knights",
-      "classification": "OFFICIAL_CASUALTY_WARD_STATUS",
+      "classification": "NO_NEW_MATERIAL_CHANGE",
       "player": "Nathan Cleary",
-      "observation": "Official NRL Casualty Ward continues to list Cleary's foot issue as TBC despite independent reporting that he is expected to play.",
+      "observation": "Cleary remains expected to play in independent reporting while the official NRL Casualty Ward remains foot — TBC. Source conflict preserved pending official selection.",
       "source": "https://www.nrl.com/news/2026/01/01/nrl-casualty-ward-how-your-club-is-shaping-heading-into-2026/",
-      "decision_effect": "Source conflict retained: expected-to-play reporting does not overwrite the official TBC casualty status; official Week 3 selection and role evidence remain controlling."
+      "decision_effect": "No confidence change."
     }
   ],
   "fixture_updates": [
