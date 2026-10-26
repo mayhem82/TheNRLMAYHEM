@@ -1,9 +1,9 @@
 {
   "schema_version": "SINGLE-SIGNAL-1.0.0",
-  "snapshot": "SINGLE-SIGNAL-REGISTRY-2026-10-19T22:21:15.836Z",
-  "generated_at": "2026-10-19T22:21:15.836Z",
+  "snapshot": "SINGLE-SIGNAL-REGISTRY-2026-10-26T22:40:22.541Z",
+  "generated_at": "2026-10-26T22:40:22.541Z",
   "season": 2026,
-  "source_snapshot": "SEASON-CANONICAL-2026-LIFECYCLE-20261019212848",
+  "source_snapshot": "SEASON-CANONICAL-2026-LIFECYCLE-20261026211638",
   "status": "ACTIVE_INVESTIGATION",
   "terminal_state": "NONE",
   "definitions": [
