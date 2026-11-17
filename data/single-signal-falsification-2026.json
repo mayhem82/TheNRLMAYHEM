@@ -1,7 +1,7 @@
 {
   "schema_version": "SINGLE-SIGNAL-1.0.0",
-  "snapshot": "SINGLE-SIGNAL-FALSIFICATION-2026-11-10T01:31:19.067Z",
-  "generated_at": "2026-11-10T01:31:19.067Z",
+  "snapshot": "SINGLE-SIGNAL-FALSIFICATION-2026-11-17T01:51:48.602Z",
+  "generated_at": "2026-11-17T01:51:48.602Z",
   "status": "ACTIVE",
   "tests": [
     {

@@ -1,8 +1,8 @@
 {
   "schema_version": "SINGLE-SIGNAL-1.0.0",
-  "snapshot": "SINGLE-SIGNAL-LEADERBOARD-2026-11-10T01:31:19.067Z",
-  "generated_at": "2026-11-10T01:31:19.067Z",
-  "source_snapshot": "SEASON-CANONICAL-2026-LIFECYCLE-20261109190730",
+  "snapshot": "SINGLE-SIGNAL-LEADERBOARD-2026-11-17T01:51:48.602Z",
+  "generated_at": "2026-11-17T01:51:48.602Z",
+  "source_snapshot": "SEASON-CANONICAL-2026-LIFECYCLE-20261117005303",
   "signals": [
     {
       "signal_id": "PREMATCH_POINT_DIFFERENTIAL",
